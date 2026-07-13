@@ -1,10 +1,1 @@
-# Changelog
-
-## v1.1 — 2026-07-13
-- Dedicated Luqevora inquiry email applied throughout the site.
-- Corrected same-page Japanese/English language switching.
-- Corrected JSON-LD placement and expanded structured data.
-- Added consent-aware analytics loader and configuration file.
-- Added lighter WebP assets and explicit image dimensions.
-- Improved mobile navigation and keyboard accessibility.
-- Added inquiry-type mail links, manifest, and multilingual sitemap alternates.
+luqevora.com
