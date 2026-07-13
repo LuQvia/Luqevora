@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /templates/
+Sitemap: https://luqevora.com/sitemap.xml
