@@ -1,23 +1,23 @@
 {
-  "id": "./",
+  "id": "/",
   "name": "Luqevora",
   "short_name": "Luqevora",
   "description": "Better tools. Clearer decisions.",
   "lang": "en",
-  "start_url": "./",
-  "scope": "./",
-  "display": "browser",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
   "background_color": "#071735",
   "theme_color": "#0B1F44",
   "icons": [
     {
-      "src": "assets/images/favicon-192.png",
+      "src": "/assets/images/favicon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/images/social-icon.png",
+      "src": "/assets/images/social-icon.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any maskable"
