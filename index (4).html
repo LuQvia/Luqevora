@@ -1,54 +1,103 @@
 (() => {
   "use strict";
 
-  const config = window.LUQEVORA_ANALYTICS_CONFIG || {};
-  const configured = Boolean(config.gtmId || config.ga4Id || config.clarityId);
-  let loaded = false;
+  const menuButton = document.querySelector(".menu-button");
+  const nav = document.querySelector(".main-nav");
+  const analytics = window.LuqevoraAnalytics;
+  const banner = document.querySelector(".cookie-banner");
+  const settingsButtons = document.querySelectorAll("[data-consent-settings]");
+  const consentKey = "luqevora-consent";
+  let returnFocus = null;
 
-  function appendScript(src, attrs = {}) {
-    const script = document.createElement("script");
-    script.src = src;
-    Object.entries(attrs).forEach(([key, value]) => {
-      if (value === true) script.setAttribute(key, "");
-      else script.setAttribute(key, String(value));
+  function safeGet(key) {
+    try { return window.localStorage.getItem(key); } catch (_) { return null; }
+  }
+  function safeSet(key, value) {
+    try { window.localStorage.setItem(key, value); return true; } catch (_) { return false; }
+  }
+
+  function setMenu(open) {
+    if (!menuButton || !nav) return;
+    nav.classList.toggle("open", open);
+    document.body.classList.toggle("menu-open", open);
+    menuButton.setAttribute("aria-expanded", String(open));
+    const openLabel = document.documentElement.lang === "ja" ? "メニューを閉じる" : "Close menu";
+    const closedLabel = document.documentElement.lang === "ja" ? "メニューを開く" : "Open menu";
+    menuButton.setAttribute("aria-label", open ? openLabel : closedLabel);
+  }
+
+  if (menuButton && nav) {
+    menuButton.addEventListener("click", () => setMenu(!nav.classList.contains("open")));
+    nav.addEventListener("click", event => {
+      if (event.target.closest("a")) setMenu(false);
     });
-    document.head.appendChild(script);
-    return script;
+    document.addEventListener("click", event => {
+      if (nav.classList.contains("open") && !nav.contains(event.target) && !menuButton.contains(event.target)) setMenu(false);
+    });
+    window.addEventListener("resize", () => {
+      if (window.matchMedia("(min-width: 761px)").matches) setMenu(false);
+    });
   }
 
-  function loadGtm(id) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
-    appendScript(`https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(id)}`, { async: true });
+  document.querySelectorAll("[data-year]").forEach(el => {
+    el.textContent = String(new Date().getFullYear());
+  });
+
+  function openConsent(trigger = null) {
+    if (!banner || !analytics?.configured) return;
+    returnFocus = trigger instanceof HTMLElement ? trigger : document.activeElement;
+    banner.hidden = false;
+    requestAnimationFrame(() => banner.classList.add("show"));
+    banner.querySelector("button")?.focus();
   }
 
-  function loadGa4(id) {
-    appendScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(id)}`, { async: true });
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
-    window.gtag("js", new Date());
-    window.gtag("config", id, { anonymize_ip: true });
+  function closeConsent({ restoreFocus = true } = {}) {
+    if (!banner) return;
+    banner.classList.remove("show");
+    window.setTimeout(() => {
+      banner.hidden = true;
+      if (restoreFocus && returnFocus instanceof HTMLElement) returnFocus.focus();
+      returnFocus = null;
+    }, 180);
   }
 
-  function loadClarity(id) {
-    (function (c, l, a, r, i, t, y) {
-      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
-      t = l.createElement(r); t.async = 1;
-      t.src = `https://www.clarity.ms/tag/${i}`;
-      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
-    })(window, document, "clarity", "script", id);
+  if (analytics?.configured) {
+    settingsButtons.forEach(button => {
+      button.hidden = false;
+      button.addEventListener("click", () => openConsent(button));
+    });
+    const choice = safeGet(consentKey);
+    if (choice === "accepted") {
+      analytics.load();
+    } else if (!choice && banner) {
+      window.setTimeout(() => openConsent(null), 600);
+    }
+  } else {
+    banner?.remove();
+    settingsButtons.forEach(button => button.remove());
   }
 
-  function load() {
-    if (!configured || loaded) return;
-    loaded = true;
-    if (config.gtmId) loadGtm(config.gtmId);
-    else if (config.ga4Id) loadGa4(config.ga4Id);
-    if (config.clarityId) loadClarity(config.clarityId);
-  }
+  document.querySelector("[data-consent-accept]")?.addEventListener("click", () => {
+    safeSet(consentKey, "accepted");
+    closeConsent();
+    analytics?.load();
+    window.dispatchEvent(new Event("luqevoraConsentGranted"));
+  });
 
-  window.LuqevoraAnalytics = Object.freeze({ configured, load });
+  document.querySelector("[data-consent-decline]")?.addEventListener("click", () => {
+    const wasAccepted = safeGet(consentKey) === "accepted";
+    safeSet(consentKey, "declined");
+    closeConsent();
+    if (wasAccepted) window.location.reload();
+  });
 
-  if (localStorage.getItem("luqevora-consent") === "accepted") load();
-  window.addEventListener("luqevoraConsentGranted", load, { once: true });
+  document.addEventListener("keydown", event => {
+    if (event.key !== "Escape") return;
+    if (nav?.classList.contains("open")) {
+      setMenu(false);
+      menuButton?.focus();
+      return;
+    }
+    if (banner && !banner.hidden) closeConsent();
+  });
 })();
