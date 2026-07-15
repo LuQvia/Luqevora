@@ -46,3 +46,24 @@ html.no-js .menu-button{display:none}
 .badge-list .badge { margin: 4px; }
 .notice-spaced { margin-top: 28px; }
 .actions-centered { justify-content: center; }
+
+
+/* v1.4 embedded contact form */
+.contact-form-section{margin:32px 0 44px;padding:32px;border:1px solid var(--line);border-radius:24px;background:#fff;box-shadow:0 18px 48px rgba(11,31,68,.08)}
+.form-intro h2{margin-top:0}.contact-form{position:relative}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.form-field{display:grid;gap:8px;margin:0 0 18px}.form-field label,.form-consent{color:var(--navy);font-weight:800}.form-field input,.form-field select,.form-field textarea{width:100%;border:1px solid #B9C7DA;border-radius:12px;padding:13px 14px;background:#fff;color:var(--text);font:inherit;line-height:1.45}.form-field textarea{resize:vertical;min-height:180px}.form-field input:focus,.form-field select:focus,.form-field textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(20,99,255,.14);outline:none}.form-field input:user-invalid,.form-field select:user-invalid,.form-field textarea:user-invalid{border-color:#B42318}.required-label{display:inline-block;margin-left:6px;color:#B42318;font-size:12px;font-weight:850}.field-help{margin:0;color:#66758D;font-size:12px}.form-consent{display:flex;align-items:flex-start;gap:10px;margin:8px 0 22px;font-size:14px}.form-consent input{width:18px;height:18px;margin-top:3px;flex:none}.form-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.form-submit:disabled{cursor:not-allowed;opacity:.55;transform:none}.form-direct-email{margin:0;font-size:13px}.form-status{min-height:24px;margin-top:16px;padding:0;font-weight:750}.form-status-success,.form-status-error,.form-status-warning,.form-status-sending{padding:12px 14px;border-radius:12px}.form-status-success{background:#EAF8F0;color:#17633A}.form-status-error{background:#FFF0EE;color:#9F2D24}.form-status-warning{background:#FFF7E4;color:#7A5411}.form-status-sending{background:#EEF4FF;color:#174EA6}.form-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}.contact-result-frame{display:none}.contact-form[aria-busy="true"]{opacity:.84}
+@media(max-width:760px){.contact-form-section{padding:24px 18px}.form-grid{grid-template-columns:1fr}.form-actions{align-items:stretch}.form-actions .btn{width:100%}}
+
+/* Luqevora contact system v1.6 */
+.form-conditional{margin:0 0 20px;padding:20px;border:1px solid #D8E2EF;border-radius:16px;background:#F8FAFD}
+.form-conditional[hidden]{display:none!important}
+.form-conditional .form-field:last-child{margin-bottom:0}
+.form-context-note{margin:0 0 18px;padding:14px 16px;border-left:4px solid var(--blue);border-radius:10px;background:#EEF4FF;color:#33415A}
+.form-context-note strong{display:block;margin-bottom:4px;color:var(--navy)}
+.form-context-note p{margin:0;color:#46546C;font-size:13px}
+.form-context-note-warning{border-left-color:#C47A00;background:#FFF7E4}
+.form-status-reference{display:block;margin-top:5px;font-size:15px}
+.required-label[hidden]{display:none!important}
+.contact-form input:disabled,.contact-form select:disabled,.contact-form textarea:disabled{background:#F2F5F9;color:#7A8799}
+.form-status:focus{outline:none}
+.form-status-success:focus,.form-status-error:focus,.form-status-warning:focus,.form-status-sending:focus{box-shadow:0 0 0 3px rgba(20,99,255,.12)}
+@media(max-width:760px){.form-conditional{padding:16px}.form-context-note{padding:13px 14px}}
