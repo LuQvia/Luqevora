@@ -143,7 +143,7 @@
     const formVersion = form.querySelector('[name="formVersion"]');
     if (pageUrl) pageUrl.value = window.location.href;
     if (pageOrigin) pageOrigin.value = window.location.origin;
-    if (formVersion) formVersion.value = String(getConfig().formVersion || '1.8.0');
+    if (formVersion) formVersion.value = String(getConfig().formVersion || '1.9.0');
   }
 
   function setConditionalState(group, visible) {
@@ -224,6 +224,13 @@
     const lang = getLanguage(form);
     const followUp = `${messages[lang].success} ${messages[lang].followUp}`;
     setStatus(form, 'success', followUp, referenceNumber || '');
+
+    window.dispatchEvent(new CustomEvent('luqevora:contact_success', {
+      detail: {
+        language: lang,
+        inquiry_type: form.querySelector('[name="inquiryType"]')?.value || ''
+      }
+    }));
 
     form.reset();
     updateConditionalFields(form);
@@ -352,6 +359,20 @@
 
     const typeSelect = form.querySelector('[name="inquiryType"]');
     if (typeSelect) typeSelect.addEventListener('change', () => updateConditionalFields(form));
+
+    let contactStartTracked = false;
+    const trackContactStart = () => {
+      if (contactStartTracked) return;
+      contactStartTracked = true;
+      window.dispatchEvent(new CustomEvent('luqevora:contact_start', {
+        detail: {
+          language: lang,
+          inquiry_type: form.querySelector('[name="inquiryType"]')?.value || ''
+        }
+      }));
+    };
+    form.addEventListener('input', trackContactStart, { once: true });
+    form.addEventListener('change', trackContactStart, { once: true });
 
     form.addEventListener('submit', (event) => {
       event.preventDefault();

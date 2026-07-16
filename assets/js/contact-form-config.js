@@ -4,5 +4,5 @@
  */
 window.LUQEVORA_CONTACT_FORM = Object.freeze({
   endpoint: 'https://script.google.com/macros/s/AKfycbwVokdx3R0bdhUbGP8jBWHCAFrGSh061wu6ASGE67qx0f91qvQjlXonrXULmSbJc3fhLA/exec',
-  formVersion: '1.8.0'
+  formVersion: '1.9.0'
 });
