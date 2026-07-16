@@ -1,225 +1,763 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://luqevora.com/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/ai-tools/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/ai-tools/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/website-builders/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/website-builders/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/seo-marketing/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/seo-marketing/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/business-software/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/business-software/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/hosting-security/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/hosting-security/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/about/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://luqevora.com/en/about/</loc>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/about/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/about/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/editorial-policy/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/en/editorial-policy/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/editorial-policy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luqevora.com/ja/affiliate-disclosure/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/affiliate-disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/affiliate-disclosure/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://luqevora.com/en/affiliate-disclosure/</loc>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/affiliate-disclosure/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/affiliate-disclosure/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://luqevora.com/ja/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/privacy/"/>
+    <loc>https://luqevora.com/en/ai-tools/ai-meeting-notes-tools/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/ai-meeting-notes-tools/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/ai-meeting-notes-tools/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://luqevora.com/en/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/privacy/"/>
+    <loc>https://luqevora.com/en/ai-tools/ai-writing-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/ai-writing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/ai-writing-tools-small-business/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://luqevora.com/ja/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/terms/"/>
+    <loc>https://luqevora.com/en/ai-tools/chatgpt-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/chatgpt-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/chatgpt-review/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://luqevora.com/en/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/terms/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/terms/"/>
+    <loc>https://luqevora.com/en/ai-tools/claude-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/claude-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/claude-review/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://luqevora.com/ja/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/contact/"/>
+    <loc>https://luqevora.com/en/ai-tools/gemini-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/gemini-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/gemini-review/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/ai-tools/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/articles/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/articles/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/asana-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/asana-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/asana-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/clickup-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/clickup-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/clickup-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/monday-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/monday-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/monday-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/notion-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/notion-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/notion-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/project-management-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/project-management-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/project-management-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/business-software/trello-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/trello-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/trello-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
   </url>
   <url>
     <loc>https://luqevora.com/en/contact/</loc>
+    <lastmod>2026-07-16</lastmod>
     <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/contact/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/editorial-policy/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/1password-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/1password-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/1password-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/bitwarden-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/bitwarden-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/bitwarden-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/cloudways-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/cloudways-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/cloudways-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/hostinger-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/hostinger-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/hostinger-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/keeper-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/keeper-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/keeper-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/kinsta-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/kinsta-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/kinsta-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/nordpass-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/nordpass-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/nordpass-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/password-managers-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/password-managers-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/password-managers-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/siteground-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/siteground-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/siteground-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/web-hosting-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/web-hosting-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/web-hosting-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/wp-engine-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/wp-engine-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/wp-engine-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/hosting-security/zoho-vault-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/zoho-vault-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/zoho-vault-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/privacy/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/ahrefs-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/ahrefs-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/ahrefs-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/brevo-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/brevo-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/brevo-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/email-marketing-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/email-marketing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/email-marketing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/getresponse-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/getresponse-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/getresponse-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/kit-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/kit-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/kit-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/mailchimp-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/mailchimp-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/mailchimp-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/mailerlite-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/mailerlite-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/mailerlite-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/mangools-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/mangools-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/mangools-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/se-ranking-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/se-ranking-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/se-ranking-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/semrush-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/semrush-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/semrush-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/seo-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/seo-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/seo-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/seo-marketing/ubersuggest-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/ubersuggest-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/ubersuggest-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/terms/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/shopify-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/shopify-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/shopify-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/small-business-website-builders/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/small-business-website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/small-business-website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/squarespace-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/squarespace-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/squarespace-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/webflow-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/webflow-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/webflow-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/wix-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/wix-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/wix-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/en/website-builders/wordpress-com-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/wordpress-com-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/wordpress-com-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/</loc>
+    <lastmod>2026-07-16</lastmod>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/about/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/affiliate-disclosure/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/affiliate-disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/affiliate-disclosure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/ai-tools/ai-meeting-notes-tools/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/ai-meeting-notes-tools/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/ai-meeting-notes-tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/ai-tools/ai-writing-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/ai-writing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/ai-writing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/ai-tools/chatgpt-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/chatgpt-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/chatgpt-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/ai-tools/claude-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/claude-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/claude-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/ai-tools/gemini-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/gemini-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/gemini-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/ai-tools/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/ai-tools/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/ai-tools/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/articles/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/articles/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/asana-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/asana-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/asana-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/clickup-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/clickup-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/clickup-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/monday-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/monday-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/monday-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/notion-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/notion-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/notion-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/project-management-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/project-management-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/project-management-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/business-software/trello-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/business-software/trello-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/business-software/trello-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/contact/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/editorial-policy/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/editorial-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/1password-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/1password-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/1password-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/bitwarden-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/bitwarden-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/bitwarden-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/cloudways-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/cloudways-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/cloudways-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/hostinger-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/hostinger-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/hostinger-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/keeper-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/keeper-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/keeper-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/kinsta-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/kinsta-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/kinsta-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/nordpass-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/nordpass-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/nordpass-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/password-managers-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/password-managers-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/password-managers-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/siteground-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/siteground-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/siteground-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/web-hosting-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/web-hosting-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/web-hosting-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/wp-engine-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/wp-engine-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/wp-engine-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/hosting-security/zoho-vault-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/hosting-security/zoho-vault-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/hosting-security/zoho-vault-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/privacy/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/ahrefs-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/ahrefs-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/ahrefs-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/brevo-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/brevo-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/brevo-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/email-marketing-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/email-marketing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/email-marketing-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/getresponse-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/getresponse-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/getresponse-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/kit-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/kit-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/kit-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/mailchimp-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/mailchimp-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/mailchimp-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/mailerlite-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/mailerlite-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/mailerlite-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/mangools-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/mangools-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/mangools-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/se-ranking-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/se-ranking-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/se-ranking-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/semrush-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/semrush-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/semrush-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/seo-tools-small-business/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/seo-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/seo-tools-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/seo-marketing/ubersuggest-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/seo-marketing/ubersuggest-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/seo-marketing/ubersuggest-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/terms/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/shopify-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/shopify-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/shopify-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/small-business-website-builders/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/small-business-website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/small-business-website-builders/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/squarespace-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/squarespace-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/squarespace-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/webflow-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/webflow-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/webflow-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/wix-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/wix-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/wix-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
+  </url>
+  <url>
+    <loc>https://luqevora.com/ja/website-builders/wordpress-com-review/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/website-builders/wordpress-com-review/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luqevora.com/en/website-builders/wordpress-com-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luqevora.com/"/>
   </url>
 </urlset>

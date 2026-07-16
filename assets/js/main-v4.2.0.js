@@ -6,7 +6,7 @@
   const analytics = window.LuqevoraAnalytics;
   const banner = document.querySelector('.cookie-banner');
   const settingsButtons = document.querySelectorAll('[data-consent-settings]');
-  const consentKey = 'luqevora-consent-v2';
+  const consentKey = 'luqevora-consent-v4';
   let returnFocus = null;
 
   function safeGet(key) {
