@@ -2,8 +2,12 @@
   'use strict';
 
   const RESULT_TYPE = 'luqevora-contact-result';
-  const SUBMIT_TIMEOUT_MS = 30000;
+  const STATUS_TYPE = 'luqevora-contact-status';
   const ENDPOINT_PATTERN = /^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/;
+  const STATUS_NOTICE_MS = 45000;
+  const STATUS_GIVE_UP_MS = 5 * 60 * 1000;
+  const STATUS_REQUEST_TIMEOUT_MS = 10000;
+  const MAX_POLL_INTERVAL_MS = 5000;
 
   const messages = {
     ja: {
@@ -15,7 +19,7 @@
       validation: '未入力または入力形式に誤りがある項目をご確認ください。',
       rateLimit: '短時間に複数回送信されています。少し時間を空けてから再度お試しください。',
       failed: '送信を完了できませんでした。時間を空けて再度お試しいただくか、info@luqevora.com へメールでお問い合わせください。',
-      timeout: '送信結果を確認できませんでした。二重送信を避けるため、少し待ってから受付メールをご確認ください。',
+      pending: '送信データの受付確認に時間がかかっています。二重送信はせず、受付メールまたは管理者からの連絡をご確認ください。この画面では引き続き受付状況を確認します。',
       directEmail: 'フォームを利用できない場合：info@luqevora.com',
       countUnit: '文字'
     },
@@ -28,7 +32,7 @@
       validation: 'Please review the required fields and input formats.',
       rateLimit: 'Multiple submissions were detected in a short period. Please wait before trying again.',
       failed: 'We could not complete the submission. Please try again later or email info@luqevora.com.',
-      timeout: 'We could not confirm the result. To avoid a duplicate submission, please wait and check for a confirmation email.',
+      pending: 'Confirmation is taking longer than expected. Do not submit again. Please check for the acknowledgement email or a response from us. This page will continue checking the status.',
       directEmail: 'If the form is unavailable: info@luqevora.com',
       countUnit: 'characters'
     }
@@ -61,14 +65,29 @@
     return ENDPOINT_PATTERN.test(String(endpoint || '').trim());
   }
 
-
   function isAllowedResultOrigin(origin) {
-    return origin === 'https://script.google.com' || origin === 'https://script.googleusercontent.com';
+    try {
+      const url = new URL(origin);
+      if (url.protocol !== 'https:') return false;
+      const host = url.hostname.toLowerCase();
+      return host === 'script.google.com' ||
+        host === 'script.googleusercontent.com' ||
+        host.endsWith('.script.googleusercontent.com') ||
+        host.endsWith('.googleusercontent.com');
+    } catch (_error) {
+      return false;
+    }
   }
 
   function createSubmissionId() {
     if (window.crypto && typeof window.crypto.randomUUID === 'function') {
       return window.crypto.randomUUID().replace(/-/g, '');
+    }
+
+    const values = new Uint32Array(4);
+    if (window.crypto && typeof window.crypto.getRandomValues === 'function') {
+      window.crypto.getRandomValues(values);
+      return Array.from(values, (value) => value.toString(16).padStart(8, '0')).join('');
     }
 
     const random = Math.random().toString(36).slice(2);
@@ -97,7 +116,11 @@
       status.appendChild(ref);
     }
 
-    status.focus({ preventScroll: false });
+    try {
+      status.focus({ preventScroll: false });
+    } catch (_error) {
+      status.focus();
+    }
   }
 
   function setSubmitting(form, submitting) {
@@ -120,7 +143,7 @@
     const formVersion = form.querySelector('[name="formVersion"]');
     if (pageUrl) pageUrl.value = window.location.href;
     if (pageOrigin) pageOrigin.value = window.location.origin;
-    if (formVersion) formVersion.value = String(getConfig().formVersion || '1.6.0');
+    if (formVersion) formVersion.value = String(getConfig().formVersion || '1.8.0');
   }
 
   function setConditionalState(group, visible) {
@@ -156,7 +179,8 @@
   }
 
   function updateCharacterCount(textarea) {
-    const counter = textarea.closest('.form-field')?.querySelector('[data-character-count]');
+    const field = textarea.closest('.form-field');
+    const counter = field ? field.querySelector('[data-character-count]') : null;
     if (!counter) return;
     counter.textContent = String(textarea.value.length);
   }
@@ -168,17 +192,155 @@
     });
   }
 
+  function clearStatusRequest(form) {
+    if (form.__statusRequestTimer) {
+      window.clearTimeout(form.__statusRequestTimer);
+      form.__statusRequestTimer = null;
+    }
+    if (form.__statusScript && form.__statusScript.parentNode) {
+      form.__statusScript.parentNode.removeChild(form.__statusScript);
+    }
+    form.__statusScript = null;
+    if (form.__statusCallbackName) {
+      try { delete window[form.__statusCallbackName]; } catch (_error) { window[form.__statusCallbackName] = undefined; }
+    }
+    form.__statusCallbackName = '';
+  }
+
+  function stopStatusPolling(form) {
+    if (form.__statusPollTimer) {
+      window.clearTimeout(form.__statusPollTimer);
+      form.__statusPollTimer = null;
+    }
+    clearStatusRequest(form);
+  }
+
+  function completeSuccess(form, referenceNumber) {
+    if (form.dataset.resultHandled === 'true') return;
+    form.dataset.resultHandled = 'true';
+    stopStatusPolling(form);
+    setSubmitting(form, false);
+
+    const lang = getLanguage(form);
+    const followUp = `${messages[lang].success} ${messages[lang].followUp}`;
+    setStatus(form, 'success', followUp, referenceNumber || '');
+
+    form.reset();
+    updateConditionalFields(form);
+    resetSubmissionIdentity(form);
+    updatePageMetadata(form);
+    form.dataset.pendingSubmissionId = '';
+    form.querySelectorAll('textarea[maxlength]').forEach(updateCharacterCount);
+  }
+
+  function completeError(form, errorCode) {
+    if (form.dataset.resultHandled === 'true') return;
+    form.dataset.resultHandled = 'true';
+    stopStatusPolling(form);
+    setSubmitting(form, false);
+
+    const lang = getLanguage(form);
+    const errorMessage = errorCode === 'RATE_LIMIT'
+      ? messages[lang].rateLimit
+      : errorCode === 'VALIDATION'
+        ? messages[lang].validation
+        : messages[lang].failed;
+    setStatus(form, 'error', errorMessage);
+  }
+
+  function handleResult(form, data) {
+    if (!data || data.type !== RESULT_TYPE) return false;
+    if (String(data.submissionId || '') !== String(form.dataset.pendingSubmissionId || '')) return false;
+    if (data.success) completeSuccess(form, data.referenceNumber || '');
+    else completeError(form, data.errorCode || 'SERVER');
+    return true;
+  }
+
+  function nextPollDelay(attempt) {
+    return Math.min(700 + (attempt * 450), MAX_POLL_INTERVAL_MS);
+  }
+
+  function scheduleStatusPoll(form, endpoint, submissionId, startedAt, attempt) {
+    if (form.dataset.resultHandled === 'true' || form.dataset.pendingSubmissionId !== submissionId) return;
+    const elapsed = Date.now() - startedAt;
+    if (elapsed >= STATUS_GIVE_UP_MS) {
+      stopStatusPolling(form);
+      setSubmitting(form, false);
+      return;
+    }
+
+    if (elapsed >= STATUS_NOTICE_MS && form.dataset.pendingNoticeShown !== 'true') {
+      form.dataset.pendingNoticeShown = 'true';
+      setStatus(form, 'warning', messages[getLanguage(form)].pending);
+    }
+
+    form.__statusPollTimer = window.setTimeout(() => {
+      pollSubmissionStatus(form, endpoint, submissionId, startedAt, attempt + 1);
+    }, nextPollDelay(attempt));
+  }
+
+  function pollSubmissionStatus(form, endpoint, submissionId, startedAt, attempt) {
+    if (form.dataset.resultHandled === 'true' || form.dataset.pendingSubmissionId !== submissionId) return;
+    clearStatusRequest(form);
+
+    const callbackName = `__luqevoraContactStatus_${submissionId}_${attempt}`;
+    const script = document.createElement('script');
+    const url = new URL(endpoint);
+    url.searchParams.set('action', 'status');
+    url.searchParams.set('submissionId', submissionId);
+    url.searchParams.set('callback', callbackName);
+    url.searchParams.set('_', String(Date.now()));
+
+    let settled = false;
+    const finishRequest = (payload) => {
+      if (settled) return;
+      settled = true;
+      clearStatusRequest(form);
+
+      if (payload && payload.type === STATUS_TYPE && String(payload.submissionId || '') === submissionId) {
+        if (payload.found && payload.referenceNumber) {
+          completeSuccess(form, payload.referenceNumber);
+          return;
+        }
+        if (payload.final && payload.errorCode) {
+          completeError(form, payload.errorCode);
+          return;
+        }
+      }
+
+      scheduleStatusPoll(form, endpoint, submissionId, startedAt, attempt);
+    };
+
+    window[callbackName] = (payload) => finishRequest(payload);
+    script.async = true;
+    script.src = url.toString();
+    script.onerror = () => finishRequest(null);
+    form.__statusCallbackName = callbackName;
+    form.__statusScript = script;
+    form.__statusRequestTimer = window.setTimeout(() => finishRequest(null), STATUS_REQUEST_TIMEOUT_MS);
+    document.head.appendChild(script);
+  }
+
+  function beginStatusPolling(form, endpoint, submissionId) {
+    stopStatusPolling(form);
+    const startedAt = Date.now();
+    form.dataset.pendingNoticeShown = 'false';
+    form.__statusPollTimer = window.setTimeout(() => {
+      pollSubmissionStatus(form, endpoint, submissionId, startedAt, 0);
+    }, 600);
+  }
+
   function initializeForm(form) {
     const lang = getLanguage(form);
     const config = getConfig();
     const endpoint = String(config.endpoint || '').trim();
     const configured = isConfiguredEndpoint(endpoint);
     const submitButton = form.querySelector('.form-submit');
-    const iframe = document.getElementsByName(form.target)[0] || null;
 
     form.dataset.configured = configured ? 'true' : 'false';
     form.action = configured ? endpoint : '';
     form.dataset.submitting = 'false';
+    form.dataset.resultHandled = 'false';
 
     updatePageMetadata(form);
     resetSubmissionIdentity(form);
@@ -209,50 +371,29 @@
         return;
       }
 
+      const submissionIdField = form.querySelector('[name="submissionId"]');
+      const submissionId = submissionIdField ? submissionIdField.value : '';
+      if (!submissionId) {
+        resetSubmissionIdentity(form);
+      }
+
+      const pendingId = form.querySelector('[name="submissionId"]')?.value || '';
+      form.dataset.pendingSubmissionId = pendingId;
+      form.dataset.resultHandled = 'false';
       setSubmitting(form, true);
       setStatus(form, 'sending', messages[lang].sending);
+      beginStatusPolling(form, endpoint, pendingId);
 
-      const submissionId = form.querySelector('[name="submissionId"]')?.value || '';
-      form.dataset.pendingSubmissionId = submissionId;
-
-      window.clearTimeout(form.__contactTimeout);
-      form.__contactTimeout = window.setTimeout(() => {
-        if (form.dataset.submitting !== 'true') return;
-        setSubmitting(form, false);
-        setStatus(form, 'warning', messages[lang].timeout);
-      }, SUBMIT_TIMEOUT_MS);
-
-      HTMLFormElement.prototype.submit.call(form);
+      try {
+        HTMLFormElement.prototype.submit.call(form);
+      } catch (_error) {
+        completeError(form, 'SERVER');
+      }
     });
 
     window.addEventListener('message', (event) => {
-      if (!iframe || event.source !== iframe.contentWindow) return;
       if (!isAllowedResultOrigin(event.origin)) return;
-      const data = event.data;
-      if (!data || data.type !== RESULT_TYPE) return;
-      if (String(data.submissionId || '') !== String(form.dataset.pendingSubmissionId || '')) return;
-
-      window.clearTimeout(form.__contactTimeout);
-      setSubmitting(form, false);
-
-      if (data.success) {
-        const followUp = `${messages[lang].success} ${messages[lang].followUp}`;
-        setStatus(form, 'success', followUp, data.referenceNumber || '');
-        form.reset();
-        updateConditionalFields(form);
-        resetSubmissionIdentity(form);
-        updatePageMetadata(form);
-        form.dataset.pendingSubmissionId = '';
-        form.querySelectorAll('textarea[maxlength]').forEach(updateCharacterCount);
-        return;
-      }
-
-      const errorMessage = data.errorCode === 'RATE_LIMIT'
-        ? messages[lang].rateLimit
-        : data.errorCode === 'VALIDATION'
-          ? messages[lang].validation
-          : messages[lang].failed;
-      setStatus(form, 'error', errorMessage);
+      handleResult(form, event.data);
     });
   }
 
