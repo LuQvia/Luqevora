@@ -1,0 +1,230 @@
+{
+  "id": "business-wordpress-hosting-comparison-ja",
+  "translationKey": "business-wordpress-hosting-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "business-wordpress-hosting-comparison",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "法人向けWordPress比較・広告掲載",
+  "title": "法人向けWordPressホスティング3社比較｜XServer・Kinsta・WP Engine",
+  "metaTitle": "法人向けWordPressホスティング比較｜XServer・Kinsta・WP Engine",
+  "description": "XServer for WordPress、Kinsta、WP Engineを、料金体系、サイト数、ステージング、バックアップ、権限、サポートから比較します。",
+  "lead": "法人向けWordPressホスティングは、国内請求と日本語運用を重視するか、海外マネージド基盤の移行・開発機能を重視するかで候補が分かれます。3サービスの運用方式を同じ基準で整理します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-sla"
+    },
+    {
+      "label": "Kinstaを確認",
+      "officialUrl": "https://kinsta.com/pricing/",
+      "affiliateKey": "kinsta"
+    },
+    {
+      "label": "WP Engineを確認",
+      "officialUrl": "https://wpengine.com/plans/",
+      "affiliateKey": "wp-engine"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress 公式ページ",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress 料金プラン",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress 機能一覧",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "14日間無料お試し期間",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "SLA品質保証制度",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "ステージング環境の同期",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "サブアカウント",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "設定おまかせサポート",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress専門家サポート",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "メールアカウントに関するFAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    },
+    {
+      "label": "Kinsta WordPress hosting plans",
+      "url": "https://kinsta.com/pricing/"
+    },
+    {
+      "label": "Kinsta WordPress backups",
+      "url": "https://kinsta.com/docs/wordpress-hosting/wordpress-backups/"
+    },
+    {
+      "label": "Kinsta staging environments",
+      "url": "https://kinsta.com/docs/wordpress-hosting/staging-environment/"
+    },
+    {
+      "label": "WP Engine managed hosting platform",
+      "url": "https://wpengine.com/managed-hosting-platform/"
+    },
+    {
+      "label": "WP Engine plans",
+      "url": "https://wpengine.com/plans/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：国内運用、利用量課金、海外開発基盤で選ぶ",
+      "body": [
+        "日本語の契約・請求、国内向けサポート、サイト別権限、WPパネルを重視するならXServer for WordPressが有力です。Kinstaはサイト数と帯域または訪問数を基準に、MyKinsta、移行、ステージング、バックアップを利用したいチーム向けです。WP EngineはWordPressの開発・運用エコシステムと、より大規模な構成を比較したい企業向けです。",
+        "表示価格だけでなく、サイト数、帯域・訪問数、ストレージ、バックアップ保持、追加環境、超過、サポートの総額を合わせます。"
+      ]
+    },
+    {
+      "heading": "3サービスの位置付け",
+      "body": [
+        "サービスごとに料金単位と想定利用者が異なります。"
+      ],
+      "table": {
+        "headers": [
+          "項目",
+          "XServer for WordPress",
+          "Kinsta",
+          "WP Engine"
+        ],
+        "rows": [
+          [
+            "主な対象",
+            "国内法人・制作会社の複数WordPress運用",
+            "世界向けWordPressサイト・制作会社",
+            "成長企業・大規模WordPress運用"
+          ],
+          [
+            "料金単位",
+            "プランと契約期間",
+            "サイト数＋帯域または訪問数等",
+            "プラン、サイト、訪問数等"
+          ],
+          [
+            "ステージング",
+            "各サイト1環境",
+            "各WordPressサイトに標準環境",
+            "プランに応じた開発・ステージング環境"
+          ],
+          [
+            "バックアップ",
+            "自動バックアップ・復元機能を案内",
+            "日次、手動、システム生成、追加オプション",
+            "日次バックアップ等をプラットフォーム機能として案内"
+          ],
+          [
+            "メールアカウント",
+            "作成不可",
+            "通常は別サービス",
+            "通常は別サービス"
+          ],
+          [
+            "通貨・請求",
+            "日本円・国内事業者",
+            "米ドル・税別表示",
+            "米ドル・プランにより見積り"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "XServer for WordPressが向くケース",
+      "body": [
+        "国内法人が日本語で契約し、複数WordPressサイトをWPパネルで管理し、担当者や顧客ごとにアクセスを分けたい場合に向きます。長期契約を選ぶ前に、14日間試用で移行、ステージング、権限、復旧を確認します。",
+        "メールアカウントはないため、企業メール費用を別に見積もります。"
+      ]
+    },
+    {
+      "heading": "Kinstaが向くケース",
+      "body": [
+        "Kinstaは、サイト数、サーバー帯域または訪問数、ストレージ、CDN、バックアップ保持をプラン基準として比較したいチーム向けです。無料移行、日次バックアップ、ステージング、権限管理を提供します。",
+        "利用上限を超える場合の超過料金と、時間単位・外部バックアップ等の追加費用を確認します。"
+      ]
+    },
+    {
+      "heading": "WP Engineが向くケース",
+      "body": [
+        "WP Engineは、管理されたWordPress基盤、日次バックアップ、セキュリティ、専門サポート、開発ワークフローをまとめたい企業向けです。小規模向けの開始プランと、より大規模なCore・Enterpriseでは料金と提供範囲が大きく異なります。",
+        "公式見積りでサイト数、トラフィック、環境、SLA、支援範囲を確認します。"
+      ]
+    },
+    {
+      "heading": "選定チェックリスト",
+      "body": [
+        "同じ検証サイトを3サービスで再現し、移行時間、更新、ステージング、本番反映、復元、権限、問い合わせ、解約時の持ち出しを記録します。"
+      ],
+      "bullets": [
+        "年間総額と更新・超過・追加環境の費用",
+        "サイト数、帯域または訪問数、ストレージの余裕",
+        "バックアップ保持と外部持ち出し",
+        "担当者・制作会社・顧客の権限",
+        "日本語対応、請求通貨、契約主体"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "日本企業が最初に比較しやすいのはどれですか？",
+      "answer": "日本円請求、日本語サポート、国内事業者との契約を重視する場合はXServer for WordPressから試しやすいです。海外向けサイトや既存の開発フローがある場合はKinstaやWP Engineも比較します。"
+    },
+    {
+      "question": "企業メールも含まれますか？",
+      "answer": "XServer for WordPress、Kinsta、WP Engineはいずれも企業メールを別サービスで用意する前提で比較するのが安全です。"
+    },
+    {
+      "question": "最安プランで比較すればよいですか？",
+      "answer": "いいえ。必要サイト数、帯域・訪問数、バックアップ、ステージング、サポートを満たす最小プランの年間総額で比較します。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "国内法人向けの料金と運用機能を確認"
+    },
+    {
+      "label": "KinstaとWP Engineの比較",
+      "url": "/ja/hosting-security/kinsta-vs-wp-engine/",
+      "description": "海外マネージドWordPressを詳しく比較"
+    },
+    {
+      "label": "XServer for WordPressとXServerビジネス",
+      "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "description": "国内サービスの用途差を確認"
+    }
+  ]
+}

@@ -1,313 +1,1100 @@
 [
   {
-    "slug": "webflow-vs-shopify", "category": "website-builders", "topic": "ecommerce-platform", "products": ["webflow", "shopify"],
-    "angle": {"ja": "独自デザインのサイト制作か、EC運用の一体化か", "en": "Custom Web Design or Integrated Ecommerce Operations?"},
-    "axis": {"ja": "ブランド固有のデザイン・CMS制御と商品・注文・決済の一体運用", "en": "custom design and CMS control versus integrated catalog, order, and payment operations"},
-    "verdict": {"ja": "ブランド固有のレイアウトとCMS構造を細かく設計するならWebflow、商品、注文、決済、配送、販売チャネルを一つのEC基盤で運用するならShopifyが有力です。", "en": "Choose Webflow for finely controlled brand layouts and CMS structures; choose Shopify to operate products, orders, payments, shipping, and sales channels through a dedicated ecommerce platform."},
+    "slug": "webflow-vs-shopify",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "webflow",
+      "shopify"
+    ],
+    "angle": {
+      "ja": "独自デザインのサイト制作か、EC運用の一体化か",
+      "en": "Custom Web Design or Integrated Ecommerce Operations?"
+    },
+    "axis": {
+      "ja": "ブランド固有のデザイン・CMS制御と商品・注文・決済の一体運用",
+      "en": "custom design and CMS control versus integrated catalog, order, and payment operations"
+    },
+    "verdict": {
+      "ja": "ブランド固有のレイアウトとCMS構造を細かく設計するならWebflow、商品、注文、決済、配送、販売チャネルを一つのEC基盤で運用するならShopifyが有力です。",
+      "en": "Choose Webflow for finely controlled brand layouts and CMS structures; choose Shopify to operate products, orders, payments, shipping, and sales channels through a dedicated ecommerce platform."
+    },
     "alternativeProduct": "woocommerce"
   },
   {
-    "slug": "webflow-vs-woocommerce", "category": "website-builders", "topic": "ecommerce-platform", "products": ["webflow", "woocommerce"],
-    "angle": {"ja": "ホスティング一体型デザインか、WordPress上のEC自由度か", "en": "Hosted Design Control or WordPress Ecommerce Flexibility?"},
-    "axis": {"ja": "視覚的なサイト制作・CMS運用とホスティングや拡張を選べるEC構成", "en": "visual site and CMS production versus a WordPress store with selectable hosting and extensions"},
-    "verdict": {"ja": "視覚的な制作環境でデザインとCMSを統制するならWebflow、WordPress上でホスティング、決済、拡張機能、データを自分で選ぶならWooCommerceが向きます。", "en": "Choose Webflow for visually controlled design and CMS production; choose WooCommerce when the team wants to select its WordPress hosting, payments, extensions, and data architecture."},
+    "slug": "webflow-vs-woocommerce",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "webflow",
+      "woocommerce"
+    ],
+    "angle": {
+      "ja": "ホスティング一体型デザインか、WordPress上のEC自由度か",
+      "en": "Hosted Design Control or WordPress Ecommerce Flexibility?"
+    },
+    "axis": {
+      "ja": "視覚的なサイト制作・CMS運用とホスティングや拡張を選べるEC構成",
+      "en": "visual site and CMS production versus a WordPress store with selectable hosting and extensions"
+    },
+    "verdict": {
+      "ja": "視覚的な制作環境でデザインとCMSを統制するならWebflow、WordPress上でホスティング、決済、拡張機能、データを自分で選ぶならWooCommerceが向きます。",
+      "en": "Choose Webflow for visually controlled design and CMS production; choose WooCommerce when the team wants to select its WordPress hosting, payments, extensions, and data architecture."
+    },
     "alternativeProduct": "shopify"
   },
   {
-    "slug": "webflow-vs-hostinger-website-builder", "category": "website-builders", "topic": "website-builder", "products": ["webflow", "hostinger-website-builder"],
-    "angle": {"ja": "高度なデザイン・CMS制御か、低コストの一体運用か", "en": "Advanced Design Control or Lower-Cost All-in-One Setup?"},
-    "axis": {"ja": "独自構造を作り込む制作工程とホスティング込みで素早く公開する運用", "en": "custom production and CMS structure versus fast publishing with hosting included"},
-    "verdict": {"ja": "独自レイアウト、CMS構造、制作権限を細かく設計するならWebflow、サーバー設定を分けず低コストで小規模サイトを公開するならHostinger Website Builderが選びやすいです。", "en": "Choose Webflow for custom layouts, CMS structures, and production permissions; choose Hostinger Website Builder to publish a smaller site at lower cost without separate hosting administration."},
+    "slug": "webflow-vs-hostinger-website-builder",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "webflow",
+      "hostinger-website-builder"
+    ],
+    "angle": {
+      "ja": "高度なデザイン・CMS制御か、低コストの一体運用か",
+      "en": "Advanced Design Control or Lower-Cost All-in-One Setup?"
+    },
+    "axis": {
+      "ja": "独自構造を作り込む制作工程とホスティング込みで素早く公開する運用",
+      "en": "custom production and CMS structure versus fast publishing with hosting included"
+    },
+    "verdict": {
+      "ja": "独自レイアウト、CMS構造、制作権限を細かく設計するならWebflow、サーバー設定を分けず低コストで小規模サイトを公開するならHostinger Website Builderが選びやすいです。",
+      "en": "Choose Webflow for custom layouts, CMS structures, and production permissions; choose Hostinger Website Builder to publish a smaller site at lower cost without separate hosting administration."
+    },
     "alternativeProduct": "wix"
   },
   {
-    "slug": "wix-vs-bigcommerce", "category": "website-builders", "topic": "ecommerce-platform", "products": ["wix", "bigcommerce"],
-    "angle": {"ja": "小規模事業の一体運用か、成長するEC基盤か", "en": "All-in-One Small-Business Site or Scaling Ecommerce Platform?"},
-    "axis": {"ja": "予約・店舗・集客を含む自主運用と大規模カタログ・販売チャネルの拡張", "en": "owner-operated business features versus scaling catalogs, channels, APIs, and B2B"},
-    "verdict": {"ja": "事業者自身がサイト、予約、店舗、フォーム、集客をまとめて運用するならWix、商品数、売上、販売チャネル、API、B2Bを拡張するならBigCommerceが有力です。", "en": "Choose Wix when an owner will operate the site, bookings, store, forms, and marketing together; choose BigCommerce for scaling catalogs, revenue, channels, APIs, and B2B operations."},
+    "slug": "wix-vs-bigcommerce",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "wix",
+      "bigcommerce"
+    ],
+    "angle": {
+      "ja": "小規模事業の一体運用か、成長するEC基盤か",
+      "en": "All-in-One Small-Business Site or Scaling Ecommerce Platform?"
+    },
+    "axis": {
+      "ja": "予約・店舗・集客を含む自主運用と大規模カタログ・販売チャネルの拡張",
+      "en": "owner-operated business features versus scaling catalogs, channels, APIs, and B2B"
+    },
+    "verdict": {
+      "ja": "事業者自身がサイト、予約、店舗、フォーム、集客をまとめて運用するならWix、商品数、売上、販売チャネル、API、B2Bを拡張するならBigCommerceが有力です。",
+      "en": "Choose Wix when an owner will operate the site, bookings, store, forms, and marketing together; choose BigCommerce for scaling catalogs, revenue, channels, APIs, and B2B operations."
+    },
     "alternativeProduct": "shopify"
   },
   {
-    "slug": "squarespace-vs-woocommerce", "category": "website-builders", "topic": "ecommerce-platform", "products": ["squarespace", "woocommerce"],
-    "angle": {"ja": "整ったテンプレート運用か、WordPressストアの自由度か", "en": "Polished Templates or WordPress Store Control?"},
-    "axis": {"ja": "デザインを保ちやすい小規模販売と技術構成・データを選べるEC運用", "en": "polished lighter commerce versus control over store architecture and data"},
-    "verdict": {"ja": "ブランドサイトと少数商品の販売・予約を整ったテンプレートで運用するならSquarespace、WordPressの自由度を活かしホスティングや拡張機能を選ぶならWooCommerceが向きます。", "en": "Choose Squarespace for a polished brand site with a smaller catalog, services, or scheduling; choose WooCommerce for WordPress flexibility and control over hosting, extensions, and data."},
+    "slug": "squarespace-vs-woocommerce",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "squarespace",
+      "woocommerce"
+    ],
+    "angle": {
+      "ja": "整ったテンプレート運用か、WordPressストアの自由度か",
+      "en": "Polished Templates or WordPress Store Control?"
+    },
+    "axis": {
+      "ja": "デザインを保ちやすい小規模販売と技術構成・データを選べるEC運用",
+      "en": "polished lighter commerce versus control over store architecture and data"
+    },
+    "verdict": {
+      "ja": "ブランドサイトと少数商品の販売・予約を整ったテンプレートで運用するならSquarespace、WordPressの自由度を活かしホスティングや拡張機能を選ぶならWooCommerceが向きます。",
+      "en": "Choose Squarespace for a polished brand site with a smaller catalog, services, or scheduling; choose WooCommerce for WordPress flexibility and control over hosting, extensions, and data."
+    },
     "alternativeProduct": "shopify"
   },
   {
-    "slug": "shopify-vs-wordpress-com", "category": "website-builders", "topic": "ecommerce-platform", "products": ["shopify", "wordpress-com"],
-    "angle": {"ja": "EC専用の運用基盤か、コンテンツ中心のホスト型WordPressか", "en": "Dedicated Ecommerce or Hosted WordPress Publishing?"},
-    "axis": {"ja": "商品・注文・決済を中心とする販売運用と記事・カテゴリを中心とするコンテンツ運用", "en": "commerce-led product and order operations versus content-led hosted WordPress publishing"},
-    "verdict": {"ja": "商品、注文、決済、配送、販売チャネルを事業の中心に置くならShopify、記事やカテゴリを増やしながらホスト型WordPressで情報発信するならWordPress.comが向きます。", "en": "Choose Shopify when products, orders, payments, shipping, and sales channels are the operating center; choose WordPress.com for content-led publishing and gradual use of the WordPress ecosystem."},
+    "slug": "shopify-vs-wordpress-com",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "shopify",
+      "wordpress-com"
+    ],
+    "angle": {
+      "ja": "EC専用の運用基盤か、コンテンツ中心のホスト型WordPressか",
+      "en": "Dedicated Ecommerce or Hosted WordPress Publishing?"
+    },
+    "axis": {
+      "ja": "商品・注文・決済を中心とする販売運用と記事・カテゴリを中心とするコンテンツ運用",
+      "en": "commerce-led product and order operations versus content-led hosted WordPress publishing"
+    },
+    "verdict": {
+      "ja": "商品、注文、決済、配送、販売チャネルを事業の中心に置くならShopify、記事やカテゴリを増やしながらホスト型WordPressで情報発信するならWordPress.comが向きます。",
+      "en": "Choose Shopify when products, orders, payments, shipping, and sales channels are the operating center; choose WordPress.com for content-led publishing and gradual use of the WordPress ecosystem."
+    },
     "alternativeProduct": "woocommerce"
   },
   {
-    "slug": "shopify-vs-framer", "category": "website-builders", "topic": "ecommerce-platform", "products": ["shopify", "framer"],
-    "angle": {"ja": "オンライン販売の運用か、デザイン主導のマーケティングサイトか", "en": "Ecommerce Operations or Design-Led Marketing Sites?"},
-    "axis": {"ja": "商品・注文・決済の継続運用とブランド表現・公開速度を重視する制作", "en": "ongoing commerce operations versus fast brand-led marketing production"},
-    "verdict": {"ja": "オンライン販売の在庫、注文、決済、配送を継続管理するならShopify、ブランド性の高いランディングページやマーケティングサイトを速く改善するならFramerが有力です。", "en": "Choose Shopify for ongoing inventory, order, payment, and shipping operations; choose Framer for rapid iteration on distinctive landing pages and marketing sites."},
+    "slug": "shopify-vs-framer",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "shopify",
+      "framer"
+    ],
+    "angle": {
+      "ja": "オンライン販売の運用か、デザイン主導のマーケティングサイトか",
+      "en": "Ecommerce Operations or Design-Led Marketing Sites?"
+    },
+    "axis": {
+      "ja": "商品・注文・決済の継続運用とブランド表現・公開速度を重視する制作",
+      "en": "ongoing commerce operations versus fast brand-led marketing production"
+    },
+    "verdict": {
+      "ja": "オンライン販売の在庫、注文、決済、配送を継続管理するならShopify、ブランド性の高いランディングページやマーケティングサイトを速く改善するならFramerが有力です。",
+      "en": "Choose Shopify for ongoing inventory, order, payment, and shipping operations; choose Framer for rapid iteration on distinctive landing pages and marketing sites."
+    },
     "alternativeProduct": "webflow"
   },
   {
-    "slug": "shopify-vs-duda", "category": "website-builders", "topic": "ecommerce-platform", "products": ["shopify", "duda"],
-    "angle": {"ja": "EC事業者の販売運用か、制作会社の複数顧客サイト管理か", "en": "Merchant Ecommerce or Multi-Client Agency Operations?"},
-    "axis": {"ja": "一店舗の販売成長と複数顧客サイトの権限・承認・保守標準化", "en": "scaling a merchant store versus standardizing permissions, approvals, and maintenance across client sites"},
-    "verdict": {"ja": "事業者が商品、注文、決済、販売チャネルを拡張するならShopify、制作会社が多数の顧客サイトを共通の権限・承認・保守手順で運用するならDudaが向きます。", "en": "Choose Shopify when a merchant needs to scale products, orders, payments, and channels; choose Duda when an agency needs repeatable permissions, approvals, and maintenance across many client sites."},
+    "slug": "shopify-vs-duda",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "shopify",
+      "duda"
+    ],
+    "angle": {
+      "ja": "EC事業者の販売運用か、制作会社の複数顧客サイト管理か",
+      "en": "Merchant Ecommerce or Multi-Client Agency Operations?"
+    },
+    "axis": {
+      "ja": "一店舗の販売成長と複数顧客サイトの権限・承認・保守標準化",
+      "en": "scaling a merchant store versus standardizing permissions, approvals, and maintenance across client sites"
+    },
+    "verdict": {
+      "ja": "事業者が商品、注文、決済、販売チャネルを拡張するならShopify、制作会社が多数の顧客サイトを共通の権限・承認・保守手順で運用するならDudaが向きます。",
+      "en": "Choose Shopify when a merchant needs to scale products, orders, payments, and channels; choose Duda when an agency needs repeatable permissions, approvals, and maintenance across many client sites."
+    },
     "alternativeProduct": "bigcommerce"
   },
   {
-    "slug": "shopify-vs-hostinger-website-builder", "category": "website-builders", "topic": "ecommerce-platform", "products": ["shopify", "hostinger-website-builder"],
-    "angle": {"ja": "成長するEC運用か、低コストの簡易ストアか", "en": "Scaling Ecommerce or a Lower-Cost Starter Store?"},
-    "axis": {"ja": "販売機能・アプリ・チャネルの拡張とホスティング一体型の小規模販売", "en": "scalable commerce features and channels versus hosting-bundled lightweight selling"},
-    "verdict": {"ja": "商品、注文、決済、配送、アプリ、販売チャネルを拡張するならShopify、少数商品を扱う小規模サイトを低コストで早く公開するならHostinger Website Builderが候補です。", "en": "Choose Shopify to scale products, orders, payments, shipping, apps, and channels; choose Hostinger Website Builder for a faster, lower-cost small site with a lightweight catalog."},
+    "slug": "shopify-vs-hostinger-website-builder",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "shopify",
+      "hostinger-website-builder"
+    ],
+    "angle": {
+      "ja": "成長するEC運用か、低コストの簡易ストアか",
+      "en": "Scaling Ecommerce or a Lower-Cost Starter Store?"
+    },
+    "axis": {
+      "ja": "販売機能・アプリ・チャネルの拡張とホスティング一体型の小規模販売",
+      "en": "scalable commerce features and channels versus hosting-bundled lightweight selling"
+    },
+    "verdict": {
+      "ja": "商品、注文、決済、配送、アプリ、販売チャネルを拡張するならShopify、少数商品を扱う小規模サイトを低コストで早く公開するならHostinger Website Builderが候補です。",
+      "en": "Choose Shopify to scale products, orders, payments, shipping, apps, and channels; choose Hostinger Website Builder for a faster, lower-cost small site with a lightweight catalog."
+    },
     "alternativeProduct": "wix"
   },
   {
-    "slug": "wordpress-com-vs-framer", "category": "website-builders", "topic": "website-builder", "products": ["wordpress-com", "framer"],
-    "angle": {"ja": "長期的な記事運用か、デザイン主導の公開速度か", "en": "Long-Term Editorial Publishing or Design-Led Speed?"},
-    "axis": {"ja": "記事・カテゴリを増やすコンテンツ運用と独自デザインの高速な制作・改善", "en": "growing editorial content versus rapid production of distinctive marketing design"},
-    "verdict": {"ja": "記事やカテゴリを継続的に増やしWordPressの拡張性を使うならWordPress.com、ブランド性の高いマーケティングサイトをデザインから公開まで短く回すならFramerが向きます。", "en": "Choose WordPress.com for sustained editorial growth and the WordPress ecosystem; choose Framer to move distinctive marketing design from concept to iterative publishing quickly."},
+    "slug": "wordpress-com-vs-framer",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "wordpress-com",
+      "framer"
+    ],
+    "angle": {
+      "ja": "長期的な記事運用か、デザイン主導の公開速度か",
+      "en": "Long-Term Editorial Publishing or Design-Led Speed?"
+    },
+    "axis": {
+      "ja": "記事・カテゴリを増やすコンテンツ運用と独自デザインの高速な制作・改善",
+      "en": "growing editorial content versus rapid production of distinctive marketing design"
+    },
+    "verdict": {
+      "ja": "記事やカテゴリを継続的に増やしWordPressの拡張性を使うならWordPress.com、ブランド性の高いマーケティングサイトをデザインから公開まで短く回すならFramerが向きます。",
+      "en": "Choose WordPress.com for sustained editorial growth and the WordPress ecosystem; choose Framer to move distinctive marketing design from concept to iterative publishing quickly."
+    },
     "alternativeProduct": "webflow"
   },
   {
-    "slug": "wordpress-com-vs-woocommerce", "category": "website-builders", "topic": "ecommerce-platform", "products": ["wordpress-com", "woocommerce"],
-    "angle": {"ja": "ホスト型WordPressか、自社運用するWordPress ECか", "en": "Hosted WordPress or a Self-Managed WordPress Store?"},
-    "axis": {"ja": "サービス側へ保守を寄せるコンテンツ運用とホスティング・決済・拡張を選ぶEC運用", "en": "platform-managed publishing versus a store with selectable hosting, payments, and extensions"},
-    "verdict": {"ja": "保守をサービス側へ寄せながら記事やサイトを運用するならWordPress.com、技術運用を担いホスティング、決済、拡張機能、データを自分で選ぶならWooCommerceが有力です。", "en": "Choose WordPress.com for publishing with more maintenance handled by the service; choose WooCommerce when the team can own technical operations and wants control over hosting, payments, extensions, and data."},
+    "slug": "wordpress-com-vs-woocommerce",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "wordpress-com",
+      "woocommerce"
+    ],
+    "angle": {
+      "ja": "ホスト型WordPressか、自社運用するWordPress ECか",
+      "en": "Hosted WordPress or a Self-Managed WordPress Store?"
+    },
+    "axis": {
+      "ja": "サービス側へ保守を寄せるコンテンツ運用とホスティング・決済・拡張を選ぶEC運用",
+      "en": "platform-managed publishing versus a store with selectable hosting, payments, and extensions"
+    },
+    "verdict": {
+      "ja": "保守をサービス側へ寄せながら記事やサイトを運用するならWordPress.com、技術運用を担いホスティング、決済、拡張機能、データを自分で選ぶならWooCommerceが有力です。",
+      "en": "Choose WordPress.com for publishing with more maintenance handled by the service; choose WooCommerce when the team can own technical operations and wants control over hosting, payments, extensions, and data."
+    },
     "alternativeProduct": "shopify"
   },
   {
-    "slug": "woocommerce-vs-hostinger-website-builder", "category": "website-builders", "topic": "ecommerce-platform", "products": ["woocommerce", "hostinger-website-builder"],
-    "angle": {"ja": "ECの技術自由度か、ホスティング一体型の簡単運用か", "en": "Technical Store Control or Simpler Hosted Operations?"},
-    "axis": {"ja": "WordPress上で選べるEC構成と初心者向けのホスティング一体運用", "en": "a configurable WordPress store versus beginner-oriented hosting-bundled operations"},
-    "verdict": {"ja": "ホスティング、決済、拡張機能、データを選び技術運用も担えるならWooCommerce、少数商品の簡易ストアをサーバー設定と分けず公開するならHostinger Website Builderが向きます。", "en": "Choose WooCommerce for control over hosting, payments, extensions, and store data; choose Hostinger Website Builder for a lightweight store without separate server administration."},
+    "slug": "woocommerce-vs-hostinger-website-builder",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "woocommerce",
+      "hostinger-website-builder"
+    ],
+    "angle": {
+      "ja": "ECの技術自由度か、ホスティング一体型の簡単運用か",
+      "en": "Technical Store Control or Simpler Hosted Operations?"
+    },
+    "axis": {
+      "ja": "WordPress上で選べるEC構成と初心者向けのホスティング一体運用",
+      "en": "a configurable WordPress store versus beginner-oriented hosting-bundled operations"
+    },
+    "verdict": {
+      "ja": "ホスティング、決済、拡張機能、データを選び技術運用も担えるならWooCommerce、少数商品の簡易ストアをサーバー設定と分けず公開するならHostinger Website Builderが向きます。",
+      "en": "Choose WooCommerce for control over hosting, payments, extensions, and store data; choose Hostinger Website Builder for a lightweight store without separate server administration."
+    },
     "alternativeProduct": "shopify"
   },
-
   {
-    "slug": "mailchimp-vs-getresponse", "category": "seo-marketing", "topic": "email-marketing", "products": ["mailchimp", "getresponse"],
-    "angle": {"ja": "幅広いマーケティング機能か、販売ファネル・ウェビナーか", "en": "Broad Marketing Tools or Funnels and Webinars?"},
-    "axis": {"ja": "ブランド接点をまとめるマーケティング基盤と配信・ページ・ウェビナーをつなぐ販売導線", "en": "a broad marketing platform versus campaign funnels connecting email, pages, and webinars"},
-    "verdict": {"ja": "メール、顧客データ、広告、サイト接点を幅広くまとめるならMailchimp、配信、ランディングページ、ウェビナー、自動化を一つの販売導線へ組むならGetResponseが有力です。", "en": "Choose Mailchimp to combine email, audience data, advertising, and site touchpoints; choose GetResponse to build campaign funnels across email, landing pages, webinars, and automation."},
+    "slug": "mailchimp-vs-getresponse",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "mailchimp",
+      "getresponse"
+    ],
+    "angle": {
+      "ja": "幅広いマーケティング機能か、販売ファネル・ウェビナーか",
+      "en": "Broad Marketing Tools or Funnels and Webinars?"
+    },
+    "axis": {
+      "ja": "ブランド接点をまとめるマーケティング基盤と配信・ページ・ウェビナーをつなぐ販売導線",
+      "en": "a broad marketing platform versus campaign funnels connecting email, pages, and webinars"
+    },
+    "verdict": {
+      "ja": "メール、顧客データ、広告、サイト接点を幅広くまとめるならMailchimp、配信、ランディングページ、ウェビナー、自動化を一つの販売導線へ組むならGetResponseが有力です。",
+      "en": "Choose Mailchimp to combine email, audience data, advertising, and site touchpoints; choose GetResponse to build campaign funnels across email, landing pages, webinars, and automation."
+    },
     "alternativeProduct": "activecampaign"
   },
   {
-    "slug": "mailchimp-vs-mailerlite", "category": "seo-marketing", "topic": "email-marketing", "products": ["mailchimp", "mailerlite"],
-    "angle": {"ja": "幅広いマーケティング基盤か、わかりやすいメール配信か", "en": "Broad Marketing Platform or Approachable Email Campaigns?"},
-    "axis": {"ja": "複数のマーケティング接点と少ない学習で運用するニュースレター・ページ", "en": "broader marketing touchpoints versus approachable newsletters, forms, and pages"},
-    "verdict": {"ja": "メール以外の顧客接点やブランド機能もまとめたいならMailchimp、ニュースレター、フォーム、ランディングページを少ない学習で運用するならMailerLiteが向きます。", "en": "Choose Mailchimp when the team wants broader customer touchpoints beyond email; choose MailerLite for approachable newsletters, forms, and landing pages with less setup complexity."},
+    "slug": "mailchimp-vs-mailerlite",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "mailchimp",
+      "mailerlite"
+    ],
+    "angle": {
+      "ja": "幅広いマーケティング基盤か、わかりやすいメール配信か",
+      "en": "Broad Marketing Platform or Approachable Email Campaigns?"
+    },
+    "axis": {
+      "ja": "複数のマーケティング接点と少ない学習で運用するニュースレター・ページ",
+      "en": "broader marketing touchpoints versus approachable newsletters, forms, and pages"
+    },
+    "verdict": {
+      "ja": "メール以外の顧客接点やブランド機能もまとめたいならMailchimp、ニュースレター、フォーム、ランディングページを少ない学習で運用するならMailerLiteが向きます。",
+      "en": "Choose Mailchimp when the team wants broader customer touchpoints beyond email; choose MailerLite for approachable newsletters, forms, and landing pages with less setup complexity."
+    },
     "alternativeProduct": "kit"
   },
   {
-    "slug": "brevo-vs-getresponse", "category": "seo-marketing", "topic": "email-marketing", "products": ["brevo", "getresponse"],
-    "angle": {"ja": "送信量中心の複数チャネル運用か、販売ファネル構築か", "en": "Send-Volume Messaging or Campaign Funnels?"},
-    "axis": {"ja": "メール・追加チャネル・顧客管理とページ・ウェビナーを含む販売導線", "en": "multi-channel messaging and customer management versus funnels with pages and webinars"},
-    "verdict": {"ja": "送信量を軸にメール、SMSなどの顧客連絡をまとめるならBrevo、メール、ページ、ウェビナー、自動化を一つの販売ファネルへ組むならGetResponseが向きます。", "en": "Choose Brevo for customer communication across email and additional channels organized around send volume; choose GetResponse for funnels combining email, pages, webinars, and automation."},
+    "slug": "brevo-vs-getresponse",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "brevo",
+      "getresponse"
+    ],
+    "angle": {
+      "ja": "送信量中心の複数チャネル運用か、販売ファネル構築か",
+      "en": "Send-Volume Messaging or Campaign Funnels?"
+    },
+    "axis": {
+      "ja": "メール・追加チャネル・顧客管理とページ・ウェビナーを含む販売導線",
+      "en": "multi-channel messaging and customer management versus funnels with pages and webinars"
+    },
+    "verdict": {
+      "ja": "送信量を軸にメール、SMSなどの顧客連絡をまとめるならBrevo、メール、ページ、ウェビナー、自動化を一つの販売ファネルへ組むならGetResponseが向きます。",
+      "en": "Choose Brevo for customer communication across email and additional channels organized around send volume; choose GetResponse for funnels combining email, pages, webinars, and automation."
+    },
     "alternativeProduct": "activecampaign"
   },
   {
-    "slug": "getresponse-vs-hubspot", "category": "seo-marketing", "topic": "email-marketing", "products": ["getresponse", "hubspot-marketing"],
-    "angle": {"ja": "キャンペーンファネルか、CRM中心の部門連携か", "en": "Campaign Funnels or CRM-Centered Team Operations?"},
-    "axis": {"ja": "配信・ページ・ウェビナーをつなぐ販売導線と顧客情報を中心にしたマーケティング・営業連携", "en": "campaign funnels with email, pages, and webinars versus marketing and sales around a CRM"},
-    "verdict": {"ja": "配信、ランディングページ、ウェビナー、自動化を一つの販売導線へまとめるならGetResponse、CRMを中心にマーケティング・営業・サービスの履歴をつなぐならHubSpot Marketing Hubが有力です。", "en": "Choose GetResponse for campaign funnels across email, landing pages, webinars, and automation; choose HubSpot Marketing Hub to connect marketing, sales, and service history around a CRM."},
+    "slug": "getresponse-vs-hubspot",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "getresponse",
+      "hubspot-marketing"
+    ],
+    "angle": {
+      "ja": "キャンペーンファネルか、CRM中心の部門連携か",
+      "en": "Campaign Funnels or CRM-Centered Team Operations?"
+    },
+    "axis": {
+      "ja": "配信・ページ・ウェビナーをつなぐ販売導線と顧客情報を中心にしたマーケティング・営業連携",
+      "en": "campaign funnels with email, pages, and webinars versus marketing and sales around a CRM"
+    },
+    "verdict": {
+      "ja": "配信、ランディングページ、ウェビナー、自動化を一つの販売導線へまとめるならGetResponse、CRMを中心にマーケティング・営業・サービスの履歴をつなぐならHubSpot Marketing Hubが有力です。",
+      "en": "Choose GetResponse for campaign funnels across email, landing pages, webinars, and automation; choose HubSpot Marketing Hub to connect marketing, sales, and service history around a CRM."
+    },
     "alternativeProduct": "activecampaign"
   },
   {
-    "slug": "mailerlite-vs-hubspot", "category": "seo-marketing", "topic": "email-marketing", "products": ["mailerlite", "hubspot-marketing"],
-    "angle": {"ja": "手軽なメール配信か、統合CRM・マーケティング基盤か", "en": "Approachable Email or an Integrated CRM Platform?"},
-    "axis": {"ja": "ニュースレター・フォーム・ページの簡単運用とCRMを中心とする部門横断の顧客管理", "en": "simple newsletters, forms, and pages versus cross-team customer operations around a CRM"},
-    "verdict": {"ja": "小規模チームがニュースレター、フォーム、ランディングページをわかりやすく運用するならMailerLite、顧客情報を中心にマーケティング・営業・サービスをつなぐならHubSpot Marketing Hubが向きます。", "en": "Choose MailerLite for approachable newsletters, forms, and pages in a small team; choose HubSpot Marketing Hub to connect marketing, sales, and service around customer records."},
+    "slug": "mailerlite-vs-hubspot",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "mailerlite",
+      "hubspot-marketing"
+    ],
+    "angle": {
+      "ja": "手軽なメール配信か、統合CRM・マーケティング基盤か",
+      "en": "Approachable Email or an Integrated CRM Platform?"
+    },
+    "axis": {
+      "ja": "ニュースレター・フォーム・ページの簡単運用とCRMを中心とする部門横断の顧客管理",
+      "en": "simple newsletters, forms, and pages versus cross-team customer operations around a CRM"
+    },
+    "verdict": {
+      "ja": "小規模チームがニュースレター、フォーム、ランディングページをわかりやすく運用するならMailerLite、顧客情報を中心にマーケティング・営業・サービスをつなぐならHubSpot Marketing Hubが向きます。",
+      "en": "Choose MailerLite for approachable newsletters, forms, and pages in a small team; choose HubSpot Marketing Hub to connect marketing, sales, and service around customer records."
+    },
     "alternativeProduct": "mailchimp"
   },
   {
-    "slug": "kit-vs-activecampaign", "category": "seo-marketing", "topic": "email-marketing", "products": ["kit", "activecampaign"],
-    "angle": {"ja": "クリエイターの読者収益化か、高度な行動自動化か", "en": "Creator Monetization or Advanced Behavior Automation?"},
-    "axis": {"ja": "タグ・シーケンス・商品で育てる読者運用と顧客行動に応じた複雑な自動化・営業連携", "en": "creator-led audience and product workflows versus sophisticated behavior-based automation and sales work"},
-    "verdict": {"ja": "ニュースレターの読者をタグとシーケンスで育て商品・購読へつなぐならKit、顧客行動に応じた分岐、スコアリング、複数チャネル、営業タスクまで設計するならActiveCampaignが有力です。", "en": "Choose Kit to nurture a creator audience through tags and sequences and connect it with products or subscriptions; choose ActiveCampaign for behavior-based branching, scoring, multiple channels, and sales tasks."},
+    "slug": "kit-vs-activecampaign",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "kit",
+      "activecampaign"
+    ],
+    "angle": {
+      "ja": "クリエイターの読者収益化か、高度な行動自動化か",
+      "en": "Creator Monetization or Advanced Behavior Automation?"
+    },
+    "axis": {
+      "ja": "タグ・シーケンス・商品で育てる読者運用と顧客行動に応じた複雑な自動化・営業連携",
+      "en": "creator-led audience and product workflows versus sophisticated behavior-based automation and sales work"
+    },
+    "verdict": {
+      "ja": "ニュースレターの読者をタグとシーケンスで育て商品・購読へつなぐならKit、顧客行動に応じた分岐、スコアリング、複数チャネル、営業タスクまで設計するならActiveCampaignが有力です。",
+      "en": "Choose Kit to nurture a creator audience through tags and sequences and connect it with products or subscriptions; choose ActiveCampaign for behavior-based branching, scoring, multiple channels, and sales tasks."
+    },
     "alternativeProduct": "getresponse"
   },
   {
-    "slug": "kit-vs-hubspot", "category": "seo-marketing", "topic": "email-marketing", "products": ["kit", "hubspot-marketing"],
-    "angle": {"ja": "クリエイター向け読者運用か、CRM中心の顧客管理か", "en": "Creator Audience Operations or CRM-Centered Growth?"},
-    "axis": {"ja": "読者・コンテンツ・商品をつなぐ配信とマーケティング・営業・サービスを横断するCRM運用", "en": "creator-led email and selling versus CRM operations across marketing, sales, and service"},
-    "verdict": {"ja": "ニュースレター、コンテンツ、商品を中心に読者との直接関係を育てるならKit、顧客情報を中心にマーケティング・営業・サービスの履歴を統合するならHubSpot Marketing Hubが向きます。", "en": "Choose Kit to build a direct audience around newsletters, content, and products; choose HubSpot Marketing Hub to integrate customer history across marketing, sales, and service."},
+    "slug": "kit-vs-hubspot",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "kit",
+      "hubspot-marketing"
+    ],
+    "angle": {
+      "ja": "クリエイター向け読者運用か、CRM中心の顧客管理か",
+      "en": "Creator Audience Operations or CRM-Centered Growth?"
+    },
+    "axis": {
+      "ja": "読者・コンテンツ・商品をつなぐ配信とマーケティング・営業・サービスを横断するCRM運用",
+      "en": "creator-led email and selling versus CRM operations across marketing, sales, and service"
+    },
+    "verdict": {
+      "ja": "ニュースレター、コンテンツ、商品を中心に読者との直接関係を育てるならKit、顧客情報を中心にマーケティング・営業・サービスの履歴を統合するならHubSpot Marketing Hubが向きます。",
+      "en": "Choose Kit to build a direct audience around newsletters, content, and products; choose HubSpot Marketing Hub to integrate customer history across marketing, sales, and service."
+    },
     "alternativeProduct": "mailchimp"
   },
   {
-    "slug": "se-ranking-vs-mangools", "category": "seo-marketing", "topic": "seo-tools", "products": ["se-ranking", "mangools"],
-    "angle": {"ja": "複数案件のSEO管理か、軽量なキーワード調査か", "en": "Multi-Project SEO Management or Lightweight Keyword Research?"},
-    "axis": {"ja": "順位・監査・レポートをまとめる案件管理と少ない学習で進めるキーワード・SERP調査", "en": "project-based tracking, audits, and reporting versus approachable keyword and SERP research"},
-    "verdict": {"ja": "複数サイトの順位、監査、競合、レポートを継続管理するならSE Ranking、キーワード、SERP、被リンクの主要調査を少ない学習で始めるならMangoolsが向きます。", "en": "Choose SE Ranking for ongoing tracking, audits, competitors, and reporting across sites; choose Mangools for approachable keyword, SERP, and backlink research with less platform complexity."},
+    "slug": "se-ranking-vs-mangools",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "se-ranking",
+      "mangools"
+    ],
+    "angle": {
+      "ja": "複数案件のSEO管理か、軽量なキーワード調査か",
+      "en": "Multi-Project SEO Management or Lightweight Keyword Research?"
+    },
+    "axis": {
+      "ja": "順位・監査・レポートをまとめる案件管理と少ない学習で進めるキーワード・SERP調査",
+      "en": "project-based tracking, audits, and reporting versus approachable keyword and SERP research"
+    },
+    "verdict": {
+      "ja": "複数サイトの順位、監査、競合、レポートを継続管理するならSE Ranking、キーワード、SERP、被リンクの主要調査を少ない学習で始めるならMangoolsが向きます。",
+      "en": "Choose SE Ranking for ongoing tracking, audits, competitors, and reporting across sites; choose Mangools for approachable keyword, SERP, and backlink research with less platform complexity."
+    },
     "alternativeProduct": "semrush"
   },
   {
-    "slug": "mangools-vs-ubersuggest", "category": "seo-marketing", "topic": "seo-tools", "products": ["mangools", "ubersuggest"],
-    "angle": {"ja": "軽量なキーワード・SERP調査か、初心者向けSEO一式か", "en": "Focused Keyword Research or an Approachable SEO Toolkit?"},
-    "axis": {"ja": "キーワード・SERP・被リンクの分かりやすい調査と順位計測・監査を含む一体運用", "en": "focused keyword, SERP, and backlink research versus a combined toolkit with tracking and audits"},
-    "verdict": {"ja": "キーワード、SERP、被リンクの主要調査をシンプルに進めるならMangools、キーワード、競合、順位計測、サイト監査を一つの画面で始めるならUbersuggestが候補です。", "en": "Choose Mangools for a focused and approachable keyword, SERP, and backlink workflow; choose Ubersuggest to begin keyword, competitor, rank-tracking, and site-audit work in one toolkit."},
+    "slug": "mangools-vs-ubersuggest",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "mangools",
+      "ubersuggest"
+    ],
+    "angle": {
+      "ja": "軽量なキーワード・SERP調査か、初心者向けSEO一式か",
+      "en": "Focused Keyword Research or an Approachable SEO Toolkit?"
+    },
+    "axis": {
+      "ja": "キーワード・SERP・被リンクの分かりやすい調査と順位計測・監査を含む一体運用",
+      "en": "focused keyword, SERP, and backlink research versus a combined toolkit with tracking and audits"
+    },
+    "verdict": {
+      "ja": "キーワード、SERP、被リンクの主要調査をシンプルに進めるならMangools、キーワード、競合、順位計測、サイト監査を一つの画面で始めるならUbersuggestが候補です。",
+      "en": "Choose Mangools for a focused and approachable keyword, SERP, and backlink workflow; choose Ubersuggest to begin keyword, competitor, rank-tracking, and site-audit work in one toolkit."
+    },
     "alternativeProduct": "se-ranking"
   },
-
   {
-    "slug": "monday-vs-trello", "category": "business-software", "topic": "project-management", "products": ["monday", "trello"],
-    "angle": {"ja": "部門業務の柔軟な設計か、シンプルなカード管理か", "en": "Configurable Department Workflows or Simple Card Boards?"},
-    "axis": {"ja": "ボード・列・自動化で組む部門業務とカードを動かす直感的な進行管理", "en": "configurable department workflows versus intuitive card-based progress tracking"},
-    "verdict": {"ja": "複数部門の案件、担当、数値、定型作業をボードと自動化で設計するならmonday.com、少ない設定でカードを動かし作業の流れを共有するならTrelloが向きます。", "en": "Choose monday.com to configure projects, ownership, metrics, and automation across departments; choose Trello for a lower-setup visual flow built around cards and lists."},
+    "slug": "monday-vs-trello",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "monday",
+      "trello"
+    ],
+    "angle": {
+      "ja": "部門業務の柔軟な設計か、シンプルなカード管理か",
+      "en": "Configurable Department Workflows or Simple Card Boards?"
+    },
+    "axis": {
+      "ja": "ボード・列・自動化で組む部門業務とカードを動かす直感的な進行管理",
+      "en": "configurable department workflows versus intuitive card-based progress tracking"
+    },
+    "verdict": {
+      "ja": "複数部門の案件、担当、数値、定型作業をボードと自動化で設計するならmonday.com、少ない設定でカードを動かし作業の流れを共有するならTrelloが向きます。",
+      "en": "Choose monday.com to configure projects, ownership, metrics, and automation across departments; choose Trello for a lower-setup visual flow built around cards and lists."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "monday-vs-notion", "category": "business-software", "topic": "project-management", "products": ["monday", "notion"],
-    "angle": {"ja": "視覚的な業務管理か、文書・ナレッジ中心の仕事場か", "en": "Visual Operations or a Docs-and-Knowledge Workspace?"},
-    "axis": {"ja": "担当・期限・数値を追う部門ワークフローと文書・Wiki・データベースをつなぐ情報管理", "en": "department workflows tracking owners and deadlines versus connected documents, wikis, and databases"},
-    "verdict": {"ja": "部門の案件、担当、期限、数値をボードと自動化で可視化するならmonday.com、文書、Wiki、議事録、データベースを柔軟にまとめるならNotionが有力です。", "en": "Choose monday.com to visualize department projects, owners, deadlines, and metrics through boards and automation; choose Notion to combine documents, wikis, notes, and databases flexibly."},
+    "slug": "monday-vs-notion",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "monday",
+      "notion"
+    ],
+    "angle": {
+      "ja": "視覚的な業務管理か、文書・ナレッジ中心の仕事場か",
+      "en": "Visual Operations or a Docs-and-Knowledge Workspace?"
+    },
+    "axis": {
+      "ja": "担当・期限・数値を追う部門ワークフローと文書・Wiki・データベースをつなぐ情報管理",
+      "en": "department workflows tracking owners and deadlines versus connected documents, wikis, and databases"
+    },
+    "verdict": {
+      "ja": "部門の案件、担当、期限、数値をボードと自動化で可視化するならmonday.com、文書、Wiki、議事録、データベースを柔軟にまとめるならNotionが有力です。",
+      "en": "Choose monday.com to visualize department projects, owners, deadlines, and metrics through boards and automation; choose Notion to combine documents, wikis, notes, and databases flexibly."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "clickup-vs-airtable", "category": "business-software", "topic": "project-management", "products": ["clickup", "airtable"],
-    "angle": {"ja": "仕事を集約する多機能基盤か、柔軟な業務データベースか", "en": "All-in-One Work Hub or Flexible Business Database?"},
-    "axis": {"ja": "タスク・文書・目標・ダッシュボードの集約と関連データから作る独自業務アプリ", "en": "consolidated tasks, documents, goals, and dashboards versus custom apps built from related records"},
-    "verdict": {"ja": "タスク、文書、目標、ダッシュボードを一つの作業空間へまとめるならClickUp、顧客、案件、在庫、コンテンツなどの関連データから独自業務を組むならAirtableが向きます。", "en": "Choose ClickUp to consolidate tasks, documents, goals, and dashboards; choose Airtable to build custom workflows from related customer, project, inventory, or content records."},
+    "slug": "clickup-vs-airtable",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "clickup",
+      "airtable"
+    ],
+    "angle": {
+      "ja": "仕事を集約する多機能基盤か、柔軟な業務データベースか",
+      "en": "All-in-One Work Hub or Flexible Business Database?"
+    },
+    "axis": {
+      "ja": "タスク・文書・目標・ダッシュボードの集約と関連データから作る独自業務アプリ",
+      "en": "consolidated tasks, documents, goals, and dashboards versus custom apps built from related records"
+    },
+    "verdict": {
+      "ja": "タスク、文書、目標、ダッシュボードを一つの作業空間へまとめるならClickUp、顧客、案件、在庫、コンテンツなどの関連データから独自業務を組むならAirtableが向きます。",
+      "en": "Choose ClickUp to consolidate tasks, documents, goals, and dashboards; choose Airtable to build custom workflows from related customer, project, inventory, or content records."
+    },
     "alternativeProduct": "monday"
   },
   {
-    "slug": "clickup-vs-todoist", "category": "business-software", "topic": "project-management", "products": ["clickup", "todoist"],
-    "angle": {"ja": "多機能なチーム基盤か、集中しやすいタスク管理か", "en": "Configurable Team Platform or Focused Task Management?"},
-    "axis": {"ja": "複数機能を集約するチーム運用と素早い個人タスク・予定整理", "en": "a configurable team workspace versus fast personal task capture and planning"},
-    "verdict": {"ja": "タスク、文書、目標、ダッシュボードをチームの一つの基盤へ集約するならClickUp、個人や小規模チームが日々のタスクと予定を素早く整理するならTodoistが向きます。", "en": "Choose ClickUp to consolidate tasks, documents, goals, and dashboards for a team; choose Todoist for fast daily task capture and planning by an individual or small group."},
+    "slug": "clickup-vs-todoist",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "clickup",
+      "todoist"
+    ],
+    "angle": {
+      "ja": "多機能なチーム基盤か、集中しやすいタスク管理か",
+      "en": "Configurable Team Platform or Focused Task Management?"
+    },
+    "axis": {
+      "ja": "複数機能を集約するチーム運用と素早い個人タスク・予定整理",
+      "en": "a configurable team workspace versus fast personal task capture and planning"
+    },
+    "verdict": {
+      "ja": "タスク、文書、目標、ダッシュボードをチームの一つの基盤へ集約するならClickUp、個人や小規模チームが日々のタスクと予定を素早く整理するならTodoistが向きます。",
+      "en": "Choose ClickUp to consolidate tasks, documents, goals, and dashboards for a team; choose Todoist for fast daily task capture and planning by an individual or small group."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "clickup-vs-basecamp", "category": "business-software", "topic": "project-management", "products": ["clickup", "basecamp"],
-    "angle": {"ja": "多機能な仕事集約か、案件ごとの連絡・資料整理か", "en": "All-in-One Work Hub or Project-Centered Communication?"},
-    "axis": {"ja": "詳細に構成できるタスク・文書・目標と案件単位のメッセージ・予定・資料集約", "en": "configurable tasks, documents, and goals versus project-centered messages, schedules, and files"},
-    "verdict": {"ja": "タスク、文書、目標、ダッシュボードを細かく構成して集約するならClickUp、案件ごとにメッセージ、予定、To-do、資料、定期確認を分かりやすくまとめるならBasecampが向きます。", "en": "Choose ClickUp for a highly configurable hub across tasks, documents, goals, and dashboards; choose Basecamp to organize messages, schedules, to-dos, files, and check-ins around each project."},
+    "slug": "clickup-vs-basecamp",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "clickup",
+      "basecamp"
+    ],
+    "angle": {
+      "ja": "多機能な仕事集約か、案件ごとの連絡・資料整理か",
+      "en": "All-in-One Work Hub or Project-Centered Communication?"
+    },
+    "axis": {
+      "ja": "詳細に構成できるタスク・文書・目標と案件単位のメッセージ・予定・資料集約",
+      "en": "configurable tasks, documents, and goals versus project-centered messages, schedules, and files"
+    },
+    "verdict": {
+      "ja": "タスク、文書、目標、ダッシュボードを細かく構成して集約するならClickUp、案件ごとにメッセージ、予定、To-do、資料、定期確認を分かりやすくまとめるならBasecampが向きます。",
+      "en": "Choose ClickUp for a highly configurable hub across tasks, documents, goals, and dashboards; choose Basecamp to organize messages, schedules, to-dos, files, and check-ins around each project."
+    },
     "alternativeProduct": "monday"
   },
   {
-    "slug": "trello-vs-wrike", "category": "business-software", "topic": "project-management", "products": ["trello", "wrike"],
-    "angle": {"ja": "シンプルなカード管理か、承認・リソースを含む制作統制か", "en": "Simple Card Boards or Governed Production Work?"},
-    "axis": {"ja": "少ない設定で共有する進行状況と校正・承認・工数・リソースの統制", "en": "low-setup visual progress versus controlled proofing, approvals, effort, and resources"},
-    "verdict": {"ja": "カードとリストで作業の流れを直感的に共有するならTrello、制作物の校正、承認、工数、リソースを標準化して管理するならWrikeが有力です。", "en": "Choose Trello for an intuitive flow of work represented by cards and lists; choose Wrike to standardize proofing, approvals, effort, and resources in production work."},
+    "slug": "trello-vs-wrike",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "trello",
+      "wrike"
+    ],
+    "angle": {
+      "ja": "シンプルなカード管理か、承認・リソースを含む制作統制か",
+      "en": "Simple Card Boards or Governed Production Work?"
+    },
+    "axis": {
+      "ja": "少ない設定で共有する進行状況と校正・承認・工数・リソースの統制",
+      "en": "low-setup visual progress versus controlled proofing, approvals, effort, and resources"
+    },
+    "verdict": {
+      "ja": "カードとリストで作業の流れを直感的に共有するならTrello、制作物の校正、承認、工数、リソースを標準化して管理するならWrikeが有力です。",
+      "en": "Choose Trello for an intuitive flow of work represented by cards and lists; choose Wrike to standardize proofing, approvals, effort, and resources in production work."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "trello-vs-airtable", "category": "business-software", "topic": "project-management", "products": ["trello", "airtable"],
-    "angle": {"ja": "カード中心の進行管理か、関連データを使う業務アプリか", "en": "Card-Based Progress or Relational Business Apps?"},
-    "axis": {"ja": "視覚的な作業フローと顧客・案件・在庫などを関連付けるデータベース運用", "en": "visual card flow versus database workflows relating customers, projects, inventory, or content"},
-    "verdict": {"ja": "カードをリスト間で動かしながら作業の進捗を共有するならTrello、複数種類の業務データを関連付けて表示や自動化を独自設計するならAirtableが向きます。", "en": "Choose Trello to share progress by moving cards through lists; choose Airtable to relate several types of business records and design custom views and automation."},
+    "slug": "trello-vs-airtable",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "trello",
+      "airtable"
+    ],
+    "angle": {
+      "ja": "カード中心の進行管理か、関連データを使う業務アプリか",
+      "en": "Card-Based Progress or Relational Business Apps?"
+    },
+    "axis": {
+      "ja": "視覚的な作業フローと顧客・案件・在庫などを関連付けるデータベース運用",
+      "en": "visual card flow versus database workflows relating customers, projects, inventory, or content"
+    },
+    "verdict": {
+      "ja": "カードをリスト間で動かしながら作業の進捗を共有するならTrello、複数種類の業務データを関連付けて表示や自動化を独自設計するならAirtableが向きます。",
+      "en": "Choose Trello to share progress by moving cards through lists; choose Airtable to relate several types of business records and design custom views and automation."
+    },
     "alternativeProduct": "notion"
   },
   {
-    "slug": "asana-vs-basecamp", "category": "business-software", "topic": "project-management", "products": ["asana", "basecamp"],
-    "angle": {"ja": "構造化したプロジェクト実行か、案件ごとの連絡集約か", "en": "Structured Project Execution or Project Communication Hubs?"},
-    "axis": {"ja": "タスク・期限・依存関係・目標の実行管理とメッセージ・予定・資料をまとめる案件運用", "en": "tasks, dependencies, and goals versus messages, schedules, and files centered on each project"},
-    "verdict": {"ja": "タスク、期限、依存関係、目標を複数チームの実行計画へ落とすならAsana、案件ごとにメッセージ、予定、To-do、資料、定期確認を一つに集めるならBasecampが向きます。", "en": "Choose Asana to organize tasks, deadlines, dependencies, and goals across teams; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."},
+    "slug": "asana-vs-basecamp",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "asana",
+      "basecamp"
+    ],
+    "angle": {
+      "ja": "構造化したプロジェクト実行か、案件ごとの連絡集約か",
+      "en": "Structured Project Execution or Project Communication Hubs?"
+    },
+    "axis": {
+      "ja": "タスク・期限・依存関係・目標の実行管理とメッセージ・予定・資料をまとめる案件運用",
+      "en": "tasks, dependencies, and goals versus messages, schedules, and files centered on each project"
+    },
+    "verdict": {
+      "ja": "タスク、期限、依存関係、目標を複数チームの実行計画へ落とすならAsana、案件ごとにメッセージ、予定、To-do、資料、定期確認を一つに集めるならBasecampが向きます。",
+      "en": "Choose Asana to organize tasks, deadlines, dependencies, and goals across teams; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."
+    },
     "alternativeProduct": "monday"
   },
   {
-    "slug": "notion-vs-jira", "category": "business-software", "topic": "project-management", "products": ["notion", "jira"],
-    "angle": {"ja": "文書・ナレッジ中心の仕事場か、開発課題・リリース管理か", "en": "Knowledge Workspace or Software Issue and Release Management?"},
-    "axis": {"ja": "文書・Wiki・データベースの柔軟な情報管理と開発チームの課題・スプリント・リリース統制", "en": "flexible documents, wikis, and databases versus governed software issues, sprints, and releases"},
-    "verdict": {"ja": "文書、Wiki、議事録、データベースを一つの情報空間へまとめるならNotion、開発チームが課題、スプリント、リリース、権限を専門的に管理するならJiraが有力です。", "en": "Choose Notion to combine documents, wikis, notes, and databases in one information workspace; choose Jira for specialized management of software issues, sprints, releases, and permissions."},
+    "slug": "notion-vs-jira",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "notion",
+      "jira"
+    ],
+    "angle": {
+      "ja": "文書・ナレッジ中心の仕事場か、開発課題・リリース管理か",
+      "en": "Knowledge Workspace or Software Issue and Release Management?"
+    },
+    "axis": {
+      "ja": "文書・Wiki・データベースの柔軟な情報管理と開発チームの課題・スプリント・リリース統制",
+      "en": "flexible documents, wikis, and databases versus governed software issues, sprints, and releases"
+    },
+    "verdict": {
+      "ja": "文書、Wiki、議事録、データベースを一つの情報空間へまとめるならNotion、開発チームが課題、スプリント、リリース、権限を専門的に管理するならJiraが有力です。",
+      "en": "Choose Notion to combine documents, wikis, notes, and databases in one information workspace; choose Jira for specialized management of software issues, sprints, releases, and permissions."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "notion-vs-wrike", "category": "business-software", "topic": "project-management", "products": ["notion", "wrike"],
-    "angle": {"ja": "文書・ナレッジ管理か、承認を含む制作プロセスか", "en": "Knowledge Management or Governed Production Work?"},
-    "axis": {"ja": "柔軟な文書・Wiki・データベースと校正・承認・工数・リソースを統制する制作運用", "en": "flexible documents and databases versus production governed through proofing, approvals, and resources"},
-    "verdict": {"ja": "文書、Wiki、議事録、データベースを柔軟にまとめるならNotion、制作物の校正、承認、工数、リソース配分を標準化するならWrikeが向きます。", "en": "Choose Notion for flexible documents, wikis, notes, and databases; choose Wrike to standardize proofing, approvals, effort, and resource allocation in production work."},
+    "slug": "notion-vs-wrike",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "notion",
+      "wrike"
+    ],
+    "angle": {
+      "ja": "文書・ナレッジ管理か、承認を含む制作プロセスか",
+      "en": "Knowledge Management or Governed Production Work?"
+    },
+    "axis": {
+      "ja": "柔軟な文書・Wiki・データベースと校正・承認・工数・リソースを統制する制作運用",
+      "en": "flexible documents and databases versus production governed through proofing, approvals, and resources"
+    },
+    "verdict": {
+      "ja": "文書、Wiki、議事録、データベースを柔軟にまとめるならNotion、制作物の校正、承認、工数、リソース配分を標準化するならWrikeが向きます。",
+      "en": "Choose Notion for flexible documents, wikis, notes, and databases; choose Wrike to standardize proofing, approvals, effort, and resource allocation in production work."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "notion-vs-todoist", "category": "business-software", "topic": "project-management", "products": ["notion", "todoist"],
-    "angle": {"ja": "情報とプロジェクトの集約か、日々のタスク集中か", "en": "Connected Knowledge and Projects or Focused Daily Tasks?"},
-    "axis": {"ja": "文書・Wiki・データベースをつなぐ情報管理と素早いタスク入力・優先順位・予定整理", "en": "connected documents and databases versus fast task capture, priorities, and planning"},
-    "verdict": {"ja": "文書、Wiki、議事録、データベースとプロジェクト情報を一つにまとめるならNotion、個人や小規模チームが日々のタスクを素早く追加し優先順位を整えるならTodoistが向きます。", "en": "Choose Notion to connect documents, wikis, notes, databases, and project information; choose Todoist for fast daily task capture, priorities, and planning by an individual or small team."},
+    "slug": "notion-vs-todoist",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "notion",
+      "todoist"
+    ],
+    "angle": {
+      "ja": "情報とプロジェクトの集約か、日々のタスク集中か",
+      "en": "Connected Knowledge and Projects or Focused Daily Tasks?"
+    },
+    "axis": {
+      "ja": "文書・Wiki・データベースをつなぐ情報管理と素早いタスク入力・優先順位・予定整理",
+      "en": "connected documents and databases versus fast task capture, priorities, and planning"
+    },
+    "verdict": {
+      "ja": "文書、Wiki、議事録、データベースとプロジェクト情報を一つにまとめるならNotion、個人や小規模チームが日々のタスクを素早く追加し優先順位を整えるならTodoistが向きます。",
+      "en": "Choose Notion to connect documents, wikis, notes, databases, and project information; choose Todoist for fast daily task capture, priorities, and planning by an individual or small team."
+    },
     "alternativeProduct": "trello"
   },
   {
-    "slug": "notion-vs-basecamp", "category": "business-software", "topic": "project-management", "products": ["notion", "basecamp"],
-    "angle": {"ja": "柔軟な情報基盤か、案件ごとの連絡・資料集約か", "en": "Flexible Knowledge Workspace or Project Communication Hub?"},
-    "axis": {"ja": "文書・Wiki・データベースの自由な構成と案件単位のメッセージ・予定・資料管理", "en": "flexible documents and databases versus project-centered messages, schedules, and files"},
-    "verdict": {"ja": "文書、Wiki、データベースを業務に合わせて自由に構成するならNotion、案件ごとにメッセージ、予定、To-do、資料、定期確認を分かりやすく集めるならBasecampが向きます。", "en": "Choose Notion to configure documents, wikis, and databases around the business; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."},
+    "slug": "notion-vs-basecamp",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "notion",
+      "basecamp"
+    ],
+    "angle": {
+      "ja": "柔軟な情報基盤か、案件ごとの連絡・資料集約か",
+      "en": "Flexible Knowledge Workspace or Project Communication Hub?"
+    },
+    "axis": {
+      "ja": "文書・Wiki・データベースの自由な構成と案件単位のメッセージ・予定・資料管理",
+      "en": "flexible documents and databases versus project-centered messages, schedules, and files"
+    },
+    "verdict": {
+      "ja": "文書、Wiki、データベースを業務に合わせて自由に構成するならNotion、案件ごとにメッセージ、予定、To-do、資料、定期確認を分かりやすく集めるならBasecampが向きます。",
+      "en": "Choose Notion to configure documents, wikis, and databases around the business; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "jira-vs-wrike", "category": "business-software", "topic": "project-management", "products": ["jira", "wrike"],
-    "angle": {"ja": "ソフトウェア開発管理か、部門横断の制作統制か", "en": "Software Delivery or Cross-Functional Production Governance?"},
-    "axis": {"ja": "課題・スプリント・リリースの開発工程と校正・承認・工数・リソースを含む制作工程", "en": "software issues, sprints, and releases versus production proofing, approvals, effort, and resources"},
-    "verdict": {"ja": "開発チームが課題、スプリント、リリース、権限を専門的に管理するならJira、制作物の校正、承認、工数、リソースを部門横断で統制するならWrikeが有力です。", "en": "Choose Jira for specialized software issues, sprints, releases, and permissions; choose Wrike for cross-functional proofing, approvals, effort, and resource management in production work."},
+    "slug": "jira-vs-wrike",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "jira",
+      "wrike"
+    ],
+    "angle": {
+      "ja": "ソフトウェア開発管理か、部門横断の制作統制か",
+      "en": "Software Delivery or Cross-Functional Production Governance?"
+    },
+    "axis": {
+      "ja": "課題・スプリント・リリースの開発工程と校正・承認・工数・リソースを含む制作工程",
+      "en": "software issues, sprints, and releases versus production proofing, approvals, effort, and resources"
+    },
+    "verdict": {
+      "ja": "開発チームが課題、スプリント、リリース、権限を専門的に管理するならJira、制作物の校正、承認、工数、リソースを部門横断で統制するならWrikeが有力です。",
+      "en": "Choose Jira for specialized software issues, sprints, releases, and permissions; choose Wrike for cross-functional proofing, approvals, effort, and resource management in production work."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "jira-vs-airtable", "category": "business-software", "topic": "project-management", "products": ["jira", "airtable"],
-    "angle": {"ja": "開発課題・リリース管理か、独自の業務データベースか", "en": "Software Issue Management or Custom Business Databases?"},
-    "axis": {"ja": "開発工程を標準化する課題管理と関連データから作る独自業務アプリ", "en": "standardized software delivery versus custom apps built from related business records"},
-    "verdict": {"ja": "開発チームの課題、スプリント、リリースを標準的な工程で管理するならJira、顧客、案件、在庫、コンテンツなどの関連データから独自業務を作るならAirtableが向きます。", "en": "Choose Jira for standardized management of software issues, sprints, and releases; choose Airtable to build custom workflows from related customer, project, inventory, or content records."},
+    "slug": "jira-vs-airtable",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "jira",
+      "airtable"
+    ],
+    "angle": {
+      "ja": "開発課題・リリース管理か、独自の業務データベースか",
+      "en": "Software Issue Management or Custom Business Databases?"
+    },
+    "axis": {
+      "ja": "開発工程を標準化する課題管理と関連データから作る独自業務アプリ",
+      "en": "standardized software delivery versus custom apps built from related business records"
+    },
+    "verdict": {
+      "ja": "開発チームの課題、スプリント、リリースを標準的な工程で管理するならJira、顧客、案件、在庫、コンテンツなどの関連データから独自業務を作るならAirtableが向きます。",
+      "en": "Choose Jira for standardized management of software issues, sprints, and releases; choose Airtable to build custom workflows from related customer, project, inventory, or content records."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "wrike-vs-airtable", "category": "business-software", "topic": "project-management", "products": ["wrike", "airtable"],
-    "angle": {"ja": "承認・リソースを含む制作統制か、柔軟な業務アプリか", "en": "Production Governance or Flexible Business Apps?"},
-    "axis": {"ja": "校正・承認・工数・リソースを標準化する制作運用と関連データから作る独自業務", "en": "standardized proofing, approvals, effort, and resources versus custom workflows built from related records"},
-    "verdict": {"ja": "制作物の校正、承認、工数、リソースを標準化して管理するならWrike、複数種類の業務データを関連付けて表示や自動化を独自設計するならAirtableが向きます。", "en": "Choose Wrike to standardize proofing, approvals, effort, and resources in production; choose Airtable to relate business records and design custom views and automation."},
+    "slug": "wrike-vs-airtable",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "wrike",
+      "airtable"
+    ],
+    "angle": {
+      "ja": "承認・リソースを含む制作統制か、柔軟な業務アプリか",
+      "en": "Production Governance or Flexible Business Apps?"
+    },
+    "axis": {
+      "ja": "校正・承認・工数・リソースを標準化する制作運用と関連データから作る独自業務",
+      "en": "standardized proofing, approvals, effort, and resources versus custom workflows built from related records"
+    },
+    "verdict": {
+      "ja": "制作物の校正、承認、工数、リソースを標準化して管理するならWrike、複数種類の業務データを関連付けて表示や自動化を独自設計するならAirtableが向きます。",
+      "en": "Choose Wrike to standardize proofing, approvals, effort, and resources in production; choose Airtable to relate business records and design custom views and automation."
+    },
     "alternativeProduct": "monday"
   },
   {
-    "slug": "wrike-vs-basecamp", "category": "business-software", "topic": "project-management", "products": ["wrike", "basecamp"],
-    "angle": {"ja": "複雑な制作統制か、分かりやすい案件コミュニケーションか", "en": "Complex Production Governance or Simpler Project Communication?"},
-    "axis": {"ja": "校正・承認・工数・リソースを含む制作工程と案件単位のメッセージ・予定・資料集約", "en": "production proofing, approvals, and resources versus project-centered messages, schedules, and files"},
-    "verdict": {"ja": "制作物の校正、承認、工数、リソース配分を細かく統制するならWrike、案件ごとにメッセージ、予定、To-do、資料、定期確認を分かりやすくまとめるならBasecampが向きます。", "en": "Choose Wrike for detailed proofing, approvals, effort, and resource allocation; choose Basecamp to organize messages, schedules, to-dos, files, and check-ins around each project."},
+    "slug": "wrike-vs-basecamp",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "wrike",
+      "basecamp"
+    ],
+    "angle": {
+      "ja": "複雑な制作統制か、分かりやすい案件コミュニケーションか",
+      "en": "Complex Production Governance or Simpler Project Communication?"
+    },
+    "axis": {
+      "ja": "校正・承認・工数・リソースを含む制作工程と案件単位のメッセージ・予定・資料集約",
+      "en": "production proofing, approvals, and resources versus project-centered messages, schedules, and files"
+    },
+    "verdict": {
+      "ja": "制作物の校正、承認、工数、リソース配分を細かく統制するならWrike、案件ごとにメッセージ、予定、To-do、資料、定期確認を分かりやすくまとめるならBasecampが向きます。",
+      "en": "Choose Wrike for detailed proofing, approvals, effort, and resource allocation; choose Basecamp to organize messages, schedules, to-dos, files, and check-ins around each project."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "airtable-vs-basecamp", "category": "business-software", "topic": "project-management", "products": ["airtable", "basecamp"],
-    "angle": {"ja": "独自の業務データベースか、案件ごとの連絡・資料集約か", "en": "Custom Business Database or Project Communication Hub?"},
-    "axis": {"ja": "関連データから作る業務アプリと案件単位のメッセージ・予定・To-do・資料管理", "en": "custom workflows built from related records versus project-centered communication, schedules, and files"},
-    "verdict": {"ja": "顧客、案件、在庫、コンテンツなどの関連データから独自業務を組むならAirtable、案件ごとにメッセージ、予定、To-do、資料、定期確認を一つに集めるならBasecampが向きます。", "en": "Choose Airtable to build custom workflows from related customer, project, inventory, or content records; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."},
+    "slug": "airtable-vs-basecamp",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "airtable",
+      "basecamp"
+    ],
+    "angle": {
+      "ja": "独自の業務データベースか、案件ごとの連絡・資料集約か",
+      "en": "Custom Business Database or Project Communication Hub?"
+    },
+    "axis": {
+      "ja": "関連データから作る業務アプリと案件単位のメッセージ・予定・To-do・資料管理",
+      "en": "custom workflows built from related records versus project-centered communication, schedules, and files"
+    },
+    "verdict": {
+      "ja": "顧客、案件、在庫、コンテンツなどの関連データから独自業務を組むならAirtable、案件ごとにメッセージ、予定、To-do、資料、定期確認を一つに集めるならBasecampが向きます。",
+      "en": "Choose Airtable to build custom workflows from related customer, project, inventory, or content records; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."
+    },
     "alternativeProduct": "notion"
   },
   {
-    "slug": "todoist-vs-basecamp", "category": "business-software", "topic": "project-management", "products": ["todoist", "basecamp"],
-    "angle": {"ja": "個人・小規模チームのタスク集中か、案件単位のチーム運用か", "en": "Focused Tasks or Project-Centered Team Operations?"},
-    "axis": {"ja": "素早いタスク入力・優先順位・予定整理と案件ごとのメッセージ・予定・資料集約", "en": "fast task capture and planning versus project-centered messages, schedules, and files"},
-    "verdict": {"ja": "個人や小規模チームが日々のタスクを素早く追加し優先順位と予定を整えるならTodoist、案件ごとにメッセージ、予定、To-do、資料、定期確認を一つに集めるならBasecampが向きます。", "en": "Choose Todoist for fast daily task capture, priorities, and planning; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."},
+    "slug": "todoist-vs-basecamp",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "todoist",
+      "basecamp"
+    ],
+    "angle": {
+      "ja": "個人・小規模チームのタスク集中か、案件単位のチーム運用か",
+      "en": "Focused Tasks or Project-Centered Team Operations?"
+    },
+    "axis": {
+      "ja": "素早いタスク入力・優先順位・予定整理と案件ごとのメッセージ・予定・資料集約",
+      "en": "fast task capture and planning versus project-centered messages, schedules, and files"
+    },
+    "verdict": {
+      "ja": "個人や小規模チームが日々のタスクを素早く追加し優先順位と予定を整えるならTodoist、案件ごとにメッセージ、予定、To-do、資料、定期確認を一つに集めるならBasecampが向きます。",
+      "en": "Choose Todoist for fast daily task capture, priorities, and planning; choose Basecamp to gather messages, schedules, to-dos, files, and check-ins around each project."
+    },
     "alternativeProduct": "trello"
   },
-
   {
-    "slug": "wordpress-com-vs-hostinger", "category": "hosting-security", "topic": "web-hosting", "products": ["wordpress-com", "hostinger"],
-    "angle": {"ja": "保守込みのホスト型WordPressか、低コストのサーバー運用か", "en": "Hosted WordPress or Lower-Cost General Hosting?"},
-    "axis": {"ja": "サービス側へ保守を寄せるWordPress運用とサーバー・ドメイン・メールをまとめる自主運用", "en": "platform-managed WordPress publishing versus owner-managed hosting, domain, and email"},
-    "verdict": {"ja": "保守をサービス側へ寄せながら記事とサイトを運用するならWordPress.com、サーバー、ドメイン、メールを低コストでまとめて自分で管理するならHostingerが向きます。", "en": "Choose WordPress.com for publishing with more maintenance handled by the service; choose Hostinger for lower-cost owner-managed hosting that can combine server, domain, and email."},
-    "alternativeProduct": "siteground"
+    "slug": "wordpress-com-vs-hostinger",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "wordpress-com",
+      "hostinger"
+    ],
+    "angle": {
+      "ja": "保守込みのホスト型WordPressか、低コストのサーバー運用か",
+      "en": "Hosted WordPress or Lower-Cost General Hosting?"
+    },
+    "axis": {
+      "ja": "サービス側へ保守を寄せるWordPress運用とサーバー・ドメイン・メールをまとめる自主運用",
+      "en": "platform-managed WordPress publishing versus owner-managed hosting, domain, and email"
+    },
+    "verdict": {
+      "ja": "保守をサービス側へ寄せながら記事とサイトを運用するならWordPress.com、サーバー、ドメイン、メールを低コストでまとめて自分で管理するならHostingerが向きます。",
+      "en": "Choose WordPress.com for publishing with more maintenance handled by the service; choose Hostinger for lower-cost owner-managed hosting that can combine server, domain, and email."
+    },
+    "alternativeProduct": "siteground",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "wordpress-com-vs-siteground", "category": "hosting-security", "topic": "web-hosting", "products": ["wordpress-com", "siteground"],
-    "angle": {"ja": "ホスト型WordPressか、管理機能付きのWordPressサーバーか", "en": "Hosted WordPress or Managed WordPress Hosting?"},
-    "axis": {"ja": "サービス側へ保守を寄せる公開運用とホスティング上でテーマ・プラグインを管理する自由度", "en": "platform-managed publishing versus hosted WordPress control over themes, plugins, and environments"},
-    "verdict": {"ja": "保守や基盤管理をサービス側へ寄せてコンテンツ運用に集中するならWordPress.com、テーマ・プラグインを選びながら管理機能付きサーバーを使うならSiteGroundが向きます。", "en": "Choose WordPress.com to focus on content with more platform maintenance handled by the service; choose SiteGround for managed hosting with greater control over WordPress themes, plugins, and environments."},
-    "alternativeProduct": "hostinger"
+    "slug": "wordpress-com-vs-siteground",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "wordpress-com",
+      "siteground"
+    ],
+    "angle": {
+      "ja": "ホスト型WordPressか、管理機能付きのWordPressサーバーか",
+      "en": "Hosted WordPress or Managed WordPress Hosting?"
+    },
+    "axis": {
+      "ja": "サービス側へ保守を寄せる公開運用とホスティング上でテーマ・プラグインを管理する自由度",
+      "en": "platform-managed publishing versus hosted WordPress control over themes, plugins, and environments"
+    },
+    "verdict": {
+      "ja": "保守や基盤管理をサービス側へ寄せてコンテンツ運用に集中するならWordPress.com、テーマ・プラグインを選びながら管理機能付きサーバーを使うならSiteGroundが向きます。",
+      "en": "Choose WordPress.com to focus on content with more platform maintenance handled by the service; choose SiteGround for managed hosting with greater control over WordPress themes, plugins, and environments."
+    },
+    "alternativeProduct": "hostinger",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "wordpress-com-vs-cloudways", "category": "hosting-security", "topic": "web-hosting", "products": ["wordpress-com", "cloudways"],
-    "angle": {"ja": "ホスト型WordPressか、選べるクラウド基盤の管理型運用か", "en": "Hosted WordPress or Managed Cloud Infrastructure?"},
-    "axis": {"ja": "公開・保守をサービス側へ寄せる運用とクラウド事業者・サーバー構成を選ぶ技術運用", "en": "platform-managed publishing versus technical control over cloud provider and server configuration"},
-    "verdict": {"ja": "基盤管理をサービス側へ寄せ記事やサイトの更新へ集中するならWordPress.com、クラウド事業者とサーバー構成を選びながらアプリを管理するならCloudwaysが有力です。", "en": "Choose WordPress.com to focus on site and content updates with platform operations handled by the service; choose Cloudways for managed applications with control over cloud provider and server configuration."},
-    "alternativeProduct": "kinsta"
+    "slug": "wordpress-com-vs-cloudways",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "wordpress-com",
+      "cloudways"
+    ],
+    "angle": {
+      "ja": "ホスト型WordPressか、選べるクラウド基盤の管理型運用か",
+      "en": "Hosted WordPress or Managed Cloud Infrastructure?"
+    },
+    "axis": {
+      "ja": "公開・保守をサービス側へ寄せる運用とクラウド事業者・サーバー構成を選ぶ技術運用",
+      "en": "platform-managed publishing versus technical control over cloud provider and server configuration"
+    },
+    "verdict": {
+      "ja": "基盤管理をサービス側へ寄せ記事やサイトの更新へ集中するならWordPress.com、クラウド事業者とサーバー構成を選びながらアプリを管理するならCloudwaysが有力です。",
+      "en": "Choose WordPress.com to focus on site and content updates with platform operations handled by the service; choose Cloudways for managed applications with control over cloud provider and server configuration."
+    },
+    "alternativeProduct": "kinsta",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "wordpress-com-vs-kinsta", "category": "hosting-security", "topic": "web-hosting", "products": ["wordpress-com", "kinsta"],
-    "angle": {"ja": "手軽なホスト型WordPressか、高性能な管理型WordPress基盤か", "en": "Simpler Hosted WordPress or Premium Managed WordPress?"},
-    "axis": {"ja": "コンテンツ中心の一体運用と速度・ステージング・分析・移行を重視する管理型運用", "en": "content-led hosted publishing versus managed performance, staging, analytics, and migration"},
-    "verdict": {"ja": "保守をサービス側へ寄せて記事や小規模サイトを一体運用するならWordPress.com、複数または重要なWordPressサイトで速度、ステージング、分析、移行支援を重視するならKinstaが向きます。", "en": "Choose WordPress.com for simpler content-led publishing with more operations handled by the service; choose Kinsta when important WordPress sites need managed performance, staging, analytics, and migration support."},
-    "alternativeProduct": "wp-engine"
+    "slug": "wordpress-com-vs-kinsta",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "wordpress-com",
+      "kinsta"
+    ],
+    "angle": {
+      "ja": "手軽なホスト型WordPressか、高性能な管理型WordPress基盤か",
+      "en": "Simpler Hosted WordPress or Premium Managed WordPress?"
+    },
+    "axis": {
+      "ja": "コンテンツ中心の一体運用と速度・ステージング・分析・移行を重視する管理型運用",
+      "en": "content-led hosted publishing versus managed performance, staging, analytics, and migration"
+    },
+    "verdict": {
+      "ja": "保守をサービス側へ寄せて記事や小規模サイトを一体運用するならWordPress.com、複数または重要なWordPressサイトで速度、ステージング、分析、移行支援を重視するならKinstaが向きます。",
+      "en": "Choose WordPress.com for simpler content-led publishing with more operations handled by the service; choose Kinsta when important WordPress sites need managed performance, staging, analytics, and migration support."
+    },
+    "alternativeProduct": "wp-engine",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "wordpress-com-vs-wp-engine", "category": "hosting-security", "topic": "web-hosting", "products": ["wordpress-com", "wp-engine"],
-    "angle": {"ja": "ホスト型WordPressの一体運用か、制作会社向けの管理型基盤か", "en": "Hosted WordPress or Agency-Grade Managed Operations?"},
-    "axis": {"ja": "コンテンツ中心のサービス一体運用と制作・検証・バックアップ・保守を標準化するチーム運用", "en": "content-led hosted publishing versus standardized production, staging, backups, and maintenance"},
-    "verdict": {"ja": "保守をサービス側へ寄せて記事やサイトを一体運用するならWordPress.com、制作会社やチームがWordPressの制作、検証、バックアップ、保守を標準化するならWP Engineが向きます。", "en": "Choose WordPress.com for content-led publishing with more operations handled by the service; choose WP Engine when an agency or team needs standardized WordPress production, staging, backups, and maintenance."},
-    "alternativeProduct": "kinsta"
+    "slug": "wordpress-com-vs-wp-engine",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "wordpress-com",
+      "wp-engine"
+    ],
+    "angle": {
+      "ja": "ホスト型WordPressの一体運用か、制作会社向けの管理型基盤か",
+      "en": "Hosted WordPress or Agency-Grade Managed Operations?"
+    },
+    "axis": {
+      "ja": "コンテンツ中心のサービス一体運用と制作・検証・バックアップ・保守を標準化するチーム運用",
+      "en": "content-led hosted publishing versus standardized production, staging, backups, and maintenance"
+    },
+    "verdict": {
+      "ja": "保守をサービス側へ寄せて記事やサイトを一体運用するならWordPress.com、制作会社やチームがWordPressの制作、検証、バックアップ、保守を標準化するならWP Engineが向きます。",
+      "en": "Choose WordPress.com for content-led publishing with more operations handled by the service; choose WP Engine when an agency or team needs standardized WordPress production, staging, backups, and maintenance."
+    },
+    "alternativeProduct": "kinsta",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   }
 ]

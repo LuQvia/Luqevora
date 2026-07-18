@@ -1,17 +1,17 @@
 {
   "featuredComparisons": [
+    "xserver-for-wordpress-vs-cpi",
+    "business-wordpress-hosting-comparison",
     "business-web-hosting-comparison",
-    "cpi-vs-xserver-business",
-    "shopify-vs-wix",
-    "semrush-vs-ahrefs",
-    "asana-vs-monday"
+    "xserver-for-wordpress-vs-xserver-business",
+    "cpi-vs-xserver-business"
   ],
   "featuredReviews": [
+    "xserver-for-wordpress-review",
     "cpi-rental-server-review",
-    "shopify-review",
-    "semrush-review",
-    "asana-review",
+    "kinsta-review",
+    "wp-engine-review",
     "hostinger-review",
-    "1password-review"
+    "semrush-review"
   ]
 }

@@ -1,0 +1,210 @@
+{
+  "id": "xserver-for-wordpress-vs-cpi-ja",
+  "translationKey": "xserver-for-wordpress-vs-cpi",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-for-wordpress-vs-cpi",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "法人向け比較・広告掲載",
+  "title": "XServer for WordPressとCPIを比較｜法人サイトにはどっち？",
+  "metaTitle": "XServer for WordPressとCPI比較｜料金・メール・運用",
+  "description": "XServer for WordPressとCPIを、WordPress管理、メール、ステージング、バックアップ、SLA、料金、サポートから比較します。",
+  "lead": "XServer for WordPressはWordPress専用の運用・権限管理に強く、CPIは法人メールと複数ドメインのWeb運用を一契約にまとめやすいサービスです。選択基準は「WordPress運用を専門化するか」「Webとメールを統合するか」です。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-long"
+    },
+    {
+      "label": "CPIレンタルサーバー",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress 公式ページ",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress 料金プラン",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress 機能一覧",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "14日間無料お試し期間",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "SLA品質保証制度",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "ステージング環境の同期",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "サブアカウント",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "設定おまかせサポート",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress専門家サポート",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "メールアカウントに関するFAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    },
+    {
+      "label": "CPI ビジネス スタンダード公式ページ",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI 料金",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI 仕様",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI SLA",
+      "url": "https://www.cpi.ad.jp/sla/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：WordPress運用か、Web・メール一体運用か",
+      "body": [
+        "複数のWordPressサイトをWPパネル、ステージング、サブアカウントで統一管理するならXServer for WordPressが有力です。企業メール、複数ドメイン、SmartReleaseを同じ契約で運用したいならCPIが適します。",
+        "料金だけでなく、メールを別契約にする費用、WordPress更新作業、復旧テスト、担当者の権限管理まで含めて比較します。"
+      ],
+      "bullets": [
+        "XServer for WordPress：WordPressサイト管理と制作フロー",
+        "CPI：Web、法人メール、複数ドメインの一体運用",
+        "両方で確認：バックアップ対象と復旧手順"
+      ]
+    },
+    {
+      "heading": "主要な違い",
+      "body": [
+        "同じ法人向けでも、製品の中心が異なります。"
+      ],
+      "table": {
+        "headers": [
+          "比較項目",
+          "XServer for WordPress",
+          "CPI ビジネス スタンダード"
+        ],
+        "rows": [
+          [
+            "サービスの中心",
+            "WordPress専用ホスティング",
+            "法人向け共用Web・メールサーバー"
+          ],
+          [
+            "メールアカウント",
+            "作成不可。WordPressからの送信のみ",
+            "法人メール機能を提供"
+          ],
+          [
+            "検証環境",
+            "各サイトにステージング1環境",
+            "SmartReleaseのテスト環境"
+          ],
+          [
+            "権限管理",
+            "サブアカウントをサイト単位で制御",
+            "ドメイン別環境と管理機能"
+          ],
+          [
+            "SLA",
+            "99.99%以上。Web・FTP・DB",
+            "100%基準。主契約Webが対象"
+          ],
+          [
+            "主な契約単位",
+            "4プラン、3～36か月",
+            "3・6・12か月"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "料金を比較するときの注意",
+      "body": [
+        "XServer for WordPressのベーシックは長期契約でCPIより低い月額表示になりますが、メールサービスを別途契約する場合はその費用を加えます。CPIは12か月契約で月額換算4,840円、初期費用無料と案内されています。",
+        "XServer for WordPressのプレミアム以上は初期費用があり、CPIの短期契約にも初期費用があります。キャンペーン金額ではなく、必要期間の総額と更新後料金で比較してください。"
+      ]
+    },
+    {
+      "heading": "制作・公開・復旧の違い",
+      "body": [
+        "XServer for WordPressはWordPressのコピー、一括更新、ステージング同期、サイト別リソース割り当てを中心に設計されています。WordPress制作会社や複数メディア運営に向きます。",
+        "CPIのSmartReleaseはWebファイルとデータベースのテスト、本番反映、復旧を支援します。WordPress以外の一般的なWebサイトや法人メールも同じ契約で運用しやすい点が異なります。"
+      ]
+    },
+    {
+      "heading": "どちらを選ぶか",
+      "body": [
+        "メールをGoogle Workspace等へ分離し、WordPress運用の省力化を優先するならXServer for WordPressを試します。Webとメールを同じ国内事業者へまとめ、複数ドメインを運用するならCPIを検討します。",
+        "無料試用では、移行、ステージング、本番反映、バックアップ復元、メール送信、担当者権限を実際に確認してください。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "企業メールも必要ならどちらですか？",
+      "answer": "CPIはメールアカウントを提供します。XServer for WordPressはメールアカウントを作成できないため、別のメールサービスが必要です。"
+    },
+    {
+      "question": "WordPress制作会社にはどちらが向きますか？",
+      "answer": "サイト単位のサブアカウント、ステージング、WordPress一括管理を重視する場合はXServer for WordPressが比較しやすいです。"
+    },
+    {
+      "question": "SLAの数値だけで選べますか？",
+      "answer": "いいえ。対象サービス、非稼働時間の定義、申請方法が異なるため、適用範囲まで確認してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "料金、機能、メール非対応の注意点を確認"
+    },
+    {
+      "label": "CPIレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/cpi-rental-server-review/",
+      "description": "法人メール、SmartRelease、SLAを確認"
+    },
+    {
+      "label": "法人向けサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "他の法人向け候補も比較"
+    }
+  ]
+}

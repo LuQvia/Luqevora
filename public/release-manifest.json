@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T21:31:37.847Z",
+  "generatedAt": "2026-07-18T22:00:15.308Z",
   "site": "https://luqevora.com",
   "hashAlgorithm": "sha256(html+global-assets+page-image)",
-  "assetFingerprint": "a8fc1e843a39d5c3bda84132b3559254314e32227d1d11ff02ec6ed66a77c9b2",
-  "pageCount": 303,
+  "assetFingerprint": "338f50604fe3170f9ef1b379d47bb955203b6a6e3b995cb19fcd3f7dadf37c11",
+  "pageCount": 311,
   "pages": [
     {
       "url": "https://luqevora.com/",
@@ -12,7 +12,7 @@
       "language": "",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "f5640ea6b5fe3f97a41e7c33c22f52474b31c04f7f1fd3d1f17685a2597a7fa5"
+      "hash": "d699cd5d00103eab975e0398f7b0fb1d4c9b44438ba48472db54a1599a98e439"
     },
     {
       "url": "https://luqevora.com/en/",
@@ -20,7 +20,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "617975d9b0c420620107ca33e39d58c35074b7d679ae5c1104c9abadab64565e"
+      "hash": "ff9eb8270a722a700eb4114e507caf5a842b34d5759bb5b9ebcfff5a36ef553c"
     },
     {
       "url": "https://luqevora.com/en/about/",
@@ -28,7 +28,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "28224d2bf34b9bd83ace5d5dabd2cb21d8b745d3b0999d9f8527b10e61d25129"
+      "hash": "043682e0e66f3eb474565539f5c8a8b541c83c258a1942f935ea7f58e439fe87"
     },
     {
       "url": "https://luqevora.com/en/affiliate-disclosure/",
@@ -36,7 +36,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "db13a7f65352ebda895d8982499f94410af402323b68f187794e07a16fd7c6b2"
+      "hash": "cd63687091bbd9022a0a127fec066bbbd6fb3c06ed50683b6363da723a57bfe0"
     },
     {
       "url": "https://luqevora.com/en/ai-tools/",
@@ -44,7 +44,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "0ade85fb81b4a38834b7cb3aa10a106134b87bfc0d56d935e485df123c3587c6"
+      "hash": "ffa04e83676e49828f30cb656a0bc139753661fc0813223356c54c1c82e02126"
     },
     {
       "url": "https://luqevora.com/en/ai-tools/ai-meeting-notes-tools/",
@@ -52,7 +52,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "00dca737e7c33be887193553f3d1f5cc82c1569b18f4a53dca18448e362cd9a7"
+      "hash": "d589132c8ae049274f9526b60092c849f043f4fddec7889463ef6740b5f22de8"
     },
     {
       "url": "https://luqevora.com/en/ai-tools/ai-writing-tools-small-business/",
@@ -60,7 +60,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "0712410e8cfde5632728194a42bf3aac32bf8f5b586df28f8d08edb2d590e798"
+      "hash": "65dbffe06229b1a2543e6151b2593a17216fdfa403ff583e7c479da6daf41f42"
     },
     {
       "url": "https://luqevora.com/en/ai-tools/chatgpt-review/",
@@ -68,7 +68,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "815a2f69004526bc6e88e26463a0590755e179bc0812b3a8cba1c0bde1c0b226"
+      "hash": "7fbadc7b6a14e012ea1f3c05f6135a008c81a965c369dad0a66866695dbe291e"
     },
     {
       "url": "https://luqevora.com/en/ai-tools/claude-review/",
@@ -76,7 +76,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "1ecb027e6563a76db79eea8b46fe207f2f74948c22adf890f8311a9c1ff1de0d"
+      "hash": "4c8f44094a8da2bb20ab171c40814fa08bd439da87df23b6ab84db9850c259a5"
     },
     {
       "url": "https://luqevora.com/en/ai-tools/gemini-review/",
@@ -84,7 +84,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "e869c8f29f611c0dd461f8f394d5f752b9e2a5dbaa08e643c3034829ca64401e"
+      "hash": "cbb005d78e29170157a454483a7ec81cebdea77cd6d95e43b44a24ad73362d78"
     },
     {
       "url": "https://luqevora.com/en/articles/",
@@ -92,7 +92,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "3047208480e450fd2ac987af724f521951bda5578beecb86edd5312fc1385f98"
+      "hash": "cbc98833e39d8b3c4459df3ef81fd083bb96ca162e1fa831e4e17d98f83bf206"
     },
     {
       "url": "https://luqevora.com/en/business-software/",
@@ -100,7 +100,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "17840afe36f6708a90b6004e6d77b9fd9b20934b067d34d69d519876151019d1"
+      "hash": "43eca906c658b27a7e530350608d0d1b22732eb0577a9c208b12c982b975d28b"
     },
     {
       "url": "https://luqevora.com/en/business-software/asana-guide/",
@@ -108,7 +108,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2b798505b450d288e36c41709318c6fe803565a6ad37ea2c56f5adcaf1de756c"
+      "hash": "f4601701a0bcf6dff17f61df6bd79b312b5a3a4a84318637693446cb28952a5a"
     },
     {
       "url": "https://luqevora.com/en/business-software/asana-review/",
@@ -116,7 +116,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "9dada9066acee661b9972827e63b60a2ebe9f759e63161d32818e7450b05e22c"
+      "hash": "bd69677c439fbdb7bd9d15335ec18352befa60965dbc069e373cf5b0e980f0ad"
     },
     {
       "url": "https://luqevora.com/en/business-software/business-chat-tools-comparison/",
@@ -124,7 +124,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c98ae2b4d215cc56c9a74af6010c51ea930a5896eefce0c571bc84c5b5a676d5"
+      "hash": "665ec0ce2c19bc6f8e6cc4150d6d33938634312f97faa8f43d14520e751f2fd5"
     },
     {
       "url": "https://luqevora.com/en/business-software/clickup-alternatives/",
@@ -132,7 +132,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6739399955970d8601859805dcac27b4e6171c9d309f62136ca9e8a93afc0668"
+      "hash": "434acc8c1e7bd861d1ebc3a9516cb2209788a466f0ed424409a86d7ff80041c8"
     },
     {
       "url": "https://luqevora.com/en/business-software/clickup-for-small-business/",
@@ -140,7 +140,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d0ef9f53d8a74fe8d76bac2dffb9923c0e063296efb3664ef0591c1a75cf9d8e"
+      "hash": "9e16faf430bf84ff8f738d0c94009ccaa5fc758224a7a6c640b84ac92147bc25"
     },
     {
       "url": "https://luqevora.com/en/business-software/clickup-pricing-guide/",
@@ -148,7 +148,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b908da7233f03a31597a26372ecb8499de5355074e38661b68e542398df12d9d"
+      "hash": "8785d2ee5e30606e757a0ba531d6d1b82c89626e3eb58e1c61fa17feec3fb8a9"
     },
     {
       "url": "https://luqevora.com/en/business-software/clickup-review/",
@@ -156,7 +156,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "5596c65863788f2f119a30cd4577cb0f9fb5b4463f4a2db5c3c8501112ce4836"
+      "hash": "82199e54f3d940b67be91ba055055760bf1305a556270ad05e5a1a5948a9f568"
     },
     {
       "url": "https://luqevora.com/en/business-software/clickup-vs-monday/",
@@ -164,7 +164,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "bd843719d30d2b5cc91a48beedf554ddab403c64f3137dcedfe35857b7a04236"
+      "hash": "448b429855ef0a6b5a24de6890d7d8d858944b6d3d69eb80cfa04e0093381dc5"
     },
     {
       "url": "https://luqevora.com/en/business-software/custom-domain-email-guide/",
@@ -172,7 +172,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "8df486aef736f23bdf94ab64f98f9821d4c60d77ae866b0e24a7b61700946d42"
+      "hash": "bdaeabe36986b94589ecc264855b1cba4504aa27f6e875f5a47098f93c2ea209"
     },
     {
       "url": "https://luqevora.com/en/business-software/google-calendar-guide/",
@@ -180,7 +180,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "1af22fb5887796db8399cafc81e1522672400b6f542880d35f5e9861e459d23c"
+      "hash": "cf233750cdf7f97a55b71bd9b6610ffe587c9e9943ec5b775492d36d7324e60b"
     },
     {
       "url": "https://luqevora.com/en/business-software/google-chat-guide/",
@@ -188,7 +188,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "35eea1c703da5e7a33cc4654495e23230999e397b688be9122d98f2bf9548e00"
+      "hash": "682a661dd6c5ea01b68be83f652a399b2eb5c7627b9c1fc7ba6d10a8c84d470b"
     },
     {
       "url": "https://luqevora.com/en/business-software/google-drive-guide/",
@@ -196,7 +196,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "26148922cd405051dcfbd6f81069715ca99b45e24240b95876176025defbc580"
+      "hash": "0fb222c9aa20caae854987a098dc9a7d4f95044095b474f9796ea6e1191f4f69"
     },
     {
       "url": "https://luqevora.com/en/business-software/google-meet-guide/",
@@ -204,7 +204,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "eb61272c24d396d257c7767f026d6f9ce68a9b3f0f328d22a073c0bf07d7a43e"
+      "hash": "b97535a1feacda112520b0011c2b33a2acadf96ccd88e61b462bc7ecbaf7ff5e"
     },
     {
       "url": "https://luqevora.com/en/business-software/google-workspace-guide/",
@@ -212,7 +212,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "90c60e5a1872bc96ea85ee4b091d7981daab1d29c2481471a020048a79081313"
+      "hash": "0b8ade4e61b909850d97d3ef516d59a1b92131724ba810212a3d8b56949999d9"
     },
     {
       "url": "https://luqevora.com/en/business-software/monday-alternatives/",
@@ -220,7 +220,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b80620bb9ca808d677e9d4312d51ccb3f9b295b8a28948824fad36b5c0397bf4"
+      "hash": "b05bbecfffcf7bf43e8e2d2f020c062c69078342034f561759c064daa1358571"
     },
     {
       "url": "https://luqevora.com/en/business-software/monday-for-small-business/",
@@ -228,7 +228,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "8b23bccf5d7aa50c6b622dd5ec01225356f850b8c5a5e018b5730cd79c2b2d6d"
+      "hash": "d697da671134cf6d72033dec81945e219a5df60ded0f3d897f9bf30acd686ffa"
     },
     {
       "url": "https://luqevora.com/en/business-software/monday-pricing-guide/",
@@ -236,7 +236,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "732f000531cf67ee2f1aeaecc37550ef8d277959cdd8651ee57a26acdd92a0dc"
+      "hash": "6933a266d58e1a67088da948df0ffe395d679e4e92acd953ac3a6dd479b06cc5"
     },
     {
       "url": "https://luqevora.com/en/business-software/monday-review/",
@@ -244,7 +244,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "b21c071843e7799dc0aad65390c551abb61ecae318a0724d4575f28c516da645"
+      "hash": "5d83df7265662460580e7add8305f64db1a22afa09a77229b81b334fdf6a0ad6"
     },
     {
       "url": "https://luqevora.com/en/business-software/notion-review/",
@@ -252,7 +252,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "9f4761da4559a68c93ec00c4c2972957a00543dfd98d7908152b7419bf124e3d"
+      "hash": "4b050ed282db88d27fbdfea1c948da896c36e32c2106173ab52e3edc8b046433"
     },
     {
       "url": "https://luqevora.com/en/business-software/project-management-tools-small-business/",
@@ -260,7 +260,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "5d161c9beba49f5315f663ad3adab0dad409509e490f5b08d2cb63b07b24aa9d"
+      "hash": "db9811a875adcae2334f83a56decb13ef8e216e949645b3d819921819a565a2c"
     },
     {
       "url": "https://luqevora.com/en/business-software/slack-guide/",
@@ -268,7 +268,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a56a4926e3501fb755e765dd2aa8916a4ff69c3ff585d02b980b0258aafd8a7c"
+      "hash": "65ac2507f628f8c390b2f2d464b7b33bd509df643f8e0d1ddaa698d0e0abb8f5"
     },
     {
       "url": "https://luqevora.com/en/business-software/slack-vs-google-chat/",
@@ -276,7 +276,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2d8283015e2e8115ee41e7bc3337236200c856c6f2f01efa112b1f8f96569c45"
+      "hash": "0aa0dc8c6786b40ac5e81348ad09cf737af28cdb911d1b3aeeaf23b709a7e589"
     },
     {
       "url": "https://luqevora.com/en/business-software/task-management-tools-comparison/",
@@ -284,7 +284,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b4d85ad2b20c5e1f8851e5a7fa474718dd450ef0d72076247e5f4e30c47cdcea"
+      "hash": "3db1701e74a94bc0a0a70004661dabca98076611ef379962ac2ba6e486199a42"
     },
     {
       "url": "https://luqevora.com/en/business-software/trello-review/",
@@ -292,7 +292,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "8010dc92fda60d61fd87876a6979785502e4176ed8baaccb4f671b326f965508"
+      "hash": "e4a60b494833ec3ccaad79b06472cfb5414ce9837dc5c91887407c577634a93f"
     },
     {
       "url": "https://luqevora.com/en/contact/",
@@ -300,7 +300,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "39f516042c36e4e7e2710631833e817a76c0f3ce8e626b2bc9d8a0a10c31da69"
+      "hash": "ba5946a2278af225f607249f008dee4eada2915c46ace0f7432362fde947d73e"
     },
     {
       "url": "https://luqevora.com/en/editorial-policy/",
@@ -308,7 +308,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "5ea80247d0478607541e40fe84a53cf8a9abb620e4de40b30a206de2be9306d5"
+      "hash": "9a63cfffedd1e19509679cf8a68d04c8cc818bf2f44ddbe58802cfa9fa37e39d"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/",
@@ -316,7 +316,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "a93760c1732237b92d85bb5c1f9592f58e91402924240c3464efcd29f7b0092e"
+      "hash": "3127961e2fa111432acc598da68dd384ab1a21bfd24d57ac826f6aa14097b0e3"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/1password-review/",
@@ -324,7 +324,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "e50fdd820258790d60e886bb054b3873c085f5601aa3bbc2651ca34b404aefe9"
+      "hash": "1215e7bdeda41795668d1b8487feee49ee029b36d53b6de18b3b2215eec72df2"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/ablenet-rental-server-review/",
@@ -332,7 +332,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "46138ec414a8cf35f7a29578e4f436bad5182f3af0a39e70ee06d2b12f9d23f2"
+      "hash": "48cabe299f3276e31f1772f616cd9067902f1bcbf6f736095506c89268a2e309"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/ablenet-vps-review/",
@@ -340,7 +340,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c47c65cc60f46fd7b7839d75910e4a8dbd92e6db60bd706511bd929df9cced56"
+      "hash": "f7baa4458f3245c0638d8fd4dfa3e9e0c677a04f9d881673d3120cfc8b46bed1"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/bitwarden-review/",
@@ -348,7 +348,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "82687679f9938a4bd57e333be88eb86aab98d0aad982acfc8f52c29ec227008c"
+      "hash": "1122c46088f661d70606798f59dbc492e44016b996c11204839683583ac51ddb"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/business-web-hosting-comparison/",
@@ -356,7 +356,15 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c5d7c9b5d8135f8e46fe499d90b00ecfef9bef27af27ad5ca7d3cab36f37c0b1"
+      "hash": "449cd88814b735c4b72e5f315769ce6ee96ce7d2efc350be5c1220d0d49e69f6"
+    },
+    {
+      "url": "https://luqevora.com/en/hosting-security/business-wordpress-hosting-comparison/",
+      "path": "en/hosting-security/business-wordpress-hosting-comparison/index.html",
+      "language": "en",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "8e7508007006b45182841aba3901a57bb6d09d920015584f4b1e1db81adea4d8"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/cloudways-guide/",
@@ -364,7 +372,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c8d1d4355981d730d2572a44ab5e42b8499e3e2a0ca5fbdc712a344ac81c26a5"
+      "hash": "e08e308a6854a4e12d2064079b4a3ab1a48a5deea54a5c7d50cdc7d304edb5c5"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/cloudways-review/",
@@ -372,7 +380,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "8632b01452537fe96ee368a18d0e7cd70ae463b1c9b07465fc4a8c1540db1b8d"
+      "hash": "3ff605ed6eca5f8d9e5f6f167ca573abc86a4e95594e6a34736fbacbcb5fa29d"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/colorfulbox-review/",
@@ -380,7 +388,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "cdad70d02ddd3eb9a157299f2f1b287106231de3aaf72de2cc66fad91ef45b5a"
+      "hash": "695b3e16ffed154b128a69ec542f6302f80b99c69823a1bfd11b899e9b28ff38"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/com-vs-jp-domain/",
@@ -388,7 +396,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2457cb2803d4aded5a648a6e6be228ff47c9c96562f8bd241cc1317cc2e5dbc2"
+      "hash": "df37c20193afb5115415518e6470c8ecb5e292ac7c00e5bf9401031cc2e39957"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/conoha-wing-review/",
@@ -396,7 +404,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2ef14e3870ee8b218c4f4fcf125f52adfda6cbd23576b39c44e264a5d09e789e"
+      "hash": "d0ed7ac2f4eed57492d6ccaf434e84e4c6d339f519fd6cb29d2e1600f0f74966"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/cpi-rental-server-review/",
@@ -404,7 +412,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a889cbe4bb2a3ed3c32cd8acd4a751653bc4021e60b61b1f98fc2979316b9322"
+      "hash": "952e8c066023863e796cf36e02f521e6d7d973ac3ebe55e1c343ae5ed61cc50d"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/cpi-vs-xserver-business/",
@@ -412,7 +420,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c2a62f553fc178c8b77c2c1785b13120df2286513fe86d92b8aa9ca473281d95"
+      "hash": "4f44feb083f6f34ab6a3933166e2d7725bc48ea4d60c480ac02a32e97246537f"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/domain-registrar-comparison/",
@@ -420,7 +428,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e99fa8ddc9f851577e79e1bde8dcf5bf2e4dc7337d549ff45a37630293ca2c95"
+      "hash": "4e3364ae685000c9d188771b5968088c775c94933a94e6787fa83fcdcdd8af5f"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-alternatives/",
@@ -428,7 +436,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "569d04ed71be2a5e0720ec5ec3713c90b7193bf9a951c668309d2077426c4691"
+      "hash": "0533ef5ee42a123b75dbc0f55b5476eaed9dada44d31b972c70803fb7402d285"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-for-small-business/",
@@ -436,7 +444,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "642a0c1ac3a01a7d2b7ba2e602cd6d7aebe154fcf8dade3e8fe0435747b616d3"
+      "hash": "fca25d6f196b2999006346458c863d5208191ae4bd9012047700bbfa3a50a1fd"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-pricing-guide/",
@@ -444,7 +452,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a9c7a6548ef028c387c2b3033208e8fd3bc83d6a131d24c563fa7101b3cec07f"
+      "hash": "bca8d2bc805739793f15ed5b104005f034e1e4bf3816478ab6627948a6c82494"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-review/",
@@ -452,7 +460,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "588beba96ac94d3a44f2bdfbb46dcfa08dfd580dfca5e91d2098c83fa396bb37"
+      "hash": "0b37a113c3abf682de6602765edd549d3ce547543b987717c186f5101749c8c1"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-vs-ablenet-vps/",
@@ -460,7 +468,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "056fef28eabda5bde6295f046ef548c0bc9ae72cfe639a3d4056ae40363bd565"
+      "hash": "27568feea4c54c442d4b6c463965063062dd7a6a0eb3bd70a00527f102a56ae7"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-vs-kinsta/",
@@ -468,7 +476,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "4c04b82c4812268a554585a817e052e4df8fc5941a49a4552b0f339d8d95484e"
+      "hash": "7d9842d93108bfcb749bd872bb13596add6c5fe7b43a757c49d9f63dd31ad916"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-vs-lolipop/",
@@ -476,7 +484,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "dd789ad6357f1748b8bdea5a9fb248b2032ceb564c6114f383dd1ec5ad5fb291"
+      "hash": "3905f8e5b14e87708d9e2fdd6a3e1e39c030560263a990f4e0e63b96bbd026db"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-vs-wp-engine/",
@@ -484,7 +492,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "cab8c37fc8a4db4ea3ecc7092cdfa3ae37e86613897bd32f0faccc57a299e1b5"
+      "hash": "dbb5b7f47983b8d89af3fb13c881cd59348b6149229b56323129eaa3b28538fa"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/hostinger-vs-xserver/",
@@ -492,7 +500,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b96e8bcccf558fdce8fc8952bab8436b6bb6ab08be71b7a9ca32c5ff08b0e231"
+      "hash": "083c4d432ef78bd39447ec30cf838c046be9c7fd09c042bcad663b9fb8b211bb"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/jetboy-review/",
@@ -500,7 +508,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "de156f503d000452115fc7ac3bb16721984919c8f9b6670071f777e6631a8a4d"
+      "hash": "55b21742361cc15cf7cc89b4ff556744e36e37a4656fa3b62e4914917fb521ed"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/keeper-review/",
@@ -508,7 +516,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "bba524c93c0ecfc98252b854ed7d02f50566f0ddf93e1ea89c7f593c214c8626"
+      "hash": "164ee04a4f0e1edc1fab6a86d61fd9b9fb1265e0a948b1adfc7f1dca1de83699"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/kinsta-alternatives/",
@@ -516,7 +524,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d044107c7c3d288e5756e552b5f29311fe340ed5e07fdae3ff07f3ea5d2eb7d1"
+      "hash": "e7cc214956de565365eb597931d836a3ba1fd72ed4fed0447de216d1c3125cea"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/kinsta-for-agencies/",
@@ -524,7 +532,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "dae0efa1410a7472e14a14a5a212c18b276799a83c9c2947005c8d9004352eea"
+      "hash": "168cdabafea0bc3b8cab114a7e42302f4f34cbfac7cb1a5deec140d6aea9ca47"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/kinsta-pricing-guide/",
@@ -532,7 +540,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "dea2ef88921b39dae79642f03af527753cb7e8255df695f33b49a3678f51fe6a"
+      "hash": "452a5cf294e1312af026ae009b11f0ebb6aed7c3168d388188e29eaf438ab42d"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/kinsta-review/",
@@ -540,7 +548,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "db2fad13d97b62d368da1e6921dd82b0b2068f22e9d3a9e931e1d63689720187"
+      "hash": "746fa3fcb36f07858357dddd2c46cb37093f7f5149d36b864637fa2dd0ce01a8"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/kinsta-vs-wp-engine/",
@@ -548,7 +556,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e0e572047f148bad6bda34f54184ad820f6511a43888b99f58dc339f518a5e67"
+      "hash": "b8898c065972006ea1112c0b9478794bda4a6858acd229440c55f63b8871d4a7"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/mixhost-review/",
@@ -556,7 +564,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b660a9b9d065ce2958faec8072ea3a1b876f451398c5fd263095f33f338bf039"
+      "hash": "e4186565a1648894e2f8915861a7188b9a3c26bf251c8bc14549a5fb7030cffc"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/namecheap-review/",
@@ -564,7 +572,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "bb035788cb9a8f1e5e912433597fa5285737007271209a2ff887eaf0c4fb32a3"
+      "hash": "ab4c48841a44530e27219024210066d4e4cba4ea9d99eb481dbaefb1cb5a8c4b"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/nordpass-review/",
@@ -572,7 +580,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "25f4f29e73a028813d3a18285d8d0828d0c549d0c82dd9ddbf8d2af3267e3c56"
+      "hash": "02b654f375c220c2b9a6dc73db4fe0f8f82760b9e1ce9bb6c0a3640add93a1fc"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/nordvpn-alternatives/",
@@ -580,7 +588,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "0bbeaa05e0e42e7dee6af1a0829fab89ea6d1c96f5da63fb50f5019885882b24"
+      "hash": "eb4624eac6bda3c4fc6c6f4cf0b3d88fa2d42b607c1c3b9b9514bbfd8433cd3e"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/nordvpn-for-remote-teams/",
@@ -588,7 +596,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "647a3f3c0d13e1f0ba52351f1a4da98c1bb94fcf2074c465b27d080b5e9c28df"
+      "hash": "9593c00d252cae5a85cacb99af3e9b21aebb9d9b39a3f98998e99c54757ef9b1"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/nordvpn-pricing-guide/",
@@ -596,7 +604,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e368e5beaaba18254ca55176acb92fab7b60e4d2f2cd642813e8918191609ba4"
+      "hash": "30366d254f462a24fb2051565ea0b1bf7cef740ff77ebb5108252215a7332987"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/nordvpn-review/",
@@ -604,7 +612,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "f78e07f50d3b0a8b20f16004a514f800c9e62b65966aa7d4734afe16e8cc6287"
+      "hash": "14af92d5c8c4c03a07d7dc44603982fcd6623ce7dbd4150e72ed948ed3a79ef9"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/nordvpn-vs-surfshark/",
@@ -612,7 +620,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6f350cabf1c4cea4981a3c78225eb509cfeb12b2cf030766fbc5b64cb0ed6c71"
+      "hash": "90554968821eae7fac874e0949d15199bb7d750aa201d542de489d964eaa8b89"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/password-managers-small-business/",
@@ -620,7 +628,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "93649c869052dbb9d87e4e9bda4e2999f174c2e70e521b0479c4615dfbedb803"
+      "hash": "7cb7f372514421173833ac1d686d5ae20228e05f375cef9f5552e2784099fc18"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/siteground-review/",
@@ -628,7 +636,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "5097e045a3d5fdc6f34d1bc5015c495b294ef5e85c7954736a50e483822b277d"
+      "hash": "364bbd922c324929a7157340db2550bf67621818e67caf54bd0adba267ee992c"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/surfshark-alternatives/",
@@ -636,7 +644,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "9bff0309952cef5d09dd027d15b9fed545ee429c4f9847158dd5a55f413c25c5"
+      "hash": "aa364f3193ceb29b6dfce9caef8b9bbaf1383f1d8f7277d6e79ecc38ae0a4815"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/surfshark-for-small-business/",
@@ -644,7 +652,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "f6a047d91911b5b862d8eac1eb9e9dbf0c826a559123b680ada3de9499311de9"
+      "hash": "a6c13def9f147ba17f5ad056899970d2a66432d73f357b2b3ddc8a15119b8239"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/surfshark-pricing-guide/",
@@ -652,7 +660,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d91db349c93353f987a316c3c51e9617d0c1b73ea459ec72fdd92d936a361c99"
+      "hash": "a4a1172e97e02871b78767ef119599aab070ad6e2a52a8d24ec474edae64358e"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/surfshark-review/",
@@ -660,7 +668,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c347e49fae0acdf9b941ab0635a38e7ab244ba79b8430f642c26ba93b6eea114"
+      "hash": "04285a0951a9b929ebcc7b0caddab750bebfcd57a6e60db9676eade94dd98fa8"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/web-hosting-small-business/",
@@ -668,7 +676,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "b4b7131106091f951b5aadad05122664536bdcf4fc5869e0c838b91cb9b7fdd8"
+      "hash": "94e582de006517153d83cf0d985a7beb1b98d83f8b5043b9706cc30127b93f0d"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/wp-engine-alternatives/",
@@ -676,7 +684,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "52cea4750a9b560c2c5c5044b099927a386140d9a237ac9677d7702b62e3a575"
+      "hash": "b3c6be8cda371d5e0d44ccb12ec96171779b0879faa2797d5491a71668ee47c6"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/wp-engine-for-agencies/",
@@ -684,7 +692,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "32bad3d90288b69e08792ea20ae93f2c560d678c194312ae703dedf2cee86188"
+      "hash": "e5e785f0bde8f3be13271817d973302871d547ad023857fa65b0a378bd0e2e73"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/wp-engine-pricing-guide/",
@@ -692,7 +700,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6cf01b4edf511a732105d9ab704665688f19b2db0727b34ac51b6d8d56e92530"
+      "hash": "fba882393f5a91776a16b571b85bfd79661cf53df929b411624861b07ef0ffc9"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/wp-engine-review/",
@@ -700,7 +708,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "be1426c433a3dc9b07176b970c50b4aad72c10553d4338694bd4f7af9ccd6db8"
+      "hash": "0abc430a5a5df40ae73388b5bddd3093544fd9a23ee4a098738288a43a771c53"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/wpx-speed-review/",
@@ -708,7 +716,31 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "9639f41f9f234766f8ed5095cb5726a7f30b91d237b4a432d54ac10015c6afbd"
+      "hash": "4e5f351c8231edacad05d5c6f732a2bac314826dccc31e545a272e2ed6b393ce"
+    },
+    {
+      "url": "https://luqevora.com/en/hosting-security/xserver-for-wordpress-review/",
+      "path": "en/hosting-security/xserver-for-wordpress-review/index.html",
+      "language": "en",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "f9733c566171fd1ac0243c01a1e0a7e175f22ae7b7cabae3143c5e8fab183bfe"
+    },
+    {
+      "url": "https://luqevora.com/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "path": "en/hosting-security/xserver-for-wordpress-vs-cpi/index.html",
+      "language": "en",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "2337f34c96557399913cbf05d66bac0ff29f07bf9ca8e9a74684d6bb68b3a839"
+    },
+    {
+      "url": "https://luqevora.com/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "path": "en/hosting-security/xserver-for-wordpress-vs-xserver-business/index.html",
+      "language": "en",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "798d017650610a14be3a1dab6a48aabb8872d2ad4ec6d4dc29547ec1189d925b"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/xserver-vs-lolipop/",
@@ -716,7 +748,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "18e21c7a9dc251aa9afa020f6ca596faa8290f83e9a5b5bd20e4372dc387c049"
+      "hash": "a648e56a176d81392405a809020721c731ccb92fd32f70ae0d22ca3f760d63b4"
     },
     {
       "url": "https://luqevora.com/en/hosting-security/zoho-vault-review/",
@@ -724,7 +756,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "15c4bcd5de80c530f9a934c17aeb1811e428fe469d0d0273734c68aa1e5286f0"
+      "hash": "7f8f309b078c648102f8c0ed39d691cc49bdbe60c3f9d752a04b4b54b51cc27b"
     },
     {
       "url": "https://luqevora.com/en/privacy/",
@@ -732,7 +764,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "965130122abd905e9a22ae3ee53e121c7f1e082bf87a20af13f0240e40800237"
+      "hash": "59800f685a52ca406a92b1ad609219540116d3b3f9b85ad306bb58f184ebf816"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/",
@@ -740,7 +772,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "a2b6ad1a10c3f4c0dca6ac73df7918c4c45ce3ed85b8b6dad0318730d96a716f"
+      "hash": "032b5984ee5531d180075d22af77078c992aacc697dfae5b819ac6c29ebc5b9f"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/a8net-guide/",
@@ -748,7 +780,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d26eefa14610d0ef9f6d614a4bc556370239fab71aa82dea1a187a7e9c4a3b84"
+      "hash": "ac827f957fd5ee91cf6423a6e559cc716077aa59667bebf6d15a15cbbb348f6a"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/activecampaign-alternatives/",
@@ -756,7 +788,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e8f672dd10b46e012a03e373f1f179f27d72f5eeb64e3e3df580207ca80bfd05"
+      "hash": "4a162609fc61b8596128e0abee7e4fefa60e623e870de5895c310d27ceb82c93"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/activecampaign-for-ecommerce/",
@@ -764,7 +796,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c7e516330aeaf558cdabf8c80f4ced42d1c3141c4bc1fa23a1fdbd1db8238ce8"
+      "hash": "6f50fd9ea9376dae59eae87636b5f4e7ec93dd24fca521427adb8ca9177bb652"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/activecampaign-pricing-guide/",
@@ -772,7 +804,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a9378fac9ddc626814ea0844ed545b9d70586e12fd41380946d596fdd04cf176"
+      "hash": "e2d4a1a366ecd6a74d5ab170c16868a2b37df0c5b106f17a23f1b7cf54d5069a"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/activecampaign-review/",
@@ -780,7 +812,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "293b403fc3f9c8ec4f3c7d357b15cc4e975c870255b2d378df9b1822071cf17c"
+      "hash": "9574aa25c4245fab57174c22f1c09a4b237bbb5bee7937503075b8107ccc375c"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/activecampaign-vs-hubspot/",
@@ -788,7 +820,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "3a89b073271b6294e2eac2b1092edaa03436e18c3c34ed4141ab0c57269fe258"
+      "hash": "ad8469703da320d4379f862a5bb6c174898aef3c577aa55745bed52d183bb765"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/affiliate-marketing-start-guide/",
@@ -796,7 +828,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6d60866de467bd278b58d562c2a86b517f13199edd89acc5e310c3bdda86c083"
+      "hash": "88fe782c5473c06178f87b289816ceea12c5be46b278ff51a70373be6b453583"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/ahrefs-review/",
@@ -804,7 +836,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "79ead8e32f678382e9501e403d3b1b9db54dfd0d8527b4e8793fd62afb6c5197"
+      "hash": "166546e4f63aee809692b0fd0e86448548d33f186fc13a296549412c9be0773f"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/brevo-review/",
@@ -812,7 +844,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "4438b38ae3abd0c574575bf9000092345503c7107cc5eba0e151fac7f1ce2b51"
+      "hash": "3553fb3fe26d3790c0fde31e79b0e495f6e1ffa698acd13ba39dae7a92413460"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/email-marketing-tools-small-business/",
@@ -820,7 +852,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "9697882be03d061173dc090a5cd78e3e5585b8d28e7aeebc4cb4cc5d1c94d504"
+      "hash": "422fe45b3cf810773b0cab311a5ef1c473ceba3a1da0f35509ae6f766236a695"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/getresponse-alternatives/",
@@ -828,7 +860,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "616bae44a814aaf56f4014cd27749ba95ff59bbfc7a921a9fc6ec5a4a7efb13b"
+      "hash": "5d12e13c9d6bb7dfbc3572945dd03f01f6c2e6bad87e6c80f7e144dd582fca71"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/getresponse-for-creators/",
@@ -836,7 +868,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "8381a9d3d765f3e7d1fa1d3c394d72a224230571120165f3f5b99076c05512ef"
+      "hash": "42188c76b35a52ef16c53db27fa99fd6b78c3ea919ea25141a1fae61c157e09f"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/getresponse-pricing-guide/",
@@ -844,7 +876,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "9b4adbb272319cfadbdd3b59e09ef7a3271ac377e95e0ad69afecb9210cc432f"
+      "hash": "eda0f4f131c3c7b5bd7168d0c258f8ce5479755298d10e281b00f52d36532b64"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/getresponse-review/",
@@ -852,7 +884,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "23d3fce121a2d02b03bdb85eaa2b295bf12a0fc1d9424d3b35f3fa3945cc4d68"
+      "hash": "b90bcdaa1b6ed9db3a959bb1a0355d1a027d74dda481a615137f3ed5f9d017dd"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/getresponse-vs-activecampaign/",
@@ -860,7 +892,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "10620a80a4cb7cd249431567668d75a87433ddcb7a2c72a7ffcfdc8d774d3344"
+      "hash": "ac43e8ccfafb517c43c79d0beb2ae465acee85b2bdb4243e62bb4ab70d2dc5b5"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/getresponse-vs-hubspot/",
@@ -868,7 +900,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "db58d4cdbba81d016dccf4c7ee1c4a37cce432442d6f4691862f7466ce04b8bc"
+      "hash": "8b764a7bd97baa36036e548c3dad90bd21fbb7a1034ca8793988a29d43c15fc6"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/how-to-make-money-blogging/",
@@ -876,7 +908,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "339dd7db07c6da5692f29ca4e80eeeaa6a45f9ad8b729b40d864da9e2d443a89"
+      "hash": "1387bdeb0bcea500e38c087e3f273c28ad92dad6a5e2cd2c27764312746c48e7"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/hubspot-marketing-alternatives/",
@@ -884,7 +916,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e678fabed05847eb79c3c813ad7debc0a465001969c73e486ffb45d2a741a97d"
+      "hash": "eb25347a44a8bee7f776dbf20c3c6899ce85e41cbc824de3279f1736b8bb2c86"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/hubspot-marketing-for-small-business/",
@@ -892,7 +924,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "f7869127891c2454e07bbac10f76807b776fca89a1637187085f4cb6e6e78195"
+      "hash": "266e6e058565b24b320e766866add67269b91b80179eb9873978a5c7ba1dbe6e"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/hubspot-marketing-pricing-guide/",
@@ -900,7 +932,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "91ef938b67d2077a300963a5fd44b8f2f6f090ff6acc6bba029de8820a2c8296"
+      "hash": "d2aa0ef4ed414051f7a8f2ba9f9ba405c8288116a36c908612b3e72c22d840b7"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/hubspot-marketing-review/",
@@ -908,7 +940,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "1cf60fc956d7904aef16c056d22cc764936218a6d28a732c3e6b7616d6d29d34"
+      "hash": "d82856917a92755a29640bb7f871b96e529f0ef161ec62190469bdfc6c7f6c82"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/kit-review/",
@@ -916,7 +948,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "29f404cf6fab69c5c1396391717cf062354dbc3c3170987b261ea659a27fa267"
+      "hash": "109951d4b95f0fea63d770b5f84f0dc3d625ca226a9f0b24b53e99ab5c33ffaa"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/mailchimp-review/",
@@ -924,7 +956,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "ad898994e9db5e4246cc167fd46a280d9f4c71e64bdd5b6b34d5dc1c197b4bda"
+      "hash": "acb070045f296fe05f4b461a9e320740338abebff07dbfb2b472f367266e9e14"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/mailerlite-review/",
@@ -932,7 +964,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "e95687b0a73eee48aef03aae8aa9939d94dc02f3c8bdf8dc78b7843679e6ce30"
+      "hash": "f9936a5b981099350e285b37b5cce36fffb3fa37c00bb4fa3f47ef44a396b771"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/mangools-review/",
@@ -940,7 +972,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "a2613efd71ba1b2b425aa330e7d3c219d5422e00900fb6bd96d0b4b785d61943"
+      "hash": "3b321250178ff6b91aebfbca6958d06880843056e5e8d093112e7d48ed5b0dc5"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/moshimo-affiliate-guide/",
@@ -948,7 +980,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6926d745f9c695b04d92fe894cb672bb6f73d652cb293b90481c73707e5d9499"
+      "hash": "76e44353b1b72c3f1ce60923e458138d0b2806161c2b396c2d829bc55db6703b"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/se-ranking-review/",
@@ -956,7 +988,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "380ad4c4c320d489b48fb999f7b257673d87fb75f5f54a9a9df75e33ae27a974"
+      "hash": "ae0a9a93978d36470acf27d9cf833c942c330a88b941d53b3ae96f1e43c0de61"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/semrush-alternatives/",
@@ -964,7 +996,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "042bf63e3cde4205b9814bf47ec012db10646c8f33eefb16249dddc2a266d78f"
+      "hash": "e48ea5a14ac1355e7a8903b86afd40b5b86c996b8db2b4067a2d421a81884ad8"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/semrush-for-small-business/",
@@ -972,7 +1004,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "27ffd46610c50567e9a17da09e95a032a6a22d23dc1918c39b12372a64ad326e"
+      "hash": "1bd0142d874824691daaf0d587dfcaeebbffcb57349ff1094b8e73899f4f68fc"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/semrush-pricing-guide/",
@@ -980,7 +1012,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "1bebd56c45d0658d3995a38f463e8dedd2a7a1de7d8443d30fbebeb86432d3fe"
+      "hash": "ab504f22da0546c0de09c9ba97885626aaca54f85ecb0f4b572f8aea53865b89"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/semrush-review/",
@@ -988,7 +1020,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "2ddc4f4eb5dde87b2d276965d87b0f1bc0652aadd2ec66c8ce1f2ebde862d7f9"
+      "hash": "488ae5dd4b3be7b8e5dbc4d79ac2d6d6d8e09d9d0ac9e8fb0b9a6a044e2e0dec"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/seo-tools-small-business/",
@@ -996,7 +1028,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "98ab50727b20488c8068b1f540391a89a32fb21babce07b6b16b660b900ae97a"
+      "hash": "ded0feeec16e8d3cfa78aa45859746ac02cf1b03627905e382ca1f17778d32b7"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/ubersuggest-review/",
@@ -1004,7 +1036,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "571446f175a24caf6435343503c337c3b8e6b67dd2b957ea62cb505179673e22"
+      "hash": "6eedfcfc2d5b5c9db8e6556b437f4a682d029826526db2c0742e4b7ae945c519"
     },
     {
       "url": "https://luqevora.com/en/terms/",
@@ -1012,7 +1044,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "3089b52b3e9299b63bc96196ccaea01e90120e0bb6cdd1f4a12cd136bd4274d4"
+      "hash": "21a9751af4f11a2c1bfbbec2450be93f4bebb38a10f355cfb0c41a946dc2704f"
     },
     {
       "url": "https://luqevora.com/en/topics/",
@@ -1020,7 +1052,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "e720c84a12d1c34258b1b93b17884db2a1c16bf653aec50465cd3fb14467530d"
+      "hash": "2a51e835c8a04107f62909df5c995f85c27212559ab76b2a0e51f0c1549f126b"
     },
     {
       "url": "https://luqevora.com/en/topics/affiliate-marketing/",
@@ -1028,7 +1060,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "bb88af1f036e522ee5ca98dacd20a85c9e101276c6cb77b8c1db4b372df4c8d3"
+      "hash": "3685abc2904f90f08043b44b5e10d9fc73541fb49104d7df80f283cc44bf23af"
     },
     {
       "url": "https://luqevora.com/en/topics/ai-meeting-notes/",
@@ -1036,7 +1068,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "49284dc5e4d48a48c1c18660eb7d9f0967392dc51790e9f3b951277c2e4c7f3c"
+      "hash": "00e1b794b0b7785f3bf385fa804742d26cf9c911c7e1c4ca7aa939fe4ed3992a"
     },
     {
       "url": "https://luqevora.com/en/topics/ecommerce-platforms/",
@@ -1044,7 +1076,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "9c1745e9520ae018dcf1cb2b2476ae7586ccfcee347d90616fb17fa6d3d4757b"
+      "hash": "31b9036e5109a2f19ea1903705ba8fba70d92d71d16f80649bcc120db18f210d"
     },
     {
       "url": "https://luqevora.com/en/topics/email-marketing/",
@@ -1052,7 +1084,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "1e24950261b4d06fcea75503f8d628a384ac489728ddd790dff8fd2935caee5f"
+      "hash": "5525185aa36af20f8457f4bca58dfc3e920c487872315d0dbce3fce46c9b7108"
     },
     {
       "url": "https://luqevora.com/en/topics/generative-ai/",
@@ -1060,7 +1092,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "fc5bd8f3f745fc82f0c4c9718fc5be38a53543d82b9846dbca8c32538287bca2"
+      "hash": "9d45369826060772daf84316088dbbb3ccb4c852a274503fb8ad84c0673c3bb5"
     },
     {
       "url": "https://luqevora.com/en/topics/password-managers/",
@@ -1068,7 +1100,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "ed6cd77eada09a3f5fa13dfc6a9a04902812ee80d6543e787748381d4bb247a7"
+      "hash": "7839173643b5de4deb3e7d768f922ff6c01e9eae6194a8441eab05d3842808d2"
     },
     {
       "url": "https://luqevora.com/en/topics/project-management/",
@@ -1076,7 +1108,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "8e126ac40571d3e76b98362da3c5f36588531f5894e24a2cf27a5781065b6b24"
+      "hash": "5cc09d3072c4ec51f5d1791c8a60ae8efc90099b8bf268990cc982dcfa85ff2c"
     },
     {
       "url": "https://luqevora.com/en/topics/seo-tools/",
@@ -1084,7 +1116,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "f33a15ef478c3da6e13d9af137fd9503de75572eecfc0693037d8a5c92fdc114"
+      "hash": "ae7d07f9a21b9c520ed7641fd724e5a65a944ce1b12a9b7d9ce7c1ac84145cb9"
     },
     {
       "url": "https://luqevora.com/en/topics/team-collaboration/",
@@ -1092,7 +1124,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "72754b0d19f6864a2be4f1ac93a88cbf39e7c76ac6e9ae167c314b6432316365"
+      "hash": "6a77cdf060cc745121fa97ab7052c032e4aa351d32a8c566caf0185a21e4247e"
     },
     {
       "url": "https://luqevora.com/en/topics/vpn-security/",
@@ -1100,7 +1132,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "8d1aff649cdaa6823964039987d2b36b987d0802ece4bc454fee4a782f034db2"
+      "hash": "d701fe3696e85860bd6b34a74c96320990217803b8239433e1a01d389bead778"
     },
     {
       "url": "https://luqevora.com/en/topics/web-hosting/",
@@ -1108,7 +1140,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "3c25169dc49a5fe5bb0060c59433994fc0cbe0ea8831b74c5f3a78a4749f3ea1"
+      "hash": "164d291bfb92f33d90809b0e17d2744da005a4b7581d62f7c518b28b2ea9ab39"
     },
     {
       "url": "https://luqevora.com/en/topics/website-builders/",
@@ -1116,7 +1148,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "127c33370ea74690c53faee00f7ed4819906fefaebff429da944f792dd88bee9"
+      "hash": "fafa0a1a5faac643d2d0a06e2b993319c2ac198384f31264487e9a0a25002f65"
     },
     {
       "url": "https://luqevora.com/en/website-builders/",
@@ -1124,7 +1156,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "0ec17d6b02c85a1ebfb5881071e25da36cc5bfeaaf8a5cea184088bb739d35d6"
+      "hash": "8b031437c4ee027168e4e10ce0fe911966c17417cce9d1243a5ddba5b9ecb132"
     },
     {
       "url": "https://luqevora.com/en/website-builders/hostinger-website-builder-review/",
@@ -1132,7 +1164,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "29726f40e7ca54771ff40b8b4187c4e2a6826911f7d26f602d30f76c8b4957a3"
+      "hash": "7c7594692a4034a39a420f444e1cb6616afa3d14c98868458c2c3a512a4ee456"
     },
     {
       "url": "https://luqevora.com/en/website-builders/shopify-alternatives/",
@@ -1140,7 +1172,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c8903e7bdd0f2acaa14736a1ceb090849cdac992b6080984841b181adeed2bc6"
+      "hash": "1f1dac094b52c1d0e94cb167e214405123dfc3a8128e133ae5a93a82ea329b2f"
     },
     {
       "url": "https://luqevora.com/en/website-builders/shopify-for-small-business/",
@@ -1148,7 +1180,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "5a17033400d961f33bb0c5da3addd21feb748f221c035b39d9cd653022c720c6"
+      "hash": "ebf2de2e7aa5f169186c9ba145c2fc50ad20bdd8aca62fb3f68652033be000bc"
     },
     {
       "url": "https://luqevora.com/en/website-builders/shopify-pricing-guide/",
@@ -1156,7 +1188,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "fd3fc63d7ee7cf70acb074d656d623081904ee2705d43ec6c1778f08e59ca690"
+      "hash": "04518e5b11a415499c1b7efe84a1f7e601275e77261bbebbc2275196f03125a9"
     },
     {
       "url": "https://luqevora.com/en/website-builders/shopify-review/",
@@ -1164,7 +1196,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "dacf7a0908cea7a4c0bee75c9ea89c34ca708101145a7f74f39ef53a40c6c8a5"
+      "hash": "8234dd8cbde98e65f4a0ce4492215693b10c147632beb847894e4014035555b2"
     },
     {
       "url": "https://luqevora.com/en/website-builders/shopify-vs-hostinger-website-builder/",
@@ -1172,7 +1204,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "0db74b8a33765ea367131e97560548599692fc43b0f0fd75b6596e5417549e08"
+      "hash": "0dff48140070eb2cb225413118313924b00046a204a9fabdc51139a3cfb5b361"
     },
     {
       "url": "https://luqevora.com/en/website-builders/small-business-website-builders/",
@@ -1180,7 +1212,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "203d0226566a3813c97429da07dcb699ff9562e88981aeb7d5df371a6ccd8fdf"
+      "hash": "5d4db832c40acef4f99fcd593ca544f2c72ffa7bff4e8f2437382270baf06771"
     },
     {
       "url": "https://luqevora.com/en/website-builders/squarespace-review/",
@@ -1188,7 +1220,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "b3750d7d263ed348be0413ba2ecfd43d7ff6865ab51fbd48399ff3648dae7927"
+      "hash": "478e1c7010122a37d1d253a110bcd736ea82be495cae209e3ab53b7998aa82f0"
     },
     {
       "url": "https://luqevora.com/en/website-builders/webflow-review/",
@@ -1196,7 +1228,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "146860138ae7d4a805e65602fb8fe1559543fb8825634cb2c7e303ff5bd33af7"
+      "hash": "013fb65f51e64ad11917b09a993130a2e1559588ca83c88195aa4500bf375142"
     },
     {
       "url": "https://luqevora.com/en/website-builders/wix-review/",
@@ -1204,7 +1236,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "c4286549f3a66da1abdd0754fffffda827afd6de3231e952dd78b6233039758b"
+      "hash": "45a2a38ae548b62c1542132b0432bcd58b9dec235d1fbed6824229b742b02345"
     },
     {
       "url": "https://luqevora.com/en/website-builders/wordpress-com-review/",
@@ -1212,7 +1244,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "78c4e2ee76481d471fe4720ee06fc686775a380a3c40ba12914c30d8492ac15e"
+      "hash": "9f1c7501dd24ab0236c18b712d8abfa89d76087c43164236d5758e720b0bdab6"
     },
     {
       "url": "https://luqevora.com/en/website-builders/wordpress-start-guide/",
@@ -1220,7 +1252,7 @@
       "language": "en",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "7b5d880fe4793a079fb8013328ed55059dd07bf6aaef7ed9ae8a5a86b76c1d77"
+      "hash": "1aa622dbf07ba2c0ba51df6e76937b1b37ba93d760e7e01fb348914f27a14eea"
     },
     {
       "url": "https://luqevora.com/ja/",
@@ -1228,7 +1260,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "582cf5cc435508f8a32285de397ee0fe8de710f5e7ded21cabdef5bfbd073566"
+      "hash": "86d309613802ba7b1315b654928ae2121dfa53f9f662842ff9658da1e8ae3111"
     },
     {
       "url": "https://luqevora.com/ja/about/",
@@ -1236,7 +1268,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "bca630ab1f3707363cb6c8e868dbee1a8f210ba7c2d7479c49fc97d599a41c52"
+      "hash": "78dd7a32546e5caecaf6dcc63bad0cf925e744f3172d8f6f1be8c9dc71918731"
     },
     {
       "url": "https://luqevora.com/ja/affiliate-disclosure/",
@@ -1244,7 +1276,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "f3e6fea0ef7b84a5a8ee95e07b523eb1661ceb05d048e32f11c3334741a22039"
+      "hash": "0506b875ff0a77413d6e90be4f3ef51d68aaf9d0581b8db8b65954b29719e3d8"
     },
     {
       "url": "https://luqevora.com/ja/ai-tools/",
@@ -1252,7 +1284,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "2b8c819848b5bd45605dd9b15b4d9e3a7191ad45959c22801651766d33575af2"
+      "hash": "36ded30c47098b999d24b1ead9ebaac6193d2720808f9c4cf3ada2288613c676"
     },
     {
       "url": "https://luqevora.com/ja/ai-tools/ai-meeting-notes-tools/",
@@ -1260,7 +1292,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "90d4c64a9bd2dd41b1cd51221c622c0299ae4be55434f7b2d0040c57762f60db"
+      "hash": "7b869303cee38da18b65cbc91445e6ed47932f94f14767b969e2f2788da7a9e5"
     },
     {
       "url": "https://luqevora.com/ja/ai-tools/ai-writing-tools-small-business/",
@@ -1268,7 +1300,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "500b52c2f7ef21cc5e90f7413bf74eebd16d552982f45a4f0f7b1ef8a5b5f97a"
+      "hash": "9e55f2319f848268fba2b5d73f25bf83cf21810d220cde3355f97c091dd63a1e"
     },
     {
       "url": "https://luqevora.com/ja/ai-tools/chatgpt-review/",
@@ -1276,7 +1308,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "6d5e8a21dd9298afb919350a71f31c7cb467181344bfc01279228226310453e1"
+      "hash": "8c483fda4f683ac1574bf4c5dc36b5a0d9a3333dc7d2f97573c882047cf0dbf4"
     },
     {
       "url": "https://luqevora.com/ja/ai-tools/claude-review/",
@@ -1284,7 +1316,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "0ca54df4b9e8d68f173dad4389f510c58c9d3e39bc6cd11344666cf60580decb"
+      "hash": "5155af388540856bee3a363c97b90cb8367a79d31d5d2b9036b29384575c44fa"
     },
     {
       "url": "https://luqevora.com/ja/ai-tools/gemini-review/",
@@ -1292,7 +1324,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "dfd7df3414eef8464c3cffdda25574d13f9fc64da9677c3234b098fe1b8e8c90"
+      "hash": "459df957bb60981c4274b2d816ae415c0591f5f30b28982d336c980a94d36ebd"
     },
     {
       "url": "https://luqevora.com/ja/articles/",
@@ -1300,7 +1332,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "9e4350497870577e2089a82dab219f40b2b1d6cc9aa7040a34a3fdda63a40350"
+      "hash": "2252f353adeb7b9de8d01b719bf8657fd85c392dbbc761c03754e4a815dd2c42"
     },
     {
       "url": "https://luqevora.com/ja/business-software/",
@@ -1308,7 +1340,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "94994df0c51be896ed7a9f1c347bcd0ccb53630a32da694b5f6a547b646f3bc7"
+      "hash": "7b4ef7059c1fcd1b1dd7d5f1c8efed5d91d9b00ce91ffcb8937d57a77233643e"
     },
     {
       "url": "https://luqevora.com/ja/business-software/asana-guide/",
@@ -1316,7 +1348,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "384c10d349a8caa474f96b077fba00e1c14fd5fbdac2ee47376317882bb6acb1"
+      "hash": "4492fca5b96c5ae557cef1d2c089386c7f2d8836e1e273adaa39522efc912cf8"
     },
     {
       "url": "https://luqevora.com/ja/business-software/asana-review/",
@@ -1324,7 +1356,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "98dabea3e6308c88475b8b623e2a94db7360aa3f5b9ec1c92c698d0324449284"
+      "hash": "cf9981e0ba56df16babc2b36996ea04ce9f796af3517a7cc9c0300e03ac47fd6"
     },
     {
       "url": "https://luqevora.com/ja/business-software/business-chat-tools-comparison/",
@@ -1332,7 +1364,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "ccc8809d3522916d2b4317031298c4e2c54dbb4e7930b8a0306a3ee991a8c679"
+      "hash": "ac81adc16a2257f579415bc583d68b6a29ebf9b96636c1696a707ef69b87ca0a"
     },
     {
       "url": "https://luqevora.com/ja/business-software/clickup-alternatives/",
@@ -1340,7 +1372,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6e345817b31f5e5b4bbf691a1eed1fe8aeba8dc80afb7614d2800f60ce109182"
+      "hash": "8eae55737ec7152e68b4dce51856921fd3c437be252794fb393a80b9fbc02f0c"
     },
     {
       "url": "https://luqevora.com/ja/business-software/clickup-for-small-business/",
@@ -1348,7 +1380,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "71d35802b26d849b9413aa6df99fcc4c5cbc87a8d9b1b1d944ece80d409dfd2c"
+      "hash": "f07228d4a02a286bd797ad767f1fd59bda5f27a78eaaeff38cb39d20427517de"
     },
     {
       "url": "https://luqevora.com/ja/business-software/clickup-pricing-guide/",
@@ -1356,7 +1388,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "cfe13cb12ae809095c3855116e2703217877c21507ffee15573801757af4a114"
+      "hash": "42e2c085164fb3cbbe164a1663eaf094ca0c817da5f0e61fb2cba64293638edd"
     },
     {
       "url": "https://luqevora.com/ja/business-software/clickup-review/",
@@ -1364,7 +1396,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "5d7cc535f96a7da42fb5b8934f419b88d5fadfa2b36d64bfb1f851ab630ffd25"
+      "hash": "2c38e0313f3306412a7f3edb575dea6d419f54897baa5cdf99c0d88ed03df4f3"
     },
     {
       "url": "https://luqevora.com/ja/business-software/clickup-vs-monday/",
@@ -1372,7 +1404,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e20f0f9c0328de37fbe0db124452fdcb3c8a7c0b78044a01db5a7a0e27c7f3d9"
+      "hash": "373a8f07d07d2c1cd2ef80ad3b095ef6a4c084a228ec5f5fe303b9d81fff338f"
     },
     {
       "url": "https://luqevora.com/ja/business-software/custom-domain-email-guide/",
@@ -1380,7 +1412,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "c862b68acf2f40c8b811bd140c4daeac60d02ed38c71a62c312670a05550626a"
+      "hash": "d5c7f53b9a71982d21fa87278fd8a35f0f949ed404277a7ffe88d507c4a3f361"
     },
     {
       "url": "https://luqevora.com/ja/business-software/google-calendar-guide/",
@@ -1388,7 +1420,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "e472bad98517e74daae32e04d37673b5e9a3ad357ef6850c61d8e71c395b2ae2"
+      "hash": "f757e8ed60afa833e283d73a095c5e0818e8bc8ae85bace8128f7acaa4e33076"
     },
     {
       "url": "https://luqevora.com/ja/business-software/google-chat-guide/",
@@ -1396,7 +1428,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "c57cf81b3fda6dd1f532cdc3e99b46f9f147407be35b82260dabcdab3fc42118"
+      "hash": "5f271e5b4812f14355b5ab867e8aaec679af954b765d0def3abf9d82597c1c90"
     },
     {
       "url": "https://luqevora.com/ja/business-software/google-drive-guide/",
@@ -1404,7 +1436,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "644b07a1f52d2a4df8c5ca6fc256050fefad8e89f4d542acbaa4efd31d662c4d"
+      "hash": "15edb540807fc3b24c9809cce4543e2a4e9a42dc92180d474999179e2abbc6a4"
     },
     {
       "url": "https://luqevora.com/ja/business-software/google-meet-guide/",
@@ -1412,7 +1444,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "43ce9d47b9cb57bc925b38cd4d546efbaa3878f4626f8d98b3d5a3f59510c44d"
+      "hash": "8165294766735c63036d106a4aedc92a2f7878c76e6946a97ca12664c7e316ba"
     },
     {
       "url": "https://luqevora.com/ja/business-software/google-workspace-guide/",
@@ -1420,7 +1452,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "167dc41828544fe919213bc61038fd832088762f902a0c55d11c1c5c3485bacb"
+      "hash": "080abe9bfe6fd605bcdb5226f6116bbe4e428af4467c6333df137b7c0baf9c48"
     },
     {
       "url": "https://luqevora.com/ja/business-software/monday-alternatives/",
@@ -1428,7 +1460,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "63af2a4e9312f214fbd6061820137832f17c5e6cad568d4eeaba38755abd8e65"
+      "hash": "888ace28aeebb579537f50b451c9ab4f2b8d3b1cfcd22115732c5a727f7e5f44"
     },
     {
       "url": "https://luqevora.com/ja/business-software/monday-for-small-business/",
@@ -1436,7 +1468,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "92d746dd6d53891878fdc5876ce501d88afe838da00e51e380a1ef468ac820db"
+      "hash": "d56d160070940e0555d6e138365a4a2cb6ed5d72b6478cbfb9857f3d83dd2d31"
     },
     {
       "url": "https://luqevora.com/ja/business-software/monday-pricing-guide/",
@@ -1444,7 +1476,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "336927eb43bce1b9ae88c81dd1fa5988bdc0d92d7eb85fc24b3203a034179954"
+      "hash": "beeb55cc1747e90cb7a65a7c3d9e37f12834234c9d3b72f313ca910839a3a4e4"
     },
     {
       "url": "https://luqevora.com/ja/business-software/monday-review/",
@@ -1452,7 +1484,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "f1fd6952918623a5adf366b8438f8f9e0123cb6cc21ed62f33bbec36e4d5c6f7"
+      "hash": "b1ec121011a97fe80a790bf90f7f1d24873ca5a69a469c0117f97be0d7eafeca"
     },
     {
       "url": "https://luqevora.com/ja/business-software/notion-review/",
@@ -1460,7 +1492,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "eb67a771171814eca520dd6b849ff1a21b261607dd6c81b8d5eb3548b68c54d7"
+      "hash": "a3ca8453b696c578e93273730bca20f4571f6e0dd134bb8e506e0a222d8d4619"
     },
     {
       "url": "https://luqevora.com/ja/business-software/project-management-tools-small-business/",
@@ -1468,7 +1500,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "bcf2c6c2c954195e83e5b39f5476a58acdcea7f0c4e021a3c5329277afa431f6"
+      "hash": "9a83bfa1fecd443f999a6ecbf34acf1b4db9d200dee4e38cbfb9e4f18d0f0284"
     },
     {
       "url": "https://luqevora.com/ja/business-software/slack-guide/",
@@ -1476,7 +1508,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "7744348e515518020972d98a7bb504d1770282c58577df5c75e8e067673207b7"
+      "hash": "2455c36fa372e23730d6171f1c5acf19c0170cec1d7606e627784f5cc4525cb3"
     },
     {
       "url": "https://luqevora.com/ja/business-software/slack-vs-google-chat/",
@@ -1484,7 +1516,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "fddc04e16bcb23bf91ee7bd481a765e8308f9bed3976b33a35feed9f52440994"
+      "hash": "1da87a48d03bbd8b2ccb9f55a5564064dd8b696b346032d30c0a5a8bdf7ab72e"
     },
     {
       "url": "https://luqevora.com/ja/business-software/task-management-tools-comparison/",
@@ -1492,7 +1524,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "c8ebd4bdbe7a201dd90ae9c4a91936ec9b3927b8914cdb73a5ee1706134d4a4e"
+      "hash": "899f7429c7106c62882b263824885e59032b551611a18f9ed1b3f7dddad57180"
     },
     {
       "url": "https://luqevora.com/ja/business-software/trello-review/",
@@ -1500,7 +1532,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "94f0c8ddc5b68d6dcf2ed1b5e2db3cb37f57ff57ec326dc1b881e4a69d20fc07"
+      "hash": "79bb0ac15a9a96000e7353531b2c08df49abf2719fe933ec83a0c67bd84aa071"
     },
     {
       "url": "https://luqevora.com/ja/contact/",
@@ -1508,7 +1540,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "d5cebd5ba6562c6e6ee8063b5fb74e46380209358df4ada77763ee2a46157899"
+      "hash": "47568a97e9149c20358102d678be539f43a0b68b61ecbc6d223ee121212a6bb6"
     },
     {
       "url": "https://luqevora.com/ja/editorial-policy/",
@@ -1516,7 +1548,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "96bfc9eeae7eab923b40ecdf63934ca9bd635beaff486a352b5bb544da22d880"
+      "hash": "38d914f0804908510c605828404708cd4c5c136b2a21dcf488f7cf51470b3088"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/",
@@ -1524,7 +1556,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "c68843a2d5bdf66b49db6707a16f842365c706003d593d147e25be41e72d4270"
+      "hash": "218ea808300127469d0bf820e2e26949e58ed8c71b35393322a275ce44fe3aba"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/1password-review/",
@@ -1532,7 +1564,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "b0df3f87fc719da799317ab8fe2f9369bd4a563c83a2098527caa1618abb7387"
+      "hash": "16490f202fa58331e3bad45d5aadb89ef6fb25c063ecd54994d69a3fda3d7ee0"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/ablenet-rental-server-review/",
@@ -1540,7 +1572,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "4a27000cbe3ad35d9cb7fa459efebb4e6c50a3f74467a579a373a81fec4dee45"
+      "hash": "65f3568b24b7ebb087c2338953307644aaece8f9eb13c94d5465a700554bd9bd"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/ablenet-vps-review/",
@@ -1548,7 +1580,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "159e310e8f0eed689962bec5decfb02009081baa3d24350ec97bd98351760962"
+      "hash": "21aeeec1f6ff879b464bf775d081a553391454b9a8bf4039615dee347b40b5ec"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/bitwarden-review/",
@@ -1556,7 +1588,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "39052492c0c18cf835a56ab2c7842d4f225af092c8d112e3633d1ec78c11777a"
+      "hash": "4ee0c43c64b9ffecd1b74c703876d8be6fc51a73ccb32e6be5f84202174528b3"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/business-web-hosting-comparison/",
@@ -1564,7 +1596,15 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c79a52a1d51e77320827c871197079dd2cfc75daf96167f78916c7948f3a274a"
+      "hash": "9c920ae7470320d98d88a1c77c9129afd69f00aaa2beea08c3e9dbf6fce6a14c"
+    },
+    {
+      "url": "https://luqevora.com/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "path": "ja/hosting-security/business-wordpress-hosting-comparison/index.html",
+      "language": "ja",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "83940dd91bbd8cdca09d263c68ceb9595760804eb5a3735fba0fd7f57be50468"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/cloudways-guide/",
@@ -1572,7 +1612,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "3802ec2785ffa2649487d4ee07e71ec74a3589ea8714856aedbe555cc07dc1bd"
+      "hash": "48659f7e7eab0889701dc3a8f301ca4cb095344bd75128d23b775a1965dc1cfb"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/cloudways-review/",
@@ -1580,7 +1620,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "6e844e6d98043cac263e660da0679026c8e92866458dc5c802a81f579013bbbb"
+      "hash": "206d892f61a70a329ff0e7192dd6f5a9a49fc1c0993fb0fc9f5377042204c9fe"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/colorfulbox-review/",
@@ -1588,7 +1628,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c6d4c5ac614e8024e93626620fec0ac54bbf469f57d0e072a2c4a518f80c4ca0"
+      "hash": "b18488501c2c17e00d627a254496fc5081a8b9517df31c2a08714818662ddf6a"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/com-vs-jp-domain/",
@@ -1596,7 +1636,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "4a97ab51a8a359cb50132e1d8d64ce6a7b7e7f2ccc6e4f1c137c707814df7466"
+      "hash": "27e8491d5b55bfe160dfa873df915d7637e88a598ed7b9455a5400747e13e2e5"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/conoha-wing-review/",
@@ -1604,7 +1644,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "06243c9675565ef3e56e1357b2783ba6e0ffcb2521fddc5e5169f00d5fa1c68d"
+      "hash": "d8fb625b0092741d8556f2c56ff379e8c24034cfd205503fbedfee8b84d2f809"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/cpi-rental-server-review/",
@@ -1612,7 +1652,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "0dad632119e838d581db1ec44e652308cd141eb10027ac52f4507254bdd10631"
+      "hash": "c2281518d8967731fa5c695df2ba35160713ae9cfc85b20128a471a7228295d6"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/cpi-vs-xserver-business/",
@@ -1620,7 +1660,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "3731a621a26bb4ed48fa15f2d545b7937b8bfe0260090ac261fe2bef379bb900"
+      "hash": "a61e581d361dc3b1162ebfffa9c82ec8bc3aabb81e2082ad1b51e8f40671c87d"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/domain-registrar-comparison/",
@@ -1628,7 +1668,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-17",
-      "hash": "c67a0f413d4a91024fc1ef99cff2db0ff212187e42dda1963f6f5ccd251d9d4f"
+      "hash": "b701bef683a3e18509bd276eeb6614ddacbeb357d802e193310b08973bd69204"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-alternatives/",
@@ -1636,7 +1676,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "5b61861e60d0f2629db23292a7d75a6d3577d2d0ffb9bbb49a0d2255e8ca2203"
+      "hash": "efc148e89412799bb216e48a46c110829a4fe5f41f2e90867228eba023c02267"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-for-small-business/",
@@ -1644,7 +1684,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2778db875a6108fc367f2d373909911a6ae60aae3f2a4d2783f99fa48f19314c"
+      "hash": "15fa47622baec4bc4b0354778379a2850fc98e8a667be1f216b086efda1d60ae"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-pricing-guide/",
@@ -1652,7 +1692,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "ad2eb3430fab69e61b0e49fbf33d651e7ece313e4622cbefde2040b6871f0362"
+      "hash": "d351d08643cf92bae54fcf491bee6649d015d2f817371ae9418a069a7bcb3789"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-review/",
@@ -1660,7 +1700,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "0a5dbd96ff3c06c351a9432ec88598f2986cf142ba4b3dbde1990b41ca28acb9"
+      "hash": "029f92b8813552598aced20220b1a1516450859d2d0feab9ec96b9f05b9aa544"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-vs-ablenet-vps/",
@@ -1668,7 +1708,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "762a903e751a5909d0548ff0611d2dd7efed4043078ffd6066a4f867717f82f8"
+      "hash": "9341bbcd6eb389713614e0336541b70653197b0160e706b4b381b00af3229be6"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-vs-kinsta/",
@@ -1676,7 +1716,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "39e1532f894a4754958fbb23004d27c4faef05cf046cebe3b6d5a006e46b0e87"
+      "hash": "cec444db2bd8b873b5b57c18f434e82c44ed250aa503b662a32ef9d10f2d4d78"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-vs-lolipop/",
@@ -1684,7 +1724,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "af7ec7f24348b8ed272e77e0f44c641ad27a6dc6e13dc5ec08530c094f9750ed"
+      "hash": "0085e37e7aa5b268dd17889cf7ecfcbf903875ff5881361ea08bb3680e721804"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-vs-wp-engine/",
@@ -1692,7 +1732,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "8e3e3e5a9489e1a140420fa80dca1b84e1d53e47b705f535c9bd73b56b5a97ee"
+      "hash": "83e1e8b616c458862a9493a1eb74168efd908b676bf3ca644f986569d0469ae8"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/hostinger-vs-xserver/",
@@ -1700,7 +1740,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "cfea5869089e4937ee0aac3a9588c1a2c0bf88cdc4e84a7af617bd50dd045843"
+      "hash": "43962b879d1f97f03962df5857aea85dbff09cd66780acfe0e41adb6f755f5ff"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/jetboy-review/",
@@ -1708,7 +1748,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "005d14c9030689ad6383dd1c24755e6a65f73f8fa5329fc30288ff906e2b1fdf"
+      "hash": "41dae025400a72e9e75ece30bb36e7747ed7ac486a609e75e34b3d47bac01767"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/keeper-review/",
@@ -1716,7 +1756,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "b9d3c8284bc75b2f651fff4899be0bcefa2b27376a01ec17e95a9da6c39d96fe"
+      "hash": "f10a1a6fef1ce755f7468ae471aab4b55755dd08de3e6d07e84c72b7e3a10b53"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/kinsta-alternatives/",
@@ -1724,7 +1764,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "12bc2ef60173f3a0575fc7fcae694e88009140b0d7d74bd0ea5968c515b228c0"
+      "hash": "eb7103ca2fae691d8aadfd329076b4f1631e5c39e7e7bef6e74c82a13dea05de"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/kinsta-for-agencies/",
@@ -1732,7 +1772,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "6c6fd68a84ea8ffdeb958221561ae730a1b52870b818a2e8b4f75d6c768e1df3"
+      "hash": "91ec43c12fc14e0a26668182ce0de3e87b674a4c28cfe96fbf67f1092512683c"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/kinsta-pricing-guide/",
@@ -1740,7 +1780,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "8ee4c353a5b6f23f33e1a997f49eaa1d4e2ac25fb9f7cf63950e78e164a37fcd"
+      "hash": "1481574386847ece81e49250fdf41726e28d7532c9525ccb7b7fe9689d879634"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/kinsta-review/",
@@ -1748,15 +1788,15 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "a79f49a34fa944f2c9985ce4e3d8b023c465d4eff2b4689f072a5628bffce9f6"
+      "hash": "69c98ced02d6fe9cfe2bd96a280a15a2f11b8073ff62c59004075c5fff48f08d"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/kinsta-vs-wp-engine/",
       "path": "ja/hosting-security/kinsta-vs-wp-engine/index.html",
       "language": "ja",
       "type": "article",
-      "lastmod": "2026-07-18",
-      "hash": "4067c8d08cfdcbe7f2e30b5bb2fe30787679728720404146122b38fcf8984587"
+      "lastmod": "2026-07-19",
+      "hash": "85f347b0e3c4280a8d18cb4b47a28ee1d07fa0f47ab6dcc11bcc16cba2452b8e"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/mixhost-review/",
@@ -1764,7 +1804,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "60d33fbfc2bf757ab3062cde7aacbc02ad7602d3e749a9cb23c6a091d7b659ac"
+      "hash": "b6fb8c8537096fe7ca923edc6ddae20083b5d6a0f27c64ab1a8ca08dcdb1208e"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/namecheap-review/",
@@ -1772,7 +1812,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "5daa13089a192161cdf615440a6621dfd830e1262b83221311383f3040c12ee6"
+      "hash": "774ecef876e547ada8586f1bcb783b8e75925a5a1b509c0fbc58b76884ca8f52"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/nordpass-review/",
@@ -1780,7 +1820,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "84e328904c5a856f7fc90cf61337242eeac8a1adc6b2e56682a8cdb5deb34dc1"
+      "hash": "a39ae72b7b53ca01e70aea63209340c3599c31b6ce7bbfff17cb0ef0e83ca7df"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/nordvpn-alternatives/",
@@ -1788,7 +1828,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "43325bbd406b2e89af4102e3c4fe32d3c2da8cf352f11a0c5f8d536a20cc2953"
+      "hash": "d94d077ed609228b6a9a03d01a120d075d0d7a7da27e00ff6164f8022df4bc8d"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/nordvpn-for-remote-teams/",
@@ -1796,7 +1836,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "4d393223ef40540a7851d6f0ad51677e68f7114c7bb6d23d26788dfd6ba5fb87"
+      "hash": "8325fca78cbd27b998c9ef8cb9175a3f5a03ac0c46531b50ea08fce25ed17c96"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/nordvpn-pricing-guide/",
@@ -1804,7 +1844,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "40acc7f8e2f7e1cb2745abc2d053847bb9180935f2ba338f8936845128ea3f40"
+      "hash": "d5a70711ee5886b8274d01aacb1efbe1446b9849d50990291c046cc0758f454b"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/nordvpn-review/",
@@ -1812,7 +1852,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "ba3cb0302213a5bd09ecd4cbe38b7cf434016e29fcf4563f6c740018e6680781"
+      "hash": "ef66b31c6ab6f1dac19b39a483a9a230c2f6a188a8b6f636afc7931e61c95a3e"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/nordvpn-vs-surfshark/",
@@ -1820,7 +1860,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d868d1efd98a701ab7b6120113951c65a9497dddde45ca6c5606510963053ed6"
+      "hash": "981270a46c43cd535fd19a5d8fd8d504017e199864975fbc121471e302a1d8de"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/password-managers-small-business/",
@@ -1828,7 +1868,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "d3aea8b796569e1f11d40a5bce6381d81ddbd0f1d07006d15985468fe6975650"
+      "hash": "a4db1400f63c5600abaf6cde92bc14d05ea5d40d2f08d5cca0f3a4b84e69ebcf"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/siteground-review/",
@@ -1836,7 +1876,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "7611ece912060f4bc4f2a4d1f0c82000d422126aeb380ef6b7640b245c8a8e18"
+      "hash": "bba521f9045cdd85703b39b48b6a8d7655b9aa2065a6748868666768620c9392"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/surfshark-alternatives/",
@@ -1844,7 +1884,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "0385cf5be6888be071bc1f8b14fe7a3662ef030b5cd7ec8c145bd3e976c20fba"
+      "hash": "42da82a16c5db554ea4079d04b4a6b4675efd7fcb1cd63cfe1008765ed59986c"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/surfshark-for-small-business/",
@@ -1852,7 +1892,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "f3d5f2a536adb62e62853dd2244e5eedfb603a6e3c97763c588eb4660ae132db"
+      "hash": "dc65306d9507df460099773d48cc67e263d9c0fa59f7e48b4633cce89c645cfd"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/surfshark-pricing-guide/",
@@ -1860,7 +1900,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "e8c636990791006e9a90a5eadc1bb6f30515c8e72796ee0eef090b66f80ea2e0"
+      "hash": "f98384eb38ca83f968ea77d90227cb8394138ef04c305c2cc8b65d088c3568cd"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/surfshark-review/",
@@ -1868,7 +1908,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "7dcc0ee8efe28fb62a0c070be2bf38b9552b9bd283fe0ffa31ec6fee1e0f4350"
+      "hash": "2efc2699ef17a3ddc2496b348c3d1bf53e6821576199dbd3f2a9edf426010aa9"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/web-hosting-small-business/",
@@ -1876,7 +1916,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "97b1d4c82c938c007b1aeb5d22567f55e5c717f14b2731d74ed9ffd91f5407a8"
+      "hash": "54787e9c0ba339ca3415073acc35353442e7c9d551419252cef56c50758cf28d"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/wp-engine-alternatives/",
@@ -1884,7 +1924,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "cf27ae4f049491b105c2e9ad020f05b5f44fec0d110a42020a899d110ef6b8e1"
+      "hash": "c42827cd5b001e0d704c3f2d353a56f2e3c4c9d8a9b6127e99e97bf5f3e54c5b"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/wp-engine-for-agencies/",
@@ -1892,7 +1932,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b868114e5f3b631fec8d34ecf2a1c10115962db237775d6a7c2061fc032e37de"
+      "hash": "f2626e90ececf457bf6c0cd94ab0da67afb41eed9bd74913119082c72d9b5fc2"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/wp-engine-pricing-guide/",
@@ -1900,7 +1940,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "88de20fea0ef3f7b1417a25221487e719658d880fb0767a24cd8c86115d2e6b6"
+      "hash": "c7cfa0346c1f9ecbde1a3f3da65aeb2809a6d9168bbceaecc1b7981048ab430f"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/wp-engine-review/",
@@ -1908,7 +1948,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "a9f1eef5fb30d65be62b5216eea92a5f69a2dfefb4150600b09faf8ad59b0511"
+      "hash": "163d437d729dd54c482b5b342cf6bf03aa9a860037d2f627f4b2f94b57fe5589"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/wpx-speed-review/",
@@ -1916,7 +1956,31 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "fca21a509a2bd10332d2ba2915cadd8cacda74920399d9e7ea8af44c14909555"
+      "hash": "4cf07f15a5bb541869be2fb7c82d75e34fadd07a2ca201a06cac41130bc50a06"
+    },
+    {
+      "url": "https://luqevora.com/ja/hosting-security/xserver-for-wordpress-review/",
+      "path": "ja/hosting-security/xserver-for-wordpress-review/index.html",
+      "language": "ja",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "a4e561ebf1836d95bef4ecb205778f9fd89001da0e107b95b72b9984cdb3495b"
+    },
+    {
+      "url": "https://luqevora.com/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "path": "ja/hosting-security/xserver-for-wordpress-vs-cpi/index.html",
+      "language": "ja",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "80c272deef24664f8e24f94e87250ac39bf8a3f0197c177f1b50c2bb500a1132"
+    },
+    {
+      "url": "https://luqevora.com/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "path": "ja/hosting-security/xserver-for-wordpress-vs-xserver-business/index.html",
+      "language": "ja",
+      "type": "article",
+      "lastmod": "2026-07-19",
+      "hash": "51d80238a9d1933cad2e79ff13132550353d955a28c09c05a16c11befb5dbe82"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/xserver-vs-lolipop/",
@@ -1924,7 +1988,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "70eea7243de86fd17e777185145230a9adc7f6f782f153991f9cdf7117d547c5"
+      "hash": "40959a97768e62eb05eee16b30e1b6446f577f501a66bce582a4c3d87e3f4a90"
     },
     {
       "url": "https://luqevora.com/ja/hosting-security/zoho-vault-review/",
@@ -1932,7 +1996,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "14ac955c2225c873e61cea77ea14fde54d1e7e976c2fa110c8cb0599f9817950"
+      "hash": "346491f28754d890a411534d9e1a6afc9a8b6f1c5cb88cebf33fb54008e3cf8c"
     },
     {
       "url": "https://luqevora.com/ja/privacy/",
@@ -1940,7 +2004,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "07ade086289723113dc3f253943475fcf1d8684c4a85a9365ac703c28b873992"
+      "hash": "91b3c98ec05509d7a07d5c62c7ada51ae0b36c1f213f8e2cb682a117d551b662"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/",
@@ -1948,7 +2012,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "6fe2bc598d5ab8038ca814a6b0ba42f91b1a742aade150387f923ba4ad00e1bb"
+      "hash": "110f3337686b46347aab8fba30e1ce0bcf63d95930f10ec130583e7e3a8403a5"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/a8net-guide/",
@@ -1956,7 +2020,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "caf04d3f83ce48d692c80f726a4635a6250ed68561edad3862e60c965caec55b"
+      "hash": "b22e6faa4ad475c340084a616f8770f733bc45928d6b80fb7c9a438f13b29201"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/activecampaign-alternatives/",
@@ -1964,7 +2028,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "89eeb7785116fd83672286292b97cb6d967ffa77a2338b03145cbfdb87a22dae"
+      "hash": "bcc0be5619be1615a83deecfe79a0756b94fe2b76b4ed44458940224499e922a"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/activecampaign-for-ecommerce/",
@@ -1972,7 +2036,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2780a77483fc20e2ccdbc90ca629db9d39108d87b0c7e7dc34c2416fb4709f5f"
+      "hash": "d0590250fedd620efe3a4fb1a62a016d65ca1424ed145b1fb81fd59fe12d50dd"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/activecampaign-pricing-guide/",
@@ -1980,7 +2044,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d1f432063d8f5589668f1a090160b118075445557e1999e897b082d8de5e02cf"
+      "hash": "928eee8deb42d4b0ed38be91e282c8646ee183601a113f7136d40e565f5e6e87"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/activecampaign-review/",
@@ -1988,7 +2052,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "5785d637c868ef78f7905880f8a835d585fe4e5c8d1b4981c01ab7af381e52ef"
+      "hash": "5513858a811cb8773c69906e9812c77f6fc7c3393da51fa2fc893f51107c7e54"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/activecampaign-vs-hubspot/",
@@ -1996,7 +2060,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2d4aad6cf2e4df1ba7d8f85a420a4e2bd5ceddbc020963031964b128c6287dbd"
+      "hash": "9de8de93464a9005314974af05e76ab13ece0f2c835b0c7f6f83c803b1748ad2"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/affiliate-marketing-start-guide/",
@@ -2004,7 +2068,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "f6035e21f3e3819a8bba1528c4ed57c0955f0049ce7800d7e9b1d9d9ec75ac71"
+      "hash": "24ba8743b7e8831e4484d834b3b678ce61b4d0d940cd2f4dc552e2ac22450933"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/ahrefs-review/",
@@ -2012,7 +2076,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "6d6d6d8c85305b66a56c2bd0d7c7c8a936c75e6a201ce4f47ea4096c090e8ea7"
+      "hash": "1835f2ba4b543002fdba359fd43db8e2a235b19ce428905aefb7b656927d89be"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/brevo-review/",
@@ -2020,7 +2084,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "5fd7d737140620da004cd8062eecc75605059f04e5b87f825b864c3adb40f329"
+      "hash": "61513fcba1d567aa295a4a43fe0a6dc282ff96671ff84e833354e3109b358d68"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/email-marketing-tools-small-business/",
@@ -2028,7 +2092,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "756fc46cb58efcfd518938174e0fa02a0eb93739ebdfb2ccdab83bc110c4b9dc"
+      "hash": "05cb62b67604f39a4af4a2bd45c3b44f0ea23e7a89814b138076159337d121af"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/getresponse-alternatives/",
@@ -2036,7 +2100,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "995cf0ef769cee15fc050f6fd81d4cd58361e047e4bb0a62d109a7ebb34d96f7"
+      "hash": "5690488bf69f4e4f4ac54707513aa1aa8756f58655bf3a818bf006097dbbc6c3"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/getresponse-for-creators/",
@@ -2044,7 +2108,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a21d16b76773231070eb3f230bb26559d1b7809f6f800f4eab04f0a63eed6926"
+      "hash": "1f6473c3dc23a96852c0d98a4c63d68bcf24abaabb1bbb8bcb0767fdeda6ead2"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/getresponse-pricing-guide/",
@@ -2052,7 +2116,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d507cf2f5c1229638e8c8ce77a5c152e5d40dd7db417a161a3bf9202ac0f142a"
+      "hash": "570ffb28d1aa45217b41a5a9a9469efefbb4074d0b96600478eef6ba1b012540"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/getresponse-review/",
@@ -2060,7 +2124,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "d54b2eb5a4acddbde57ab99cdb9218cdbc2a9f3da7e62bfb09c5e0208773d1c5"
+      "hash": "9d0955ecb201e7a7c343d2a20d202b9422b75cc4e22a4dfee8288b8e5bbf0b0b"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/getresponse-vs-activecampaign/",
@@ -2068,7 +2132,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "f6a44bf821bae77a4e00d26f5bafbe4075247f553f6d97eb50ece1a9c65b5e06"
+      "hash": "492ad9cd4ce8aefc312e8368f6ab75260a0a221388a325284004ee7c7fc26676"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/getresponse-vs-hubspot/",
@@ -2076,7 +2140,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d00cdc5cbe2666ba00134c3bb1c55557b719872181ce7e1e9bd393b8c76f0fed"
+      "hash": "e8c7641e7b3013e9077a4e3b22e0538bbcb97034210469fc0a762514681f3e59"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/how-to-make-money-blogging/",
@@ -2084,7 +2148,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "05c0b8813c56dbdac5f1b33395536c34623a49ac012d8591c4af3ae91379e13c"
+      "hash": "0b07e87d70aefc8d1effbd7fe6ca6a9f2ebdb0a71652021a565bcceb3ee0a310"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/hubspot-marketing-alternatives/",
@@ -2092,7 +2156,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "883142829dcb276619fefb98fec771b7b927f5c0f73eb5ab8676ad134499f292"
+      "hash": "926a0142984b0f701a5d5f3478860abb49333e74b519250ff36be24af76d57b3"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/hubspot-marketing-for-small-business/",
@@ -2100,7 +2164,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "b0feebb278b4ae36c3b1cf704e50fd115c6d5895b391a917fa3c556b7c4f087f"
+      "hash": "95e8db21f059b0323e4162d0c7987734b017b640547f3984035369503d0709ad"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/hubspot-marketing-pricing-guide/",
@@ -2108,7 +2172,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "9736d7525b487a11e81144b2037feb11d89a3dbe72bcb7ff274ec7ad62a3a59b"
+      "hash": "17397ac76f7e7cb0363e6aa247785d49f81259dfb31351930d4dc28fbbb27b79"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/hubspot-marketing-review/",
@@ -2116,7 +2180,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "d59dd669b4402cfc5723c088cc19e5195b564c6ffb9e5eafd61d9461e74735f9"
+      "hash": "75abc14c8cb804c7ea9c25d428c9aa37dd0ae17a51ff2edd81eed5c4d559f84c"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/kit-review/",
@@ -2124,7 +2188,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "a5d5051018945f13223a82d455c9494bce8ff125269872211365b839eb5a2a8a"
+      "hash": "9a5ab60588ee80fce01aa74aed344c61f9d7316d7ddd166b3aaa7716ce386bf9"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/mailchimp-review/",
@@ -2132,7 +2196,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "5566d2b46c7dfa548b87c66370713adfdf0da9f7cd1230aa8a891a92a659ee0e"
+      "hash": "d9a97c3f714df45b183101ad7e13a8e931072453e68062e5ef90a91cd9cf2f0b"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/mailerlite-review/",
@@ -2140,7 +2204,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "cfef65414f9ce8405d1897e3822dd23bd47ee5ba0263636a4fd2e46a22cf56c3"
+      "hash": "841fa82ebd8ddbed388e5ffcd6c32ace3e01f96ff5605c220deb0212e0113695"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/mangools-review/",
@@ -2148,7 +2212,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "78928061f7678cf90fe22814a7972201fc866527f8f75427c1f7667b426dcbdd"
+      "hash": "90008773d24a19e3709db9a949cf3767fecc07dbfb4f4976b51d752a20a2fc56"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/moshimo-affiliate-guide/",
@@ -2156,7 +2220,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "2d9cd8c3826897591552f78122cc28e7d650c6612f06ce2f7d3e35abecbb5156"
+      "hash": "50c22020b267b14148df3b5573d7b524bfae62a786d043c2d4636b52f6c6010c"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/se-ranking-review/",
@@ -2164,7 +2228,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "22e1f7fd773102c0a94530ae9197f5b2607c81062c430b74c3b30da8e9953e3b"
+      "hash": "7514f085de9ed04a22e557d45c5cd7e83c4f13d7a72fae992544f5d9408b9cf2"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/semrush-alternatives/",
@@ -2172,7 +2236,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "670744538cbc2a0a3e13616da40c8dbe912eef439933465f26da0c081acce50c"
+      "hash": "8fb7ffe4b434d4976fa45ad00f8086003c0e95e36582b9881dd98f983d9d6f0e"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/semrush-for-small-business/",
@@ -2180,7 +2244,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a78615a566133f889f2bb4b5f8778cc201c03a58fe613a7fde0288fd296a9f25"
+      "hash": "e0da6a905d0770fff62442ed8faa3697ab5223ecc76213aaae3938501be25766"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/semrush-pricing-guide/",
@@ -2188,7 +2252,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "dfade840775e3e32804290e9f7f1c18afe7b682acf39f994d278390a74cdcb0c"
+      "hash": "e489c29d87dc5fdf2c14cc201c19238d4e1ead1154524a885dfd2240134677b0"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/semrush-review/",
@@ -2196,7 +2260,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "b39de4c104d281cfda6f0a11fa2da827bfb55bfd49391acd0414c1f346423144"
+      "hash": "f66c3c827ac975bbd2cdb814af125e50dd637649ac89a323445a181f03fb2651"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/seo-tools-small-business/",
@@ -2204,7 +2268,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "18fa1863e0b49fd24e2e62b094a28bcfc0f1703b24299c8ec9217ae87fea9a5a"
+      "hash": "f40ee1f526287a325a4c7f17f791954141f5888640b5bd80b669b2e2bd5e0255"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/ubersuggest-review/",
@@ -2212,7 +2276,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "2969361f44cee51fab37bcbd62d94b7ed1c0417b04f95e1f34f96c7a4d4d5e40"
+      "hash": "f85dfdf733314d48f6d9a431949c83475bede94085bb5ba88f795676ff20b32e"
     },
     {
       "url": "https://luqevora.com/ja/terms/",
@@ -2220,7 +2284,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "e209f3b84dd155697871b4a09132db4f6b4b8dac644a20f4e8ad84dfd11e9b30"
+      "hash": "f8ff2267ee94ae04cb234faadeb06741f871dc27ab7075f9ac33c6284d7bd6c9"
     },
     {
       "url": "https://luqevora.com/ja/topics/",
@@ -2228,7 +2292,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "5cf1cda6f87aadb22fe9648c1433f9faf05901b3d4b8350db37028b4cb6e77be"
+      "hash": "bd8219bf9714a382451ebbfd3785c5fccfeddfe9f08181b298ff734fce417aa7"
     },
     {
       "url": "https://luqevora.com/ja/topics/affiliate-marketing/",
@@ -2236,7 +2300,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "ca227a8717e4f876656a488d25fd34955fe92239a964475625bf61b7d802e873"
+      "hash": "df037304122f46838ed4322ae59e58689e56d4651612c17f19608092f2fe1547"
     },
     {
       "url": "https://luqevora.com/ja/topics/ai-meeting-notes/",
@@ -2244,7 +2308,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "ba80b65365f616eb6957a223fa2f1c1efd8413588b1cf21d549b68bec058db02"
+      "hash": "58a6a0857e05733d613fc2c4bdc0ef35e8b54e2b52a6a3c7ad60fc4998b5ad81"
     },
     {
       "url": "https://luqevora.com/ja/topics/ecommerce-platforms/",
@@ -2252,7 +2316,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "762c42628ac46321d074e5f38057977d55169d95e6e3aff436c83808778e1100"
+      "hash": "5945e2370136529567fa41c2b4e696d5d53e2321ccae27f5175fe92fa5606e1f"
     },
     {
       "url": "https://luqevora.com/ja/topics/email-marketing/",
@@ -2260,7 +2324,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "8c56583d5959d63495c9bb8d44bd4d9fe7abc36b95d7aa84f75e6ed76f378d29"
+      "hash": "7c401d85c63c069849bb0c393f0e378f8f14c44bfead4c5cfd3c573a59e633fc"
     },
     {
       "url": "https://luqevora.com/ja/topics/generative-ai/",
@@ -2268,7 +2332,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "f6c4a68adab83d0d27d936bb5583961ffc59de9171151ed20ee801ac68fd4508"
+      "hash": "eb0c6404dea9f456ad966423b7d1ad813b269d0e31c7900b0d2fcc7355b7ea09"
     },
     {
       "url": "https://luqevora.com/ja/topics/password-managers/",
@@ -2276,7 +2340,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "a7e73a568294b4b1f394974d865a5c4da42263f1604b7bdaeae0c50fe47d2f52"
+      "hash": "9f666aadbd7ab4826234c81d1770ef1ee1317868b6246ab8c95b04a0fcc651be"
     },
     {
       "url": "https://luqevora.com/ja/topics/project-management/",
@@ -2284,7 +2348,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "c0d1893edc834dbf0cb64842b473963311ac7cfe34ca26c42c290b7b6167e790"
+      "hash": "ccaa74adcb65f03e5de7b3a06fdc9d93b321d1758b419ae8c9ba4b07b8ad0cd8"
     },
     {
       "url": "https://luqevora.com/ja/topics/seo-tools/",
@@ -2292,7 +2356,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "ca56539ddf97100657f8763beb669f6cbfda059dbeb21f56d66d4c1ebe4e13d7"
+      "hash": "d40ba9abe48476e41ff4e886598bad510cb0a666e6d4cd2ab9029681687ee3fa"
     },
     {
       "url": "https://luqevora.com/ja/topics/team-collaboration/",
@@ -2300,7 +2364,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "9edcae1a88dad26a890be614969800de2155448b607e56d665b0caa6497832b2"
+      "hash": "76c6a11a14edb507a50b643c03f98650560a2539c17bd26281a76f4ce3c09af6"
     },
     {
       "url": "https://luqevora.com/ja/topics/vpn-security/",
@@ -2308,7 +2372,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "602d6e580ca195c37f0fa735c25dcdde52f011d16c5b106bb0ef6fe5017c6036"
+      "hash": "79fa9846a0c8c617211348f13d620eecc22b9e1276738aac3bcc0c97584527de"
     },
     {
       "url": "https://luqevora.com/ja/topics/web-hosting/",
@@ -2316,7 +2380,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "3df981af73034f5d6ab1a0395d8e75b4aeb33e348c20437ec4a924d3972fd158"
+      "hash": "d55aa0b655e3bc670e254814239346cd5a0b84dc9bfcd4a9a14884a52cbb1a64"
     },
     {
       "url": "https://luqevora.com/ja/topics/website-builders/",
@@ -2324,7 +2388,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-19",
-      "hash": "43280ebdfa6a43e12a4d8cc917f40f6a4cb58c512e1ef96c7fc8480f70ba0d49"
+      "hash": "636e85b8d62bcf60da5ebc02da7ee99e250fac11afb641dc945aa72c9011794c"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/",
@@ -2332,7 +2396,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-19",
-      "hash": "b7d3630e23ff3ef51d0da778f22253b7a27ff1c8e66ef5bf7932373314b1694b"
+      "hash": "fa8d001e55073c3980984e52bae5099c00919ed520a3e23e09f175fcf1a4d98a"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/hostinger-website-builder-review/",
@@ -2340,7 +2404,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "9e7e3c6695c0dabd25ed040872df9e426607e74100b7b8da53087dee2a65b408"
+      "hash": "6d8c3d95c233fee10260fc4290e1608744ab0c24dcc2715df69489a4bb75462a"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/shopify-alternatives/",
@@ -2348,7 +2412,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "c05d5aa317107482843fff4390365da870090573dad54f046205861e27979faa"
+      "hash": "2de1c9418d28fbbc8d75bf3c4a4b57ed160da3df4c4a44bb2de77534c87e9a0f"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/shopify-for-small-business/",
@@ -2356,7 +2420,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "7ef249a935719e0596f26c9646d974787262999d30602abad1509333a4eb0010"
+      "hash": "ca238491e0a28946aa9e9ee80620c4dc792a4643f005d83b6c9819285ddec8f4"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/shopify-pricing-guide/",
@@ -2364,7 +2428,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "a3f60fa6f1fc5082d14b41da61c75e940e5c6dc44ac4ee99e5ec2e9a433c8418"
+      "hash": "b5b0e6db4cabfbbb6adb264d9f0f9deac7961a3afb8c9518b5567382137fa485"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/shopify-review/",
@@ -2372,7 +2436,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "f1361dc4a792213a8703b96d2c3850d321363fb2254fe64a928142b0e29ec3e1"
+      "hash": "c6f9d236bd0bb155d4a63d9aa75bd10f4e3c90ebc4a6d9d05987ddf0495962ff"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/shopify-vs-hostinger-website-builder/",
@@ -2380,7 +2444,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "693080aed32a7998bb6c647fbfe824691c6b2cb2efda5a4e02274b8b6cfc39d5"
+      "hash": "aa1faaff262efc4e3753d00c6ba06e171e8de420aab45e09e54bc7a462ab42a8"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/small-business-website-builders/",
@@ -2388,7 +2452,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "6271ee5b33a76a4f54f435687ae4c470007df3801a9bbaedf3c0212358ea4bff"
+      "hash": "77fe536f3e2a1cbf555b6f5ebf668f10b331f2d9b02b01d2af074b04e26cab16"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/squarespace-review/",
@@ -2396,7 +2460,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "02f8281faac776e17cf38d02078218427885460f518c2be127d1c9350862fc2c"
+      "hash": "f8e33ef919e98dd1021e54a06a69f3ad00fe1bf3c781b758ef5f14e0c77250db"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/webflow-review/",
@@ -2404,7 +2468,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "9d3318cf3a2d5b9aea3da7950f043d11e7a580ce6fafc7e8e2d1ed226db5b7b9"
+      "hash": "f59a21781116131d83a697da794c77a1a6d6c31fbaccbe9966747a77b1a8d023"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/wix-review/",
@@ -2412,7 +2476,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "7c7afd5177147d42930efa3fac4132be1d5c7cb06be4499dd0ce1f67e1c18c68"
+      "hash": "9d3bc83d3a0ca6f88fd3e50ff1b5dbed86c4eee282181f096d2c863d1f856744"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/wordpress-com-review/",
@@ -2420,7 +2484,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-16",
-      "hash": "6ad4dbd41a1a5df8945bb34816831db00e748f66ff38e4a14120837a9419f225"
+      "hash": "9d2189724820f59a614334f8dbee7ba1ab2f2ad6b15b5c9eb447155673723ac2"
     },
     {
       "url": "https://luqevora.com/ja/website-builders/wordpress-start-guide/",
@@ -2428,7 +2492,7 @@
       "language": "ja",
       "type": "article",
       "lastmod": "2026-07-19",
-      "hash": "0df65bf72b9d2ccd366535ecad2fa5f6aed1e3804fed66a39172218a23b3f2c3"
+      "hash": "4952f58770bddddb4cc30c1d381125060463e95d209e6a1b309f3802e89659ad"
     }
   ]
 }

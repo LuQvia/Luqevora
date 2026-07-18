@@ -5,27 +5,68 @@
     "type": "guide",
     "topic": "project-management",
     "sources": [
-      {"label": "Asana — Pricing", "url": "https://asana.com/pricing"},
-      {"label": "Asana Help Center", "url": "https://help.asana.com/"}
+      {
+        "label": "Asana — Pricing",
+        "url": "https://asana.com/pricing"
+      },
+      {
+        "label": "Asana Help Center",
+        "url": "https://help.asana.com/"
+      }
     ],
-    "ctas": [{"label": {"en": "Check Asana official plans"}, "officialUrl": "https://asana.com/pricing", "affiliateKey": "asana"}],
-    "relatedRoutes": [{"category": "business-software", "slug": "asana-review", "label": {"en": "Asana review"}, "description": {"en": "Review Asana plans and capabilities"}}],
-    "locales": {"en": {
-      "subject": "Asana",
-      "title": "What Is Asana? Features, Pricing, and a Practical Setup Guide",
-      "description": "Learn how Asana handles tasks, projects, timelines, automation, portfolios, pricing, strengths, limitations, and implementation.",
-      "lead": "Use Asana to standardize owners, due dates, dependencies, and status without creating unnecessary process.",
-      "verdict": "Asana fits teams that need consistent responsibility, deadlines, dependencies, and cross-project visibility. It is less compelling when the primary requirement is a free-form wiki or a simple personal checklist.",
-      "context": "Begin with one workflow and a small field set before rolling out portfolios, rules, goals, and dashboards.",
-      "overview": "Teams create projects and tasks, assign one owner, set dates and dependencies, and select list, board, calendar, timeline, or portfolio views for the audience.",
-      "capabilities": ["Tasks with owners, dates, dependencies, and custom fields", "Multiple project views, forms, rules, and templates", "Portfolio, workload, goals, reporting, and administration on eligible tiers"],
-      "pricing": "Compare Personal limits with the paid tier that includes required timeline, automation, reporting, portfolio, guest, and administrative features. Price varies by billing term and seats.",
-      "tradeoff": "Asana creates clearer execution, but excessive fields and statuses can turn the tool into administrative work. Governance is part of the implementation.",
-      "strengths": ["Clear ownership and deadlines", "Strong multi-project and dependency model"],
-      "caveats": ["Free-plan and seat limits", "Advanced portfolio, workload, and administration by tier"],
-      "fitIntro": "It works best when the organization agrees on a small number of repeatable project patterns.",
-      "bestFor": ["Project and operations teams", "Cross-functional initiatives with dependencies", "Organizations standardizing status reporting"]
-    }}
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Asana official plans"
+        },
+        "officialUrl": "https://asana.com/pricing",
+        "affiliateKey": "asana"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "asana-review",
+        "label": {
+          "en": "Asana review"
+        },
+        "description": {
+          "en": "Review Asana plans and capabilities"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Asana",
+        "title": "What Is Asana? Features, Pricing, and a Practical Setup Guide",
+        "description": "Learn how Asana handles tasks, projects, timelines, automation, portfolios, pricing, strengths, limitations, and implementation.",
+        "lead": "Use Asana to standardize owners, due dates, dependencies, and status without creating unnecessary process.",
+        "verdict": "Asana fits teams that need consistent responsibility, deadlines, dependencies, and cross-project visibility. It is less compelling when the primary requirement is a free-form wiki or a simple personal checklist.",
+        "context": "Begin with one workflow and a small field set before rolling out portfolios, rules, goals, and dashboards.",
+        "overview": "Teams create projects and tasks, assign one owner, set dates and dependencies, and select list, board, calendar, timeline, or portfolio views for the audience.",
+        "capabilities": [
+          "Tasks with owners, dates, dependencies, and custom fields",
+          "Multiple project views, forms, rules, and templates",
+          "Portfolio, workload, goals, reporting, and administration on eligible tiers"
+        ],
+        "pricing": "Compare Personal limits with the paid tier that includes required timeline, automation, reporting, portfolio, guest, and administrative features. Price varies by billing term and seats.",
+        "tradeoff": "Asana creates clearer execution, but excessive fields and statuses can turn the tool into administrative work. Governance is part of the implementation.",
+        "strengths": [
+          "Clear ownership and deadlines",
+          "Strong multi-project and dependency model"
+        ],
+        "caveats": [
+          "Free-plan and seat limits",
+          "Advanced portfolio, workload, and administration by tier"
+        ],
+        "fitIntro": "It works best when the organization agrees on a small number of repeatable project patterns.",
+        "bestFor": [
+          "Project and operations teams",
+          "Cross-functional initiatives with dependencies",
+          "Organizations standardizing status reporting"
+        ]
+      }
+    }
   },
   {
     "slug": "business-chat-tools-comparison",
@@ -33,31 +74,90 @@
     "type": "comparison",
     "topic": "business-chat",
     "sources": [
-      {"label": "Slack — Pricing", "url": "https://slack.com/pricing"},
-      {"label": "Google Chat", "url": "https://workspace.google.com/products/chat/"},
-      {"label": "Chatwork — Pricing", "url": "https://go.chatwork.com/en/price/"},
-      {"label": "LINE WORKS — Pricing", "url": "https://line-works.com/en/pricing/"},
-      {"label": "Microsoft Teams", "url": "https://www.microsoft.com/en-us/microsoft-teams/"}
+      {
+        "label": "Slack — Pricing",
+        "url": "https://slack.com/pricing"
+      },
+      {
+        "label": "Google Chat",
+        "url": "https://workspace.google.com/products/chat/"
+      },
+      {
+        "label": "Chatwork — Pricing",
+        "url": "https://go.chatwork.com/en/price/"
+      },
+      {
+        "label": "LINE WORKS — Pricing",
+        "url": "https://line-works.com/en/pricing/"
+      },
+      {
+        "label": "Microsoft Teams",
+        "url": "https://www.microsoft.com/en-us/microsoft-teams/"
+      }
     ],
     "ctas": [],
-    "relatedRoutes": [{"category": "business-software", "slug": "slack-vs-microsoft-teams", "label": {"en": "Slack vs Microsoft Teams"}, "description": {"en": "Compare two major collaboration platforms in depth"}}],
-    "locales": {"en": {
-      "subject": "business chat tools",
-      "title": "Best Business Chat Tools Compared: Slack, Google Chat, Chatwork, LINE WORKS, and Teams",
-      "description": "Compare major business chat services across pricing, history, integrations, meetings, files, external collaboration, and administration.",
-      "lead": "Choose from the organization's existing identity, office suite, external collaboration, and retention requirements—not chat appearance alone.",
-      "verdict": "Slack fits integration-heavy channel work, Google Chat fits Google Workspace, Microsoft Teams fits Microsoft 365 and meetings, while Chatwork and LINE WORKS can suit Japan-focused operational and frontline communication patterns.",
-      "context": "Availability, language support, regional plans, and data-location requirements should be verified for each organization.",
-      "overview": "A business chat decision covers message structure, history and search, file ownership, meetings, guests, identity, retention, export, and employee offboarding.",
-      "capabilities": ["Channels, rooms, spaces, groups, direct messages, and threads", "Meetings, file collaboration, app notifications, and external guests", "Retention, export, identity, security, and administrative controls"],
-      "comparisonRows": [["Slack", "Broad integrations and channel-centric work"], ["Google Chat", "Workspace-native rooms, Drive, and Meet"], ["Microsoft Teams", "Microsoft 365 files, meetings, and enterprise administration"], ["Chatwork / LINE WORKS", "Japan-focused communication and operational use cases"]],
-      "pricing": "Compare the suite already owned, paid seats, guest treatment, history, storage, meetings, identity, AI, and compliance add-ons. A bundled product may reduce total cost.",
-      "tradeoff": "The most capable platform can still fail if notification, channel naming, file ownership, and retention rules are undefined.",
-      "strengths": ["Several products align naturally with existing office suites", "A structured pilot exposes workflow differences quickly"],
-      "caveats": ["Regional feature and language variation", "Retention, export, and offboarding requirements"],
-      "fitIntro": "Shortlist based on the existing suite and test a real internal and external collaboration scenario.",
-      "bestFor": ["Teams replacing consumer messaging", "Organizations consolidating meetings and chat", "Businesses defining governed external collaboration"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "slack-vs-microsoft-teams",
+        "label": {
+          "en": "Slack vs Microsoft Teams"
+        },
+        "description": {
+          "en": "Compare two major collaboration platforms in depth"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "business chat tools",
+        "title": "Best Business Chat Tools Compared: Slack, Google Chat, Chatwork, LINE WORKS, and Teams",
+        "description": "Compare major business chat services across pricing, history, integrations, meetings, files, external collaboration, and administration.",
+        "lead": "Choose from the organization's existing identity, office suite, external collaboration, and retention requirements—not chat appearance alone.",
+        "verdict": "Slack fits integration-heavy channel work, Google Chat fits Google Workspace, Microsoft Teams fits Microsoft 365 and meetings, while Chatwork and LINE WORKS can suit Japan-focused operational and frontline communication patterns.",
+        "context": "Availability, language support, regional plans, and data-location requirements should be verified for each organization.",
+        "overview": "A business chat decision covers message structure, history and search, file ownership, meetings, guests, identity, retention, export, and employee offboarding.",
+        "capabilities": [
+          "Channels, rooms, spaces, groups, direct messages, and threads",
+          "Meetings, file collaboration, app notifications, and external guests",
+          "Retention, export, identity, security, and administrative controls"
+        ],
+        "comparisonRows": [
+          [
+            "Slack",
+            "Broad integrations and channel-centric work"
+          ],
+          [
+            "Google Chat",
+            "Workspace-native rooms, Drive, and Meet"
+          ],
+          [
+            "Microsoft Teams",
+            "Microsoft 365 files, meetings, and enterprise administration"
+          ],
+          [
+            "Chatwork / LINE WORKS",
+            "Japan-focused communication and operational use cases"
+          ]
+        ],
+        "pricing": "Compare the suite already owned, paid seats, guest treatment, history, storage, meetings, identity, AI, and compliance add-ons. A bundled product may reduce total cost.",
+        "tradeoff": "The most capable platform can still fail if notification, channel naming, file ownership, and retention rules are undefined.",
+        "strengths": [
+          "Several products align naturally with existing office suites",
+          "A structured pilot exposes workflow differences quickly"
+        ],
+        "caveats": [
+          "Regional feature and language variation",
+          "Retention, export, and offboarding requirements"
+        ],
+        "fitIntro": "Shortlist based on the existing suite and test a real internal and external collaboration scenario.",
+        "bestFor": [
+          "Teams replacing consumer messaging",
+          "Organizations consolidating meetings and chat",
+          "Businesses defining governed external collaboration"
+        ]
+      }
+    }
   },
   {
     "slug": "clickup-vs-asana",
@@ -65,32 +165,103 @@
     "type": "comparison",
     "topic": "project-management",
     "sources": [
-      {"label": "ClickUp — Pricing", "url": "https://clickup.com/pricing"},
-      {"label": "Asana — Pricing", "url": "https://asana.com/pricing"},
-      {"label": "Asana — Product", "url": "https://asana.com/product/use-asana"}
+      {
+        "label": "ClickUp — Pricing",
+        "url": "https://clickup.com/pricing"
+      },
+      {
+        "label": "Asana — Pricing",
+        "url": "https://asana.com/pricing"
+      },
+      {
+        "label": "Asana — Product",
+        "url": "https://asana.com/product/use-asana"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check ClickUp official plans"}, "officialUrl": "https://clickup.com/pricing", "affiliateKey": "clickup"},
-      {"label": {"en": "Check Asana official plans"}, "officialUrl": "https://asana.com/pricing", "affiliateKey": "asana"}
+      {
+        "label": {
+          "en": "Check ClickUp official plans"
+        },
+        "officialUrl": "https://clickup.com/pricing",
+        "affiliateKey": "clickup"
+      },
+      {
+        "label": {
+          "en": "Check Asana official plans"
+        },
+        "officialUrl": "https://asana.com/pricing",
+        "affiliateKey": "asana"
+      }
     ],
-    "relatedRoutes": [{"category": "business-software", "slug": "clickup-review", "label": {"en": "ClickUp review"}, "description": {"en": "Review its all-in-one work features"}}, {"category": "business-software", "slug": "asana-review", "label": {"en": "Asana review"}, "description": {"en": "Review its project-management model"}}],
-    "locales": {"en": {
-      "subject": "ClickUp and Asana",
-      "title": "ClickUp vs Asana: Pricing, Tasks, Automation, and Team Fit",
-      "description": "Compare ClickUp and Asana across free tiers, pricing, tasks, projects, docs, chat, time tracking, forms, automation, and AI.",
-      "lead": "ClickUp emphasizes tool consolidation and configuration; Asana emphasizes a consistent project and accountability model.",
-      "verdict": "Choose ClickUp when the team wants tasks, docs, chat, time, and several operational features in one configurable system. Choose Asana when consistent ownership, dependencies, portfolios, and organization-wide project standards matter more.",
-      "context": "The lower subscription is not cheaper if configuration and training consume more operating time.",
-      "overview": "Both support tasks, views, forms, automation, and reporting, but ClickUp exposes more built-in work surfaces while Asana keeps a more focused execution model.",
-      "capabilities": ["ClickUp: hierarchy, docs, chat, time tracking, goals, and broad configuration", "Asana: projects, dependencies, portfolios, workload, goals, and standardized reporting", "Both: forms, rules, templates, guests, integrations, and plan-specific AI"],
-      "comparisonRows": [["Tool consolidation", "ClickUp includes more adjacent work surfaces"], ["Project standards", "Asana provides a more opinionated accountability model"], ["Setup", "ClickUp may require more configuration; Asana still needs conventions"]],
-      "pricing": "Estimate the intended paid tier, all seats, guests, automation, storage, reporting, AI, and implementation time over one year.",
-      "tradeoff": "ClickUp's breadth can create setup complexity; Asana's focus can require separate tools for richer documents, chat, or time tracking.",
-      "strengths": ["Both can support serious team project work", "Distinct approaches make a workflow pilot informative"],
-      "caveats": ["Plan-specific automation and reporting limits", "Migration of comments, history, attachments, and custom fields"],
-      "fitIntro": "Run the same active project for two weeks with the people who will update it daily.",
-      "bestFor": ["ClickUp: tool consolidation and configurable operations", "Asana: standardized cross-functional project execution", "Teams able to define ownership and governance"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "clickup-review",
+        "label": {
+          "en": "ClickUp review"
+        },
+        "description": {
+          "en": "Review its all-in-one work features"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "asana-review",
+        "label": {
+          "en": "Asana review"
+        },
+        "description": {
+          "en": "Review its project-management model"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "ClickUp and Asana",
+        "title": "ClickUp vs Asana: Pricing, Tasks, Automation, and Team Fit",
+        "description": "Compare ClickUp and Asana across free tiers, pricing, tasks, projects, docs, chat, time tracking, forms, automation, and AI.",
+        "lead": "ClickUp emphasizes tool consolidation and configuration; Asana emphasizes a consistent project and accountability model.",
+        "verdict": "Choose ClickUp when the team wants tasks, docs, chat, time, and several operational features in one configurable system. Choose Asana when consistent ownership, dependencies, portfolios, and organization-wide project standards matter more.",
+        "context": "The lower subscription is not cheaper if configuration and training consume more operating time.",
+        "overview": "Both support tasks, views, forms, automation, and reporting, but ClickUp exposes more built-in work surfaces while Asana keeps a more focused execution model.",
+        "capabilities": [
+          "ClickUp: hierarchy, docs, chat, time tracking, goals, and broad configuration",
+          "Asana: projects, dependencies, portfolios, workload, goals, and standardized reporting",
+          "Both: forms, rules, templates, guests, integrations, and plan-specific AI"
+        ],
+        "comparisonRows": [
+          [
+            "Tool consolidation",
+            "ClickUp includes more adjacent work surfaces"
+          ],
+          [
+            "Project standards",
+            "Asana provides a more opinionated accountability model"
+          ],
+          [
+            "Setup",
+            "ClickUp may require more configuration; Asana still needs conventions"
+          ]
+        ],
+        "pricing": "Estimate the intended paid tier, all seats, guests, automation, storage, reporting, AI, and implementation time over one year.",
+        "tradeoff": "ClickUp's breadth can create setup complexity; Asana's focus can require separate tools for richer documents, chat, or time tracking.",
+        "strengths": [
+          "Both can support serious team project work",
+          "Distinct approaches make a workflow pilot informative"
+        ],
+        "caveats": [
+          "Plan-specific automation and reporting limits",
+          "Migration of comments, history, attachments, and custom fields"
+        ],
+        "fitIntro": "Run the same active project for two weeks with the people who will update it daily.",
+        "bestFor": [
+          "ClickUp: tool consolidation and configurable operations",
+          "Asana: standardized cross-functional project execution",
+          "Teams able to define ownership and governance"
+        ]
+      }
+    }
   },
   {
     "slug": "custom-domain-email-guide",
@@ -98,52 +269,125 @@
     "type": "guide",
     "topic": "business-email",
     "sources": [
-      {"label": "Google Workspace", "url": "https://workspace.google.com/"},
-      {"label": "Google Workspace Admin Help", "url": "https://support.google.com/a/"}
+      {
+        "label": "Google Workspace",
+        "url": "https://workspace.google.com/"
+      },
+      {
+        "label": "Google Workspace Admin Help",
+        "url": "https://support.google.com/a/"
+      }
     ],
-    "ctas": [{"label": {"en": "Check Google Workspace official plans"}, "officialUrl": "https://workspace.google.com/pricing.html", "affiliateKey": "google-workspace"}],
-    "relatedRoutes": [{"category": "business-software", "slug": "google-workspace-guide", "label": {"en": "Google Workspace guide"}, "description": {"en": "Review Gmail, Drive, Meet, and administration"}}],
-    "locales": {"en": {
-      "subject": "custom-domain email",
-      "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
-      "description": "Learn the options for custom-domain email, DNS and MX records, Gmail workflows, SPF, DKIM, DMARC, migration, and ongoing administration.",
-      "lead": "Choose who owns the domain, DNS, mailbox, and recovery process before changing mail records.",
-      "verdict": "A business should use a managed mailbox provider or a well-supported hosting email service and configure SPF, DKIM, and DMARC. Forwarding alone is not a complete sending and authentication design.",
-      "context": "DNS changes can interrupt mail. Inventory every address, alias, group, application sender, and recovery account before migration.",
-      "overview": "Register or control the domain, choose a mailbox provider, verify the domain, change MX records, configure authentication, create users and aliases, migrate mail, and monitor delivery.",
-      "capabilities": ["Mailboxes and aliases on the company domain", "Gmail or another client for sending and receiving", "SPF, DKIM, and DMARC for authenticated delivery"],
-      "pricing": "Compare per-user mailbox cost, storage, retention, migration, archive, security, support, and administrator time. Hosting-included mail and dedicated business suites have different service levels.",
-      "tradeoff": "A low-cost mailbox can work for small teams, while identity, retention, legal hold, and administration may justify a dedicated suite.",
-      "strengths": ["Professional addresses under company control", "Improved security and deliverability when authentication is configured"],
-      "caveats": ["DNS change and migration downtime", "Offboarding, recovery, and application-sender inventory"],
-      "fitIntro": "It fits every organization that can assign clear ownership for the domain and mail administration.",
-      "bestFor": ["Companies moving from personal addresses", "Teams standardizing accounts and aliases", "Organizations improving sender authentication"]
-    }}
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Google Workspace official plans"
+        },
+        "officialUrl": "https://workspace.google.com/pricing.html",
+        "affiliateKey": "google-workspace"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "google-workspace-guide",
+        "label": {
+          "en": "Google Workspace guide"
+        },
+        "description": {
+          "en": "Review Gmail, Drive, Meet, and administration"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "custom-domain email",
+        "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
+        "description": "Learn the options for custom-domain email, DNS and MX records, Gmail workflows, SPF, DKIM, DMARC, migration, and ongoing administration.",
+        "lead": "Choose who owns the domain, DNS, mailbox, and recovery process before changing mail records.",
+        "verdict": "A business should use a managed mailbox provider or a well-supported hosting email service and configure SPF, DKIM, and DMARC. Forwarding alone is not a complete sending and authentication design.",
+        "context": "DNS changes can interrupt mail. Inventory every address, alias, group, application sender, and recovery account before migration.",
+        "overview": "Register or control the domain, choose a mailbox provider, verify the domain, change MX records, configure authentication, create users and aliases, migrate mail, and monitor delivery.",
+        "capabilities": [
+          "Mailboxes and aliases on the company domain",
+          "Gmail or another client for sending and receiving",
+          "SPF, DKIM, and DMARC for authenticated delivery"
+        ],
+        "pricing": "Compare per-user mailbox cost, storage, retention, migration, archive, security, support, and administrator time. Hosting-included mail and dedicated business suites have different service levels.",
+        "tradeoff": "A low-cost mailbox can work for small teams, while identity, retention, legal hold, and administration may justify a dedicated suite.",
+        "strengths": [
+          "Professional addresses under company control",
+          "Improved security and deliverability when authentication is configured"
+        ],
+        "caveats": [
+          "DNS change and migration downtime",
+          "Offboarding, recovery, and application-sender inventory"
+        ],
+        "fitIntro": "It fits every organization that can assign clear ownership for the domain and mail administration.",
+        "bestFor": [
+          "Companies moving from personal addresses",
+          "Teams standardizing accounts and aliases",
+          "Organizations improving sender authentication"
+        ]
+      }
+    }
   },
   {
     "slug": "google-calendar-guide",
     "category": "business-software",
     "type": "guide",
     "topic": "calendar",
-    "sources": [{"label": "Google Calendar Help", "url": "https://support.google.com/calendar/"}],
+    "sources": [
+      {
+        "label": "Google Calendar Help",
+        "url": "https://support.google.com/calendar/"
+      }
+    ],
     "ctas": [],
-    "relatedRoutes": [{"category": "business-software", "slug": "google-workspace-guide", "label": {"en": "Google Workspace guide"}, "description": {"en": "Review business plans and administration"}}],
-    "locales": {"en": {
-      "subject": "Google Calendar",
-      "title": "How to Use Google Calendar: Sharing, Recurring Events, and Meet",
-      "description": "Learn Google Calendar event creation, sharing, recurring schedules, notifications, Google Meet links, and multiple-calendar administration.",
-      "lead": "A useful calendar system separates personal focus, team availability, shared resources, and public schedules.",
-      "verdict": "Google Calendar is a practical default for people using Google accounts and Workspace. Its value comes from consistent sharing permissions, naming, time-zone settings, and calendar ownership—not event creation alone.",
-      "context": "Avoid placing sensitive details in events shared more broadly than intended, and review access when a person changes role or leaves.",
-      "overview": "Users create events, invite participants, add locations or Meet links, configure recurrence and reminders, and organize different responsibilities into separate calendars.",
-      "capabilities": ["Events, guests, recurrence, notifications, and time zones", "Calendar sharing with permission levels", "Meet links, rooms, resources, and multiple calendars"],
-      "pricing": "Consumer Google accounts include core Calendar use; business administration, storage, support, and related features are evaluated through Google Workspace plans.",
-      "tradeoff": "Sharing is convenient, but unclear ownership and overly broad permissions can expose information or leave abandoned team calendars.",
-      "strengths": ["Strong integration with Gmail and Meet", "Flexible separate and shared calendars"],
-      "caveats": ["Permission and privacy review", "Time zones, ownership, and resource booking conventions"],
-      "fitIntro": "It suits individuals and teams willing to define calendar purpose and sharing rules.",
-      "bestFor": ["Google-account users", "Teams scheduling meetings and shared resources", "Organizations coordinating several calendar types"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "google-workspace-guide",
+        "label": {
+          "en": "Google Workspace guide"
+        },
+        "description": {
+          "en": "Review business plans and administration"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Google Calendar",
+        "title": "How to Use Google Calendar: Sharing, Recurring Events, and Meet",
+        "description": "Learn Google Calendar event creation, sharing, recurring schedules, notifications, Google Meet links, and multiple-calendar administration.",
+        "lead": "A useful calendar system separates personal focus, team availability, shared resources, and public schedules.",
+        "verdict": "Google Calendar is a practical default for people using Google accounts and Workspace. Its value comes from consistent sharing permissions, naming, time-zone settings, and calendar ownership—not event creation alone.",
+        "context": "Avoid placing sensitive details in events shared more broadly than intended, and review access when a person changes role or leaves.",
+        "overview": "Users create events, invite participants, add locations or Meet links, configure recurrence and reminders, and organize different responsibilities into separate calendars.",
+        "capabilities": [
+          "Events, guests, recurrence, notifications, and time zones",
+          "Calendar sharing with permission levels",
+          "Meet links, rooms, resources, and multiple calendars"
+        ],
+        "pricing": "Consumer Google accounts include core Calendar use; business administration, storage, support, and related features are evaluated through Google Workspace plans.",
+        "tradeoff": "Sharing is convenient, but unclear ownership and overly broad permissions can expose information or leave abandoned team calendars.",
+        "strengths": [
+          "Strong integration with Gmail and Meet",
+          "Flexible separate and shared calendars"
+        ],
+        "caveats": [
+          "Permission and privacy review",
+          "Time zones, ownership, and resource booking conventions"
+        ],
+        "fitIntro": "It suits individuals and teams willing to define calendar purpose and sharing rules.",
+        "bestFor": [
+          "Google-account users",
+          "Teams scheduling meetings and shared resources",
+          "Organizations coordinating several calendar types"
+        ]
+      }
+    }
   },
   {
     "slug": "google-chat-guide",
@@ -151,27 +395,68 @@
     "type": "guide",
     "topic": "business-chat",
     "sources": [
-      {"label": "Google Chat Help", "url": "https://support.google.com/chat/"},
-      {"label": "Google Chat", "url": "https://workspace.google.com/products/chat/"}
+      {
+        "label": "Google Chat Help",
+        "url": "https://support.google.com/chat/"
+      },
+      {
+        "label": "Google Chat",
+        "url": "https://workspace.google.com/products/chat/"
+      }
     ],
-    "ctas": [{"label": {"en": "Check Google Workspace official plans"}, "officialUrl": "https://workspace.google.com/pricing.html", "affiliateKey": "google-workspace"}],
-    "relatedRoutes": [{"category": "business-software", "slug": "slack-vs-google-chat", "label": {"en": "Slack vs Google Chat"}, "description": {"en": "Compare history, files, meetings, and integrations"}}],
-    "locales": {"en": {
-      "subject": "Google Chat",
-      "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
-      "description": "Learn Google Chat direct messages, Spaces, Drive and Meet integration, tasks, Google Workspace plans, and how it differs from Slack.",
-      "lead": "Google Chat is most valuable when a team already works in Gmail, Drive, Meet, and Workspace identity.",
-      "verdict": "Google Chat is a sensible collaboration layer for Google Workspace teams that need direct messages and Spaces without adding another vendor. Slack may fit better when the app ecosystem and channel-centric external collaboration are primary.",
-      "context": "Define when a conversation belongs in Chat, a document comment, email, a meeting, or a task system.",
-      "overview": "Direct messages and Spaces organize conversation around teams or topics and connect with Drive files, Meet, tasks, and Workspace administration.",
-      "capabilities": ["Direct messages, group conversations, and Spaces", "Drive file sharing and Meet integration", "Workspace identity, retention, bots, and apps by plan"],
-      "pricing": "Core access may be available with Google accounts, while business controls and service levels depend on the Workspace edition already owned.",
-      "tradeoff": "The Google integration reduces tool count, but organizations with many non-Google apps or complex external channels should test alternatives.",
-      "strengths": ["Native fit with Gmail, Drive, and Meet", "Potentially avoids a separate chat subscription"],
-      "caveats": ["Retention and export by Workspace edition", "External access and app-integration requirements"],
-      "fitIntro": "It fits teams already standardized on Google Workspace with moderate chat and collaboration needs.",
-      "bestFor": ["Google Workspace organizations", "Teams sharing Drive files in conversation", "Small businesses consolidating vendors"]
-    }}
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Google Workspace official plans"
+        },
+        "officialUrl": "https://workspace.google.com/pricing.html",
+        "affiliateKey": "google-workspace"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "slack-vs-google-chat",
+        "label": {
+          "en": "Slack vs Google Chat"
+        },
+        "description": {
+          "en": "Compare history, files, meetings, and integrations"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Google Chat",
+        "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
+        "description": "Learn Google Chat direct messages, Spaces, Drive and Meet integration, tasks, Google Workspace plans, and how it differs from Slack.",
+        "lead": "Google Chat is most valuable when a team already works in Gmail, Drive, Meet, and Workspace identity.",
+        "verdict": "Google Chat is a sensible collaboration layer for Google Workspace teams that need direct messages and Spaces without adding another vendor. Slack may fit better when the app ecosystem and channel-centric external collaboration are primary.",
+        "context": "Define when a conversation belongs in Chat, a document comment, email, a meeting, or a task system.",
+        "overview": "Direct messages and Spaces organize conversation around teams or topics and connect with Drive files, Meet, tasks, and Workspace administration.",
+        "capabilities": [
+          "Direct messages, group conversations, and Spaces",
+          "Drive file sharing and Meet integration",
+          "Workspace identity, retention, bots, and apps by plan"
+        ],
+        "pricing": "Core access may be available with Google accounts, while business controls and service levels depend on the Workspace edition already owned.",
+        "tradeoff": "The Google integration reduces tool count, but organizations with many non-Google apps or complex external channels should test alternatives.",
+        "strengths": [
+          "Native fit with Gmail, Drive, and Meet",
+          "Potentially avoids a separate chat subscription"
+        ],
+        "caveats": [
+          "Retention and export by Workspace edition",
+          "External access and app-integration requirements"
+        ],
+        "fitIntro": "It fits teams already standardized on Google Workspace with moderate chat and collaboration needs.",
+        "bestFor": [
+          "Google Workspace organizations",
+          "Teams sharing Drive files in conversation",
+          "Small businesses consolidating vendors"
+        ]
+      }
+    }
   },
   {
     "slug": "google-drive-guide",
@@ -179,27 +464,60 @@
     "type": "guide",
     "topic": "cloud-storage",
     "sources": [
-      {"label": "Google Drive Help", "url": "https://support.google.com/drive/"},
-      {"label": "Google One — Plans", "url": "https://one.google.com/about/plans"}
+      {
+        "label": "Google Drive Help",
+        "url": "https://support.google.com/drive/"
+      },
+      {
+        "label": "Google One — Plans",
+        "url": "https://one.google.com/about/plans"
+      }
     ],
     "ctas": [],
-    "relatedRoutes": [{"category": "business-software", "slug": "google-workspace-guide", "label": {"en": "Google Workspace guide"}, "description": {"en": "Review Shared drives and administration"}}],
-    "locales": {"en": {
-      "subject": "Google Drive",
-      "title": "What Is Google Drive? Storage, Sharing, Permissions, and Business Use",
-      "description": "Learn Google Drive storage, sharing, permissions, desktop sync, Google One, Workspace, Shared drives, and safe team administration.",
-      "lead": "Drive works well when file ownership, sharing scope, folder structure, and offboarding are defined before growth.",
-      "verdict": "Google Drive is a strong default for Google users and collaborative documents. Businesses should use organizational ownership such as Shared drives where appropriate instead of relying on personal accounts for critical files.",
-      "context": "A link can be more permissive than intended. Test viewer, commenter, editor, download, and external-sharing behavior.",
-      "overview": "Drive stores files in the cloud, synchronizes selected content, shares items with permissions, and integrates with Docs, Sheets, Slides, Gmail, Meet, and other services.",
-      "capabilities": ["Cloud storage and desktop synchronization", "Viewer, commenter, editor, link, and external sharing", "Shared drives, admin controls, retention, and audit on eligible Workspace editions"],
-      "pricing": "Personal storage is evaluated through Google One; business ownership, administration, support, and compliance features come through Workspace. Include user count and retention needs.",
-      "tradeoff": "Collaboration is easy, but personal ownership, duplicate folders, public links, and unmanaged external users create governance risk.",
-      "strengths": ["Real-time Google document collaboration", "Broad integration across Google services"],
-      "caveats": ["Ownership and offboarding", "External links, sync behavior, and retention"],
-      "fitIntro": "It fits users who can establish a clear structure and sharing policy.",
-      "bestFor": ["Google document collaboration", "Teams using Gmail and Meet", "Organizations using Shared drives for durable ownership"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "google-workspace-guide",
+        "label": {
+          "en": "Google Workspace guide"
+        },
+        "description": {
+          "en": "Review Shared drives and administration"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Google Drive",
+        "title": "What Is Google Drive? Storage, Sharing, Permissions, and Business Use",
+        "description": "Learn Google Drive storage, sharing, permissions, desktop sync, Google One, Workspace, Shared drives, and safe team administration.",
+        "lead": "Drive works well when file ownership, sharing scope, folder structure, and offboarding are defined before growth.",
+        "verdict": "Google Drive is a strong default for Google users and collaborative documents. Businesses should use organizational ownership such as Shared drives where appropriate instead of relying on personal accounts for critical files.",
+        "context": "A link can be more permissive than intended. Test viewer, commenter, editor, download, and external-sharing behavior.",
+        "overview": "Drive stores files in the cloud, synchronizes selected content, shares items with permissions, and integrates with Docs, Sheets, Slides, Gmail, Meet, and other services.",
+        "capabilities": [
+          "Cloud storage and desktop synchronization",
+          "Viewer, commenter, editor, link, and external sharing",
+          "Shared drives, admin controls, retention, and audit on eligible Workspace editions"
+        ],
+        "pricing": "Personal storage is evaluated through Google One; business ownership, administration, support, and compliance features come through Workspace. Include user count and retention needs.",
+        "tradeoff": "Collaboration is easy, but personal ownership, duplicate folders, public links, and unmanaged external users create governance risk.",
+        "strengths": [
+          "Real-time Google document collaboration",
+          "Broad integration across Google services"
+        ],
+        "caveats": [
+          "Ownership and offboarding",
+          "External links, sync behavior, and retention"
+        ],
+        "fitIntro": "It fits users who can establish a clear structure and sharing policy.",
+        "bestFor": [
+          "Google document collaboration",
+          "Teams using Gmail and Meet",
+          "Organizations using Shared drives for durable ownership"
+        ]
+      }
+    }
   },
   {
     "slug": "google-meet-guide",
@@ -207,52 +525,133 @@
     "type": "guide",
     "topic": "video-meetings",
     "sources": [
-      {"label": "Google Meet Help", "url": "https://support.google.com/meet/"},
-      {"label": "Google Workspace — Pricing", "url": "https://workspace.google.com/pricing.html"}
+      {
+        "label": "Google Meet Help",
+        "url": "https://support.google.com/meet/"
+      },
+      {
+        "label": "Google Workspace — Pricing",
+        "url": "https://workspace.google.com/pricing.html"
+      }
     ],
-    "ctas": [{"label": {"en": "Check Google Workspace official plans"}, "officialUrl": "https://workspace.google.com/pricing.html", "affiliateKey": "google-workspace"}],
-    "relatedRoutes": [{"category": "business-software", "slug": "google-calendar-guide", "label": {"en": "Google Calendar guide"}, "description": {"en": "Schedule meetings and manage invitations"}}],
-    "locales": {"en": {
-      "subject": "Google Meet",
-      "title": "What Is Google Meet? Joining, Presenting, Recording, and Pricing",
-      "description": "Learn how to create and join Google Meet calls, present a screen, use captions and recording, and compare consumer and Workspace access.",
-      "lead": "Meeting quality depends as much on calendar, permissions, audio, and recording policy as on the call interface.",
-      "verdict": "Google Meet is a natural choice for Gmail and Workspace users because scheduling and joining are closely connected to Calendar. Recording, attendance, duration, participant, and administrative features vary by edition.",
-      "context": "Test the planned account type and region rather than assuming every feature in a help article is available on the selected plan.",
-      "overview": "Hosts schedule or start a meeting, invite participants, manage entry, present tabs or screens, use captions, and apply plan-specific recording and moderation tools.",
-      "capabilities": ["Browser and mobile meeting participation", "Screen or tab presentation, captions, and moderation", "Recording, attendance, larger meetings, and administration on eligible editions"],
-      "pricing": "Core consumer access and Workspace business editions have different limits. Compare participant count, duration, recording, storage, support, and administration.",
-      "tradeoff": "The Google workflow is efficient, but advanced events, telephony, rooms, or compliance may require a higher edition or another platform.",
-      "strengths": ["Calendar and Gmail integration", "Low-friction browser participation"],
-      "caveats": ["Plan-specific recording and attendance", "Consent, storage, and retention of recordings"],
-      "fitIntro": "It suits Google-centered teams with clear hosting and recording rules.",
-      "bestFor": ["Gmail and Calendar users", "Internal and external browser-based meetings", "Workspace organizations managing meetings centrally"]
-    }}
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Google Workspace official plans"
+        },
+        "officialUrl": "https://workspace.google.com/pricing.html",
+        "affiliateKey": "google-workspace"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "google-calendar-guide",
+        "label": {
+          "en": "Google Calendar guide"
+        },
+        "description": {
+          "en": "Schedule meetings and manage invitations"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Google Meet",
+        "title": "What Is Google Meet? Joining, Presenting, Recording, and Pricing",
+        "description": "Learn how to create and join Google Meet calls, present a screen, use captions and recording, and compare consumer and Workspace access.",
+        "lead": "Meeting quality depends as much on calendar, permissions, audio, and recording policy as on the call interface.",
+        "verdict": "Google Meet is a natural choice for Gmail and Workspace users because scheduling and joining are closely connected to Calendar. Recording, attendance, duration, participant, and administrative features vary by edition.",
+        "context": "Test the planned account type and region rather than assuming every feature in a help article is available on the selected plan.",
+        "overview": "Hosts schedule or start a meeting, invite participants, manage entry, present tabs or screens, use captions, and apply plan-specific recording and moderation tools.",
+        "capabilities": [
+          "Browser and mobile meeting participation",
+          "Screen or tab presentation, captions, and moderation",
+          "Recording, attendance, larger meetings, and administration on eligible editions"
+        ],
+        "pricing": "Core consumer access and Workspace business editions have different limits. Compare participant count, duration, recording, storage, support, and administration.",
+        "tradeoff": "The Google workflow is efficient, but advanced events, telephony, rooms, or compliance may require a higher edition or another platform.",
+        "strengths": [
+          "Calendar and Gmail integration",
+          "Low-friction browser participation"
+        ],
+        "caveats": [
+          "Plan-specific recording and attendance",
+          "Consent, storage, and retention of recordings"
+        ],
+        "fitIntro": "It suits Google-centered teams with clear hosting and recording rules.",
+        "bestFor": [
+          "Gmail and Calendar users",
+          "Internal and external browser-based meetings",
+          "Workspace organizations managing meetings centrally"
+        ]
+      }
+    }
   },
   {
     "slug": "google-workspace-guide",
     "category": "business-software",
     "type": "guide",
     "topic": "productivity-suite",
-    "sources": [{"label": "Google Workspace — Pricing", "url": "https://workspace.google.com/pricing.html"}],
-    "ctas": [{"label": {"en": "Check Google Workspace official plans"}, "officialUrl": "https://workspace.google.com/pricing.html", "affiliateKey": "google-workspace"}],
-    "relatedRoutes": [{"category": "business-software", "slug": "custom-domain-email-guide", "label": {"en": "Custom-domain email guide"}, "description": {"en": "Plan domain, DNS, and mail authentication"}}],
-    "locales": {"en": {
-      "subject": "Google Workspace",
-      "title": "What Is Google Workspace? Pricing, Apps, and Implementation",
-      "description": "Learn Google Workspace Gmail, Drive, Meet, Calendar, Chat, administration, pricing logic, setup, migration, and security planning.",
-      "lead": "Workspace is an identity and information system, not only a collection of office apps.",
-      "verdict": "Google Workspace fits organizations that want business Gmail, collaborative files, calendars, meetings, chat, and central identity in one cloud suite. The right edition depends on storage, meetings, retention, security, and administration—not app access alone.",
-      "context": "Plan domain control, DNS, data migration, groups, device access, recovery, and offboarding before switching mail.",
-      "overview": "The suite connects Gmail, Calendar, Drive, Docs, Sheets, Slides, Meet, Chat, Forms, and an Admin console under organization-managed accounts.",
-      "capabilities": ["Custom-domain Gmail and centralized accounts", "Collaborative documents, Shared drives, calendars, meetings, and chat", "Security, retention, endpoint, audit, and support features by edition"],
-      "pricing": "Compare per-user billing and contract term plus storage pools, meetings, recording, retention, endpoint controls, support, migration, and third-party backup requirements.",
-      "tradeoff": "The suite reduces tool sprawl, but a rushed migration can create mail interruption, personal file ownership, over-sharing, and account recovery problems.",
-      "strengths": ["Integrated email, files, meetings, and identity", "Real-time collaboration with browser-first administration"],
-      "caveats": ["Edition-specific storage and security", "Migration, domain, ownership, and offboarding design"],
-      "fitIntro": "It fits organizations willing to treat identity and information governance as part of the rollout.",
-      "bestFor": ["Small and midsize businesses", "Distributed teams collaborating in browsers", "Organizations replacing personal Google accounts"]
-    }}
+    "sources": [
+      {
+        "label": "Google Workspace — Pricing",
+        "url": "https://workspace.google.com/pricing.html"
+      }
+    ],
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Google Workspace official plans"
+        },
+        "officialUrl": "https://workspace.google.com/pricing.html",
+        "affiliateKey": "google-workspace"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "custom-domain-email-guide",
+        "label": {
+          "en": "Custom-domain email guide"
+        },
+        "description": {
+          "en": "Plan domain, DNS, and mail authentication"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Google Workspace",
+        "title": "What Is Google Workspace? Pricing, Apps, and Implementation",
+        "description": "Learn Google Workspace Gmail, Drive, Meet, Calendar, Chat, administration, pricing logic, setup, migration, and security planning.",
+        "lead": "Workspace is an identity and information system, not only a collection of office apps.",
+        "verdict": "Google Workspace fits organizations that want business Gmail, collaborative files, calendars, meetings, chat, and central identity in one cloud suite. The right edition depends on storage, meetings, retention, security, and administration—not app access alone.",
+        "context": "Plan domain control, DNS, data migration, groups, device access, recovery, and offboarding before switching mail.",
+        "overview": "The suite connects Gmail, Calendar, Drive, Docs, Sheets, Slides, Meet, Chat, Forms, and an Admin console under organization-managed accounts.",
+        "capabilities": [
+          "Custom-domain Gmail and centralized accounts",
+          "Collaborative documents, Shared drives, calendars, meetings, and chat",
+          "Security, retention, endpoint, audit, and support features by edition"
+        ],
+        "pricing": "Compare per-user billing and contract term plus storage pools, meetings, recording, retention, endpoint controls, support, migration, and third-party backup requirements.",
+        "tradeoff": "The suite reduces tool sprawl, but a rushed migration can create mail interruption, personal file ownership, over-sharing, and account recovery problems.",
+        "strengths": [
+          "Integrated email, files, meetings, and identity",
+          "Real-time collaboration with browser-first administration"
+        ],
+        "caveats": [
+          "Edition-specific storage and security",
+          "Migration, domain, ownership, and offboarding design"
+        ],
+        "fitIntro": "It fits organizations willing to treat identity and information governance as part of the rollout.",
+        "bestFor": [
+          "Small and midsize businesses",
+          "Distributed teams collaborating in browsers",
+          "Organizations replacing personal Google accounts"
+        ]
+      }
+    }
   },
   {
     "slug": "notion-vs-asana",
@@ -260,58 +659,172 @@
     "type": "comparison",
     "topic": "project-management",
     "sources": [
-      {"label": "Notion — Pricing", "url": "https://www.notion.com/pricing"},
-      {"label": "Notion — Projects", "url": "https://www.notion.com/product/projects"},
-      {"label": "Asana — Pricing", "url": "https://asana.com/pricing"},
-      {"label": "Asana — Product", "url": "https://asana.com/product/use-asana"}
+      {
+        "label": "Notion — Pricing",
+        "url": "https://www.notion.com/pricing"
+      },
+      {
+        "label": "Notion — Projects",
+        "url": "https://www.notion.com/product/projects"
+      },
+      {
+        "label": "Asana — Pricing",
+        "url": "https://asana.com/pricing"
+      },
+      {
+        "label": "Asana — Product",
+        "url": "https://asana.com/product/use-asana"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Notion official plans"}, "officialUrl": "https://www.notion.com/pricing", "affiliateKey": "notion"},
-      {"label": {"en": "Check Asana official plans"}, "officialUrl": "https://asana.com/pricing", "affiliateKey": "asana"}
+      {
+        "label": {
+          "en": "Check Notion official plans"
+        },
+        "officialUrl": "https://www.notion.com/pricing",
+        "affiliateKey": "notion"
+      },
+      {
+        "label": {
+          "en": "Check Asana official plans"
+        },
+        "officialUrl": "https://asana.com/pricing",
+        "affiliateKey": "asana"
+      }
     ],
-    "relatedRoutes": [{"category": "business-software", "slug": "notion-review", "label": {"en": "Notion review"}, "description": {"en": "Review wiki and database workflows"}}, {"category": "business-software", "slug": "asana-review", "label": {"en": "Asana review"}, "description": {"en": "Review project execution features"}}],
-    "locales": {"en": {
-      "subject": "Notion and Asana",
-      "title": "Notion vs Asana: Knowledge, Tasks, and Project Management Compared",
-      "description": "Compare Notion and Asana across free tiers, pricing, docs, databases, tasks, projects, forms, automation, AI, and permissions.",
-      "lead": "Notion starts from flexible information; Asana starts from accountable execution.",
-      "verdict": "Choose Notion when a wiki, documents, and flexible databases should become the center of work. Choose Asana when owners, dates, dependencies, portfolios, and repeatable project execution are the primary system.",
-      "context": "A team can use both, but each item needs one authoritative home to avoid duplicated project status.",
-      "overview": "Notion combines pages and databases that can represent projects. Asana uses projects and tasks as the native execution model and expands into goals, workload, and portfolios.",
-      "capabilities": ["Notion: wikis, pages, databases, publishing, and flexible views", "Asana: tasks, dependencies, timelines, forms, portfolios, and workload", "Both: templates, automation, permissions, integrations, and AI by plan"],
-      "comparisonRows": [["Knowledge", "Notion is the stronger wiki and document system"], ["Execution", "Asana is more structured around responsibility and deadlines"], ["Design", "Notion is composable; Asana is more standardized"]],
-      "pricing": "Compare paid seats, guests, history, files, forms, automation, permissions, portfolios, AI, and implementation time.",
-      "tradeoff": "Notion's freedom can create inconsistent databases; Asana may require another home for long-form knowledge.",
-      "strengths": ["Distinct strengths allow a clean role split", "Both can support a small pilot without immediate full migration"],
-      "caveats": ["Guest and member billing", "Migration of relations, comments, attachments, and history"],
-      "fitIntro": "Decide whether knowledge or execution is the primary system of record.",
-      "bestFor": ["Notion: knowledge-led teams and flexible databases", "Asana: deadline- and dependency-led project teams", "Organizations willing to define a system-of-record rule"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "notion-review",
+        "label": {
+          "en": "Notion review"
+        },
+        "description": {
+          "en": "Review wiki and database workflows"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "asana-review",
+        "label": {
+          "en": "Asana review"
+        },
+        "description": {
+          "en": "Review project execution features"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Notion and Asana",
+        "title": "Notion vs Asana: Knowledge, Tasks, and Project Management Compared",
+        "description": "Compare Notion and Asana across free tiers, pricing, docs, databases, tasks, projects, forms, automation, AI, and permissions.",
+        "lead": "Notion starts from flexible information; Asana starts from accountable execution.",
+        "verdict": "Choose Notion when a wiki, documents, and flexible databases should become the center of work. Choose Asana when owners, dates, dependencies, portfolios, and repeatable project execution are the primary system.",
+        "context": "A team can use both, but each item needs one authoritative home to avoid duplicated project status.",
+        "overview": "Notion combines pages and databases that can represent projects. Asana uses projects and tasks as the native execution model and expands into goals, workload, and portfolios.",
+        "capabilities": [
+          "Notion: wikis, pages, databases, publishing, and flexible views",
+          "Asana: tasks, dependencies, timelines, forms, portfolios, and workload",
+          "Both: templates, automation, permissions, integrations, and AI by plan"
+        ],
+        "comparisonRows": [
+          [
+            "Knowledge",
+            "Notion is the stronger wiki and document system"
+          ],
+          [
+            "Execution",
+            "Asana is more structured around responsibility and deadlines"
+          ],
+          [
+            "Design",
+            "Notion is composable; Asana is more standardized"
+          ]
+        ],
+        "pricing": "Compare paid seats, guests, history, files, forms, automation, permissions, portfolios, AI, and implementation time.",
+        "tradeoff": "Notion's freedom can create inconsistent databases; Asana may require another home for long-form knowledge.",
+        "strengths": [
+          "Distinct strengths allow a clean role split",
+          "Both can support a small pilot without immediate full migration"
+        ],
+        "caveats": [
+          "Guest and member billing",
+          "Migration of relations, comments, attachments, and history"
+        ],
+        "fitIntro": "Decide whether knowledge or execution is the primary system of record.",
+        "bestFor": [
+          "Notion: knowledge-led teams and flexible databases",
+          "Asana: deadline- and dependency-led project teams",
+          "Organizations willing to define a system-of-record rule"
+        ]
+      }
+    }
   },
   {
     "slug": "slack-guide",
     "category": "business-software",
     "type": "guide",
     "topic": "business-chat",
-    "sources": [{"label": "Slack — Pricing", "url": "https://slack.com/pricing"}],
-    "ctas": [{"label": {"en": "Check Slack official plans"}, "officialUrl": "https://slack.com/pricing", "affiliateKey": "slack"}],
-    "relatedRoutes": [{"category": "business-software", "slug": "slack-vs-microsoft-teams", "label": {"en": "Slack vs Microsoft Teams"}, "description": {"en": "Compare chat, meetings, files, and administration"}}],
-    "locales": {"en": {
-      "subject": "Slack",
-      "title": "What Is Slack? Channels, Pricing, Integrations, and Governance",
-      "description": "Learn Slack channels, DMs, threads, huddles, Slack Connect, app integrations, plans, and practical operating rules.",
-      "lead": "Slack succeeds when channel purpose, notification expectations, file ownership, and decision records are clear.",
-      "verdict": "Slack fits teams that organize conversation in channels and connect many work apps. It should complement—not replace—a defined document, task, and decision system.",
-      "context": "The Free plan's history and app limits can affect whether the workspace remains a reliable record.",
-      "overview": "Teams create channels for work streams, use threads for focused replies, hold huddles, connect apps, and collaborate externally through eligible features.",
-      "capabilities": ["Channels, direct messages, threads, search, and canvases", "Huddles, screen sharing, and external collaboration", "App integrations, workflows, retention, identity, and administration by plan"],
-      "pricing": "Compare paid seats, guest rules, history, storage, integrations, workflows, AI, SSO, retention, export, and support.",
-      "tradeoff": "Fast communication can create noise and fragmented decisions without channel naming, notification, and documentation conventions.",
-      "strengths": ["Mature channel and integration ecosystem", "Strong internal and external conversation workflows"],
-      "caveats": ["Free history and app limits", "Retention, export, and offboarding governance"],
-      "fitIntro": "It fits teams willing to define how chat connects to documents, projects, and formal decisions.",
-      "bestFor": ["SaaS-heavy teams", "Channel-centric collaboration", "Organizations working with external partners"]
-    }}
+    "sources": [
+      {
+        "label": "Slack — Pricing",
+        "url": "https://slack.com/pricing"
+      }
+    ],
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Slack official plans"
+        },
+        "officialUrl": "https://slack.com/pricing",
+        "affiliateKey": "slack"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "slack-vs-microsoft-teams",
+        "label": {
+          "en": "Slack vs Microsoft Teams"
+        },
+        "description": {
+          "en": "Compare chat, meetings, files, and administration"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Slack",
+        "title": "What Is Slack? Channels, Pricing, Integrations, and Governance",
+        "description": "Learn Slack channels, DMs, threads, huddles, Slack Connect, app integrations, plans, and practical operating rules.",
+        "lead": "Slack succeeds when channel purpose, notification expectations, file ownership, and decision records are clear.",
+        "verdict": "Slack fits teams that organize conversation in channels and connect many work apps. It should complement—not replace—a defined document, task, and decision system.",
+        "context": "The Free plan's history and app limits can affect whether the workspace remains a reliable record.",
+        "overview": "Teams create channels for work streams, use threads for focused replies, hold huddles, connect apps, and collaborate externally through eligible features.",
+        "capabilities": [
+          "Channels, direct messages, threads, search, and canvases",
+          "Huddles, screen sharing, and external collaboration",
+          "App integrations, workflows, retention, identity, and administration by plan"
+        ],
+        "pricing": "Compare paid seats, guest rules, history, storage, integrations, workflows, AI, SSO, retention, export, and support.",
+        "tradeoff": "Fast communication can create noise and fragmented decisions without channel naming, notification, and documentation conventions.",
+        "strengths": [
+          "Mature channel and integration ecosystem",
+          "Strong internal and external conversation workflows"
+        ],
+        "caveats": [
+          "Free history and app limits",
+          "Retention, export, and offboarding governance"
+        ],
+        "fitIntro": "It fits teams willing to define how chat connects to documents, projects, and formal decisions.",
+        "bestFor": [
+          "SaaS-heavy teams",
+          "Channel-centric collaboration",
+          "Organizations working with external partners"
+        ]
+      }
+    }
   },
   {
     "slug": "slack-vs-google-chat",
@@ -319,31 +832,99 @@
     "type": "comparison",
     "topic": "business-chat",
     "sources": [
-      {"label": "Slack — Pricing", "url": "https://slack.com/pricing"},
-      {"label": "Google Chat", "url": "https://workspace.google.com/products/chat/"}
+      {
+        "label": "Slack — Pricing",
+        "url": "https://slack.com/pricing"
+      },
+      {
+        "label": "Google Chat",
+        "url": "https://workspace.google.com/products/chat/"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Slack official plans"}, "officialUrl": "https://slack.com/pricing", "affiliateKey": "slack"},
-      {"label": {"en": "Check Google Workspace official plans"}, "officialUrl": "https://workspace.google.com/pricing.html", "affiliateKey": "google-workspace"}
+      {
+        "label": {
+          "en": "Check Slack official plans"
+        },
+        "officialUrl": "https://slack.com/pricing",
+        "affiliateKey": "slack"
+      },
+      {
+        "label": {
+          "en": "Check Google Workspace official plans"
+        },
+        "officialUrl": "https://workspace.google.com/pricing.html",
+        "affiliateKey": "google-workspace"
+      }
     ],
-    "relatedRoutes": [{"category": "business-software", "slug": "slack-guide", "label": {"en": "Slack guide"}, "description": {"en": "Review channels and governance"}}, {"category": "business-software", "slug": "google-chat-guide", "label": {"en": "Google Chat guide"}, "description": {"en": "Review Spaces and Workspace integration"}}],
-    "locales": {"en": {
-      "subject": "Slack and Google Chat",
-      "title": "Slack vs Google Chat: Pricing, History, Files, and Integrations",
-      "description": "Compare Slack and Google Chat across pricing, history, channels and Spaces, file sharing, meetings, integrations, and administration.",
-      "lead": "Slack is an independent communication hub; Google Chat is most compelling as part of Workspace.",
-      "verdict": "Choose Slack for a broad integration ecosystem, channel workflows, and external organization collaboration. Choose Google Chat when Gmail, Drive, Meet, and Workspace administration already define the work environment.",
-      "context": "Calculate the incremental cost: Google Chat may already be bundled, while Slack may replace or improve several communication workflows.",
-      "overview": "Both support direct and group conversation, threaded work, files, meetings, apps, and administration, but their ecosystems and information ownership differ.",
-      "capabilities": ["Slack: channels, app ecosystem, Slack Connect, huddles, and workflow tools", "Google Chat: Spaces, Drive files, Meet, tasks, and Workspace identity", "Both: plan-specific retention, export, guests, and security"],
-      "comparisonRows": [["Ecosystem", "Slack is vendor-neutral; Google Chat is Workspace-native"], ["Files", "Slack links many stores; Google Chat centers Drive"], ["Cost", "Compare standalone Slack with the Workspace edition already owned"]],
-      "pricing": "Include paid seats, existing suite cost, history, integrations, storage, meetings, guests, identity, retention, and AI.",
-      "tradeoff": "Slack adds a specialized communication layer; Google Chat reduces vendor count but may not match every external integration requirement.",
-      "strengths": ["A clear ecosystem-based decision", "Both can be piloted with a real team workflow"],
-      "caveats": ["History, retention, and export by plan", "Migration of messages and connected app workflows"],
-      "fitIntro": "Use the organization's file store and identity system as the first filter.",
-      "bestFor": ["Slack: multi-vendor SaaS environments", "Google Chat: Workspace-standardized teams", "Organizations ready to govern conversation and files"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "slack-guide",
+        "label": {
+          "en": "Slack guide"
+        },
+        "description": {
+          "en": "Review channels and governance"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "google-chat-guide",
+        "label": {
+          "en": "Google Chat guide"
+        },
+        "description": {
+          "en": "Review Spaces and Workspace integration"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Slack and Google Chat",
+        "title": "Slack vs Google Chat: Pricing, History, Files, and Integrations",
+        "description": "Compare Slack and Google Chat across pricing, history, channels and Spaces, file sharing, meetings, integrations, and administration.",
+        "lead": "Slack is an independent communication hub; Google Chat is most compelling as part of Workspace.",
+        "verdict": "Choose Slack for a broad integration ecosystem, channel workflows, and external organization collaboration. Choose Google Chat when Gmail, Drive, Meet, and Workspace administration already define the work environment.",
+        "context": "Calculate the incremental cost: Google Chat may already be bundled, while Slack may replace or improve several communication workflows.",
+        "overview": "Both support direct and group conversation, threaded work, files, meetings, apps, and administration, but their ecosystems and information ownership differ.",
+        "capabilities": [
+          "Slack: channels, app ecosystem, Slack Connect, huddles, and workflow tools",
+          "Google Chat: Spaces, Drive files, Meet, tasks, and Workspace identity",
+          "Both: plan-specific retention, export, guests, and security"
+        ],
+        "comparisonRows": [
+          [
+            "Ecosystem",
+            "Slack is vendor-neutral; Google Chat is Workspace-native"
+          ],
+          [
+            "Files",
+            "Slack links many stores; Google Chat centers Drive"
+          ],
+          [
+            "Cost",
+            "Compare standalone Slack with the Workspace edition already owned"
+          ]
+        ],
+        "pricing": "Include paid seats, existing suite cost, history, integrations, storage, meetings, guests, identity, retention, and AI.",
+        "tradeoff": "Slack adds a specialized communication layer; Google Chat reduces vendor count but may not match every external integration requirement.",
+        "strengths": [
+          "A clear ecosystem-based decision",
+          "Both can be piloted with a real team workflow"
+        ],
+        "caveats": [
+          "History, retention, and export by plan",
+          "Migration of messages and connected app workflows"
+        ],
+        "fitIntro": "Use the organization's file store and identity system as the first filter.",
+        "bestFor": [
+          "Slack: multi-vendor SaaS environments",
+          "Google Chat: Workspace-standardized teams",
+          "Organizations ready to govern conversation and files"
+        ]
+      }
+    }
   },
   {
     "slug": "task-management-tools-comparison",
@@ -351,81 +932,228 @@
     "type": "comparison",
     "topic": "task-management",
     "sources": [
-      {"label": "Asana — Pricing", "url": "https://asana.com/pricing"},
-      {"label": "Trello — Pricing", "url": "https://trello.com/pricing"},
-      {"label": "Notion — Pricing", "url": "https://www.notion.com/pricing"},
-      {"label": "Backlog — Pricing", "url": "https://backlog.com/pricing/"}
+      {
+        "label": "Asana — Pricing",
+        "url": "https://asana.com/pricing"
+      },
+      {
+        "label": "Trello — Pricing",
+        "url": "https://trello.com/pricing"
+      },
+      {
+        "label": "Notion — Pricing",
+        "url": "https://www.notion.com/pricing"
+      },
+      {
+        "label": "Backlog — Pricing",
+        "url": "https://backlog.com/pricing/"
+      }
     ],
     "ctas": [],
-    "relatedRoutes": [{"category": "business-software", "slug": "trello-vs-asana", "label": {"en": "Trello vs Asana"}, "description": {"en": "Compare simple Kanban with structured projects"}}],
-    "locales": {"en": {
-      "subject": "task-management tools",
-      "title": "Best Task Management Tools Compared: Asana, Trello, Notion, Backlog, and Todoist",
-      "description": "Compare task-management tools across free plans, Kanban, timelines, Gantt, documents, automation, issue tracking, and team scale.",
-      "lead": "Choose the smallest system that reliably records one owner, the next action, a deadline, and completion evidence.",
-      "verdict": "Trello fits simple Kanban, Asana fits structured cross-project work, Notion fits knowledge and flexible databases, Backlog fits project and issue workflows, and Todoist fits lightweight personal and team task lists.",
-      "context": "The best tool is the one the team updates consistently; unused advanced features have no operational value.",
-      "overview": "Compare intake, task structure, owners, dates, dependencies, views, comments, files, recurring work, automation, reporting, and permission administration.",
-      "capabilities": ["Trello: simple boards and cards", "Asana: structured projects, dependencies, and portfolios", "Notion: documents and flexible databases", "Backlog: project and issue management", "Todoist: focused task lists and recurring work"],
-      "comparisonRows": [["Simple visual work", "Trello"], ["Cross-project execution", "Asana"], ["Knowledge plus tasks", "Notion"], ["Issues and development-adjacent work", "Backlog"], ["Personal and lightweight team tasks", "Todoist"]],
-      "pricing": "Estimate paid seats, guests, history, storage, views, dependencies, automation, reporting, AI, and migration. Free limits are useful for piloting, not only cost avoidance.",
-      "tradeoff": "Flexible tools need conventions; structured tools may feel heavy. Both extremes can reduce adoption.",
-      "strengths": ["Distinct product models suit different team maturity", "A two-week pilot can measure update consistency"],
-      "caveats": ["Member and guest billing", "Export, attachments, comments, and history during migration"],
-      "fitIntro": "Select two candidates from workflow complexity and test them with the daily users.",
-      "bestFor": ["Individuals organizing recurring work", "Small teams replacing spreadsheets", "Organizations standardizing projects and status"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "business-software",
+        "slug": "trello-vs-asana",
+        "label": {
+          "en": "Trello vs Asana"
+        },
+        "description": {
+          "en": "Compare simple Kanban with structured projects"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "task-management tools",
+        "title": "Best Task Management Tools Compared: Asana, Trello, Notion, Backlog, and Todoist",
+        "description": "Compare task-management tools across free plans, Kanban, timelines, Gantt, documents, automation, issue tracking, and team scale.",
+        "lead": "Choose the smallest system that reliably records one owner, the next action, a deadline, and completion evidence.",
+        "verdict": "Trello fits simple Kanban, Asana fits structured cross-project work, Notion fits knowledge and flexible databases, Backlog fits project and issue workflows, and Todoist fits lightweight personal and team task lists.",
+        "context": "The best tool is the one the team updates consistently; unused advanced features have no operational value.",
+        "overview": "Compare intake, task structure, owners, dates, dependencies, views, comments, files, recurring work, automation, reporting, and permission administration.",
+        "capabilities": [
+          "Trello: simple boards and cards",
+          "Asana: structured projects, dependencies, and portfolios",
+          "Notion: documents and flexible databases",
+          "Backlog: project and issue management",
+          "Todoist: focused task lists and recurring work"
+        ],
+        "comparisonRows": [
+          [
+            "Simple visual work",
+            "Trello"
+          ],
+          [
+            "Cross-project execution",
+            "Asana"
+          ],
+          [
+            "Knowledge plus tasks",
+            "Notion"
+          ],
+          [
+            "Issues and development-adjacent work",
+            "Backlog"
+          ],
+          [
+            "Personal and lightweight team tasks",
+            "Todoist"
+          ]
+        ],
+        "pricing": "Estimate paid seats, guests, history, storage, views, dependencies, automation, reporting, AI, and migration. Free limits are useful for piloting, not only cost avoidance.",
+        "tradeoff": "Flexible tools need conventions; structured tools may feel heavy. Both extremes can reduce adoption.",
+        "strengths": [
+          "Distinct product models suit different team maturity",
+          "A two-week pilot can measure update consistency"
+        ],
+        "caveats": [
+          "Member and guest billing",
+          "Export, attachments, comments, and history during migration"
+        ],
+        "fitIntro": "Select two candidates from workflow complexity and test them with the daily users.",
+        "bestFor": [
+          "Individuals organizing recurring work",
+          "Small teams replacing spreadsheets",
+          "Organizations standardizing projects and status"
+        ]
+      }
+    }
   },
   {
     "slug": "cloudways-guide",
     "category": "hosting-security",
     "type": "review",
     "topic": "managed-cloud",
-    "sources": [{"label": "Cloudways", "url": "https://www.cloudways.com/"}],
-    "ctas": [{"label": {"en": "Check Cloudways official plans"}, "officialUrl": "https://www.cloudways.com/en/pricing.php", "affiliateKey": "cloudways"}],
-    "relatedRoutes": [{"category": "hosting-security", "slug": "cloudways-review", "label": {"en": "Cloudways review"}, "description": {"en": "Review current platform features and limits"}}],
-    "locales": {"en": {
-      "subject": "Cloudways",
-      "title": "Cloudways Review: Managed Cloud Pricing, WordPress, and Administration",
-      "description": "Review Cloudways cloud infrastructure choices, pricing model, WordPress, backups, staging, SSH, Git, strengths, and operational trade-offs.",
-      "lead": "Cloudways sits between unmanaged cloud infrastructure and a more opinionated managed WordPress host.",
-      "verdict": "Cloudways fits developers and agencies that want to select cloud capacity while delegating part of server management. A simpler shared host fits better when domains, email, and site setup should all be bundled.",
-      "context": "The operator still needs to understand servers, applications, DNS, caching, backups, and scaling decisions.",
-      "overview": "Customers select infrastructure and a server size, deploy applications, and manage staging, backups, caching, SSH, Git, monitoring, and team access through the platform.",
-      "capabilities": ["Choice of supported cloud infrastructure and server size", "Application and server-level administration", "Staging, backups, SSH, Git, caching, monitoring, and collaboration"],
-      "pricing": "Cost varies by provider, server resources, bandwidth, storage, backups, CDN, support, and add-ons. Allocate server cost across every hosted site.",
-      "tradeoff": "The platform offers more control than shared hosting, but domains, email, and some services may remain separate and require technical ownership.",
-      "strengths": ["Flexible cloud configuration", "Developer and multi-site workflows"],
-      "caveats": ["More operational decisions than shared hosting", "Add-on, backup, and bandwidth cost"],
-      "fitIntro": "It fits teams with a technical owner who can size resources and operate several applications.",
-      "bestFor": ["WordPress agencies", "Developers managing several sites", "Teams moving from unmanaged cloud servers"]
-    }}
+    "sources": [
+      {
+        "label": "Cloudways",
+        "url": "https://www.cloudways.com/"
+      }
+    ],
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Cloudways official plans"
+        },
+        "officialUrl": "https://www.cloudways.com/en/pricing.php",
+        "affiliateKey": "cloudways"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "cloudways-review",
+        "label": {
+          "en": "Cloudways review"
+        },
+        "description": {
+          "en": "Review current platform features and limits"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Cloudways",
+        "title": "Cloudways Review: Managed Cloud Pricing, WordPress, and Administration",
+        "description": "Review Cloudways cloud infrastructure choices, pricing model, WordPress, backups, staging, SSH, Git, strengths, and operational trade-offs.",
+        "lead": "Cloudways sits between unmanaged cloud infrastructure and a more opinionated managed WordPress host.",
+        "verdict": "Cloudways fits developers and agencies that want to select cloud capacity while delegating part of server management. A simpler shared host fits better when domains, email, and site setup should all be bundled.",
+        "context": "The operator still needs to understand servers, applications, DNS, caching, backups, and scaling decisions.",
+        "overview": "Customers select infrastructure and a server size, deploy applications, and manage staging, backups, caching, SSH, Git, monitoring, and team access through the platform.",
+        "capabilities": [
+          "Choice of supported cloud infrastructure and server size",
+          "Application and server-level administration",
+          "Staging, backups, SSH, Git, caching, monitoring, and collaboration"
+        ],
+        "pricing": "Cost varies by provider, server resources, bandwidth, storage, backups, CDN, support, and add-ons. Allocate server cost across every hosted site.",
+        "tradeoff": "The platform offers more control than shared hosting, but domains, email, and some services may remain separate and require technical ownership.",
+        "strengths": [
+          "Flexible cloud configuration",
+          "Developer and multi-site workflows"
+        ],
+        "caveats": [
+          "More operational decisions than shared hosting",
+          "Add-on, backup, and bandwidth cost"
+        ],
+        "fitIntro": "It fits teams with a technical owner who can size resources and operate several applications.",
+        "bestFor": [
+          "WordPress agencies",
+          "Developers managing several sites",
+          "Teams moving from unmanaged cloud servers"
+        ]
+      }
+    }
   },
   {
     "slug": "com-vs-jp-domain",
     "category": "hosting-security",
     "type": "comparison",
     "topic": "domains",
-    "sources": [{"label": "JPRS — About .jp domains", "url": "https://jprs.jp/about/jp-dom/"}],
+    "sources": [
+      {
+        "label": "JPRS — About .jp domains",
+        "url": "https://jprs.jp/about/jp-dom/"
+      }
+    ],
     "ctas": [],
-    "relatedRoutes": [{"category": "hosting-security", "slug": "domain-registrar-comparison", "label": {"en": "Domain registrar comparison"}, "description": {"en": "Compare renewal, transfer, privacy, and DNS"}}],
-    "locales": {"en": {
-      "subject": ".com and .jp domains",
-      "title": ".com vs .jp Domains: Registration, Brand, SEO, and International Use",
-      "description": "Compare .com and .jp domains across registration eligibility, price, brand signals, search, international expansion, and operating requirements.",
-      "lead": "The choice is mainly about audience, brand, eligibility, and long-term administration—not a guaranteed ranking advantage.",
-      "verdict": "Choose .com for a broadly international or market-neutral brand. Choose .jp when a clear Japan connection is valuable and the registrant meets the relevant eligibility rules. Some organizations defensively register both.",
-      "context": "Specific .jp categories can have different eligibility. Confirm rules through JPRS and the chosen registrar.",
-      "overview": ".com is a generic top-level domain used globally, while .jp is Japan's country-code domain with policies and categories administered for the Japanese namespace.",
-      "capabilities": [".com: broad global recognition and registrar choice", ".jp: a clear Japan-related domain signal", "Both: DNS, email, security, renewal, and transfer require ongoing administration"],
-      "comparisonRows": [["Audience", ".com is broadly international; .jp emphasizes Japan"], ["Eligibility", ".com is broadly open; .jp rules vary by category"], ["SEO", "Neither extension alone guarantees ranking; relevance and site quality matter"]],
-      "pricing": "Compare registration, annual renewal, transfer, privacy or contact handling, tax, and expiration recovery across registrars.",
-      "tradeoff": "Registering both can protect a brand but adds renewal and DNS governance. Using one as primary requires a redirect and email plan for the other.",
-      "strengths": ["A domain can reinforce audience and brand positioning", "Both support standard web and email use when configured correctly"],
-      "caveats": ["Category-specific .jp eligibility", "Renewal ownership, DNS security, and expiration recovery"],
-      "fitIntro": "Select from the primary audience and legal or operational presence of the brand.",
-      "bestFor": [".com: international brands and products", ".jp: Japan-focused organizations and services", "Both: brands protecting key names across markets"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "domain-registrar-comparison",
+        "label": {
+          "en": "Domain registrar comparison"
+        },
+        "description": {
+          "en": "Compare renewal, transfer, privacy, and DNS"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": ".com and .jp domains",
+        "title": ".com vs .jp Domains: Registration, Brand, SEO, and International Use",
+        "description": "Compare .com and .jp domains across registration eligibility, price, brand signals, search, international expansion, and operating requirements.",
+        "lead": "The choice is mainly about audience, brand, eligibility, and long-term administration—not a guaranteed ranking advantage.",
+        "verdict": "Choose .com for a broadly international or market-neutral brand. Choose .jp when a clear Japan connection is valuable and the registrant meets the relevant eligibility rules. Some organizations defensively register both.",
+        "context": "Specific .jp categories can have different eligibility. Confirm rules through JPRS and the chosen registrar.",
+        "overview": ".com is a generic top-level domain used globally, while .jp is Japan's country-code domain with policies and categories administered for the Japanese namespace.",
+        "capabilities": [
+          ".com: broad global recognition and registrar choice",
+          ".jp: a clear Japan-related domain signal",
+          "Both: DNS, email, security, renewal, and transfer require ongoing administration"
+        ],
+        "comparisonRows": [
+          [
+            "Audience",
+            ".com is broadly international; .jp emphasizes Japan"
+          ],
+          [
+            "Eligibility",
+            ".com is broadly open; .jp rules vary by category"
+          ],
+          [
+            "SEO",
+            "Neither extension alone guarantees ranking; relevance and site quality matter"
+          ]
+        ],
+        "pricing": "Compare registration, annual renewal, transfer, privacy or contact handling, tax, and expiration recovery across registrars.",
+        "tradeoff": "Registering both can protect a brand but adds renewal and DNS governance. Using one as primary requires a redirect and email plan for the other.",
+        "strengths": [
+          "A domain can reinforce audience and brand positioning",
+          "Both support standard web and email use when configured correctly"
+        ],
+        "caveats": [
+          "Category-specific .jp eligibility",
+          "Renewal ownership, DNS security, and expiration recovery"
+        ],
+        "fitIntro": "Select from the primary audience and legal or operational presence of the brand.",
+        "bestFor": [
+          ".com: international brands and products",
+          ".jp: Japan-focused organizations and services",
+          "Both: brands protecting key names across markets"
+        ]
+      }
+    }
   },
   {
     "slug": "domain-registrar-comparison",
@@ -433,29 +1161,90 @@
     "type": "comparison",
     "topic": "domains",
     "sources": [
-      {"label": "JPRS", "url": "https://jprs.jp/"},
-      {"label": "Cloudflare Registrar", "url": "https://www.cloudflare.com/products/registrar/"},
-      {"label": "Namecheap Domains", "url": "https://www.namecheap.com/domains/"}
+      {
+        "label": "JPRS",
+        "url": "https://jprs.jp/"
+      },
+      {
+        "label": "Cloudflare Registrar",
+        "url": "https://www.cloudflare.com/products/registrar/"
+      },
+      {
+        "label": "Namecheap Domains",
+        "url": "https://www.namecheap.com/domains/"
+      }
     ],
-    "ctas": [{"label": {"en": "Check Namecheap domain options"}, "officialUrl": "https://www.namecheap.com/domains/", "affiliateKey": "namecheap"}],
-    "relatedRoutes": [{"category": "hosting-security", "slug": "namecheap-review", "label": {"en": "Namecheap review"}, "description": {"en": "Review domains, privacy, and hosting"}}],
-    "locales": {"en": {
-      "subject": "domain registrars",
-      "title": "Best Domain Registrars Compared: Renewals, Transfers, Privacy, and DNS",
-      "description": "Learn how to compare domain registrars using renewal price, transfers, privacy, DNS, security, auto-renewal, support, and expiration recovery.",
-      "lead": "A registrar is a long-term asset custodian, so renewal, access security, and transfer control matter more than a one-year coupon.",
-      "verdict": "Choose a registrar with transparent renewal pricing, strong account security, reliable DNS or clean delegation, easy transfer controls, and support that fits the domain's importance. Hosting bundles are convenient but increase migration coupling.",
-      "context": "Country-code domains and specific TLDs can have registry-level eligibility or contact rules that no registrar can override.",
-      "overview": "A registrar registers and renews the domain, maintains registrant data, provides transfer authorization and nameserver settings, and may add DNS, privacy, email, SSL, or hosting.",
-      "capabilities": ["Registration, renewal, transfer, and contact management", "DNSSEC, account 2FA, registry lock, and access controls where available", "DNS, privacy, email, forwarding, SSL, and hosting add-ons"],
-      "comparisonRows": [["Long-term cost", "Use renewal and recovery fees, not first-year registration"], ["Security", "Review 2FA, DNSSEC, roles, locks, and recovery"], ["Portability", "Confirm transfer process and independent DNS options"], ["Support", "Match language and response model to business importance"]],
-      "pricing": "Build a multi-year total for each TLD including registration, renewal, transfer, privacy, premium-domain rules, tax, and expiration recovery.",
-      "tradeoff": "Combining registrar, DNS, email, and hosting reduces accounts but enlarges the impact of one compromise or migration.",
-      "strengths": ["A criteria-based selection reduces future transfer work", "Separating domain ownership from web hosting can improve portability"],
-      "caveats": ["Promotional registration pricing", "Ownership records, recovery access, and automatic renewal payment"],
-      "fitIntro": "It applies to every organization that treats its domain as a critical business asset.",
-      "bestFor": ["New domains", "Consolidating domains from several registrars", "Businesses formalizing domain security and ownership"]
-    }}
+    "ctas": [
+      {
+        "label": {
+          "en": "Check Namecheap domain options"
+        },
+        "officialUrl": "https://www.namecheap.com/domains/",
+        "affiliateKey": "namecheap"
+      }
+    ],
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "namecheap-review",
+        "label": {
+          "en": "Namecheap review"
+        },
+        "description": {
+          "en": "Review domains, privacy, and hosting"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "domain registrars",
+        "title": "Best Domain Registrars Compared: Renewals, Transfers, Privacy, and DNS",
+        "description": "Learn how to compare domain registrars using renewal price, transfers, privacy, DNS, security, auto-renewal, support, and expiration recovery.",
+        "lead": "A registrar is a long-term asset custodian, so renewal, access security, and transfer control matter more than a one-year coupon.",
+        "verdict": "Choose a registrar with transparent renewal pricing, strong account security, reliable DNS or clean delegation, easy transfer controls, and support that fits the domain's importance. Hosting bundles are convenient but increase migration coupling.",
+        "context": "Country-code domains and specific TLDs can have registry-level eligibility or contact rules that no registrar can override.",
+        "overview": "A registrar registers and renews the domain, maintains registrant data, provides transfer authorization and nameserver settings, and may add DNS, privacy, email, SSL, or hosting.",
+        "capabilities": [
+          "Registration, renewal, transfer, and contact management",
+          "DNSSEC, account 2FA, registry lock, and access controls where available",
+          "DNS, privacy, email, forwarding, SSL, and hosting add-ons"
+        ],
+        "comparisonRows": [
+          [
+            "Long-term cost",
+            "Use renewal and recovery fees, not first-year registration"
+          ],
+          [
+            "Security",
+            "Review 2FA, DNSSEC, roles, locks, and recovery"
+          ],
+          [
+            "Portability",
+            "Confirm transfer process and independent DNS options"
+          ],
+          [
+            "Support",
+            "Match language and response model to business importance"
+          ]
+        ],
+        "pricing": "Build a multi-year total for each TLD including registration, renewal, transfer, privacy, premium-domain rules, tax, and expiration recovery.",
+        "tradeoff": "Combining registrar, DNS, email, and hosting reduces accounts but enlarges the impact of one compromise or migration.",
+        "strengths": [
+          "A criteria-based selection reduces future transfer work",
+          "Separating domain ownership from web hosting can improve portability"
+        ],
+        "caveats": [
+          "Promotional registration pricing",
+          "Ownership records, recovery access, and automatic renewal payment"
+        ],
+        "fitIntro": "It applies to every organization that treats its domain as a critical business asset.",
+        "bestFor": [
+          "New domains",
+          "Consolidating domains from several registrars",
+          "Businesses formalizing domain security and ownership"
+        ]
+      }
+    }
   },
   {
     "slug": "hostinger-vs-cloudways",
@@ -463,32 +1252,127 @@
     "type": "comparison",
     "topic": "web-hosting",
     "sources": [
-      {"label": "Hostinger — Pricing", "url": "https://www.hostinger.com/pricing"},
-      {"label": "Cloudways — Pricing", "url": "https://www.cloudways.com/en/pricing.php"},
-      {"label": "Cloudways", "url": "https://www.cloudways.com/en/"}
+      {
+        "label": "Hostinger — Pricing",
+        "url": "https://www.hostinger.com/pricing"
+      },
+      {
+        "label": "Cloudways — Pricing",
+        "url": "https://www.cloudways.com/en/pricing.php"
+      },
+      {
+        "label": "Cloudways",
+        "url": "https://www.cloudways.com/en/"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Hostinger official plans"}, "officialUrl": "https://www.hostinger.com/pricing", "affiliateKey": "hostinger"},
-      {"label": {"en": "Check Cloudways official plans"}, "officialUrl": "https://www.cloudways.com/en/pricing.php", "affiliateKey": "cloudways"}
+      {
+        "label": {
+          "en": "Check Hostinger official plans"
+        },
+        "officialUrl": "https://www.hostinger.com/pricing",
+        "affiliateKey": "hostinger"
+      },
+      {
+        "label": {
+          "en": "Check Cloudways official plans"
+        },
+        "officialUrl": "https://www.cloudways.com/en/pricing.php",
+        "affiliateKey": "cloudways"
+      }
     ],
-    "relatedRoutes": [{"category": "hosting-security", "slug": "hostinger-review", "label": {"en": "Hostinger review"}, "description": {"en": "Review commitment and renewal pricing"}}, {"category": "hosting-security", "slug": "cloudways-review", "label": {"en": "Cloudways review"}, "description": {"en": "Review managed cloud operations"}}],
-    "locales": {"en": {
-      "subject": "Hostinger and Cloudways",
-      "title": "Hostinger vs Cloudways: Beginner Hosting or Managed Cloud?",
-      "description": "Compare Hostinger and Cloudways across pricing models, commitments, dashboards, backups, cloud infrastructure, WordPress, and operator fit.",
-      "lead": "These services solve different problems: an all-in-one host versus a configurable managed cloud layer.",
-      "verdict": "Choose Hostinger for a simpler website, domain, email, and WordPress launch with low introductory multi-year pricing. Choose Cloudways when a developer or agency needs cloud choice, server sizing, staging, SSH, and multi-application operations.",
-      "context": "Compare Hostinger's prepaid commitment and renewal against Cloudways server, backup, bandwidth, CDN, and administrator time.",
-      "overview": "Hostinger abstracts the server behind hPanel and bundled site services. Cloudways exposes server and application operations on supported cloud infrastructure.",
-      "capabilities": ["Hostinger: hPanel, WordPress, site builder, domains, email, and plan-based backups", "Cloudways: infrastructure choice, server sizing, staging, SSH, Git, caching, and monitoring", "Different ownership for DNS, email, resources, and incident response"],
-      "comparisonRows": [["Service model", "All-in-one managed hosting versus managed cloud servers"], ["Billing", "Multi-year prepaid and renewal versus server-resource billing"], ["Operator", "Site owner versus developer or agency"]],
-      "pricing": "Use a three-year total for Hostinger and a realistic monthly server configuration for Cloudways, including every add-on and administrative hour.",
-      "tradeoff": "Hostinger reduces decisions but offers less infrastructure control; Cloudways adds control but needs technical judgment.",
-      "strengths": ["Clear differentiation by operator skill", "Both support WordPress through different operational models"],
-      "caveats": ["Renewal and commitment on Hostinger", "Server sizing and add-ons on Cloudways"],
-      "fitIntro": "Select from who will own server decisions after launch.",
-      "bestFor": ["Hostinger: first sites and small businesses", "Cloudways: agencies, developers, and multiple client sites", "Teams that can test backup restoration before migration"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "hostinger-review",
+        "label": {
+          "en": "Hostinger review"
+        },
+        "description": {
+          "en": "Review commitment and renewal pricing"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "cloudways-review",
+        "label": {
+          "en": "Cloudways review"
+        },
+        "description": {
+          "en": "Review managed cloud operations"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Hostinger and Cloudways",
+        "title": "Hostinger vs Cloudways: Beginner Hosting or Managed Cloud?",
+        "description": "Compare Hostinger and Cloudways across pricing models, commitments, dashboards, backups, cloud infrastructure, WordPress, and operator fit.",
+        "lead": "These services solve different problems: an all-in-one host versus a configurable managed cloud layer.",
+        "verdict": "Choose Hostinger for a simpler website, domain, email, and WordPress launch with low introductory multi-year pricing. Choose Cloudways when a developer or agency needs cloud choice, server sizing, staging, SSH, and multi-application operations.",
+        "context": "Compare Hostinger's prepaid commitment and renewal against Cloudways server, backup, bandwidth, CDN, and administrator time.",
+        "overview": "Hostinger abstracts the server behind hPanel and bundled site services. Cloudways exposes server and application operations on supported cloud infrastructure.",
+        "capabilities": [
+          "Hostinger: hPanel, WordPress, site builder, domains, email, and plan-based backups",
+          "Cloudways: infrastructure choice, server sizing, staging, SSH, Git, caching, and monitoring",
+          "Different ownership for DNS, email, resources, and incident response"
+        ],
+        "comparisonRows": [
+          [
+            "Service model",
+            "All-in-one managed hosting versus managed cloud servers"
+          ],
+          [
+            "Billing",
+            "Multi-year prepaid and renewal versus server-resource billing"
+          ],
+          [
+            "Operator",
+            "Site owner versus developer or agency"
+          ]
+        ],
+        "pricing": "Use a three-year total for Hostinger and a realistic monthly server configuration for Cloudways, including every add-on and administrative hour.",
+        "tradeoff": "Hostinger reduces decisions but offers less infrastructure control; Cloudways adds control but needs technical judgment.",
+        "strengths": [
+          "Clear differentiation by operator skill",
+          "Both support WordPress through different operational models"
+        ],
+        "caveats": [
+          "Renewal and commitment on Hostinger",
+          "Server sizing and add-ons on Cloudways"
+        ],
+        "fitIntro": "Select from who will own server decisions after launch.",
+        "bestFor": [
+          "Hostinger: first sites and small businesses",
+          "Cloudways: agencies, developers, and multiple client sites",
+          "Teams that can test backup restoration before migration"
+        ]
+      }
+    }
   },
   {
     "slug": "kinsta-vs-wp-engine",
@@ -496,33 +1380,127 @@
     "type": "comparison",
     "topic": "managed-wordpress",
     "sources": [
-      {"label": "Kinsta — Pricing", "url": "https://kinsta.com/pricing/"},
-      {"label": "Kinsta — WordPress hosting", "url": "https://kinsta.com/wordpress-hosting/"},
-      {"label": "WP Engine — Plans", "url": "https://wpengine.com/plans/"},
-      {"label": "WP Engine — Managed hosting platform", "url": "https://wpengine.com/managed-hosting-platform/"}
+      {
+        "label": "Kinsta — Pricing",
+        "url": "https://kinsta.com/pricing/"
+      },
+      {
+        "label": "Kinsta — WordPress hosting",
+        "url": "https://kinsta.com/wordpress-hosting/"
+      },
+      {
+        "label": "WP Engine — Plans",
+        "url": "https://wpengine.com/plans/"
+      },
+      {
+        "label": "WP Engine — Managed hosting platform",
+        "url": "https://wpengine.com/managed-hosting-platform/"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Kinsta official plans"}, "officialUrl": "https://kinsta.com/pricing/", "affiliateKey": "kinsta"},
-      {"label": {"en": "Check WP Engine official plans"}, "officialUrl": "https://wpengine.com/plans/", "affiliateKey": "wp-engine"}
+      {
+        "label": {
+          "en": "Check Kinsta official plans"
+        },
+        "officialUrl": "https://kinsta.com/pricing/",
+        "affiliateKey": "kinsta"
+      },
+      {
+        "label": {
+          "en": "Check WP Engine official plans"
+        },
+        "officialUrl": "https://wpengine.com/plans/",
+        "affiliateKey": "wp-engine"
+      }
     ],
-    "relatedRoutes": [{"category": "hosting-security", "slug": "kinsta-review", "label": {"en": "Kinsta review"}, "description": {"en": "Review WordPress limits and operations"}}, {"category": "hosting-security", "slug": "wp-engine-review", "label": {"en": "WP Engine review"}, "description": {"en": "Review platform and agency features"}}],
-    "locales": {"en": {
-      "subject": "Kinsta and WP Engine",
-      "title": "Kinsta vs WP Engine: Managed WordPress Pricing and Features",
-      "description": "Compare Kinsta and WP Engine across starting price, sites, visits, storage, backups, migration, staging, support, and workflow.",
-      "lead": "Both are premium managed WordPress services, so limits, developer workflow, and support fit matter more than a generic hosting checklist.",
-      "verdict": "Kinsta is compelling for a clear MyKinsta workflow, migration, analytics, and focused WordPress operations. WP Engine is compelling for teams that value its WordPress product ecosystem, development workflow, and agency-oriented options.",
-      "context": "Plan structures change, so match the current tier by sites, visits, storage, bandwidth, environments, backups, and support.",
-      "overview": "Both manage infrastructure, caching, security, backups, staging, monitoring, and support around WordPress while excluding some adjacent services such as mailbox hosting.",
-      "capabilities": ["Managed WordPress updates, performance, and security layers", "Staging, backups, migration, development access, and collaboration", "Plan-specific site, traffic, storage, bandwidth, worker, and support allowances"],
-      "comparisonRows": [["Workflow", "Kinsta centers MyKinsta; WP Engine adds a broader WordPress product ecosystem"], ["Limits", "Match sites, visits, bandwidth, storage, and environments"], ["Migration", "Test automated or assisted migration and rollback"]],
-      "pricing": "Build the price from the smallest current tier meeting traffic and resource needs, then include overages, backup retention, additional environments, CDN, support, and migration work.",
-      "tradeoff": "Premium management reduces infrastructure work but costs more than shared hosting and still requires WordPress maintenance ownership.",
-      "strengths": ["Focused WordPress operations and specialist support", "Strong staging, backup, and developer workflows"],
-      "caveats": ["Traffic and capacity allowances", "Email, domain, and some services remain separate"],
-      "fitIntro": "It fits revenue-generating WordPress sites that can quantify the value of reduced operational risk.",
-      "bestFor": ["Kinsta: focused operations and clear management", "WP Engine: agency and broader WordPress workflows", "Businesses that will test migration and restoration"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "kinsta-review",
+        "label": {
+          "en": "Kinsta review"
+        },
+        "description": {
+          "en": "Review WordPress limits and operations"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "wp-engine-review",
+        "label": {
+          "en": "WP Engine review"
+        },
+        "description": {
+          "en": "Review platform and agency features"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "en": "Add XServer for WordPress to the shortlist"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "en": "Review the Japan-focused option"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Kinsta and WP Engine",
+        "title": "Kinsta vs WP Engine: Managed WordPress Pricing and Features",
+        "description": "Compare Kinsta and WP Engine across starting price, sites, visits, storage, backups, migration, staging, support, and workflow.",
+        "lead": "Both are premium managed WordPress services, so limits, developer workflow, and support fit matter more than a generic hosting checklist.",
+        "verdict": "Kinsta is compelling for a clear MyKinsta workflow, migration, analytics, and focused WordPress operations. WP Engine is compelling for teams that value its WordPress product ecosystem, development workflow, and agency-oriented options.",
+        "context": "Plan structures change, so match the current tier by sites, visits, storage, bandwidth, environments, backups, and support.",
+        "overview": "Both manage infrastructure, caching, security, backups, staging, monitoring, and support around WordPress while excluding some adjacent services such as mailbox hosting.",
+        "capabilities": [
+          "Managed WordPress updates, performance, and security layers",
+          "Staging, backups, migration, development access, and collaboration",
+          "Plan-specific site, traffic, storage, bandwidth, worker, and support allowances"
+        ],
+        "comparisonRows": [
+          [
+            "Workflow",
+            "Kinsta centers MyKinsta; WP Engine adds a broader WordPress product ecosystem"
+          ],
+          [
+            "Limits",
+            "Match sites, visits, bandwidth, storage, and environments"
+          ],
+          [
+            "Migration",
+            "Test automated or assisted migration and rollback"
+          ]
+        ],
+        "pricing": "Build the price from the smallest current tier meeting traffic and resource needs, then include overages, backup retention, additional environments, CDN, support, and migration work.",
+        "tradeoff": "Premium management reduces infrastructure work but costs more than shared hosting and still requires WordPress maintenance ownership.",
+        "strengths": [
+          "Focused WordPress operations and specialist support",
+          "Strong staging, backup, and developer workflows"
+        ],
+        "caveats": [
+          "Traffic and capacity allowances",
+          "Email, domain, and some services remain separate"
+        ],
+        "fitIntro": "It fits revenue-generating WordPress sites that can quantify the value of reduced operational risk.",
+        "bestFor": [
+          "Kinsta: focused operations and clear management",
+          "WP Engine: agency and broader WordPress workflows",
+          "Businesses that will test migration and restoration"
+        ]
+      }
+    }
   },
   {
     "slug": "mailerlite-vs-brevo",
@@ -530,33 +1508,107 @@
     "type": "comparison",
     "topic": "email-marketing",
     "sources": [
-      {"label": "MailerLite — Pricing", "url": "https://www.mailerlite.com/pricing"},
-      {"label": "MailerLite — Email marketing", "url": "https://www.mailerlite.com/features/email-marketing"},
-      {"label": "Brevo — Pricing", "url": "https://www.brevo.com/pricing/"},
-      {"label": "Brevo — Email marketing", "url": "https://www.brevo.com/features/email-marketing/"}
+      {
+        "label": "MailerLite — Pricing",
+        "url": "https://www.mailerlite.com/pricing"
+      },
+      {
+        "label": "MailerLite — Email marketing",
+        "url": "https://www.mailerlite.com/features/email-marketing"
+      },
+      {
+        "label": "Brevo — Pricing",
+        "url": "https://www.brevo.com/pricing/"
+      },
+      {
+        "label": "Brevo — Email marketing",
+        "url": "https://www.brevo.com/features/email-marketing/"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check MailerLite official plans"}, "officialUrl": "https://www.mailerlite.com/pricing", "affiliateKey": "mailerlite"},
-      {"label": {"en": "Check Brevo official plans"}, "officialUrl": "https://www.brevo.com/pricing/", "affiliateKey": "brevo"}
+      {
+        "label": {
+          "en": "Check MailerLite official plans"
+        },
+        "officialUrl": "https://www.mailerlite.com/pricing",
+        "affiliateKey": "mailerlite"
+      },
+      {
+        "label": {
+          "en": "Check Brevo official plans"
+        },
+        "officialUrl": "https://www.brevo.com/pricing/",
+        "affiliateKey": "brevo"
+      }
     ],
-    "relatedRoutes": [{"category": "seo-marketing", "slug": "mailerlite-review", "label": {"en": "MailerLite review"}, "description": {"en": "Review newsletters and automation"}}, {"category": "seo-marketing", "slug": "brevo-review", "label": {"en": "Brevo review"}, "description": {"en": "Review marketing and transactional messaging"}}],
-    "locales": {"en": {
-      "subject": "MailerLite and Brevo",
-      "title": "MailerLite vs Brevo: Subscribers, Send Volume, Automation, and Pricing",
-      "description": "Compare MailerLite and Brevo across free tiers, pricing basis, sends, subscribers, automation, landing pages, and transactional email.",
-      "lead": "MailerLite prices around audience size and creator features; Brevo places more emphasis on message volume and multichannel communication.",
-      "verdict": "Choose MailerLite for a streamlined newsletter, landing-page, website, and creator workflow. Choose Brevo when a larger contact database, controlled send volume, transactional email, CRM, or SMS matters.",
-      "context": "MailerLite changed its free subscriber and send limits in June 2026, so use the live pricing page rather than older articles.",
-      "overview": "Both cover campaigns, templates, forms, segments, automation, and landing pages, while Brevo extends deeper into transactional and sales communication.",
-      "capabilities": ["MailerLite: newsletters, sites, landing pages, automation, and paid newsletter tools", "Brevo: campaigns, automation, transactional email, CRM, SMS, and send-volume plans", "Both: authentication, segmentation, reporting, integrations, and plan limits"],
-      "comparisonRows": [["Primary cost driver", "MailerLite: subscribers; Brevo: sending capacity"], ["Creator features", "MailerLite emphasizes sites and paid newsletters"], ["Transactional work", "Brevo provides a broader business messaging model"]],
-      "pricing": "Forecast contacts and sends for 12 months, then add users, domains, transactional messages, dedicated IP, SMS, and migration work.",
-      "tradeoff": "MailerLite is simpler but may need another service for complex transactional work; Brevo is broader but requires send-volume planning.",
-      "strengths": ["Different pricing models fit different list behavior", "Both can be tested with a real small campaign"],
-      "caveats": ["Free allowances and plan names can change", "Sender authentication, consent, and export must be tested"],
-      "fitIntro": "Use the ratio of stored contacts to monthly sends as the first filter.",
-      "bestFor": ["MailerLite: creators and newsletter-first small businesses", "Brevo: larger lists and transactional messaging", "Teams able to forecast list growth and sends"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "seo-marketing",
+        "slug": "mailerlite-review",
+        "label": {
+          "en": "MailerLite review"
+        },
+        "description": {
+          "en": "Review newsletters and automation"
+        }
+      },
+      {
+        "category": "seo-marketing",
+        "slug": "brevo-review",
+        "label": {
+          "en": "Brevo review"
+        },
+        "description": {
+          "en": "Review marketing and transactional messaging"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "MailerLite and Brevo",
+        "title": "MailerLite vs Brevo: Subscribers, Send Volume, Automation, and Pricing",
+        "description": "Compare MailerLite and Brevo across free tiers, pricing basis, sends, subscribers, automation, landing pages, and transactional email.",
+        "lead": "MailerLite prices around audience size and creator features; Brevo places more emphasis on message volume and multichannel communication.",
+        "verdict": "Choose MailerLite for a streamlined newsletter, landing-page, website, and creator workflow. Choose Brevo when a larger contact database, controlled send volume, transactional email, CRM, or SMS matters.",
+        "context": "MailerLite changed its free subscriber and send limits in June 2026, so use the live pricing page rather than older articles.",
+        "overview": "Both cover campaigns, templates, forms, segments, automation, and landing pages, while Brevo extends deeper into transactional and sales communication.",
+        "capabilities": [
+          "MailerLite: newsletters, sites, landing pages, automation, and paid newsletter tools",
+          "Brevo: campaigns, automation, transactional email, CRM, SMS, and send-volume plans",
+          "Both: authentication, segmentation, reporting, integrations, and plan limits"
+        ],
+        "comparisonRows": [
+          [
+            "Primary cost driver",
+            "MailerLite: subscribers; Brevo: sending capacity"
+          ],
+          [
+            "Creator features",
+            "MailerLite emphasizes sites and paid newsletters"
+          ],
+          [
+            "Transactional work",
+            "Brevo provides a broader business messaging model"
+          ]
+        ],
+        "pricing": "Forecast contacts and sends for 12 months, then add users, domains, transactional messages, dedicated IP, SMS, and migration work.",
+        "tradeoff": "MailerLite is simpler but may need another service for complex transactional work; Brevo is broader but requires send-volume planning.",
+        "strengths": [
+          "Different pricing models fit different list behavior",
+          "Both can be tested with a real small campaign"
+        ],
+        "caveats": [
+          "Free allowances and plan names can change",
+          "Sender authentication, consent, and export must be tested"
+        ],
+        "fitIntro": "Use the ratio of stored contacts to monthly sends as the first filter.",
+        "bestFor": [
+          "MailerLite: creators and newsletter-first small businesses",
+          "Brevo: larger lists and transactional messaging",
+          "Teams able to forecast list growth and sends"
+        ]
+      }
+    }
   },
   {
     "slug": "semrush-vs-ahrefs",
@@ -564,33 +1616,107 @@
     "type": "comparison",
     "topic": "seo-tools",
     "sources": [
-      {"label": "Semrush — Pricing", "url": "https://www.semrush.com/pricing/"},
-      {"label": "Semrush — SEO Toolkit limits", "url": "https://www.semrush.com/kb/1547-seo-toolkit-pricing-limits"},
-      {"label": "Ahrefs — Pricing", "url": "https://ahrefs.com/pricing"},
-      {"label": "Ahrefs — Plan differences", "url": "https://help.ahrefs.com/en/articles/6117209-what-s-the-difference-between-all-ahrefs-subscription-plans"}
+      {
+        "label": "Semrush — Pricing",
+        "url": "https://www.semrush.com/pricing/"
+      },
+      {
+        "label": "Semrush — SEO Toolkit limits",
+        "url": "https://www.semrush.com/kb/1547-seo-toolkit-pricing-limits"
+      },
+      {
+        "label": "Ahrefs — Pricing",
+        "url": "https://ahrefs.com/pricing"
+      },
+      {
+        "label": "Ahrefs — Plan differences",
+        "url": "https://help.ahrefs.com/en/articles/6117209-what-s-the-difference-between-all-ahrefs-subscription-plans"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Semrush official plans"}, "officialUrl": "https://www.semrush.com/pricing/", "affiliateKey": "semrush"},
-      {"label": {"en": "Check Ahrefs official plans"}, "officialUrl": "https://ahrefs.com/pricing", "affiliateKey": "ahrefs"}
+      {
+        "label": {
+          "en": "Check Semrush official plans"
+        },
+        "officialUrl": "https://www.semrush.com/pricing/",
+        "affiliateKey": "semrush"
+      },
+      {
+        "label": {
+          "en": "Check Ahrefs official plans"
+        },
+        "officialUrl": "https://ahrefs.com/pricing",
+        "affiliateKey": "ahrefs"
+      }
     ],
-    "relatedRoutes": [{"category": "seo-marketing", "slug": "semrush-review", "label": {"en": "Semrush review"}, "description": {"en": "Review marketing breadth and limits"}}, {"category": "seo-marketing", "slug": "ahrefs-review", "label": {"en": "Ahrefs review"}, "description": {"en": "Review SEO research and backlink workflows"}}],
-    "locales": {"en": {
-      "subject": "Semrush and Ahrefs",
-      "title": "Semrush vs Ahrefs: SEO, Competitor Research, and AI Search Compared",
-      "description": "Compare Semrush and Ahrefs across pricing, projects, ranks, audits, competitor and backlink research, AI search, and usage limits.",
-      "lead": "Semrush spans a wider marketing operation; Ahrefs is often selected for focused SEO and backlink research depth.",
-      "verdict": "Choose Semrush when SEO must connect to content, competitors, reporting, local, advertising, and broader marketing workflows. Choose Ahrefs when keyword, competitor, content, and backlink investigation are the core specialist tasks.",
-      "context": "Plan names and AI-search features change quickly. Test the exact regional account and record every quota used by the pilot.",
-      "overview": "Both provide keyword research, site audits, rank tracking, competitor data, backlinks, and content discovery, but package projects, reports, users, and add-ons differently.",
-      "capabilities": ["Semrush: broad toolkits and marketing project operations", "Ahrefs: deep SEO exploration across keywords, pages, competitors, and links", "Both: plan-specific projects, reports, history, tracking, users, and AI-search visibility"],
-      "comparisonRows": [["Scope", "Semrush is broader across marketing"], ["SEO research", "Ahrefs emphasizes focused exploration and link data"], ["Cost model", "Both require careful review of limits, users, and add-ons"]],
-      "pricing": "List sites, tracked keywords, reports, history, users, audits, link rows, AI-search needs, API, and add-ons before selecting the tier.",
-      "tradeoff": "Semrush breadth can be complex and expensive; Ahrefs may require other tools for wider marketing operations.",
-      "strengths": ["Both provide mature SEO research workflows", "A real competitor study reveals fit better than a feature checklist"],
-      "caveats": ["Usage allowances and add-on costs", "Different databases can return different estimates"],
-      "fitIntro": "Run the same site audit, 50-keyword study, three competitors, and backlink analysis in both.",
-      "bestFor": ["Semrush: marketing and SEO teams", "Ahrefs: SEO specialists and content research", "Organizations able to define monthly data needs"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "seo-marketing",
+        "slug": "semrush-review",
+        "label": {
+          "en": "Semrush review"
+        },
+        "description": {
+          "en": "Review marketing breadth and limits"
+        }
+      },
+      {
+        "category": "seo-marketing",
+        "slug": "ahrefs-review",
+        "label": {
+          "en": "Ahrefs review"
+        },
+        "description": {
+          "en": "Review SEO research and backlink workflows"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Semrush and Ahrefs",
+        "title": "Semrush vs Ahrefs: SEO, Competitor Research, and AI Search Compared",
+        "description": "Compare Semrush and Ahrefs across pricing, projects, ranks, audits, competitor and backlink research, AI search, and usage limits.",
+        "lead": "Semrush spans a wider marketing operation; Ahrefs is often selected for focused SEO and backlink research depth.",
+        "verdict": "Choose Semrush when SEO must connect to content, competitors, reporting, local, advertising, and broader marketing workflows. Choose Ahrefs when keyword, competitor, content, and backlink investigation are the core specialist tasks.",
+        "context": "Plan names and AI-search features change quickly. Test the exact regional account and record every quota used by the pilot.",
+        "overview": "Both provide keyword research, site audits, rank tracking, competitor data, backlinks, and content discovery, but package projects, reports, users, and add-ons differently.",
+        "capabilities": [
+          "Semrush: broad toolkits and marketing project operations",
+          "Ahrefs: deep SEO exploration across keywords, pages, competitors, and links",
+          "Both: plan-specific projects, reports, history, tracking, users, and AI-search visibility"
+        ],
+        "comparisonRows": [
+          [
+            "Scope",
+            "Semrush is broader across marketing"
+          ],
+          [
+            "SEO research",
+            "Ahrefs emphasizes focused exploration and link data"
+          ],
+          [
+            "Cost model",
+            "Both require careful review of limits, users, and add-ons"
+          ]
+        ],
+        "pricing": "List sites, tracked keywords, reports, history, users, audits, link rows, AI-search needs, API, and add-ons before selecting the tier.",
+        "tradeoff": "Semrush breadth can be complex and expensive; Ahrefs may require other tools for wider marketing operations.",
+        "strengths": [
+          "Both provide mature SEO research workflows",
+          "A real competitor study reveals fit better than a feature checklist"
+        ],
+        "caveats": [
+          "Usage allowances and add-on costs",
+          "Different databases can return different estimates"
+        ],
+        "fitIntro": "Run the same site audit, 50-keyword study, three competitors, and backlink analysis in both.",
+        "bestFor": [
+          "Semrush: marketing and SEO teams",
+          "Ahrefs: SEO specialists and content research",
+          "Organizations able to define monthly data needs"
+        ]
+      }
+    }
   },
   {
     "slug": "shopify-vs-wix",
@@ -598,32 +1724,103 @@
     "type": "comparison",
     "topic": "ecommerce-platform",
     "sources": [
-      {"label": "Shopify — Pricing", "url": "https://www.shopify.com/pricing"},
-      {"label": "Wix — Plans", "url": "https://www.wix.com/plans"},
-      {"label": "Wix — Free website", "url": "https://support.wix.com/en/article/building-a-website-for-free"}
+      {
+        "label": "Shopify — Pricing",
+        "url": "https://www.shopify.com/pricing"
+      },
+      {
+        "label": "Wix — Plans",
+        "url": "https://www.wix.com/plans"
+      },
+      {
+        "label": "Wix — Free website",
+        "url": "https://support.wix.com/en/article/building-a-website-for-free"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Shopify official plans"}, "officialUrl": "https://www.shopify.com/pricing", "affiliateKey": "shopify"},
-      {"label": {"en": "Check Wix official plans"}, "officialUrl": "https://www.wix.com/plans", "affiliateKey": "wix"}
+      {
+        "label": {
+          "en": "Check Shopify official plans"
+        },
+        "officialUrl": "https://www.shopify.com/pricing",
+        "affiliateKey": "shopify"
+      },
+      {
+        "label": {
+          "en": "Check Wix official plans"
+        },
+        "officialUrl": "https://www.wix.com/plans",
+        "affiliateKey": "wix"
+      }
     ],
-    "relatedRoutes": [{"category": "website-builders", "slug": "shopify-review", "label": {"en": "Shopify review"}, "description": {"en": "Review commerce operations and costs"}}, {"category": "website-builders", "slug": "wix-review", "label": {"en": "Wix review"}, "description": {"en": "Review site building and business tools"}}],
-    "locales": {"en": {
-      "subject": "Shopify and Wix",
-      "title": "Shopify vs Wix: Ecommerce Operations or an All-Purpose Business Site?",
-      "description": "Compare Shopify and Wix across pricing, payments, catalog, inventory, design, bookings, apps, and operating costs.",
-      "lead": "Shopify starts from store operations; Wix starts from a flexible business website that can include commerce.",
-      "verdict": "Choose Shopify when products, checkout, orders, inventory, channels, and commerce growth are central. Choose Wix when the site must combine content, services, bookings, forms, and a smaller store with free-form visual editing.",
-      "context": "Annualize payment processing, transaction conditions, apps, themes, domains, email, POS, and staff—not only the platform fee.",
-      "overview": "Both build hosted websites and stores, but Shopify's admin is organized around commerce operations while Wix offers a broader visual site and business-feature model.",
-      "capabilities": ["Shopify: catalog, checkout, orders, inventory, channels, POS, and app ecosystem", "Wix: visual pages, content, bookings, forms, memberships, marketing, and commerce", "Both: themes, domains, payments, analytics, apps, and plan-specific collaboration"],
-      "comparisonRows": [["Primary purpose", "Shopify: commerce; Wix: multipurpose business site"], ["Design", "Wix is more free-form; Shopify centers store themes and sections"], ["Operations", "Shopify offers deeper catalog and order workflows"]],
-      "pricing": "Model the intended plan with revenue, payment method, transaction terms, required apps, theme, staff, POS, bookings, email, and migration.",
-      "tradeoff": "Shopify may be excessive for light selling; Wix may need more operational work as catalog and channel complexity grow.",
-      "strengths": ["Clear distinction between commerce-first and site-first", "Both support a realistic trial store"],
-      "caveats": ["Regional payment and plan differences", "App dependency and platform migration"],
-      "fitIntro": "Decide whether selling operations or the wider site is the primary product.",
-      "bestFor": ["Shopify: stores with growth and operational depth", "Wix: service businesses and mixed-purpose sites", "Teams able to test checkout and refund workflows"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "shopify-review",
+        "label": {
+          "en": "Shopify review"
+        },
+        "description": {
+          "en": "Review commerce operations and costs"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "wix-review",
+        "label": {
+          "en": "Wix review"
+        },
+        "description": {
+          "en": "Review site building and business tools"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Shopify and Wix",
+        "title": "Shopify vs Wix: Ecommerce Operations or an All-Purpose Business Site?",
+        "description": "Compare Shopify and Wix across pricing, payments, catalog, inventory, design, bookings, apps, and operating costs.",
+        "lead": "Shopify starts from store operations; Wix starts from a flexible business website that can include commerce.",
+        "verdict": "Choose Shopify when products, checkout, orders, inventory, channels, and commerce growth are central. Choose Wix when the site must combine content, services, bookings, forms, and a smaller store with free-form visual editing.",
+        "context": "Annualize payment processing, transaction conditions, apps, themes, domains, email, POS, and staff—not only the platform fee.",
+        "overview": "Both build hosted websites and stores, but Shopify's admin is organized around commerce operations while Wix offers a broader visual site and business-feature model.",
+        "capabilities": [
+          "Shopify: catalog, checkout, orders, inventory, channels, POS, and app ecosystem",
+          "Wix: visual pages, content, bookings, forms, memberships, marketing, and commerce",
+          "Both: themes, domains, payments, analytics, apps, and plan-specific collaboration"
+        ],
+        "comparisonRows": [
+          [
+            "Primary purpose",
+            "Shopify: commerce; Wix: multipurpose business site"
+          ],
+          [
+            "Design",
+            "Wix is more free-form; Shopify centers store themes and sections"
+          ],
+          [
+            "Operations",
+            "Shopify offers deeper catalog and order workflows"
+          ]
+        ],
+        "pricing": "Model the intended plan with revenue, payment method, transaction terms, required apps, theme, staff, POS, bookings, email, and migration.",
+        "tradeoff": "Shopify may be excessive for light selling; Wix may need more operational work as catalog and channel complexity grow.",
+        "strengths": [
+          "Clear distinction between commerce-first and site-first",
+          "Both support a realistic trial store"
+        ],
+        "caveats": [
+          "Regional payment and plan differences",
+          "App dependency and platform migration"
+        ],
+        "fitIntro": "Decide whether selling operations or the wider site is the primary product.",
+        "bestFor": [
+          "Shopify: stores with growth and operational depth",
+          "Wix: service businesses and mixed-purpose sites",
+          "Teams able to test checkout and refund workflows"
+        ]
+      }
+    }
   },
   {
     "slug": "wix-vs-squarespace",
@@ -631,32 +1828,106 @@
     "type": "comparison",
     "topic": "website-builder",
     "sources": [
-      {"label": "Wix — Plans", "url": "https://www.wix.com/plans"},
-      {"label": "Squarespace — Pricing", "url": "https://www.squarespace.com/pricing"},
-      {"label": "Squarespace — Plan guide", "url": "https://support.squarespace.com/hc/en-us/articles/206536797-Choosing-the-right-Squarespace-plan"},
-      {"label": "Squarespace — Features", "url": "https://www.squarespace.com/feature-index/"}
+      {
+        "label": "Wix — Plans",
+        "url": "https://www.wix.com/plans"
+      },
+      {
+        "label": "Squarespace — Pricing",
+        "url": "https://www.squarespace.com/pricing"
+      },
+      {
+        "label": "Squarespace — Plan guide",
+        "url": "https://support.squarespace.com/hc/en-us/articles/206536797-Choosing-the-right-Squarespace-plan"
+      },
+      {
+        "label": "Squarespace — Features",
+        "url": "https://www.squarespace.com/feature-index/"
+      }
     ],
     "ctas": [
-      {"label": {"en": "Check Wix official plans"}, "officialUrl": "https://www.wix.com/plans", "affiliateKey": "wix"},
-      {"label": {"en": "Check Squarespace official plans"}, "officialUrl": "https://www.squarespace.com/pricing", "affiliateKey": "squarespace"}
+      {
+        "label": {
+          "en": "Check Wix official plans"
+        },
+        "officialUrl": "https://www.wix.com/plans",
+        "affiliateKey": "wix"
+      },
+      {
+        "label": {
+          "en": "Check Squarespace official plans"
+        },
+        "officialUrl": "https://www.squarespace.com/pricing",
+        "affiliateKey": "squarespace"
+      }
     ],
-    "relatedRoutes": [{"category": "website-builders", "slug": "wix-review", "label": {"en": "Wix review"}, "description": {"en": "Review visual editing and business features"}}, {"category": "website-builders", "slug": "squarespace-review", "label": {"en": "Squarespace review"}, "description": {"en": "Review templates and site operations"}}],
-    "locales": {"en": {
-      "subject": "Wix and Squarespace",
-      "title": "Wix vs Squarespace: Design, Pricing, Commerce, and Site Operations",
-      "description": "Compare Wix and Squarespace across trials, pricing, templates, visual editing, commerce, bookings, blogging, apps, and portability.",
-      "lead": "Wix prioritizes free-form site building and feature breadth; Squarespace prioritizes design consistency and a more guided editing system.",
-      "verdict": "Choose Wix when precise visual placement and a wide set of business apps are priorities. Choose Squarespace when a polished template system and consistent content operations matter more than free-form layout.",
-      "context": "The right editor is the one the actual owner can use for routine updates without breaking layout or needing a designer.",
-      "overview": "Both are hosted builders with domains, templates, blogging, commerce, forms, bookings, analytics, and marketing options, but they constrain design differently.",
-      "capabilities": ["Wix: free-form visual placement, AI setup, and broad business apps", "Squarespace: structured sections, cohesive templates, content, scheduling, and commerce", "Both: plan-specific domains, storage, payments, collaborators, and add-ons"],
-      "comparisonRows": [["Editor", "Wix is more free-form; Squarespace is more structured"], ["Design governance", "Squarespace naturally enforces consistency"], ["Business features", "Wix offers broader app-style flexibility"]],
-      "pricing": "Compare annual and monthly billing, domain renewal, email, scheduling, commerce terms, apps, collaborators, and migration work.",
-      "tradeoff": "Wix freedom can create inconsistent layouts; Squarespace's consistency can feel restrictive for highly custom placement.",
-      "strengths": ["Both can launch a polished site without server management", "The editing-model difference is easy to test"],
-      "caveats": ["Regional plans and commerce terms", "Export coverage and rebuild effort when leaving"],
-      "fitIntro": "Have the future editor recreate and update one representative page in each platform.",
-      "bestFor": ["Wix: feature-rich small-business sites", "Squarespace: portfolios, services, and brand-led sites", "Owners who value managed hosting and simple updates"]
-    }}
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "wix-review",
+        "label": {
+          "en": "Wix review"
+        },
+        "description": {
+          "en": "Review visual editing and business features"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "squarespace-review",
+        "label": {
+          "en": "Squarespace review"
+        },
+        "description": {
+          "en": "Review templates and site operations"
+        }
+      }
+    ],
+    "locales": {
+      "en": {
+        "subject": "Wix and Squarespace",
+        "title": "Wix vs Squarespace: Design, Pricing, Commerce, and Site Operations",
+        "description": "Compare Wix and Squarespace across trials, pricing, templates, visual editing, commerce, bookings, blogging, apps, and portability.",
+        "lead": "Wix prioritizes free-form site building and feature breadth; Squarespace prioritizes design consistency and a more guided editing system.",
+        "verdict": "Choose Wix when precise visual placement and a wide set of business apps are priorities. Choose Squarespace when a polished template system and consistent content operations matter more than free-form layout.",
+        "context": "The right editor is the one the actual owner can use for routine updates without breaking layout or needing a designer.",
+        "overview": "Both are hosted builders with domains, templates, blogging, commerce, forms, bookings, analytics, and marketing options, but they constrain design differently.",
+        "capabilities": [
+          "Wix: free-form visual placement, AI setup, and broad business apps",
+          "Squarespace: structured sections, cohesive templates, content, scheduling, and commerce",
+          "Both: plan-specific domains, storage, payments, collaborators, and add-ons"
+        ],
+        "comparisonRows": [
+          [
+            "Editor",
+            "Wix is more free-form; Squarespace is more structured"
+          ],
+          [
+            "Design governance",
+            "Squarespace naturally enforces consistency"
+          ],
+          [
+            "Business features",
+            "Wix offers broader app-style flexibility"
+          ]
+        ],
+        "pricing": "Compare annual and monthly billing, domain renewal, email, scheduling, commerce terms, apps, collaborators, and migration work.",
+        "tradeoff": "Wix freedom can create inconsistent layouts; Squarespace's consistency can feel restrictive for highly custom placement.",
+        "strengths": [
+          "Both can launch a polished site without server management",
+          "The editing-model difference is easy to test"
+        ],
+        "caveats": [
+          "Regional plans and commerce terms",
+          "Export coverage and rebuild effort when leaving"
+        ],
+        "fitIntro": "Have the future editor recreate and update one representative page in each platform.",
+        "bestFor": [
+          "Wix: feature-rich small-business sites",
+          "Squarespace: portfolios, services, and brand-led sites",
+          "Owners who value managed hosting and simple updates"
+        ]
+      }
+    }
   }
 ]

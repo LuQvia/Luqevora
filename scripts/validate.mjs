@@ -113,7 +113,7 @@ for (const file of htmlFiles) {
   if (html.includes('https://px.a8.net/svt/ejp?')) {
     if (!/class=["'][^"']*hero-affiliate-disclosure/i.test(html)) addError(relative, 'A8 affiliate page is missing first-view advertising disclosure');
     if (!/https:\/\/www\d+\.a8\.net\/0\.gif\?/i.test(html)) addError(relative, 'A8 affiliate page is missing tracking pixel');
-    if (!/data-affiliate-key=["']cpi["']/i.test(html)) addError(relative, 'A8 affiliate material is missing analytics wrapper');
+    if (!/data-affiliate-key=["'][^"']+["']/i.test(html)) addError(relative, 'A8 affiliate material is missing analytics wrapper');
   }
 
   const ids = [...html.matchAll(/\sid=["']([^"']+)["']/gi)].map(match => match[1]);
@@ -374,7 +374,7 @@ try {
 const indexNow = await readJson(path.join(root, 'content/config/indexnow.json'));
 for (const requiredFile of [
   'CNAME', '.nojekyll', 'release-manifest.json', 'assets/css/style.css', 'assets/images/og-default.png',
-  'assets/js/analytics-v4.6.0.js', 'assets/js/main-v4.6.0.js', 'assets/js/article-directory-v4.6.0.js',
+  'assets/js/analytics-v4.7.0.js', 'assets/js/main-v4.7.0.js', 'assets/js/article-directory-v4.7.0.js',
   'feed-ja.xml', 'feed-en.xml', `${indexNow.key}.txt`
 ]) {
   if (!allPublicFiles.has(path.resolve(outputRoot, requiredFile))) addError(`/${requiredFile}`, 'Required GitHub Pages file is missing');

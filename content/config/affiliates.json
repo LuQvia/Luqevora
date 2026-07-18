@@ -15,6 +15,54 @@
       "language": "ja",
       "destination": "https://www.cpi.ad.jp/shared/bs/",
       "rawHtml": "<A HREF=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+7YYZ4Q+OFG+5ZEMQ\" rel=\"nofollow\">CPI</A>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B844Z+7YYZ4Q+OFG+5ZEMQ\" alt=\"\">"
+    },
+    "xserver-wp": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642024",
+      "language": "ja",
+      "destination": "https://wp.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YW8WI\" rel=\"nofollow\">XServer for WordPress</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YW8WI\" alt=\"\">"
+    },
+    "xserver-wp-long": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642024",
+      "language": "ja",
+      "destination": "https://wp.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YWOC2\" rel=\"nofollow\">法人向けWordPress専用ホスティングサービス『XServer for WordPress』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YWOC2\" alt=\"\">"
+    },
+    "xserver-wp-setup": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642024",
+      "language": "ja",
+      "destination": "https://wp.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YX3RM\" rel=\"nofollow\">サイトの初期設定やアップデートも無料で代行！<br />法人向けWordPress専用ホスティングサービス『XServer for WordPress』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YX3RM\" alt=\"\">"
+    },
+    "xserver-wp-domain": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642024",
+      "language": "ja",
+      "destination": "https://wp.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YXBHE\" rel=\"nofollow\">「co.jp」ドメインが契約中永久無料！<br />法人向けWordPress専用ホスティングサービス『XServer for WordPress』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YXBHE\" alt=\"\">"
+    },
+    "xserver-wp-sla": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642024",
+      "language": "ja",
+      "destination": "https://wp.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YXJ76\" rel=\"nofollow\">サーバー稼働率99.99%以上を保証。<br />法人向けWordPress専用ホスティングサービス『XServer for WordPress』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YXJ76\" alt=\"\">"
+    },
+    "xserver-wp-expert": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642024",
+      "language": "ja",
+      "destination": "https://wp.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YXQWY\" rel=\"nofollow\">WordPressの専門家がサポート！<br />法人向けWordPress専用ホスティングサービス『XServer for WordPress』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YXQWY\" alt=\"\">"
     }
   },
   "rules": {

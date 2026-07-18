@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T21:31:32.411Z",
+  "generatedAt": "2026-07-18T22:00:10.132Z",
   "auditDate": "2026-07-18",
   "thresholds": {
     "hardMinimumSources": 1,
@@ -20,10 +20,10 @@
     "promotionCandidatePairLimit": 25
   },
   "summary": {
-    "publishedDataArticles": 484,
-    "indexableDataArticles": 168,
+    "publishedDataArticles": 492,
+    "indexableDataArticles": 176,
     "noindexDataArticles": 316,
-    "averageIndexableScore": 93.6,
+    "averageIndexableScore": 93.9,
     "minimumIndexableScore": 70,
     "promotionEligible": 316,
     "promotionEligiblePairs": 158,
@@ -33,14 +33,14 @@
     "warningCount": 91,
     "byLanguage": {
       "ja": {
-        "published": 242,
-        "indexable": 84,
-        "averageScore": 94.8
+        "published": 246,
+        "indexable": 88,
+        "averageScore": 95.1
       },
       "en": {
-        "published": 242,
-        "indexable": 84,
-        "averageScore": 92.4
+        "published": 246,
+        "indexable": 88,
+        "averageScore": 92.7
       }
     }
   },
@@ -74,6 +74,10 @@
       "articleCount": 24
     },
     {
+      "host": "kinsta.com",
+      "articleCount": 24
+    },
+    {
       "host": "shopify.com",
       "articleCount": 24
     },
@@ -90,10 +94,6 @@
       "articleCount": 22
     },
     {
-      "host": "kinsta.com",
-      "articleCount": 22
-    },
-    {
       "host": "notion.com",
       "articleCount": 22
     },
@@ -102,15 +102,15 @@
       "articleCount": 22
     },
     {
+      "host": "wpengine.com",
+      "articleCount": 22
+    },
+    {
       "host": "trello.com",
       "articleCount": 20
     },
     {
       "host": "woocommerce.com",
-      "articleCount": 20
-    },
-    {
-      "host": "wpengine.com",
       "articleCount": 20
     },
     {
@@ -5471,16 +5471,41 @@
       "indexable": true,
       "score": 100,
       "verifiedAt": "2026-07-19",
-      "units": 613,
-      "sourceCount": 10,
-      "sourceHostCount": 3,
-      "sectionCount": 6,
+      "units": 704,
+      "sourceCount": 11,
+      "sourceHostCount": 4,
+      "sectionCount": 7,
       "faqCount": 3,
       "staleDays": -1,
       "sourceHosts": [
         "cpi.ad.jp",
         "business.xserver.ne.jp",
-        "conoha.jp"
+        "conoha.jp",
+        "wp.xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "business-wordpress-hosting-comparison-en",
+      "translationKey": "business-wordpress-hosting-comparison",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "business-wordpress-hosting-comparison",
+      "route": "/en/hosting-security/business-wordpress-hosting-comparison/",
+      "sourceFile": "content/articles/en/business-wordpress-hosting-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 666,
+      "sourceCount": 16,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp",
+        "kinsta.com",
+        "wpengine.com"
       ]
     },
     {
@@ -6651,6 +6676,74 @@
       "staleDays": -1,
       "sourceHosts": [
         "wpx.jp"
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress-review-en",
+      "translationKey": "xserver-for-wordpress-review",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "xserver-for-wordpress-review",
+      "route": "/en/hosting-security/xserver-for-wordpress-review/",
+      "sourceFile": "content/articles/en/xserver-for-wordpress-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 562,
+      "sourceCount": 11,
+      "sourceHostCount": 1,
+      "sectionCount": 5,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress-vs-cpi-en",
+      "translationKey": "xserver-for-wordpress-vs-cpi",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "xserver-for-wordpress-vs-cpi",
+      "route": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "sourceFile": "content/articles/en/xserver-for-wordpress-vs-cpi.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 633,
+      "sourceCount": 16,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp",
+        "cpi.ad.jp"
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress-vs-xserver-business-en",
+      "translationKey": "xserver-for-wordpress-vs-xserver-business",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "xserver-for-wordpress-vs-xserver-business",
+      "route": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "sourceFile": "content/articles/en/xserver-for-wordpress-vs-xserver-business.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 560,
+      "sourceCount": 15,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp",
+        "business.xserver.ne.jp"
       ]
     },
     {
@@ -11054,16 +11147,41 @@
       "indexable": true,
       "score": 100,
       "verifiedAt": "2026-07-19",
-      "units": 1961,
-      "sourceCount": 10,
-      "sourceHostCount": 3,
-      "sectionCount": 6,
+      "units": 2331,
+      "sourceCount": 11,
+      "sourceHostCount": 4,
+      "sectionCount": 7,
       "faqCount": 3,
       "staleDays": -1,
       "sourceHosts": [
         "cpi.ad.jp",
         "business.xserver.ne.jp",
-        "conoha.jp"
+        "conoha.jp",
+        "wp.xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "business-wordpress-hosting-comparison-ja",
+      "translationKey": "business-wordpress-hosting-comparison",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "business-wordpress-hosting-comparison",
+      "route": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "sourceFile": "content/articles/ja/business-wordpress-hosting-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1758,
+      "sourceCount": 16,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp",
+        "kinsta.com",
+        "wpengine.com"
       ]
     },
     {
@@ -11605,13 +11723,13 @@
       "generated": false,
       "indexable": true,
       "score": 100,
-      "verifiedAt": "2026-07-18",
+      "verifiedAt": "2026-07-19",
       "units": 2159,
       "sourceCount": 4,
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": -1,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com"
@@ -12234,6 +12352,74 @@
       "staleDays": -1,
       "sourceHosts": [
         "wpx.jp"
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress-review-ja",
+      "translationKey": "xserver-for-wordpress-review",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "xserver-for-wordpress-review",
+      "route": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "sourceFile": "content/articles/ja/xserver-for-wordpress-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2647,
+      "sourceCount": 11,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress-vs-cpi-ja",
+      "translationKey": "xserver-for-wordpress-vs-cpi",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "xserver-for-wordpress-vs-cpi",
+      "route": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "sourceFile": "content/articles/ja/xserver-for-wordpress-vs-cpi.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1651,
+      "sourceCount": 16,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp",
+        "cpi.ad.jp"
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress-vs-xserver-business-ja",
+      "translationKey": "xserver-for-wordpress-vs-xserver-business",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "xserver-for-wordpress-vs-xserver-business",
+      "route": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "sourceFile": "content/articles/ja/xserver-for-wordpress-vs-xserver-business.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1489,
+      "sourceCount": 15,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "wp.xserver.ne.jp",
+        "business.xserver.ne.jp"
       ]
     },
     {

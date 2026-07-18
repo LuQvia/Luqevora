@@ -55,5 +55,17 @@
       "question": "AWSを利用できますか？",
       "answer": "対応クラウド基盤は公式料金・製品ページで確認してください。"
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "法人向けWordPress専用ホスティングの料金・機能・制約を確認"
+    },
+    {
+      "label": "法人向けWordPressホスティング比較",
+      "url": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "XServer for WordPress、Kinsta、WP Engineを比較"
+    }
   ]
 }

@@ -184,3 +184,9 @@ html.no-js .menu-button{display:none}
 .article-cta-material>a:hover{background:#0B46BB;color:#fff!important}
 .article-cta-material>img{position:absolute;width:1px;height:1px;overflow:hidden}
 @media(max-width:760px){.article-cta-material,.article-cta-material>a{width:100%}}
+
+/* v4.7 section-specific affiliate materials */
+.section-affiliate-material{margin:24px 0;padding:18px;border:1px solid var(--border);border-radius:16px;background:var(--surface-soft);text-align:center}
+.section-affiliate-material p{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.section-affiliate-material .article-cta-material{width:100%}
+.section-affiliate-material .article-cta-material>a{max-width:760px;width:100%;line-height:1.55}

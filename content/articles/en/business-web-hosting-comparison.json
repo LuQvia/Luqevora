@@ -8,10 +8,10 @@
   "category": "hosting-security",
   "topic": "web-hosting",
   "badge": "Business hosting comparison",
-  "title": "Business Web Hosting in Japan: CPI, XServer and ConoHa",
-  "metaTitle": "Japan Business Hosting: CPI, XServer and ConoHa",
-  "description": "Compare CPI, XServer Business and ConoHa WING Business using official pricing, capacity, backup, email, SLA, support, and contract information.",
-  "lead": "Business hosting should be selected by release workflow, email authentication, backup scope, recovery procedures, administrative controls, and migration support rather than by the lowest monthly headline alone.",
+  "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
+  "metaTitle": "Japan Business Hosting: CPI, XServer and XServer for WordPress",
+  "description": "Compare CPI, XServer Business, XServer for WordPress, and ConoHa WING Business by price, email, WordPress operations, backup, SLA, and support.",
+  "lead": "The shortlist changes depending on whether website and email hosting should remain integrated or WordPress operations should move to a specialized platform.",
   "publishedAt": "2026-07-19",
   "updatedAt": "2026-07-19",
   "verifiedAt": "2026-07-19",
@@ -23,6 +23,11 @@
       "label": "Check CPI Business Standard",
       "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
       "affiliateKey": "cpi-official"
+    },
+    {
+      "label": "Check XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-official"
     },
     {
       "label": "Check XServer Business",
@@ -75,6 +80,10 @@
     {
       "label": "ConoHa WING Business plan official page",
       "url": "https://www.conoha.jp/wing/business/"
+    },
+    {
+      "label": "XServer for WordPress official site",
+      "url": "https://wp.xserver.ne.jp/"
     }
   ],
   "sections": [
@@ -86,6 +95,7 @@
       ],
       "bullets": [
         "CPI for controlled release and multi-domain email operations",
+        "XServer for WordPress for staging, site access, and centralized WordPress operations",
         "XServer Business for capacity, migration and administration",
         "ConoHa WING Business for allocated resources and lower entry cost"
       ]
@@ -100,6 +110,7 @@
           "Item",
           "CPI",
           "XServer Business",
+          "XServer for WordPress",
           "ConoHa WING Business"
         ],
         "rows": [
@@ -107,30 +118,35 @@
             "Representative starting price",
             "JPY 4,840 monthly equivalent for twelve months",
             "Shared Standard from JPY 3,762 monthly on a long term, before temporary campaign calculations",
+            "Promotional Basic from JPY 2,059 monthly on thirty-six months",
             "Biz Light up to JPY 1,815 monthly on standard hourly billing, with long-term discounts"
           ],
           [
             "Setup fee",
             "No charge for twelve months",
             "JPY 16,500 for shared hosting",
+            "No setup fee on Basic and Standard",
             "No charge"
           ],
           [
             "Storage",
             "300 GB primary and 100 GB per multi-domain environment",
             "700 GB NVMe on shared Standard",
+            "500 GB to 4 TB NVMe",
             "700 GB Biz Light and 1,000 GB Biz Standard"
           ],
           [
             "Backup",
             "Combined 10 GB web and database, up to 30 generations",
             "Web, mail and MySQL for 14 days with remote storage",
+            "Managed WordPress backup and restore features",
             "Confirm current backup scope and restore conditions in the detailed plan"
           ],
           [
             "Operational focus",
             "SmartRelease, email authentication, separated domains",
             "Migration, setup assistance and administrator users",
+            "WP Panel, staging, and subaccounts",
             "Allocated vCPU and memory by plan"
           ]
         ]
@@ -148,6 +164,13 @@
       "body": [
         "XServer Business is relevant when the organization wants large shared-server capacity, fourteen days of web, mail and database backups, configuration assistance, website migration, and administrator-user controls.",
         "Separate temporary cashback pricing from regular contract costs and include the setup fee in the first-year total."
+      ]
+    },
+    {
+      "heading": "When XServer for WordPress is the better shortlist",
+      "body": [
+        "It fits companies and agencies that host business email elsewhere and want to standardize multiple WordPress sites through WP Panel, staging, and site-specific subaccounts.",
+        "It does not provide mailboxes, so include a separate email service in total cost."
       ]
     },
     {
@@ -201,6 +224,21 @@
       "label": "Small-business web hosting comparison",
       "url": "/en/hosting-security/web-hosting-small-business/",
       "description": "Review additional general hosting options"
+    },
+    {
+      "label": "XServer for WordPress review",
+      "url": "/en/hosting-security/xserver-for-wordpress-review/",
+      "description": "Review Japan-focused managed WordPress hosting"
+    },
+    {
+      "label": "XServer for WordPress versus CPI",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "Compare WordPress operations and integrated email"
+    },
+    {
+      "label": "Business WordPress hosting comparison",
+      "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "Compare XServer for WordPress, Kinsta, and WP Engine"
     }
   ]
 }

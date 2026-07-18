@@ -1,0 +1,227 @@
+{
+  "id": "business-wordpress-hosting-comparison-en",
+  "translationKey": "business-wordpress-hosting-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "business-wordpress-hosting-comparison",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Business WordPress comparison",
+  "title": "Business WordPress Hosting: XServer, Kinsta and WP Engine",
+  "metaTitle": "Business WordPress Hosting: XServer vs Kinsta vs WP Engine",
+  "description": "Compare XServer for WordPress, Kinsta, and WP Engine by pricing model, sites, staging, backups, access, support, currency, and operating fit.",
+  "lead": "The shortlist depends on whether a company prioritizes Japan-based billing and support, usage-based global managed WordPress, or a larger enterprise development platform.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-official"
+    },
+    {
+      "label": "Check Kinsta",
+      "officialUrl": "https://kinsta.com/pricing/",
+      "affiliateKey": "kinsta"
+    },
+    {
+      "label": "Check WP Engine",
+      "officialUrl": "https://wpengine.com/plans/",
+      "affiliateKey": "wp-engine"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress official site",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress pricing",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress features",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "Fourteen-day trial terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Domain benefit terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Service-level agreement",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "Staging synchronization",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "Subaccounts",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "Setup assistance",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress expert support",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "Mailbox availability FAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    },
+    {
+      "label": "Kinsta WordPress hosting plans",
+      "url": "https://kinsta.com/pricing/"
+    },
+    {
+      "label": "Kinsta WordPress backups",
+      "url": "https://kinsta.com/docs/wordpress-hosting/wordpress-backups/"
+    },
+    {
+      "label": "Kinsta staging environments",
+      "url": "https://kinsta.com/docs/wordpress-hosting/staging-environment/"
+    },
+    {
+      "label": "WP Engine managed hosting platform",
+      "url": "https://wpengine.com/managed-hosting-platform/"
+    },
+    {
+      "label": "WP Engine plans",
+      "url": "https://wpengine.com/plans/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: Japan operations, usage-based hosting, or enterprise workflow",
+      "body": [
+        "XServer for WordPress is the most direct shortlist for Japan-based contracts, Japanese support, WP Panel, staging, and site-level access. Kinsta is relevant for teams comparing sites, bandwidth or visits, storage, CDN, migration, and backups. WP Engine is relevant when a broader managed WordPress and enterprise development platform is required.",
+        "Compare the annual total of a plan that meets site, traffic, storage, environment, backup, and support requirements."
+      ]
+    },
+    {
+      "heading": "Positioning comparison",
+      "body": [
+        "XServer for WordPress uses fixed contract terms and Japan-based billing, while Kinsta and WP Engine package managed WordPress around their own plan limits, platform tooling, and support models. A plan name alone is not a reliable comparison because the included number of sites, traffic allowance, storage, CDN, backup retention, staging environments, and support scope are defined differently.",
+        "For a fair comparison, create one workload profile that includes production sites, staging copies, expected monthly traffic, media storage, deployment frequency, required recovery point, and the people who need access. Price the same workload against every provider and document which requirement forces the next plan tier."
+      ],
+      "table": {
+        "headers": [
+          "Factor",
+          "XServer for WordPress",
+          "Kinsta",
+          "WP Engine"
+        ],
+        "rows": [
+          [
+            "Primary fit",
+            "Japan-based companies and agencies",
+            "Global managed WordPress and agencies",
+            "Growth and enterprise WordPress"
+          ],
+          [
+            "Billing basis",
+            "Plan and prepaid term",
+            "Sites plus bandwidth or visits and resources",
+            "Plan, sites, visits, and enterprise scope"
+          ],
+          [
+            "Staging",
+            "One environment per site",
+            "Standard staging per install",
+            "Development and staging by plan"
+          ],
+          [
+            "Backups",
+            "Managed backup and restore features",
+            "Daily, manual, system, and optional external/hourly backups",
+            "Daily backups and managed platform tooling"
+          ],
+          [
+            "Mailboxes",
+            "Not available",
+            "Normally separate",
+            "Normally separate"
+          ],
+          [
+            "Currency",
+            "JPY",
+            "USD excluding tax",
+            "USD or custom quote"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "When XServer for WordPress fits",
+      "body": [
+        "It fits Japan-based teams that need Japanese contracting, WP Panel, site-specific subaccounts, and staging. Trial migration, restoration, and role separation before a long-term commitment.",
+        "The platform is particularly relevant when one operations team manages several WordPress sites and wants to separate client or department access. It does not provide ordinary hosted mailboxes, so include a separate business email service in the architecture and cost model. Confirm trial restrictions before treating the trial as a full production rehearsal."
+      ]
+    },
+    {
+      "heading": "When Kinsta fits",
+      "body": [
+        "Kinsta fits teams that can model installs, bandwidth or visits, storage, CDN, backup retention, and overages. It provides migration, daily backups, staging, and access controls.",
+        "The operational advantage is strongest when teams value a managed dashboard, deployment workflow, monitoring, and a provider designed around WordPress application hosting. Review the current plan metric carefully because a traffic-heavy site, a media-heavy site, and a large portfolio of low-traffic sites can reach plan limits in different ways."
+      ]
+    },
+    {
+      "heading": "When WP Engine fits",
+      "body": [
+        "WP Engine fits organizations that value a managed WordPress platform, backups, security, support, development workflow, and scalable business or enterprise plans. Obtain a current quote for larger requirements.",
+        "It should be evaluated with the same production scenario used for the other providers. Confirm how many environments are included, how backups are retained and exported, which support channels apply to the selected plan, and whether agency or enterprise workflow features require a higher tier or separate agreement."
+      ]
+    },
+    {
+      "heading": "Evaluation checklist",
+      "body": [
+        "Reproduce the same test site and record migration time, updates, staging, production release, restore, access control, support, and export."
+      ],
+      "bullets": [
+        "Annual total including renewal, overages, and extra environments",
+        "Sites, traffic, bandwidth, and storage headroom",
+        "Backup retention and downloadable copies",
+        "Internal, agency, and client permissions",
+        "Support language, billing currency, and contracting entity"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which is easiest for a Japan-based company to evaluate first?",
+      "answer": "XServer for WordPress is easier to trial when Japanese billing, support, and domestic contracting are important. Global sites and established developer workflows may justify Kinsta or WP Engine."
+    },
+    {
+      "question": "Do these services provide business mailboxes?",
+      "answer": "Treat business email as a separate service when comparing all three."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPress review",
+      "url": "/en/hosting-security/xserver-for-wordpress-review/",
+      "description": "Review the Japan-focused platform"
+    },
+    {
+      "label": "Kinsta versus WP Engine",
+      "url": "/en/hosting-security/kinsta-vs-wp-engine/",
+      "description": "Compare the two global managed WordPress platforms"
+    },
+    {
+      "label": "XServer for WordPress versus XServer Business",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "description": "Compare specialized and general Japan hosting"
+    }
+  ]
+}

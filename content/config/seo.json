@@ -5,7 +5,9 @@
     "includeSourceFiles": [
       "content/article-batches/bilingual-affiliate-intents.json",
       "content/articles/ja/business-web-hosting-comparison.json",
-      "content/articles/en/business-web-hosting-comparison.json"
+      "content/articles/en/business-web-hosting-comparison.json",
+      "content/articles/ja/business-wordpress-hosting-comparison.json",
+      "content/articles/en/business-wordpress-hosting-comparison.json"
     ],
     "priorityProducts": [
       "activecampaign",
@@ -21,7 +23,8 @@
       "nordvpn",
       "surfshark",
       "cpi",
-      "xserver-business"
+      "xserver-business",
+      "xserver-for-wordpress"
     ],
     "includePriorityReviews": true,
     "priorityComparisonMinimumMatches": 2,

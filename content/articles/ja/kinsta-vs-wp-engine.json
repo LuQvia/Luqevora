@@ -13,20 +13,40 @@
   "description": "KinstaとWP Engineの開始価格、サイト数、容量、バックアップ、移行、ステージング、サポートを公式情報で比較します。",
   "lead": "KinstaとWP EngineはいずれもWordPress専用の運用支援を重視します。開始価格は近くても、課金指標、移行方法、バックアップ保持、上位プランの設計が異なります。",
   "publishedAt": "2026-07-18",
-  "updatedAt": "2026-07-18",
-  "verifiedAt": "2026-07-18",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
   "author": "Luqevora編集部",
   "featured": false,
   "affiliateDisclosure": false,
   "ctas": [
-    {"label": "Kinstaの公式料金を確認", "officialUrl": "https://kinsta.com/pricing/", "affiliateKey": "kinsta"},
-    {"label": "WP Engineの公式料金を確認", "officialUrl": "https://wpengine.com/plans/", "affiliateKey": "wp-engine"}
+    {
+      "label": "Kinstaの公式料金を確認",
+      "officialUrl": "https://kinsta.com/pricing/",
+      "affiliateKey": "kinsta"
+    },
+    {
+      "label": "WP Engineの公式料金を確認",
+      "officialUrl": "https://wpengine.com/plans/",
+      "affiliateKey": "wp-engine"
+    }
   ],
   "sources": [
-    {"label": "Kinsta — WordPress Hosting Pricing", "url": "https://kinsta.com/pricing/"},
-    {"label": "Kinsta — Managed WordPress Hosting", "url": "https://kinsta.com/wordpress-hosting/"},
-    {"label": "WP Engine — Managed Hosting Plans", "url": "https://wpengine.com/plans/"},
-    {"label": "WP Engine — Managed Hosting Platform", "url": "https://wpengine.com/managed-hosting-platform/"}
+    {
+      "label": "Kinsta — WordPress Hosting Pricing",
+      "url": "https://kinsta.com/pricing/"
+    },
+    {
+      "label": "Kinsta — Managed WordPress Hosting",
+      "url": "https://kinsta.com/wordpress-hosting/"
+    },
+    {
+      "label": "WP Engine — Managed Hosting Plans",
+      "url": "https://wpengine.com/plans/"
+    },
+    {
+      "label": "WP Engine — Managed Hosting Platform",
+      "url": "https://wpengine.com/managed-hosting-platform/"
+    }
   ],
   "sections": [
     {
@@ -39,16 +59,46 @@
     },
     {
       "heading": "KinstaとWP Engineの主な違い",
-      "body": ["最小構成を基準に、公式料金ページで確認できる範囲を比較します。"],
+      "body": [
+        "最小構成を基準に、公式料金ページで確認できる範囲を比較します。"
+      ],
       "table": {
-        "headers": ["比較項目", "Kinsta", "WP Engine"],
+        "headers": [
+          "比較項目",
+          "Kinsta",
+          "WP Engine"
+        ],
         "rows": [
-          ["開始価格", "Single 20GBは月払い35米ドル、年払いは月額換算30米ドル", "Startupは月額30米ドルから"],
-          ["最小構成", "WordPress 1件、ストレージ10GB、サーバー帯域20GB、CDN帯域125GB", "1サイト、ストレージ10GB、月間訪問目安25,000、帯域75GB"],
-          ["バックアップ", "最小構成は14日保持を案内", "日次・オンデマンド、30日以上60日以下の保持を案内"],
-          ["移行", "無制限の無料移行を案内", "無料の自動移行プラグインを案内"],
-          ["開発環境", "ステージング、SSH、APM、APIなど", "1クリックのステージング・開発環境、SSH、GitHub Actionsなど"],
-          ["サポート", "24時間チャット、複数言語を案内", "Startupはチャット、上位Essentialはチャットと電話を案内"]
+          [
+            "開始価格",
+            "Single 20GBは月払い35米ドル、年払いは月額換算30米ドル",
+            "Startupは月額30米ドルから"
+          ],
+          [
+            "最小構成",
+            "WordPress 1件、ストレージ10GB、サーバー帯域20GB、CDN帯域125GB",
+            "1サイト、ストレージ10GB、月間訪問目安25,000、帯域75GB"
+          ],
+          [
+            "バックアップ",
+            "最小構成は14日保持を案内",
+            "日次・オンデマンド、30日以上60日以下の保持を案内"
+          ],
+          [
+            "移行",
+            "無制限の無料移行を案内",
+            "無料の自動移行プラグインを案内"
+          ],
+          [
+            "開発環境",
+            "ステージング、SSH、APM、APIなど",
+            "1クリックのステージング・開発環境、SSH、GitHub Actionsなど"
+          ],
+          [
+            "サポート",
+            "24時間チャット、複数言語を案内",
+            "Startupはチャット、上位Essentialはチャットと電話を案内"
+          ]
         ]
       }
     },
@@ -74,7 +124,9 @@
     },
     {
       "heading": "向いている利用者",
-      "body": ["運用体制と必要な支援範囲を基準に選びます。"],
+      "body": [
+        "運用体制と必要な支援範囲を基準に選びます。"
+      ],
       "bullets": [
         "Kinsta向き：複数サイトの移行を任せたい、帯域や訪問数からプランを選びたい、MyKinstaで一元管理したい",
         "WP Engine向き：制作・開発ワークフローを重視、ステージングや引き渡しを多用、上位の性能・セキュリティ拡張を検討",
@@ -83,7 +135,9 @@
     },
     {
       "heading": "導入前に確認する項目",
-      "body": ["公式の上限表と現在のアクセス解析を並べ、余裕を持つプランを選びます。"],
+      "body": [
+        "公式の上限表と現在のアクセス解析を並べ、余裕を持つプランを選びます。"
+      ],
       "bullets": [
         "WordPressサイト数と月間訪問数",
         "通常月と繁忙期の帯域幅",
@@ -95,12 +149,39 @@
     }
   ],
   "faqs": [
-    {"question": "KinstaとWP Engineはどちらが安いですか？", "answer": "確認時点の開始価格はKinstaの年払い月額換算とWP Engine Startupがともに30米ドルですが、Kinstaの月払いは35米ドルです。サイト数、帯域、訪問数、追加機能が異なるため、同じ運用条件で総額を比較してください。"},
-    {"question": "サイト移行を任せたい場合はどちらですか？", "answer": "Kinstaは公式に無制限の無料移行を案内しています。WP Engineは無料の自動移行プラグインを案内しています。手作業の代行範囲や対象サイト条件は申込前に確認してください。"},
-    {"question": "メールアドレスも同時に作れますか？", "answer": "両サービスともマネージドWordPress運用が中心です。独自ドメインメールはGoogle Workspaceなど別サービスを含めて設計してください。"}
+    {
+      "question": "KinstaとWP Engineはどちらが安いですか？",
+      "answer": "確認時点の開始価格はKinstaの年払い月額換算とWP Engine Startupがともに30米ドルですが、Kinstaの月払いは35米ドルです。サイト数、帯域、訪問数、追加機能が異なるため、同じ運用条件で総額を比較してください。"
+    },
+    {
+      "question": "サイト移行を任せたい場合はどちらですか？",
+      "answer": "Kinstaは公式に無制限の無料移行を案内しています。WP Engineは無料の自動移行プラグインを案内しています。手作業の代行範囲や対象サイト条件は申込前に確認してください。"
+    },
+    {
+      "question": "メールアドレスも同時に作れますか？",
+      "answer": "両サービスともマネージドWordPress運用が中心です。独自ドメインメールはGoogle Workspaceなど別サービスを含めて設計してください。"
+    }
   ],
   "relatedLinks": [
-    {"label": "Kinstaの公式情報レビュー", "url": "/ja/hosting-security/kinsta-review/", "description": "プラン、帯域、移行、バックアップを詳しく確認"},
-    {"label": "WP Engineの公式情報レビュー", "url": "/ja/hosting-security/wp-engine-review/", "description": "Startupから上位構成まで公式条件を確認"}
+    {
+      "label": "Kinstaの公式情報レビュー",
+      "url": "/ja/hosting-security/kinsta-review/",
+      "description": "プラン、帯域、移行、バックアップを詳しく確認"
+    },
+    {
+      "label": "WP Engineの公式情報レビュー",
+      "url": "/ja/hosting-security/wp-engine-review/",
+      "description": "Startupから上位構成まで公式条件を確認"
+    },
+    {
+      "label": "法人向けWordPressホスティング3社比較",
+      "url": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "XServer for WordPressを含めて比較"
+    },
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "国内法人向けWordPress運用を確認"
+    }
   ]
 }

@@ -1,356 +1,1232 @@
 [
   {
-    "slug": "chatgpt-vs-perplexity", "category": "ai-tools", "topic": "generative-ai", "products": ["chatgpt", "perplexity"],
-    "angle": {"ja": "生成AIと出典付き検索はどちらが仕事向き？", "en": "General AI Work or Cited Research?"},
-    "axis": {"ja": "幅広い成果物作成と出典付きWeb調査", "en": "broad deliverable creation versus cited web research"},
-    "verdict": {"ja": "文章・画像・データ・ファイルを横断して成果物を作るならChatGPT、Web上の情報を出典とともに素早く集めるならPerplexityが有力です。", "en": "Choose ChatGPT for broad work across writing, images, data, files, and deliverables; choose Perplexity for fast web research organized around cited sources."},
+    "slug": "chatgpt-vs-perplexity",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": [
+      "chatgpt",
+      "perplexity"
+    ],
+    "angle": {
+      "ja": "生成AIと出典付き検索はどちらが仕事向き？",
+      "en": "General AI Work or Cited Research?"
+    },
+    "axis": {
+      "ja": "幅広い成果物作成と出典付きWeb調査",
+      "en": "broad deliverable creation versus cited web research"
+    },
+    "verdict": {
+      "ja": "文章・画像・データ・ファイルを横断して成果物を作るならChatGPT、Web上の情報を出典とともに素早く集めるならPerplexityが有力です。",
+      "en": "Choose ChatGPT for broad work across writing, images, data, files, and deliverables; choose Perplexity for fast web research organized around cited sources."
+    },
     "alternativeProduct": "gemini"
   },
   {
-    "slug": "chatgpt-vs-microsoft-copilot", "category": "ai-tools", "topic": "generative-ai", "products": ["chatgpt", "microsoft-copilot"],
-    "angle": {"ja": "汎用AIとMicrosoft 365連携で選ぶなら？", "en": "Standalone AI or Microsoft 365 Integration?"},
-    "axis": {"ja": "独立したAI作業空間とMicrosoft 365内の業務", "en": "a standalone AI workspace versus work inside Microsoft 365"},
-    "verdict": {"ja": "複数形式の調査・作成をAI専用環境で進めるならChatGPT、Word・Excel・PowerPoint・Outlook・Teamsの流れを保つならMicrosoft Copilotが向きます。", "en": "Choose ChatGPT for varied research and creation in a dedicated AI workspace; choose Microsoft Copilot to preserve workflows across Word, Excel, PowerPoint, Outlook, and Teams."},
+    "slug": "chatgpt-vs-microsoft-copilot",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": [
+      "chatgpt",
+      "microsoft-copilot"
+    ],
+    "angle": {
+      "ja": "汎用AIとMicrosoft 365連携で選ぶなら？",
+      "en": "Standalone AI or Microsoft 365 Integration?"
+    },
+    "axis": {
+      "ja": "独立したAI作業空間とMicrosoft 365内の業務",
+      "en": "a standalone AI workspace versus work inside Microsoft 365"
+    },
+    "verdict": {
+      "ja": "複数形式の調査・作成をAI専用環境で進めるならChatGPT、Word・Excel・PowerPoint・Outlook・Teamsの流れを保つならMicrosoft Copilotが向きます。",
+      "en": "Choose ChatGPT for varied research and creation in a dedicated AI workspace; choose Microsoft Copilot to preserve workflows across Word, Excel, PowerPoint, Outlook, and Teams."
+    },
     "alternativeProduct": "claude"
   },
   {
-    "slug": "gemini-vs-microsoft-copilot", "category": "ai-tools", "topic": "generative-ai", "products": ["gemini", "microsoft-copilot"],
-    "angle": {"ja": "GoogleとMicrosoftのAI連携を比較", "en": "Google or Microsoft AI Integration?"},
-    "axis": {"ja": "Google環境とMicrosoft 365環境への統合", "en": "integration with Google services versus Microsoft 365"},
-    "verdict": {"ja": "Gmail・Docs・Drive・Google検索を中心に働くならGemini、Word・Excel・PowerPoint・Outlook・Teamsを中心に働くならMicrosoft Copilotが選びやすいです。", "en": "Choose Gemini for work centered on Gmail, Docs, Drive, and Google Search; choose Microsoft Copilot for Word, Excel, PowerPoint, Outlook, and Teams."},
+    "slug": "gemini-vs-microsoft-copilot",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": [
+      "gemini",
+      "microsoft-copilot"
+    ],
+    "angle": {
+      "ja": "GoogleとMicrosoftのAI連携を比較",
+      "en": "Google or Microsoft AI Integration?"
+    },
+    "axis": {
+      "ja": "Google環境とMicrosoft 365環境への統合",
+      "en": "integration with Google services versus Microsoft 365"
+    },
+    "verdict": {
+      "ja": "Gmail・Docs・Drive・Google検索を中心に働くならGemini、Word・Excel・PowerPoint・Outlook・Teamsを中心に働くならMicrosoft Copilotが選びやすいです。",
+      "en": "Choose Gemini for work centered on Gmail, Docs, Drive, and Google Search; choose Microsoft Copilot for Word, Excel, PowerPoint, Outlook, and Teams."
+    },
     "alternativeProduct": "chatgpt"
   },
   {
-    "slug": "claude-vs-perplexity", "category": "ai-tools", "topic": "generative-ai", "products": ["claude", "perplexity"],
-    "angle": {"ja": "長文制作と出典付きリサーチの違い", "en": "Long-Form Creation or Cited Research?"},
-    "axis": {"ja": "長い資料からの制作とWeb情報の探索", "en": "sustained creation from long material versus web discovery"},
-    "verdict": {"ja": "長い資料を読み込み文章・コード・成果物へ仕上げるならClaude、最新のWeb情報を探して出典をたどるならPerplexityが効率的です。", "en": "Choose Claude to turn long source material into writing, code, and structured deliverables; choose Perplexity to discover current web information and follow its citations."},
+    "slug": "claude-vs-perplexity",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": [
+      "claude",
+      "perplexity"
+    ],
+    "angle": {
+      "ja": "長文制作と出典付きリサーチの違い",
+      "en": "Long-Form Creation or Cited Research?"
+    },
+    "axis": {
+      "ja": "長い資料からの制作とWeb情報の探索",
+      "en": "sustained creation from long material versus web discovery"
+    },
+    "verdict": {
+      "ja": "長い資料を読み込み文章・コード・成果物へ仕上げるならClaude、最新のWeb情報を探して出典をたどるならPerplexityが効率的です。",
+      "en": "Choose Claude to turn long source material into writing, code, and structured deliverables; choose Perplexity to discover current web information and follow its citations."
+    },
     "alternativeProduct": "chatgpt"
   },
   {
-    "slug": "perplexity-vs-gemini", "category": "ai-tools", "topic": "generative-ai", "products": ["perplexity", "gemini"],
-    "angle": {"ja": "AI検索とGoogle連携はどちらが便利？", "en": "AI Search or Google-Connected Work?"},
-    "axis": {"ja": "出典中心のWeb調査とGoogleアプリ内の作業", "en": "citation-led web research versus work inside Google apps"},
-    "verdict": {"ja": "調査の入口を出典付き検索に置くならPerplexity、Gmail・Docs・Driveの情報から作成・整理へつなげるならGeminiが向きます。", "en": "Choose Perplexity when cited search is the center of research; choose Gemini when work should flow from Gmail, Docs, and Drive into creation and organization."},
+    "slug": "perplexity-vs-gemini",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": [
+      "perplexity",
+      "gemini"
+    ],
+    "angle": {
+      "ja": "AI検索とGoogle連携はどちらが便利？",
+      "en": "AI Search or Google-Connected Work?"
+    },
+    "axis": {
+      "ja": "出典中心のWeb調査とGoogleアプリ内の作業",
+      "en": "citation-led web research versus work inside Google apps"
+    },
+    "verdict": {
+      "ja": "調査の入口を出典付き検索に置くならPerplexity、Gmail・Docs・Driveの情報から作成・整理へつなげるならGeminiが向きます。",
+      "en": "Choose Perplexity when cited search is the center of research; choose Gemini when work should flow from Gmail, Docs, and Drive into creation and organization."
+    },
     "alternativeProduct": "chatgpt"
   },
   {
-    "slug": "otter-vs-fathom", "category": "ai-tools", "topic": "ai-meeting-notes", "products": ["otter", "fathom"],
-    "angle": {"ja": "リアルタイム文字起こしと会議後自動化を比較", "en": "Live Transcription or Post-Meeting Automation?"},
-    "axis": {"ja": "会議中のリアルタイム記録と会議後の要約・CRM連携", "en": "live in-meeting notes versus summaries and CRM work after the call"},
-    "verdict": {"ja": "会議中に文字を見ながら個人ノートを整えるならOtter.ai、会議後の要約・アクション・CRM記録を軽く自動化するならFathomが有力です。", "en": "Choose Otter.ai for visible live transcription and personal notes during meetings; choose Fathom for lightweight automation of summaries, actions, and CRM records afterward."},
+    "slug": "otter-vs-fathom",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes",
+    "products": [
+      "otter",
+      "fathom"
+    ],
+    "angle": {
+      "ja": "リアルタイム文字起こしと会議後自動化を比較",
+      "en": "Live Transcription or Post-Meeting Automation?"
+    },
+    "axis": {
+      "ja": "会議中のリアルタイム記録と会議後の要約・CRM連携",
+      "en": "live in-meeting notes versus summaries and CRM work after the call"
+    },
+    "verdict": {
+      "ja": "会議中に文字を見ながら個人ノートを整えるならOtter.ai、会議後の要約・アクション・CRM記録を軽く自動化するならFathomが有力です。",
+      "en": "Choose Otter.ai for visible live transcription and personal notes during meetings; choose Fathom for lightweight automation of summaries, actions, and CRM records afterward."
+    },
     "alternativeProduct": "fireflies"
   },
   {
-    "slug": "fireflies-vs-fathom", "category": "ai-tools", "topic": "ai-meeting-notes", "products": ["fireflies", "fathom"],
-    "angle": {"ja": "チーム分析と手軽なAI議事録の違い", "en": "Team Conversation Intelligence or Simpler Notes?"},
-    "axis": {"ja": "会議データの組織的な検索・分析と個人から始める自動要約", "en": "organization-wide conversation analysis versus a simpler personal starting point"},
-    "verdict": {"ja": "営業・採用・顧客会議を組織横断で検索・分析するならFireflies.ai、個人の会議要約から素早く始めてCRMへつなぐならFathomが扱いやすいです。", "en": "Choose Fireflies.ai to search and analyze sales, recruiting, or customer calls across an organization; choose Fathom to start quickly with personal summaries and CRM follow-up."},
+    "slug": "fireflies-vs-fathom",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes",
+    "products": [
+      "fireflies",
+      "fathom"
+    ],
+    "angle": {
+      "ja": "チーム分析と手軽なAI議事録の違い",
+      "en": "Team Conversation Intelligence or Simpler Notes?"
+    },
+    "axis": {
+      "ja": "会議データの組織的な検索・分析と個人から始める自動要約",
+      "en": "organization-wide conversation analysis versus a simpler personal starting point"
+    },
+    "verdict": {
+      "ja": "営業・採用・顧客会議を組織横断で検索・分析するならFireflies.ai、個人の会議要約から素早く始めてCRMへつなぐならFathomが扱いやすいです。",
+      "en": "Choose Fireflies.ai to search and analyze sales, recruiting, or customer calls across an organization; choose Fathom to start quickly with personal summaries and CRM follow-up."
+    },
     "alternativeProduct": "tldv"
   },
   {
-    "slug": "otter-vs-tldv", "category": "ai-tools", "topic": "ai-meeting-notes", "products": ["otter", "tldv"],
-    "angle": {"ja": "個人のリアルタイム記録と多言語会議分析を比較", "en": "Live Personal Notes or Multilingual Meeting Analysis?"},
-    "axis": {"ja": "個人のリアルタイム文字起こしと複数会議・多言語の分析", "en": "personal live transcription versus multilingual analysis across meetings"},
-    "verdict": {"ja": "会議中の文字起こしと個人の検索ノートならOtter.ai、Zoom・Meet・Teamsをまたぐ多言語記録と複数会議の洞察ならtl;dvが向きます。", "en": "Choose Otter.ai for live transcription and a searchable personal notebook; choose tl;dv for multilingual capture and insight across Zoom, Meet, and Teams."},
+    "slug": "otter-vs-tldv",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes",
+    "products": [
+      "otter",
+      "tldv"
+    ],
+    "angle": {
+      "ja": "個人のリアルタイム記録と多言語会議分析を比較",
+      "en": "Live Personal Notes or Multilingual Meeting Analysis?"
+    },
+    "axis": {
+      "ja": "個人のリアルタイム文字起こしと複数会議・多言語の分析",
+      "en": "personal live transcription versus multilingual analysis across meetings"
+    },
+    "verdict": {
+      "ja": "会議中の文字起こしと個人の検索ノートならOtter.ai、Zoom・Meet・Teamsをまたぐ多言語記録と複数会議の洞察ならtl;dvが向きます。",
+      "en": "Choose Otter.ai for live transcription and a searchable personal notebook; choose tl;dv for multilingual capture and insight across Zoom, Meet, and Teams."
+    },
     "alternativeProduct": "fathom"
   },
   {
-    "slug": "fireflies-vs-tldv", "category": "ai-tools", "topic": "ai-meeting-notes", "products": ["fireflies", "tldv"],
-    "angle": {"ja": "会話インテリジェンスと多言語自動化を比較", "en": "Conversation Intelligence or Multilingual Automation?"},
-    "axis": {"ja": "CRM中心の会話分析と多言語・複数会議の自動化", "en": "CRM-centered conversation intelligence versus multilingual cross-meeting automation"},
-    "verdict": {"ja": "営業会話の分析とCRM連携を深めるならFireflies.ai、複数の会議サービス・言語を横断して要約や自動処理を組むならtl;dvが有力です。", "en": "Choose Fireflies.ai for deeper sales-conversation analysis and CRM workflows; choose tl;dv for multilingual summaries and automation spanning several meeting platforms."},
+    "slug": "fireflies-vs-tldv",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes",
+    "products": [
+      "fireflies",
+      "tldv"
+    ],
+    "angle": {
+      "ja": "会話インテリジェンスと多言語自動化を比較",
+      "en": "Conversation Intelligence or Multilingual Automation?"
+    },
+    "axis": {
+      "ja": "CRM中心の会話分析と多言語・複数会議の自動化",
+      "en": "CRM-centered conversation intelligence versus multilingual cross-meeting automation"
+    },
+    "verdict": {
+      "ja": "営業会話の分析とCRM連携を深めるならFireflies.ai、複数の会議サービス・言語を横断して要約や自動処理を組むならtl;dvが有力です。",
+      "en": "Choose Fireflies.ai for deeper sales-conversation analysis and CRM workflows; choose tl;dv for multilingual summaries and automation spanning several meeting platforms."
+    },
     "alternativeProduct": "fathom"
   },
   {
-    "slug": "fathom-vs-tldv", "category": "ai-tools", "topic": "ai-meeting-notes", "products": ["fathom", "tldv"],
-    "angle": {"ja": "無料AI議事録と複数会議分析で選ぶなら？", "en": "Simple Free Notes or Cross-Meeting Analysis?"},
-    "axis": {"ja": "手軽な会議後フォローと複数会議・多言語の分析", "en": "simple post-meeting follow-up versus multilingual cross-meeting analysis"},
-    "verdict": {"ja": "個人が要約とアクションをすぐ使うならFathom、会議を横断した質問・営業分析・多言語ワークフローを組むならtl;dvが向きます。", "en": "Choose Fathom when an individual wants immediate summaries and actions; choose tl;dv for questions across meetings, sales analysis, and multilingual workflows."},
+    "slug": "fathom-vs-tldv",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes",
+    "products": [
+      "fathom",
+      "tldv"
+    ],
+    "angle": {
+      "ja": "無料AI議事録と複数会議分析で選ぶなら？",
+      "en": "Simple Free Notes or Cross-Meeting Analysis?"
+    },
+    "axis": {
+      "ja": "手軽な会議後フォローと複数会議・多言語の分析",
+      "en": "simple post-meeting follow-up versus multilingual cross-meeting analysis"
+    },
+    "verdict": {
+      "ja": "個人が要約とアクションをすぐ使うならFathom、会議を横断した質問・営業分析・多言語ワークフローを組むならtl;dvが向きます。",
+      "en": "Choose Fathom when an individual wants immediate summaries and actions; choose tl;dv for questions across meetings, sales analysis, and multilingual workflows."
+    },
     "alternativeProduct": "fireflies"
   },
-
   {
-    "slug": "framer-vs-webflow", "category": "website-builders", "topic": "website-builder", "products": ["framer", "webflow"],
-    "angle": {"ja": "デザイン制作・CMS・運用の違い", "en": "Design Speed, CMS, and Operations Compared"},
-    "axis": {"ja": "マーケティングサイトの制作速度と構造化CMS・制作統制", "en": "marketing-site speed versus structured CMS and production control"},
-    "verdict": {"ja": "デザインから公開までを短くしてマーケティングサイトを改善するならFramer、複雑なCMS構造と制作会社の運用を細かく制御するならWebflowが有力です。", "en": "Choose Framer to shorten the path from design to iterative marketing-site publishing; choose Webflow for deeper CMS structure and controlled agency production."},
+    "slug": "framer-vs-webflow",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "framer",
+      "webflow"
+    ],
+    "angle": {
+      "ja": "デザイン制作・CMS・運用の違い",
+      "en": "Design Speed, CMS, and Operations Compared"
+    },
+    "axis": {
+      "ja": "マーケティングサイトの制作速度と構造化CMS・制作統制",
+      "en": "marketing-site speed versus structured CMS and production control"
+    },
+    "verdict": {
+      "ja": "デザインから公開までを短くしてマーケティングサイトを改善するならFramer、複雑なCMS構造と制作会社の運用を細かく制御するならWebflowが有力です。",
+      "en": "Choose Framer to shorten the path from design to iterative marketing-site publishing; choose Webflow for deeper CMS structure and controlled agency production."
+    },
     "alternativeProduct": "wix"
   },
   {
-    "slug": "framer-vs-wix", "category": "website-builders", "topic": "website-builder", "products": ["framer", "wix"],
-    "angle": {"ja": "デザイン重視と事業機能重視で比較", "en": "Design-Led Sites or All-in-One Business Features?"},
-    "axis": {"ja": "ブランド表現・公開速度と予約・店舗・アプリ等の事業機能", "en": "brand-led publishing versus bookings, stores, apps, and business operations"},
-    "verdict": {"ja": "洗練されたランディングページやマーケティングサイトを速く作るならFramer、予約・店舗・フォーム・アプリを一つにまとめるならWixが選びやすいです。", "en": "Choose Framer for polished landing pages and fast marketing-site iteration; choose Wix to combine bookings, stores, forms, and a broad app ecosystem."},
+    "slug": "framer-vs-wix",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "framer",
+      "wix"
+    ],
+    "angle": {
+      "ja": "デザイン重視と事業機能重視で比較",
+      "en": "Design-Led Sites or All-in-One Business Features?"
+    },
+    "axis": {
+      "ja": "ブランド表現・公開速度と予約・店舗・アプリ等の事業機能",
+      "en": "brand-led publishing versus bookings, stores, apps, and business operations"
+    },
+    "verdict": {
+      "ja": "洗練されたランディングページやマーケティングサイトを速く作るならFramer、予約・店舗・フォーム・アプリを一つにまとめるならWixが選びやすいです。",
+      "en": "Choose Framer for polished landing pages and fast marketing-site iteration; choose Wix to combine bookings, stores, forms, and a broad app ecosystem."
+    },
     "alternativeProduct": "squarespace"
   },
   {
-    "slug": "framer-vs-squarespace", "category": "website-builders", "topic": "website-builder", "products": ["framer", "squarespace"],
-    "angle": {"ja": "動きのあるサイトとテンプレート運用を比較", "en": "Interactive Marketing or Template-Led Operations?"},
-    "axis": {"ja": "インタラクティブなデザイン制作と統一テンプレートによる日常更新", "en": "interactive custom design versus consistent template-led maintenance"},
-    "verdict": {"ja": "動きや独自レイアウトを活かすマーケティングサイトならFramer、作品・サービス・予約・小規模販売を整ったテンプレートで運用するならSquarespaceが向きます。", "en": "Choose Framer for distinctive, interactive marketing design; choose Squarespace for polished template-led portfolios, services, scheduling, and lighter commerce."},
+    "slug": "framer-vs-squarespace",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "framer",
+      "squarespace"
+    ],
+    "angle": {
+      "ja": "動きのあるサイトとテンプレート運用を比較",
+      "en": "Interactive Marketing or Template-Led Operations?"
+    },
+    "axis": {
+      "ja": "インタラクティブなデザイン制作と統一テンプレートによる日常更新",
+      "en": "interactive custom design versus consistent template-led maintenance"
+    },
+    "verdict": {
+      "ja": "動きや独自レイアウトを活かすマーケティングサイトならFramer、作品・サービス・予約・小規模販売を整ったテンプレートで運用するならSquarespaceが向きます。",
+      "en": "Choose Framer for distinctive, interactive marketing design; choose Squarespace for polished template-led portfolios, services, scheduling, and lighter commerce."
+    },
     "alternativeProduct": "wix"
   },
   {
-    "slug": "duda-vs-webflow", "category": "website-builders", "topic": "website-builder", "products": ["duda", "webflow"],
-    "angle": {"ja": "制作会社の複数サイト運用とデザイン自由度を比較", "en": "Agency Scale or Custom Design Control?"},
-    "axis": {"ja": "顧客サイトの標準化・ホワイトラベルと独自設計・CMS制御", "en": "standardized white-label client operations versus custom design and CMS control"},
-    "verdict": {"ja": "多数の顧客サイトを同じ権限・承認・保守手順で回すならDuda、ブランドごとの独自構造とデザインシステムを作り込むならWebflowが有力です。", "en": "Choose Duda to run many client sites through repeatable permissions, approvals, and maintenance; choose Webflow for distinctive structures and custom design systems."},
+    "slug": "duda-vs-webflow",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "duda",
+      "webflow"
+    ],
+    "angle": {
+      "ja": "制作会社の複数サイト運用とデザイン自由度を比較",
+      "en": "Agency Scale or Custom Design Control?"
+    },
+    "axis": {
+      "ja": "顧客サイトの標準化・ホワイトラベルと独自設計・CMS制御",
+      "en": "standardized white-label client operations versus custom design and CMS control"
+    },
+    "verdict": {
+      "ja": "多数の顧客サイトを同じ権限・承認・保守手順で回すならDuda、ブランドごとの独自構造とデザインシステムを作り込むならWebflowが有力です。",
+      "en": "Choose Duda to run many client sites through repeatable permissions, approvals, and maintenance; choose Webflow for distinctive structures and custom design systems."
+    },
     "alternativeProduct": "framer"
   },
   {
-    "slug": "duda-vs-wix", "category": "website-builders", "topic": "website-builder", "products": ["duda", "wix"],
-    "angle": {"ja": "制作会社向け運用と小規模事業者向け機能を比較", "en": "Agency Operations or Small-Business Self-Service?"},
-    "axis": {"ja": "複数顧客の制作・権限管理と事業者自身による予約・店舗運用", "en": "multi-client production controls versus owner-operated business features"},
-    "verdict": {"ja": "制作会社が複数顧客の制作・編集権限・ホワイトラベルを統制するならDuda、事業者自身が予約・店舗・集客機能を追加するならWixが扱いやすいです。", "en": "Choose Duda when an agency controls production, permissions, and white labeling across clients; choose Wix when the business owner will operate bookings, commerce, and marketing features."},
+    "slug": "duda-vs-wix",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "duda",
+      "wix"
+    ],
+    "angle": {
+      "ja": "制作会社向け運用と小規模事業者向け機能を比較",
+      "en": "Agency Operations or Small-Business Self-Service?"
+    },
+    "axis": {
+      "ja": "複数顧客の制作・権限管理と事業者自身による予約・店舗運用",
+      "en": "multi-client production controls versus owner-operated business features"
+    },
+    "verdict": {
+      "ja": "制作会社が複数顧客の制作・編集権限・ホワイトラベルを統制するならDuda、事業者自身が予約・店舗・集客機能を追加するならWixが扱いやすいです。",
+      "en": "Choose Duda when an agency controls production, permissions, and white labeling across clients; choose Wix when the business owner will operate bookings, commerce, and marketing features."
+    },
     "alternativeProduct": "webflow"
   },
   {
-    "slug": "bigcommerce-vs-shopify", "category": "website-builders", "topic": "ecommerce-platform", "products": ["bigcommerce", "shopify"],
-    "angle": {"ja": "成長ECの料金・機能・運用を比較", "en": "Scaling Ecommerce Pricing and Operations Compared"},
-    "axis": {"ja": "売上連動のSaaS基盤と大規模なアプリ・販売エコシステム", "en": "GMV-tiered SaaS operations versus a broad commerce app and channel ecosystem"},
-    "verdict": {"ja": "API・B2B・複数チャネルを標準機能中心で設計し売上段階を管理できるならBigCommerce、豊富なアプリとパートナーを使って店舗運用を拡張するならShopifyが有力です。", "en": "Choose BigCommerce for API, B2B, and multi-channel operations built around plan capabilities and sales tiers; choose Shopify for a broad app, partner, and channel ecosystem."},
+    "slug": "bigcommerce-vs-shopify",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "bigcommerce",
+      "shopify"
+    ],
+    "angle": {
+      "ja": "成長ECの料金・機能・運用を比較",
+      "en": "Scaling Ecommerce Pricing and Operations Compared"
+    },
+    "axis": {
+      "ja": "売上連動のSaaS基盤と大規模なアプリ・販売エコシステム",
+      "en": "GMV-tiered SaaS operations versus a broad commerce app and channel ecosystem"
+    },
+    "verdict": {
+      "ja": "API・B2B・複数チャネルを標準機能中心で設計し売上段階を管理できるならBigCommerce、豊富なアプリとパートナーを使って店舗運用を拡張するならShopifyが有力です。",
+      "en": "Choose BigCommerce for API, B2B, and multi-channel operations built around plan capabilities and sales tiers; choose Shopify for a broad app, partner, and channel ecosystem."
+    },
     "alternativeProduct": "woocommerce"
   },
   {
-    "slug": "woocommerce-vs-shopify", "category": "website-builders", "topic": "ecommerce-platform", "products": ["woocommerce", "shopify"],
-    "angle": {"ja": "自由度と運用の手軽さでネットショップを比較", "en": "Open Control or Hosted Simplicity?"},
-    "axis": {"ja": "WordPress上の自由な構成とホスティング込みの一体運用", "en": "open WordPress control versus hosted all-in-one commerce operations"},
-    "verdict": {"ja": "ホスティング・データ・拡張を自分で選び技術運用できるならWooCommerce、サーバー保守を減らして販売・注文・チャネル運用へ集中するならShopifyが向きます。", "en": "Choose WooCommerce when you can own hosting, data, extensions, and technical operations; choose Shopify to reduce infrastructure work and focus on selling, orders, and channels."},
+    "slug": "woocommerce-vs-shopify",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "woocommerce",
+      "shopify"
+    ],
+    "angle": {
+      "ja": "自由度と運用の手軽さでネットショップを比較",
+      "en": "Open Control or Hosted Simplicity?"
+    },
+    "axis": {
+      "ja": "WordPress上の自由な構成とホスティング込みの一体運用",
+      "en": "open WordPress control versus hosted all-in-one commerce operations"
+    },
+    "verdict": {
+      "ja": "ホスティング・データ・拡張を自分で選び技術運用できるならWooCommerce、サーバー保守を減らして販売・注文・チャネル運用へ集中するならShopifyが向きます。",
+      "en": "Choose WooCommerce when you can own hosting, data, extensions, and technical operations; choose Shopify to reduce infrastructure work and focus on selling, orders, and channels."
+    },
     "alternativeProduct": "bigcommerce"
   },
   {
-    "slug": "woocommerce-vs-bigcommerce", "category": "website-builders", "topic": "ecommerce-platform", "products": ["woocommerce", "bigcommerce"],
-    "angle": {"ja": "オープンソースとSaaS型ECを比較", "en": "Open-Source Commerce or Scalable SaaS?"},
-    "axis": {"ja": "自社で組むEC技術スタックと売上段階に応じたSaaS運用", "en": "a self-managed commerce stack versus GMV-tiered SaaS operations"},
-    "verdict": {"ja": "WordPressと技術パートナーを活かして費用・機能・データを制御するならWooCommerce、ホスティングと基盤保守を任せてAPI・B2B・複数チャネルを伸ばすならBigCommerceが向きます。", "en": "Choose WooCommerce to control cost, features, and data through WordPress and technical partners; choose BigCommerce to outsource platform operations while scaling APIs, B2B, and channels."},
+    "slug": "woocommerce-vs-bigcommerce",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": [
+      "woocommerce",
+      "bigcommerce"
+    ],
+    "angle": {
+      "ja": "オープンソースとSaaS型ECを比較",
+      "en": "Open-Source Commerce or Scalable SaaS?"
+    },
+    "axis": {
+      "ja": "自社で組むEC技術スタックと売上段階に応じたSaaS運用",
+      "en": "a self-managed commerce stack versus GMV-tiered SaaS operations"
+    },
+    "verdict": {
+      "ja": "WordPressと技術パートナーを活かして費用・機能・データを制御するならWooCommerce、ホスティングと基盤保守を任せてAPI・B2B・複数チャネルを伸ばすならBigCommerceが向きます。",
+      "en": "Choose WooCommerce to control cost, features, and data through WordPress and technical partners; choose BigCommerce to outsource platform operations while scaling APIs, B2B, and channels."
+    },
     "alternativeProduct": "shopify"
   },
   {
-    "slug": "hostinger-website-builder-vs-wix", "category": "website-builders", "topic": "website-builder", "products": ["hostinger-website-builder", "wix"],
-    "angle": {"ja": "低コスト一体型と豊富な事業機能を比較", "en": "Low-Cost Bundle or Broader Business Features?"},
-    "axis": {"ja": "長期契約で抑える制作・ホスティング費と予約・アプリ・店舗機能の広さ", "en": "lower bundled hosting cost versus breadth of bookings, apps, and commerce"},
-    "verdict": {"ja": "サーバー・ドメイン・メール・簡易サイトを低コストでまとめるならHostinger Website Builder、予約・店舗・会員・外部アプリを段階的に増やすならWixが有力です。", "en": "Choose Hostinger Website Builder to bundle hosting, domain, email, and a simple site at lower cost; choose Wix to expand bookings, commerce, memberships, and apps over time."},
+    "slug": "hostinger-website-builder-vs-wix",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "hostinger-website-builder",
+      "wix"
+    ],
+    "angle": {
+      "ja": "低コスト一体型と豊富な事業機能を比較",
+      "en": "Low-Cost Bundle or Broader Business Features?"
+    },
+    "axis": {
+      "ja": "長期契約で抑える制作・ホスティング費と予約・アプリ・店舗機能の広さ",
+      "en": "lower bundled hosting cost versus breadth of bookings, apps, and commerce"
+    },
+    "verdict": {
+      "ja": "サーバー・ドメイン・メール・簡易サイトを低コストでまとめるならHostinger Website Builder、予約・店舗・会員・外部アプリを段階的に増やすならWixが有力です。",
+      "en": "Choose Hostinger Website Builder to bundle hosting, domain, email, and a simple site at lower cost; choose Wix to expand bookings, commerce, memberships, and apps over time."
+    },
     "alternativeProduct": "squarespace"
   },
   {
-    "slug": "hostinger-website-builder-vs-squarespace", "category": "website-builders", "topic": "website-builder", "products": ["hostinger-website-builder", "squarespace"],
-    "angle": {"ja": "料金・デザイン・小規模事業運用を比較", "en": "Pricing, Design, and Small-Business Operations"},
-    "axis": {"ja": "ホスティング一体の低コスト公開と洗練されたテンプレート・サービス販売", "en": "low-cost bundled publishing versus polished templates and service selling"},
-    "verdict": {"ja": "費用を抑えて基本的な事業サイトや簡易ストアを公開するならHostinger Website Builder、ブランド表現・作品・予約・サービス販売を整ったデザインで運用するならSquarespaceが向きます。", "en": "Choose Hostinger Website Builder for a cost-conscious business site or light store; choose Squarespace for polished branding, portfolios, scheduling, and service selling."},
+    "slug": "hostinger-website-builder-vs-squarespace",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": [
+      "hostinger-website-builder",
+      "squarespace"
+    ],
+    "angle": {
+      "ja": "料金・デザイン・小規模事業運用を比較",
+      "en": "Pricing, Design, and Small-Business Operations"
+    },
+    "axis": {
+      "ja": "ホスティング一体の低コスト公開と洗練されたテンプレート・サービス販売",
+      "en": "low-cost bundled publishing versus polished templates and service selling"
+    },
+    "verdict": {
+      "ja": "費用を抑えて基本的な事業サイトや簡易ストアを公開するならHostinger Website Builder、ブランド表現・作品・予約・サービス販売を整ったデザインで運用するならSquarespaceが向きます。",
+      "en": "Choose Hostinger Website Builder for a cost-conscious business site or light store; choose Squarespace for polished branding, portfolios, scheduling, and service selling."
+    },
     "alternativeProduct": "wix"
   },
-
   {
-    "slug": "semrush-vs-ubersuggest", "category": "seo-marketing", "topic": "seo-tools", "products": ["semrush", "ubersuggest"],
-    "angle": {"ja": "高機能SEOスイートと初心者向けツールを比較", "en": "Full SEO Suite or Beginner-Friendly Toolkit?"},
-    "axis": {"ja": "大規模な競合・広告・SEO分析と少ない学習で始める主要SEO機能", "en": "large-scale SEO and competitive intelligence versus accessible core workflows"},
-    "verdict": {"ja": "SEO・広告・競合・コンテンツを複数担当者で深く分析するならSemrush、キーワード・順位・監査を少ない予算と学習で始めるならUbersuggestが向きます。", "en": "Choose Semrush for deeper multi-user SEO, advertising, competitor, and content analysis; choose Ubersuggest to begin keyword, rank, and audit work with less cost and learning."},
+    "slug": "semrush-vs-ubersuggest",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "semrush",
+      "ubersuggest"
+    ],
+    "angle": {
+      "ja": "高機能SEOスイートと初心者向けツールを比較",
+      "en": "Full SEO Suite or Beginner-Friendly Toolkit?"
+    },
+    "axis": {
+      "ja": "大規模な競合・広告・SEO分析と少ない学習で始める主要SEO機能",
+      "en": "large-scale SEO and competitive intelligence versus accessible core workflows"
+    },
+    "verdict": {
+      "ja": "SEO・広告・競合・コンテンツを複数担当者で深く分析するならSemrush、キーワード・順位・監査を少ない予算と学習で始めるならUbersuggestが向きます。",
+      "en": "Choose Semrush for deeper multi-user SEO, advertising, competitor, and content analysis; choose Ubersuggest to begin keyword, rank, and audit work with less cost and learning."
+    },
     "alternativeProduct": "se-ranking"
   },
   {
-    "slug": "ahrefs-vs-ubersuggest", "category": "seo-marketing", "topic": "seo-tools", "products": ["ahrefs", "ubersuggest"],
-    "angle": {"ja": "被リンク・競合分析と手軽なSEO運用を比較", "en": "Deep Link Research or Accessible SEO Operations?"},
-    "axis": {"ja": "大規模な被リンク・競合データと日常的なキーワード・順位・監査", "en": "deep backlink and competitor data versus approachable keyword, rank, and audit work"},
-    "verdict": {"ja": "被リンク・競合コンテンツ・検索機会を深く調べるならAhrefs、主要なキーワード調査・順位・監査をシンプルに回すならUbersuggestが扱いやすいです。", "en": "Choose Ahrefs for deeper backlink, competitor-content, and search-opportunity research; choose Ubersuggest for a simpler routine of keywords, rankings, and audits."},
+    "slug": "ahrefs-vs-ubersuggest",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "ahrefs",
+      "ubersuggest"
+    ],
+    "angle": {
+      "ja": "被リンク・競合分析と手軽なSEO運用を比較",
+      "en": "Deep Link Research or Accessible SEO Operations?"
+    },
+    "axis": {
+      "ja": "大規模な被リンク・競合データと日常的なキーワード・順位・監査",
+      "en": "deep backlink and competitor data versus approachable keyword, rank, and audit work"
+    },
+    "verdict": {
+      "ja": "被リンク・競合コンテンツ・検索機会を深く調べるならAhrefs、主要なキーワード調査・順位・監査をシンプルに回すならUbersuggestが扱いやすいです。",
+      "en": "Choose Ahrefs for deeper backlink, competitor-content, and search-opportunity research; choose Ubersuggest for a simpler routine of keywords, rankings, and audits."
+    },
     "alternativeProduct": "mangools"
   },
   {
-    "slug": "se-ranking-vs-ubersuggest", "category": "seo-marketing", "topic": "seo-tools", "products": ["se-ranking", "ubersuggest"],
-    "angle": {"ja": "代理店レポートと初心者向けSEOを比較", "en": "Agency Reporting or Beginner SEO?"},
-    "axis": {"ja": "複数サイト・顧客向けの順位管理と個人が始める主要SEO調査", "en": "multi-site client reporting versus individual core SEO research"},
-    "verdict": {"ja": "複数サイトの順位・監査・レポートを顧客運用へ組み込むならSE Ranking、個人や小規模サイトがキーワード調査から始めるならUbersuggestが向きます。", "en": "Choose SE Ranking to embed multi-site rankings, audits, and reports into client operations; choose Ubersuggest for an individual or small site starting with keyword research."},
+    "slug": "se-ranking-vs-ubersuggest",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "se-ranking",
+      "ubersuggest"
+    ],
+    "angle": {
+      "ja": "代理店レポートと初心者向けSEOを比較",
+      "en": "Agency Reporting or Beginner SEO?"
+    },
+    "axis": {
+      "ja": "複数サイト・顧客向けの順位管理と個人が始める主要SEO調査",
+      "en": "multi-site client reporting versus individual core SEO research"
+    },
+    "verdict": {
+      "ja": "複数サイトの順位・監査・レポートを顧客運用へ組み込むならSE Ranking、個人や小規模サイトがキーワード調査から始めるならUbersuggestが向きます。",
+      "en": "Choose SE Ranking to embed multi-site rankings, audits, and reports into client operations; choose Ubersuggest for an individual or small site starting with keyword research."
+    },
     "alternativeProduct": "semrush"
   },
   {
-    "slug": "semrush-vs-mangools", "category": "seo-marketing", "topic": "seo-tools", "products": ["semrush", "mangools"],
-    "angle": {"ja": "機能の広さと操作の分かりやすさを比較", "en": "Broader Suite or Simpler Focused Tools?"},
-    "axis": {"ja": "統合マーケティング分析と分かりやすいキーワード・SERP・リンク調査", "en": "integrated marketing analysis versus focused keyword, SERP, and link research"},
-    "verdict": {"ja": "SEO以外の競合・広告・コンテンツまで統合するならSemrush、キーワード・SERP・リンク・順位を分かりやすい画面で使うならMangoolsが向きます。", "en": "Choose Semrush to integrate SEO with broader competitive, advertising, and content workflows; choose Mangools for clearer focused tools covering keywords, SERPs, links, and rankings."},
+    "slug": "semrush-vs-mangools",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "semrush",
+      "mangools"
+    ],
+    "angle": {
+      "ja": "機能の広さと操作の分かりやすさを比較",
+      "en": "Broader Suite or Simpler Focused Tools?"
+    },
+    "axis": {
+      "ja": "統合マーケティング分析と分かりやすいキーワード・SERP・リンク調査",
+      "en": "integrated marketing analysis versus focused keyword, SERP, and link research"
+    },
+    "verdict": {
+      "ja": "SEO以外の競合・広告・コンテンツまで統合するならSemrush、キーワード・SERP・リンク・順位を分かりやすい画面で使うならMangoolsが向きます。",
+      "en": "Choose Semrush to integrate SEO with broader competitive, advertising, and content workflows; choose Mangools for clearer focused tools covering keywords, SERPs, links, and rankings."
+    },
     "alternativeProduct": "se-ranking"
   },
   {
-    "slug": "ahrefs-vs-se-ranking", "category": "seo-marketing", "topic": "seo-tools", "products": ["ahrefs", "se-ranking"],
-    "angle": {"ja": "データ調査と運用レポートでSEOツールを比較", "en": "Research Depth or Operational Reporting?"},
-    "axis": {"ja": "被リンク・競合コンテンツの深い探索と複数案件の順位・監査・報告", "en": "deep link and competitor research versus multi-project tracking, audits, and reporting"},
-    "verdict": {"ja": "被リンクと競合コンテンツを深く探索するならAhrefs、順位計測・監査・顧客レポートを費用管理しながら回すならSE Rankingが有力です。", "en": "Choose Ahrefs for deeper backlink and competitor-content discovery; choose SE Ranking for cost-managed rank tracking, audits, and client reporting across projects."},
+    "slug": "ahrefs-vs-se-ranking",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": [
+      "ahrefs",
+      "se-ranking"
+    ],
+    "angle": {
+      "ja": "データ調査と運用レポートでSEOツールを比較",
+      "en": "Research Depth or Operational Reporting?"
+    },
+    "axis": {
+      "ja": "被リンク・競合コンテンツの深い探索と複数案件の順位・監査・報告",
+      "en": "deep link and competitor research versus multi-project tracking, audits, and reporting"
+    },
+    "verdict": {
+      "ja": "被リンクと競合コンテンツを深く探索するならAhrefs、順位計測・監査・顧客レポートを費用管理しながら回すならSE Rankingが有力です。",
+      "en": "Choose Ahrefs for deeper backlink and competitor-content discovery; choose SE Ranking for cost-managed rank tracking, audits, and client reporting across projects."
+    },
     "alternativeProduct": "semrush"
   },
   {
-    "slug": "mailchimp-vs-kit", "category": "seo-marketing", "topic": "email-marketing", "products": ["mailchimp", "kit"],
-    "angle": {"ja": "小規模事業とクリエイターのメール配信を比較", "en": "Small-Business Marketing or Creator Email?"},
-    "axis": {"ja": "幅広い小規模事業マーケティングとクリエイターの読者・商品運用", "en": "broad small-business marketing versus creator audience and product workflows"},
-    "verdict": {"ja": "店舗・EC・広告・複数チャネルを含む小規模事業の集客ならMailchimp、ニュースレター・講座・デジタル商品を読者中心で育てるならKitが向きます。", "en": "Choose Mailchimp for small-business marketing spanning commerce, ads, and channels; choose Kit for creator-led newsletters, courses, digital products, and direct audience relationships."},
+    "slug": "mailchimp-vs-kit",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "mailchimp",
+      "kit"
+    ],
+    "angle": {
+      "ja": "小規模事業とクリエイターのメール配信を比較",
+      "en": "Small-Business Marketing or Creator Email?"
+    },
+    "axis": {
+      "ja": "幅広い小規模事業マーケティングとクリエイターの読者・商品運用",
+      "en": "broad small-business marketing versus creator audience and product workflows"
+    },
+    "verdict": {
+      "ja": "店舗・EC・広告・複数チャネルを含む小規模事業の集客ならMailchimp、ニュースレター・講座・デジタル商品を読者中心で育てるならKitが向きます。",
+      "en": "Choose Mailchimp for small-business marketing spanning commerce, ads, and channels; choose Kit for creator-led newsletters, courses, digital products, and direct audience relationships."
+    },
     "alternativeProduct": "mailerlite"
   },
   {
-    "slug": "mailchimp-vs-activecampaign", "category": "seo-marketing", "topic": "email-marketing", "products": ["mailchimp", "activecampaign"],
-    "angle": {"ja": "使いやすい配信と高度な自動化を比較", "en": "Accessible Campaigns or Advanced Automation?"},
-    "axis": {"ja": "テンプレート中心の配信・EC連携と行動データを使う複雑な自動化", "en": "template-led campaigns and commerce links versus behavior-driven advanced automation"},
-    "verdict": {"ja": "定期配信・テンプレート・小規模EC連携を早く始めるならMailchimp、顧客行動に応じた分岐・スコア・営業連携を設計するならActiveCampaignが有力です。", "en": "Choose Mailchimp to launch recurring campaigns, templates, and small-commerce integrations quickly; choose ActiveCampaign for behavior-based branches, scoring, and sales automation."},
+    "slug": "mailchimp-vs-activecampaign",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "mailchimp",
+      "activecampaign"
+    ],
+    "angle": {
+      "ja": "使いやすい配信と高度な自動化を比較",
+      "en": "Accessible Campaigns or Advanced Automation?"
+    },
+    "axis": {
+      "ja": "テンプレート中心の配信・EC連携と行動データを使う複雑な自動化",
+      "en": "template-led campaigns and commerce links versus behavior-driven advanced automation"
+    },
+    "verdict": {
+      "ja": "定期配信・テンプレート・小規模EC連携を早く始めるならMailchimp、顧客行動に応じた分岐・スコア・営業連携を設計するならActiveCampaignが有力です。",
+      "en": "Choose Mailchimp to launch recurring campaigns, templates, and small-commerce integrations quickly; choose ActiveCampaign for behavior-based branches, scoring, and sales automation."
+    },
     "alternativeProduct": "brevo"
   },
   {
-    "slug": "brevo-vs-activecampaign", "category": "seo-marketing", "topic": "email-marketing", "products": ["brevo", "activecampaign"],
-    "angle": {"ja": "送信量・マルチチャネルと高度な自動化を比較", "en": "Send-Based Multichannel or Deeper Automation?"},
-    "axis": {"ja": "連絡先を保有しやすい送信量中心の運用と複雑な顧客ジャーニー設計", "en": "send-oriented multichannel value versus sophisticated customer-journey design"},
-    "verdict": {"ja": "多くの連絡先を保持しメール・SMS等を送信量中心で管理するならBrevo、行動データ・CRM・条件分岐を使う高度な自動化ならActiveCampaignが向きます。", "en": "Choose Brevo to manage a large contact base with email, SMS, and send-oriented pricing; choose ActiveCampaign for deeper behavior data, CRM, and branched automation."},
+    "slug": "brevo-vs-activecampaign",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "brevo",
+      "activecampaign"
+    ],
+    "angle": {
+      "ja": "送信量・マルチチャネルと高度な自動化を比較",
+      "en": "Send-Based Multichannel or Deeper Automation?"
+    },
+    "axis": {
+      "ja": "連絡先を保有しやすい送信量中心の運用と複雑な顧客ジャーニー設計",
+      "en": "send-oriented multichannel value versus sophisticated customer-journey design"
+    },
+    "verdict": {
+      "ja": "多くの連絡先を保持しメール・SMS等を送信量中心で管理するならBrevo、行動データ・CRM・条件分岐を使う高度な自動化ならActiveCampaignが向きます。",
+      "en": "Choose Brevo to manage a large contact base with email, SMS, and send-oriented pricing; choose ActiveCampaign for deeper behavior data, CRM, and branched automation."
+    },
     "alternativeProduct": "getresponse"
   },
   {
-    "slug": "getresponse-vs-activecampaign", "category": "seo-marketing", "topic": "email-marketing", "products": ["getresponse", "activecampaign"],
-    "angle": {"ja": "ウェビナー・ファネルと自動化CRMを比較", "en": "Webinars and Funnels or Automation CRM?"},
-    "axis": {"ja": "配信・ウェビナー・販売ファネルの一体運用と行動ベースの営業・マーケティング自動化", "en": "integrated email, webinars, and funnels versus behavior-led marketing and sales automation"},
-    "verdict": {"ja": "メールからウェビナー・ランディングページ・販売ファネルまでまとめるならGetResponse、顧客行動とCRMを使って複雑な営業・マーケティング自動化を組むならActiveCampaignが有力です。", "en": "Choose GetResponse to combine email with webinars, landing pages, and funnels; choose ActiveCampaign for complex sales and marketing automation grounded in behavior and CRM data."},
+    "slug": "getresponse-vs-activecampaign",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "getresponse",
+      "activecampaign"
+    ],
+    "angle": {
+      "ja": "ウェビナー・ファネルと自動化CRMを比較",
+      "en": "Webinars and Funnels or Automation CRM?"
+    },
+    "axis": {
+      "ja": "配信・ウェビナー・販売ファネルの一体運用と行動ベースの営業・マーケティング自動化",
+      "en": "integrated email, webinars, and funnels versus behavior-led marketing and sales automation"
+    },
+    "verdict": {
+      "ja": "メールからウェビナー・ランディングページ・販売ファネルまでまとめるならGetResponse、顧客行動とCRMを使って複雑な営業・マーケティング自動化を組むならActiveCampaignが有力です。",
+      "en": "Choose GetResponse to combine email with webinars, landing pages, and funnels; choose ActiveCampaign for complex sales and marketing automation grounded in behavior and CRM data."
+    },
     "alternativeProduct": "mailchimp"
   },
   {
-    "slug": "hubspot-vs-mailchimp", "category": "seo-marketing", "topic": "email-marketing", "products": ["hubspot-marketing", "mailchimp"],
-    "angle": {"ja": "CRM一体型マーケティングとメール配信を比較", "en": "CRM Platform or Focused Email Marketing?"},
-    "axis": {"ja": "CRM・営業・分析まで統合する基盤と小規模事業が始めやすい配信運用", "en": "an integrated CRM and revenue platform versus accessible small-business campaign operations"},
-    "verdict": {"ja": "顧客データ・営業・キャンペーン・収益分析を一つに統合するならHubSpot Marketing Hub、メール配信と小規模事業の集客を比較的軽く始めるならMailchimpが向きます。", "en": "Choose HubSpot Marketing Hub to unify customer data, sales, campaigns, and revenue reporting; choose Mailchimp for a lighter start to email and small-business marketing."},
+    "slug": "hubspot-vs-mailchimp",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": [
+      "hubspot-marketing",
+      "mailchimp"
+    ],
+    "angle": {
+      "ja": "CRM一体型マーケティングとメール配信を比較",
+      "en": "CRM Platform or Focused Email Marketing?"
+    },
+    "axis": {
+      "ja": "CRM・営業・分析まで統合する基盤と小規模事業が始めやすい配信運用",
+      "en": "an integrated CRM and revenue platform versus accessible small-business campaign operations"
+    },
+    "verdict": {
+      "ja": "顧客データ・営業・キャンペーン・収益分析を一つに統合するならHubSpot Marketing Hub、メール配信と小規模事業の集客を比較的軽く始めるならMailchimpが向きます。",
+      "en": "Choose HubSpot Marketing Hub to unify customer data, sales, campaigns, and revenue reporting; choose Mailchimp for a lighter start to email and small-business marketing."
+    },
     "alternativeProduct": "activecampaign"
   },
-
   {
-    "slug": "asana-vs-monday", "category": "business-software", "topic": "project-management", "products": ["asana", "monday"],
-    "angle": {"ja": "プロジェクト管理・自動化・料金を比較", "en": "Projects, Automation, and Pricing Compared"},
-    "axis": {"ja": "責任・期限・目標の標準化と柔軟なボード・業務アプリ化", "en": "standardized ownership and goals versus customizable boards and work apps"},
-    "verdict": {"ja": "担当・期限・依存関係・目標を組織の共通ルールにするならAsana、部門ごとにボード・列・自動化を柔軟に構成するならmonday.comが向きます。", "en": "Choose Asana to standardize ownership, dates, dependencies, and goals; choose monday.com when departments need highly configurable boards, columns, and automation."},
+    "slug": "asana-vs-monday",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "asana",
+      "monday"
+    ],
+    "angle": {
+      "ja": "プロジェクト管理・自動化・料金を比較",
+      "en": "Projects, Automation, and Pricing Compared"
+    },
+    "axis": {
+      "ja": "責任・期限・目標の標準化と柔軟なボード・業務アプリ化",
+      "en": "standardized ownership and goals versus customizable boards and work apps"
+    },
+    "verdict": {
+      "ja": "担当・期限・依存関係・目標を組織の共通ルールにするならAsana、部門ごとにボード・列・自動化を柔軟に構成するならmonday.comが向きます。",
+      "en": "Choose Asana to standardize ownership, dates, dependencies, and goals; choose monday.com when departments need highly configurable boards, columns, and automation."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "clickup-vs-trello", "category": "business-software", "topic": "project-management", "products": ["clickup", "trello"],
-    "angle": {"ja": "多機能タスク管理とシンプルなカンバンを比較", "en": "All-in-One Work or Simple Kanban?"},
-    "axis": {"ja": "文書・目標・時間・自動化を含む統合運用とカード中心の分かりやすさ", "en": "all-in-one work features versus straightforward card-based kanban"},
-    "verdict": {"ja": "タスク・文書・目標・時間・自動化を一つへ集約するならClickUp、ボード・リスト・カードで作業を見える化してすぐ定着させるならTrelloが向きます。", "en": "Choose ClickUp to combine tasks, documents, goals, time, and automation; choose Trello for fast adoption around clear boards, lists, and cards."},
+    "slug": "clickup-vs-trello",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "clickup",
+      "trello"
+    ],
+    "angle": {
+      "ja": "多機能タスク管理とシンプルなカンバンを比較",
+      "en": "All-in-One Work or Simple Kanban?"
+    },
+    "axis": {
+      "ja": "文書・目標・時間・自動化を含む統合運用とカード中心の分かりやすさ",
+      "en": "all-in-one work features versus straightforward card-based kanban"
+    },
+    "verdict": {
+      "ja": "タスク・文書・目標・時間・自動化を一つへ集約するならClickUp、ボード・リスト・カードで作業を見える化してすぐ定着させるならTrelloが向きます。",
+      "en": "Choose ClickUp to combine tasks, documents, goals, time, and automation; choose Trello for fast adoption around clear boards, lists, and cards."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "notion-vs-trello", "category": "business-software", "topic": "project-management", "products": ["notion", "trello"],
-    "angle": {"ja": "ドキュメント・データベースとカンバンを比較", "en": "Docs and Databases or Focused Kanban?"},
-    "axis": {"ja": "知識・文書・データベースの統合とカードを動かす単純な進捗共有", "en": "integrated knowledge and databases versus simple visual card flow"},
-    "verdict": {"ja": "社内Wiki・文書・データベースと案件を同じ空間へまとめるならNotion、チームがカードを動かすだけで進捗共有を始めるならTrelloが扱いやすいです。", "en": "Choose Notion to combine wiki, documents, databases, and projects; choose Trello when the team needs an immediately understandable card-moving workflow."},
+    "slug": "notion-vs-trello",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "notion",
+      "trello"
+    ],
+    "angle": {
+      "ja": "ドキュメント・データベースとカンバンを比較",
+      "en": "Docs and Databases or Focused Kanban?"
+    },
+    "axis": {
+      "ja": "知識・文書・データベースの統合とカードを動かす単純な進捗共有",
+      "en": "integrated knowledge and databases versus simple visual card flow"
+    },
+    "verdict": {
+      "ja": "社内Wiki・文書・データベースと案件を同じ空間へまとめるならNotion、チームがカードを動かすだけで進捗共有を始めるならTrelloが扱いやすいです。",
+      "en": "Choose Notion to combine wiki, documents, databases, and projects; choose Trello when the team needs an immediately understandable card-moving workflow."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "jira-vs-asana", "category": "business-software", "topic": "project-management", "products": ["jira", "asana"],
-    "angle": {"ja": "開発チームと部門横断の仕事管理を比較", "en": "Software Delivery or Cross-Functional Work?"},
-    "axis": {"ja": "課題・スプリント・リリース管理と部門横断の責任・期限・目標", "en": "issues, sprints, and releases versus cross-functional ownership, dates, and goals"},
-    "verdict": {"ja": "開発の課題・バックログ・スプリント・リリースを細かく管理するならJira、マーケティング・業務・経営案件まで共通ルールで進めるならAsanaが向きます。", "en": "Choose Jira for detailed software issues, backlogs, sprints, and releases; choose Asana to standardize cross-functional marketing, operations, and leadership work."},
+    "slug": "jira-vs-asana",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "jira",
+      "asana"
+    ],
+    "angle": {
+      "ja": "開発チームと部門横断の仕事管理を比較",
+      "en": "Software Delivery or Cross-Functional Work?"
+    },
+    "axis": {
+      "ja": "課題・スプリント・リリース管理と部門横断の責任・期限・目標",
+      "en": "issues, sprints, and releases versus cross-functional ownership, dates, and goals"
+    },
+    "verdict": {
+      "ja": "開発の課題・バックログ・スプリント・リリースを細かく管理するならJira、マーケティング・業務・経営案件まで共通ルールで進めるならAsanaが向きます。",
+      "en": "Choose Jira for detailed software issues, backlogs, sprints, and releases; choose Asana to standardize cross-functional marketing, operations, and leadership work."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "jira-vs-clickup", "category": "business-software", "topic": "project-management", "products": ["jira", "clickup"],
-    "angle": {"ja": "開発管理とオールインワン業務管理を比較", "en": "Development Depth or All-in-One Work Management?"},
-    "axis": {"ja": "技術課題・リリースの専門性と全社タスク・文書・目標の集約", "en": "specialized technical delivery versus consolidated tasks, docs, and goals"},
-    "verdict": {"ja": "開発プロセス・課題種別・リリース・Atlassian連携を優先するならJira、開発以外も含めタスク・文書・目標・時間を一つにまとめるならClickUpが有力です。", "en": "Choose Jira for development workflows, issue types, releases, and Atlassian integration; choose ClickUp to consolidate tasks, docs, goals, and time across technical and non-technical teams."},
+    "slug": "jira-vs-clickup",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "jira",
+      "clickup"
+    ],
+    "angle": {
+      "ja": "開発管理とオールインワン業務管理を比較",
+      "en": "Development Depth or All-in-One Work Management?"
+    },
+    "axis": {
+      "ja": "技術課題・リリースの専門性と全社タスク・文書・目標の集約",
+      "en": "specialized technical delivery versus consolidated tasks, docs, and goals"
+    },
+    "verdict": {
+      "ja": "開発プロセス・課題種別・リリース・Atlassian連携を優先するならJira、開発以外も含めタスク・文書・目標・時間を一つにまとめるならClickUpが有力です。",
+      "en": "Choose Jira for development workflows, issue types, releases, and Atlassian integration; choose ClickUp to consolidate tasks, docs, goals, and time across technical and non-technical teams."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "wrike-vs-asana", "category": "business-software", "topic": "project-management", "products": ["wrike", "asana"],
-    "angle": {"ja": "企業向け統制と使いやすい仕事管理を比較", "en": "Enterprise Control or Accessible Work Management?"},
-    "axis": {"ja": "リソース・承認・企業レポートの統制とチームが定着しやすいプロジェクト標準", "en": "resource and approval governance versus accessible project standardization"},
-    "verdict": {"ja": "複数部門のリソース・承認・校正・経営レポートを細かく統制するならWrike、担当・期限・依存関係・目標を幅広いチームへ定着させるならAsanaが向きます。", "en": "Choose Wrike for detailed cross-functional resources, approvals, proofing, and executive reporting; choose Asana to spread clear ownership, dates, dependencies, and goals across teams."},
+    "slug": "wrike-vs-asana",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "wrike",
+      "asana"
+    ],
+    "angle": {
+      "ja": "企業向け統制と使いやすい仕事管理を比較",
+      "en": "Enterprise Control or Accessible Work Management?"
+    },
+    "axis": {
+      "ja": "リソース・承認・企業レポートの統制とチームが定着しやすいプロジェクト標準",
+      "en": "resource and approval governance versus accessible project standardization"
+    },
+    "verdict": {
+      "ja": "複数部門のリソース・承認・校正・経営レポートを細かく統制するならWrike、担当・期限・依存関係・目標を幅広いチームへ定着させるならAsanaが向きます。",
+      "en": "Choose Wrike for detailed cross-functional resources, approvals, proofing, and executive reporting; choose Asana to spread clear ownership, dates, dependencies, and goals across teams."
+    },
     "alternativeProduct": "monday"
   },
   {
-    "slug": "airtable-vs-notion", "category": "business-software", "topic": "project-management", "products": ["airtable", "notion"],
-    "angle": {"ja": "業務データベースとWiki・文書を比較", "en": "Operational Database or Wiki and Docs?"},
-    "axis": {"ja": "関連データを使う業務アプリと文書・知識・軽量データベースの統合", "en": "relational operational apps versus integrated documents, knowledge, and lighter databases"},
-    "verdict": {"ja": "顧客・案件・在庫・コンテンツなど関連データを業務アプリとして運用するならAirtable、Wiki・議事録・企画・データベースを一つの柔軟な作業空間へまとめるならNotionが向きます。", "en": "Choose Airtable to run related customer, project, inventory, or content data as operational apps; choose Notion to combine wiki, notes, plans, and flexible databases in one workspace."},
+    "slug": "airtable-vs-notion",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "airtable",
+      "notion"
+    ],
+    "angle": {
+      "ja": "業務データベースとWiki・文書を比較",
+      "en": "Operational Database or Wiki and Docs?"
+    },
+    "axis": {
+      "ja": "関連データを使う業務アプリと文書・知識・軽量データベースの統合",
+      "en": "relational operational apps versus integrated documents, knowledge, and lighter databases"
+    },
+    "verdict": {
+      "ja": "顧客・案件・在庫・コンテンツなど関連データを業務アプリとして運用するならAirtable、Wiki・議事録・企画・データベースを一つの柔軟な作業空間へまとめるならNotionが向きます。",
+      "en": "Choose Airtable to run related customer, project, inventory, or content data as operational apps; choose Notion to combine wiki, notes, plans, and flexible databases in one workspace."
+    },
     "alternativeProduct": "clickup"
   },
   {
-    "slug": "todoist-vs-trello", "category": "business-software", "topic": "project-management", "products": ["todoist", "trello"],
-    "angle": {"ja": "個人ToDoとチームのカンバンを比較", "en": "Personal Task Focus or Team Kanban?"},
-    "axis": {"ja": "個人の日次実行・期限管理とチームで共有する視覚的な作業フロー", "en": "personal daily execution versus a shared visual team workflow"},
-    "verdict": {"ja": "個人のタスク・繰り返し・優先度・予定を素早く整理するならTodoist、チームがカードを動かしながら状態と担当を共有するならTrelloが向きます。", "en": "Choose Todoist for fast personal tasks, recurring work, priorities, and schedule; choose Trello when a team needs shared visual status and ownership through cards."},
+    "slug": "todoist-vs-trello",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "todoist",
+      "trello"
+    ],
+    "angle": {
+      "ja": "個人ToDoとチームのカンバンを比較",
+      "en": "Personal Task Focus or Team Kanban?"
+    },
+    "axis": {
+      "ja": "個人の日次実行・期限管理とチームで共有する視覚的な作業フロー",
+      "en": "personal daily execution versus a shared visual team workflow"
+    },
+    "verdict": {
+      "ja": "個人のタスク・繰り返し・優先度・予定を素早く整理するならTodoist、チームがカードを動かしながら状態と担当を共有するならTrelloが向きます。",
+      "en": "Choose Todoist for fast personal tasks, recurring work, priorities, and schedule; choose Trello when a team needs shared visual status and ownership through cards."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "basecamp-vs-monday", "category": "business-software", "topic": "project-management", "products": ["basecamp", "monday"],
-    "angle": {"ja": "シンプルな案件共有と柔軟な業務設計を比較", "en": "Calm Project Communication or Configurable Workflows?"},
-    "axis": {"ja": "案件単位の会話・ToDo・顧客共有とボード・列・自動化の自由な設計", "en": "project-centered communication versus highly configurable boards and automation"},
-    "verdict": {"ja": "社内外の会話・ToDo・予定・資料を案件ごとに穏やかにまとめるならBasecamp、部門ごとにデータ項目・ビュー・自動化を細かく変えるならmonday.comが向きます。", "en": "Choose Basecamp to calmly gather internal and client discussion, tasks, schedules, and files by project; choose monday.com for department-specific fields, views, and automation."},
+    "slug": "basecamp-vs-monday",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": [
+      "basecamp",
+      "monday"
+    ],
+    "angle": {
+      "ja": "シンプルな案件共有と柔軟な業務設計を比較",
+      "en": "Calm Project Communication or Configurable Workflows?"
+    },
+    "axis": {
+      "ja": "案件単位の会話・ToDo・顧客共有とボード・列・自動化の自由な設計",
+      "en": "project-centered communication versus highly configurable boards and automation"
+    },
+    "verdict": {
+      "ja": "社内外の会話・ToDo・予定・資料を案件ごとに穏やかにまとめるならBasecamp、部門ごとにデータ項目・ビュー・自動化を細かく変えるならmonday.comが向きます。",
+      "en": "Choose Basecamp to calmly gather internal and client discussion, tasks, schedules, and files by project; choose monday.com for department-specific fields, views, and automation."
+    },
     "alternativeProduct": "asana"
   },
   {
-    "slug": "zoom-vs-microsoft-teams", "category": "business-software", "topic": "video-meetings", "products": ["zoom", "microsoft-teams"],
-    "angle": {"ja": "オンライン会議とMicrosoft 365連携を比較", "en": "External Meetings or Microsoft 365 Collaboration?"},
-    "axis": {"ja": "社外参加者にも使いやすい会議とMicrosoft 365内のチャット・ファイル・会議", "en": "accessible external meetings versus integrated Microsoft 365 chat, files, and meetings"},
-    "verdict": {"ja": "社外参加者を含む会議・ウェビナーの分かりやすさと拡張性ならZoom Workplace、Microsoft 365のチャット・ファイル・予定・会議を一つにするならMicrosoft Teamsが向きます。", "en": "Choose Zoom Workplace for accessible external meetings, webinars, and meeting-product breadth; choose Microsoft Teams to unify chat, files, calendars, and meetings inside Microsoft 365."},
+    "slug": "zoom-vs-microsoft-teams",
+    "category": "business-software",
+    "topic": "video-meetings",
+    "products": [
+      "zoom",
+      "microsoft-teams"
+    ],
+    "angle": {
+      "ja": "オンライン会議とMicrosoft 365連携を比較",
+      "en": "External Meetings or Microsoft 365 Collaboration?"
+    },
+    "axis": {
+      "ja": "社外参加者にも使いやすい会議とMicrosoft 365内のチャット・ファイル・会議",
+      "en": "accessible external meetings versus integrated Microsoft 365 chat, files, and meetings"
+    },
+    "verdict": {
+      "ja": "社外参加者を含む会議・ウェビナーの分かりやすさと拡張性ならZoom Workplace、Microsoft 365のチャット・ファイル・予定・会議を一つにするならMicrosoft Teamsが向きます。",
+      "en": "Choose Zoom Workplace for accessible external meetings, webinars, and meeting-product breadth; choose Microsoft Teams to unify chat, files, calendars, and meetings inside Microsoft 365."
+    },
     "alternativeProduct": "slack"
   },
-
   {
-    "slug": "hostinger-vs-kinsta", "category": "hosting-security", "topic": "web-hosting", "products": ["hostinger", "kinsta"],
-    "angle": {"ja": "低価格ホスティングと高性能WordPress運用を比較", "en": "Budget Hosting or Premium Managed WordPress?"},
-    "axis": {"ja": "長期契約で抑える総合ホスティングと高性能なWordPress専門運用", "en": "cost-conscious general hosting versus premium WordPress-specialist operations"},
-    "verdict": {"ja": "小規模サイト・メール・ドメインを低コストでまとめるならHostinger、重要なWordPressサイトの性能・監視・ステージング・専門サポートを優先するならKinstaが向きます。", "en": "Choose Hostinger to bundle a smaller site, email, and domain at lower cost; choose Kinsta for performance, monitoring, staging, and specialist support on important WordPress sites."},
-    "alternativeProduct": "siteground"
+    "slug": "hostinger-vs-kinsta",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "hostinger",
+      "kinsta"
+    ],
+    "angle": {
+      "ja": "低価格ホスティングと高性能WordPress運用を比較",
+      "en": "Budget Hosting or Premium Managed WordPress?"
+    },
+    "axis": {
+      "ja": "長期契約で抑える総合ホスティングと高性能なWordPress専門運用",
+      "en": "cost-conscious general hosting versus premium WordPress-specialist operations"
+    },
+    "verdict": {
+      "ja": "小規模サイト・メール・ドメインを低コストでまとめるならHostinger、重要なWordPressサイトの性能・監視・ステージング・専門サポートを優先するならKinstaが向きます。",
+      "en": "Choose Hostinger to bundle a smaller site, email, and domain at lower cost; choose Kinsta for performance, monitoring, staging, and specialist support on important WordPress sites."
+    },
+    "alternativeProduct": "siteground",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "siteground-vs-cloudways", "category": "hosting-security", "topic": "web-hosting", "products": ["siteground", "cloudways"],
-    "angle": {"ja": "管理の手軽さとクラウド選択の自由度を比較", "en": "Simpler Management or Cloud Choice?"},
-    "axis": {"ja": "一体型のWordPress運用とクラウド事業者・サーバーサイズを選ぶ柔軟性", "en": "integrated WordPress operations versus flexible cloud provider and server sizing"},
-    "verdict": {"ja": "管理画面・メール・WordPress支援を一体で使うならSiteGround、クラウド事業者とサーバーサイズを選び性能を段階的に調整するならCloudwaysが向きます。", "en": "Choose SiteGround for an integrated control panel, email, and WordPress assistance; choose Cloudways to select a cloud provider and resize managed server resources over time."},
-    "alternativeProduct": "hostinger"
+    "slug": "siteground-vs-cloudways",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "siteground",
+      "cloudways"
+    ],
+    "angle": {
+      "ja": "管理の手軽さとクラウド選択の自由度を比較",
+      "en": "Simpler Management or Cloud Choice?"
+    },
+    "axis": {
+      "ja": "一体型のWordPress運用とクラウド事業者・サーバーサイズを選ぶ柔軟性",
+      "en": "integrated WordPress operations versus flexible cloud provider and server sizing"
+    },
+    "verdict": {
+      "ja": "管理画面・メール・WordPress支援を一体で使うならSiteGround、クラウド事業者とサーバーサイズを選び性能を段階的に調整するならCloudwaysが向きます。",
+      "en": "Choose SiteGround for an integrated control panel, email, and WordPress assistance; choose Cloudways to select a cloud provider and resize managed server resources over time."
+    },
+    "alternativeProduct": "hostinger",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "siteground-vs-kinsta", "category": "hosting-security", "topic": "web-hosting", "products": ["siteground", "kinsta"],
-    "angle": {"ja": "中小サイト運用とプレミアムWordPressを比較", "en": "General WordPress Value or Premium Managed Hosting?"},
-    "axis": {"ja": "複数の中小サイトをまとめる費用と重要サイトの性能・監視・専門運用", "en": "value across smaller sites versus specialist performance and monitoring for critical WordPress"},
-    "verdict": {"ja": "複数の中小WordPressサイトとメールを比較的手頃に運用するならSiteGround、重要サイトへ性能・観測・開発環境・専門サポートを集中するならKinstaが向きます。", "en": "Choose SiteGround for comparatively accessible operation of several smaller WordPress sites and email; choose Kinsta to concentrate performance, observability, development tools, and specialist support on critical sites."},
-    "alternativeProduct": "wp-engine"
+    "slug": "siteground-vs-kinsta",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "siteground",
+      "kinsta"
+    ],
+    "angle": {
+      "ja": "中小サイト運用とプレミアムWordPressを比較",
+      "en": "General WordPress Value or Premium Managed Hosting?"
+    },
+    "axis": {
+      "ja": "複数の中小サイトをまとめる費用と重要サイトの性能・監視・専門運用",
+      "en": "value across smaller sites versus specialist performance and monitoring for critical WordPress"
+    },
+    "verdict": {
+      "ja": "複数の中小WordPressサイトとメールを比較的手頃に運用するならSiteGround、重要サイトへ性能・観測・開発環境・専門サポートを集中するならKinstaが向きます。",
+      "en": "Choose SiteGround for comparatively accessible operation of several smaller WordPress sites and email; choose Kinsta to concentrate performance, observability, development tools, and specialist support on critical sites."
+    },
+    "alternativeProduct": "wp-engine",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "cloudways-vs-wp-engine", "category": "hosting-security", "topic": "web-hosting", "products": ["cloudways", "wp-engine"],
-    "angle": {"ja": "クラウド自由度とWordPress専門運用を比較", "en": "Cloud Flexibility or WordPress Specialization?"},
-    "axis": {"ja": "クラウド基盤・サイズ選択の柔軟性とWordPress向け更新・性能・サポートの一体化", "en": "cloud-provider flexibility versus integrated WordPress updates, performance, and support"},
-    "verdict": {"ja": "複数クラウドからサーバーを選びアプリ単位で拡張するならCloudways、WordPressの更新・キャッシュ・ステージング・専門サポートを一つの運用へまとめるならWP Engineが向きます。", "en": "Choose Cloudways to select and resize managed servers across cloud providers; choose WP Engine to combine WordPress updates, caching, staging, security, and specialist support."},
-    "alternativeProduct": "kinsta"
+    "slug": "cloudways-vs-wp-engine",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "cloudways",
+      "wp-engine"
+    ],
+    "angle": {
+      "ja": "クラウド自由度とWordPress専門運用を比較",
+      "en": "Cloud Flexibility or WordPress Specialization?"
+    },
+    "axis": {
+      "ja": "クラウド基盤・サイズ選択の柔軟性とWordPress向け更新・性能・サポートの一体化",
+      "en": "cloud-provider flexibility versus integrated WordPress updates, performance, and support"
+    },
+    "verdict": {
+      "ja": "複数クラウドからサーバーを選びアプリ単位で拡張するならCloudways、WordPressの更新・キャッシュ・ステージング・専門サポートを一つの運用へまとめるならWP Engineが向きます。",
+      "en": "Choose Cloudways to select and resize managed servers across cloud providers; choose WP Engine to combine WordPress updates, caching, staging, security, and specialist support."
+    },
+    "alternativeProduct": "kinsta",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "wp-engine-vs-siteground", "category": "hosting-security", "topic": "web-hosting", "products": ["wp-engine", "siteground"],
-    "angle": {"ja": "WordPress専門機能と料金・サイト数を比較", "en": "WordPress Specialization, Pricing, and Site Limits"},
-    "axis": {"ja": "企業向けWordPress運用機能と一般的な中小サイトの費用対効果", "en": "enterprise-oriented WordPress operations versus value for general small and mid-sized sites"},
-    "verdict": {"ja": "WordPress専門の更新・性能・セキュリティ・開発フローを重視するならWP Engine、複数の一般サイト・メール・WordPress支援を費用管理しながら運用するならSiteGroundが向きます。", "en": "Choose WP Engine for specialist WordPress updates, performance, security, and development workflows; choose SiteGround for cost-managed operation of general sites, email, and WordPress assistance."},
-    "alternativeProduct": "kinsta"
+    "slug": "wp-engine-vs-siteground",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": [
+      "wp-engine",
+      "siteground"
+    ],
+    "angle": {
+      "ja": "WordPress専門機能と料金・サイト数を比較",
+      "en": "WordPress Specialization, Pricing, and Site Limits"
+    },
+    "axis": {
+      "ja": "企業向けWordPress運用機能と一般的な中小サイトの費用対効果",
+      "en": "enterprise-oriented WordPress operations versus value for general small and mid-sized sites"
+    },
+    "verdict": {
+      "ja": "WordPress専門の更新・性能・セキュリティ・開発フローを重視するならWP Engine、複数の一般サイト・メール・WordPress支援を費用管理しながら運用するならSiteGroundが向きます。",
+      "en": "Choose WP Engine for specialist WordPress updates, performance, security, and development workflows; choose SiteGround for cost-managed operation of general sites, email, and WordPress assistance."
+    },
+    "alternativeProduct": "kinsta",
+    "relatedRoutes": [
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
+    ]
   },
   {
-    "slug": "1password-vs-nordpass", "category": "hosting-security", "topic": "password-managers", "products": ["1password", "nordpass"],
-    "angle": {"ja": "家族・チーム管理と使いやすさを比較", "en": "Team Administration or Consumer Simplicity?"},
-    "axis": {"ja": "チーム・開発者・家族向けの共有管理と個人が始めやすいパスワード運用", "en": "team, developer, and family administration versus approachable personal password management"},
-    "verdict": {"ja": "チーム・家族・開発者の保管庫、共有、管理、周辺連携を重視するなら1Password、個人・家族が分かりやすい画面とNord系サービスの組み合わせで始めるならNordPassが向きます。", "en": "Choose 1Password for vaults, sharing, administration, and workflows across teams, families, and developers; choose NordPass for a straightforward personal or family experience and Nord-service bundles."},
+    "slug": "1password-vs-nordpass",
+    "category": "hosting-security",
+    "topic": "password-managers",
+    "products": [
+      "1password",
+      "nordpass"
+    ],
+    "angle": {
+      "ja": "家族・チーム管理と使いやすさを比較",
+      "en": "Team Administration or Consumer Simplicity?"
+    },
+    "axis": {
+      "ja": "チーム・開発者・家族向けの共有管理と個人が始めやすいパスワード運用",
+      "en": "team, developer, and family administration versus approachable personal password management"
+    },
+    "verdict": {
+      "ja": "チーム・家族・開発者の保管庫、共有、管理、周辺連携を重視するなら1Password、個人・家族が分かりやすい画面とNord系サービスの組み合わせで始めるならNordPassが向きます。",
+      "en": "Choose 1Password for vaults, sharing, administration, and workflows across teams, families, and developers; choose NordPass for a straightforward personal or family experience and Nord-service bundles."
+    },
     "alternativeProduct": "bitwarden"
   },
   {
-    "slug": "1password-vs-keeper", "category": "hosting-security", "topic": "password-managers", "products": ["1password", "keeper"],
-    "angle": {"ja": "チーム運用・管理・セキュリティを比較", "en": "Team Workflow, Administration, and Security"},
-    "axis": {"ja": "使いやすい保管庫・開発連携と企業向け管理・監査・追加セキュリティ", "en": "accessible vault and developer workflows versus enterprise administration and security add-ons"},
-    "verdict": {"ja": "日常の保管庫・共有・開発者ワークフローと導入しやすさなら1Password、企業の細かな管理・監査・追加セキュリティ製品を重視するならKeeperが有力です。", "en": "Choose 1Password for approachable daily vault, sharing, and developer workflows; choose Keeper when granular enterprise administration, auditing, and security add-ons are central."},
+    "slug": "1password-vs-keeper",
+    "category": "hosting-security",
+    "topic": "password-managers",
+    "products": [
+      "1password",
+      "keeper"
+    ],
+    "angle": {
+      "ja": "チーム運用・管理・セキュリティを比較",
+      "en": "Team Workflow, Administration, and Security"
+    },
+    "axis": {
+      "ja": "使いやすい保管庫・開発連携と企業向け管理・監査・追加セキュリティ",
+      "en": "accessible vault and developer workflows versus enterprise administration and security add-ons"
+    },
+    "verdict": {
+      "ja": "日常の保管庫・共有・開発者ワークフローと導入しやすさなら1Password、企業の細かな管理・監査・追加セキュリティ製品を重視するならKeeperが有力です。",
+      "en": "Choose 1Password for approachable daily vault, sharing, and developer workflows; choose Keeper when granular enterprise administration, auditing, and security add-ons are central."
+    },
     "alternativeProduct": "bitwarden"
   },
   {
-    "slug": "bitwarden-vs-nordpass", "category": "hosting-security", "topic": "password-managers", "products": ["bitwarden", "nordpass"],
-    "angle": {"ja": "オープンソースと初心者向け操作を比較", "en": "Open-Source Control or Beginner Simplicity?"},
-    "axis": {"ja": "オープンソース・自己ホスト・費用透明性と個人向けの分かりやすい導入", "en": "open-source and self-host control versus straightforward consumer onboarding"},
-    "verdict": {"ja": "オープンソース、自己ホスト選択、個人・組織の費用透明性を重視するならBitwarden、個人や家族が少ない設定で始めNord系サービスとまとめるならNordPassが向きます。", "en": "Choose Bitwarden for open-source transparency, optional self-hosting, and clear individual or organization paths; choose NordPass for simpler consumer onboarding and Nord-service bundles."},
+    "slug": "bitwarden-vs-nordpass",
+    "category": "hosting-security",
+    "topic": "password-managers",
+    "products": [
+      "bitwarden",
+      "nordpass"
+    ],
+    "angle": {
+      "ja": "オープンソースと初心者向け操作を比較",
+      "en": "Open-Source Control or Beginner Simplicity?"
+    },
+    "axis": {
+      "ja": "オープンソース・自己ホスト・費用透明性と個人向けの分かりやすい導入",
+      "en": "open-source and self-host control versus straightforward consumer onboarding"
+    },
+    "verdict": {
+      "ja": "オープンソース、自己ホスト選択、個人・組織の費用透明性を重視するならBitwarden、個人や家族が少ない設定で始めNord系サービスとまとめるならNordPassが向きます。",
+      "en": "Choose Bitwarden for open-source transparency, optional self-hosting, and clear individual or organization paths; choose NordPass for simpler consumer onboarding and Nord-service bundles."
+    },
     "alternativeProduct": "1password"
   },
   {
-    "slug": "bitwarden-vs-keeper", "category": "hosting-security", "topic": "password-managers", "products": ["bitwarden", "keeper"],
-    "angle": {"ja": "費用・オープンソース・企業管理を比較", "en": "Value, Open Source, and Enterprise Administration"},
-    "axis": {"ja": "オープンソースと費用効率・自己ホスト選択と企業向け管理・監査・追加機能", "en": "open-source value and self-hosting versus enterprise governance, auditing, and add-ons"},
-    "verdict": {"ja": "個人から組織までオープンソースと費用効率、自己ホスト選択を重視するならBitwarden、企業向けの管理・監査・レポート・周辺セキュリティを細かく整えるならKeeperが向きます。", "en": "Choose Bitwarden for open-source value and optional self-hosting across individual and organization use; choose Keeper for granular enterprise administration, auditing, reporting, and security extensions."},
+    "slug": "bitwarden-vs-keeper",
+    "category": "hosting-security",
+    "topic": "password-managers",
+    "products": [
+      "bitwarden",
+      "keeper"
+    ],
+    "angle": {
+      "ja": "費用・オープンソース・企業管理を比較",
+      "en": "Value, Open Source, and Enterprise Administration"
+    },
+    "axis": {
+      "ja": "オープンソースと費用効率・自己ホスト選択と企業向け管理・監査・追加機能",
+      "en": "open-source value and self-hosting versus enterprise governance, auditing, and add-ons"
+    },
+    "verdict": {
+      "ja": "個人から組織までオープンソースと費用効率、自己ホスト選択を重視するならBitwarden、企業向けの管理・監査・レポート・周辺セキュリティを細かく整えるならKeeperが向きます。",
+      "en": "Choose Bitwarden for open-source value and optional self-hosting across individual and organization use; choose Keeper for granular enterprise administration, auditing, reporting, and security extensions."
+    },
     "alternativeProduct": "1password"
   },
   {
-    "slug": "nordvpn-vs-surfshark", "category": "hosting-security", "topic": "vpn-services", "products": ["nordvpn", "surfshark"],
-    "angle": {"ja": "料金・端末数・セキュリティ機能を比較", "en": "Pricing, Devices, and Security Bundles Compared"},
-    "axis": {"ja": "成熟したVPN・セキュリティバンドルと多数端末で使う費用対効果", "en": "a mature VPN security bundle versus value across many devices"},
-    "verdict": {"ja": "VPN性能と脅威対策・監視等の段階的なバンドルを重視するならNordVPN、多数端末で使いながら必要な監視・ウイルス対策・情報保護を選ぶならSurfsharkが有力です。", "en": "Choose NordVPN for a mature VPN experience and tiered threat or monitoring bundles; choose Surfshark for value across many devices with optional monitoring, antivirus, and personal-data tools."},
+    "slug": "nordvpn-vs-surfshark",
+    "category": "hosting-security",
+    "topic": "vpn-services",
+    "products": [
+      "nordvpn",
+      "surfshark"
+    ],
+    "angle": {
+      "ja": "料金・端末数・セキュリティ機能を比較",
+      "en": "Pricing, Devices, and Security Bundles Compared"
+    },
+    "axis": {
+      "ja": "成熟したVPN・セキュリティバンドルと多数端末で使う費用対効果",
+      "en": "a mature VPN security bundle versus value across many devices"
+    },
+    "verdict": {
+      "ja": "VPN性能と脅威対策・監視等の段階的なバンドルを重視するならNordVPN、多数端末で使いながら必要な監視・ウイルス対策・情報保護を選ぶならSurfsharkが有力です。",
+      "en": "Choose NordVPN for a mature VPN experience and tiered threat or monitoring bundles; choose Surfshark for value across many devices with optional monitoring, antivirus, and personal-data tools."
+    },
     "alternativeProduct": "proton-vpn"
   }
 ]

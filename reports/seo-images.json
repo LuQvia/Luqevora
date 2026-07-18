@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-18T21:31:32.834Z",
+  "generatedAt": "2026-07-18T22:00:10.550Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 250,
+  "imageCount": 258,
   "generatedCount": 0,
-  "reusedCount": 250,
+  "reusedCount": 258,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -210,6 +210,12 @@
       "route": "/en/hosting-security/business-web-hosting-comparison/",
       "image": "source-assets/images/articles/en/hosting-security/business-web-hosting-comparison.jpg",
       "fingerprint": "97e750063dd769329573d4e1b86f3c7a7ad251f84b64386f9ece4d161fa0bfcd",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/business-wordpress-hosting-comparison/",
+      "image": "source-assets/images/articles/en/hosting-security/business-wordpress-hosting-comparison.jpg",
+      "fingerprint": "fce09f4f657b358c1a5d85fa0a4b95b31885ecdeaa40e294e50b87299f532b56",
       "status": "reused"
     },
     {
@@ -474,6 +480,24 @@
       "route": "/en/hosting-security/wpx-speed-review/",
       "image": "source-assets/images/articles/en/hosting-security/wpx-speed-review.jpg",
       "fingerprint": "68ef1fe95a5e6e0cf4d5360abb6c9f38824044d65e896358c7e54758b71f474e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-for-wordpress-review/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-for-wordpress-review.jpg",
+      "fingerprint": "8bb48fa6177acb63dc842c6d4f138fbf4e2c575633de5d791252185296dbcc3f",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-for-wordpress-vs-cpi.jpg",
+      "fingerprint": "5d4a771bba54009dc29008ad3143c36d2bab968226487fb8f6de9213bef7b33b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-for-wordpress-vs-xserver-business.jpg",
+      "fingerprint": "6526cd9f47f1170311b77ef5b0cb82e9ae06e3d85ca60b3554ce6a5d58f40000",
       "status": "reused"
     },
     {
@@ -963,6 +987,12 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "image": "source-assets/images/articles/ja/hosting-security/business-wordpress-hosting-comparison.jpg",
+      "fingerprint": "4d43a75dfd8cfcd92ee639ce38c07af6fa1396300223d5a3d946f88139e14f4b",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/cloudways-guide/",
       "image": "source-assets/images/articles/ja/hosting-security/cloudways-guide.jpg",
       "fingerprint": "f5e5bd2ca39056876fece25d45812fc9b7403da7c612d73e96370091ef829c6d",
@@ -1224,6 +1254,24 @@
       "route": "/ja/hosting-security/wpx-speed-review/",
       "image": "source-assets/images/articles/ja/hosting-security/wpx-speed-review.jpg",
       "fingerprint": "fd03db7523a447f62bcab2b34bffff889e8e8a8202f8bef78d7e40bbaae94d4c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-for-wordpress-review.jpg",
+      "fingerprint": "e5f9c3694a3325f670e2177b41279a9d2c641f91616ccaf6b7aa7a6e30cb8317",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-for-wordpress-vs-cpi.jpg",
+      "fingerprint": "a476bc4adb5f3a17932bd269846eb67c50402b793a228a726cbe57cc62fb259a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-for-wordpress-vs-xserver-business.jpg",
+      "fingerprint": "86a3e46e177372bdee161c1656e026cd4925a5d947a79d579d4d65e7361a78f2",
       "status": "reused"
     },
     {

@@ -296,9 +296,17 @@
     "topic": "password-managers"
   },
   {
-    "title": "Business Web Hosting in Japan: CPI, XServer and ConoHa",
-    "description": "Compare CPI, XServer Business and ConoHa WING Business using official pricing, capacity, backup, email, SLA, support, and contract information.",
+    "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
+    "description": "Compare CPI, XServer Business, XServer for WordPress, and ConoHa WING Business by price, email, WordPress operations, backup, SLA, and support.",
     "url": "/en/hosting-security/business-web-hosting-comparison/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Business WordPress Hosting: XServer, Kinsta and WP Engine",
+    "description": "Compare XServer for WordPress, Kinsta, and WP Engine by pricing model, sites, staging, backups, access, support, currency, and operating fit.",
+    "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -619,6 +627,30 @@
     "title": "wpX Speed Review: Japan-Focused Managed WordPress Hosting",
     "description": "Review wpX Speed using official information on its WordPress-only design, pricing model, NVMe, autoscaling, backups, and limitations.",
     "url": "/en/hosting-security/wpx-speed-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer for WordPress Review for Japanese Businesses",
+    "description": "Review XServer for WordPress using official information on plans, staging, subaccounts, SLA, domains, support, trials, and the lack of mailbox hosting.",
+    "url": "/en/hosting-security/xserver-for-wordpress-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer for WordPress vs CPI for Business Websites in Japan",
+    "description": "Compare XServer for WordPress and CPI across WordPress administration, business email, staging, backups, SLA, pricing, and support.",
+    "url": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer for WordPress vs XServer Business",
+    "description": "Compare XServer for WordPress and XServer Business by scope, WordPress administration, email, storage, SLA, setup assistance, and price structure.",
+    "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -1592,6 +1624,30 @@
     "topic": "web-hosting"
   },
   {
+    "title": "XServer for WordPressとCPIを比較｜法人サイトにはどっち？",
+    "description": "XServer for WordPressとCPIを、WordPress管理、メール、ステージング、バックアップ、SLA、料金、サポートから比較します。",
+    "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
+    "description": "XServer for WordPressとXServerビジネスを、用途、WordPress管理、メール、容量、SLA、移転支援、料金から比較します。",
+    "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer for WordPressレビュー｜法人向け料金・機能・注意点",
+    "description": "XServer for WordPressを料金、サイト数、ステージング、SLA、ドメイン、サポート、メール非対応の注意点から公式情報で検証します。",
+    "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Zoho Vaultレビュー｜Free・Standard・Professional・Enterpriseの共有・管理機能を確認",
     "description": "Zoho VaultのFree、Standard、Professional、Enterpriseを、共有、管理者権限、緊急アクセス、SSO、SIEM、試用条件で公式情報から整理します。",
     "url": "/ja/hosting-security/zoho-vault-review/",
@@ -1624,8 +1680,16 @@
     "topic": "password-managers"
   },
   {
-    "title": "法人向けレンタルサーバー3社比較｜CPI・XServer・ConoHa",
-    "description": "CPI、XServerビジネス、ConoHa WINGビジネスを、料金、容量、バックアップ、メール、SLA、サポートから公式情報で比較します。",
+    "title": "法人向けWordPressホスティング3社比較｜XServer・Kinsta・WP Engine",
+    "description": "XServer for WordPress、Kinsta、WP Engineを、料金体系、サイト数、ステージング、バックアップ、権限、サポートから比較します。",
+    "url": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+    "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
     "url": "/ja/hosting-security/business-web-hosting-comparison/",
     "language": "ja",
     "category": "hosting-security",

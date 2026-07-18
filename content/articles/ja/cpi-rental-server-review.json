@@ -168,6 +168,21 @@
       "label": "小規模事業向けサーバー比較",
       "url": "/ja/hosting-security/web-hosting-small-business/",
       "description": "低価格帯を含むサーバー候補を確認"
+    },
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "法人向けWordPress専用ホスティングを確認"
+    },
+    {
+      "label": "XServer for WordPressとCPIの比較",
+      "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "WordPress管理と法人メール運用を比較"
+    },
+    {
+      "label": "法人向けWordPressホスティング比較",
+      "url": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "XServer for WordPress、Kinsta、WP Engineを比較"
     }
   ]
 }

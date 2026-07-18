@@ -274,7 +274,7 @@ function validatedRawAffiliateHtml(entry, key) {
   return raw;
 }
 
-function renderSection(section, index) {
+function renderSection(section, index, language) {
   const paragraphs = (section.body || []).map(paragraph => `<p>${esc(paragraph)}</p>`).join('');
   const bullets = (section.bullets || []).length
     ? `<ul class="fact-list">${section.bullets.map(item => `<li>${esc(item)}</li>`).join('')}</ul>`
@@ -283,7 +283,12 @@ function renderSection(section, index) {
     ? `<div class="table-scroll"><table class="comparison-table review-table"><thead><tr>${section.table.headers.map(item => `<th scope="col">${esc(item)}</th>`).join('')}</tr></thead><tbody>${section.table.rows.map(row => `<tr>${row.map((cell, cellIndex) => `<td${cellIndex === 0 ? ' class="tool-name"' : ''}>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`
     : '';
   const callout = section.callout ? `<div class="notice">${esc(section.callout)}</div>` : '';
-  return `<section id="section-${index + 1}"><h2>${esc(section.heading)}</h2>${paragraphs}${table}${bullets}${callout}</section>`;
+  const materialKey = section.affiliateMaterialKey || '';
+  const entry = configuredAffiliateEntry(materialKey, language);
+  const affiliateMaterial = entry?.type === 'rawHtml'
+    ? `<aside class="section-affiliate-material" aria-label="${esc(currentLabel(language, '広告', 'Advertisement'))}"><span class="article-cta-material" data-affiliate-key="${esc(materialKey)}" data-affiliate-position="section-${index + 1}">${validatedRawAffiliateHtml(entry, materialKey)}</span>${section.affiliateNote ? `<p>${esc(section.affiliateNote)}</p>` : ''}</aside>`
+    : '';
+  return `<section id="section-${index + 1}"><h2>${esc(section.heading)}</h2>${paragraphs}${table}${bullets}${callout}${affiliateMaterial}</section>`;
 }
 
 function renderArticleCtas(article) {
@@ -401,9 +406,9 @@ async function normalizePublicChrome() {
     if (cookieOnly) html = html.replace(/<section\b[^>]*class=["'][^"']*\bcookie-banner\b[^"']*["'][^>]*>[\s\S]*?<\/section>/i, cookieOnly);
     html = html.replaceAll('レビューレビュー', 'レビュー').replaceAll('ガイドガイド', 'ガイド').replaceAll('比較比較', '比較');
     html = html.replace(/\/assets\/css\/style\.css(?:\?v=[^"']+)?/g, `/assets/css/style.css?v=${site.assetVersion}`);
-    html = html.replace(/\/assets\/js\/analytics-v4\.(?:2|5)\.0\.js/g, '/assets/js/analytics-v4.6.0.js');
-    html = html.replace(/\/assets\/js\/main-v4\.(?:2|5)\.0\.js/g, '/assets/js/main-v4.6.0.js');
-    html = html.replace(/\/assets\/js\/article-directory-v4\.(?:2|5)\.0\.js/g, '/assets/js/article-directory-v4.6.0.js');
+    html = html.replace(/\/assets\/js\/analytics-v4\.\d+\.\d+\.js/g, '/assets/js/analytics-v4.7.0.js');
+    html = html.replace(/\/assets\/js\/main-v4\.\d+\.\d+\.js/g, '/assets/js/main-v4.7.0.js');
+    html = html.replace(/\/assets\/js\/article-directory-v4\.\d+\.\d+\.js/g, '/assets/js/article-directory-v4.7.0.js');
     html = replaceOrInsertXDefault(html, defaultUrl);
     if (!/type=["']application\/rss\+xml["']/i.test(html)) {
       html = html.replace('</head>', `  <link rel="alternate" type="application/rss+xml" title="Luqevora ${language}" href="/feed-${language}.xml">\n</head>`);
@@ -508,7 +513,7 @@ for (const article of articles) {
     editorialNote,
     affiliateDisclosure: disclosure,
     articleCtas: articleCtas.html,
-    body: (article.sections || []).map(renderSection).join(''),
+    body: (article.sections || []).map((section, index) => renderSection(section, index, article.language)).join(''),
     faq: faqHtml,
     evidencePanel: evidencePanel(article, topic),
     sources: sourceHtml,

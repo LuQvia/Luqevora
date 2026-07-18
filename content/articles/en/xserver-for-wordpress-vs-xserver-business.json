@@ -1,0 +1,199 @@
+{
+  "id": "xserver-for-wordpress-vs-xserver-business-en",
+  "translationKey": "xserver-for-wordpress-vs-xserver-business",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-for-wordpress-vs-xserver-business",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Business hosting comparison",
+  "title": "XServer for WordPress vs XServer Business",
+  "metaTitle": "XServer for WordPress vs XServer Business: Key Differences",
+  "description": "Compare XServer for WordPress and XServer Business by scope, WordPress administration, email, storage, SLA, setup assistance, and price structure.",
+  "lead": "XServer for WordPress specializes in WordPress site operations. XServer Business is a broader Japanese business hosting platform for websites, mailboxes, server settings, and multiple application types.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-official"
+    },
+    {
+      "label": "Check XServer Business",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "affiliateKey": "xserver-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress official site",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress pricing",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress features",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "Fourteen-day trial terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Domain benefit terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Service-level agreement",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "Staging synchronization",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "Subaccounts",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "Setup assistance",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress expert support",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "Mailbox availability FAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    },
+    {
+      "label": "XServer Business official site",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Business pricing",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Business features",
+      "url": "https://business.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "XServer Business SLA",
+      "url": "https://business.xserver.ne.jp/feature/detail_sla.php"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: WordPress specialization or general business hosting",
+      "body": [
+        "Choose XServer for WordPress for WP Panel, site copying, grouped updates, staging, site-level subaccounts, and resource allocation. Choose XServer Business when mailboxes, general web hosting, broader server features, and extensive setup assistance are required.",
+        "Separate WordPress expert investigation from routine server configuration assistance when comparing support."
+      ]
+    },
+    {
+      "heading": "Core feature differences",
+      "body": [
+        "XServer for WordPress is designed around WordPress-specific administration: WP Panel, staging, site copying, grouped updates, site-level subaccounts, and resource assignment. XServer Business is general-purpose business hosting that includes ordinary website and email functions and a broader set of server-account operations.",
+        "Using the same provider does not make the products interchangeable. Select the operating model first. A WordPress portfolio with separate owners and a standardized release process has different requirements from a corporate account that also hosts mailboxes, static sites, forms, and other server functions."
+      ],
+      "table": {
+        "headers": [
+          "Factor",
+          "XServer for WordPress",
+          "XServer Business"
+        ],
+        "rows": [
+          [
+            "Scope",
+            "WordPress-only",
+            "General web and email hosting"
+          ],
+          [
+            "Mailboxes",
+            "Not available",
+            "Available"
+          ],
+          [
+            "WordPress workflow",
+            "WP Panel, grouped updates, copies, staging",
+            "WordPress on a general server control panel"
+          ],
+          [
+            "Access",
+            "Site-specific subaccounts",
+            "Business administration features"
+          ],
+          [
+            "Setup help",
+            "WordPress setup; some work quoted",
+            "Published server-panel setup assistance"
+          ],
+          [
+            "SLA scope",
+            "Web, FTP, database",
+            "Web, email, FTP, database"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Pricing and capacity",
+      "body": [
+        "XServer for WordPress starts with 500 GB on Basic, while XServer Business shared Standard lists 700 GB. Basic and Standard XServer for WordPress have no setup fee; XServer Business shared hosting lists a setup fee.",
+        "Normalize temporary campaigns, setup fees, mailboxes, domains, and the entire selected commitment. Storage capacity alone should not determine the decision. Include the number of WordPress sites, staging copies, database and media growth, backup handling, administrator time, and any separate email subscription.",
+        "The two services also expose different plan structures and support benefits. Confirm the current product pages and checkout totals because campaign prices and included benefits may change after the article verification date."
+      ]
+    },
+    {
+      "heading": "Agency and multi-operator fit",
+      "body": [
+        "XServer for WordPress is easier to shortlist for agencies that need site-specific access and a repeatable staging workflow. XServer Business is broader when teams also own mailboxes, static sites, server scripts, and general account configuration.",
+        "For agency use, test whether a client can receive only the access required for its site, whether staging changes can be reviewed safely, and how the agency exports the site at contract termination. For general business hosting, test mailbox migration, DNS changes, form delivery, account permissions, and the scope of setup assistance."
+      ]
+    },
+    {
+      "heading": "Trial checklist",
+      "body": [
+        "Test migration, staging synchronization, mail, backup restoration, user roles, and support response before purchase. Trial restrictions differ.",
+        "Document a pass or fail result for every critical workflow rather than relying on feature names. Confirm whether email is part of the selected service, who owns the domain, how a complete backup is obtained, how quickly production can be restored, and which support request types are included or separately quoted."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which service provides business mailboxes?",
+      "answer": "XServer Business provides email accounts. XServer for WordPress does not."
+    },
+    {
+      "question": "Which is more specialized for multiple WordPress sites?",
+      "answer": "XServer for WordPress provides the more specialized WP Panel, staging, copy, and site-specific access workflow."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPress review",
+      "url": "/en/hosting-security/xserver-for-wordpress-review/",
+      "description": "Review the specialized WordPress platform"
+    },
+    {
+      "label": "Japan business hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Compare CPI, XServer, and other business options"
+    },
+    {
+      "label": "XServer for WordPress versus CPI",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "Compare WordPress specialization and integrated email"
+    }
+  ]
+}

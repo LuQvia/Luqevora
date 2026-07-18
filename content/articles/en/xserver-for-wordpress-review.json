@@ -1,0 +1,186 @@
+{
+  "id": "xserver-for-wordpress-review-en",
+  "translationKey": "xserver-for-wordpress-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "xserver-for-wordpress-review",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official-source review",
+  "title": "XServer for WordPress Review for Japanese Businesses",
+  "metaTitle": "XServer for WordPress Review: Plans, Staging and Limits",
+  "description": "Review XServer for WordPress using official information on plans, staging, subaccounts, SLA, domains, support, trials, and the lack of mailbox hosting.",
+  "lead": "XServer for WordPress is a Japan-focused platform for organizations and agencies that want to manage multiple WordPress sites through a dedicated panel, staging environments, resource allocation, and role separation. It does not provide mailboxes, so business email requires another service.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress official site",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress pricing",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress features",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "Fourteen-day trial terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Domain benefit terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Service-level agreement",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "Staging synchronization",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "Subaccounts",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "Setup assistance",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress expert support",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "Mailbox availability FAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: designed for standardized WordPress operations",
+      "body": [
+        "The platform centralizes WordPress installation, migration, copying, updates, staging, resource allocation, and user access in WP Panel. It is most relevant when several sites or client accounts must follow a repeatable operating process.",
+        "It does not create email accounts. WordPress can send application messages within published limits, but business mailboxes need XServer Business, another mail host, or a productivity suite."
+      ],
+      "bullets": [
+        "Best fit: agencies and companies managing several WordPress sites",
+        "Best fit: teams that need staging and site-specific access",
+        "Compare alternatives when website and email hosting must share one contract"
+      ]
+    },
+    {
+      "heading": "Plans and current pricing structure",
+      "body": [
+        "The provider lists three, six, twelve, twenty-four, and thirty-six-month terms. The pricing page displayed a promotion through September 15, 2026 at the verification date. Basic and Standard are shared-server plans; Premium and Enterprise are virtual dedicated plans.",
+        "Campaign and renewal prices can change. Save the provider quote and verify setup fees, billing term, and renewal terms before purchase."
+      ],
+      "table": {
+        "headers": [
+          "Plan",
+          "Six-month monthly rate",
+          "Promotional 36-month rate",
+          "Storage",
+          "Setup"
+        ],
+        "rows": [
+          [
+            "Basic",
+            "JPY 3,146",
+            "JPY 2,059",
+            "500 GB NVMe",
+            "JPY 0"
+          ],
+          [
+            "Standard",
+            "JPY 6,292",
+            "JPY 4,118",
+            "700 GB NVMe",
+            "JPY 0"
+          ],
+          [
+            "Premium",
+            "JPY 14,520",
+            "JPY 9,504",
+            "1 TB NVMe",
+            "JPY 17,600"
+          ],
+          [
+            "Enterprise",
+            "JPY 58,080",
+            "JPY 38,016",
+            "4 TB NVMe",
+            "JPY 17,600"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "WP Panel, staging and subaccounts",
+      "body": [
+        "WP Panel supports new installations, automated migration, site copying, and grouped WordPress, plugin, and theme updates. Each site can have one staging environment on a separate server account and URL.",
+        "Subaccounts can be restricted to specific sites, which helps separate internal administrators, operators, agencies, and customers. Contract billing and some DNS operations remain outside subaccount permissions."
+      ]
+    },
+    {
+      "heading": "SLA, domains and support boundaries",
+      "body": [
+        "The SLA sets a 99.99% monthly availability target for web, FTP, and database servers across all plans. Refund percentages depend on measured unavailability, and degraded performance is not automatically treated as downtime.",
+        "Eligible contracts include domain benefits, but co.jp and other organizational Japanese domains are limited to Standard, Premium, and Enterprise. Setup assistance is included within its published scope, while expert WordPress investigation is quoted separately on Basic and Standard and has monthly free allowances on higher plans."
+      ]
+    },
+    {
+      "heading": "Trial restrictions and final decision",
+      "body": [
+        "The fourteen-day trial limits the combined number of production and staging sites to four. Mail sending, domain benefits, expert support, and setup assistance are restricted during the trial. Trial site data can continue after payment.",
+        "The service is a strong shortlist for Japan-based WordPress operations. Use a general business host or separate email provider when mailboxes, non-WordPress applications, or a broader server stack are required."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does XServer for WordPress provide email accounts?",
+      "answer": "No. It can send messages from WordPress within published limits, but it does not provide business mailboxes."
+    },
+    {
+      "question": "Can every trial feature be used for fourteen days?",
+      "answer": "No. The trial limits site count and restricts mail sending, contract benefits, expert support, and setup assistance."
+    },
+    {
+      "question": "Is co.jp free on every plan?",
+      "answer": "No. Organizational Japanese domains such as co.jp are listed for Standard, Premium, and Enterprise, not Basic."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPress versus CPI",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "Compare WordPress operations with integrated web and email hosting"
+    },
+    {
+      "label": "XServer for WordPress versus XServer Business",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "description": "Choose between the two XServer business platforms"
+    },
+    {
+      "label": "Business WordPress hosting comparison",
+      "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "Compare Japan and global managed WordPress options"
+    }
+  ]
+}

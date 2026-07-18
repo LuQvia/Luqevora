@@ -3,10 +3,35 @@
     "slug": "chatgpt-vs-claude",
     "category": "ai-tools",
     "topic": "generative-ai",
-    "products": ["chatgpt", "claude"],
+    "products": [
+      "chatgpt",
+      "claude"
+    ],
     "relatedRoutes": [
-      {"category": "ai-tools", "slug": "chatgpt-review", "label": {"ja": "ChatGPTの個別レビュー", "en": "ChatGPT review"}, "description": {"ja": "プランと主要機能を確認", "en": "Review plans and core capabilities"}},
-      {"category": "ai-tools", "slug": "claude-review", "label": {"ja": "Claudeの個別レビュー", "en": "Claude review"}, "description": {"ja": "長文・分析・コード用途を確認", "en": "Review long-context, analysis, and coding workflows"}}
+      {
+        "category": "ai-tools",
+        "slug": "chatgpt-review",
+        "label": {
+          "ja": "ChatGPTの個別レビュー",
+          "en": "ChatGPT review"
+        },
+        "description": {
+          "ja": "プランと主要機能を確認",
+          "en": "Review plans and core capabilities"
+        }
+      },
+      {
+        "category": "ai-tools",
+        "slug": "claude-review",
+        "label": {
+          "ja": "Claudeの個別レビュー",
+          "en": "Claude review"
+        },
+        "description": {
+          "ja": "長文・分析・コード用途を確認",
+          "en": "Review long-context, analysis, and coding workflows"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -41,10 +66,35 @@
     "slug": "chatgpt-vs-gemini",
     "category": "ai-tools",
     "topic": "generative-ai",
-    "products": ["chatgpt", "gemini"],
+    "products": [
+      "chatgpt",
+      "gemini"
+    ],
     "relatedRoutes": [
-      {"category": "ai-tools", "slug": "chatgpt-review", "label": {"ja": "ChatGPTの個別レビュー", "en": "ChatGPT review"}, "description": {"ja": "汎用AIとしての機能を確認", "en": "Review its general AI capabilities"}},
-      {"category": "ai-tools", "slug": "gemini-review", "label": {"ja": "Geminiの個別レビュー", "en": "Gemini review"}, "description": {"ja": "Google連携とプランを確認", "en": "Review Google integration and plans"}}
+      {
+        "category": "ai-tools",
+        "slug": "chatgpt-review",
+        "label": {
+          "ja": "ChatGPTの個別レビュー",
+          "en": "ChatGPT review"
+        },
+        "description": {
+          "ja": "汎用AIとしての機能を確認",
+          "en": "Review its general AI capabilities"
+        }
+      },
+      {
+        "category": "ai-tools",
+        "slug": "gemini-review",
+        "label": {
+          "ja": "Geminiの個別レビュー",
+          "en": "Gemini review"
+        },
+        "description": {
+          "ja": "Google連携とプランを確認",
+          "en": "Review Google integration and plans"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -79,10 +129,35 @@
     "slug": "claude-vs-gemini",
     "category": "ai-tools",
     "topic": "generative-ai",
-    "products": ["claude", "gemini"],
+    "products": [
+      "claude",
+      "gemini"
+    ],
     "relatedRoutes": [
-      {"category": "ai-tools", "slug": "claude-review", "label": {"ja": "Claudeの個別レビュー", "en": "Claude review"}, "description": {"ja": "長文・分析用途を確認", "en": "Review long-form and analysis workflows"}},
-      {"category": "ai-tools", "slug": "gemini-review", "label": {"ja": "Geminiの個別レビュー", "en": "Gemini review"}, "description": {"ja": "Google連携を確認", "en": "Review Google integration"}}
+      {
+        "category": "ai-tools",
+        "slug": "claude-review",
+        "label": {
+          "ja": "Claudeの個別レビュー",
+          "en": "Claude review"
+        },
+        "description": {
+          "ja": "長文・分析用途を確認",
+          "en": "Review long-form and analysis workflows"
+        }
+      },
+      {
+        "category": "ai-tools",
+        "slug": "gemini-review",
+        "label": {
+          "ja": "Geminiの個別レビュー",
+          "en": "Gemini review"
+        },
+        "description": {
+          "ja": "Google連携を確認",
+          "en": "Review Google integration"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -117,9 +192,23 @@
     "slug": "otter-vs-fireflies",
     "category": "ai-tools",
     "topic": "ai-meeting-notes",
-    "products": ["otter", "fireflies"],
+    "products": [
+      "otter",
+      "fireflies"
+    ],
     "relatedRoutes": [
-      {"category": "ai-tools", "slug": "ai-meeting-notes-tools", "label": {"ja": "AI議事録ツールの選び方", "en": "AI meeting-notes tools guide"}, "description": {"ja": "録音・同意・保持条件も含めて比較", "en": "Compare capture, consent, and retention requirements"}}
+      {
+        "category": "ai-tools",
+        "slug": "ai-meeting-notes-tools",
+        "label": {
+          "ja": "AI議事録ツールの選び方",
+          "en": "AI meeting-notes tools guide"
+        },
+        "description": {
+          "ja": "録音・同意・保持条件も含めて比較",
+          "en": "Compare capture, consent, and retention requirements"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -154,10 +243,35 @@
     "slug": "webflow-vs-wix",
     "category": "website-builders",
     "topic": "website-builder",
-    "products": ["webflow", "wix"],
+    "products": [
+      "webflow",
+      "wix"
+    ],
     "relatedRoutes": [
-      {"category": "website-builders", "slug": "webflow-review", "label": {"ja": "Webflowの個別レビュー", "en": "Webflow review"}, "description": {"ja": "CMSと制作フローを確認", "en": "Review CMS and design workflow"}},
-      {"category": "website-builders", "slug": "wix-review", "label": {"ja": "Wixの個別レビュー", "en": "Wix review"}, "description": {"ja": "事業機能と料金を確認", "en": "Review business features and pricing"}}
+      {
+        "category": "website-builders",
+        "slug": "webflow-review",
+        "label": {
+          "ja": "Webflowの個別レビュー",
+          "en": "Webflow review"
+        },
+        "description": {
+          "ja": "CMSと制作フローを確認",
+          "en": "Review CMS and design workflow"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "wix-review",
+        "label": {
+          "ja": "Wixの個別レビュー",
+          "en": "Wix review"
+        },
+        "description": {
+          "ja": "事業機能と料金を確認",
+          "en": "Review business features and pricing"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -192,10 +306,35 @@
     "slug": "webflow-vs-squarespace",
     "category": "website-builders",
     "topic": "website-builder",
-    "products": ["webflow", "squarespace"],
+    "products": [
+      "webflow",
+      "squarespace"
+    ],
     "relatedRoutes": [
-      {"category": "website-builders", "slug": "webflow-review", "label": {"ja": "Webflowの個別レビュー", "en": "Webflow review"}, "description": {"ja": "デザインとCMSを確認", "en": "Review design and CMS capabilities"}},
-      {"category": "website-builders", "slug": "squarespace-review", "label": {"ja": "Squarespaceの個別レビュー", "en": "Squarespace review"}, "description": {"ja": "テンプレートと事業機能を確認", "en": "Review templates and business features"}}
+      {
+        "category": "website-builders",
+        "slug": "webflow-review",
+        "label": {
+          "ja": "Webflowの個別レビュー",
+          "en": "Webflow review"
+        },
+        "description": {
+          "ja": "デザインとCMSを確認",
+          "en": "Review design and CMS capabilities"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "squarespace-review",
+        "label": {
+          "ja": "Squarespaceの個別レビュー",
+          "en": "Squarespace review"
+        },
+        "description": {
+          "ja": "テンプレートと事業機能を確認",
+          "en": "Review templates and business features"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -230,10 +369,35 @@
     "slug": "shopify-vs-squarespace",
     "category": "website-builders",
     "topic": "ecommerce-platform",
-    "products": ["shopify", "squarespace"],
+    "products": [
+      "shopify",
+      "squarespace"
+    ],
     "relatedRoutes": [
-      {"category": "website-builders", "slug": "shopify-review", "label": {"ja": "Shopifyの個別レビュー", "en": "Shopify review"}, "description": {"ja": "EC運用と料金を確認", "en": "Review commerce operations and pricing"}},
-      {"category": "website-builders", "slug": "squarespace-review", "label": {"ja": "Squarespaceの個別レビュー", "en": "Squarespace review"}, "description": {"ja": "デザイン・予約・販売を確認", "en": "Review design, scheduling, and selling"}}
+      {
+        "category": "website-builders",
+        "slug": "shopify-review",
+        "label": {
+          "ja": "Shopifyの個別レビュー",
+          "en": "Shopify review"
+        },
+        "description": {
+          "ja": "EC運用と料金を確認",
+          "en": "Review commerce operations and pricing"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "squarespace-review",
+        "label": {
+          "ja": "Squarespaceの個別レビュー",
+          "en": "Squarespace review"
+        },
+        "description": {
+          "ja": "デザイン・予約・販売を確認",
+          "en": "Review design, scheduling, and selling"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -268,10 +432,35 @@
     "slug": "wordpress-com-vs-wix",
     "category": "website-builders",
     "topic": "website-builder",
-    "products": ["wordpress-com", "wix"],
+    "products": [
+      "wordpress-com",
+      "wix"
+    ],
     "relatedRoutes": [
-      {"category": "website-builders", "slug": "wordpress-com-review", "label": {"ja": "WordPress.comの個別レビュー", "en": "WordPress.com review"}, "description": {"ja": "マネージドWordPressを確認", "en": "Review managed WordPress"}},
-      {"category": "website-builders", "slug": "wix-review", "label": {"ja": "Wixの個別レビュー", "en": "Wix review"}, "description": {"ja": "サイト作成と事業機能を確認", "en": "Review site building and business features"}}
+      {
+        "category": "website-builders",
+        "slug": "wordpress-com-review",
+        "label": {
+          "ja": "WordPress.comの個別レビュー",
+          "en": "WordPress.com review"
+        },
+        "description": {
+          "ja": "マネージドWordPressを確認",
+          "en": "Review managed WordPress"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "wix-review",
+        "label": {
+          "ja": "Wixの個別レビュー",
+          "en": "Wix review"
+        },
+        "description": {
+          "ja": "サイト作成と事業機能を確認",
+          "en": "Review site building and business features"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -306,10 +495,35 @@
     "slug": "semrush-vs-se-ranking",
     "category": "seo-marketing",
     "topic": "seo-tools",
-    "products": ["semrush", "se-ranking"],
+    "products": [
+      "semrush",
+      "se-ranking"
+    ],
     "relatedRoutes": [
-      {"category": "seo-marketing", "slug": "semrush-review", "label": {"ja": "Semrushの個別レビュー", "en": "Semrush review"}, "description": {"ja": "マーケティング機能を確認", "en": "Review the marketing platform"}},
-      {"category": "seo-marketing", "slug": "se-ranking-review", "label": {"ja": "SE Rankingの個別レビュー", "en": "SE Ranking review"}, "description": {"ja": "順位計測とレポートを確認", "en": "Review rank tracking and reporting"}}
+      {
+        "category": "seo-marketing",
+        "slug": "semrush-review",
+        "label": {
+          "ja": "Semrushの個別レビュー",
+          "en": "Semrush review"
+        },
+        "description": {
+          "ja": "マーケティング機能を確認",
+          "en": "Review the marketing platform"
+        }
+      },
+      {
+        "category": "seo-marketing",
+        "slug": "se-ranking-review",
+        "label": {
+          "ja": "SE Rankingの個別レビュー",
+          "en": "SE Ranking review"
+        },
+        "description": {
+          "ja": "順位計測とレポートを確認",
+          "en": "Review rank tracking and reporting"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -344,10 +558,35 @@
     "slug": "ahrefs-vs-mangools",
     "category": "seo-marketing",
     "topic": "seo-tools",
-    "products": ["ahrefs", "mangools"],
+    "products": [
+      "ahrefs",
+      "mangools"
+    ],
     "relatedRoutes": [
-      {"category": "seo-marketing", "slug": "ahrefs-review", "label": {"ja": "Ahrefsの個別レビュー", "en": "Ahrefs review"}, "description": {"ja": "SEOデータと上限を確認", "en": "Review SEO data and limits"}},
-      {"category": "seo-marketing", "slug": "mangools-review", "label": {"ja": "Mangoolsの個別レビュー", "en": "Mangools review"}, "description": {"ja": "5つのSEOツールを確認", "en": "Review the five-tool suite"}}
+      {
+        "category": "seo-marketing",
+        "slug": "ahrefs-review",
+        "label": {
+          "ja": "Ahrefsの個別レビュー",
+          "en": "Ahrefs review"
+        },
+        "description": {
+          "ja": "SEOデータと上限を確認",
+          "en": "Review SEO data and limits"
+        }
+      },
+      {
+        "category": "seo-marketing",
+        "slug": "mangools-review",
+        "label": {
+          "ja": "Mangoolsの個別レビュー",
+          "en": "Mangools review"
+        },
+        "description": {
+          "ja": "5つのSEOツールを確認",
+          "en": "Review the five-tool suite"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -382,10 +621,35 @@
     "slug": "mailchimp-vs-brevo",
     "category": "seo-marketing",
     "topic": "email-marketing",
-    "products": ["mailchimp", "brevo"],
+    "products": [
+      "mailchimp",
+      "brevo"
+    ],
     "relatedRoutes": [
-      {"category": "seo-marketing", "slug": "mailchimp-review", "label": {"ja": "Mailchimpの個別レビュー", "en": "Mailchimp review"}, "description": {"ja": "連絡先課金と機能を確認", "en": "Review contact pricing and features"}},
-      {"category": "seo-marketing", "slug": "brevo-review", "label": {"ja": "Brevoの個別レビュー", "en": "Brevo review"}, "description": {"ja": "送信量課金と業務メールを確認", "en": "Review send-volume and transactional workflows"}}
+      {
+        "category": "seo-marketing",
+        "slug": "mailchimp-review",
+        "label": {
+          "ja": "Mailchimpの個別レビュー",
+          "en": "Mailchimp review"
+        },
+        "description": {
+          "ja": "連絡先課金と機能を確認",
+          "en": "Review contact pricing and features"
+        }
+      },
+      {
+        "category": "seo-marketing",
+        "slug": "brevo-review",
+        "label": {
+          "ja": "Brevoの個別レビュー",
+          "en": "Brevo review"
+        },
+        "description": {
+          "ja": "送信量課金と業務メールを確認",
+          "en": "Review send-volume and transactional workflows"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -420,10 +684,35 @@
     "slug": "getresponse-vs-mailerlite",
     "category": "seo-marketing",
     "topic": "email-marketing",
-    "products": ["getresponse", "mailerlite"],
+    "products": [
+      "getresponse",
+      "mailerlite"
+    ],
     "relatedRoutes": [
-      {"category": "seo-marketing", "slug": "getresponse-review", "label": {"ja": "GetResponseの個別レビュー", "en": "GetResponse review"}, "description": {"ja": "ファネル・ウェビナーを確認", "en": "Review funnels and webinars"}},
-      {"category": "seo-marketing", "slug": "mailerlite-review", "label": {"ja": "MailerLiteの個別レビュー", "en": "MailerLite review"}, "description": {"ja": "ニュースレターと料金を確認", "en": "Review newsletters and pricing"}}
+      {
+        "category": "seo-marketing",
+        "slug": "getresponse-review",
+        "label": {
+          "ja": "GetResponseの個別レビュー",
+          "en": "GetResponse review"
+        },
+        "description": {
+          "ja": "ファネル・ウェビナーを確認",
+          "en": "Review funnels and webinars"
+        }
+      },
+      {
+        "category": "seo-marketing",
+        "slug": "mailerlite-review",
+        "label": {
+          "ja": "MailerLiteの個別レビュー",
+          "en": "MailerLite review"
+        },
+        "description": {
+          "ja": "ニュースレターと料金を確認",
+          "en": "Review newsletters and pricing"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -458,10 +747,35 @@
     "slug": "clickup-vs-monday",
     "category": "business-software",
     "topic": "project-management",
-    "products": ["clickup", "monday"],
+    "products": [
+      "clickup",
+      "monday"
+    ],
     "relatedRoutes": [
-      {"category": "business-software", "slug": "clickup-review", "label": {"ja": "ClickUpの個別レビュー", "en": "ClickUp review"}, "description": {"ja": "機能と料金を確認", "en": "Review features and pricing"}},
-      {"category": "business-software", "slug": "monday-review", "label": {"ja": "monday.comの個別レビュー", "en": "monday.com review"}, "description": {"ja": "ボードと業務設計を確認", "en": "Review boards and process design"}}
+      {
+        "category": "business-software",
+        "slug": "clickup-review",
+        "label": {
+          "ja": "ClickUpの個別レビュー",
+          "en": "ClickUp review"
+        },
+        "description": {
+          "ja": "機能と料金を確認",
+          "en": "Review features and pricing"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "monday-review",
+        "label": {
+          "ja": "monday.comの個別レビュー",
+          "en": "monday.com review"
+        },
+        "description": {
+          "ja": "ボードと業務設計を確認",
+          "en": "Review boards and process design"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -496,10 +810,35 @@
     "slug": "trello-vs-asana",
     "category": "business-software",
     "topic": "task-management",
-    "products": ["trello", "asana"],
+    "products": [
+      "trello",
+      "asana"
+    ],
     "relatedRoutes": [
-      {"category": "business-software", "slug": "trello-review", "label": {"ja": "Trelloの個別レビュー", "en": "Trello review"}, "description": {"ja": "カンバンと料金を確認", "en": "Review Kanban and pricing"}},
-      {"category": "business-software", "slug": "asana-review", "label": {"ja": "Asanaの個別レビュー", "en": "Asana review"}, "description": {"ja": "プロジェクト管理を確認", "en": "Review project management"}}
+      {
+        "category": "business-software",
+        "slug": "trello-review",
+        "label": {
+          "ja": "Trelloの個別レビュー",
+          "en": "Trello review"
+        },
+        "description": {
+          "ja": "カンバンと料金を確認",
+          "en": "Review Kanban and pricing"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "asana-review",
+        "label": {
+          "ja": "Asanaの個別レビュー",
+          "en": "Asana review"
+        },
+        "description": {
+          "ja": "プロジェクト管理を確認",
+          "en": "Review project management"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -534,10 +873,35 @@
     "slug": "notion-vs-clickup",
     "category": "business-software",
     "topic": "project-management",
-    "products": ["notion", "clickup"],
+    "products": [
+      "notion",
+      "clickup"
+    ],
     "relatedRoutes": [
-      {"category": "business-software", "slug": "notion-review", "label": {"ja": "Notionの個別レビュー", "en": "Notion review"}, "description": {"ja": "Wikiとデータベースを確認", "en": "Review wiki and databases"}},
-      {"category": "business-software", "slug": "clickup-review", "label": {"ja": "ClickUpの個別レビュー", "en": "ClickUp review"}, "description": {"ja": "タスクと機能統合を確認", "en": "Review tasks and tool consolidation"}}
+      {
+        "category": "business-software",
+        "slug": "notion-review",
+        "label": {
+          "ja": "Notionの個別レビュー",
+          "en": "Notion review"
+        },
+        "description": {
+          "ja": "Wikiとデータベースを確認",
+          "en": "Review wiki and databases"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "clickup-review",
+        "label": {
+          "ja": "ClickUpの個別レビュー",
+          "en": "ClickUp review"
+        },
+        "description": {
+          "ja": "タスクと機能統合を確認",
+          "en": "Review tasks and tool consolidation"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -572,10 +936,35 @@
     "slug": "slack-vs-microsoft-teams",
     "category": "business-software",
     "topic": "business-chat",
-    "products": ["slack", "microsoft-teams"],
+    "products": [
+      "slack",
+      "microsoft-teams"
+    ],
     "relatedRoutes": [
-      {"category": "business-software", "slug": "slack-guide", "label": {"ja": "Slackの使い方ガイド", "en": "Slack guide"}, "description": {"ja": "チャンネル・履歴・運用を確認", "en": "Review channels, history, and governance"}},
-      {"category": "business-software", "slug": "business-chat-tools-comparison", "label": {"ja": "ビジネスチャット総合比較", "en": "Business chat comparison"}, "description": {"ja": "他のチャット製品も確認", "en": "Compare additional business chat products"}}
+      {
+        "category": "business-software",
+        "slug": "slack-guide",
+        "label": {
+          "ja": "Slackの使い方ガイド",
+          "en": "Slack guide"
+        },
+        "description": {
+          "ja": "チャンネル・履歴・運用を確認",
+          "en": "Review channels, history, and governance"
+        }
+      },
+      {
+        "category": "business-software",
+        "slug": "business-chat-tools-comparison",
+        "label": {
+          "ja": "ビジネスチャット総合比較",
+          "en": "Business chat comparison"
+        },
+        "description": {
+          "ja": "他のチャット製品も確認",
+          "en": "Compare additional business chat products"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -610,10 +999,59 @@
     "slug": "hostinger-vs-siteground",
     "category": "hosting-security",
     "topic": "web-hosting",
-    "products": ["hostinger", "siteground"],
+    "products": [
+      "hostinger",
+      "siteground"
+    ],
     "relatedRoutes": [
-      {"category": "hosting-security", "slug": "hostinger-review", "label": {"ja": "Hostingerの個別レビュー", "en": "Hostinger review"}, "description": {"ja": "初回・更新価格を確認", "en": "Review introductory and renewal pricing"}},
-      {"category": "hosting-security", "slug": "siteground-review", "label": {"ja": "SiteGroundの個別レビュー", "en": "SiteGround review"}, "description": {"ja": "WordPress管理とサポートを確認", "en": "Review WordPress management and support"}}
+      {
+        "category": "hosting-security",
+        "slug": "hostinger-review",
+        "label": {
+          "ja": "Hostingerの個別レビュー",
+          "en": "Hostinger review"
+        },
+        "description": {
+          "ja": "初回・更新価格を確認",
+          "en": "Review introductory and renewal pricing"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "siteground-review",
+        "label": {
+          "ja": "SiteGroundの個別レビュー",
+          "en": "SiteGround review"
+        },
+        "description": {
+          "ja": "WordPress管理とサポートを確認",
+          "en": "Review WordPress management and support"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "xserver-for-wordpress-review",
+        "label": {
+          "ja": "XServer for WordPressレビュー",
+          "en": "XServer for WordPress review"
+        },
+        "description": {
+          "ja": "法人向けWordPress専用ホスティングの料金・機能・制約を確認",
+          "en": "Review pricing, features, and constraints for the Japan-focused WordPress platform"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "business-wordpress-hosting-comparison",
+        "label": {
+          "ja": "法人向けWordPressホスティング比較",
+          "en": "Business WordPress hosting comparison"
+        },
+        "description": {
+          "ja": "XServer for WordPress、Kinsta、WP Engineを比較",
+          "en": "Compare XServer for WordPress, Kinsta, and WP Engine"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -648,10 +1086,35 @@
     "slug": "cloudways-vs-kinsta",
     "category": "hosting-security",
     "topic": "managed-wordpress",
-    "products": ["cloudways", "kinsta"],
+    "products": [
+      "cloudways",
+      "kinsta"
+    ],
     "relatedRoutes": [
-      {"category": "hosting-security", "slug": "cloudways-review", "label": {"ja": "Cloudwaysの個別レビュー", "en": "Cloudways review"}, "description": {"ja": "クラウド基盤と管理を確認", "en": "Review cloud infrastructure and administration"}},
-      {"category": "hosting-security", "slug": "kinsta-review", "label": {"ja": "Kinstaの個別レビュー", "en": "Kinsta review"}, "description": {"ja": "マネージドWordPressを確認", "en": "Review managed WordPress hosting"}}
+      {
+        "category": "hosting-security",
+        "slug": "cloudways-review",
+        "label": {
+          "ja": "Cloudwaysの個別レビュー",
+          "en": "Cloudways review"
+        },
+        "description": {
+          "ja": "クラウド基盤と管理を確認",
+          "en": "Review cloud infrastructure and administration"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "kinsta-review",
+        "label": {
+          "ja": "Kinstaの個別レビュー",
+          "en": "Kinsta review"
+        },
+        "description": {
+          "ja": "マネージドWordPressを確認",
+          "en": "Review managed WordPress hosting"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -686,10 +1149,35 @@
     "slug": "1password-vs-bitwarden",
     "category": "hosting-security",
     "topic": "password-manager",
-    "products": ["1password", "bitwarden"],
+    "products": [
+      "1password",
+      "bitwarden"
+    ],
     "relatedRoutes": [
-      {"category": "hosting-security", "slug": "1password-review", "label": {"ja": "1Passwordの個別レビュー", "en": "1Password review"}, "description": {"ja": "個人・家族・企業機能を確認", "en": "Review personal, family, and business features"}},
-      {"category": "hosting-security", "slug": "bitwarden-review", "label": {"ja": "Bitwardenの個別レビュー", "en": "Bitwarden review"}, "description": {"ja": "無料版とセルフホストを確認", "en": "Review free tier and self-hosting"}}
+      {
+        "category": "hosting-security",
+        "slug": "1password-review",
+        "label": {
+          "ja": "1Passwordの個別レビュー",
+          "en": "1Password review"
+        },
+        "description": {
+          "ja": "個人・家族・企業機能を確認",
+          "en": "Review personal, family, and business features"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "bitwarden-review",
+        "label": {
+          "ja": "Bitwardenの個別レビュー",
+          "en": "Bitwarden review"
+        },
+        "description": {
+          "ja": "無料版とセルフホストを確認",
+          "en": "Review free tier and self-hosting"
+        }
+      }
     ],
     "locales": {
       "ja": {
@@ -724,10 +1212,35 @@
     "slug": "nordpass-vs-keeper",
     "category": "hosting-security",
     "topic": "password-manager",
-    "products": ["nordpass", "keeper"],
+    "products": [
+      "nordpass",
+      "keeper"
+    ],
     "relatedRoutes": [
-      {"category": "hosting-security", "slug": "nordpass-review", "label": {"ja": "NordPassの個別レビュー", "en": "NordPass review"}, "description": {"ja": "個人・Business機能を確認", "en": "Review personal and business features"}},
-      {"category": "hosting-security", "slug": "keeper-review", "label": {"ja": "Keeperの個別レビュー", "en": "Keeper review"}, "description": {"ja": "企業管理と追加機能を確認", "en": "Review enterprise controls and add-ons"}}
+      {
+        "category": "hosting-security",
+        "slug": "nordpass-review",
+        "label": {
+          "ja": "NordPassの個別レビュー",
+          "en": "NordPass review"
+        },
+        "description": {
+          "ja": "個人・Business機能を確認",
+          "en": "Review personal and business features"
+        }
+      },
+      {
+        "category": "hosting-security",
+        "slug": "keeper-review",
+        "label": {
+          "ja": "Keeperの個別レビュー",
+          "en": "Keeper review"
+        },
+        "description": {
+          "ja": "企業管理と追加機能を確認",
+          "en": "Review enterprise controls and add-ons"
+        }
+      }
     ],
     "locales": {
       "ja": {

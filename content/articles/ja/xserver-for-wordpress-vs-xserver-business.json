@@ -1,0 +1,200 @@
+{
+  "id": "xserver-for-wordpress-vs-xserver-business-ja",
+  "translationKey": "xserver-for-wordpress-vs-xserver-business",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-for-wordpress-vs-xserver-business",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "同一ブランド比較・広告掲載",
+  "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
+  "metaTitle": "XServer for WordPressとXServerビジネス比較",
+  "description": "XServer for WordPressとXServerビジネスを、用途、WordPress管理、メール、容量、SLA、移転支援、料金から比較します。",
+  "lead": "同じエックスサーバー系でも、XServer for WordPressはWordPress専用運用、XServerビジネスはWeb・メール・サーバー設定を広く扱う法人向けレンタルサーバーです。WordPressだけを専門化するか、企業インフラをまとめるかで選びます。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-setup"
+    },
+    {
+      "label": "XServerビジネスを確認",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "affiliateKey": "xserver-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress 公式ページ",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress 料金プラン",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress 機能一覧",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "14日間無料お試し期間",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "SLA品質保証制度",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "ステージング環境の同期",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "サブアカウント",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "設定おまかせサポート",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress専門家サポート",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "メールアカウントに関するFAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    },
+    {
+      "label": "XServerビジネス公式ページ",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerビジネス料金プラン",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerビジネス機能一覧",
+      "url": "https://business.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "XServerビジネスSLA",
+      "url": "https://business.xserver.ne.jp/feature/detail_sla.php"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：WordPress専用か、汎用法人サーバーか",
+      "body": [
+        "複数WordPressサイトをWPパネルで統一し、ステージング、サイト別権限、リソース配分を使うならXServer for WordPressが適します。メール、一般Web、CGI、複数用途、回数無制限のサーバー設定代行を重視するならXServerビジネスが比較しやすいです。",
+        "WordPress専門家による調査・作業代行と、サーバーパネル設定の代行は別サービスです。必要な支援内容を先に決めます。"
+      ]
+    },
+    {
+      "heading": "主要機能の違い",
+      "body": [
+        "製品名は似ていますが、管理画面と対象業務が異なります。"
+      ],
+      "table": {
+        "headers": [
+          "項目",
+          "XServer for WordPress",
+          "XServerビジネス"
+        ],
+        "rows": [
+          [
+            "用途",
+            "WordPress専用",
+            "Web・メールを含む汎用法人サーバー"
+          ],
+          [
+            "メールアカウント",
+            "作成不可",
+            "利用可能"
+          ],
+          [
+            "WordPress管理",
+            "WPパネル、一括更新、コピー、ステージング",
+            "WordPress設置、一般的なサーバーパネル運用"
+          ],
+          [
+            "権限",
+            "サイト単位のサブアカウント",
+            "管理者ユーザー等の法人管理機能"
+          ],
+          [
+            "設定支援",
+            "設定おまかせ。内容により見積り",
+            "サーバーパネル設定を無料・回数無制限で代行"
+          ],
+          [
+            "SLA対象",
+            "Web・FTP・DB",
+            "Web・メール・FTP・DB"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "料金・容量の考え方",
+      "body": [
+        "XServer for WordPressはベーシック500GBから、XServerビジネスの共有スタンダードは700GBからです。XServerビジネスの共有プランには初期費用16,500円があり、XServer for WordPressのベーシック・スタンダードは初期費用0円です。",
+        "長期契約キャンペーンが双方にあるため、キャンペーン還元を除いた通常総額、初期費用、更新費用、メール費用を別々に計算します。"
+      ]
+    },
+    {
+      "heading": "制作会社・複数担当者での選び方",
+      "body": [
+        "制作会社が複数のWordPress顧客サイトを管理し、サイトごとに担当権限を制限するならXServer for WordPressのサブアカウントとステージングが有力です。",
+        "Webサイト以外にメール、CGI、一般ファイル、複数のシステムを扱い、サーバー設定代行を幅広く利用するならXServerビジネスが向きます。"
+      ]
+    },
+    {
+      "heading": "契約前の実地テスト",
+      "body": [
+        "14日間の無料お試しで、WordPress移行、ステージング同期、メール、バックアップ復元、権限、問い合わせ対応を確認します。無料試用中の制限はサービスごとに異なります。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "会社メールも使う場合はどちらですか？",
+      "answer": "XServerビジネスはメールアカウントを提供します。XServer for WordPressはメールアカウントを作成できません。"
+    },
+    {
+      "question": "WordPressの複数サイト管理はどちらが向きますか？",
+      "answer": "一括更新、サイトコピー、ステージング、サイト単位のサブアカウントを重視する場合はXServer for WordPressが比較しやすいです。"
+    },
+    {
+      "question": "設定代行は同じ内容ですか？",
+      "answer": "同じではありません。XServerビジネスはサーバーパネルの設定代行、XServer for WordPressはWordPress設定支援と専門家サポートを区別して確認します。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "WordPress専用機能と注意点を確認"
+    },
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "CPIやConoHaも含めて比較"
+    },
+    {
+      "label": "XServer for WordPressとCPIの比較",
+      "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "メール・SmartReleaseとの違いを確認"
+    }
+  ]
+}

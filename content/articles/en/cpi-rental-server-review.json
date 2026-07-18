@@ -160,6 +160,21 @@
       "label": "Small-business web hosting comparison",
       "url": "/en/hosting-security/web-hosting-small-business/",
       "description": "Review additional lower-cost hosting options"
+    },
+    {
+      "label": "XServer for WordPress review",
+      "url": "/en/hosting-security/xserver-for-wordpress-review/",
+      "description": "Review Japan-focused managed WordPress hosting"
+    },
+    {
+      "label": "XServer for WordPress versus CPI",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "Compare WordPress operations and integrated email"
+    },
+    {
+      "label": "Business WordPress hosting comparison",
+      "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "Compare XServer for WordPress, Kinsta, and WP Engine"
     }
   ]
 }

@@ -1,0 +1,203 @@
+{
+  "id": "xserver-for-wordpress-vs-cpi-en",
+  "translationKey": "xserver-for-wordpress-vs-cpi",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-for-wordpress-vs-cpi",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Business hosting comparison",
+  "title": "XServer for WordPress vs CPI for Business Websites in Japan",
+  "metaTitle": "XServer for WordPress vs CPI: WordPress, Email and SLA",
+  "description": "Compare XServer for WordPress and CPI across WordPress administration, business email, staging, backups, SLA, pricing, and support.",
+  "lead": "XServer for WordPress specializes in WordPress operations and site-level access. CPI combines general business web hosting, mailboxes, multiple domains, and SmartRelease. The central choice is specialized WordPress management versus integrated website and email hosting.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp-official"
+    },
+    {
+      "label": "Check CPI Business Standard",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer for WordPress official site",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress pricing",
+      "url": "https://wp.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer for WordPress features",
+      "url": "https://wp.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "Fourteen-day trial terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Domain benefit terms",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Service-level agreement",
+      "url": "https://wp.xserver.ne.jp/feature/detail_sla.php"
+    },
+    {
+      "label": "Staging synchronization",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_staging_sync.php"
+    },
+    {
+      "label": "Subaccounts",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_wp_subaccount.php"
+    },
+    {
+      "label": "Setup assistance",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_daiko.php"
+    },
+    {
+      "label": "WordPress expert support",
+      "url": "https://wp.xserver.ne.jp/support/manual/man_order_wpsupport.php"
+    },
+    {
+      "label": "Mailbox availability FAQ",
+      "url": "https://wp.xserver.ne.jp/support/faq/tool_wppanel_mail.php"
+    },
+    {
+      "label": "CPI Business Standard",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI pricing",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI specifications",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI SLA",
+      "url": "https://www.cpi.ad.jp/sla/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: specialized WordPress or integrated web and email",
+      "body": [
+        "Choose XServer for WordPress when WordPress staging, grouped updates, subaccounts, and site resource controls are the priority. Choose CPI when business mailboxes, multiple domains, and general website operations should remain in one Japanese hosting contract.",
+        "Include separate email cost, migration labor, recovery testing, and administrator time rather than comparing only headline monthly prices."
+      ]
+    },
+    {
+      "heading": "Core differences",
+      "body": [
+        "XServer for WordPress is a WordPress-specialized platform. It focuses on managing multiple WordPress sites through WP Panel, separating site access, creating staging environments, copying sites, and assigning resources. CPI Business Standard is a broader Japanese shared-hosting service that combines websites, multiple domains, and hosted business email in one service.",
+        "The choice therefore depends less on which company has the longer feature list and more on where the organization wants operational responsibility to sit. A team with external email hosting may value WordPress-specific workflow. A team that wants web and email under one contract may prefer CPI even when its WordPress management workflow is less specialized."
+      ],
+      "table": {
+        "headers": [
+          "Factor",
+          "XServer for WordPress",
+          "CPI Business Standard"
+        ],
+        "rows": [
+          [
+            "Core service",
+            "WordPress-only hosting",
+            "Business web and email hosting"
+          ],
+          [
+            "Mailboxes",
+            "Not available",
+            "Included business email features"
+          ],
+          [
+            "Test workflow",
+            "One staging environment per site",
+            "SmartRelease test and release workflow"
+          ],
+          [
+            "Access model",
+            "Site-specific subaccounts",
+            "Domain-separated environments"
+          ],
+          [
+            "SLA",
+            "99.99% for web, FTP, and database",
+            "100% baseline for the primary web server"
+          ],
+          [
+            "Terms",
+            "Three to thirty-six months",
+            "Three, six, or twelve months"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Pricing and total cost",
+      "body": [
+        "A lower XServer for WordPress plan can display a lower long-term monthly rate than CPI, but separate mailbox hosting may add cost. CPI publishes a twelve-month monthly equivalent of JPY 4,840 at the verification date.",
+        "Compare the full selected term, setup fees, renewal rates, email service, domain costs, and support add-ons. XServer for WordPress affiliate eligibility is not a user-facing recommendation criterion; select the plan and term that fit the buyer. Campaign prices can change, so preserve the verification date and direct readers to the current checkout screen.",
+        "Estimate migration labor as part of total cost. Moving WordPress and mail at the same time creates a different project from moving WordPress while leaving mail with Microsoft 365, Google Workspace, or another provider."
+      ]
+    },
+    {
+      "heading": "Publishing and recovery workflow",
+      "body": [
+        "XServer for WordPress centers site copying, grouped updates, staging synchronization, and site resource allocation. CPI SmartRelease supports testing, production release, backup, and restoration for a broader web-hosting environment.",
+        "Run a real migration and restore test before selecting either platform. Record the steps required to create staging, move database and media changes, restore a failed release, rotate administrator access, and export a recoverable copy. For CPI, confirm the scope and capacity of the standard backup. For XServer for WordPress, confirm trial limits and the behavior of staging synchronization."
+      ]
+    },
+    {
+      "heading": "Decision checklist",
+      "body": [
+        "Use XServer for WordPress when mailboxes are already hosted elsewhere and WordPress process standardization creates measurable value. Use CPI when website and email consolidation is more important.",
+        "Also evaluate internal skills and separation of duties. Agencies and multi-department teams may benefit from site-level accounts, while a smaller organization may prefer one provider and one support path for both website and mail. The correct answer can differ between a public corporate site, a campaign-site portfolio, and a mail-intensive organization."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which one provides business email?",
+      "answer": "CPI provides mailboxes. XServer for WordPress does not create email accounts."
+    },
+    {
+      "question": "Which is better for a WordPress agency?",
+      "answer": "XServer for WordPress is easier to shortlist when site-specific access, staging, and centralized WordPress administration are primary requirements."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer for WordPress review",
+      "url": "/en/hosting-security/xserver-for-wordpress-review/",
+      "description": "Review plans, operations, and constraints"
+    },
+    {
+      "label": "CPI review",
+      "url": "/en/hosting-security/cpi-rental-server-review/",
+      "description": "Review email, SmartRelease, and SLA"
+    },
+    {
+      "label": "Japan business hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Compare additional business hosting options"
+    }
+  ]
+}

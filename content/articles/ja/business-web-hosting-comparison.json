@@ -8,10 +8,10 @@
   "category": "hosting-security",
   "topic": "web-hosting",
   "badge": "法人向け比較・広告掲載",
-  "title": "法人向けレンタルサーバー3社比較｜CPI・XServer・ConoHa",
-  "metaTitle": "法人向けレンタルサーバー比較｜CPI・XServer・ConoHa",
-  "description": "CPI、XServerビジネス、ConoHa WINGビジネスを、料金、容量、バックアップ、メール、SLA、サポートから公式情報で比較します。",
-  "lead": "法人向けレンタルサーバーは、最安料金だけでなく、公開前テスト、メール認証、復旧対象、SLA、管理権限、移転支援まで比較する必要があります。ここでは運用特性の異なる3サービスを同じ基準で整理します。",
+  "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+  "metaTitle": "法人向けサーバー比較｜CPI・XServer・XServer for WordPress",
+  "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
+  "lead": "法人向けサーバーは、Webとメールをまとめるか、WordPress運用を専用基盤へ分けるかで候補が変わります。4サービスを料金、容量、バックアップ、メール、SLA、権限、支援範囲から整理します。",
   "publishedAt": "2026-07-19",
   "updatedAt": "2026-07-19",
   "verifiedAt": "2026-07-19",
@@ -23,6 +23,11 @@
       "label": "CPIレンタルサーバー",
       "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
       "affiliateKey": "cpi"
+    },
+    {
+      "label": "XServer for WordPress",
+      "officialUrl": "https://wp.xserver.ne.jp/",
+      "affiliateKey": "xserver-wp"
     },
     {
       "label": "XServerビジネスを確認",
@@ -75,6 +80,10 @@
     {
       "label": "ConoHa WING ビジネスプラン公式ページ",
       "url": "https://www.conoha.jp/wing/business/"
+    },
+    {
+      "label": "XServer for WordPress公式ページ",
+      "url": "https://wp.xserver.ne.jp/"
     }
   ],
   "sections": [
@@ -86,6 +95,7 @@
       ],
       "bullets": [
         "CPI：公開前テストと複数ドメイン・メール運用",
+        "XServer for WordPress：複数WordPressのステージング・権限・更新管理",
         "XServerビジネス：容量、移転支援、法人向け管理機能",
         "ConoHa WINGビジネス：専用リソースと初期費用無料の料金設計"
       ]
@@ -100,6 +110,7 @@
           "項目",
           "CPI",
           "XServerビジネス",
+          "XServer for WordPress",
           "ConoHa WINGビジネス"
         ],
         "rows": [
@@ -107,35 +118,41 @@
             "代表的な開始価格",
             "12か月で月額換算4,840円",
             "共有スタンダード36か月で月額3,762円。キャンペーン表示あり",
+            "36か月キャンペーンでベーシック月額2,059円から",
             "Bizライト通常最大1,815円/月、長期契約割引あり"
           ],
           [
             "初期費用",
             "12か月は無料",
             "共有サーバー16,500円",
+            "ベーシック・スタンダードは無料",
             "無料"
           ],
           [
             "容量",
             "主契約300GB、各マルチドメイン100GB",
             "共有スタンダード700GB NVMe",
+            "500GB～4TB NVMe",
             "Bizライト700GB、Bizスタンダード1,000GB"
           ],
           [
             "バックアップ",
             "Web＋DB合計10GB、最大30世代",
             "Web・メール・MySQLを14日、遠隔地保存",
+            "WordPressのバックアップ・復元機能を案内",
             "公式プラン詳細で対象と復元条件を確認"
           ],
           [
             "運用上の特徴",
             "SmartRelease、メール認証、ドメイン別環境",
             "移転代行、設定支援、管理者ユーザー",
+            "WPパネル、ステージング、サブアカウント",
             "プランごとにvCPU・メモリを確保"
           ],
           [
             "試用",
             "10日間無料お試し",
+            "14日間無料お試し",
             "14日間無料お試し",
             "通常料金は時間課金・最低利用期間なしの案内あり"
           ]
@@ -154,6 +171,13 @@
       "body": [
         "XServerビジネスは、共有スタンダードで700GB NVMe、過去14日分のWeb・メール・MySQLバックアップ、設定おまかせサポート、Webサイト移転代行を重視する企業に向きます。",
         "共有サーバー以外にマネージド専用サーバーも選べるため、将来的により分離された環境を検討する場合にも比較しやすい構成です。初期費用と期間限定キャンペーンを分けて総額を計算します。"
+      ]
+    },
+    {
+      "heading": "XServer for WordPressを選びやすいケース",
+      "body": [
+        "XServer for WordPressは、企業メールを別サービスで運用し、複数のWordPressサイトをWPパネル、ステージング、サブアカウントで標準化したい法人・制作会社に向きます。",
+        "メールアカウントは作成できないため、企業メールを含めた総額と運用責任を別途確認します。"
       ]
     },
     {
@@ -207,6 +231,21 @@
       "label": "小規模事業向けサーバー比較",
       "url": "/ja/hosting-security/web-hosting-small-business/",
       "description": "一般向けプランも含めて比較"
+    },
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "法人向けWordPress専用ホスティングを確認"
+    },
+    {
+      "label": "XServer for WordPressとCPIの比較",
+      "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+      "description": "WordPress管理と法人メール運用を比較"
+    },
+    {
+      "label": "法人向けWordPressホスティング比較",
+      "url": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+      "description": "XServer for WordPress、Kinsta、WP Engineを比較"
     }
   ]
 }
