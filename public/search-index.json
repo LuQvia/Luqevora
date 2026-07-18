@@ -296,6 +296,14 @@
     "topic": "password-managers"
   },
   {
+    "title": "Business Web Hosting in Japan: CPI, XServer and ConoHa",
+    "description": "Compare CPI, XServer Business and ConoHa WING Business using official pricing, capacity, backup, email, SLA, support, and contract information.",
+    "url": "/en/hosting-security/business-web-hosting-comparison/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Cloudways Review: Managed Cloud Pricing, WordPress, and Administration",
     "description": "Review Cloudways cloud infrastructure choices, pricing model, WordPress, backups, staging, SSH, Git, strengths, and operational trade-offs.",
     "url": "/en/hosting-security/cloudways-guide/",
@@ -323,6 +331,22 @@
     "title": "ConoHa WING Review: WordPress Setup, Backups, and Pricing",
     "description": "Review ConoHa WING using official information on simplified WordPress setup, backups, domain benefits, pricing, and limitations.",
     "url": "/en/hosting-security/conoha-wing-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "CPI Rental Server Review for Businesses in Japan",
+    "description": "Review CPI Business Standard using official pricing, backup, email, SLA, support, and contract information for organizations operating websites in Japan.",
+    "url": "/en/hosting-security/cpi-rental-server-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "CPI vs XServer Business for Organizations in Japan",
+    "description": "Compare CPI Business Standard and XServer Business using official pricing, storage, backup, SLA, email, support, and migration information.",
+    "url": "/en/hosting-security/cpi-vs-xserver-business/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -1280,6 +1304,22 @@
     "topic": "web-hosting"
   },
   {
+    "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+    "description": "CPIとXServerビジネスを、料金、容量、バックアップ、SLA、メール、サポート、移行支援から公式情報で比較します。",
+    "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "CPIレンタルサーバーレビュー｜法人向け機能・料金・注意点",
+    "description": "CPIの法人向け共用サーバー「ビジネス スタンダード」を、料金、バックアップ、メール、SLA、サポート、契約前の注意点から公式情報で検証します。",
+    "url": "/ja/hosting-security/cpi-rental-server-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "HostingerとABLENET VPSを比較｜WordPress・AI開発にはどっち？",
     "description": "HostingerとABLENET VPSをWordPress、Docker、AIセルフホスト、管理難易度、サポートで比較します。",
     "url": "/ja/hosting-security/hostinger-vs-ablenet-vps/",
@@ -1582,6 +1622,14 @@
     "language": "ja",
     "category": "hosting-security",
     "topic": "password-managers"
+  },
+  {
+    "title": "法人向けレンタルサーバー3社比較｜CPI・XServer・ConoHa",
+    "description": "CPI、XServerビジネス、ConoHa WINGビジネスを、料金、容量、バックアップ、メール、SLA、サポートから公式情報で比較します。",
+    "url": "/ja/hosting-security/business-web-hosting-comparison/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
   },
   {
     "title": "独自ドメイン取得サービスおすすめ比較｜更新料金・管理機能で選ぶ【2026年版】",

@@ -252,10 +252,26 @@ function articleStructuredData(article, category, canonical, imageUrl, topic) {
   return JSON.stringify({'@context': 'https://schema.org', '@graph': graph});
 }
 
-function configuredAffiliateUrl(key) {
-  if (!key) return '';
+function configuredAffiliateEntry(key, language = '') {
+  if (!key) return null;
   const entry = affiliates.links?.[key];
-  return typeof entry === 'string' ? entry : entry?.url || '';
+  if (!entry) return null;
+  if (typeof entry === 'string') return {type: 'url', url: entry};
+  if (entry.language && language && entry.language !== language) return null;
+  return entry;
+}
+
+function validatedRawAffiliateHtml(entry, key) {
+  const raw = String(entry?.rawHtml || '');
+  if (!raw) throw new Error(`${key}: raw affiliate material is empty`);
+  if (/<script\b|javascript:|\son[a-z]+\s*=/i.test(raw)) throw new Error(`${key}: unsafe markup in raw affiliate material`);
+  if (!/<a\b[^>]*href=["']https:\/\/px\.a8\.net\/svt\/ejp\?[^"']+["'][^>]*rel=["'][^"']*nofollow[^"']*["'][^>]*>/i.test(raw)) {
+    throw new Error(`${key}: A8 affiliate anchor or nofollow attribute is missing`);
+  }
+  if (!/<img\b[^>]*src=["']https:\/\/www\d+\.a8\.net\/0\.gif\?[^"']+["'][^>]*>/i.test(raw)) {
+    throw new Error(`${key}: A8 tracking pixel is missing`);
+  }
+  return raw;
 }
 
 function renderSection(section, index) {
@@ -273,7 +289,13 @@ function renderSection(section, index) {
 function renderArticleCtas(article) {
   let hasAffiliate = false;
   const links = (article.ctas || []).map(cta => {
-    const affiliateUrl = configuredAffiliateUrl(cta.affiliateKey);
+    const entry = configuredAffiliateEntry(cta.affiliateKey, article.language);
+    if (entry?.type === 'rawHtml') {
+      hasAffiliate = true;
+      const material = validatedRawAffiliateHtml(entry, cta.affiliateKey);
+      return `<span class="article-cta-material" data-affiliate-key="${esc(cta.affiliateKey)}" data-affiliate-position="article-cta">${material}</span>`;
+    }
+    const affiliateUrl = entry?.url || '';
     const isAffiliate = Boolean(affiliateUrl);
     hasAffiliate ||= isAffiliate;
     const href = affiliateUrl || cta.officialUrl;
@@ -379,9 +401,9 @@ async function normalizePublicChrome() {
     if (cookieOnly) html = html.replace(/<section\b[^>]*class=["'][^"']*\bcookie-banner\b[^"']*["'][^>]*>[\s\S]*?<\/section>/i, cookieOnly);
     html = html.replaceAll('レビューレビュー', 'レビュー').replaceAll('ガイドガイド', 'ガイド').replaceAll('比較比較', '比較');
     html = html.replace(/\/assets\/css\/style\.css(?:\?v=[^"']+)?/g, `/assets/css/style.css?v=${site.assetVersion}`);
-    html = html.replaceAll('/assets/js/analytics-v4.2.0.js', '/assets/js/analytics-v4.5.0.js');
-    html = html.replaceAll('/assets/js/main-v4.2.0.js', '/assets/js/main-v4.5.0.js');
-    html = html.replaceAll('/assets/js/article-directory-v4.2.0.js', '/assets/js/article-directory-v4.5.0.js');
+    html = html.replace(/\/assets\/js\/analytics-v4\.(?:2|5)\.0\.js/g, '/assets/js/analytics-v4.6.0.js');
+    html = html.replace(/\/assets\/js\/main-v4\.(?:2|5)\.0\.js/g, '/assets/js/main-v4.6.0.js');
+    html = html.replace(/\/assets\/js\/article-directory-v4\.(?:2|5)\.0\.js/g, '/assets/js/article-directory-v4.6.0.js');
     html = replaceOrInsertXDefault(html, defaultUrl);
     if (!/type=["']application\/rss\+xml["']/i.test(html)) {
       html = html.replace('</head>', `  <link rel="alternate" type="application/rss+xml" title="Luqevora ${language}" href="/feed-${language}.xml">\n</head>`);
@@ -480,6 +502,7 @@ for (const article of articles) {
     lead: esc(article.lead || article.description),
     publishedLabel: currentLabel(article.language, `公開・最終確認：${formattedVerified}`, `Published / verified: ${formattedVerified}`),
     authorLabel: currentLabel(article.language, `執筆：${article.author || site.organization.name}`, `By ${article.author || site.organization.name}`),
+    heroAffiliateDisclosure: articleCtas.hasAffiliate ? `<p class="hero-affiliate-disclosure"><strong>${currentLabel(article.language, '広告', 'Advertisement')}</strong> ${esc(affiliates.rules.sponsoredLabel[article.language])}</p>` : '',
     featuredImage: decision.indexable ? `<figure class="article-featured-image"><img alt="${esc(article.title)}" decoding="async" fetchpriority="high" height="${seoConfig.images.height}" src="${imagePath}" width="${seoConfig.images.width}"><figcaption>${esc(currentLabel(article.language, `${article.title}の判断ポイントを示すオリジナル画像`, `Original visual for ${article.title}`))}</figcaption></figure>` : '',
     decisionSummary: decisionSummary(article),
     editorialNote,

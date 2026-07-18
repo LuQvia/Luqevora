@@ -174,3 +174,13 @@ html.no-js .menu-button{display:none}
 .article-body .evidence-panel h2{margin:8px 0 0;font-size:27px}.evidence-panel dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0}.evidence-panel dl>div{padding:14px;border:1px solid var(--line);border-radius:13px;background:#fff}.evidence-panel dt{color:#6A778D;font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.04em}.evidence-panel dd{margin:5px 0 0;color:var(--navy);font-weight:900}.evidence-panel p{margin:0;font-size:13px}
 @media(max-width:980px){.topic-link-grid,.topic-directory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topic-method-card{grid-template-columns:1fr}.evidence-panel dl{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.topic-link-grid,.topic-directory-grid{grid-template-columns:1fr}.topic-link-card{min-height:0}.article-card-image{width:calc(100% + 40px);margin:-20px -20px 16px}.decision-summary,.evidence-panel{padding:20px 17px}.evidence-panel dl{grid-template-columns:1fr}}
+
+
+/* v4.6 affiliate material integrity and first-view disclosure */
+.hero-affiliate-disclosure{display:inline-flex;align-items:center;gap:9px;margin:18px 0 0;padding:8px 12px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.12);color:inherit;font-size:12px;line-height:1.5}
+.hero-affiliate-disclosure strong{display:inline-flex;padding:2px 7px;border-radius:999px;background:#fff;color:var(--navy);font-size:10px;letter-spacing:.04em}
+.article-cta-material{display:inline-flex;align-items:center;justify-content:center}
+.article-cta-material>a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 17px;border-radius:12px;background:var(--blue);color:#fff!important;font-weight:900;text-decoration:none;box-shadow:0 8px 20px rgba(20,99,255,.18)}
+.article-cta-material>a:hover{background:#0B46BB;color:#fff!important}
+.article-cta-material>img{position:absolute;width:1px;height:1px;overflow:hidden}
+@media(max-width:760px){.article-cta-material,.article-cta-material>a{width:100%}}

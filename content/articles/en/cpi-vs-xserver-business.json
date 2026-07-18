@@ -1,0 +1,199 @@
+{
+  "id": "cpi-vs-xserver-business-en",
+  "translationKey": "cpi-vs-xserver-business",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "cpi-vs-xserver-business",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Business hosting comparison",
+  "title": "CPI vs XServer Business for Organizations in Japan",
+  "metaTitle": "CPI vs XServer Business: Pricing, Backup and SLA",
+  "description": "Compare CPI Business Standard and XServer Business using official pricing, storage, backup, SLA, email, support, and migration information.",
+  "lead": "CPI emphasizes SmartRelease, separated domain environments, and business email operations. XServer Business emphasizes capacity, fourteen-day remote backups, migration assistance, and administrative controls.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check CPI Business Standard",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi-official"
+    },
+    {
+      "label": "Check XServer Business pricing",
+      "officialUrl": "https://business.xserver.ne.jp/price/",
+      "affiliateKey": "xserver-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPI Business Standard official page",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI Business Standard pricing and onboarding",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI Business Standard specifications",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI cancellation and refund policy",
+      "url": "https://www.cpi.ad.jp/guarantee/"
+    },
+    {
+      "label": "CPI service-level agreement",
+      "url": "https://www.cpi.ad.jp/sla/"
+    },
+    {
+      "label": "XServer Business official page",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Business pricing",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Business feature list",
+      "url": "https://business.xserver.ne.jp/functions/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Conclusion: CPI for release workflows, XServer Business for capacity and migration support",
+      "body": [
+        "CPI is a strong candidate when staging, controlled production releases, separated domain environments, and Japanese business email are central requirements.",
+        "XServer Business is easier to shortlist when the organization prioritizes a larger shared-server storage allocation, fourteen-day backups that include mail, administrator users, setup assistance, and website migration support."
+      ],
+      "bullets": [
+        "Choose CPI when staging and controlled release are central",
+        "Choose XServer Business when capacity and migration support are central",
+        "For both services, verify the precise SLA scope and paid options"
+      ]
+    },
+    {
+      "heading": "Officially published differences",
+      "body": [
+        "The table compares the published shared hosting configurations at the verification date. Temporary campaign prices should not be treated as permanent pricing."
+      ],
+      "table": {
+        "headers": [
+          "Item",
+          "CPI Business Standard",
+          "XServer Business shared Standard"
+        ],
+        "rows": [
+          [
+            "Twelve-month monthly equivalent",
+            "JPY 4,840",
+            "JPY 4,180 before temporary cashback calculations"
+          ],
+          [
+            "Setup fee",
+            "No charge for twelve months",
+            "JPY 16,500"
+          ],
+          [
+            "Web storage",
+            "300 GB primary plus 100 GB per multi-domain environment",
+            "700 GB NVMe"
+          ],
+          [
+            "Backup",
+            "Combined 10 GB web and database, up to 30 generations",
+            "Web, mail and MySQL, previous 14 days, remote storage"
+          ],
+          [
+            "Release workflow",
+            "SmartRelease staging and production release",
+            "Migration and configuration assistance"
+          ],
+          [
+            "SLA",
+            "100 percent reference for the primary web server only",
+            "99.99 percent monthly uptime guarantee"
+          ],
+          [
+            "Standard support",
+            "Email",
+            "Telephone, email and chat"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Pricing and total cost",
+      "body": [
+        "CPI displayed JPY 4,840 per month equivalent for a twelve-month contract with no setup fee. XServer Business displayed JPY 4,180 per month for the twelve-month shared Standard plan plus a JPY 16,500 setup fee. A temporary cashback campaign was visible on XServer Business at verification.",
+        "Compare renewal pricing, setup fees, migration work, backup requirements, domains, and optional support rather than using one promotional number."
+      ]
+    },
+    {
+      "heading": "Backup and publishing operations",
+      "body": [
+        "CPI SmartRelease combines staging, production release, and recovery. Its standard backup allowance is a combined 10 GB for web and database data, retained for up to 30 generations.",
+        "XServer Business states that web files, mail data, and MySQL databases are kept for the previous 14 days and stored remotely. Confirm recovery granularity and operational procedures before purchase."
+      ]
+    },
+    {
+      "heading": "Email, administration and support",
+      "body": [
+        "CPI publishes SPF, DKIM, DMARC, webmail, forwarding, and autoresponder support. Standard support is email-based, while the 24-hour telephone service is a paid option.",
+        "XServer Business includes telephone, email, and chat support and provides administrator-user controls. Some advanced multi-account and dedicated-IP features depend on the selected plan."
+      ]
+    },
+    {
+      "heading": "How to choose",
+      "body": [
+        "Document the publishing process, support responsibilities, data recovery objectives, and required administrator roles before selecting a service."
+      ],
+      "bullets": [
+        "CPI fit: agency or internal team needs staging and release control",
+        "CPI fit: multiple domains and Japanese business email need separated environments",
+        "XServer Business fit: large storage, migration support and standard multi-channel support",
+        "XServer Business fit: administrator controls and corporate domain benefits are important"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which service had the lower twelve-month monthly price at verification?",
+      "answer": "XServer Business shared Standard displayed JPY 4,180 per month, while CPI displayed JPY 4,840 per month equivalent. Setup fees and campaign conditions make total cost different."
+    },
+    {
+      "question": "Which backup model is broader?",
+      "answer": "CPI provides up to 30 generations within a combined 10 GB web and database allowance. XServer Business publishes fourteen days of web, mail and MySQL backups with remote storage. Choose based on data scope and recovery needs."
+    },
+    {
+      "question": "Which is better for a web agency?",
+      "answer": "CPI is attractive for staging and controlled releases through SmartRelease. XServer Business is attractive when migration assistance, capacity, and administrative controls are more important."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "CPI review",
+      "url": "/en/hosting-security/cpi-rental-server-review/",
+      "description": "Review CPI pricing, specifications and SLA limitations"
+    },
+    {
+      "label": "Business web hosting comparison for Japan",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Add ConoHa WING Business to the comparison"
+    },
+    {
+      "label": "Hostinger versus XServer",
+      "url": "/en/hosting-security/hostinger-vs-xserver/",
+      "description": "Review another small-business hosting comparison"
+    }
+  ]
+}

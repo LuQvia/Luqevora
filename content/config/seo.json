@@ -3,7 +3,9 @@
     "mode": "priority",
     "includeLegacyRoutes": true,
     "includeSourceFiles": [
-      "content/article-batches/bilingual-affiliate-intents.json"
+      "content/article-batches/bilingual-affiliate-intents.json",
+      "content/articles/ja/business-web-hosting-comparison.json",
+      "content/articles/en/business-web-hosting-comparison.json"
     ],
     "priorityProducts": [
       "activecampaign",
@@ -17,7 +19,9 @@
       "kinsta",
       "wp-engine",
       "nordvpn",
-      "surfshark"
+      "surfshark",
+      "cpi",
+      "xserver-business"
     ],
     "includePriorityReviews": true,
     "priorityComparisonMinimumMatches": 2,

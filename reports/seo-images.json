@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-18T11:59:46.464Z",
+  "generatedAt": "2026-07-18T21:31:32.834Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 244,
+  "imageCount": 250,
   "generatedCount": 0,
-  "reusedCount": 244,
+  "reusedCount": 250,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -207,6 +207,12 @@
       "status": "reused"
     },
     {
+      "route": "/en/hosting-security/business-web-hosting-comparison/",
+      "image": "source-assets/images/articles/en/hosting-security/business-web-hosting-comparison.jpg",
+      "fingerprint": "97e750063dd769329573d4e1b86f3c7a7ad251f84b64386f9ece4d161fa0bfcd",
+      "status": "reused"
+    },
+    {
       "route": "/en/hosting-security/cloudways-guide/",
       "image": "source-assets/images/articles/en/hosting-security/cloudways-guide.jpg",
       "fingerprint": "67694d82a61fdde2e05e17ed3c50529b6097c17894219a127ab217e3c366d018",
@@ -234,6 +240,18 @@
       "route": "/en/hosting-security/conoha-wing-review/",
       "image": "source-assets/images/articles/en/hosting-security/conoha-wing-review.jpg",
       "fingerprint": "0d3e27c90601b3ca3a7ffa4ef3c9800a460a256360eeac9f6a8466f94df73ef3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/cpi-rental-server-review/",
+      "image": "source-assets/images/articles/en/hosting-security/cpi-rental-server-review.jpg",
+      "fingerprint": "70368ef85c63042a1eeddc7133fe4d3355c3abc2757341c1a33d854d6033e5c3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/cpi-vs-xserver-business/",
+      "image": "source-assets/images/articles/en/hosting-security/cpi-vs-xserver-business.jpg",
+      "fingerprint": "ece65f65265a93fd0e98ce62a6bb298746cd8dd784608e93ad9bedbd10e7a768",
       "status": "reused"
     },
     {
@@ -939,6 +957,12 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/business-web-hosting-comparison/",
+      "image": "source-assets/images/articles/ja/hosting-security/business-web-hosting-comparison.jpg",
+      "fingerprint": "622e63749f6cd29b5fce95c4ceaab05f7bc3fb28c2401d1fba97c0598fdf916b",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/cloudways-guide/",
       "image": "source-assets/images/articles/ja/hosting-security/cloudways-guide.jpg",
       "fingerprint": "f5e5bd2ca39056876fece25d45812fc9b7403da7c612d73e96370091ef829c6d",
@@ -966,6 +990,18 @@
       "route": "/ja/hosting-security/conoha-wing-review/",
       "image": "source-assets/images/articles/ja/hosting-security/conoha-wing-review.jpg",
       "fingerprint": "b99a7998e43ff1431fdc482cf57a819eb8ea2d6ba934acb7a80a035e761be214",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/cpi-rental-server-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/cpi-rental-server-review.jpg",
+      "fingerprint": "670ce8c733e38c8f26b360264f9025817fbe64bbb2532abff2a91d233db092bb",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/cpi-vs-xserver-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/cpi-vs-xserver-business.jpg",
+      "fingerprint": "169dbe3b1a0a4f01658df8e1cb90a3d113476c097cbe42e22eab16c702d32a60",
       "status": "reused"
     },
     {

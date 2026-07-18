@@ -1,0 +1,212 @@
+{
+  "id": "business-web-hosting-comparison-ja",
+  "translationKey": "business-web-hosting-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "business-web-hosting-comparison",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "法人向け比較・広告掲載",
+  "title": "法人向けレンタルサーバー3社比較｜CPI・XServer・ConoHa",
+  "metaTitle": "法人向けレンタルサーバー比較｜CPI・XServer・ConoHa",
+  "description": "CPI、XServerビジネス、ConoHa WINGビジネスを、料金、容量、バックアップ、メール、SLA、サポートから公式情報で比較します。",
+  "lead": "法人向けレンタルサーバーは、最安料金だけでなく、公開前テスト、メール認証、復旧対象、SLA、管理権限、移転支援まで比較する必要があります。ここでは運用特性の異なる3サービスを同じ基準で整理します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "CPIレンタルサーバー",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi"
+    },
+    {
+      "label": "XServerビジネスを確認",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "affiliateKey": "xserver-business-official"
+    },
+    {
+      "label": "ConoHa WINGビジネスを確認",
+      "officialUrl": "https://www.conoha.jp/wing/business/",
+      "affiliateKey": "conoha-wing-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPI ビジネス スタンダード公式ページ",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI ビジネス スタンダード料金・導入の流れ",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI ビジネス スタンダード仕様",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI キャンセルポリシー・返金保証",
+      "url": "https://www.cpi.ad.jp/guarantee/"
+    },
+    {
+      "label": "CPI SLA品質保証制度",
+      "url": "https://www.cpi.ad.jp/sla/"
+    },
+    {
+      "label": "XServerビジネス公式ページ",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerビジネス料金プラン",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerビジネス機能一覧",
+      "url": "https://business.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "ConoHa WING ビジネスプラン公式ページ",
+      "url": "https://www.conoha.jp/wing/business/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：運用工程、支援範囲、予算で候補が分かれる",
+      "body": [
+        "CPIはSmartRelease、ドメインごとの独立環境、法人メールを重視する企業向けです。XServerビジネスは大容量、遠隔地バックアップ、移転・設定支援、管理者ユーザーを重視する企業に向きます。ConoHa WINGビジネスは専用リソース型のプランを比較的低い開始価格から選びたい小規模法人や個人事業主に適しています。",
+        "どのサービスも全企業に最適ではありません。Webサイト数、メールアカウント、バックアップ対象、復旧時間、担当者の技術力を先に整理します。"
+      ],
+      "bullets": [
+        "CPI：公開前テストと複数ドメイン・メール運用",
+        "XServerビジネス：容量、移転支援、法人向け管理機能",
+        "ConoHa WINGビジネス：専用リソースと初期費用無料の料金設計"
+      ]
+    },
+    {
+      "heading": "3社の主要条件",
+      "body": [
+        "公式サイトで確認できる代表的な共有・ビジネスプランを比較します。料金は税込みで、契約期間やキャンペーンにより変動します。"
+      ],
+      "table": {
+        "headers": [
+          "項目",
+          "CPI",
+          "XServerビジネス",
+          "ConoHa WINGビジネス"
+        ],
+        "rows": [
+          [
+            "代表的な開始価格",
+            "12か月で月額換算4,840円",
+            "共有スタンダード36か月で月額3,762円。キャンペーン表示あり",
+            "Bizライト通常最大1,815円/月、長期契約割引あり"
+          ],
+          [
+            "初期費用",
+            "12か月は無料",
+            "共有サーバー16,500円",
+            "無料"
+          ],
+          [
+            "容量",
+            "主契約300GB、各マルチドメイン100GB",
+            "共有スタンダード700GB NVMe",
+            "Bizライト700GB、Bizスタンダード1,000GB"
+          ],
+          [
+            "バックアップ",
+            "Web＋DB合計10GB、最大30世代",
+            "Web・メール・MySQLを14日、遠隔地保存",
+            "公式プラン詳細で対象と復元条件を確認"
+          ],
+          [
+            "運用上の特徴",
+            "SmartRelease、メール認証、ドメイン別環境",
+            "移転代行、設定支援、管理者ユーザー",
+            "プランごとにvCPU・メモリを確保"
+          ],
+          [
+            "試用",
+            "10日間無料お試し",
+            "14日間無料お試し",
+            "通常料金は時間課金・最低利用期間なしの案内あり"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "CPIを選びやすいケース",
+      "body": [
+        "CPIは、Web制作のテスト環境と本番反映を標準化したい企業、複数ドメインを別環境で管理したい企業、SPF・DKIM・DMARCを含む法人メール運用を重視する企業に適しています。",
+        "標準バックアップ容量、SLAの対象範囲、24時間電話サポートが有料である点は契約前に確認してください。"
+      ]
+    },
+    {
+      "heading": "XServerビジネスを選びやすいケース",
+      "body": [
+        "XServerビジネスは、共有スタンダードで700GB NVMe、過去14日分のWeb・メール・MySQLバックアップ、設定おまかせサポート、Webサイト移転代行を重視する企業に向きます。",
+        "共有サーバー以外にマネージド専用サーバーも選べるため、将来的により分離された環境を検討する場合にも比較しやすい構成です。初期費用と期間限定キャンペーンを分けて総額を計算します。"
+      ]
+    },
+    {
+      "heading": "ConoHa WINGビジネスを選びやすいケース",
+      "body": [
+        "ConoHa WINGビジネスは、Bizライト、Bizスタンダード、BizアドバンスでvCPUとメモリを分けた専用リソース型の構成を案内しています。通常料金は時間課金で月額上限があり、最低利用期間なし、初期費用無料です。",
+        "WINGパックでは長期契約割引と独自ドメイン特典がありますが、契約期間中の途中解約はできず、期間分を一括前払いします。"
+      ]
+    },
+    {
+      "heading": "契約前チェックリスト",
+      "body": [
+        "担当者、制作会社、経理、情報システムで次の条件を共有してから見積もります。"
+      ],
+      "bullets": [
+        "年間総額と更新後料金、初期費用、ドメイン費用",
+        "Web、メール、データベースのバックアップ対象と保存日数",
+        "復元を自社で行うか、事業者へ依頼するか",
+        "SLA対象サービスと返金申請条件",
+        "移転代行、DNS変更、動作確認の担当範囲",
+        "管理者権限、複数部署・制作会社への権限分離"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "法人向けレンタルサーバーは何を基準に選べばよいですか？",
+      "answer": "料金、Web・メール容量、バックアップ対象、復元方法、SLA範囲、移転支援、管理権限、サポート時間を自社の運用手順に合わせて比較します。"
+    },
+    {
+      "question": "最も安いサービスを選べばよいですか？",
+      "answer": "いいえ。障害時の復旧費用、移転作業、メール停止、担当者の作業時間を含めると、月額差より運用機能の差が大きくなる場合があります。"
+    },
+    {
+      "question": "制作会社が管理する場合の重要項目は何ですか？",
+      "answer": "テスト環境、公開権限、複数サイトの分離、バックアップ、復元、DNS切り替え、契約名義と支払責任を明確にしてください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "CPIの個別レビュー",
+      "url": "/ja/hosting-security/cpi-rental-server-review/",
+      "description": "CPIの料金と制約を詳しく確認"
+    },
+    {
+      "label": "CPIとXServerビジネスの比較",
+      "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+      "description": "2社の違いを深掘り"
+    },
+    {
+      "label": "小規模事業向けサーバー比較",
+      "url": "/ja/hosting-security/web-hosting-small-business/",
+      "description": "一般向けプランも含めて比較"
+    }
+  ]
+}

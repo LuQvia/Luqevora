@@ -1,7 +1,27 @@
 {
-  "links": {},
+  "links": {
+    "cpi": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000003166001",
+      "language": "ja",
+      "destination": "https://www.cpi.ad.jp/shared/bs/",
+      "rawHtml": "<A HREF=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+7YYZ4Q+OFG+5ZMCI\" rel=\"nofollow\">CPIレンタルサーバー</A>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B844Z+7YYZ4Q+OFG+5ZMCI\" alt=\"\">"
+    },
+    "cpi-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000003166001",
+      "language": "ja",
+      "destination": "https://www.cpi.ad.jp/shared/bs/",
+      "rawHtml": "<A HREF=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+7YYZ4Q+OFG+5ZEMQ\" rel=\"nofollow\">CPI</A>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B844Z+7YYZ4Q+OFG+5ZEMQ\" alt=\"\">"
+    }
+  },
   "rules": {
-    "sponsoredLabel": {"ja":"広告・アフィリエイトを含みます","en":"Contains affiliate links"},
+    "sponsoredLabel": {
+      "ja": "広告・アフィリエイトを含みます",
+      "en": "Contains affiliate links"
+    },
     "defaultRel": "sponsored nofollow noopener",
     "externalTarget": "_blank"
   }

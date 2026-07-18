@@ -30,6 +30,16 @@ for (const [key, expected] of [['featuredComparisons', 5], ['featuredReviews', 6
   }
 }
 
+for (const [key, entry] of Object.entries(affiliates.links || {})) {
+  if (typeof entry === 'string') continue;
+  if (entry?.type !== 'rawHtml') continue;
+  const raw = String(entry.rawHtml || '');
+  if (!entry.network || !entry.programId || !entry.destination) addError('content/config/affiliates.json', `${key}: raw affiliate material requires network, programId, and destination`);
+  if (/<script\b|javascript:|\son[a-z]+\s*=/i.test(raw)) addError('content/config/affiliates.json', `${key}: unsafe raw affiliate markup`);
+  if (!/<a\b[^>]*href=["']https:\/\/px\.a8\.net\/svt\/ejp\?[^"']+["'][^>]*rel=["'][^"']*nofollow[^"']*["'][^>]*>/i.test(raw)) addError('content/config/affiliates.json', `${key}: missing A8 anchor or nofollow`);
+  if (!/<img\b[^>]*src=["']https:\/\/www\d+\.a8\.net\/0\.gif\?[^"']+["'][^>]*>/i.test(raw)) addError('content/config/affiliates.json', `${key}: missing A8 tracking pixel`);
+}
+
 function attribute(tag, name) {
   const match = tag.match(new RegExp(`\\b${name}\\s*=\\s*(["'])([\\s\\S]*?)\\1`, 'i'));
   return match?.[2] || '';
@@ -100,6 +110,11 @@ for (const file of htmlFiles) {
   if (!/<h1\b[^>]*>[\s\S]*?\S[\s\S]*?<\/h1>/i.test(html)) addError(relative, 'Missing H1');
   if (/{{[A-Za-z0-9_]+}}/.test(html)) addError(relative, 'Unresolved template placeholder');
   if (/<html\b[^>]*\blang=["']en["']/i.test(html) && html.includes('：')) addError(relative, 'English page contains a full-width Japanese colon');
+  if (html.includes('https://px.a8.net/svt/ejp?')) {
+    if (!/class=["'][^"']*hero-affiliate-disclosure/i.test(html)) addError(relative, 'A8 affiliate page is missing first-view advertising disclosure');
+    if (!/https:\/\/www\d+\.a8\.net\/0\.gif\?/i.test(html)) addError(relative, 'A8 affiliate page is missing tracking pixel');
+    if (!/data-affiliate-key=["']cpi["']/i.test(html)) addError(relative, 'A8 affiliate material is missing analytics wrapper');
+  }
 
   const ids = [...html.matchAll(/\sid=["']([^"']+)["']/gi)].map(match => match[1]);
   const seenIds = new Set();
@@ -262,7 +277,7 @@ for (const entry of articleEntries) {
 }
 
 for (const [key, entry] of Object.entries(affiliates.links || {})) {
-  const url = typeof entry === 'string' ? entry : entry?.url;
+  const url = typeof entry === 'string' ? entry : entry?.url || entry?.destination;
   try {
     const parsed = new URL(url);
     if (parsed.protocol !== 'https:' || !/^[a-z0-9][a-z0-9-]*$/.test(key)) throw new Error('Affiliate keys must be lowercase and URLs must use HTTPS');
@@ -359,7 +374,7 @@ try {
 const indexNow = await readJson(path.join(root, 'content/config/indexnow.json'));
 for (const requiredFile of [
   'CNAME', '.nojekyll', 'release-manifest.json', 'assets/css/style.css', 'assets/images/og-default.png',
-  'assets/js/analytics-v4.5.0.js', 'assets/js/main-v4.5.0.js', 'assets/js/article-directory-v4.5.0.js',
+  'assets/js/analytics-v4.6.0.js', 'assets/js/main-v4.6.0.js', 'assets/js/article-directory-v4.6.0.js',
   'feed-ja.xml', 'feed-en.xml', `${indexNow.key}.txt`
 ]) {
   if (!allPublicFiles.has(path.resolve(outputRoot, requiredFile))) addError(`/${requiredFile}`, 'Required GitHub Pages file is missing');

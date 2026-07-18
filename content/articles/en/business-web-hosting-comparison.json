@@ -1,0 +1,206 @@
+{
+  "id": "business-web-hosting-comparison-en",
+  "translationKey": "business-web-hosting-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "business-web-hosting-comparison",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Business hosting comparison",
+  "title": "Business Web Hosting in Japan: CPI, XServer and ConoHa",
+  "metaTitle": "Japan Business Hosting: CPI, XServer and ConoHa",
+  "description": "Compare CPI, XServer Business and ConoHa WING Business using official pricing, capacity, backup, email, SLA, support, and contract information.",
+  "lead": "Business hosting should be selected by release workflow, email authentication, backup scope, recovery procedures, administrative controls, and migration support rather than by the lowest monthly headline alone.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check CPI Business Standard",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi-official"
+    },
+    {
+      "label": "Check XServer Business",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "affiliateKey": "xserver-business-official"
+    },
+    {
+      "label": "Check ConoHa WING Business",
+      "officialUrl": "https://www.conoha.jp/wing/business/",
+      "affiliateKey": "conoha-wing-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPI Business Standard official page",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI Business Standard pricing and onboarding",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI Business Standard specifications",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI cancellation and refund policy",
+      "url": "https://www.cpi.ad.jp/guarantee/"
+    },
+    {
+      "label": "CPI service-level agreement",
+      "url": "https://www.cpi.ad.jp/sla/"
+    },
+    {
+      "label": "XServer Business official page",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Business pricing",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Business feature list",
+      "url": "https://business.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "ConoHa WING Business plan official page",
+      "url": "https://www.conoha.jp/wing/business/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Conclusion: workflow, support and budget produce different shortlists",
+      "body": [
+        "CPI is strongest when a team needs SmartRelease, separated domain environments, and Japanese business email. XServer Business is strongest when capacity, remote backups, migration support, and administrator controls are priorities. ConoHa WING Business is relevant to smaller organizations that want allocated vCPU and memory at a lower starting price with no setup fee.",
+        "Estimate website count, mail storage, recovery objectives, administrative roles, and technical staffing before comparing plans."
+      ],
+      "bullets": [
+        "CPI for controlled release and multi-domain email operations",
+        "XServer Business for capacity, migration and administration",
+        "ConoHa WING Business for allocated resources and lower entry cost"
+      ]
+    },
+    {
+      "heading": "Published plan characteristics",
+      "body": [
+        "The table summarizes representative business plans at the verification date. Contract length and temporary promotions can change the displayed price."
+      ],
+      "table": {
+        "headers": [
+          "Item",
+          "CPI",
+          "XServer Business",
+          "ConoHa WING Business"
+        ],
+        "rows": [
+          [
+            "Representative starting price",
+            "JPY 4,840 monthly equivalent for twelve months",
+            "Shared Standard from JPY 3,762 monthly on a long term, before temporary campaign calculations",
+            "Biz Light up to JPY 1,815 monthly on standard hourly billing, with long-term discounts"
+          ],
+          [
+            "Setup fee",
+            "No charge for twelve months",
+            "JPY 16,500 for shared hosting",
+            "No charge"
+          ],
+          [
+            "Storage",
+            "300 GB primary and 100 GB per multi-domain environment",
+            "700 GB NVMe on shared Standard",
+            "700 GB Biz Light and 1,000 GB Biz Standard"
+          ],
+          [
+            "Backup",
+            "Combined 10 GB web and database, up to 30 generations",
+            "Web, mail and MySQL for 14 days with remote storage",
+            "Confirm current backup scope and restore conditions in the detailed plan"
+          ],
+          [
+            "Operational focus",
+            "SmartRelease, email authentication, separated domains",
+            "Migration, setup assistance and administrator users",
+            "Allocated vCPU and memory by plan"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "When CPI is the better shortlist",
+      "body": [
+        "CPI is relevant when staging and controlled release are part of the publishing process, when multiple domains need separated environments, or when Japanese business email controls are important.",
+        "Check the standard 10 GB SmartRelease backup allowance, the limited SLA scope, and the paid 24-hour phone support option."
+      ]
+    },
+    {
+      "heading": "When XServer Business is the better shortlist",
+      "body": [
+        "XServer Business is relevant when the organization wants large shared-server capacity, fourteen days of web, mail and database backups, configuration assistance, website migration, and administrator-user controls.",
+        "Separate temporary cashback pricing from regular contract costs and include the setup fee in the first-year total."
+      ]
+    },
+    {
+      "heading": "When ConoHa WING Business is the better shortlist",
+      "body": [
+        "ConoHa WING Business publishes Biz Light, Biz Standard and Biz Advanced plans with allocated vCPU and memory. Standard billing is hourly with a monthly cap, no setup fee, and no minimum term.",
+        "The discounted WING Pack uses prepaid fixed terms and does not allow cancellation during the selected term. Review the domain benefit and term commitment together."
+      ]
+    },
+    {
+      "heading": "Pre-purchase checklist",
+      "body": [
+        "Share the following requirements among the website owner, agency, finance team and IT administrator."
+      ],
+      "bullets": [
+        "First-year and renewal total including setup and domains",
+        "Backup scope for web, email and databases",
+        "Restore responsibility and recovery time objective",
+        "SLA scope and claim procedure",
+        "Migration, DNS and acceptance-testing responsibilities",
+        "Administrator roles for internal teams and agencies"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should a company compare first?",
+      "answer": "Compare total cost, backup scope, restore procedures, SLA coverage, migration assistance, administrator controls, and support hours against the company operating process."
+    },
+    {
+      "question": "Is the lowest monthly price automatically the best choice?",
+      "answer": "No. Migration work, downtime, restore labor, email interruption, and staff time can outweigh a small monthly price difference."
+    },
+    {
+      "question": "What matters when an agency manages the site?",
+      "answer": "Document staging, release permission, multi-site separation, backup, recovery, DNS changes, contract ownership, and payment responsibility."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "CPI review",
+      "url": "/en/hosting-security/cpi-rental-server-review/",
+      "description": "Review CPI pricing, features and limits"
+    },
+    {
+      "label": "CPI versus XServer Business",
+      "url": "/en/hosting-security/cpi-vs-xserver-business/",
+      "description": "Compare the two services in more detail"
+    },
+    {
+      "label": "Small-business web hosting comparison",
+      "url": "/en/hosting-security/web-hosting-small-business/",
+      "description": "Review additional general hosting options"
+    }
+  ]
+}

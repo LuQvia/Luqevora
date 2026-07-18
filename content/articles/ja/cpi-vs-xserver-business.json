@@ -1,0 +1,204 @@
+{
+  "id": "cpi-vs-xserver-business-ja",
+  "translationKey": "cpi-vs-xserver-business",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "cpi-vs-xserver-business",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "法人向けサーバー比較・広告掲載",
+  "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+  "metaTitle": "CPIとXServerビジネスを比較｜料金・バックアップ・SLA",
+  "description": "CPIとXServerビジネスを、料金、容量、バックアップ、SLA、メール、サポート、移行支援から公式情報で比較します。",
+  "lead": "CPIはSmartRelease、ドメインごとの独立環境、法人メール運用が判断材料です。XServerビジネスは容量、14日分の遠隔地バックアップ、無料の設定・移転支援、法人向け管理機能を重視する場合に比較しやすい候補です。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "CPIレンタルサーバー",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi"
+    },
+    {
+      "label": "XServerビジネスの公式料金を確認",
+      "officialUrl": "https://business.xserver.ne.jp/price/",
+      "affiliateKey": "xserver-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPI ビジネス スタンダード公式ページ",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI ビジネス スタンダード料金・導入の流れ",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI ビジネス スタンダード仕様",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI キャンセルポリシー・返金保証",
+      "url": "https://www.cpi.ad.jp/guarantee/"
+    },
+    {
+      "label": "CPI SLA品質保証制度",
+      "url": "https://www.cpi.ad.jp/sla/"
+    },
+    {
+      "label": "XServerビジネス公式ページ",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerビジネス料金プラン",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerビジネス機能一覧",
+      "url": "https://business.xserver.ne.jp/functions/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：更新工程と法人メールはCPI、容量と移行支援はXServerビジネス",
+      "body": [
+        "CPIは、テスト環境から本番反映までを支援するSmartRelease、ドメインごとの独立環境、Web・メール・コントロールパネルを分離した構成を重視する企業に向きます。",
+        "XServerビジネスは、共有サーバーのスタンダードでNVMe 700GB、Web・メール・MySQLの過去14日分バックアップ、管理者ユーザー、設定おまかせサポート、一定件数までの移転代行を重視する企業に比較しやすい構成です。"
+      ],
+      "bullets": [
+        "CPI：公開前テスト、複数ドメインの分離、法人メール運用を重視",
+        "XServerビジネス：容量、移転支援、管理者権限、遠隔地バックアップを重視",
+        "両社とも料金以外にSLAの対象範囲と有料オプションを確認"
+      ]
+    },
+    {
+      "heading": "主な違いを比較",
+      "body": [
+        "確認日現在の公式ページに記載された標準的な共有サーバー構成を比較します。キャンペーン価格は期間限定のため、通常条件と申込画面を優先してください。"
+      ],
+      "table": {
+        "headers": [
+          "比較項目",
+          "CPI ビジネス スタンダード",
+          "XServerビジネス 共有スタンダード"
+        ],
+        "rows": [
+          [
+            "12か月の月額換算",
+            "4,840円",
+            "4,180円。期間限定のキャッシュバック表示あり"
+          ],
+          [
+            "初期費用",
+            "12か月は無料",
+            "16,500円"
+          ],
+          [
+            "Web容量",
+            "主契約300GB、マルチドメイン各100GB",
+            "NVMe 700GB"
+          ],
+          [
+            "バックアップ",
+            "Web＋DB合計10GB、最大30世代",
+            "Web・メール・MySQLを過去14日分、遠隔地保存"
+          ],
+          [
+            "テスト・公開工程",
+            "SmartReleaseのテスト環境と本番反映",
+            "WordPress簡単移行、各種設定支援"
+          ],
+          [
+            "SLA",
+            "100%基準。主契約Webのみ対象",
+            "月間稼働率99.99%以上を保証"
+          ],
+          [
+            "標準サポート",
+            "メール",
+            "電話・メール・チャット"
+          ],
+          [
+            "移転支援",
+            "一部有料",
+            "Webサイト移転を一定件数まで無料で代行"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "料金と総コスト",
+      "body": [
+        "CPIの12か月契約は月額換算4,840円、初期費用無料です。XServerビジネス共有スタンダードは12か月契約で月額4,180円、初期費用16,500円と案内されています。XServer側は確認時点でキャッシュバックキャンペーンを表示していましたが、期間終了後も同じ実質価格になるとは限りません。",
+        "初年度だけでなく、更新時の通常料金、移転費用、バックアップ容量、追加サポート、ドメイン費用を含めて比較します。"
+      ]
+    },
+    {
+      "heading": "バックアップと公開作業",
+      "body": [
+        "CPIはSmartReleaseによりテスト環境、本番反映、復旧を一つの運用フローにまとめられます。標準バックアップはWebとDBの合計10GB、最大30世代です。",
+        "XServerビジネスはサーバー上のWeb・メールデータとMySQLデータベースを過去14日分保持し、遠隔地にも保存すると案内しています。容量全体、復元単位、復元依頼の条件は契約前に確認します。"
+      ]
+    },
+    {
+      "heading": "メール、管理権限、サポート",
+      "body": [
+        "CPIはSPF、DKIM、DMARC、Webメール、転送、自動応答に対応し、法人メールの構成が明確です。標準はメールサポートで、24時間365日の電話・メールサポートは有料オプションです。",
+        "XServerビジネスは電話・メール・チャットのサポート、ドメインごとの管理者ユーザー設定、上位構成でのマルチアカウント管理やIPアドレス専有を案内しています。必要機能が利用するプランに含まれるか確認します。"
+      ]
+    },
+    {
+      "heading": "選び方",
+      "body": [
+        "Web担当者の作業工程と障害時の復旧責任を基準に選ぶと、価格だけの比較を避けられます。"
+      ],
+      "bullets": [
+        "CPI向き：制作会社やWeb担当者がステージングから本番反映まで管理する",
+        "CPI向き：複数ドメインと法人メールを分離構成で運用する",
+        "XServerビジネス向き：大容量と移転代行、標準サポートを重視する",
+        "XServerビジネス向き：管理者ユーザーや法人向けドメイン特典を利用したい"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "CPIとXServerビジネスはどちらが安いですか？",
+      "answer": "確認時点の12か月月額換算はCPIが4,840円、XServerビジネス共有スタンダードが4,180円です。ただし初期費用、キャンペーン、バックアップ、移転支援を含む総額で比較してください。"
+    },
+    {
+      "question": "バックアップを重視する場合はどちらですか？",
+      "answer": "CPIは最大30世代ですが標準対象はWebとDB合計10GBです。XServerビジネスはWeb・メール・MySQLを過去14日分保持し遠隔地保存を案内しています。必要な対象と復元方法で選んでください。"
+    },
+    {
+      "question": "サイト制作会社にはどちらが向きますか？",
+      "answer": "テスト環境と本番反映を標準化したい場合はCPIのSmartReleaseが有力です。移転代行や設定支援を重視する場合はXServerビジネスを比較してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "CPIの個別レビュー",
+      "url": "/ja/hosting-security/cpi-rental-server-review/",
+      "description": "料金、仕様、SLAの注意点を詳しく確認"
+    },
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "ConoHa WINGも含めて比較"
+    },
+    {
+      "label": "HostingerとXServerの比較",
+      "url": "/ja/hosting-security/hostinger-vs-xserver/",
+      "description": "小規模事業向けの別候補を確認"
+    }
+  ]
+}

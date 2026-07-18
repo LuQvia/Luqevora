@@ -1,0 +1,165 @@
+{
+  "id": "cpi-rental-server-review-en",
+  "translationKey": "cpi-rental-server-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "cpi-rental-server-review",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official-source review",
+  "title": "CPI Rental Server Review for Businesses in Japan",
+  "metaTitle": "CPI Rental Server Review: Pricing, Email and Limits",
+  "description": "Review CPI Business Standard using official pricing, backup, email, SLA, support, and contract information for organizations operating websites in Japan.",
+  "lead": "CPI Business Standard is a Japan-focused shared hosting service for organizations that need business email, separated multi-domain environments, staging, release controls, and documented recovery procedures. It is not primarily a low-cost personal blogging plan.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check CPI Business Standard",
+      "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "affiliateKey": "cpi-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CPI Business Standard official page",
+      "url": "https://www.cpi.ad.jp/shared/bs/"
+    },
+    {
+      "label": "CPI Business Standard pricing and onboarding",
+      "url": "https://www.cpi.ad.jp/shared/bs/price/"
+    },
+    {
+      "label": "CPI Business Standard specifications",
+      "url": "https://www.cpi.ad.jp/shared/bs/spec/"
+    },
+    {
+      "label": "CPI SmartRelease",
+      "url": "https://www.cpi.ad.jp/shared/bs/smartrelease/"
+    },
+    {
+      "label": "CPI cancellation and refund policy",
+      "url": "https://www.cpi.ad.jp/guarantee/"
+    },
+    {
+      "label": "CPI service-level agreement",
+      "url": "https://www.cpi.ad.jp/sla/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Conclusion: a fit for business email and controlled multi-site operations",
+      "body": [
+        "CPI is best evaluated as an operational package for corporate websites and email rather than as a budget hosting plan. The official specification lists 300 GB of SSD storage for the primary web domain and up to ten multi-domain environments, each with a separate 100 GB web area.",
+        "Its differentiators are SmartRelease staging and deployment, separated web and mail infrastructure, SPF, DKIM and DMARC support, and a defined SLA scope. Buyers should distinguish standard features from paid options before signing a contract."
+      ],
+      "bullets": [
+        "Good fit for companies managing websites and business email together",
+        "Good fit for agencies that need separated customer environments",
+        "Compare alternatives when price or root access is the primary requirement"
+      ]
+    },
+    {
+      "heading": "Pricing and contract terms",
+      "body": [
+        "The official pricing page lists three, six, and twelve-month terms. At the verification date, the twelve-month term was displayed at JPY 4,840 per month equivalent, JPY 58,080 in total, with no setup fee. Shorter terms had a higher monthly equivalent and a setup fee.",
+        "Prices, taxes, and optional services may change. Confirm the checkout screen and contract documents before purchase."
+      ],
+      "table": {
+        "headers": [
+          "Term",
+          "Monthly equivalent",
+          "Term total",
+          "Setup fee"
+        ],
+        "rows": [
+          [
+            "12 months",
+            "JPY 4,840",
+            "JPY 58,080",
+            "No charge"
+          ],
+          [
+            "6 months",
+            "JPY 5,170",
+            "JPY 31,020",
+            "JPY 22,000"
+          ],
+          [
+            "3 months",
+            "JPY 5,500",
+            "JPY 16,500",
+            "JPY 22,000"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Website operations and SmartRelease",
+      "body": [
+        "SmartRelease combines a test environment, controlled production release, backup, and recovery workflows. This is useful when a company needs a review step before publishing changes or when an agency manages client websites.",
+        "The standard SmartRelease backup is limited to a combined 10 GB of web files and databases for up to 30 generations. The 300 GB primary web capacity does not mean that the entire capacity is retained for 30 generations."
+      ]
+    },
+    {
+      "heading": "Email, security and SLA scope",
+      "body": [
+        "The mail service supports SPF, DKIM and DMARC, along with webmail, forwarding, autoresponders and mailing lists. WAF and a CPI SSL certificate are included, while website tamper detection is listed as a paid option.",
+        "The SLA uses a 100 percent service-level reference for the primary web server. The official specification excludes the mail server and servers used for multi-domain environments from that SLA scope."
+      ]
+    },
+    {
+      "heading": "Support and migration considerations",
+      "body": [
+        "Standard support is email-based. The 24-hour telephone and email service is a paid option. Migration assistance may also involve paid work, so the organization should document who handles data transfer, testing, DNS changes, and rollback.",
+        "CPI also publishes trial and refund conditions. Review exclusions, deadlines, and domain-related charges directly in the current policy before relying on a refund option."
+      ]
+    },
+    {
+      "heading": "Who should consider CPI",
+      "body": [
+        "CPI is relevant to Japanese companies, organizations, and web agencies that value business email, multi-domain isolation, staging, and recovery procedures. A low-cost shared host may be better for one small personal site, while a VPS or managed dedicated service may be better when root access or isolated compute resources are required."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What was the displayed twelve-month CPI price at verification?",
+      "answer": "The official page displayed JPY 4,840 per month equivalent, JPY 58,080 total, and no setup fee for the twelve-month term. Recheck the checkout page before purchase."
+    },
+    {
+      "question": "Is 24-hour phone support included by default?",
+      "answer": "No. Standard support is email-based, and the 24-hour telephone and email service is listed as a paid option."
+    },
+    {
+      "question": "Does the 30-generation backup cover all 300 GB?",
+      "answer": "No. The standard SmartRelease backup is described as a combined 10 GB for web files and databases, retained for up to 30 generations."
+    },
+    {
+      "question": "Does the CPI SLA cover mail and all multi-domain servers?",
+      "answer": "No. The published scope applies to the primary web server and excludes the mail server and multi-domain servers."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "CPI versus XServer Business",
+      "url": "/en/hosting-security/cpi-vs-xserver-business/",
+      "description": "Compare pricing, backups, SLA scope and migration support"
+    },
+    {
+      "label": "Business web hosting comparison for Japan",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Compare CPI, XServer Business and ConoHa WING Business"
+    },
+    {
+      "label": "Small-business web hosting comparison",
+      "url": "/en/hosting-security/web-hosting-small-business/",
+      "description": "Review additional lower-cost hosting options"
+    }
+  ]
+}
