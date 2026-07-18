@@ -1,0 +1,199 @@
+{
+  "id": "beauty-salon-website-builder-comparison-ja",
+  "translationKey": "beauty-salon-website-builder-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "beauty-salon-website-builder-comparison",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "美容サロン向け比較",
+  "title": "美容サロン向けホームページ作成サービス比較｜予約・メニュー・写真で選ぶ",
+  "metaTitle": "美容サロン向けホームページ作成サービス比較",
+  "description": "美容室、眉毛、ネイル、エステ等のサロン向けホームページ作成サービスを、予約、メニュー、写真、スタッフ、更新、費用から比較します。",
+  "lead": "美容サロンのホームページは、施術写真だけでなく、料金、所要時間、予約、キャンセル、スタッフ、アクセス、注意事項をスマートフォンで分かりやすく伝える必要があります。グーペを中心に、Wix、Squarespace、WordPress.comを比較します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "美容室・エステのホームページならグーペ",
+      "officialUrl": "https://goope.jp/",
+      "affiliateKey": "goope-beauty"
+    }
+  ],
+  "sources": [
+    {
+      "label": "グーペ公式サイト",
+      "url": "https://goope.jp/"
+    },
+    {
+      "label": "グーペのプラン・料金",
+      "url": "https://goope.jp/service/price/"
+    },
+    {
+      "label": "グーペの機能一覧",
+      "url": "https://goope.jp/service/function/"
+    },
+    {
+      "label": "無料おためし期間と正式契約",
+      "url": "https://help.goope.jp/hc/ja/articles/16299271137043"
+    },
+    {
+      "label": "予約制電話サポート",
+      "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+    },
+    {
+      "label": "制作会社・アフィリエイター向けサンプルアカウント",
+      "url": "https://goope.jp/partner/production/"
+    },
+    {
+      "label": "Wix plans",
+      "url": "https://www.wix.com/plans"
+    },
+    {
+      "label": "Wix website builder",
+      "url": "https://www.wix.com/website/builder"
+    },
+    {
+      "label": "Wix scheduling software",
+      "url": "https://www.wix.com/scheduling-software"
+    },
+    {
+      "label": "Squarespace pricing",
+      "url": "https://www.squarespace.com/pricing"
+    },
+    {
+      "label": "Squarespace Scheduling",
+      "url": "https://www.squarespace.com/scheduling"
+    },
+    {
+      "label": "WordPress.com pricing",
+      "url": "https://wordpress.com/pricing/"
+    },
+    {
+      "label": "WordPress.com features",
+      "url": "https://wordpress.com/features/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：少人数で店舗情報と予約を更新するならグーペが候補",
+      "body": [
+        "メニュー、料金、所要時間、スタッフ、店舗情報、お知らせ、写真、予約を少人数で更新するサロンでは、グーペの店舗向け管理項目が使いやすい可能性があります。デザイン表現と機能追加を広げたい場合はWix、ブランド写真と統一感を重視する場合はSquarespace、長期的な記事・SEOコンテンツを重視する場合はWordPress.comも比較します。",
+        "予約媒体や公式LINEを既に利用している場合、ホームページの役割を「直接予約」だけでなく、信頼形成、料金確認、施術前の注意、店舗別導線、採用、ブランド検索対策として整理します。"
+      ]
+    },
+    {
+      "heading": "サロンサイトで必要な情報",
+      "body": [
+        "メニュー名、税込料金、所要時間、施術範囲、対象者、注意事項、キャンセル方針、遅刻時の扱い、担当者、住所、営業時間、支払方法、予約変更、プライバシーを整理します。写真は施術例、店内、外観、スタッフを分け、実際の内容と誤認させない説明を付けます。",
+        "医療行為、効果保証、ビフォーアフター、資格表示等には業種ごとの法令・広告ルールが関係します。サイトビルダーの機能とは別に表現確認が必要です。"
+      ]
+    },
+    {
+      "heading": "比較軸",
+      "body": [
+        "美容サロンはスマートフォン閲覧と予約導線の確認が特に重要です。"
+      ],
+      "table": {
+        "headers": [
+          "比較項目",
+          "確認内容"
+        ],
+        "rows": [
+          [
+            "予約",
+            "メニュー別時間、指名、変更、キャンセル、外部予約連携"
+          ],
+          [
+            "写真",
+            "ギャラリー、圧縮、スマホ比率、更新のしやすさ"
+          ],
+          [
+            "メニュー",
+            "料金、所要時間、説明、カテゴリ、限定メニュー"
+          ],
+          [
+            "スタッフ",
+            "プロフィール、対応メニュー、出勤・指名導線"
+          ],
+          [
+            "店舗",
+            "地図、駐車場、複数店舗、営業時間、電話・LINE"
+          ],
+          [
+            "運用",
+            "スマホ更新、権限、バックアップ、データ出力"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "グーペの予約機能をサロンで使う場合",
+      "body": [
+        "グーペは予約サービスと日程枠を作成でき、ライトは10件・30件、スタンダードは20件・90件です。単純な施術メニューと日時枠であれば試しやすい構成です。",
+        "スタッフ指名、席・ベッド、同時施術、回数券、事前決済、キャンセル料、POS、顧客カルテなどを一体管理する場合は、専用予約システムや既存媒体との連携を前提にします。"
+      ],
+      "affiliateMaterialKey": "goope-reservation",
+      "affiliateNote": "サロンのメニュー数、スタッフ数、設備数で予約運用を試してください。"
+    },
+    {
+      "heading": "料金とデザイン",
+      "body": [
+        "グーペのライトは12か月契約で月額換算1,331円、スタンダードは3,993円で、初期費用3,630円です。スタンダードは有料テンプレートと電話サポート等を含みます。",
+        "広告素材には「簡単」「安い」などの表現がありますが、Luqevoraではプラン条件、初期費用、必要な制作作業を併記します。サロンのブランド写真や文章を準備できるかが完成度に大きく影響します。"
+      ],
+      "affiliateMaterialKey": "goope-beauty",
+      "affiliateNote": "広告素材の表現だけでなく、料金条件と必要な制作・予約機能を確認してください。"
+    },
+    {
+      "heading": "最終判断",
+      "body": [
+        "店舗情報と基本予約を自分たちで更新したいサロンはグーペを試します。ページ表現とアプリ連携を重視するならWix、写真中心のブランドサイトならSquarespace、ブログや複雑な拡張ならWordPress.comを比較します。",
+        "無料体験では実際のメニュー、店舗写真、スタッフ、注意事項、予約ボタンを入れ、スマートフォンで予約まで迷わないか確認してください。"
+      ],
+      "affiliateMaterialKey": "goope",
+      "affiliateNote": "実際のサロン情報を入れ、スマートフォンの予約導線を確認してください。"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "美容サロンにホームページは必要ですか？",
+      "answer": "予約媒体やSNSがあっても、料金、注意事項、店舗情報、採用、ブランド検索の公式情報源として役立ちます。"
+    },
+    {
+      "question": "グーペだけで予約と顧客管理を完結できますか？",
+      "answer": "基本予約には対応しますが、カルテ、POS、回数券、指名、複雑な設備管理等は専用システムが必要な場合があります。"
+    },
+    {
+      "question": "写真が少なくても作れますか？",
+      "answer": "作成できますが、サロンでは店内、外観、施術例、スタッフ等の適切な写真が信頼形成に重要です。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "グーペの料金・機能・注意点",
+      "url": "/ja/website-builders/goope-review/",
+      "description": "料金、予約、独自ドメイン、サポートを公式情報で確認"
+    },
+    {
+      "label": "グーペとWixの比較",
+      "url": "/ja/website-builders/goope-vs-wix/",
+      "description": "店舗向け運用とデザイン自由度を比較"
+    },
+    {
+      "label": "店舗向けホームページ作成サービス比較",
+      "url": "/ja/website-builders/store-website-builder-comparison/",
+      "description": "店舗情報、予約、更新、独自ドメインを比較"
+    },
+    {
+      "label": "予約機能付きホームページ作成サービス比較",
+      "url": "/ja/website-builders/reservation-website-builder-comparison/",
+      "description": "予約枠、通知、キャンセル、外部連携を比較"
+    }
+  ]
+}

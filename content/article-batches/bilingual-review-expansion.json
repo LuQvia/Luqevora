@@ -39,7 +39,69 @@
     "product": "framer",
     "slug": "framer-review",
     "category": "website-builders",
-    "topic": "website-builder"
+    "topic": "website-builder",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "goope-review",
+        "label": {
+          "ja": "グーペの料金・機能・注意点",
+          "en": "Goope review"
+        },
+        "description": {
+          "ja": "店舗向け料金、予約、独自ドメイン、サポートを確認",
+          "en": "Review local-business pricing, bookings, domains, and support"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-vs-wix",
+        "label": {
+          "ja": "グーペとWixの比較",
+          "en": "Goope versus Wix"
+        },
+        "description": {
+          "ja": "店舗向け運用と自由な視覚編集を比較",
+          "en": "Compare structured store operations with flexible visual editing"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "store-website-builder-comparison",
+        "label": {
+          "ja": "店舗向けホームページ作成サービス比較",
+          "en": "Website builders for local businesses"
+        },
+        "description": {
+          "ja": "店舗情報、予約、独自ドメイン、更新を比較",
+          "en": "Compare store information, booking, domains, and updates"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "beauty-salon-website-builder-comparison",
+        "label": {
+          "ja": "美容サロン向けホームページ作成サービス比較",
+          "en": "Website builders for beauty salons"
+        },
+        "description": {
+          "ja": "予約、メニュー、写真、スタッフページを比較",
+          "en": "Compare booking, services, galleries, and staff pages"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "reservation-website-builder-comparison",
+        "label": {
+          "ja": "予約機能付きホームページ作成サービス比較",
+          "en": "Website builders with booking features"
+        },
+        "description": {
+          "ja": "予約枠、通知、決済、キャンセルを比較",
+          "en": "Compare schedules, notifications, payments, and cancellations"
+        }
+      }
+    ]
   },
   {
     "product": "duda",
@@ -81,6 +143,66 @@
         "description": {
           "ja": "販売・決済・入金・制作・保守の総費用を比較",
           "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-review",
+        "label": {
+          "ja": "グーペの料金・機能・注意点",
+          "en": "Goope review"
+        },
+        "description": {
+          "ja": "店舗向け料金、予約、独自ドメイン、サポートを確認",
+          "en": "Review local-business pricing, bookings, domains, and support"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-vs-wix",
+        "label": {
+          "ja": "グーペとWixの比較",
+          "en": "Goope versus Wix"
+        },
+        "description": {
+          "ja": "店舗向け運用と自由な視覚編集を比較",
+          "en": "Compare structured store operations with flexible visual editing"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "store-website-builder-comparison",
+        "label": {
+          "ja": "店舗向けホームページ作成サービス比較",
+          "en": "Website builders for local businesses"
+        },
+        "description": {
+          "ja": "店舗情報、予約、独自ドメイン、更新を比較",
+          "en": "Compare store information, booking, domains, and updates"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "beauty-salon-website-builder-comparison",
+        "label": {
+          "ja": "美容サロン向けホームページ作成サービス比較",
+          "en": "Website builders for beauty salons"
+        },
+        "description": {
+          "ja": "予約、メニュー、写真、スタッフページを比較",
+          "en": "Compare booking, services, galleries, and staff pages"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "reservation-website-builder-comparison",
+        "label": {
+          "ja": "予約機能付きホームページ作成サービス比較",
+          "en": "Website builders with booking features"
+        },
+        "description": {
+          "ja": "予約枠、通知、決済、キャンセルを比較",
+          "en": "Compare schedules, notifications, payments, and cancellations"
         }
       }
     ]
@@ -126,6 +248,66 @@
           "ja": "販売・決済・入金・制作・保守の総費用を比較",
           "en": "Compare platform, payment, payout, implementation, and maintenance costs"
         }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-review",
+        "label": {
+          "ja": "グーペの料金・機能・注意点",
+          "en": "Goope review"
+        },
+        "description": {
+          "ja": "店舗向け料金、予約、独自ドメイン、サポートを確認",
+          "en": "Review local-business pricing, bookings, domains, and support"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-vs-wix",
+        "label": {
+          "ja": "グーペとWixの比較",
+          "en": "Goope versus Wix"
+        },
+        "description": {
+          "ja": "店舗向け運用と自由な視覚編集を比較",
+          "en": "Compare structured store operations with flexible visual editing"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "store-website-builder-comparison",
+        "label": {
+          "ja": "店舗向けホームページ作成サービス比較",
+          "en": "Website builders for local businesses"
+        },
+        "description": {
+          "ja": "店舗情報、予約、独自ドメイン、更新を比較",
+          "en": "Compare store information, booking, domains, and updates"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "beauty-salon-website-builder-comparison",
+        "label": {
+          "ja": "美容サロン向けホームページ作成サービス比較",
+          "en": "Website builders for beauty salons"
+        },
+        "description": {
+          "ja": "予約、メニュー、写真、スタッフページを比較",
+          "en": "Compare booking, services, galleries, and staff pages"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "reservation-website-builder-comparison",
+        "label": {
+          "ja": "予約機能付きホームページ作成サービス比較",
+          "en": "Website builders with booking features"
+        },
+        "description": {
+          "ja": "予約枠、通知、決済、キャンセルを比較",
+          "en": "Compare schedules, notifications, payments, and cancellations"
+        }
       }
     ]
   },
@@ -170,6 +352,66 @@
           "ja": "販売・決済・入金・制作・保守の総費用を比較",
           "en": "Compare platform, payment, payout, implementation, and maintenance costs"
         }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-review",
+        "label": {
+          "ja": "グーペの料金・機能・注意点",
+          "en": "Goope review"
+        },
+        "description": {
+          "ja": "店舗向け料金、予約、独自ドメイン、サポートを確認",
+          "en": "Review local-business pricing, bookings, domains, and support"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-vs-wix",
+        "label": {
+          "ja": "グーペとWixの比較",
+          "en": "Goope versus Wix"
+        },
+        "description": {
+          "ja": "店舗向け運用と自由な視覚編集を比較",
+          "en": "Compare structured store operations with flexible visual editing"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "store-website-builder-comparison",
+        "label": {
+          "ja": "店舗向けホームページ作成サービス比較",
+          "en": "Website builders for local businesses"
+        },
+        "description": {
+          "ja": "店舗情報、予約、独自ドメイン、更新を比較",
+          "en": "Compare store information, booking, domains, and updates"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "beauty-salon-website-builder-comparison",
+        "label": {
+          "ja": "美容サロン向けホームページ作成サービス比較",
+          "en": "Website builders for beauty salons"
+        },
+        "description": {
+          "ja": "予約、メニュー、写真、スタッフページを比較",
+          "en": "Compare booking, services, galleries, and staff pages"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "reservation-website-builder-comparison",
+        "label": {
+          "ja": "予約機能付きホームページ作成サービス比較",
+          "en": "Website builders with booking features"
+        },
+        "description": {
+          "ja": "予約枠、通知、決済、キャンセルを比較",
+          "en": "Compare schedules, notifications, payments, and cancellations"
+        }
       }
     ]
   },
@@ -213,6 +455,66 @@
         "description": {
           "ja": "販売・決済・入金・制作・保守の総費用を比較",
           "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-review",
+        "label": {
+          "ja": "グーペの料金・機能・注意点",
+          "en": "Goope review"
+        },
+        "description": {
+          "ja": "店舗向け料金、予約、独自ドメイン、サポートを確認",
+          "en": "Review local-business pricing, bookings, domains, and support"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "goope-vs-wix",
+        "label": {
+          "ja": "グーペとWixの比較",
+          "en": "Goope versus Wix"
+        },
+        "description": {
+          "ja": "店舗向け運用と自由な視覚編集を比較",
+          "en": "Compare structured store operations with flexible visual editing"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "store-website-builder-comparison",
+        "label": {
+          "ja": "店舗向けホームページ作成サービス比較",
+          "en": "Website builders for local businesses"
+        },
+        "description": {
+          "ja": "店舗情報、予約、独自ドメイン、更新を比較",
+          "en": "Compare store information, booking, domains, and updates"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "beauty-salon-website-builder-comparison",
+        "label": {
+          "ja": "美容サロン向けホームページ作成サービス比較",
+          "en": "Website builders for beauty salons"
+        },
+        "description": {
+          "ja": "予約、メニュー、写真、スタッフページを比較",
+          "en": "Compare booking, services, galleries, and staff pages"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "reservation-website-builder-comparison",
+        "label": {
+          "ja": "予約機能付きホームページ作成サービス比較",
+          "en": "Website builders with booking features"
+        },
+        "description": {
+          "ja": "予約枠、通知、決済、キャンセルを比較",
+          "en": "Compare schedules, notifications, payments, and cancellations"
         }
       }
     ]

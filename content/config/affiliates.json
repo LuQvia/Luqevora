@@ -95,6 +95,54 @@
       "language": "ja",
       "destination": "https://shop.xserver.ne.jp/",
       "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+A7XXEI+CO4+1NOPEA\" rel=\"nofollow\">ランニングコストを抑えたネットショップ運営なら『XServerショップ』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B844Z+A7XXEI+CO4+1NOPEA\" alt=\"\">"
+    },
+    "goope": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000404011",
+      "language": "ja",
+      "destination": "https://goope.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1U7TWI\" rel=\"nofollow\">ホームページ作成サービス「グーペ」</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1U7TWI\" alt=\"\">"
+    },
+    "goope-store": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000404011",
+      "language": "ja",
+      "destination": "https://goope.jp/",
+      "rawHtml": "<A HREF=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1THW9E\" rel=\"nofollow\">こんなに簡単！店舗向けホームページがすぐ始められる「グーペ」</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1THW9E\" alt=\"\">"
+    },
+    "goope-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000404011",
+      "language": "ja",
+      "destination": "https://goope.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1U46QA\" rel=\"nofollow\">グーペ</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1U46QA\" alt=\"\">"
+    },
+    "goope-price": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000404011",
+      "language": "ja",
+      "destination": "https://goope.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1TQOMA\" rel=\"nofollow\">[PR]月1,331円（税込）で始める簡単ホームページ作成サービス</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1TQOMA\" alt=\"\">"
+    },
+    "goope-beauty": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000404011",
+      "language": "ja",
+      "destination": "https://goope.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1U5OQQ\" rel=\"nofollow\">【簡単】美容室・エステのホームページならグーペ！【安い】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1U5OQQ\" alt=\"\">"
+    },
+    "goope-reservation": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000404011",
+      "language": "ja",
+      "destination": "https://goope.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1UFJOI\" rel=\"nofollow\">便利な予約機能もあります◎ホームページ作成サービス「グーペ」</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1UFJOI\" alt=\"\">"
     }
   },
   "rules": {

@@ -1,0 +1,201 @@
+{
+  "id": "store-website-builder-comparison-ja",
+  "translationKey": "store-website-builder-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "store-website-builder-comparison",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "店舗向け比較",
+  "title": "店舗向けホームページ作成サービス比較｜グーペ・Wix・Squarespace・WordPress.com",
+  "metaTitle": "店舗向けホームページ作成サービス比較",
+  "description": "店舗向けホームページ作成サービスを、店舗情報、予約、独自ドメイン、メール、更新、デザイン、費用、移行性から比較します。",
+  "lead": "店舗サイトは、見た目だけでなく、営業時間、アクセス、メニュー、写真、お知らせ、予約、問い合わせを日常的に更新できることが重要です。グーペ、Wix、Squarespace、WordPress.comを、店舗運営の視点で比較します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "店舗向けホームページ作成サービス「グーペ」",
+      "officialUrl": "https://goope.jp/",
+      "affiliateKey": "goope-store"
+    }
+  ],
+  "sources": [
+    {
+      "label": "グーペ公式サイト",
+      "url": "https://goope.jp/"
+    },
+    {
+      "label": "グーペのプラン・料金",
+      "url": "https://goope.jp/service/price/"
+    },
+    {
+      "label": "グーペの機能一覧",
+      "url": "https://goope.jp/service/function/"
+    },
+    {
+      "label": "無料おためし期間と正式契約",
+      "url": "https://help.goope.jp/hc/ja/articles/16299271137043"
+    },
+    {
+      "label": "予約制電話サポート",
+      "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+    },
+    {
+      "label": "制作会社・アフィリエイター向けサンプルアカウント",
+      "url": "https://goope.jp/partner/production/"
+    },
+    {
+      "label": "Wix plans",
+      "url": "https://www.wix.com/plans"
+    },
+    {
+      "label": "Wix website builder",
+      "url": "https://www.wix.com/website/builder"
+    },
+    {
+      "label": "Wix scheduling software",
+      "url": "https://www.wix.com/scheduling-software"
+    },
+    {
+      "label": "Squarespace pricing",
+      "url": "https://www.squarespace.com/pricing"
+    },
+    {
+      "label": "Squarespace Scheduling",
+      "url": "https://www.squarespace.com/scheduling"
+    },
+    {
+      "label": "WordPress.com pricing",
+      "url": "https://wordpress.com/pricing/"
+    },
+    {
+      "label": "WordPress.com features",
+      "url": "https://wordpress.com/features/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：店舗運営の優先事項で選ぶ",
+      "body": [
+        "店舗情報と予約を日本語環境で簡潔に運用するならグーペ、自由なページ設計と多機能化ならWix、デザインの統一感と予約サービス連携ならSquarespace、記事・ブログ・拡張性ならWordPress.comが候補です。",
+        "最適なサービスは業種ではなく、更新担当者、予約の複雑さ、商品販売、複数店舗、独自メール、制作会社との分担で変わります。"
+      ]
+    },
+    {
+      "heading": "4サービスの位置付け",
+      "body": [
+        "料金は地域・契約期間・機能で変わるため、構造を中心に比較します。"
+      ],
+      "table": {
+        "headers": [
+          "サービス",
+          "向く用途",
+          "主な強み",
+          "確認事項"
+        ],
+        "rows": [
+          [
+            "グーペ",
+            "店舗案内・予約・お知らせ",
+            "店舗向け管理項目、日本語契約",
+            "予約上限、プラン差、移行"
+          ],
+          [
+            "Wix",
+            "自由なデザインと機能追加",
+            "視覚編集、アプリ、予約・EC",
+            "プラン、アプリ費、移行"
+          ],
+          [
+            "Squarespace",
+            "ブランドサイト・サービス予約",
+            "統一感のあるテンプレート",
+            "予約機能の契約、追加費用"
+          ],
+          [
+            "WordPress.com",
+            "記事・ブログ・拡張",
+            "公開機能とプラン別拡張",
+            "プラグイン、保守、長期契約"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "店舗サイトに必要なページ",
+      "body": [
+        "最低限、トップ、メニュー・サービス、料金、スタッフ、店舗情報、アクセス、営業時間、予約・問い合わせ、FAQ、キャンセル方針、プライバシー、特商法表示が必要かを整理します。業種によって施術同意、医療広告、食品表示、配送、決済等の要件も変わります。",
+        "サービスを選ぶ前にページ一覧を作ると、テンプレート数よりも必要機能の有無を比較しやすくなります。"
+      ]
+    },
+    {
+      "heading": "予約機能の比較項目",
+      "body": [
+        "単純な日時予約だけでなく、スタッフ指名、設備・席・部屋、サービス所要時間、準備時間、定休日、事前決済、キャンセル料、変更、通知、顧客情報、CSV、Googleカレンダー等を確認します。",
+        "グーペはライトで予約サービス10件・日程枠30件、スタンダードで20件・90件です。複雑な予約在庫が必要なら専用システムとの連携を前提にします。"
+      ],
+      "affiliateMaterialKey": "goope-reservation",
+      "affiliateNote": "グーペの予約枠と、自社のスタッフ・設備・キャンセル運用が合うか確認してください。"
+    },
+    {
+      "heading": "費用は年間総額と更新工数で比較する",
+      "body": [
+        "基本料金に加えて、初期費用、ドメイン、メール、予約、アプリ、テンプレート、制作、撮影、文章、保守、決済、広告、移行を含めます。店舗スタッフが自分で更新できない場合、月額が安くても外注費が増えます。",
+        "グーペのライトは12か月契約で月額換算1,331円ですが、初期費用と必要なオプションがあります。表示価格の条件を揃えて比較します。"
+      ],
+      "affiliateMaterialKey": "goope-price",
+      "affiliateNote": "価格は契約期間と機能条件を揃え、年間総額で比較してください。"
+    },
+    {
+      "heading": "最終判断",
+      "body": [
+        "店舗情報の更新と予約を早く始めたい場合はグーペを15日間試します。デザインとアプリの幅を求めるならWix、ブランド表現ならSquarespace、コンテンツ資産と拡張性ならWordPress.comを試します。",
+        "同じ写真、文章、メニュー、予約条件を使い、公開までの時間と更新作業を比較するのが最も確実です。"
+      ],
+      "affiliateMaterialKey": "goope-store",
+      "affiliateNote": "店舗サイトの基本ページを試作し、運用担当者が更新できるか確認してください。"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "店舗ホームページは無料サービスで十分ですか？",
+      "answer": "試作には使えますが、独自ドメイン、広告表示、予約、メール、サポート、データ移行まで確認して判断してください。"
+    },
+    {
+      "question": "予約システムはホームページ内蔵がよいですか？",
+      "answer": "簡単な予約なら内蔵が便利です。複雑なスタッフ・設備・決済管理がある場合は専用システムも比較します。"
+    },
+    {
+      "question": "店舗サイトで最も重要な機能は何ですか？",
+      "answer": "スマートフォンで営業時間、場所、料金、予約方法がすぐ分かり、担当者が継続更新できることです。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "グーペの料金・機能・注意点",
+      "url": "/ja/website-builders/goope-review/",
+      "description": "料金、予約、独自ドメイン、サポートを公式情報で確認"
+    },
+    {
+      "label": "グーペとWixの比較",
+      "url": "/ja/website-builders/goope-vs-wix/",
+      "description": "店舗向け運用とデザイン自由度を比較"
+    },
+    {
+      "label": "美容サロン向けホームページ作成サービス比較",
+      "url": "/ja/website-builders/beauty-salon-website-builder-comparison/",
+      "description": "メニュー、予約、写真、スタッフ紹介の運用を比較"
+    },
+    {
+      "label": "予約機能付きホームページ作成サービス比較",
+      "url": "/ja/website-builders/reservation-website-builder-comparison/",
+      "description": "予約枠、通知、キャンセル、外部連携を比較"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-18T22:28:32.085Z",
+  "generatedAt": "2026-07-18T22:47:21.785Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 266,
+  "imageCount": 276,
   "generatedCount": 0,
-  "reusedCount": 266,
+  "reusedCount": 276,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -711,15 +711,39 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/beauty-salon-website-builder-comparison/",
+      "image": "source-assets/images/articles/en/website-builders/beauty-salon-website-builder-comparison.jpg",
+      "fingerprint": "93d419f055f75ee6a8fd333a9deb25b218c67041b67bddcfb8d7414bd93bfe30",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
       "image": "source-assets/images/articles/en/website-builders/fixed-fee-ecommerce-platform-comparison.jpg",
       "fingerprint": "a3bc8aeff05f8bfab6813efc217712675b7ce36f75a0ade8edfecd82675ccca9",
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/goope-review/",
+      "image": "source-assets/images/articles/en/website-builders/goope-review.jpg",
+      "fingerprint": "3416c25a962cc9157e06a5673c77780fb5f1d289727ea0de20573c96c7727bfd",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/goope-vs-wix/",
+      "image": "source-assets/images/articles/en/website-builders/goope-vs-wix.jpg",
+      "fingerprint": "b29b1d440e642b47b80d6117b8d44b1172db674a5824df2bb799277682516bf9",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/hostinger-website-builder-review/",
       "image": "source-assets/images/articles/en/website-builders/hostinger-website-builder-review.jpg",
       "fingerprint": "38c3a8e36107d761c5fb9141d327b29b8bcdb31c0d63105b6e857dacf24dc6d5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/reservation-website-builder-comparison/",
+      "image": "source-assets/images/articles/en/website-builders/reservation-website-builder-comparison.jpg",
+      "fingerprint": "443770a653806fa4bf5e925be1b3423ab60ee9d50f8dee6142d894ea0058df27",
       "status": "reused"
     },
     {
@@ -762,6 +786,12 @@
       "route": "/en/website-builders/squarespace-review/",
       "image": "source-assets/images/articles/en/website-builders/squarespace-review.jpg",
       "fingerprint": "7e7d1d77c6d88e799f944d31103279da67f010f53de30bde22587a93423d50b4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/store-website-builder-comparison/",
+      "image": "source-assets/images/articles/en/website-builders/store-website-builder-comparison.jpg",
+      "fingerprint": "6b6708bfdc942a024fbc6dc6f8638e48abe17ca2967c8bd988bbb9d85eb63ef9",
       "status": "reused"
     },
     {
@@ -1509,15 +1539,39 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/beauty-salon-website-builder-comparison/",
+      "image": "source-assets/images/articles/ja/website-builders/beauty-salon-website-builder-comparison.jpg",
+      "fingerprint": "8d68e5b8037f7d311e1ccccd7b52f01a556e00bc7fe8399bf38dc059aa6da089",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
       "image": "source-assets/images/articles/ja/website-builders/fixed-fee-ecommerce-platform-comparison.jpg",
       "fingerprint": "c3f580c6d114926bfa9484d4aa2b793dd2dc2c053c660e93969f54ce5977c85b",
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/goope-review/",
+      "image": "source-assets/images/articles/ja/website-builders/goope-review.jpg",
+      "fingerprint": "99b631bbbd8c845a196b37e677523abd0cbc79dfcaf89eab424d959a8225da64",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/goope-vs-wix/",
+      "image": "source-assets/images/articles/ja/website-builders/goope-vs-wix.jpg",
+      "fingerprint": "0e5a9228812b1a3311a2a6c892c7ca8bee97dd24312f3cfb3a9ad44f87b1c869",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/hostinger-website-builder-review/",
       "image": "source-assets/images/articles/ja/website-builders/hostinger-website-builder-review.jpg",
       "fingerprint": "5f3eb438cd6b4a525ebd45313245571e8cde6d54bda2538ce9f035aa43d23236",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/reservation-website-builder-comparison/",
+      "image": "source-assets/images/articles/ja/website-builders/reservation-website-builder-comparison.jpg",
+      "fingerprint": "3cbc561e8b6adbf6edfb63e06c5fcd4d85c91d2eb7594b92a6c55515b12db9b4",
       "status": "reused"
     },
     {
@@ -1560,6 +1614,12 @@
       "route": "/ja/website-builders/squarespace-review/",
       "image": "source-assets/images/articles/ja/website-builders/squarespace-review.jpg",
       "fingerprint": "ce85e780bc1de503c49785173ead25b365a4ee299190744132217c41471a5443",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/store-website-builder-comparison/",
+      "image": "source-assets/images/articles/ja/website-builders/store-website-builder-comparison.jpg",
+      "fingerprint": "0a4ba60e505822ac0ce17272c4dbc3641048d7c12202b0e3cc1956fdee929594",
       "status": "reused"
     },
     {

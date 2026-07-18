@@ -18,6 +18,7 @@ const productNames = new Map(Object.entries({
   'xserver-business': 'XServer Business',
   'xserver-for-wordpress': 'XServer for WordPress',
   'xserver-shop': 'XServer Shop',
+  goope: 'Goope',
   'conoha-wing-business': 'ConoHa WING Business',
   chatgpt: 'ChatGPT',
   claude: 'Claude',

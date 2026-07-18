@@ -1,0 +1,195 @@
+{
+  "id": "reservation-website-builder-comparison-en",
+  "translationKey": "reservation-website-builder-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "reservation-website-builder-comparison",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Booking-feature comparison",
+  "title": "Website Builders with Booking Features for Stores, Classes and Salons",
+  "metaTitle": "Website Builders with Booking Features Compared",
+  "description": "Compare website builders with booking by services, staff and resources, notifications, payments, cancellations, customer data, and operating cost.",
+  "lead": "A booking button does not prove that a booking product matches the operating workflow. This comparison evaluates Goope, Wix, Squarespace, and WordPress-based options by inventory, changes, notifications, payments, and data requirements.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Goope",
+      "officialUrl": "https://goope.jp/",
+      "affiliateKey": "goope-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Goope official site",
+      "url": "https://goope.jp/"
+    },
+    {
+      "label": "Goope plans and pricing",
+      "url": "https://goope.jp/service/price/"
+    },
+    {
+      "label": "Goope feature list",
+      "url": "https://goope.jp/service/function/"
+    },
+    {
+      "label": "Goope trial and paid-contract terms",
+      "url": "https://help.goope.jp/hc/ja/articles/16299271137043"
+    },
+    {
+      "label": "Goope scheduled phone support",
+      "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+    },
+    {
+      "label": "Wix plans",
+      "url": "https://www.wix.com/plans"
+    },
+    {
+      "label": "Wix website builder",
+      "url": "https://www.wix.com/website/builder"
+    },
+    {
+      "label": "Wix scheduling software",
+      "url": "https://www.wix.com/scheduling-software"
+    },
+    {
+      "label": "Squarespace pricing",
+      "url": "https://www.squarespace.com/pricing"
+    },
+    {
+      "label": "Squarespace Scheduling",
+      "url": "https://www.squarespace.com/scheduling"
+    },
+    {
+      "label": "WordPress.com pricing",
+      "url": "https://wordpress.com/pricing/"
+    },
+    {
+      "label": "WordPress.com features",
+      "url": "https://wordpress.com/features/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: built-in booking for simple schedules, specialist systems for complex inventory",
+      "body": [
+        "A small team publishing services and time slots can benefit from booking inside the website platform. Multiple staff, rooms, equipment, simultaneous appointments, packages, deposits, cancellation charges, or customer records can justify a specialist booking system.",
+        "Write down the booking unit, inventory, changes, notifications, payments, and export requirements before selecting the site builder."
+      ]
+    },
+    {
+      "heading": "Booking requirements to compare",
+      "body": [
+        "Missing requirements can create additional integration and operating costs."
+      ],
+      "table": {
+        "headers": [
+          "Area",
+          "Questions"
+        ],
+        "rows": [
+          [
+            "Inventory",
+            "Services, courses, staff, rooms, equipment, seats"
+          ],
+          [
+            "Time",
+            "Duration, buffers, closures, deadlines"
+          ],
+          [
+            "Customer actions",
+            "Changes, cancellations, groups, repeats"
+          ],
+          [
+            "Notifications",
+            "Confirmation, reminders, changes, administrator alerts"
+          ],
+          [
+            "Payments",
+            "Deposits, onsite payment, cancellation charges, refunds"
+          ],
+          [
+            "Data",
+            "Customer records, consent, CSV, calendars, analytics"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Goope booking model",
+      "body": [
+        "Goope includes online booking on both plans. The official table lists ten services and thirty schedule slots on Light, and twenty services and ninety slots on Standard. Booking can be managed alongside store information, news, services, and inquiries.",
+        "Use the fifteen-day trial to reproduce opening hours, duration, closures, booking deadlines, and change workflows."
+      ]
+    },
+    {
+      "heading": "Wix, Squarespace, and WordPress-based alternatives",
+      "body": [
+        "Wix combines site design with booking products and applications, requiring plan and add-on review. Squarespace scheduling has its own product and contract considerations. WordPress options provide many plugins but distribute responsibility across hosting, plugins, updates, security, and support.",
+        "Language, domestic payments, email delivery, time zones, and tax presentation can materially affect operations."
+      ]
+    },
+    {
+      "heading": "Booking-page user experience",
+      "body": [
+        "Test service selection, date and time, customer fields, review, and confirmation on a mobile device. Display price, duration, location, staff, and cancellation terms before the customer submits.",
+        "Verify confirmation email, change links, administrator alerts, and calendar synchronization, and measure booking start separately from completion."
+      ]
+    },
+    {
+      "heading": "Reliability, privacy, and operational controls",
+      "body": [
+        "Booking is an operational system, not only a marketing feature. Confirm uptime communication, administrator recovery, duplicate-booking prevention, time-zone behavior, notification delivery, data retention, and the procedure for handling a failed payment or an unavailable staff member.",
+        "Minimize the personal information collected to what the service requires, define retention and deletion rules, and separate sensitive notes from general website forms. Export sample bookings and customer records before launch. Document who can change schedules, prices, cancellation rules, integrations, and payment settings, and keep an alternative contact path available during outages."
+      ]
+    },
+    {
+      "heading": "Final decision",
+      "body": [
+        "Goope is a focused trial for basic Japanese store bookings and website updates. Wix is broader for design and applications. Squarespace or specialist scheduling products can suit scheduling-led operations, while WordPress-based systems provide maximum configuration with greater maintenance responsibility."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does built-in booking remove the need for specialist software?",
+      "answer": "Sometimes for simple schedules. Complex staff, resource, payment, package, and customer-record workflows often require specialist software."
+    },
+    {
+      "question": "Does Goope publish booking limits?",
+      "answer": "Yes. The official plan table lists ten services and thirty schedule slots on Light, and twenty services and ninety slots on Standard."
+    },
+    {
+      "question": "What should be tested during a trial?",
+      "answer": "Opening hours, service duration, closures, deadlines, changes, cancellations, notifications, and mobile completion."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Goope review",
+      "url": "/en/website-builders/goope-review/",
+      "description": "Review pricing, bookings, domains, and support"
+    },
+    {
+      "label": "Goope versus Wix",
+      "url": "/en/website-builders/goope-vs-wix/",
+      "description": "Compare store-focused workflows with flexible visual design"
+    },
+    {
+      "label": "Website builders for local businesses",
+      "url": "/en/website-builders/store-website-builder-comparison/",
+      "description": "Compare store information, booking, updates, and domains"
+    },
+    {
+      "label": "Website builders for beauty salons",
+      "url": "/en/website-builders/beauty-salon-website-builder-comparison/",
+      "description": "Compare service menus, booking, galleries, and staff pages"
+    }
+  ]
+}

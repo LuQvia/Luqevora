@@ -15,7 +15,17 @@
       "content/articles/en/xserver-shop-review.json",
       "content/articles/en/xserver-shop-vs-shopify.json",
       "content/articles/en/fixed-fee-ecommerce-platform-comparison.json",
-      "content/articles/en/xserver-shop-vs-woocommerce.json"
+      "content/articles/en/xserver-shop-vs-woocommerce.json",
+      "content/articles/ja/goope-review.json",
+      "content/articles/ja/goope-vs-wix.json",
+      "content/articles/ja/store-website-builder-comparison.json",
+      "content/articles/ja/beauty-salon-website-builder-comparison.json",
+      "content/articles/ja/reservation-website-builder-comparison.json",
+      "content/articles/en/goope-review.json",
+      "content/articles/en/goope-vs-wix.json",
+      "content/articles/en/store-website-builder-comparison.json",
+      "content/articles/en/beauty-salon-website-builder-comparison.json",
+      "content/articles/en/reservation-website-builder-comparison.json"
     ],
     "priorityProducts": [
       "activecampaign",
@@ -33,7 +43,8 @@
       "cpi",
       "xserver-business",
       "xserver-for-wordpress",
-      "xserver-shop"
+      "xserver-shop",
+      "goope"
     ],
     "includePriorityReviews": true,
     "priorityComparisonMinimumMatches": 2,

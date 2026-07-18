@@ -1402,5 +1402,75 @@
         "Detailed EC-CUBE operation and store consulting are outside normal support"
       ]
     }
+  },
+  "goope": {
+    "name": "Goope",
+    "affiliateKey": "goope",
+    "sources": [
+      {
+        "label": "Goope official site",
+        "url": "https://goope.jp/"
+      },
+      {
+        "label": "Goope plans and pricing",
+        "url": "https://goope.jp/service/price/"
+      },
+      {
+        "label": "Goope feature list",
+        "url": "https://goope.jp/service/function/"
+      },
+      {
+        "label": "Goope trial and paid-contract terms",
+        "url": "https://help.goope.jp/hc/ja/articles/16299271137043"
+      },
+      {
+        "label": "Goope scheduled phone support",
+        "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+      }
+    ],
+    "positioning": {
+      "ja": "店舗情報、お知らせ、写真、問い合わせ、基本予約を日本語環境でまとめる小規模事業向けホームページ作成サービス",
+      "en": "A Japan-focused website builder for local businesses that combines store information, updates, galleries, inquiries, and basic booking"
+    },
+    "pricing": {
+      "ja": "12か月契約の月額換算はライト1,331円、スタンダード3,993円。初期費用3,630円",
+      "en": "Published annual-term monthly equivalents are JPY 1,331 for Light and JPY 3,993 for Standard, plus a JPY 3,630 setup fee"
+    },
+    "pricingDetail": {
+      "ja": "短期契約は月額が上がり、初回月途中は日割りが加算されます。ライトとスタンダードでドメイン、容量、メール、予約枠、サポートが異なります。",
+      "en": "Shorter terms cost more per month, and an initial mid-month contract can add prorated charges. Domains, storage, mailboxes, booking limits, and support differ by plan."
+    },
+    "workflow": {
+      "ja": "テンプレートを選び、店舗情報、メニュー、写真、お知らせ、予約、問い合わせを管理画面から更新します。",
+      "en": "Choose a template and maintain store information, services, images, news, booking, and inquiries through the administration interface."
+    },
+    "bestFor": {
+      "ja": "飲食、美容、教室、医院、小売等で、店舗案内と基本予約を少人数で更新したい事業者",
+      "en": "Japanese restaurants, salons, classes, clinics, retailers, and other local services that need a small-team information and booking site"
+    },
+    "strengths": {
+      "ja": [
+        "店舗向けの情報構造",
+        "15日間無料体験",
+        "基本予約・独自ドメイン・メールを統合"
+      ],
+      "en": [
+        "Structured local-business content",
+        "Fifteen-day trial",
+        "Integrated basic booking, domains, and email"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "高度な予約・会員・ECには追加システムが必要な場合",
+        "電話サポートはスタンダード限定・予約制",
+        "日本語・国内事業者向けの運用が中心"
+      ],
+      "en": [
+        "Advanced booking, membership, or commerce may require other systems",
+        "Phone support is scheduled and Standard-only",
+        "Operations are primarily Japan-focused"
+      ]
+    }
   }
 }

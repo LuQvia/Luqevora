@@ -1,0 +1,168 @@
+{
+  "id": "goope-review-en",
+  "translationKey": "goope-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "goope-review",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official-source review",
+  "title": "Goope Review: Pricing, Bookings and Limits for Japanese Local Businesses",
+  "metaTitle": "Goope Review: Pricing, Bookings and Limits",
+  "description": "Review Goope using official information on Japanese pricing, the fifteen-day trial, booking limits, domains, email, templates, and support.",
+  "lead": "Goope is a Japan-focused website builder for local and service businesses. It combines store information, news, galleries, inquiries, and basic online booking in one hosted service, but organizations should verify plan limits, domain and email needs, booking workflow, support boundaries, and Japanese-language operations before adopting it.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Goope",
+      "officialUrl": "https://goope.jp/",
+      "affiliateKey": "goope-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Goope official site",
+      "url": "https://goope.jp/"
+    },
+    {
+      "label": "Goope plans and pricing",
+      "url": "https://goope.jp/service/price/"
+    },
+    {
+      "label": "Goope feature list",
+      "url": "https://goope.jp/service/function/"
+    },
+    {
+      "label": "Goope trial and paid-contract terms",
+      "url": "https://help.goope.jp/hc/ja/articles/16299271137043"
+    },
+    {
+      "label": "Goope scheduled phone support",
+      "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: a focused option for small local businesses in Japan",
+      "body": [
+        "Goope is designed around frequently updated local-business information such as hours, location, menus, staff, news, photos, inquiries, and reservations. It removes the need to procure separate hosting or install a content management system before publishing.",
+        "It is less suitable when the project requires complex membership, large-scale commerce, advanced multi-location controls, or deeply customized databases. The closer the requirement is to a local-business information and booking site, the stronger the fit."
+      ]
+    },
+    {
+      "heading": "Plans and published Japanese prices",
+      "body": [
+        "The annual-term monthly equivalents are JPY 1,331 for Light and JPY 3,993 for Standard. One-, three-, and six-month terms are JPY 1,996 and JPY 4,658 per month. Each plan has a JPY 3,630 setup fee, and an initial mid-month contract can include prorated charges through month end.",
+        "Light includes ten gigabytes of site storage, ten mailboxes, ten booking services, thirty schedule slots, and email support. Standard increases those limits, includes one managed domain and paid templates, and adds scheduled phone support."
+      ],
+      "table": {
+        "headers": [
+          "Item",
+          "Light",
+          "Standard"
+        ],
+        "rows": [
+          [
+            "Annual-term monthly equivalent",
+            "JPY 1,331",
+            "JPY 3,993"
+          ],
+          [
+            "Shorter terms",
+            "JPY 1,996/mo",
+            "JPY 4,658/mo"
+          ],
+          [
+            "Setup fee",
+            "JPY 3,630",
+            "JPY 3,630"
+          ],
+          [
+            "Storage",
+            "10 GB",
+            "100 GB"
+          ],
+          [
+            "Mailboxes",
+            "10",
+            "100"
+          ],
+          [
+            "Booking services / schedule slots",
+            "10 / 30",
+            "20 / 90"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Fifteen-day trial and paid conversion",
+      "body": [
+        "The trial runs for fifteen days from registration. Pages created during the trial can continue after payment. If no paid contract is completed, the account ends automatically and the public site becomes unavailable after the trial.",
+        "Managed domain purchases, paid SSL options, and paid template purchases are excluded from the free trial. A prospective user should test the actual mobile layout, content-update workflow, inquiry form, reservation structure, and required pages before paying."
+      ]
+    },
+    {
+      "heading": "Booking, domains, email, and content operations",
+      "body": [
+        "Both plans include online booking. The official plan table lists ten services and thirty schedule slots on Light, and twenty services and ninety schedule slots on Standard. Inquiry forms, store information, news, social buttons, always-on SSL, managed or externally obtained domains, domain email, secondary administrators, and HTML or CSS editing are also available.",
+        "Businesses needing integrated deposits, detailed staff or room inventory, advanced cancellation automation, or complex customer records should compare dedicated booking platforms and integrations."
+      ]
+    },
+    {
+      "heading": "Support and implementation boundaries",
+      "body": [
+        "Scheduled phone support is limited to Standard subscribers. The official help page describes weekday business hours from 10:00 to 18:00, sessions of up to forty-five minutes, and outbound calls from the support team after scheduling.",
+        "A website builder does not replace photography, copywriting, accessibility review, local search operations, analytics, or advertising. Budget for those responsibilities separately when they are necessary."
+      ]
+    },
+    {
+      "heading": "Final decision",
+      "body": [
+        "Goope is worth testing when a Japanese local business needs a straightforward information and booking site maintained by a small team. Compare Wix for flexible visual composition and broader applications, Squarespace for cohesive design and scheduling, and WordPress.com for publishing and extension requirements."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Goope remain free after the trial?",
+      "answer": "No. The trial lasts fifteen days and a paid contract is required for continued use."
+    },
+    {
+      "question": "Does the lowest published monthly figure include setup?",
+      "answer": "No. The JPY 1,331 figure is an annual-term monthly equivalent for Light, and a separate setup fee applies."
+    },
+    {
+      "question": "Is phone support included on Light?",
+      "answer": "No. Scheduled phone support is a Standard-plan feature."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Goope versus Wix",
+      "url": "/en/website-builders/goope-vs-wix/",
+      "description": "Compare store-focused workflows with flexible visual design"
+    },
+    {
+      "label": "Website builders for local businesses",
+      "url": "/en/website-builders/store-website-builder-comparison/",
+      "description": "Compare store information, booking, updates, and domains"
+    },
+    {
+      "label": "Website builders for beauty salons",
+      "url": "/en/website-builders/beauty-salon-website-builder-comparison/",
+      "description": "Compare service menus, booking, galleries, and staff pages"
+    },
+    {
+      "label": "Website builders with booking features",
+      "url": "/en/website-builders/reservation-website-builder-comparison/",
+      "description": "Compare schedules, notifications, cancellations, and integrations"
+    }
+  ]
+}

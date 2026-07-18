@@ -1,0 +1,179 @@
+{
+  "id": "goope-vs-wix-en",
+  "translationKey": "goope-vs-wix",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "goope-vs-wix",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official-source comparison",
+  "title": "Goope vs Wix for Local-Business Websites",
+  "metaTitle": "Goope vs Wix: Local-Business Website Comparison",
+  "description": "Compare Goope and Wix by design workflow, bookings, domains, email, updates, extensions, support, and portability.",
+  "lead": "Goope emphasizes a structured Japanese local-business workflow, while Wix emphasizes flexible visual composition and a broad application ecosystem. The decision should reflect the operating team, booking requirements, content updates, integrations, and future site scope.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Goope",
+      "officialUrl": "https://goope.jp/",
+      "affiliateKey": "goope-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Goope official site",
+      "url": "https://goope.jp/"
+    },
+    {
+      "label": "Goope plans and pricing",
+      "url": "https://goope.jp/service/price/"
+    },
+    {
+      "label": "Goope feature list",
+      "url": "https://goope.jp/service/function/"
+    },
+    {
+      "label": "Goope trial and paid-contract terms",
+      "url": "https://help.goope.jp/hc/ja/articles/16299271137043"
+    },
+    {
+      "label": "Goope scheduled phone support",
+      "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+    },
+    {
+      "label": "Wix plans",
+      "url": "https://www.wix.com/plans"
+    },
+    {
+      "label": "Wix website builder",
+      "url": "https://www.wix.com/website/builder"
+    },
+    {
+      "label": "Wix scheduling software",
+      "url": "https://www.wix.com/scheduling-software"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: structured store operations or broader design flexibility",
+      "body": [
+        "Choose Goope for a Japan-focused local-business information and booking site managed by a small team. Choose Wix when visual layout freedom, applications, commerce, marketing, and broader site structures matter more.",
+        "Test the same mobile pages, booking flow, inquiry form, domain, staff access, and data-export needs in both services before committing."
+      ]
+    },
+    {
+      "heading": "Key differences",
+      "body": [
+        "The products differ more in workflow and extensibility than in the basic ability to publish pages."
+      ],
+      "table": {
+        "headers": [
+          "Area",
+          "Goope",
+          "Wix"
+        ],
+        "rows": [
+          [
+            "Primary audience",
+            "Japanese local and service businesses",
+            "Broad individual and business sites"
+          ],
+          [
+            "Editing model",
+            "Templates and structured business fields",
+            "Flexible visual editing"
+          ],
+          [
+            "Booking",
+            "Plan-based service and schedule limits",
+            "Booking product and plan conditions"
+          ],
+          [
+            "Domains and email",
+            "Managed domain options and domain mailboxes",
+            "Plan and external-service conditions"
+          ],
+          [
+            "Extensions",
+            "Core features plus HTML and CSS",
+            "Applications and developer features"
+          ],
+          [
+            "Portability",
+            "Verify export requirements",
+            "Full migration can require rebuilding"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Cost comparison",
+      "body": [
+        "Goope publishes two core plans with setup fees and term-based pricing. Wix plan names, prices, and entitlements vary by market. Compare the current regional checkout rather than an older article or converted price.",
+        "Include domains, email, booking, applications, storage, collaborators, agency work, and the time needed for routine updates."
+      ]
+    },
+    {
+      "heading": "Booking and local-business content",
+      "body": [
+        "Goope provides structured fields for store information, menus, news, photos, and plan-based booking services and schedule slots. Wix can combine broader page design with booking and business applications, but the chosen products and plan limits need review.",
+        "Neither product should be selected solely because it has a booking button. Evaluate staff, resources, payments, notifications, cancellation rules, and customer-data needs."
+      ]
+    },
+    {
+      "heading": "Governance, analytics, and exit planning",
+      "body": [
+        "Before launch, assign ownership for business hours, pricing, booking rules, images, privacy notices, analytics, and account security. Confirm how each platform records administrator activity, supports secondary users, and connects to the organization’s analytics and consent process.",
+        "Also test how pages, images, contacts, bookings, and domain settings can be exported or reconstructed. A platform can be easy to launch but expensive to leave when content, applications, and booking workflows are tightly coupled. Document the domain registrar, billing owner, administrator accounts, recovery methods, and cancellation steps before the site becomes business-critical."
+      ]
+    },
+    {
+      "heading": "Final decision",
+      "body": [
+        "Goope is the more focused trial for a Japanese store that values simple updates and local support. Wix is the broader trial for a team that values visual control and application breadth. Build a representative site in both and compare operating effort."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which is cheaper, Goope or Wix?",
+      "answer": "The answer depends on regional Wix plans and the domains, email, booking, applications, and implementation services required."
+    },
+    {
+      "question": "Which offers more design freedom?",
+      "answer": "Wix generally provides broader visual placement and application options, while Goope provides a more structured local-business workflow."
+    },
+    {
+      "question": "Can either replace a dedicated booking platform?",
+      "answer": "Only after confirming staff, resource, payment, notification, cancellation, and customer-data requirements."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Goope review",
+      "url": "/en/website-builders/goope-review/",
+      "description": "Review pricing, bookings, domains, and support"
+    },
+    {
+      "label": "Website builders for local businesses",
+      "url": "/en/website-builders/store-website-builder-comparison/",
+      "description": "Compare store information, booking, updates, and domains"
+    },
+    {
+      "label": "Website builders for beauty salons",
+      "url": "/en/website-builders/beauty-salon-website-builder-comparison/",
+      "description": "Compare service menus, booking, galleries, and staff pages"
+    },
+    {
+      "label": "Website builders with booking features",
+      "url": "/en/website-builders/reservation-website-builder-comparison/",
+      "description": "Compare schedules, notifications, cancellations, and integrations"
+    }
+  ]
+}

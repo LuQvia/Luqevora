@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T22:28:31.651Z",
+  "generatedAt": "2026-07-18T22:47:21.279Z",
   "auditDate": "2026-07-18",
   "thresholds": {
     "hardMinimumSources": 1,
@@ -20,10 +20,10 @@
     "promotionCandidatePairLimit": 25
   },
   "summary": {
-    "publishedDataArticles": 500,
-    "indexableDataArticles": 184,
+    "publishedDataArticles": 510,
+    "indexableDataArticles": 194,
     "noindexDataArticles": 316,
-    "averageIndexableScore": 94.2,
+    "averageIndexableScore": 94.5,
     "minimumIndexableScore": 70,
     "promotionEligible": 316,
     "promotionEligiblePairs": 158,
@@ -33,14 +33,14 @@
     "warningCount": 91,
     "byLanguage": {
       "ja": {
-        "published": 250,
-        "indexable": 92,
-        "averageScore": 95.3
+        "published": 255,
+        "indexable": 97,
+        "averageScore": 95.5
       },
       "en": {
-        "published": 250,
-        "indexable": 92,
-        "averageScore": 93
+        "published": 255,
+        "indexable": 97,
+        "averageScore": 93.4
       }
     }
   },
@@ -54,11 +54,23 @@
       "articleCount": 30
     },
     {
+      "host": "wordpress.com",
+      "articleCount": 30
+    },
+    {
       "host": "clickup.com",
       "articleCount": 28
     },
     {
       "host": "shopify.com",
+      "articleCount": 28
+    },
+    {
+      "host": "squarespace.com",
+      "articleCount": 28
+    },
+    {
+      "host": "wix.com",
       "articleCount": 28
     },
     {
@@ -90,10 +102,6 @@
       "articleCount": 24
     },
     {
-      "host": "wordpress.com",
-      "articleCount": 24
-    },
-    {
       "host": "getresponse.com",
       "articleCount": 22
     },
@@ -102,19 +110,11 @@
       "articleCount": 22
     },
     {
-      "host": "squarespace.com",
-      "articleCount": 22
-    },
-    {
       "host": "wpengine.com",
       "articleCount": 22
     },
     {
       "host": "trello.com",
-      "articleCount": 20
-    },
-    {
-      "host": "wix.com",
       "articleCount": 20
     },
     {
@@ -7905,6 +7905,32 @@
       ]
     },
     {
+      "id": "beauty-salon-website-builder-comparison-en",
+      "translationKey": "beauty-salon-website-builder-comparison",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "beauty-salon-website-builder-comparison",
+      "route": "/en/website-builders/beauty-salon-website-builder-comparison/",
+      "sourceFile": "content/articles/en/beauty-salon-website-builder-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 565,
+      "sourceCount": 12,
+      "sourceHostCount": 5,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com",
+        "squarespace.com",
+        "wordpress.com"
+      ]
+    },
+    {
       "id": "bigcommerce-review-en",
       "translationKey": "bigcommerce-review",
       "language": "en",
@@ -8207,6 +8233,53 @@
       ]
     },
     {
+      "id": "goope-review-en",
+      "translationKey": "goope-review",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "goope-review",
+      "route": "/en/website-builders/goope-review/",
+      "sourceFile": "content/articles/en/goope-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 612,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp"
+      ]
+    },
+    {
+      "id": "goope-vs-wix-en",
+      "translationKey": "goope-vs-wix",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "goope-vs-wix",
+      "route": "/en/website-builders/goope-vs-wix/",
+      "sourceFile": "content/articles/en/goope-vs-wix.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 516,
+      "sourceCount": 8,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com"
+      ]
+    },
+    {
       "id": "hostinger-website-builder-review-en",
       "translationKey": "hostinger-website-builder-review",
       "language": "en",
@@ -8294,6 +8367,32 @@
       "staleDays": -1,
       "sourceHosts": [
         "hostinger.com",
+        "wordpress.com"
+      ]
+    },
+    {
+      "id": "reservation-website-builder-comparison-en",
+      "translationKey": "reservation-website-builder-comparison",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "reservation-website-builder-comparison",
+      "route": "/en/website-builders/reservation-website-builder-comparison/",
+      "sourceFile": "content/articles/en/reservation-website-builder-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 541,
+      "sourceCount": 12,
+      "sourceHostCount": 5,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com",
+        "squarespace.com",
         "wordpress.com"
       ]
     },
@@ -8536,6 +8635,32 @@
       "sourceHosts": [
         "squarespace.com",
         "woocommerce.com"
+      ]
+    },
+    {
+      "id": "store-website-builder-comparison-en",
+      "translationKey": "store-website-builder-comparison",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "store-website-builder-comparison",
+      "route": "/en/website-builders/store-website-builder-comparison/",
+      "sourceFile": "content/articles/en/store-website-builder-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 526,
+      "sourceCount": 12,
+      "sourceHostCount": 5,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com",
+        "squarespace.com",
+        "wordpress.com"
       ]
     },
     {
@@ -13676,6 +13801,32 @@
       ]
     },
     {
+      "id": "beauty-salon-website-builder-comparison-ja",
+      "translationKey": "beauty-salon-website-builder-comparison",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "beauty-salon-website-builder-comparison",
+      "route": "/ja/website-builders/beauty-salon-website-builder-comparison/",
+      "sourceFile": "content/articles/ja/beauty-salon-website-builder-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1652,
+      "sourceCount": 13,
+      "sourceHostCount": 5,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com",
+        "squarespace.com",
+        "wordpress.com"
+      ]
+    },
+    {
       "id": "bigcommerce-review-ja",
       "translationKey": "bigcommerce-review",
       "language": "ja",
@@ -13978,6 +14129,53 @@
       ]
     },
     {
+      "id": "goope-review-ja",
+      "translationKey": "goope-review",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "goope-review",
+      "route": "/ja/website-builders/goope-review/",
+      "sourceFile": "content/articles/ja/goope-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2449,
+      "sourceCount": 6,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp"
+      ]
+    },
+    {
+      "id": "goope-vs-wix-ja",
+      "translationKey": "goope-vs-wix",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "goope-vs-wix",
+      "route": "/ja/website-builders/goope-vs-wix/",
+      "sourceFile": "content/articles/ja/goope-vs-wix.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1571,
+      "sourceCount": 9,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com"
+      ]
+    },
+    {
       "id": "hostinger-website-builder-review-ja",
       "translationKey": "hostinger-website-builder-review",
       "language": "ja",
@@ -14065,6 +14263,32 @@
       "staleDays": -1,
       "sourceHosts": [
         "hostinger.com",
+        "wordpress.com"
+      ]
+    },
+    {
+      "id": "reservation-website-builder-comparison-ja",
+      "translationKey": "reservation-website-builder-comparison",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "reservation-website-builder-comparison",
+      "route": "/ja/website-builders/reservation-website-builder-comparison/",
+      "sourceFile": "content/articles/ja/reservation-website-builder-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1525,
+      "sourceCount": 13,
+      "sourceHostCount": 5,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com",
+        "squarespace.com",
         "wordpress.com"
       ]
     },
@@ -14310,6 +14534,32 @@
       ]
     },
     {
+      "id": "store-website-builder-comparison-ja",
+      "translationKey": "store-website-builder-comparison",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "store-website-builder-comparison",
+      "route": "/ja/website-builders/store-website-builder-comparison/",
+      "sourceFile": "content/articles/ja/store-website-builder-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1544,
+      "sourceCount": 13,
+      "sourceHostCount": 5,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "goope.jp",
+        "help.goope.jp",
+        "wix.com",
+        "squarespace.com",
+        "wordpress.com"
+      ]
+    },
+    {
       "id": "webflow-vs-hostinger-website-builder-ja",
       "translationKey": "webflow-vs-hostinger-website-builder",
       "language": "ja",
@@ -14464,13 +14714,13 @@
       "generated": false,
       "indexable": false,
       "score": 100,
-      "verifiedAt": "2026-07-18",
+      "verifiedAt": "2026-07-19",
       "units": 2119,
       "sourceCount": 4,
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": -1,
       "sourceHosts": [
         "wix.com",
         "squarespace.com",
