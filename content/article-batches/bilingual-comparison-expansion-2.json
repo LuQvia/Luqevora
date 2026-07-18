@@ -63,7 +63,45 @@
       "ja": "制作会社が顧客ごとの権限、承認、ホワイトラベル、保守を標準化するならDuda、事業者が整ったテンプレートで作品・サービス・予約・小規模販売を運用するならSquarespaceが向きます。",
       "en": "Choose Duda when an agency needs repeatable permissions, approvals, white labeling, and maintenance across clients; choose Squarespace when an owner will maintain polished content, services, scheduling, or lighter commerce through templates."
     },
-    "alternativeProduct": "wix"
+    "alternativeProduct": "wix",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "duda-vs-framer",
@@ -85,7 +123,45 @@
       "ja": "多数の顧客サイトを共通手順と権限で運用するならDuda、ブランド性の高いマーケティングサイトをデザインから公開まで短く回すならFramerが有力です。",
       "en": "Choose Duda to operate many client sites through consistent processes and permissions; choose Framer to move distinctive marketing design from concept to iterative publishing quickly."
     },
-    "alternativeProduct": "webflow"
+    "alternativeProduct": "webflow",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "wordpress-com-vs-squarespace",
@@ -107,7 +183,45 @@
       "ja": "記事やカテゴリを増やしながらWordPressの拡張性を段階的に使うならWordPress.com、デザインを崩しにくい構成で作品・サービス・予約・販売をまとめるならSquarespaceが選びやすいです。",
       "en": "Choose WordPress.com for growing content and gradually using the WordPress ecosystem; choose Squarespace for a tightly designed site that combines portfolios, services, scheduling, and lighter commerce."
     },
-    "alternativeProduct": "wix"
+    "alternativeProduct": "wix",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "wordpress-com-vs-webflow",
@@ -129,7 +243,45 @@
       "ja": "記事やカテゴリを中心に更新し、管理運用をサービス側へ寄せるならWordPress.com、ブランド固有のレイアウトとCMS構造を細かく設計するならWebflowが有力です。",
       "en": "Choose WordPress.com for editorial publishing with more platform-managed operations; choose Webflow for finely controlled brand layouts, CMS structures, and production workflows."
     },
-    "alternativeProduct": "squarespace"
+    "alternativeProduct": "squarespace",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "hostinger-website-builder-vs-wordpress-com",
@@ -151,7 +303,45 @@
       "ja": "サーバー設定を分けず、小規模事業サイトや簡易ストアを低コストで早く公開するならHostinger Website Builder、記事やカテゴリを増やしながらWordPressの機能を広げるならWordPress.comが向きます。",
       "en": "Choose Hostinger Website Builder for a fast, low-cost small-business site or lightweight store without separate hosting administration; choose WordPress.com for growing editorial content and expanding through the WordPress ecosystem."
     },
-    "alternativeProduct": "wix"
+    "alternativeProduct": "wix",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "bigcommerce-vs-squarespace",
@@ -173,7 +363,45 @@
       "ja": "商品数、売上、販売チャネル、API、B2B運用の拡張を重視するならBigCommerce、ブランドサイトと少数商品の販売・予約を整ったテンプレートでまとめるならSquarespaceが扱いやすいです。",
       "en": "Choose BigCommerce for scaling catalog, revenue, channels, APIs, and B2B operations; choose Squarespace for a polished brand site with a simpler catalog, services, scheduling, or lighter commerce."
     },
-    "alternativeProduct": "shopify"
+    "alternativeProduct": "shopify",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "woocommerce-vs-wix",
@@ -195,7 +423,45 @@
       "ja": "ホスティング、決済、拡張機能、データを自分で選び、技術運用も担えるならWooCommerce、予約・店舗・フォーム・集客を一つの管理画面で運用するならWixが選びやすいです。",
       "en": "Choose WooCommerce when the business can own technical operations and wants control over hosting, payments, extensions, and data; choose Wix when the owner prefers bookings, store, forms, and marketing in one hosted workspace."
     },
-    "alternativeProduct": "shopify"
+    "alternativeProduct": "shopify",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
   },
   {
     "slug": "activecampaign-vs-hubspot",

@@ -1,17 +1,17 @@
 {
   "featuredComparisons": [
+    "xserver-shop-vs-shopify",
+    "fixed-fee-ecommerce-platform-comparison",
     "xserver-for-wordpress-vs-cpi",
     "business-wordpress-hosting-comparison",
-    "business-web-hosting-comparison",
-    "xserver-for-wordpress-vs-xserver-business",
-    "cpi-vs-xserver-business"
+    "business-web-hosting-comparison"
   ],
   "featuredReviews": [
+    "xserver-shop-review",
     "xserver-for-wordpress-review",
     "cpi-rental-server-review",
+    "shopify-review",
     "kinsta-review",
-    "wp-engine-review",
-    "hostinger-review",
     "semrush-review"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-18T22:00:10.550Z",
+  "generatedAt": "2026-07-18T22:28:32.085Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 258,
+  "imageCount": 266,
   "generatedCount": 0,
-  "reusedCount": 258,
+  "reusedCount": 266,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -711,6 +711,12 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "image": "source-assets/images/articles/en/website-builders/fixed-fee-ecommerce-platform-comparison.jpg",
+      "fingerprint": "a3bc8aeff05f8bfab6813efc217712675b7ce36f75a0ade8edfecd82675ccca9",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/hostinger-website-builder-review/",
       "image": "source-assets/images/articles/en/website-builders/hostinger-website-builder-review.jpg",
       "fingerprint": "38c3a8e36107d761c5fb9141d327b29b8bcdb31c0d63105b6e857dacf24dc6d5",
@@ -780,6 +786,24 @@
       "route": "/en/website-builders/wordpress-start-guide/",
       "image": "source-assets/images/articles/en/website-builders/wordpress-start-guide.jpg",
       "fingerprint": "eec93a5606d00e8466917113b73e1bc744d8fdac333284304d04887b18609487",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/xserver-shop-review/",
+      "image": "source-assets/images/articles/en/website-builders/xserver-shop-review.jpg",
+      "fingerprint": "c84612cf019cb26b4b2c14553bd079e5e0e48e86b06cfe87a0c81bcecedbb5b4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/xserver-shop-vs-shopify/",
+      "image": "source-assets/images/articles/en/website-builders/xserver-shop-vs-shopify.jpg",
+      "fingerprint": "a54e2fca8b2da35848b7d05f83497a24b7b63b73644a5a74aa3206c1607c10e5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/xserver-shop-vs-woocommerce/",
+      "image": "source-assets/images/articles/en/website-builders/xserver-shop-vs-woocommerce.jpg",
+      "fingerprint": "5e80df9c3479a06c6500a7e3ce428deb93007b8ec75a19a82350847a06f16f6a",
       "status": "reused"
     },
     {
@@ -1485,6 +1509,12 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "image": "source-assets/images/articles/ja/website-builders/fixed-fee-ecommerce-platform-comparison.jpg",
+      "fingerprint": "c3f580c6d114926bfa9484d4aa2b793dd2dc2c053c660e93969f54ce5977c85b",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/hostinger-website-builder-review/",
       "image": "source-assets/images/articles/ja/website-builders/hostinger-website-builder-review.jpg",
       "fingerprint": "5f3eb438cd6b4a525ebd45313245571e8cde6d54bda2538ce9f035aa43d23236",
@@ -1554,6 +1584,24 @@
       "route": "/ja/website-builders/wordpress-start-guide/",
       "image": "source-assets/images/articles/ja/website-builders/wordpress-start-guide.jpg",
       "fingerprint": "b17fe98f3fe0f02d36b30780f3c5adc26838b1234bd49c3718f443f965ade70f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/xserver-shop-review/",
+      "image": "source-assets/images/articles/ja/website-builders/xserver-shop-review.jpg",
+      "fingerprint": "3559ff635f4c32c5e3d2efbbb7c8578046f9ec332aaa2db9b68b34ea5335217c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/xserver-shop-vs-shopify/",
+      "image": "source-assets/images/articles/ja/website-builders/xserver-shop-vs-shopify.jpg",
+      "fingerprint": "761b78dd8fcbd10c3facbd49c11ff09628863f3c62858c8a83f82951f82d8b8f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/xserver-shop-vs-woocommerce/",
+      "image": "source-assets/images/articles/ja/website-builders/xserver-shop-vs-woocommerce.jpg",
+      "fingerprint": "b15a81c002bc3db05b81cf9f7b020e9a62df863d2c26e909e4f2c0150ef19c85",
       "status": "reused"
     }
   ]

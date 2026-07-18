@@ -63,6 +63,38 @@
       "language": "ja",
       "destination": "https://wp.xserver.ne.jp/",
       "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+8CNY1M+CO4+3YXQWY\" rel=\"nofollow\">WordPressの専門家がサポート！<br />法人向けWordPress専用ホスティングサービス『XServer for WordPress』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B844Z+8CNY1M+CO4+3YXQWY\" alt=\"\">"
+    },
+    "xserver-shop": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642010",
+      "language": "ja",
+      "destination": "https://shop.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+A7XXEI+CO4+1NJK7M\" rel=\"nofollow\">XServerショップ</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B844Z+A7XXEI+CO4+1NJK7M\" alt=\"\">"
+    },
+    "xserver-shop-fee": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642010",
+      "language": "ja",
+      "destination": "https://shop.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+A7XXEI+CO4+1NJRXE\" rel=\"nofollow\">販売手数料0円！毎月定額のネットショップ作成サービス『XServerショップ』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B844Z+A7XXEI+CO4+1NJRXE\" alt=\"\">"
+    },
+    "xserver-shop-trial": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642010",
+      "language": "ja",
+      "destination": "https://shop.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+A7XXEI+CO4+1NOHOI\" rel=\"nofollow\">30日間お試し無料！ネットショップ運営に『XServerショップ』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B844Z+A7XXEI+CO4+1NOHOI\" alt=\"\">"
+    },
+    "xserver-shop-cost": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642010",
+      "language": "ja",
+      "destination": "https://shop.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+A7XXEI+CO4+1NOPEA\" rel=\"nofollow\">ランニングコストを抑えたネットショップ運営なら『XServerショップ』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B844Z+A7XXEI+CO4+1NOPEA\" alt=\"\">"
     }
   },
   "rules": {

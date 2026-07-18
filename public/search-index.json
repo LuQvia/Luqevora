@@ -944,6 +944,14 @@
     "topic": "website-builders"
   },
   {
+    "title": "Fixed-Fee Ecommerce Platforms: XServer Shop, WooCommerce, Wix and Shopify",
+    "description": "Compare XServer Shop, WooCommerce, Wix, and Shopify by subscriptions, sales commissions, payment and payout fees, implementation, and maintenance.",
+    "url": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "Hostinger Website Builder Review: Pricing, Features, Best-Fit Uses, and Limitations",
     "description": "Review Hostinger Website Builder using official information on pricing, core features, strengths, limitations, best-fit uses, data controls, and pre-purchase checks.",
     "url": "/en/website-builders/hostinger-website-builder-review/",
@@ -1030,6 +1038,30 @@
     "language": "en",
     "category": "website-builders",
     "topic": "website-builders"
+  },
+  {
+    "title": "XServer Shop Review: Fixed Fees, EC-CUBE and Operating Limits",
+    "description": "Review XServer Shop using official information on subscription prices, transaction and payout fees, EC-CUBE, trial restrictions, domains, and support.",
+    "url": "/en/website-builders/xserver-shop-review/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "XServer Shop vs Shopify: Fees, Control and Operations",
+    "description": "Compare XServer Shop and Shopify by subscriptions, sales and payment fees, design control, apps, maintenance, support, and portability.",
+    "url": "/en/website-builders/xserver-shop-vs-shopify/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "XServer Shop vs WooCommerce: Managed EC-CUBE or WordPress Commerce",
+    "description": "Compare XServer Shop and WooCommerce by cost, EC-CUBE versus WordPress, hosting, updates, extensions, payments, data, and support ownership.",
+    "url": "/en/website-builders/xserver-shop-vs-woocommerce/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
   },
   {
     "title": "AI議事録・文字起こしツール5選｜無料枠・対応会議・データ保護を公式情報で比較",
@@ -2056,11 +2088,43 @@
     "topic": "website-builders"
   },
   {
+    "title": "XServerショップとShopifyを比較｜料金・手数料・運用の違い",
+    "description": "XServerショップとShopifyを、月額、販売・決済手数料、デザイン、アプリ、保守、サポート、移行性から比較します。",
+    "url": "/ja/website-builders/xserver-shop-vs-shopify/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "XServerショップとWooCommerceを比較｜EC-CUBE型とWordPress型",
+    "description": "XServerショップとWooCommerceを、料金、EC-CUBE・WordPress、保守、プラグイン、決済、データ、サポートから比較します。",
+    "url": "/ja/website-builders/xserver-shop-vs-woocommerce/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "XServerショップレビュー｜料金・手数料・EC-CUBEの注意点",
+    "description": "XServerショップを料金、販売手数料、Stripe決済、EC-CUBE、無料試用、ドメイン、サポートの公式情報から検証します。",
+    "url": "/ja/website-builders/xserver-shop-review/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "中小企業向けホームページ作成ツール5選｜無料枠・独自ドメイン・EC機能を公式情報で比較",
     "description": "Wix、Squarespace、WordPress.com、Webflow、Shopifyを、無料利用、独自ドメイン、公開・運用方式、EC機能、SSLの公式情報で比較します。",
     "url": "/ja/website-builders/small-business-website-builders/",
     "language": "ja",
     "category": "website-builders",
     "topic": "website-builders"
+  },
+  {
+    "title": "販売手数料0円・月額固定型のネットショップ作成サービス比較",
+    "description": "販売手数料0円・月額固定型のネットショップを、XServerショップ、WooCommerce、Wix、Shopifyの費用と運用責任から比較します。",
+    "url": "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
   }
 ]

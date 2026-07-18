@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-18T22:00:14.532Z",
+  "generatedAt": "2026-07-18T22:28:36.255Z",
   "indexingMode": "priority",
-  "dataDrivenArticleCount": 492,
-  "indexableDataDrivenArticles": 176,
+  "dataDrivenArticleCount": 500,
+  "indexableDataDrivenArticles": 184,
   "noindexDataDrivenArticles": 316,
-  "totalPublicArticleFiles": 574,
-  "indexablePublicArticles": 258,
+  "totalPublicArticleFiles": 582,
+  "indexablePublicArticles": 266,
   "indexableArticlesByLanguage": {
-    "ja": 129,
-    "en": 129
+    "ja": 133,
+    "en": 133
   },
   "topicPages": 26,
-  "originalArticleImages": 258,
-  "relatedInboundMinimum": 2,
+  "originalArticleImages": 266,
+  "relatedInboundMinimum": 1,
   "relatedInboundMaximum": 19,
   "legacyPreserved": true,
-  "publicHtmlFiles": 628,
-  "sitemapUrls": 311,
-  "searchIndexArticles": 258,
+  "publicHtmlFiles": 636,
+  "sitemapUrls": 319,
+  "searchIndexArticles": 266,
   "dataDrivenRoutes": [
     "/en/ai-tools/chatgpt-vs-claude/",
     "/en/ai-tools/chatgpt-vs-gemini/",
@@ -229,6 +229,7 @@
     "/en/website-builders/duda-vs-squarespace/",
     "/en/website-builders/duda-vs-webflow/",
     "/en/website-builders/duda-vs-wix/",
+    "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
     "/en/website-builders/framer-review/",
     "/en/website-builders/framer-vs-squarespace/",
     "/en/website-builders/framer-vs-webflow/",
@@ -265,6 +266,9 @@
     "/en/website-builders/wordpress-com-vs-wix/",
     "/en/website-builders/wordpress-com-vs-woocommerce/",
     "/en/website-builders/wordpress-start-guide/",
+    "/en/website-builders/xserver-shop-review/",
+    "/en/website-builders/xserver-shop-vs-shopify/",
+    "/en/website-builders/xserver-shop-vs-woocommerce/",
     "/ja/ai-tools/chatgpt-vs-claude/",
     "/ja/ai-tools/chatgpt-vs-gemini/",
     "/ja/ai-tools/chatgpt-vs-microsoft-copilot/",
@@ -475,6 +479,7 @@
     "/ja/website-builders/duda-vs-squarespace/",
     "/ja/website-builders/duda-vs-webflow/",
     "/ja/website-builders/duda-vs-wix/",
+    "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
     "/ja/website-builders/framer-review/",
     "/ja/website-builders/framer-vs-squarespace/",
     "/ja/website-builders/framer-vs-webflow/",
@@ -510,6 +515,9 @@
     "/ja/website-builders/wordpress-com-vs-webflow/",
     "/ja/website-builders/wordpress-com-vs-wix/",
     "/ja/website-builders/wordpress-com-vs-woocommerce/",
-    "/ja/website-builders/wordpress-start-guide/"
+    "/ja/website-builders/wordpress-start-guide/",
+    "/ja/website-builders/xserver-shop-review/",
+    "/ja/website-builders/xserver-shop-vs-shopify/",
+    "/ja/website-builders/xserver-shop-vs-woocommerce/"
   ]
 }

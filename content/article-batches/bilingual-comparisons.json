@@ -271,6 +271,42 @@
           "ja": "事業機能と料金を確認",
           "en": "Review business features and pricing"
         }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
       }
     ],
     "locales": {
@@ -333,6 +369,42 @@
         "description": {
           "ja": "テンプレートと事業機能を確認",
           "en": "Review templates and business features"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
         }
       }
     ],
@@ -397,6 +469,42 @@
           "ja": "デザイン・予約・販売を確認",
           "en": "Review design, scheduling, and selling"
         }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
       }
     ],
     "locales": {
@@ -459,6 +567,42 @@
         "description": {
           "ja": "サイト作成と事業機能を確認",
           "en": "Review site building and business features"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
         }
       }
     ],

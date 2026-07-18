@@ -1,0 +1,171 @@
+{
+  "id": "xserver-shop-review-en",
+  "translationKey": "xserver-shop-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "xserver-shop-review",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "Official-source review",
+  "title": "XServer Shop Review: Fixed Fees, EC-CUBE and Operating Limits",
+  "metaTitle": "XServer Shop Review: Fees, EC-CUBE and Limits",
+  "description": "Review XServer Shop using official information on subscription prices, transaction and payout fees, EC-CUBE, trial restrictions, domains, and support.",
+  "lead": "XServer Shop is a Japan-focused hosted ecommerce service built around EC-CUBE. It combines a fixed subscription and zero platform sales commission with editable storefront code and managed infrastructure, but merchants still need to model setup fees, payment processing, payout fees, EC-CUBE compatibility, and the operational support boundary.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer Shop",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer Shop official site",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Shop pricing",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Shop feature list",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "Thirty-day trial terms",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Sales, payment and payout fees",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "Included domain benefit",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Support scope",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: managed EC-CUBE hosting for merchants that need control",
+      "body": [
+        "XServer Shop fits merchants and agencies that want EC-CUBE catalog, order, customer, inventory, shipping, tax, points, and administrator features without maintaining the base hosting environment alone. HTML, CSS, JavaScript, templates, and compatible plugins provide more control than many entry-level hosted store builders.",
+        "It does not remove the need for ecommerce operations knowledge. The provider states that EC-CUBE usage and store-management consulting are outside normal support, so a merchant should assign internal ownership or retain an experienced agency."
+      ],
+      "bullets": [
+        "Good fit for custom design and customer-data ownership",
+        "Useful when platform sales commissions should be avoided",
+        "Requires an operator or agency comfortable with EC-CUBE"
+      ]
+    },
+    {
+      "heading": "Subscription pricing and setup cost",
+      "body": [
+        "Every plan has a JPY 11,000 setup fee. The advertised JPY 1,980 monthly rate is the Basic plan monthly equivalent on a thirty-six-month contract. Initial contracts are prepaid for three, six, twelve, twenty-four, or thirty-six months. One-month billing is available only for automatic renewal.",
+        "A longer term lowers the monthly equivalent but increases commitment before the production workflow is proven. Use the thirty-day trial to test checkout, catalog imports, shipping, email, design changes, and planned plugins."
+      ],
+      "table": {
+        "headers": [
+          "Term",
+          "Basic",
+          "Standard",
+          "Premium"
+        ],
+        "rows": [
+          [
+            "Three months",
+            "JPY 2,640/mo",
+            "JPY 6,600/mo",
+            "JPY 13,200/mo"
+          ],
+          [
+            "Twelve months",
+            "JPY 2,200/mo",
+            "JPY 5,500/mo",
+            "JPY 11,000/mo"
+          ],
+          [
+            "Thirty-six months",
+            "JPY 1,980/mo",
+            "JPY 4,950/mo",
+            "JPY 9,900/mo"
+          ],
+          [
+            "Setup fee",
+            "JPY 11,000",
+            "JPY 11,000",
+            "JPY 11,000"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Zero sales commission does not mean zero payment cost",
+      "body": [
+        "The XServer Shop platform sales commission is zero. When the bundled Stripe flow is used, the provider publishes a four-percent credit-card processing fee. Each payout also incurs 0.25 percent of the payout amount plus JPY 275.",
+        "An external payment provider may be installed when compatible, but that provider can have its own review, monthly charge, processing fee, refund rules, and payout schedule. Compare total cost at realistic monthly sales levels rather than relying on the zero-commission headline."
+      ]
+    },
+    {
+      "heading": "EC-CUBE version and extension compatibility",
+      "body": [
+        "The current official feature list displays EC-CUBE 4.0.3. Plugins and templates must support the environment version, so merchants should test every required extension before paying. The included template selection is limited to the initial template, and third-party design or development can add cost.",
+        "Product count is listed as unlimited across plans, but storage is 5 GB on Basic, 50 GB on Standard, and 200 GB on Premium. Image libraries, mail, logs, and operational data still consume capacity."
+      ]
+    },
+    {
+      "heading": "Trial, domains and support",
+      "body": [
+        "The thirty-day trial preserves uploaded data after payment, but restricts mailbox creation, programmatic mail sending, and additional FTP accounts. Included domains become available after the contract is paid. Organizational Japanese domains such as co.jp are limited to eligible higher plans and qualified entities.",
+        "Email inquiries are accepted around the clock, while phone and chat operate on published weekday hours. Store operation and detailed EC-CUBE usage remain outside normal support, which should be reflected in staffing and agency budgets."
+      ]
+    },
+    {
+      "heading": "Final decision",
+      "body": [
+        "Shortlist XServer Shop when fixed platform charges, EC-CUBE flexibility, Japanese billing, and managed base maintenance are valuable. Compare Shopify or Wix when a broader hosted-app ecosystem and easier nontechnical operations matter more. Compare WooCommerce when the organization can manage WordPress hosting and extension maintenance directly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is XServer Shop completely fee-free on sales?",
+      "answer": "The platform sales commission is zero, but the bundled Stripe payment flow and payouts have separate published fees."
+    },
+    {
+      "question": "Can the full store operate during the trial?",
+      "answer": "No. Mailbox creation, programmatic email, and additional FTP accounts are among the restricted functions."
+    },
+    {
+      "question": "Can every EC-CUBE plugin be installed?",
+      "answer": "Only plugins compatible with the supplied environment should be expected to work. Test required plugins during the trial."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer Shop versus Shopify",
+      "url": "/en/website-builders/xserver-shop-vs-shopify/",
+      "description": "Compare fixed-fee EC-CUBE hosting with a hosted commerce SaaS"
+    },
+    {
+      "label": "Fixed-fee ecommerce platform comparison",
+      "url": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "description": "Model subscriptions, transaction fees, payment fees, and operations"
+    },
+    {
+      "label": "XServer Shop versus WooCommerce",
+      "url": "/en/website-builders/xserver-shop-vs-woocommerce/",
+      "description": "Compare managed EC-CUBE hosting with self-managed WordPress commerce"
+    }
+  ]
+}

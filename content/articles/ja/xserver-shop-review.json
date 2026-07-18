@@ -1,0 +1,190 @@
+{
+  "id": "xserver-shop-review-ja",
+  "translationKey": "xserver-shop-review",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "xserver-shop-review",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "広告掲載・公式情報検証",
+  "title": "XServerショップレビュー｜料金・手数料・EC-CUBEの注意点",
+  "metaTitle": "XServerショップレビュー｜料金・手数料・注意点",
+  "description": "XServerショップを料金、販売手数料、Stripe決済、EC-CUBE、無料試用、ドメイン、サポートの公式情報から検証します。",
+  "lead": "XServerショップは、EC-CUBEを基盤にした月額固定型のネットショップ作成サービスです。販売手数料0円と30日間無料試用は魅力ですが、初期費用、決済・入金手数料、EC-CUBEのバージョン、サポート範囲を確認してから選ぶ必要があります。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "XServerショップ",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServerショップ公式ページ",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerショップ料金",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerショップ機能一覧",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "30日間無料お試し",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "販売・決済・入金手数料",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "サポート範囲",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：EC-CUBE型の自由度と保守代行を両立したい事業者向け",
+      "body": [
+        "XServerショップは、商品登録、受注、顧客、在庫、配送、税率、ポイント、管理者権限などをEC-CUBEで管理しながら、サーバーと初期導入部分の保守をエックスサーバー側へ任せたい事業者に向きます。HTML、CSS、JavaScript、プラグイン、テンプレートを扱えるため、簡易型ネットショップより設計の自由度があります。",
+        "一方、ショップ運営、売上改善、EC-CUBEの具体的な操作方法はサポート対象外とされています。制作や運用を自社で行うのか、制作会社へ委託するのかを契約前に決めておく必要があります。"
+      ],
+      "bullets": [
+        "向いている：独自デザインと顧客データ活用を重視する",
+        "向いている：売上連動の販売手数料を避けたい",
+        "要確認：EC-CUBE運用を担当できる人員または制作会社"
+      ]
+    },
+    {
+      "heading": "料金は月額1,980円からだが、初期費用と前払いがある",
+      "body": [
+        "全プランの初期費用は11,000円です。月額1,980円はベーシックを36か月で契約した場合の月額換算で、初回契約は3、6、12、24、36か月から選び、契約期間分を一括で支払います。更新時の1か月契約は自動更新に限られます。",
+        "長期契約ほど月額換算は下がりますが、ショップの仕様確認前に長期間を選ぶと移行コストが増えます。まず30日間の試用で決済、商品登録、配送、メール、プラグイン、デザイン変更を確認します。"
+      ],
+      "table": {
+        "headers": [
+          "契約期間",
+          "ベーシック",
+          "スタンダード",
+          "プレミアム"
+        ],
+        "rows": [
+          [
+            "3か月",
+            "2,640円／月",
+            "6,600円／月",
+            "13,200円／月"
+          ],
+          [
+            "12か月",
+            "2,200円／月",
+            "5,500円／月",
+            "11,000円／月"
+          ],
+          [
+            "36か月",
+            "1,980円／月",
+            "4,950円／月",
+            "9,900円／月"
+          ],
+          [
+            "初期費用",
+            "11,000円",
+            "11,000円",
+            "11,000円"
+          ]
+        ]
+      },
+      "affiliateMaterialKey": "xserver-shop",
+      "affiliateNote": "最新料金、契約期間、初期費用は申込画面で再確認してください。"
+    },
+    {
+      "heading": "販売手数料0円でも決済・入金手数料は別に発生する",
+      "body": [
+        "XServerショップの販売手数料は0円です。ただし、標準のStripe決済を利用すると販売額の4％がクレジットカード決済手数料として差し引かれます。売上金の入金時には入金額の0.25％＋275円の入金手数料も発生します。",
+        "他社の決済代行を独自導入する場合は、XServerショップ側のStripe手数料ではなく、導入先の審査、月額、決済料、入金サイクル、返金処理を確認します。固定月額だけでなく、月商別の総コストを計算することが重要です。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-fee",
+      "affiliateNote": "「販売手数料0円」は、決済手数料や入金手数料まで0円という意味ではありません。"
+    },
+    {
+      "heading": "EC-CUBE 4.0.3表記と拡張性の確認",
+      "body": [
+        "公式機能一覧にはEC-CUBE 4.0.3と記載されています。プラグインやテンプレートはEC-CUBEの対応バージョンが一致する必要があるため、導入予定の拡張機能が現在の提供環境で動作するか、無料試用中に確認してください。",
+        "商品登録数は全プラン無制限ですが、ディスク容量はベーシック5GB、スタンダード50GB、プレミアム200GBです。商品画像、メール、ログ、バックアップ等を含む実容量を見積もります。初期テンプレート以外を使う場合は、購入費や制作費も予算に含めます。"
+      ]
+    },
+    {
+      "heading": "30日間無料試用と成果条件",
+      "body": [
+        "無料お試しは申込みから30日間で、試用中に作成したデータは本契約後も引き継げます。ただし、メールアカウント作成、プログラムによるメール送信、サブFTPアカウント追加などに制限があります。",
+        "A8.netの成果条件は、Webから無料お試しを申し込み、試用期間内に料金支払いを完了することです。利用者は広告報酬ではなく、自社の要件に合うかを基準に契約を判断してください。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-trial",
+      "affiliateNote": "無料試用中の機能制限と、本契約後の料金を確認してから移行してください。"
+    },
+    {
+      "heading": "独自ドメインとサポートの範囲",
+      "body": [
+        "本契約後は独自ドメイン永久無料特典を利用できます。ベーシックは.com、.jp等が中心で、.co.jp等の属性型JPドメインはスタンダードとプレミアムが対象です。属性型ドメインには取得資格があります。",
+        "メールは24時間365日受け付け、電話とチャットは平日10時から18時です。ただし、EC-CUBEの利用方法やショップ運営はサポート対象外です。契約前に、サーバー障害、決済、プラグイン、デザイン、受注運用の問い合わせ先を分けておきます。"
+      ]
+    },
+    {
+      "heading": "最終判断",
+      "body": [
+        "売上連動の販売手数料を避け、EC-CUBEの自由度を活かしたい場合は有力です。運用担当が少なく、アプリ追加や保守を簡単に済ませたい場合はShopifyやWixも比較します。自社でWordPressとサーバーを管理できる場合はWooCommerceも候補です。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-cost",
+      "affiliateNote": "初期費用、契約期間、決済費用、制作費を含む年間総額で判断してください。"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "XServerショップは本当に販売手数料0円ですか？",
+      "answer": "XServerショップ自体の販売手数料は0円です。ただし、Stripe決済は販売額の4％、売上入金時は入金額の0.25％＋275円が発生します。"
+    },
+    {
+      "question": "30日間無料試用で本番運営できますか？",
+      "answer": "メールアカウント作成やプログラムによるメール送信などに制限があります。検証環境として利用し、本契約前に制限一覧を確認してください。"
+    },
+    {
+      "question": "EC-CUBEのプラグインは自由に使えますか？",
+      "answer": "提供環境のEC-CUBEバージョンに対応するプラグインが前提です。導入予定のプラグインを無料試用中に確認してください。"
+    },
+    {
+      "question": ".co.jpドメインはベーシックでも無料ですか？",
+      "answer": ".co.jp等の属性型JPドメインはスタンダードとプレミアムが対象です。取得資格も必要です。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServerショップとShopifyの比較",
+      "url": "/ja/website-builders/xserver-shop-vs-shopify/",
+      "description": "固定費型とSaaS型の費用・運用を比較"
+    },
+    {
+      "label": "販売手数料0円のネットショップ比較",
+      "url": "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "description": "月額固定型を中心に総費用を整理"
+    },
+    {
+      "label": "XServerショップとWooCommerceの比較",
+      "url": "/ja/website-builders/xserver-shop-vs-woocommerce/",
+      "description": "管理型EC-CUBEと自社運用WordPressを比較"
+    }
+  ]
+}

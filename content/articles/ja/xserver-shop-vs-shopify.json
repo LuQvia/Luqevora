@@ -1,0 +1,189 @@
+{
+  "id": "xserver-shop-vs-shopify-ja",
+  "translationKey": "xserver-shop-vs-shopify",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-shop-vs-shopify",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "EC比較・広告掲載",
+  "title": "XServerショップとShopifyを比較｜料金・手数料・運用の違い",
+  "metaTitle": "XServerショップとShopify比較｜料金・手数料・運用",
+  "description": "XServerショップとShopifyを、月額、販売・決済手数料、デザイン、アプリ、保守、サポート、移行性から比較します。",
+  "lead": "XServerショップはEC-CUBEの自由度と月額固定型の料金、Shopifyはホスト型SaaSとしての運用しやすさとアプリ・販売チャネルの広さが中心です。売上規模だけでなく、制作・保守に必要な人員を含めて選びます。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "XServerショップ",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServerショップ公式ページ",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerショップ料金",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerショップ機能一覧",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "30日間無料お試し",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "販売・決済・入金手数料",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "サポート範囲",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    },
+    {
+      "label": "Shopify pricing",
+      "url": "https://www.shopify.com/jp/pricing"
+    },
+    {
+      "label": "Shopify transaction fees",
+      "url": "https://help.shopify.com/ja/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-transaction-fees"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：自由度と固定費ならXServerショップ、運用の速さならShopify",
+      "body": [
+        "独自デザイン、EC-CUBEプラグイン、顧客データ、販売手数料0円を重視し、制作担当を確保できる場合はXServerショップが比較候補です。管理画面、アプリ、決済、販売チャネルをSaaSとしてまとめ、短期間で運用を開始したい場合はShopifyが分かりやすい選択です。",
+        "どちらも月額だけで判断せず、決済手数料、追加アプリ、テーマ、制作、保守、入金、ドメイン、メール、移行作業を含む年間総額で比較します。"
+      ]
+    },
+    {
+      "heading": "主要な違い",
+      "body": [
+        "両者は同じネットショップ作成サービスでも、運用責任の置き方が異なります。"
+      ],
+      "table": {
+        "headers": [
+          "比較項目",
+          "XServerショップ",
+          "Shopify"
+        ],
+        "rows": [
+          [
+            "基盤",
+            "管理されたEC-CUBE環境",
+            "ホスト型EC SaaS"
+          ],
+          [
+            "販売手数料",
+            "プラットフォーム販売手数料0円",
+            "プランと決済方法で確認"
+          ],
+          [
+            "標準決済",
+            "Stripe。公表手数料4％",
+            "Shopify Payments等。地域・プランで確認"
+          ],
+          [
+            "初期費用",
+            "全プラン11,000円",
+            "通常はプラン料金中心"
+          ],
+          [
+            "デザイン",
+            "HTML・CSS・JS、テンプレート、プラグイン",
+            "テーマとアプリを中心に構築"
+          ],
+          [
+            "保守",
+            "基盤と初期EC-CUBE更新を提供側が管理",
+            "SaaS基盤をShopifyが管理"
+          ],
+          [
+            "サポート範囲",
+            "EC-CUBE操作・ショップ運営は対象外",
+            "契約内容とサポート範囲を確認"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "料金と手数料の考え方",
+      "body": [
+        "XServerショップは初期費用11,000円と契約期間分の前払いがあります。標準Stripe決済は4％、入金時は0.25％＋275円です。Shopifyはプラン料金、決済手数料、Shopify Payments以外の決済を使う場合の取引手数料、アプリ料金等を確認します。",
+        "月商が上がるほど、固定費と売上連動費の違いが大きくなります。ただし、XServerショップで制作・保守の外注費が増える場合は、販売手数料だけで逆転を判断できません。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-fee",
+      "affiliateNote": "売上規模別に決済・入金・アプリ・制作費を含めて比較してください。"
+    },
+    {
+      "heading": "機能追加と運用体制",
+      "body": [
+        "XServerショップは対応するEC-CUBEプラグインやテンプレートを利用でき、コード編集も可能です。その分、バージョン互換性、テスト、バックアップ、更新後確認が必要です。",
+        "Shopifyはアプリストアとテーマを中心に機能を追加します。アプリの月額、外部サービス依存、テーマ更新、データのエクスポート範囲を確認します。非技術担当者だけで回すならShopify、制作会社と継続改善するならXServerショップも比較しやすくなります。"
+      ]
+    },
+    {
+      "heading": "無料試用で確認する項目",
+      "body": [
+        "XServerショップでは30日間の試用中に、商品CSV、カテゴリ、規格、税率、配送、決済、顧客権限、デザイン、プラグインを確認します。メール等の一部制限があるため、本契約後の確認項目も残ります。",
+        "Shopifyでもテーマ編集、商品登録、決済テスト、配送、税、アプリ、スタッフ権限、データ出力を確認し、同じ商品数と月商で総費用を比較します。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-trial",
+      "affiliateNote": "XServerショップは試用期間内に支払いを完了するとA8.netの成果条件を満たします。"
+    },
+    {
+      "heading": "選び方",
+      "body": [
+        "制作・保守の担当者がいて、EC-CUBEの自由度と販売手数料0円を活かせるならXServerショップを試します。運用開始の速さ、アプリ連携、越境・複数チャネル、非技術担当者の扱いやすさを重視するならShopifyを軸に評価します。"
+      ],
+      "affiliateMaterialKey": "xserver-shop",
+      "affiliateNote": "最新プランと30日無料試用の条件は公式サイトで確認してください。"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "月商が高ければXServerショップの方が必ず安いですか？",
+      "answer": "必ずではありません。決済・入金手数料、制作、保守、プラグイン、テーマ、外注費を含めて比較する必要があります。"
+    },
+    {
+      "question": "初心者にはどちらが向いていますか？",
+      "answer": "非技術担当者だけで早く始める場合はShopifyが比較しやすく、EC-CUBEや制作会社を活用できる場合はXServerショップも候補です。"
+    },
+    {
+      "question": "XServerショップには無料試用がありますか？",
+      "answer": "30日間の無料試用がありますが、メール送信等の一部機能は制限されます。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServerショップレビュー",
+      "url": "/ja/website-builders/xserver-shop-review/",
+      "description": "料金、手数料、EC-CUBEの注意点を確認"
+    },
+    {
+      "label": "Shopifyレビュー",
+      "url": "/ja/website-builders/shopify-review/",
+      "description": "Shopifyの料金と運用条件を確認"
+    },
+    {
+      "label": "Shopify料金ガイド",
+      "url": "/ja/website-builders/shopify-pricing-guide/",
+      "description": "プラン・決済・追加費用を整理"
+    }
+  ]
+}

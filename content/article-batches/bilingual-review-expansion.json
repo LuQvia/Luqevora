@@ -1,30 +1,298 @@
 [
-  {"product": "otter", "slug": "otter-review", "category": "ai-tools", "topic": "ai-meeting-notes"},
-  {"product": "fireflies", "slug": "fireflies-review", "category": "ai-tools", "topic": "ai-meeting-notes"},
-  {"product": "perplexity", "slug": "perplexity-review", "category": "ai-tools", "topic": "generative-ai"},
-  {"product": "microsoft-copilot", "slug": "microsoft-copilot-review", "category": "ai-tools", "topic": "generative-ai"},
-  {"product": "fathom", "slug": "fathom-review", "category": "ai-tools", "topic": "ai-meeting-notes"},
-  {"product": "tldv", "slug": "tldv-review", "category": "ai-tools", "topic": "ai-meeting-notes"},
-
-  {"product": "framer", "slug": "framer-review", "category": "website-builders", "topic": "website-builder"},
-  {"product": "duda", "slug": "duda-review", "category": "website-builders", "topic": "website-builder"},
-  {"product": "bigcommerce", "slug": "bigcommerce-review", "category": "website-builders", "topic": "ecommerce-platform"},
-  {"product": "woocommerce", "slug": "woocommerce-review", "category": "website-builders", "topic": "ecommerce-platform"},
-  {"product": "hostinger-website-builder", "slug": "hostinger-website-builder-review", "category": "website-builders", "topic": "website-builder"},
-
-  {"product": "activecampaign", "slug": "activecampaign-review", "category": "seo-marketing", "topic": "email-marketing"},
-  {"product": "hubspot-marketing", "slug": "hubspot-marketing-review", "category": "seo-marketing", "topic": "email-marketing"},
-
-  {"product": "jira", "slug": "jira-review", "category": "business-software", "topic": "project-management"},
-  {"product": "wrike", "slug": "wrike-review", "category": "business-software", "topic": "project-management"},
-  {"product": "airtable", "slug": "airtable-review", "category": "business-software", "topic": "project-management"},
-  {"product": "todoist", "slug": "todoist-review", "category": "business-software", "topic": "project-management"},
-  {"product": "basecamp", "slug": "basecamp-review", "category": "business-software", "topic": "project-management"},
-  {"product": "zoom", "slug": "zoom-review", "category": "business-software", "topic": "video-meetings"},
-  {"product": "slack", "slug": "slack-review", "category": "business-software", "topic": "video-meetings"},
-  {"product": "microsoft-teams", "slug": "microsoft-teams-review", "category": "business-software", "topic": "video-meetings"},
-
-  {"product": "nordvpn", "slug": "nordvpn-review", "category": "hosting-security", "topic": "vpn-services"},
-  {"product": "surfshark", "slug": "surfshark-review", "category": "hosting-security", "topic": "vpn-services"},
-  {"product": "proton-vpn", "slug": "proton-vpn-review", "category": "hosting-security", "topic": "vpn-services"}
+  {
+    "product": "otter",
+    "slug": "otter-review",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes"
+  },
+  {
+    "product": "fireflies",
+    "slug": "fireflies-review",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes"
+  },
+  {
+    "product": "perplexity",
+    "slug": "perplexity-review",
+    "category": "ai-tools",
+    "topic": "generative-ai"
+  },
+  {
+    "product": "microsoft-copilot",
+    "slug": "microsoft-copilot-review",
+    "category": "ai-tools",
+    "topic": "generative-ai"
+  },
+  {
+    "product": "fathom",
+    "slug": "fathom-review",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes"
+  },
+  {
+    "product": "tldv",
+    "slug": "tldv-review",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes"
+  },
+  {
+    "product": "framer",
+    "slug": "framer-review",
+    "category": "website-builders",
+    "topic": "website-builder"
+  },
+  {
+    "product": "duda",
+    "slug": "duda-review",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
+  },
+  {
+    "product": "bigcommerce",
+    "slug": "bigcommerce-review",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
+  },
+  {
+    "product": "woocommerce",
+    "slug": "woocommerce-review",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
+  },
+  {
+    "product": "hostinger-website-builder",
+    "slug": "hostinger-website-builder-review",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "relatedRoutes": [
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-review",
+        "label": {
+          "ja": "XServerショップレビュー",
+          "en": "XServer Shop review"
+        },
+        "description": {
+          "ja": "料金、販売・決済手数料、EC-CUBE、無料試用を確認",
+          "en": "Review subscriptions, payment fees, EC-CUBE, and trial limits"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "xserver-shop-vs-shopify",
+        "label": {
+          "ja": "XServerショップとShopifyの比較",
+          "en": "XServer Shop versus Shopify"
+        },
+        "description": {
+          "ja": "固定費型EC-CUBEとホスト型SaaSを比較",
+          "en": "Compare managed EC-CUBE with hosted ecommerce SaaS"
+        }
+      },
+      {
+        "category": "website-builders",
+        "slug": "fixed-fee-ecommerce-platform-comparison",
+        "label": {
+          "ja": "販売手数料0円のネットショップ比較",
+          "en": "Fixed-fee ecommerce platform comparison"
+        },
+        "description": {
+          "ja": "販売・決済・入金・制作・保守の総費用を比較",
+          "en": "Compare platform, payment, payout, implementation, and maintenance costs"
+        }
+      }
+    ]
+  },
+  {
+    "product": "activecampaign",
+    "slug": "activecampaign-review",
+    "category": "seo-marketing",
+    "topic": "email-marketing"
+  },
+  {
+    "product": "hubspot-marketing",
+    "slug": "hubspot-marketing-review",
+    "category": "seo-marketing",
+    "topic": "email-marketing"
+  },
+  {
+    "product": "jira",
+    "slug": "jira-review",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "product": "wrike",
+    "slug": "wrike-review",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "product": "airtable",
+    "slug": "airtable-review",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "product": "todoist",
+    "slug": "todoist-review",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "product": "basecamp",
+    "slug": "basecamp-review",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "product": "zoom",
+    "slug": "zoom-review",
+    "category": "business-software",
+    "topic": "video-meetings"
+  },
+  {
+    "product": "slack",
+    "slug": "slack-review",
+    "category": "business-software",
+    "topic": "video-meetings"
+  },
+  {
+    "product": "microsoft-teams",
+    "slug": "microsoft-teams-review",
+    "category": "business-software",
+    "topic": "video-meetings"
+  },
+  {
+    "product": "nordvpn",
+    "slug": "nordvpn-review",
+    "category": "hosting-security",
+    "topic": "vpn-services"
+  },
+  {
+    "product": "surfshark",
+    "slug": "surfshark-review",
+    "category": "hosting-security",
+    "topic": "vpn-services"
+  },
+  {
+    "product": "proton-vpn",
+    "slug": "proton-vpn-review",
+    "category": "hosting-security",
+    "topic": "vpn-services"
+  }
 ]

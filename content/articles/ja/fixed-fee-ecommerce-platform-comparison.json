@@ -1,0 +1,194 @@
+{
+  "id": "fixed-fee-ecommerce-platform-comparison-ja",
+  "translationKey": "fixed-fee-ecommerce-platform-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "fixed-fee-ecommerce-platform-comparison",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "EC費用比較・広告掲載",
+  "title": "販売手数料0円・月額固定型のネットショップ作成サービス比較",
+  "metaTitle": "販売手数料0円のネットショップ比較｜固定費と総額",
+  "description": "販売手数料0円・月額固定型のネットショップを、XServerショップ、WooCommerce、Wix、Shopifyの費用と運用責任から比較します。",
+  "lead": "「販売手数料0円」だけではネットショップの安さは決まりません。月額、初期費用、決済、入金、アプリ、テーマ、制作、サーバー、保守を合算し、売上規模と運用体制に合うサービスを選びます。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "XServerショップ",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop-fee"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServerショップ公式ページ",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerショップ料金",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerショップ機能一覧",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "30日間無料お試し",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "販売・決済・入金手数料",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "サポート範囲",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    },
+    {
+      "label": "Shopify pricing",
+      "url": "https://www.shopify.com/jp/pricing"
+    },
+    {
+      "label": "Shopify transaction fees",
+      "url": "https://help.shopify.com/ja/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-transaction-fees"
+    },
+    {
+      "label": "WooCommerce official site",
+      "url": "https://woocommerce.com/"
+    },
+    {
+      "label": "WooCommerce getting started",
+      "url": "https://woocommerce.com/document/getting-started/"
+    },
+    {
+      "label": "Wix eCommerce overview",
+      "url": "https://www.wix.com/ecommerce/website"
+    },
+    {
+      "label": "Wix pricing",
+      "url": "https://www.wix.com/plans"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：固定費だけでなく運用責任まで比較する",
+      "body": [
+        "XServerショップはEC-CUBEの管理環境と販売手数料0円、WooCommerceはソフトウェアの自由度、Wixはサイト制作との一体運用、Shopifyはホスト型ECの運用しやすさが中心です。",
+        "売上連動費を抑える目的でも、決済手数料、入金手数料、サーバー、開発、アプリ、保守が発生します。月商別の損益だけでなく、障害対応や法改正への対応責任も確認します。"
+      ]
+    },
+    {
+      "heading": "比較表",
+      "body": [
+        "料金は契約、地域、決済方法、追加機能で変わるため、構造を比較します。"
+      ],
+      "table": {
+        "headers": [
+          "サービス",
+          "料金構造",
+          "主な強み",
+          "主な確認点"
+        ],
+        "rows": [
+          [
+            "XServerショップ",
+            "初期費用＋月額固定＋決済・入金費",
+            "EC-CUBE、販売手数料0円、国内運用",
+            "EC-CUBE互換性、制作・運用担当"
+          ],
+          [
+            "WooCommerce",
+            "WordPressホスティング＋拡張＋決済",
+            "コード・データ・拡張の自由度",
+            "保守、セキュリティ、障害対応"
+          ],
+          [
+            "Wix",
+            "プラン＋決済＋アプリ",
+            "サイト制作とECを一体化",
+            "移行性、アプリ費、プラン上限"
+          ],
+          [
+            "Shopify",
+            "プラン＋決済・取引＋アプリ",
+            "ホスト型運用、販売チャネル、アプリ",
+            "月額追加費、外部依存、データ移行"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "XServerショップの費用構造",
+      "body": [
+        "全プラン初期費用11,000円、月額換算はベーシック1,980円からです。販売手数料は0円ですが、標準Stripe決済4％と入金額の0.25％＋275円が公表されています。",
+        "EC-CUBEの対応プラグイン、テンプレート、制作、運用、データ移行が必要な場合は、その費用を追加します。30日無料試用で必須機能を確認してから契約期間を決めます。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-fee",
+      "affiliateNote": "販売手数料以外の費用を月商・注文件数・入金回数で試算してください。"
+    },
+    {
+      "heading": "売上規模別に見るべき数字",
+      "body": [
+        "月商、注文件数、平均注文額、カード比率、返金率、入金回数、アプリ数、制作保守費を入力して比較します。決済料は売上に連動し、入金手数料は入金頻度で変わります。",
+        "売上が小さい段階では初期費用と月額が重くなり、売上が大きい段階では決済・取引手数料の差が拡大します。固定費型でも担当者の人件費が増える場合は総コストが高くなります。"
+      ]
+    },
+    {
+      "heading": "制作・保守・セキュリティの責任",
+      "body": [
+        "XServerショップはサーバーと供給されたEC-CUBEの細かな更新を提供側へ寄せられますが、ショップ運営やEC-CUBE操作は利用者側です。WooCommerceはWordPress、テーマ、プラグイン、サーバー、バックアップ、セキュリティをより広く管理します。",
+        "ShopifyとWixはコア基盤の運用負担を下げやすい一方、アプリ、テーマ、外部連携、データ出力、契約変更の影響を確認します。"
+      ]
+    },
+    {
+      "heading": "選定チェックリスト",
+      "body": [
+        "同一の商品数と運用条件で、試用またはテストサイトを作成します。商品・規格・税・配送・決済・返金・顧客・在庫・権限・CSV・API・メール・SEO・データ出力を確認します。",
+        "契約前に、月額、初期費用、決済、入金、アプリ、テーマ、ドメイン、メール、外注、保守の年間総額を一枚にまとめます。"
+      ],
+      "affiliateMaterialKey": "xserver-shop-cost",
+      "affiliateNote": "XServerショップは30日間無料で、実際の管理画面と予定する運用を確認できます。"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "販売手数料0円なら決済費用もありませんか？",
+      "answer": "いいえ。サービスによって決済手数料、入金手数料、外部決済費用が発生します。"
+    },
+    {
+      "question": "固定月額型は売上が大きいほど必ず有利ですか？",
+      "answer": "必ずではありません。開発、保守、アプリ、決済、担当者人件費まで含めた総額で判断します。"
+    },
+    {
+      "question": "比較時に最も重要な数値は何ですか？",
+      "answer": "月商、注文件数、平均注文額、カード比率、入金回数、外注費、アプリ費を同じ条件で試算することです。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServerショップレビュー",
+      "url": "/ja/website-builders/xserver-shop-review/",
+      "description": "固定費、決済、EC-CUBEの条件を確認"
+    },
+    {
+      "label": "XServerショップとShopifyの比較",
+      "url": "/ja/website-builders/xserver-shop-vs-shopify/",
+      "description": "EC-CUBE型とSaaS型の違いを比較"
+    },
+    {
+      "label": "WooCommerceレビュー",
+      "url": "/ja/website-builders/woocommerce-review/",
+      "description": "自社運用型ECの費用と責任を確認"
+    }
+  ]
+}

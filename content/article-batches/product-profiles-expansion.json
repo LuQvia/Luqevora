@@ -3,345 +3,1404 @@
     "name": "Perplexity",
     "affiliateKey": "perplexity",
     "sources": [
-      {"label": "Perplexity — Subscription plans", "url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you"},
-      {"label": "Perplexity — Product", "url": "https://www.perplexity.ai/"}
+      {
+        "label": "Perplexity — Subscription plans",
+        "url": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you"
+      },
+      {
+        "label": "Perplexity — Product",
+        "url": "https://www.perplexity.ai/"
+      }
     ],
-    "positioning": {"ja": "Web検索と出典提示を中心に、調査回答やレポート作成を進めるAI検索・リサーチサービス", "en": "An AI search and research service centered on web retrieval, cited answers, and research deliverables"},
-    "pricing": {"ja": "無料利用と個人・教育・組織向け有料プラン。高度な調査や作成機能は利用枠・クレジットを確認", "en": "Free access plus paid consumer, education, and organization plans; advanced research and creation can use allowances or credits"},
-    "pricingDetail": {"ja": "無料枠で検索体験を試せますが、高度なモデル、リサーチ、ファイルや成果物作成、組織管理はプラン差があります。クレジット、自動補充、地域別条件を申込画面で確認します。", "en": "The free experience covers basic search, while advanced models, research, file or deliverable creation, and organization controls vary by plan. Check credits, auto-refill, and regional terms at checkout."},
-    "workflow": {"ja": "質問からWeb情報を検索し、引用元をたどりながら追加質問、整理、レポート化を進めます。重要な結論は必ず原典を開いて確認します。", "en": "It moves from a question to web retrieval, source inspection, follow-up research, and a structured answer or report. Important conclusions still require opening the primary source."},
-    "bestFor": {"ja": "出典付きのWeb調査と短時間の情報整理を重視する個人・チーム", "en": "People and teams prioritizing cited web research and fast information synthesis"},
-    "strengths": {"ja": ["回答から出典へ移動しやすい", "検索と追加質問を一つの流れで進められる", "個人調査から組織利用まで拡張できる"], "en": ["Direct path from answers to cited sources", "Search and follow-up questions in one flow", "Options from individual research to organization use"]},
-    "limits": {"ja": ["引用が主張を支えるか再確認が必要", "利用枠とクレジット条件が変わりやすい", "長い制作工程は別ツールが適する場合がある"], "en": ["Citations still need claim-level verification", "Allowances and credit terms can change", "Long production workflows may fit another tool better"]}
+    "positioning": {
+      "ja": "Web検索と出典提示を中心に、調査回答やレポート作成を進めるAI検索・リサーチサービス",
+      "en": "An AI search and research service centered on web retrieval, cited answers, and research deliverables"
+    },
+    "pricing": {
+      "ja": "無料利用と個人・教育・組織向け有料プラン。高度な調査や作成機能は利用枠・クレジットを確認",
+      "en": "Free access plus paid consumer, education, and organization plans; advanced research and creation can use allowances or credits"
+    },
+    "pricingDetail": {
+      "ja": "無料枠で検索体験を試せますが、高度なモデル、リサーチ、ファイルや成果物作成、組織管理はプラン差があります。クレジット、自動補充、地域別条件を申込画面で確認します。",
+      "en": "The free experience covers basic search, while advanced models, research, file or deliverable creation, and organization controls vary by plan. Check credits, auto-refill, and regional terms at checkout."
+    },
+    "workflow": {
+      "ja": "質問からWeb情報を検索し、引用元をたどりながら追加質問、整理、レポート化を進めます。重要な結論は必ず原典を開いて確認します。",
+      "en": "It moves from a question to web retrieval, source inspection, follow-up research, and a structured answer or report. Important conclusions still require opening the primary source."
+    },
+    "bestFor": {
+      "ja": "出典付きのWeb調査と短時間の情報整理を重視する個人・チーム",
+      "en": "People and teams prioritizing cited web research and fast information synthesis"
+    },
+    "strengths": {
+      "ja": [
+        "回答から出典へ移動しやすい",
+        "検索と追加質問を一つの流れで進められる",
+        "個人調査から組織利用まで拡張できる"
+      ],
+      "en": [
+        "Direct path from answers to cited sources",
+        "Search and follow-up questions in one flow",
+        "Options from individual research to organization use"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "引用が主張を支えるか再確認が必要",
+        "利用枠とクレジット条件が変わりやすい",
+        "長い制作工程は別ツールが適する場合がある"
+      ],
+      "en": [
+        "Citations still need claim-level verification",
+        "Allowances and credit terms can change",
+        "Long production workflows may fit another tool better"
+      ]
+    }
   },
   "microsoft-copilot": {
     "name": "Microsoft Copilot",
     "affiliateKey": "microsoft-copilot",
     "sources": [
-      {"label": "Microsoft — Copilot pricing for individuals", "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals"},
-      {"label": "Microsoft — Copilot pricing for business", "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing"}
+      {
+        "label": "Microsoft — Copilot pricing for individuals",
+        "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals"
+      },
+      {
+        "label": "Microsoft — Copilot pricing for business",
+        "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing"
+      }
     ],
-    "positioning": {"ja": "Web上のAIチャットとMicrosoft 365アプリ内の作成・分析支援をつなぐAIアシスタント", "en": "An AI assistant spanning web chat and creation or analysis inside Microsoft 365 applications"},
-    "pricing": {"ja": "無料・個人向けMicrosoft 365・業務向けCopilotの構成。業務版は対象ライセンスや市場条件を確認", "en": "Free access, Microsoft 365 individual bundles, and business Copilot options; business eligibility and market availability apply"},
-    "pricingDetail": {"ja": "個人向けと組織向けでは、含まれるアプリ、ストレージ、AI利用枠、データ保護、必要な基礎ライセンスが異なります。既存Microsoft 365契約との重複を年間総額で確認します。", "en": "Individual and organization options differ in included apps, storage, AI allowances, data protection, and prerequisite licenses. Model the annual total together with any existing Microsoft 365 subscription."},
-    "workflow": {"ja": "チャットで下書きや調査を始め、Word、Excel、PowerPoint、Outlook、Teamsなど対象アプリ内の作業へ接続します。", "en": "Work can begin in chat and continue inside eligible Word, Excel, PowerPoint, Outlook, Teams, and other Microsoft 365 experiences."},
-    "bestFor": {"ja": "Microsoft 365を中心に文書・表計算・メール・会議を運用する個人・組織", "en": "Individuals and organizations centered on Microsoft 365 documents, spreadsheets, email, and meetings"},
-    "strengths": {"ja": ["Microsoft 365アプリとの連携", "個人用と業務用の選択肢", "組織データを使う業務フロー"], "en": ["Integration across Microsoft 365 apps", "Individual and business options", "Workflows grounded in organization data"]},
-    "limits": {"ja": ["製品名とライセンス構成が複数ある", "市場・言語・契約で機能差がある", "業務版は基礎ライセンス条件を確認"], "en": ["Several products and license combinations share the Copilot name", "Capabilities vary by market, language, and subscription", "Business use may require a qualifying base license"]}
+    "positioning": {
+      "ja": "Web上のAIチャットとMicrosoft 365アプリ内の作成・分析支援をつなぐAIアシスタント",
+      "en": "An AI assistant spanning web chat and creation or analysis inside Microsoft 365 applications"
+    },
+    "pricing": {
+      "ja": "無料・個人向けMicrosoft 365・業務向けCopilotの構成。業務版は対象ライセンスや市場条件を確認",
+      "en": "Free access, Microsoft 365 individual bundles, and business Copilot options; business eligibility and market availability apply"
+    },
+    "pricingDetail": {
+      "ja": "個人向けと組織向けでは、含まれるアプリ、ストレージ、AI利用枠、データ保護、必要な基礎ライセンスが異なります。既存Microsoft 365契約との重複を年間総額で確認します。",
+      "en": "Individual and organization options differ in included apps, storage, AI allowances, data protection, and prerequisite licenses. Model the annual total together with any existing Microsoft 365 subscription."
+    },
+    "workflow": {
+      "ja": "チャットで下書きや調査を始め、Word、Excel、PowerPoint、Outlook、Teamsなど対象アプリ内の作業へ接続します。",
+      "en": "Work can begin in chat and continue inside eligible Word, Excel, PowerPoint, Outlook, Teams, and other Microsoft 365 experiences."
+    },
+    "bestFor": {
+      "ja": "Microsoft 365を中心に文書・表計算・メール・会議を運用する個人・組織",
+      "en": "Individuals and organizations centered on Microsoft 365 documents, spreadsheets, email, and meetings"
+    },
+    "strengths": {
+      "ja": [
+        "Microsoft 365アプリとの連携",
+        "個人用と業務用の選択肢",
+        "組織データを使う業務フロー"
+      ],
+      "en": [
+        "Integration across Microsoft 365 apps",
+        "Individual and business options",
+        "Workflows grounded in organization data"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "製品名とライセンス構成が複数ある",
+        "市場・言語・契約で機能差がある",
+        "業務版は基礎ライセンス条件を確認"
+      ],
+      "en": [
+        "Several products and license combinations share the Copilot name",
+        "Capabilities vary by market, language, and subscription",
+        "Business use may require a qualifying base license"
+      ]
+    }
   },
   "fathom": {
     "name": "Fathom",
     "affiliateKey": "fathom",
     "sources": [
-      {"label": "Fathom — Pricing", "url": "https://www.fathom.ai/pricing"},
-      {"label": "Fathom — AI meeting assistant", "url": "https://www.fathom.ai/"}
+      {
+        "label": "Fathom — Pricing",
+        "url": "https://www.fathom.ai/pricing"
+      },
+      {
+        "label": "Fathom — AI meeting assistant",
+        "url": "https://www.fathom.ai/"
+      }
     ],
-    "positioning": {"ja": "会議の録音・文字起こし・要約・アクション抽出とCRM同期を自動化するAI議事録サービス", "en": "An AI meeting assistant for capture, transcription, summaries, action items, and CRM synchronization"},
-    "pricing": {"ja": "個人向け無料利用とプレミアム・チーム向けの有料構成。共有・管理・連携の範囲を確認", "en": "Free individual use plus paid premium and team options with different sharing, administration, and integration scope"},
-    "pricingDetail": {"ja": "無料版で代表会議を試し、有料版では高度な要約、チーム検索、管理、CRM連携、ブランド設定など必要機能を確認します。席数と対象ドメインの条件も見ます。", "en": "Use the free option for a representative meeting, then verify advanced summaries, team search, administration, CRM sync, and branding on paid tiers. Seat and email-domain rules also matter."},
-    "workflow": {"ja": "カレンダーや会議サービスへ接続し、会議後に要約・アクション・共有・CRM記録まで流します。ボット参加方式とボットなし方式の対応を環境別に確認します。", "en": "It connects to calendars and meeting platforms, then routes summaries, actions, sharing, and CRM records after each call. Test bot and bot-free capture in the actual environment."},
-    "bestFor": {"ja": "個人の会議記録を素早く自動化し、必要に応じて営業・顧客対応チームへ広げたい利用者", "en": "Users who want fast personal meeting automation with a path into sales or customer-team workflows"},
-    "strengths": {"ja": ["会議後の要約とアクション抽出", "個人からチームへ始めやすい", "CRM連携を含む後工程"], "en": ["Post-meeting summaries and actions", "Accessible path from individual to team use", "Downstream workflow including CRM sync"]},
-    "limits": {"ja": ["会議参加・録音同意の運用が必要", "対応会議環境を事前確認", "高度な共有・管理はプラン差がある"], "en": ["Meeting participation and recording consent need policy", "Supported meeting environments must be tested", "Advanced sharing and administration vary by plan"]}
+    "positioning": {
+      "ja": "会議の録音・文字起こし・要約・アクション抽出とCRM同期を自動化するAI議事録サービス",
+      "en": "An AI meeting assistant for capture, transcription, summaries, action items, and CRM synchronization"
+    },
+    "pricing": {
+      "ja": "個人向け無料利用とプレミアム・チーム向けの有料構成。共有・管理・連携の範囲を確認",
+      "en": "Free individual use plus paid premium and team options with different sharing, administration, and integration scope"
+    },
+    "pricingDetail": {
+      "ja": "無料版で代表会議を試し、有料版では高度な要約、チーム検索、管理、CRM連携、ブランド設定など必要機能を確認します。席数と対象ドメインの条件も見ます。",
+      "en": "Use the free option for a representative meeting, then verify advanced summaries, team search, administration, CRM sync, and branding on paid tiers. Seat and email-domain rules also matter."
+    },
+    "workflow": {
+      "ja": "カレンダーや会議サービスへ接続し、会議後に要約・アクション・共有・CRM記録まで流します。ボット参加方式とボットなし方式の対応を環境別に確認します。",
+      "en": "It connects to calendars and meeting platforms, then routes summaries, actions, sharing, and CRM records after each call. Test bot and bot-free capture in the actual environment."
+    },
+    "bestFor": {
+      "ja": "個人の会議記録を素早く自動化し、必要に応じて営業・顧客対応チームへ広げたい利用者",
+      "en": "Users who want fast personal meeting automation with a path into sales or customer-team workflows"
+    },
+    "strengths": {
+      "ja": [
+        "会議後の要約とアクション抽出",
+        "個人からチームへ始めやすい",
+        "CRM連携を含む後工程"
+      ],
+      "en": [
+        "Post-meeting summaries and actions",
+        "Accessible path from individual to team use",
+        "Downstream workflow including CRM sync"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "会議参加・録音同意の運用が必要",
+        "対応会議環境を事前確認",
+        "高度な共有・管理はプラン差がある"
+      ],
+      "en": [
+        "Meeting participation and recording consent need policy",
+        "Supported meeting environments must be tested",
+        "Advanced sharing and administration vary by plan"
+      ]
+    }
   },
   "tldv": {
     "name": "tl;dv",
     "affiliateKey": "tldv",
     "sources": [
-      {"label": "tl;dv — Pricing", "url": "https://tldv.io/pricing"},
-      {"label": "tl;dv — AI meeting notetaker", "url": "https://tldv.io/"}
+      {
+        "label": "tl;dv — Pricing",
+        "url": "https://tldv.io/pricing"
+      },
+      {
+        "label": "tl;dv — AI meeting notetaker",
+        "url": "https://tldv.io/"
+      }
     ],
-    "positioning": {"ja": "Zoom・Google Meet・Microsoft Teamsの録画、文字起こし、要約、複数会議分析を扱うAI会議アシスタント", "en": "An AI meeting assistant for recording, transcription, summaries, and multi-meeting insights across Zoom, Google Meet, and Microsoft Teams"},
-    "pricing": {"ja": "無料版と席単位の有料プラン。AI機能、連携、管理、利用量の上限をプランごとに確認", "en": "A free tier and paid seat-based plans with plan-specific AI, integration, administration, and usage limits"},
-    "pricingDetail": {"ja": "文字起こしだけでなく、AI要約、複数会議の質問、CRM更新、自動化、管理機能に必要なプランを確認します。年払い、席数、利用上限を合算します。", "en": "Check which tier covers AI summaries, questions across meetings, CRM updates, automation, and administration—not transcription alone. Combine annual billing, seats, and usage limits."},
-    "workflow": {"ja": "会議を録画・文字起こしし、要約テンプレートや複数会議の洞察からCRM・業務ツールへ情報を渡します。", "en": "It records and transcribes calls, applies summary templates or cross-meeting insights, and routes information into CRM and workflow tools."},
-    "bestFor": {"ja": "多言語会議を横断して営業・顧客対応の知見を検索・自動化したいチーム", "en": "Teams that need searchable, automated insight across multilingual sales or customer meetings"},
-    "strengths": {"ja": ["主要会議サービスへの対応", "複数会議を横断するAI分析", "CRM・自動化連携"], "en": ["Coverage of major meeting platforms", "AI analysis across multiple meetings", "CRM and automation integrations"]},
-    "limits": {"ja": ["席数とAI利用枠を合算", "会議ボット・録画同意の確認が必要", "高度な連携は上位条件の場合がある"], "en": ["Seat and AI allowances must be budgeted together", "Meeting-bot and consent policy is required", "Advanced integrations may require higher tiers"]}
+    "positioning": {
+      "ja": "Zoom・Google Meet・Microsoft Teamsの録画、文字起こし、要約、複数会議分析を扱うAI会議アシスタント",
+      "en": "An AI meeting assistant for recording, transcription, summaries, and multi-meeting insights across Zoom, Google Meet, and Microsoft Teams"
+    },
+    "pricing": {
+      "ja": "無料版と席単位の有料プラン。AI機能、連携、管理、利用量の上限をプランごとに確認",
+      "en": "A free tier and paid seat-based plans with plan-specific AI, integration, administration, and usage limits"
+    },
+    "pricingDetail": {
+      "ja": "文字起こしだけでなく、AI要約、複数会議の質問、CRM更新、自動化、管理機能に必要なプランを確認します。年払い、席数、利用上限を合算します。",
+      "en": "Check which tier covers AI summaries, questions across meetings, CRM updates, automation, and administration—not transcription alone. Combine annual billing, seats, and usage limits."
+    },
+    "workflow": {
+      "ja": "会議を録画・文字起こしし、要約テンプレートや複数会議の洞察からCRM・業務ツールへ情報を渡します。",
+      "en": "It records and transcribes calls, applies summary templates or cross-meeting insights, and routes information into CRM and workflow tools."
+    },
+    "bestFor": {
+      "ja": "多言語会議を横断して営業・顧客対応の知見を検索・自動化したいチーム",
+      "en": "Teams that need searchable, automated insight across multilingual sales or customer meetings"
+    },
+    "strengths": {
+      "ja": [
+        "主要会議サービスへの対応",
+        "複数会議を横断するAI分析",
+        "CRM・自動化連携"
+      ],
+      "en": [
+        "Coverage of major meeting platforms",
+        "AI analysis across multiple meetings",
+        "CRM and automation integrations"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "席数とAI利用枠を合算",
+        "会議ボット・録画同意の確認が必要",
+        "高度な連携は上位条件の場合がある"
+      ],
+      "en": [
+        "Seat and AI allowances must be budgeted together",
+        "Meeting-bot and consent policy is required",
+        "Advanced integrations may require higher tiers"
+      ]
+    }
   },
   "framer": {
     "name": "Framer",
     "affiliateKey": "framer",
     "sources": [
-      {"label": "Framer — Pricing", "url": "https://www.framer.com/pricing/"},
-      {"label": "Framer — Product", "url": "https://www.framer.com/"}
+      {
+        "label": "Framer — Pricing",
+        "url": "https://www.framer.com/pricing/"
+      },
+      {
+        "label": "Framer — Product",
+        "url": "https://www.framer.com/"
+      }
     ],
-    "positioning": {"ja": "ビジュアルデザイン、CMS、公開、ホスティング、AI制作を一つにまとめるデザイン主導のサイトビルダー", "en": "A design-led website builder combining visual creation, CMS, publishing, hosting, and AI-assisted production"},
-    "pricing": {"ja": "Free、Basic、Pro、Enterprise。CMS・帯域・ページ・編集者・AIクレジット・追加機能に上限", "en": "Free, Basic, Pro, and Enterprise tiers with limits for CMS, bandwidth, pages, editors, AI credits, and add-ons"},
-    "pricingDetail": {"ja": "サイトプランだけでなく、追加編集者、ローカライズ、A/Bテスト、高度ホスティング、AIクレジットを含めて年間総額を出します。無料版は独自ドメイン公開の条件を確認します。", "en": "Annualize the site plan together with additional editors, localization, testing, advanced hosting, and AI credits. Verify custom-domain publishing rules on the free tier."},
-    "workflow": {"ja": "キャンバス上でデザインとレスポンシブ挙動を作り、CMS、SEO、共同編集、ステージングを使って公開・改善します。", "en": "Teams design responsive pages on a visual canvas, connect CMS content, collaborate, stage changes, publish, and iterate with SEO or conversion features."},
-    "bestFor": {"ja": "デザイン品質と公開速度を両立したマーケティングサイトを作るデザイナー・小規模チーム", "en": "Designers and lean teams building polished marketing sites with a fast path to publishing"},
-    "strengths": {"ja": ["デザインから公開までの一体感", "CMS・共同編集・ステージング", "AIとコンバージョン機能の拡張"], "en": ["Integrated design-to-publish workflow", "CMS, collaboration, and staging", "Extensible AI and conversion features"]},
-    "limits": {"ja": ["CMS・帯域・ページにプラン上限", "編集者と追加機能が別料金", "大規模な業務機能は外部連携が必要"], "en": ["Plan limits apply to CMS, bandwidth, and pages", "Editors and add-ons can add cost", "Complex business operations need external systems"]}
+    "positioning": {
+      "ja": "ビジュアルデザイン、CMS、公開、ホスティング、AI制作を一つにまとめるデザイン主導のサイトビルダー",
+      "en": "A design-led website builder combining visual creation, CMS, publishing, hosting, and AI-assisted production"
+    },
+    "pricing": {
+      "ja": "Free、Basic、Pro、Enterprise。CMS・帯域・ページ・編集者・AIクレジット・追加機能に上限",
+      "en": "Free, Basic, Pro, and Enterprise tiers with limits for CMS, bandwidth, pages, editors, AI credits, and add-ons"
+    },
+    "pricingDetail": {
+      "ja": "サイトプランだけでなく、追加編集者、ローカライズ、A/Bテスト、高度ホスティング、AIクレジットを含めて年間総額を出します。無料版は独自ドメイン公開の条件を確認します。",
+      "en": "Annualize the site plan together with additional editors, localization, testing, advanced hosting, and AI credits. Verify custom-domain publishing rules on the free tier."
+    },
+    "workflow": {
+      "ja": "キャンバス上でデザインとレスポンシブ挙動を作り、CMS、SEO、共同編集、ステージングを使って公開・改善します。",
+      "en": "Teams design responsive pages on a visual canvas, connect CMS content, collaborate, stage changes, publish, and iterate with SEO or conversion features."
+    },
+    "bestFor": {
+      "ja": "デザイン品質と公開速度を両立したマーケティングサイトを作るデザイナー・小規模チーム",
+      "en": "Designers and lean teams building polished marketing sites with a fast path to publishing"
+    },
+    "strengths": {
+      "ja": [
+        "デザインから公開までの一体感",
+        "CMS・共同編集・ステージング",
+        "AIとコンバージョン機能の拡張"
+      ],
+      "en": [
+        "Integrated design-to-publish workflow",
+        "CMS, collaboration, and staging",
+        "Extensible AI and conversion features"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "CMS・帯域・ページにプラン上限",
+        "編集者と追加機能が別料金",
+        "大規模な業務機能は外部連携が必要"
+      ],
+      "en": [
+        "Plan limits apply to CMS, bandwidth, and pages",
+        "Editors and add-ons can add cost",
+        "Complex business operations need external systems"
+      ]
+    }
   },
   "duda": {
     "name": "Duda",
     "affiliateKey": "duda",
     "sources": [
-      {"label": "Duda — Pricing", "url": "https://www.duda.co/pricing"},
-      {"label": "Duda — Website builder", "url": "https://www.duda.co/website-builder"}
+      {
+        "label": "Duda — Pricing",
+        "url": "https://www.duda.co/pricing"
+      },
+      {
+        "label": "Duda — Website builder",
+        "url": "https://www.duda.co/website-builder"
+      }
     ],
-    "positioning": {"ja": "制作会社向けの複数サイト管理、チーム制作、顧客権限、ホワイトラベルを重視するサイト制作基盤", "en": "A website platform emphasizing multi-site agency operations, team production, client permissions, and white-label delivery"},
-    "pricing": {"ja": "サイト数・チーム・顧客管理・ホワイトラベルで段階化。追加サイト、EC、アプリ等を別途確認", "en": "Tiered by sites, team and client controls, and white-label capability; extra sites, commerce, and apps can add cost"},
-    "pricingDetail": {"ja": "基本プランに含まれるサイト数、追加サイト単価、チームメンバー、顧客権限、動的ページ、EC、アプリ、サポートを合算します。", "en": "Model included sites, additional-site pricing, team members, client permissions, dynamic pages, commerce, apps, and support as one operating total."},
-    "workflow": {"ja": "共通セクションやテンプレートで複数顧客サイトを制作し、権限を限定した顧客編集、フィードバック、公開、保守を標準化します。", "en": "Agencies standardize client-site production with reusable sections and templates, controlled client editing, feedback, publishing, and maintenance."},
-    "bestFor": {"ja": "複数顧客サイトを同じ制作・承認・保守プロセスで運用する制作会社・代理店", "en": "Agencies operating many client sites through a repeatable production, approval, and maintenance process"},
-    "strengths": {"ja": ["制作会社向けの複数サイト管理", "顧客権限とホワイトラベル", "再利用可能な制作フロー"], "en": ["Agency-oriented multi-site management", "Client permissions and white labeling", "Reusable production workflows"]},
-    "limits": {"ja": ["追加サイトとアプリ費用を確認", "個人サイトには機能過多の場合がある", "移行・書き出し範囲を事前確認"], "en": ["Additional sites and apps affect cost", "Can be more platform than a single-site owner needs", "Migration and export coverage needs testing"]}
+    "positioning": {
+      "ja": "制作会社向けの複数サイト管理、チーム制作、顧客権限、ホワイトラベルを重視するサイト制作基盤",
+      "en": "A website platform emphasizing multi-site agency operations, team production, client permissions, and white-label delivery"
+    },
+    "pricing": {
+      "ja": "サイト数・チーム・顧客管理・ホワイトラベルで段階化。追加サイト、EC、アプリ等を別途確認",
+      "en": "Tiered by sites, team and client controls, and white-label capability; extra sites, commerce, and apps can add cost"
+    },
+    "pricingDetail": {
+      "ja": "基本プランに含まれるサイト数、追加サイト単価、チームメンバー、顧客権限、動的ページ、EC、アプリ、サポートを合算します。",
+      "en": "Model included sites, additional-site pricing, team members, client permissions, dynamic pages, commerce, apps, and support as one operating total."
+    },
+    "workflow": {
+      "ja": "共通セクションやテンプレートで複数顧客サイトを制作し、権限を限定した顧客編集、フィードバック、公開、保守を標準化します。",
+      "en": "Agencies standardize client-site production with reusable sections and templates, controlled client editing, feedback, publishing, and maintenance."
+    },
+    "bestFor": {
+      "ja": "複数顧客サイトを同じ制作・承認・保守プロセスで運用する制作会社・代理店",
+      "en": "Agencies operating many client sites through a repeatable production, approval, and maintenance process"
+    },
+    "strengths": {
+      "ja": [
+        "制作会社向けの複数サイト管理",
+        "顧客権限とホワイトラベル",
+        "再利用可能な制作フロー"
+      ],
+      "en": [
+        "Agency-oriented multi-site management",
+        "Client permissions and white labeling",
+        "Reusable production workflows"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "追加サイトとアプリ費用を確認",
+        "個人サイトには機能過多の場合がある",
+        "移行・書き出し範囲を事前確認"
+      ],
+      "en": [
+        "Additional sites and apps affect cost",
+        "Can be more platform than a single-site owner needs",
+        "Migration and export coverage needs testing"
+      ]
+    }
   },
   "bigcommerce": {
     "name": "BigCommerce",
     "affiliateKey": "bigcommerce",
     "sources": [
-      {"label": "BigCommerce — Pricing", "url": "https://www.bigcommerce.com/essentials/pricing/"},
-      {"label": "BigCommerce — Ecommerce platform", "url": "https://www.bigcommerce.com/"}
+      {
+        "label": "BigCommerce — Pricing",
+        "url": "https://www.bigcommerce.com/essentials/pricing/"
+      },
+      {
+        "label": "BigCommerce — Ecommerce platform",
+        "url": "https://www.bigcommerce.com/"
+      }
     ],
-    "positioning": {"ja": "商品・注文・販売チャネル・API・B2Bを拡張するSaaS型ECプラットフォーム", "en": "A SaaS ecommerce platform for scaling catalog, orders, channels, APIs, and B2B operations"},
-    "pricing": {"ja": "売上規模に連動する段階プラン。年間流通額の上限、自動アップグレード、超過条件を確認", "en": "Tiered plans tied to sales volume, with GMV thresholds, automatic upgrades, and higher-tier overage rules"},
-    "pricingDetail": {"ja": "基本料金に加え、年間流通額の判定、プラン移行、決済、テーマ、アプリ、開発、複数ストアの費用を確認します。売上成長時の次段階も試算します。", "en": "Budget subscription, sales-volume thresholds, plan movement, payments, themes, apps, development, and multi-storefront needs. Model the next tier before revenue reaches it."},
-    "workflow": {"ja": "カタログ、在庫、注文、決済、配送、マーケットプレイスを管理し、APIやアプリで基幹・マーケティングシステムへ接続します。", "en": "Teams manage catalog, inventory, orders, payments, shipping, and marketplaces, then connect operations to business and marketing systems through APIs and apps."},
-    "bestFor": {"ja": "成長する商品数・売上・販売チャネルをSaaS基盤で管理したい中規模以上のEC事業者", "en": "Growing ecommerce businesses that want SaaS operations across larger catalogs, revenue, and sales channels"},
-    "strengths": {"ja": ["EC運用とAPIの拡張性", "複数チャネル・B2Bへの対応", "ホスティング込みのSaaS運用"], "en": ["Scalable ecommerce operations and APIs", "Multi-channel and B2B capabilities", "Hosted SaaS operations"]},
-    "limits": {"ja": ["売上規模でプランが変わる", "アプリ・開発費を含める必要", "小規模店舗には運用が重い場合がある"], "en": ["Plan cost changes with sales volume", "Apps and development must be budgeted", "Can be operationally heavy for a very small store"]}
+    "positioning": {
+      "ja": "商品・注文・販売チャネル・API・B2Bを拡張するSaaS型ECプラットフォーム",
+      "en": "A SaaS ecommerce platform for scaling catalog, orders, channels, APIs, and B2B operations"
+    },
+    "pricing": {
+      "ja": "売上規模に連動する段階プラン。年間流通額の上限、自動アップグレード、超過条件を確認",
+      "en": "Tiered plans tied to sales volume, with GMV thresholds, automatic upgrades, and higher-tier overage rules"
+    },
+    "pricingDetail": {
+      "ja": "基本料金に加え、年間流通額の判定、プラン移行、決済、テーマ、アプリ、開発、複数ストアの費用を確認します。売上成長時の次段階も試算します。",
+      "en": "Budget subscription, sales-volume thresholds, plan movement, payments, themes, apps, development, and multi-storefront needs. Model the next tier before revenue reaches it."
+    },
+    "workflow": {
+      "ja": "カタログ、在庫、注文、決済、配送、マーケットプレイスを管理し、APIやアプリで基幹・マーケティングシステムへ接続します。",
+      "en": "Teams manage catalog, inventory, orders, payments, shipping, and marketplaces, then connect operations to business and marketing systems through APIs and apps."
+    },
+    "bestFor": {
+      "ja": "成長する商品数・売上・販売チャネルをSaaS基盤で管理したい中規模以上のEC事業者",
+      "en": "Growing ecommerce businesses that want SaaS operations across larger catalogs, revenue, and sales channels"
+    },
+    "strengths": {
+      "ja": [
+        "EC運用とAPIの拡張性",
+        "複数チャネル・B2Bへの対応",
+        "ホスティング込みのSaaS運用"
+      ],
+      "en": [
+        "Scalable ecommerce operations and APIs",
+        "Multi-channel and B2B capabilities",
+        "Hosted SaaS operations"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "売上規模でプランが変わる",
+        "アプリ・開発費を含める必要",
+        "小規模店舗には運用が重い場合がある"
+      ],
+      "en": [
+        "Plan cost changes with sales volume",
+        "Apps and development must be budgeted",
+        "Can be operationally heavy for a very small store"
+      ]
+    }
   },
   "woocommerce": {
     "name": "WooCommerce",
     "affiliateKey": "woocommerce",
     "sources": [
-      {"label": "WooCommerce — Pricing", "url": "https://woocommerce.com/pricing/"},
-      {"label": "WooCommerce — Platform", "url": "https://woocommerce.com/"}
+      {
+        "label": "WooCommerce — Pricing",
+        "url": "https://woocommerce.com/pricing/"
+      },
+      {
+        "label": "WooCommerce — Platform",
+        "url": "https://woocommerce.com/"
+      }
     ],
-    "positioning": {"ja": "WordPress上でホスティング、決済、拡張機能、データを自分で選べるオープンソースEC基盤", "en": "An open-source ecommerce platform for WordPress with merchant control over hosting, payments, extensions, and data"},
-    "pricing": {"ja": "コアは無料。ホスティング、ドメイン、決済、テーマ、拡張機能、保守・開発を組み合わせる", "en": "The core platform is free; total cost combines hosting, domain, payments, themes, extensions, maintenance, and development"},
-    "pricingDetail": {"ja": "月額プランではなく、サーバー、バックアップ、セキュリティ、決済、必要な有料拡張、制作・保守時間を年間で積み上げます。更新料金と互換性確認も含めます。", "en": "Instead of one subscription, annualize hosting, backups, security, payments, paid extensions, production, and maintenance time. Include renewals and compatibility testing."},
-    "workflow": {"ja": "WordPressへWooCommerceを導入し、商品・決済・配送・税・拡張を構成します。更新前の検証、バックアップ、障害対応も運用に含まれます。", "en": "Teams install WooCommerce on WordPress, configure products, payments, shipping, tax, and extensions, and own update testing, backups, and incident response."},
-    "bestFor": {"ja": "WordPressの自由度とデータ管理を活かし、技術運用を自社または支援会社で担える店舗", "en": "Stores that value WordPress flexibility and data control and can own technical operations internally or through a partner"},
-    "strengths": {"ja": ["オープンソースとデータの制御", "ホスティング・決済・機能を選べる", "WordPressコンテンツとの統合"], "en": ["Open-source control over the store and data", "Choice of hosting, payments, and features", "Integration with WordPress content"]},
-    "limits": {"ja": ["保守・セキュリティの責任が増える", "拡張機能の費用と互換性", "総額が構成によって大きく変わる"], "en": ["More responsibility for maintenance and security", "Extension cost and compatibility risk", "Total cost varies widely by architecture"]}
+    "positioning": {
+      "ja": "WordPress上でホスティング、決済、拡張機能、データを自分で選べるオープンソースEC基盤",
+      "en": "An open-source ecommerce platform for WordPress with merchant control over hosting, payments, extensions, and data"
+    },
+    "pricing": {
+      "ja": "コアは無料。ホスティング、ドメイン、決済、テーマ、拡張機能、保守・開発を組み合わせる",
+      "en": "The core platform is free; total cost combines hosting, domain, payments, themes, extensions, maintenance, and development"
+    },
+    "pricingDetail": {
+      "ja": "月額プランではなく、サーバー、バックアップ、セキュリティ、決済、必要な有料拡張、制作・保守時間を年間で積み上げます。更新料金と互換性確認も含めます。",
+      "en": "Instead of one subscription, annualize hosting, backups, security, payments, paid extensions, production, and maintenance time. Include renewals and compatibility testing."
+    },
+    "workflow": {
+      "ja": "WordPressへWooCommerceを導入し、商品・決済・配送・税・拡張を構成します。更新前の検証、バックアップ、障害対応も運用に含まれます。",
+      "en": "Teams install WooCommerce on WordPress, configure products, payments, shipping, tax, and extensions, and own update testing, backups, and incident response."
+    },
+    "bestFor": {
+      "ja": "WordPressの自由度とデータ管理を活かし、技術運用を自社または支援会社で担える店舗",
+      "en": "Stores that value WordPress flexibility and data control and can own technical operations internally or through a partner"
+    },
+    "strengths": {
+      "ja": [
+        "オープンソースとデータの制御",
+        "ホスティング・決済・機能を選べる",
+        "WordPressコンテンツとの統合"
+      ],
+      "en": [
+        "Open-source control over the store and data",
+        "Choice of hosting, payments, and features",
+        "Integration with WordPress content"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "保守・セキュリティの責任が増える",
+        "拡張機能の費用と互換性",
+        "総額が構成によって大きく変わる"
+      ],
+      "en": [
+        "More responsibility for maintenance and security",
+        "Extension cost and compatibility risk",
+        "Total cost varies widely by architecture"
+      ]
+    }
   },
   "hostinger-website-builder": {
     "name": "Hostinger Website Builder",
     "affiliateKey": "hostinger-website-builder",
     "sources": [
-      {"label": "Hostinger — Website Builder", "url": "https://www.hostinger.com/website-builder"},
-      {"label": "Hostinger — AI Website Builder", "url": "https://www.hostinger.com/ai-website-builder"}
+      {
+        "label": "Hostinger — Website Builder",
+        "url": "https://www.hostinger.com/website-builder"
+      },
+      {
+        "label": "Hostinger — AI Website Builder",
+        "url": "https://www.hostinger.com/ai-website-builder"
+      }
     ],
-    "positioning": {"ja": "ホスティング、ドメイン、メール、AI制作、SEO、簡易ECをまとめる初心者向けサイトビルダー", "en": "A beginner-oriented builder bundling hosting, domain, email, AI creation, SEO, and lightweight ecommerce"},
-    "pricing": {"ja": "長期前払いの割引と更新価格があるホスティング一体型プラン。サイト数・容量・EC上限を確認", "en": "Hosting-bundled plans often promoted through longer prepayment; verify renewal price, site and storage limits, and ecommerce allowances"},
-    "pricingDetail": {"ja": "表示月額は契約期間で割った金額の場合があるため、初回支払総額、更新価格、ドメイン・メールの無料期間、作成可能サイト数、商品上限を記録します。", "en": "The displayed monthly equivalent can reflect a long prepaid term. Record the initial total, renewal price, domain and email inclusion periods, site count, and product limits."},
-    "workflow": {"ja": "AIまたはテンプレートからページを作り、ドラッグ＆ドロップで編集し、ドメイン、フォーム、SEO、メール、簡易ストアを同じ管理画面で公開します。", "en": "Users start with AI or a template, edit visually, and publish domain, forms, SEO, email, and a lightweight store from one account."},
-    "bestFor": {"ja": "サーバー設定を分けず、低コストで小規模事業サイトや簡易ストアを公開したい初心者", "en": "Beginners who want a low-cost small-business site or lightweight store without separating hosting administration"},
-    "strengths": {"ja": ["ホスティングと制作の一体運用", "AI・テンプレートで開始が速い", "ドメイン・メール・ECをまとめやすい"], "en": ["Integrated hosting and site creation", "Fast start through AI and templates", "Domain, email, and commerce in one account"]},
-    "limits": {"ja": ["長期契約と更新価格を確認", "高度なCMS・共同制作は限定的", "別基盤への移行方法を事前確認"], "en": ["Long-term commitment and renewal pricing need review", "Advanced CMS and collaboration are limited", "Portability should be tested before launch"]}
+    "positioning": {
+      "ja": "ホスティング、ドメイン、メール、AI制作、SEO、簡易ECをまとめる初心者向けサイトビルダー",
+      "en": "A beginner-oriented builder bundling hosting, domain, email, AI creation, SEO, and lightweight ecommerce"
+    },
+    "pricing": {
+      "ja": "長期前払いの割引と更新価格があるホスティング一体型プラン。サイト数・容量・EC上限を確認",
+      "en": "Hosting-bundled plans often promoted through longer prepayment; verify renewal price, site and storage limits, and ecommerce allowances"
+    },
+    "pricingDetail": {
+      "ja": "表示月額は契約期間で割った金額の場合があるため、初回支払総額、更新価格、ドメイン・メールの無料期間、作成可能サイト数、商品上限を記録します。",
+      "en": "The displayed monthly equivalent can reflect a long prepaid term. Record the initial total, renewal price, domain and email inclusion periods, site count, and product limits."
+    },
+    "workflow": {
+      "ja": "AIまたはテンプレートからページを作り、ドラッグ＆ドロップで編集し、ドメイン、フォーム、SEO、メール、簡易ストアを同じ管理画面で公開します。",
+      "en": "Users start with AI or a template, edit visually, and publish domain, forms, SEO, email, and a lightweight store from one account."
+    },
+    "bestFor": {
+      "ja": "サーバー設定を分けず、低コストで小規模事業サイトや簡易ストアを公開したい初心者",
+      "en": "Beginners who want a low-cost small-business site or lightweight store without separating hosting administration"
+    },
+    "strengths": {
+      "ja": [
+        "ホスティングと制作の一体運用",
+        "AI・テンプレートで開始が速い",
+        "ドメイン・メール・ECをまとめやすい"
+      ],
+      "en": [
+        "Integrated hosting and site creation",
+        "Fast start through AI and templates",
+        "Domain, email, and commerce in one account"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "長期契約と更新価格を確認",
+        "高度なCMS・共同制作は限定的",
+        "別基盤への移行方法を事前確認"
+      ],
+      "en": [
+        "Long-term commitment and renewal pricing need review",
+        "Advanced CMS and collaboration are limited",
+        "Portability should be tested before launch"
+      ]
+    }
   },
   "ubersuggest": {
     "name": "Ubersuggest",
     "affiliateKey": "ubersuggest",
     "sources": [
-      {"label": "Ubersuggest — Product and pricing", "url": "https://neilpatel.com/ubersuggest/"},
-      {"label": "Ubersuggest — App overview", "url": "https://app.neilpatel.com/ubersuggest/overview"}
+      {
+        "label": "Ubersuggest — Product and pricing",
+        "url": "https://neilpatel.com/ubersuggest/"
+      },
+      {
+        "label": "Ubersuggest — App overview",
+        "url": "https://app.neilpatel.com/ubersuggest/overview"
+      }
     ],
-    "positioning": {"ja": "キーワード調査、競合分析、順位計測、サイト監査を比較的シンプルにまとめるSEOツール", "en": "An approachable SEO toolkit combining keyword research, competitor analysis, rank tracking, and site auditing"},
-    "pricing": {"ja": "制限付き無料利用と有料プラン。月額・年額・買い切り提案の有無、検索・プロジェクト上限を確認", "en": "Limited free access and paid options; verify monthly, annual, or lifetime offers together with search and project limits"},
-    "pricingDetail": {"ja": "料金形式だけでなく、1日の検索数、追跡キーワード、登録サイト、監査ページ、利用者、地域データの上限を実際の運用量で確認します。", "en": "Compare daily searches, tracked keywords, projects, audited pages, users, and regional databases against real workload—not pricing format alone."},
-    "workflow": {"ja": "対象サイトと競合を登録し、キーワード候補、難易度、コンテンツ案、順位、技術課題を定期的に確認します。", "en": "Users add a site and competitors, research opportunities, evaluate difficulty and content ideas, track rankings, and review technical issues."},
-    "bestFor": {"ja": "複雑なSEOスイートより、主要な調査と順位・監査を少ない学習で始めたい個人・小規模事業者", "en": "Individuals and small businesses that want core research, rank tracking, and audits with less complexity than a large SEO suite"},
-    "strengths": {"ja": ["初心者が主要SEO機能を試しやすい", "キーワード・競合・監査を一つに集約", "無料枠と複数の購入形式"], "en": ["Accessible entry to core SEO workflows", "Keywords, competitors, and audits in one product", "Free access and multiple purchase formats"]},
-    "limits": {"ja": ["検索・プロジェクト・追跡に上限", "大規模データや高度分析は要比較", "数値は推定値として扱う"], "en": ["Search, project, and tracking limits apply", "Large-scale data and advanced analysis need comparison", "Metrics should be treated as estimates"]}
+    "positioning": {
+      "ja": "キーワード調査、競合分析、順位計測、サイト監査を比較的シンプルにまとめるSEOツール",
+      "en": "An approachable SEO toolkit combining keyword research, competitor analysis, rank tracking, and site auditing"
+    },
+    "pricing": {
+      "ja": "制限付き無料利用と有料プラン。月額・年額・買い切り提案の有無、検索・プロジェクト上限を確認",
+      "en": "Limited free access and paid options; verify monthly, annual, or lifetime offers together with search and project limits"
+    },
+    "pricingDetail": {
+      "ja": "料金形式だけでなく、1日の検索数、追跡キーワード、登録サイト、監査ページ、利用者、地域データの上限を実際の運用量で確認します。",
+      "en": "Compare daily searches, tracked keywords, projects, audited pages, users, and regional databases against real workload—not pricing format alone."
+    },
+    "workflow": {
+      "ja": "対象サイトと競合を登録し、キーワード候補、難易度、コンテンツ案、順位、技術課題を定期的に確認します。",
+      "en": "Users add a site and competitors, research opportunities, evaluate difficulty and content ideas, track rankings, and review technical issues."
+    },
+    "bestFor": {
+      "ja": "複雑なSEOスイートより、主要な調査と順位・監査を少ない学習で始めたい個人・小規模事業者",
+      "en": "Individuals and small businesses that want core research, rank tracking, and audits with less complexity than a large SEO suite"
+    },
+    "strengths": {
+      "ja": [
+        "初心者が主要SEO機能を試しやすい",
+        "キーワード・競合・監査を一つに集約",
+        "無料枠と複数の購入形式"
+      ],
+      "en": [
+        "Accessible entry to core SEO workflows",
+        "Keywords, competitors, and audits in one product",
+        "Free access and multiple purchase formats"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "検索・プロジェクト・追跡に上限",
+        "大規模データや高度分析は要比較",
+        "数値は推定値として扱う"
+      ],
+      "en": [
+        "Search, project, and tracking limits apply",
+        "Large-scale data and advanced analysis need comparison",
+        "Metrics should be treated as estimates"
+      ]
+    }
   },
   "kit": {
     "name": "Kit",
     "affiliateKey": "kit",
     "sources": [
-      {"label": "Kit — Pricing", "url": "https://kit.com/pricing"},
-      {"label": "Kit — Features", "url": "https://kit.com/features"}
+      {
+        "label": "Kit — Pricing",
+        "url": "https://kit.com/pricing"
+      },
+      {
+        "label": "Kit — Features",
+        "url": "https://kit.com/features"
+      }
     ],
-    "positioning": {"ja": "クリエイター向けのメール配信、ランディングページ、フォーム、自動化、デジタル販売をまとめるマーケティング基盤", "en": "A creator-focused platform combining email, landing pages, forms, automation, audience growth, and digital selling"},
-    "pricing": {"ja": "無料版と購読者数に応じた有料プラン。自動化、ユーザー、レポート、紹介・販売機能の差を確認", "en": "A free tier and paid plans scaling with subscribers; automation, users, reporting, recommendations, and commerce vary by tier"},
-    "pricingDetail": {"ja": "購読者数だけでなく、メールシーケンス、自動化、セグメント、追加ユーザー、移行支援、紹介ネットワーク、販売手数料などを確認します。", "en": "Beyond subscriber count, verify sequences, automation, segmentation, additional users, migration support, recommendation-network features, and commerce fees."},
-    "workflow": {"ja": "フォームやランディングページで読者を集め、タグ・セグメント・シーケンスで配信し、商品・有料購読・紹介へつなげます。", "en": "Creators collect subscribers with forms or landing pages, nurture them through tags, segments, and sequences, and connect email to products, paid subscriptions, or recommendations."},
-    "bestFor": {"ja": "ニュースレター、コンテンツ、講座、デジタル商品を中心に読者との直接関係を育てるクリエイター", "en": "Creators building a direct audience around newsletters, content, courses, and digital products"},
-    "strengths": {"ja": ["クリエイター向けの購読者運用", "フォーム・配信・自動化・販売の連携", "タグとセグメント中心の設計"], "en": ["Subscriber workflows designed for creators", "Connected forms, email, automation, and selling", "Tag- and segment-centered organization"]},
-    "limits": {"ja": ["購読者増加で料金が上がる", "高度なCRM・営業管理は主目的でない", "必要機能のプラン差を確認"], "en": ["Cost rises with subscriber count", "Advanced CRM and sales operations are not the primary focus", "Required capabilities may sit on different tiers"]}
+    "positioning": {
+      "ja": "クリエイター向けのメール配信、ランディングページ、フォーム、自動化、デジタル販売をまとめるマーケティング基盤",
+      "en": "A creator-focused platform combining email, landing pages, forms, automation, audience growth, and digital selling"
+    },
+    "pricing": {
+      "ja": "無料版と購読者数に応じた有料プラン。自動化、ユーザー、レポート、紹介・販売機能の差を確認",
+      "en": "A free tier and paid plans scaling with subscribers; automation, users, reporting, recommendations, and commerce vary by tier"
+    },
+    "pricingDetail": {
+      "ja": "購読者数だけでなく、メールシーケンス、自動化、セグメント、追加ユーザー、移行支援、紹介ネットワーク、販売手数料などを確認します。",
+      "en": "Beyond subscriber count, verify sequences, automation, segmentation, additional users, migration support, recommendation-network features, and commerce fees."
+    },
+    "workflow": {
+      "ja": "フォームやランディングページで読者を集め、タグ・セグメント・シーケンスで配信し、商品・有料購読・紹介へつなげます。",
+      "en": "Creators collect subscribers with forms or landing pages, nurture them through tags, segments, and sequences, and connect email to products, paid subscriptions, or recommendations."
+    },
+    "bestFor": {
+      "ja": "ニュースレター、コンテンツ、講座、デジタル商品を中心に読者との直接関係を育てるクリエイター",
+      "en": "Creators building a direct audience around newsletters, content, courses, and digital products"
+    },
+    "strengths": {
+      "ja": [
+        "クリエイター向けの購読者運用",
+        "フォーム・配信・自動化・販売の連携",
+        "タグとセグメント中心の設計"
+      ],
+      "en": [
+        "Subscriber workflows designed for creators",
+        "Connected forms, email, automation, and selling",
+        "Tag- and segment-centered organization"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "購読者増加で料金が上がる",
+        "高度なCRM・営業管理は主目的でない",
+        "必要機能のプラン差を確認"
+      ],
+      "en": [
+        "Cost rises with subscriber count",
+        "Advanced CRM and sales operations are not the primary focus",
+        "Required capabilities may sit on different tiers"
+      ]
+    }
   },
   "activecampaign": {
     "name": "ActiveCampaign",
     "affiliateKey": "activecampaign",
     "sources": [
-      {"label": "ActiveCampaign — Pricing", "url": "https://www.activecampaign.com/pricing"},
-      {"label": "ActiveCampaign — Platform", "url": "https://www.activecampaign.com/platform"}
+      {
+        "label": "ActiveCampaign — Pricing",
+        "url": "https://www.activecampaign.com/pricing"
+      },
+      {
+        "label": "ActiveCampaign — Platform",
+        "url": "https://www.activecampaign.com/platform"
+      }
     ],
-    "positioning": {"ja": "高度なメール・マルチチャネル自動化、顧客データ、営業支援を組み合わせるマーケティングオートメーション基盤", "en": "A marketing automation platform combining advanced email and multi-channel journeys, customer data, and sales workflows"},
-    "pricing": {"ja": "連絡先数、選択製品・チャネル、利用者、AI・送信機能で見積もる構成。最新画面または営業見積を確認", "en": "Pricing depends on contacts, selected products or channels, users, and AI or messaging needs; verify the current calculator or quote"},
-    "pricingDetail": {"ja": "連絡先数、メール送信、SMS・WhatsApp、CRM、追加ユーザー、AI、オンボーディング、契約期間を一つの見積へまとめます。", "en": "Combine contacts, email volume, SMS or WhatsApp, CRM, additional users, AI, onboarding, and contract term into one quote."},
-    "workflow": {"ja": "顧客属性と行動イベントを取り込み、条件分岐する自動化、スコアリング、メール・メッセージ、営業タスクへつなげます。", "en": "Teams ingest customer attributes and behavioral events, then trigger branched automations, scoring, email or messages, and sales tasks."},
-    "bestFor": {"ja": "顧客行動に応じた複雑な自動化と営業・マーケティング連携を設計できる成長企業", "en": "Growing businesses able to design sophisticated behavior-based automation across marketing and sales"},
-    "strengths": {"ja": ["柔軟な条件分岐と自動化", "メール以外のチャネル拡張", "CRM・営業プロセスとの接続"], "en": ["Flexible branching automation", "Expansion beyond email channels", "Connection with CRM and sales processes"]},
-    "limits": {"ja": ["設計・運用の学習が必要", "連絡先と追加機能で総額が変動", "配信品質と同意管理は自社責任"], "en": ["Workflow design and governance require learning", "Contacts and added capabilities change total cost", "Deliverability and consent remain the operator's responsibility"]}
+    "positioning": {
+      "ja": "高度なメール・マルチチャネル自動化、顧客データ、営業支援を組み合わせるマーケティングオートメーション基盤",
+      "en": "A marketing automation platform combining advanced email and multi-channel journeys, customer data, and sales workflows"
+    },
+    "pricing": {
+      "ja": "連絡先数、選択製品・チャネル、利用者、AI・送信機能で見積もる構成。最新画面または営業見積を確認",
+      "en": "Pricing depends on contacts, selected products or channels, users, and AI or messaging needs; verify the current calculator or quote"
+    },
+    "pricingDetail": {
+      "ja": "連絡先数、メール送信、SMS・WhatsApp、CRM、追加ユーザー、AI、オンボーディング、契約期間を一つの見積へまとめます。",
+      "en": "Combine contacts, email volume, SMS or WhatsApp, CRM, additional users, AI, onboarding, and contract term into one quote."
+    },
+    "workflow": {
+      "ja": "顧客属性と行動イベントを取り込み、条件分岐する自動化、スコアリング、メール・メッセージ、営業タスクへつなげます。",
+      "en": "Teams ingest customer attributes and behavioral events, then trigger branched automations, scoring, email or messages, and sales tasks."
+    },
+    "bestFor": {
+      "ja": "顧客行動に応じた複雑な自動化と営業・マーケティング連携を設計できる成長企業",
+      "en": "Growing businesses able to design sophisticated behavior-based automation across marketing and sales"
+    },
+    "strengths": {
+      "ja": [
+        "柔軟な条件分岐と自動化",
+        "メール以外のチャネル拡張",
+        "CRM・営業プロセスとの接続"
+      ],
+      "en": [
+        "Flexible branching automation",
+        "Expansion beyond email channels",
+        "Connection with CRM and sales processes"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "設計・運用の学習が必要",
+        "連絡先と追加機能で総額が変動",
+        "配信品質と同意管理は自社責任"
+      ],
+      "en": [
+        "Workflow design and governance require learning",
+        "Contacts and added capabilities change total cost",
+        "Deliverability and consent remain the operator's responsibility"
+      ]
+    }
   },
   "hubspot-marketing": {
     "name": "HubSpot Marketing Hub",
     "affiliateKey": "hubspot-marketing",
     "sources": [
-      {"label": "HubSpot — Marketing Hub pricing", "url": "https://www.hubspot.com/pricing/marketing"},
-      {"label": "HubSpot — Marketing Hub", "url": "https://www.hubspot.com/products/marketing"}
+      {
+        "label": "HubSpot — Marketing Hub pricing",
+        "url": "https://www.hubspot.com/pricing/marketing"
+      },
+      {
+        "label": "HubSpot — Marketing Hub",
+        "url": "https://www.hubspot.com/products/marketing"
+      }
     ],
-    "positioning": {"ja": "CRMを中心にフォーム、メール、広告、コンテンツ、キャンペーン、自動化、分析を統合するマーケティング基盤", "en": "A CRM-centered marketing platform integrating forms, email, ads, content, campaigns, automation, and analytics"},
-    "pricing": {"ja": "無料ツールとStarter・Professional・Enterprise。マーケティング連絡先、Core Seat、クレジット、オンボーディングを確認", "en": "Free tools plus Starter, Professional, and Enterprise; marketing contacts, Core Seats, credits, and onboarding affect total cost"},
-    "pricingDetail": {"ja": "基本料金だけでなく、マーケティング連絡先階層、追加席、送信上限、AIクレジット、必須オンボーディング、追加Hubの重複を年間で試算します。", "en": "Annualize the base tier with marketing-contact bands, extra seats, send limits, AI credits, required onboarding, and overlap with other Hubs."},
-    "workflow": {"ja": "CRMの連絡先を起点に、フォーム・ページ・メール・広告・キャンペーンを統合し、行動データから自動化と収益分析へつなげます。", "en": "Teams start from CRM contacts, connect forms, pages, email, ads, and campaigns, and use behavior data for automation and revenue reporting."},
-    "bestFor": {"ja": "顧客データ、営業、マーケティング、分析を一つのプラットフォームへ統合したい成長組織", "en": "Growing organizations that want customer data, sales, marketing, and analytics on one platform"},
-    "strengths": {"ja": ["CRM中心の統合データ", "集客から収益分析までの連続性", "小規模から企業向けまで拡張"], "en": ["CRM-centered unified data", "Continuity from acquisition to revenue reporting", "Expansion from small-business to enterprise editions"]},
-    "limits": {"ja": ["連絡先・席・クレジットで費用増", "上位版のオンボーディングを確認", "全機能導入は運用設計が必要"], "en": ["Contacts, seats, and credits can raise cost", "Higher tiers may require onboarding", "Broad adoption needs operating design and governance"]}
+    "positioning": {
+      "ja": "CRMを中心にフォーム、メール、広告、コンテンツ、キャンペーン、自動化、分析を統合するマーケティング基盤",
+      "en": "A CRM-centered marketing platform integrating forms, email, ads, content, campaigns, automation, and analytics"
+    },
+    "pricing": {
+      "ja": "無料ツールとStarter・Professional・Enterprise。マーケティング連絡先、Core Seat、クレジット、オンボーディングを確認",
+      "en": "Free tools plus Starter, Professional, and Enterprise; marketing contacts, Core Seats, credits, and onboarding affect total cost"
+    },
+    "pricingDetail": {
+      "ja": "基本料金だけでなく、マーケティング連絡先階層、追加席、送信上限、AIクレジット、必須オンボーディング、追加Hubの重複を年間で試算します。",
+      "en": "Annualize the base tier with marketing-contact bands, extra seats, send limits, AI credits, required onboarding, and overlap with other Hubs."
+    },
+    "workflow": {
+      "ja": "CRMの連絡先を起点に、フォーム・ページ・メール・広告・キャンペーンを統合し、行動データから自動化と収益分析へつなげます。",
+      "en": "Teams start from CRM contacts, connect forms, pages, email, ads, and campaigns, and use behavior data for automation and revenue reporting."
+    },
+    "bestFor": {
+      "ja": "顧客データ、営業、マーケティング、分析を一つのプラットフォームへ統合したい成長組織",
+      "en": "Growing organizations that want customer data, sales, marketing, and analytics on one platform"
+    },
+    "strengths": {
+      "ja": [
+        "CRM中心の統合データ",
+        "集客から収益分析までの連続性",
+        "小規模から企業向けまで拡張"
+      ],
+      "en": [
+        "CRM-centered unified data",
+        "Continuity from acquisition to revenue reporting",
+        "Expansion from small-business to enterprise editions"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "連絡先・席・クレジットで費用増",
+        "上位版のオンボーディングを確認",
+        "全機能導入は運用設計が必要"
+      ],
+      "en": [
+        "Contacts, seats, and credits can raise cost",
+        "Higher tiers may require onboarding",
+        "Broad adoption needs operating design and governance"
+      ]
+    }
   },
   "jira": {
     "name": "Jira",
     "affiliateKey": "jira",
     "sources": [
-      {"label": "Atlassian — Jira pricing", "url": "https://www.atlassian.com/software/jira/pricing"},
-      {"label": "Atlassian — Jira", "url": "https://www.atlassian.com/software/jira"}
+      {
+        "label": "Atlassian — Jira pricing",
+        "url": "https://www.atlassian.com/software/jira/pricing"
+      },
+      {
+        "label": "Atlassian — Jira",
+        "url": "https://www.atlassian.com/software/jira"
+      }
     ],
-    "positioning": {"ja": "課題、バックログ、スプリント、リリース、依存関係、レポートを管理する柔軟なプロジェクト管理基盤", "en": "A flexible project platform for issues, backlogs, sprints, releases, dependencies, automation, and reporting"},
-    "pricing": {"ja": "Free、Standard、Premium、Enterprise。利用者、ストレージ、自動化、計画・管理機能で段階化", "en": "Free, Standard, Premium, and Enterprise tiers differentiated by users, storage, automation, planning, and administration"},
-    "pricingDetail": {"ja": "利用者数だけでなく、自動化実行、ストレージ、監査ログ、サンドボックス、横断計画、サポート、他Atlassian製品を含めます。", "en": "Budget user count together with automation runs, storage, audit logs, sandboxing, cross-team planning, support, and any other Atlassian products."},
-    "workflow": {"ja": "チームの作業を課題として登録し、バックログ、ボード、スプリント、ワークフロー、リリース、ダッシュボードで実行状況を追います。", "en": "Teams capture work as issues and manage it through backlogs, boards, sprints, workflows, releases, and dashboards."},
-    "bestFor": {"ja": "開発・IT・複数チームの複雑なワークフローと課題追跡を標準化したい組織", "en": "Organizations standardizing complex development, IT, or multi-team workflows and issue tracking"},
-    "strengths": {"ja": ["柔軟な課題・ワークフロー設計", "アジャイル開発とリリース管理", "Atlassian製品・開発ツール連携"], "en": ["Flexible issue and workflow configuration", "Agile planning and release management", "Atlassian and developer-tool ecosystem"]},
-    "limits": {"ja": ["設定が複雑化しやすい", "自動化・管理機能にプラン差", "非開発部門には用語整理が必要"], "en": ["Configuration can become complex", "Automation and administration vary by tier", "Non-technical teams may need simpler terminology"]}
+    "positioning": {
+      "ja": "課題、バックログ、スプリント、リリース、依存関係、レポートを管理する柔軟なプロジェクト管理基盤",
+      "en": "A flexible project platform for issues, backlogs, sprints, releases, dependencies, automation, and reporting"
+    },
+    "pricing": {
+      "ja": "Free、Standard、Premium、Enterprise。利用者、ストレージ、自動化、計画・管理機能で段階化",
+      "en": "Free, Standard, Premium, and Enterprise tiers differentiated by users, storage, automation, planning, and administration"
+    },
+    "pricingDetail": {
+      "ja": "利用者数だけでなく、自動化実行、ストレージ、監査ログ、サンドボックス、横断計画、サポート、他Atlassian製品を含めます。",
+      "en": "Budget user count together with automation runs, storage, audit logs, sandboxing, cross-team planning, support, and any other Atlassian products."
+    },
+    "workflow": {
+      "ja": "チームの作業を課題として登録し、バックログ、ボード、スプリント、ワークフロー、リリース、ダッシュボードで実行状況を追います。",
+      "en": "Teams capture work as issues and manage it through backlogs, boards, sprints, workflows, releases, and dashboards."
+    },
+    "bestFor": {
+      "ja": "開発・IT・複数チームの複雑なワークフローと課題追跡を標準化したい組織",
+      "en": "Organizations standardizing complex development, IT, or multi-team workflows and issue tracking"
+    },
+    "strengths": {
+      "ja": [
+        "柔軟な課題・ワークフロー設計",
+        "アジャイル開発とリリース管理",
+        "Atlassian製品・開発ツール連携"
+      ],
+      "en": [
+        "Flexible issue and workflow configuration",
+        "Agile planning and release management",
+        "Atlassian and developer-tool ecosystem"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "設定が複雑化しやすい",
+        "自動化・管理機能にプラン差",
+        "非開発部門には用語整理が必要"
+      ],
+      "en": [
+        "Configuration can become complex",
+        "Automation and administration vary by tier",
+        "Non-technical teams may need simpler terminology"
+      ]
+    }
   },
   "wrike": {
     "name": "Wrike",
     "affiliateKey": "wrike",
     "sources": [
-      {"label": "Wrike — Pricing", "url": "https://www.wrike.com/price/"},
-      {"label": "Wrike — Features", "url": "https://www.wrike.com/features/"}
+      {
+        "label": "Wrike — Pricing",
+        "url": "https://www.wrike.com/price/"
+      },
+      {
+        "label": "Wrike — Features",
+        "url": "https://www.wrike.com/features/"
+      }
     ],
-    "positioning": {"ja": "複数部門の案件、リソース、承認、レポート、ポートフォリオを統制する企業向けワークマネジメント", "en": "Enterprise-oriented work management for cross-functional projects, resources, approvals, reporting, and portfolios"},
-    "pricing": {"ja": "無料・チーム・企業向け段階プラン。席の購入単位、年契約、AIアクション、追加機能を確認", "en": "Free and tiered team or enterprise plans; seat blocks, annual terms, AI actions, and add-ons affect cost"},
-    "pricingDetail": {"ja": "表示単価に加えて、最低席・購入単位、年契約、外部利用者、リソース管理、分析、同期、AIアクション、導入支援を確認します。", "en": "Beyond per-user price, verify minimum seat blocks, annual commitment, external users, resource management, analytics, synchronization, AI actions, and deployment services."},
-    "workflow": {"ja": "依頼受付からタスク、承認、校正、リソース配分、横断レポートまでをテンプレートと自動化で標準化します。", "en": "Teams standardize intake, tasks, approvals, proofing, resource allocation, and cross-project reporting through templates and automation."},
-    "bestFor": {"ja": "部門横断の案件・承認・リソース・経営レポートを細かく統制したい中規模以上の組織", "en": "Mid-sized and larger organizations needing detailed control of cross-functional projects, approvals, resources, and executive reporting"},
-    "strengths": {"ja": ["部門横断の可視化", "承認・校正・リソース管理", "企業向けレポートと統制"], "en": ["Cross-functional visibility", "Approvals, proofing, and resource management", "Enterprise reporting and governance"]},
-    "limits": {"ja": ["席の購入単位と年契約を確認", "設計・導入に時間が必要", "高度機能と追加製品の費用"], "en": ["Seat blocks and annual terms need review", "Implementation and design take time", "Advanced capabilities and add-ons affect cost"]}
+    "positioning": {
+      "ja": "複数部門の案件、リソース、承認、レポート、ポートフォリオを統制する企業向けワークマネジメント",
+      "en": "Enterprise-oriented work management for cross-functional projects, resources, approvals, reporting, and portfolios"
+    },
+    "pricing": {
+      "ja": "無料・チーム・企業向け段階プラン。席の購入単位、年契約、AIアクション、追加機能を確認",
+      "en": "Free and tiered team or enterprise plans; seat blocks, annual terms, AI actions, and add-ons affect cost"
+    },
+    "pricingDetail": {
+      "ja": "表示単価に加えて、最低席・購入単位、年契約、外部利用者、リソース管理、分析、同期、AIアクション、導入支援を確認します。",
+      "en": "Beyond per-user price, verify minimum seat blocks, annual commitment, external users, resource management, analytics, synchronization, AI actions, and deployment services."
+    },
+    "workflow": {
+      "ja": "依頼受付からタスク、承認、校正、リソース配分、横断レポートまでをテンプレートと自動化で標準化します。",
+      "en": "Teams standardize intake, tasks, approvals, proofing, resource allocation, and cross-project reporting through templates and automation."
+    },
+    "bestFor": {
+      "ja": "部門横断の案件・承認・リソース・経営レポートを細かく統制したい中規模以上の組織",
+      "en": "Mid-sized and larger organizations needing detailed control of cross-functional projects, approvals, resources, and executive reporting"
+    },
+    "strengths": {
+      "ja": [
+        "部門横断の可視化",
+        "承認・校正・リソース管理",
+        "企業向けレポートと統制"
+      ],
+      "en": [
+        "Cross-functional visibility",
+        "Approvals, proofing, and resource management",
+        "Enterprise reporting and governance"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "席の購入単位と年契約を確認",
+        "設計・導入に時間が必要",
+        "高度機能と追加製品の費用"
+      ],
+      "en": [
+        "Seat blocks and annual terms need review",
+        "Implementation and design take time",
+        "Advanced capabilities and add-ons affect cost"
+      ]
+    }
   },
   "airtable": {
     "name": "Airtable",
     "affiliateKey": "airtable",
     "sources": [
-      {"label": "Airtable — Pricing", "url": "https://airtable.com/pricing"},
-      {"label": "Airtable — Platform", "url": "https://airtable.com/platform"}
+      {
+        "label": "Airtable — Pricing",
+        "url": "https://airtable.com/pricing"
+      },
+      {
+        "label": "Airtable — Platform",
+        "url": "https://airtable.com/platform"
+      }
     ],
-    "positioning": {"ja": "表計算の操作感で関連データ、ビュー、フォーム、自動化、インターフェース、業務アプリを構築するデータ基盤", "en": "A data platform for building relational workflows, views, forms, automations, interfaces, and business apps with spreadsheet familiarity"},
-    "pricing": {"ja": "Free、Team、Business、Enterprise Scale。編集者席、レコード、添付、自動化、API、管理機能で段階化", "en": "Free, Team, Business, and Enterprise Scale tiers differentiated by editor seats, records, attachments, automation, API, and administration"},
-    "pricingDetail": {"ja": "編集可能ユーザーと閲覧・コメント利用者の扱い、ベース・レコード上限、添付容量、自動化実行、同期、履歴、管理を確認します。", "en": "Verify editor billing versus viewers or commenters, base and record limits, attachment storage, automation runs, sync, revision history, and administration."},
-    "workflow": {"ja": "関連する表とフィールドを設計し、用途別ビュー・フォーム・インターフェースを作り、自動化や外部連携で業務を流します。", "en": "Teams model related tables and fields, create role-specific views, forms, and interfaces, and move work through automation and integrations."},
-    "bestFor": {"ja": "案件・コンテンツ・顧客・在庫など独自データ構造をノーコードで業務アプリ化したいチーム", "en": "Teams turning custom project, content, customer, or inventory data into no-code business applications"},
-    "strengths": {"ja": ["柔軟な関連データ設計", "用途別ビュー・フォーム・インターフェース", "ノーコード自動化と連携"], "en": ["Flexible relational data modeling", "Role-specific views, forms, and interfaces", "No-code automation and integrations"]},
-    "limits": {"ja": ["設計が悪いと管理が複雑化", "レコード・自動化・席に上限", "本格DB・会計等の代替ではない"], "en": ["Weak modeling can create complexity", "Records, automation, and seats have limits", "It is not a replacement for every operational database or accounting system"]}
+    "positioning": {
+      "ja": "表計算の操作感で関連データ、ビュー、フォーム、自動化、インターフェース、業務アプリを構築するデータ基盤",
+      "en": "A data platform for building relational workflows, views, forms, automations, interfaces, and business apps with spreadsheet familiarity"
+    },
+    "pricing": {
+      "ja": "Free、Team、Business、Enterprise Scale。編集者席、レコード、添付、自動化、API、管理機能で段階化",
+      "en": "Free, Team, Business, and Enterprise Scale tiers differentiated by editor seats, records, attachments, automation, API, and administration"
+    },
+    "pricingDetail": {
+      "ja": "編集可能ユーザーと閲覧・コメント利用者の扱い、ベース・レコード上限、添付容量、自動化実行、同期、履歴、管理を確認します。",
+      "en": "Verify editor billing versus viewers or commenters, base and record limits, attachment storage, automation runs, sync, revision history, and administration."
+    },
+    "workflow": {
+      "ja": "関連する表とフィールドを設計し、用途別ビュー・フォーム・インターフェースを作り、自動化や外部連携で業務を流します。",
+      "en": "Teams model related tables and fields, create role-specific views, forms, and interfaces, and move work through automation and integrations."
+    },
+    "bestFor": {
+      "ja": "案件・コンテンツ・顧客・在庫など独自データ構造をノーコードで業務アプリ化したいチーム",
+      "en": "Teams turning custom project, content, customer, or inventory data into no-code business applications"
+    },
+    "strengths": {
+      "ja": [
+        "柔軟な関連データ設計",
+        "用途別ビュー・フォーム・インターフェース",
+        "ノーコード自動化と連携"
+      ],
+      "en": [
+        "Flexible relational data modeling",
+        "Role-specific views, forms, and interfaces",
+        "No-code automation and integrations"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "設計が悪いと管理が複雑化",
+        "レコード・自動化・席に上限",
+        "本格DB・会計等の代替ではない"
+      ],
+      "en": [
+        "Weak modeling can create complexity",
+        "Records, automation, and seats have limits",
+        "It is not a replacement for every operational database or accounting system"
+      ]
+    }
   },
   "todoist": {
     "name": "Todoist",
     "affiliateKey": "todoist",
     "sources": [
-      {"label": "Todoist — Pricing", "url": "https://www.todoist.com/pricing"},
-      {"label": "Todoist — Product", "url": "https://www.todoist.com/"}
+      {
+        "label": "Todoist — Pricing",
+        "url": "https://www.todoist.com/pricing"
+      },
+      {
+        "label": "Todoist — Product",
+        "url": "https://www.todoist.com/"
+      }
     ],
-    "positioning": {"ja": "個人と小規模チームのタスク、期限、優先度、繰り返し、カレンダー表示を軽量に管理するToDoツール", "en": "A focused task manager for personal and small-team tasks, due dates, priorities, recurring work, and calendar planning"},
-    "pricing": {"ja": "Beginner、Pro、Business。プロジェクト、履歴、表示、ファイル、チーム機能などの上限が異なる", "en": "Beginner, Pro, and Business tiers with different limits for projects, history, layouts, files, and team capabilities"},
-    "pricingDetail": {"ja": "個人ProとチームBusinessを分け、アクティブプロジェクト、履歴、バックアップ、ファイル、カレンダー、管理機能を確認します。", "en": "Separate personal Pro from team Business and compare active projects, history, backups, file limits, calendar features, and administration."},
-    "workflow": {"ja": "自然な入力でタスクと期限を登録し、プロジェクト、ラベル、フィルター、今日・近日予定、カレンダーで毎日の実行を整理します。", "en": "Users capture tasks and dates quickly, then organize daily execution through projects, labels, filters, Today, Upcoming, and calendar layouts."},
-    "bestFor": {"ja": "複雑なプロジェクト基盤より、個人と小規模チームの日々の実行を素早く整えたい利用者", "en": "Individuals and small teams that want fast daily execution rather than a complex project platform"},
-    "strengths": {"ja": ["タスク入力と日次確認が速い", "個人用とチーム用を分けられる", "繰り返し・フィルター・カレンダー"], "en": ["Fast task capture and daily review", "Separation of personal and team work", "Recurring tasks, filters, and calendar planning"]},
-    "limits": {"ja": ["複雑な依存関係・ポートフォリオは限定的", "プラン別の上限を確認", "文書・データベースは主目的でない"], "en": ["Complex dependencies and portfolios are limited", "Plan-specific limits need review", "Documents and databases are not the primary purpose"]}
+    "positioning": {
+      "ja": "個人と小規模チームのタスク、期限、優先度、繰り返し、カレンダー表示を軽量に管理するToDoツール",
+      "en": "A focused task manager for personal and small-team tasks, due dates, priorities, recurring work, and calendar planning"
+    },
+    "pricing": {
+      "ja": "Beginner、Pro、Business。プロジェクト、履歴、表示、ファイル、チーム機能などの上限が異なる",
+      "en": "Beginner, Pro, and Business tiers with different limits for projects, history, layouts, files, and team capabilities"
+    },
+    "pricingDetail": {
+      "ja": "個人ProとチームBusinessを分け、アクティブプロジェクト、履歴、バックアップ、ファイル、カレンダー、管理機能を確認します。",
+      "en": "Separate personal Pro from team Business and compare active projects, history, backups, file limits, calendar features, and administration."
+    },
+    "workflow": {
+      "ja": "自然な入力でタスクと期限を登録し、プロジェクト、ラベル、フィルター、今日・近日予定、カレンダーで毎日の実行を整理します。",
+      "en": "Users capture tasks and dates quickly, then organize daily execution through projects, labels, filters, Today, Upcoming, and calendar layouts."
+    },
+    "bestFor": {
+      "ja": "複雑なプロジェクト基盤より、個人と小規模チームの日々の実行を素早く整えたい利用者",
+      "en": "Individuals and small teams that want fast daily execution rather than a complex project platform"
+    },
+    "strengths": {
+      "ja": [
+        "タスク入力と日次確認が速い",
+        "個人用とチーム用を分けられる",
+        "繰り返し・フィルター・カレンダー"
+      ],
+      "en": [
+        "Fast task capture and daily review",
+        "Separation of personal and team work",
+        "Recurring tasks, filters, and calendar planning"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "複雑な依存関係・ポートフォリオは限定的",
+        "プラン別の上限を確認",
+        "文書・データベースは主目的でない"
+      ],
+      "en": [
+        "Complex dependencies and portfolios are limited",
+        "Plan-specific limits need review",
+        "Documents and databases are not the primary purpose"
+      ]
+    }
   },
   "basecamp": {
     "name": "Basecamp",
     "affiliateKey": "basecamp",
     "sources": [
-      {"label": "Basecamp — Pricing", "url": "https://basecamp.com/pricing"},
-      {"label": "Basecamp — Basecamp 5", "url": "https://basecamp.com/5"}
+      {
+        "label": "Basecamp — Pricing",
+        "url": "https://basecamp.com/pricing"
+      },
+      {
+        "label": "Basecamp — Basecamp 5",
+        "url": "https://basecamp.com/5"
+      }
     ],
-    "positioning": {"ja": "メッセージ、ToDo、カード、スケジュール、文書、チャット、顧客共有をプロジェクト単位でまとめる協働ツール", "en": "A project collaboration toolkit combining messages, to-dos, card tables, schedules, documents, chat, and client access"},
-    "pricing": {"ja": "1プロジェクトの無料版、利用者課金のPlus、組織定額のPro Unlimited。必要なプロジェクト数と人数で比較", "en": "A one-project free tier, per-user Plus, and flat organization pricing through Pro Unlimited; compare by project and team size"},
-    "pricingDetail": {"ja": "少人数では利用者課金、大人数では定額の差が大きくなります。無料版のプロジェクト制限、保存容量、サポート、外部顧客の扱いを確認します。", "en": "Per-user and flat organization pricing diverge as team size grows. Verify free-project limits, storage, support, and treatment of external clients."},
-    "workflow": {"ja": "各プロジェクトに会話、ToDo、カード、予定、ファイルをまとめ、顧客や外部関係者も必要範囲だけ参加させます。", "en": "Each project gathers discussion, to-dos, cards, schedule, and files, with client or external participation limited to relevant spaces."},
-    "bestFor": {"ja": "複雑な設定を避け、社内外の案件コミュニケーションと実行を一か所へまとめたい小規模・成長チーム", "en": "Small and growing teams that want calm, centralized project communication without complex configuration"},
-    "strengths": {"ja": ["プロジェクト単位の情報集約", "顧客・外部メンバーとの共有", "利用者課金と組織定額の選択"], "en": ["Project-centered information organization", "Client and external collaboration", "Choice between per-user and flat organization pricing"]},
-    "limits": {"ja": ["高度な依存関係・リソース管理は限定的", "細かなレポートは連携が必要", "既存の専門ツールと重複する場合がある"], "en": ["Advanced dependencies and resource management are limited", "Detailed reporting may need integrations", "Capabilities can overlap with existing specialist tools"]}
+    "positioning": {
+      "ja": "メッセージ、ToDo、カード、スケジュール、文書、チャット、顧客共有をプロジェクト単位でまとめる協働ツール",
+      "en": "A project collaboration toolkit combining messages, to-dos, card tables, schedules, documents, chat, and client access"
+    },
+    "pricing": {
+      "ja": "1プロジェクトの無料版、利用者課金のPlus、組織定額のPro Unlimited。必要なプロジェクト数と人数で比較",
+      "en": "A one-project free tier, per-user Plus, and flat organization pricing through Pro Unlimited; compare by project and team size"
+    },
+    "pricingDetail": {
+      "ja": "少人数では利用者課金、大人数では定額の差が大きくなります。無料版のプロジェクト制限、保存容量、サポート、外部顧客の扱いを確認します。",
+      "en": "Per-user and flat organization pricing diverge as team size grows. Verify free-project limits, storage, support, and treatment of external clients."
+    },
+    "workflow": {
+      "ja": "各プロジェクトに会話、ToDo、カード、予定、ファイルをまとめ、顧客や外部関係者も必要範囲だけ参加させます。",
+      "en": "Each project gathers discussion, to-dos, cards, schedule, and files, with client or external participation limited to relevant spaces."
+    },
+    "bestFor": {
+      "ja": "複雑な設定を避け、社内外の案件コミュニケーションと実行を一か所へまとめたい小規模・成長チーム",
+      "en": "Small and growing teams that want calm, centralized project communication without complex configuration"
+    },
+    "strengths": {
+      "ja": [
+        "プロジェクト単位の情報集約",
+        "顧客・外部メンバーとの共有",
+        "利用者課金と組織定額の選択"
+      ],
+      "en": [
+        "Project-centered information organization",
+        "Client and external collaboration",
+        "Choice between per-user and flat organization pricing"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "高度な依存関係・リソース管理は限定的",
+        "細かなレポートは連携が必要",
+        "既存の専門ツールと重複する場合がある"
+      ],
+      "en": [
+        "Advanced dependencies and resource management are limited",
+        "Detailed reporting may need integrations",
+        "Capabilities can overlap with existing specialist tools"
+      ]
+    }
   },
   "zoom": {
     "name": "Zoom Workplace",
     "affiliateKey": "zoom",
     "sources": [
-      {"label": "Zoom — Workplace Pro", "url": "https://www.zoom.com/en/products/collaboration-tools/zoom-workplace-pro/"},
-      {"label": "Zoom — Meetings", "url": "https://www.zoom.com/en/products/virtual-meetings/"}
+      {
+        "label": "Zoom — Workplace Pro",
+        "url": "https://www.zoom.com/en/products/collaboration-tools/zoom-workplace-pro/"
+      },
+      {
+        "label": "Zoom — Meetings",
+        "url": "https://www.zoom.com/en/products/virtual-meetings/"
+      }
     ],
-    "positioning": {"ja": "ビデオ会議を中心にチャット、電話、ホワイトボード、文書、予約、AI支援へ広がるコラボレーション基盤", "en": "A collaboration platform centered on video meetings and extending into chat, phone, whiteboards, documents, scheduling, and AI assistance"},
-    "pricing": {"ja": "無料版とPro・Business等の有料構成。会議時間、参加者、録画、AI、電話・ウェビナー等の追加製品を確認", "en": "Free and paid Pro, Business, and larger-team options; meeting duration, participants, recording, AI, phone, and webinar add-ons vary"},
-    "pricingDetail": {"ja": "主催者席、会議時間、参加人数、クラウド録画、AI機能、電話、ウェビナー、ルーム、ストレージ、契約期間を合算します。", "en": "Combine host licenses, meeting duration, participant capacity, cloud recording, AI, phone, webinar, room, storage, and contract term."},
-    "workflow": {"ja": "予定作成、招待、会議、画面共有、録画・要約、チャット、フォローアップまでをZoom Workplace内または連携先へ流します。", "en": "Teams schedule and host meetings, share screens, record or summarize, continue in chat, and route follow-up work inside Zoom Workplace or connected apps."},
-    "bestFor": {"ja": "社外参加者を含むビデオ会議の使いやすさと、会議関連製品の拡張性を重視する組織", "en": "Organizations prioritizing accessible external video meetings and a broad ecosystem of meeting-related products"},
-    "strengths": {"ja": ["社外参加者にも普及した会議体験", "会議・チャット・電話・ウェビナーの拡張", "録画・要約・連携"], "en": ["Familiar meeting experience for external participants", "Expansion across meetings, chat, phone, and webinars", "Recording, summaries, and integrations"]},
-    "limits": {"ja": ["追加製品が多く総額を把握しにくい", "無料版の時間等の制約", "既存Microsoft・Google環境と機能重複"], "en": ["Many add-ons can obscure total cost", "The free tier has meeting constraints", "Capabilities can overlap with Microsoft or Google environments"]}
+    "positioning": {
+      "ja": "ビデオ会議を中心にチャット、電話、ホワイトボード、文書、予約、AI支援へ広がるコラボレーション基盤",
+      "en": "A collaboration platform centered on video meetings and extending into chat, phone, whiteboards, documents, scheduling, and AI assistance"
+    },
+    "pricing": {
+      "ja": "無料版とPro・Business等の有料構成。会議時間、参加者、録画、AI、電話・ウェビナー等の追加製品を確認",
+      "en": "Free and paid Pro, Business, and larger-team options; meeting duration, participants, recording, AI, phone, and webinar add-ons vary"
+    },
+    "pricingDetail": {
+      "ja": "主催者席、会議時間、参加人数、クラウド録画、AI機能、電話、ウェビナー、ルーム、ストレージ、契約期間を合算します。",
+      "en": "Combine host licenses, meeting duration, participant capacity, cloud recording, AI, phone, webinar, room, storage, and contract term."
+    },
+    "workflow": {
+      "ja": "予定作成、招待、会議、画面共有、録画・要約、チャット、フォローアップまでをZoom Workplace内または連携先へ流します。",
+      "en": "Teams schedule and host meetings, share screens, record or summarize, continue in chat, and route follow-up work inside Zoom Workplace or connected apps."
+    },
+    "bestFor": {
+      "ja": "社外参加者を含むビデオ会議の使いやすさと、会議関連製品の拡張性を重視する組織",
+      "en": "Organizations prioritizing accessible external video meetings and a broad ecosystem of meeting-related products"
+    },
+    "strengths": {
+      "ja": [
+        "社外参加者にも普及した会議体験",
+        "会議・チャット・電話・ウェビナーの拡張",
+        "録画・要約・連携"
+      ],
+      "en": [
+        "Familiar meeting experience for external participants",
+        "Expansion across meetings, chat, phone, and webinars",
+        "Recording, summaries, and integrations"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "追加製品が多く総額を把握しにくい",
+        "無料版の時間等の制約",
+        "既存Microsoft・Google環境と機能重複"
+      ],
+      "en": [
+        "Many add-ons can obscure total cost",
+        "The free tier has meeting constraints",
+        "Capabilities can overlap with Microsoft or Google environments"
+      ]
+    }
   },
   "wp-engine": {
     "name": "WP Engine",
     "affiliateKey": "wp-engine",
     "sources": [
-      {"label": "WP Engine — Plans", "url": "https://wpengine.com/plans/"},
-      {"label": "WP Engine — Managed WordPress hosting", "url": "https://wpengine.com/managed-wordpress-hosting/"}
+      {
+        "label": "WP Engine — Plans",
+        "url": "https://wpengine.com/plans/"
+      },
+      {
+        "label": "WP Engine — Managed WordPress hosting",
+        "url": "https://wpengine.com/managed-wordpress-hosting/"
+      }
     ],
-    "positioning": {"ja": "WordPress向けのマネージド更新、キャッシュ、CDN、バックアップ、ステージング、専門サポートを提供するホスティング", "en": "Managed WordPress hosting with updates, caching, CDN, backups, staging, security, and specialist support"},
-    "pricing": {"ja": "サイト数、月間訪問、保存容量、帯域で段階化。追加サイト、超過、更新自動化、セキュリティ等を確認", "en": "Tiered by sites, monthly visits, storage, and bandwidth; additional sites, overages, automated updates, and security can add cost"},
-    "pricingDetail": {"ja": "初年度・更新価格、サイト数、訪問・帯域・容量、電話サポート、プラグイン更新、WAF、性能機能、追加サイト、超過条件を確認します。", "en": "Verify first-term and renewal pricing, sites, visits, bandwidth, storage, phone support, plugin updates, WAF, performance features, additional sites, and overages."},
-    "workflow": {"ja": "移行後は管理画面から本番・ステージング・開発環境、バックアップ、更新、キャッシュ、権限、サポートを運用します。", "en": "After migration, teams operate production, staging, and development environments, backups, updates, caching, access, and support from a managed portal."},
-    "bestFor": {"ja": "WordPressの性能・更新・障害対応を専門基盤へ寄せ、制作と事業運用へ集中したい企業・制作会社", "en": "Businesses and agencies that want specialist WordPress performance, updates, and incident support"},
-    "strengths": {"ja": ["WordPress専門の運用とサポート", "ステージング・バックアップ・キャッシュ", "企業向け性能・セキュリティ拡張"], "en": ["WordPress-specialist operations and support", "Staging, backups, and caching", "Performance and security options for larger organizations"]},
-    "limits": {"ja": ["訪問・帯域・サイト数の上限", "追加機能と超過費用を確認", "一般共有サーバーより高額になりやすい"], "en": ["Visits, bandwidth, and site limits apply", "Add-ons and overages need review", "Usually costs more than general shared hosting"]}
+    "positioning": {
+      "ja": "WordPress向けのマネージド更新、キャッシュ、CDN、バックアップ、ステージング、専門サポートを提供するホスティング",
+      "en": "Managed WordPress hosting with updates, caching, CDN, backups, staging, security, and specialist support"
+    },
+    "pricing": {
+      "ja": "サイト数、月間訪問、保存容量、帯域で段階化。追加サイト、超過、更新自動化、セキュリティ等を確認",
+      "en": "Tiered by sites, monthly visits, storage, and bandwidth; additional sites, overages, automated updates, and security can add cost"
+    },
+    "pricingDetail": {
+      "ja": "初年度・更新価格、サイト数、訪問・帯域・容量、電話サポート、プラグイン更新、WAF、性能機能、追加サイト、超過条件を確認します。",
+      "en": "Verify first-term and renewal pricing, sites, visits, bandwidth, storage, phone support, plugin updates, WAF, performance features, additional sites, and overages."
+    },
+    "workflow": {
+      "ja": "移行後は管理画面から本番・ステージング・開発環境、バックアップ、更新、キャッシュ、権限、サポートを運用します。",
+      "en": "After migration, teams operate production, staging, and development environments, backups, updates, caching, access, and support from a managed portal."
+    },
+    "bestFor": {
+      "ja": "WordPressの性能・更新・障害対応を専門基盤へ寄せ、制作と事業運用へ集中したい企業・制作会社",
+      "en": "Businesses and agencies that want specialist WordPress performance, updates, and incident support"
+    },
+    "strengths": {
+      "ja": [
+        "WordPress専門の運用とサポート",
+        "ステージング・バックアップ・キャッシュ",
+        "企業向け性能・セキュリティ拡張"
+      ],
+      "en": [
+        "WordPress-specialist operations and support",
+        "Staging, backups, and caching",
+        "Performance and security options for larger organizations"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "訪問・帯域・サイト数の上限",
+        "追加機能と超過費用を確認",
+        "一般共有サーバーより高額になりやすい"
+      ],
+      "en": [
+        "Visits, bandwidth, and site limits apply",
+        "Add-ons and overages need review",
+        "Usually costs more than general shared hosting"
+      ]
+    }
   },
   "nordvpn": {
     "name": "NordVPN",
     "affiliateKey": "nordvpn",
     "sources": [
-      {"label": "NordVPN — Pricing", "url": "https://nordvpn.com/pricing/"},
-      {"label": "NordVPN — Features", "url": "https://nordvpn.com/features/"}
+      {
+        "label": "NordVPN — Pricing",
+        "url": "https://nordvpn.com/pricing/"
+      },
+      {
+        "label": "NordVPN — Features",
+        "url": "https://nordvpn.com/features/"
+      }
     ],
-    "positioning": {"ja": "暗号化VPN、脅威対策、ダークウェブ監視などを複数端末で提供する個人・小規模向けセキュリティサービス", "en": "A consumer and small-team security service combining encrypted VPN access with threat and monitoring features across devices"},
-    "pricing": {"ja": "月額・年額・長期契約とBasic・Complete・Prime等の構成。初回割引と更新額、地域別機能を確認", "en": "Monthly, annual, and longer terms across Basic, Complete, Prime, or regional equivalents; introductory and renewal pricing differ"},
-    "pricingDetail": {"ja": "初回契約月数と追加無料期間、更新総額、同時接続端末、パスワード管理・クラウド・個人情報保護等のバンドル、専用IPを確認します。", "en": "Check the initial term and bonus period, renewal total, simultaneous devices, bundled password, cloud, identity or data-removal features, and dedicated-IP pricing."},
-    "workflow": {"ja": "端末へアプリを導入し、接続先と自動接続を設定し、公共Wi-Fiや出張時の通信を保護します。管理対象端末と例外ルールを記録します。", "en": "Users install apps, configure locations and automatic connection, and protect traffic on public networks or while traveling. Device inventory and exception rules should be documented."},
-    "bestFor": {"ja": "主要端末のVPN接続と周辺セキュリティ機能を一つの契約へまとめたい個人・小規模利用者", "en": "Individuals and small users that want VPN access and adjacent security features in one subscription"},
-    "strengths": {"ja": ["主要OS向けVPNアプリ", "脅威対策・監視等のバンドル", "複数地域のサーバー選択"], "en": ["VPN apps across major operating systems", "Bundles with threat and monitoring features", "Broad server-location choice"]},
-    "limits": {"ja": ["初回価格と更新価格に差", "バンドル機能は地域差がある", "VPNだけで端末・アカウント保護は完結しない"], "en": ["Introductory and renewal prices differ", "Bundled features vary by region", "A VPN does not replace device and account security"]}
+    "positioning": {
+      "ja": "暗号化VPN、脅威対策、ダークウェブ監視などを複数端末で提供する個人・小規模向けセキュリティサービス",
+      "en": "A consumer and small-team security service combining encrypted VPN access with threat and monitoring features across devices"
+    },
+    "pricing": {
+      "ja": "月額・年額・長期契約とBasic・Complete・Prime等の構成。初回割引と更新額、地域別機能を確認",
+      "en": "Monthly, annual, and longer terms across Basic, Complete, Prime, or regional equivalents; introductory and renewal pricing differ"
+    },
+    "pricingDetail": {
+      "ja": "初回契約月数と追加無料期間、更新総額、同時接続端末、パスワード管理・クラウド・個人情報保護等のバンドル、専用IPを確認します。",
+      "en": "Check the initial term and bonus period, renewal total, simultaneous devices, bundled password, cloud, identity or data-removal features, and dedicated-IP pricing."
+    },
+    "workflow": {
+      "ja": "端末へアプリを導入し、接続先と自動接続を設定し、公共Wi-Fiや出張時の通信を保護します。管理対象端末と例外ルールを記録します。",
+      "en": "Users install apps, configure locations and automatic connection, and protect traffic on public networks or while traveling. Device inventory and exception rules should be documented."
+    },
+    "bestFor": {
+      "ja": "主要端末のVPN接続と周辺セキュリティ機能を一つの契約へまとめたい個人・小規模利用者",
+      "en": "Individuals and small users that want VPN access and adjacent security features in one subscription"
+    },
+    "strengths": {
+      "ja": [
+        "主要OS向けVPNアプリ",
+        "脅威対策・監視等のバンドル",
+        "複数地域のサーバー選択"
+      ],
+      "en": [
+        "VPN apps across major operating systems",
+        "Bundles with threat and monitoring features",
+        "Broad server-location choice"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "初回価格と更新価格に差",
+        "バンドル機能は地域差がある",
+        "VPNだけで端末・アカウント保護は完結しない"
+      ],
+      "en": [
+        "Introductory and renewal prices differ",
+        "Bundled features vary by region",
+        "A VPN does not replace device and account security"
+      ]
+    }
   },
   "surfshark": {
     "name": "Surfshark",
     "affiliateKey": "surfshark",
     "sources": [
-      {"label": "Surfshark — Pricing", "url": "https://surfshark.com/pricing"},
-      {"label": "Surfshark — Features", "url": "https://surfshark.com/features"}
+      {
+        "label": "Surfshark — Pricing",
+        "url": "https://surfshark.com/pricing"
+      },
+      {
+        "label": "Surfshark — Features",
+        "url": "https://surfshark.com/features"
+      }
     ],
-    "positioning": {"ja": "多数端末のVPN接続を中心に、監視、ウイルス対策、個人情報保護などを選択できるセキュリティサービス", "en": "A security service centered on VPN access across many devices with optional monitoring, antivirus, and personal-data protection"},
-    "pricing": {"ja": "Starter・One・One+等と月額・年額・長期契約。初回割引、更新額、バンドル対象地域を確認", "en": "Starter, One, One+, or regional equivalents across monthly and longer terms; verify introductory price, renewal, and bundle availability"},
-    "pricingDetail": {"ja": "契約期間、追加無料月、更新総額、端末条件、代替ID・監視・ウイルス対策・情報削除等の対象範囲、返金条件を確認します。", "en": "Review term length, bonus months, renewal total, device rules, Alternative ID, monitoring, antivirus, data-removal coverage, and refund conditions."},
-    "workflow": {"ja": "複数端末へアプリを入れ、自動接続とネットワーク例外を設定し、必要に応じて監視・ウイルス対策・個人情報保護機能を有効化します。", "en": "Users install apps across devices, configure auto-connect and network exceptions, and optionally enable monitoring, antivirus, or personal-data tools."},
-    "bestFor": {"ja": "多数の個人端末を一つのVPN契約で保護し、必要な周辺機能だけ追加したい利用者", "en": "Users who want one VPN subscription across many personal devices with optional adjacent security tools"},
-    "strengths": {"ja": ["多数端末で使いやすい契約設計", "VPN以外の機能を段階選択", "主要OS・ブラウザへの対応"], "en": ["Subscription designed for many devices", "Tiered choice of non-VPN security features", "Coverage across major operating systems and browsers"]},
-    "limits": {"ja": ["長期初回価格と更新額を分けて確認", "追加機能はプラン・地域差", "業務端末では会社のVPN方針を優先"], "en": ["Long-term introductory and renewal prices must be separated", "Added features vary by tier and region", "Company VPN policy takes priority on managed work devices"]}
+    "positioning": {
+      "ja": "多数端末のVPN接続を中心に、監視、ウイルス対策、個人情報保護などを選択できるセキュリティサービス",
+      "en": "A security service centered on VPN access across many devices with optional monitoring, antivirus, and personal-data protection"
+    },
+    "pricing": {
+      "ja": "Starter・One・One+等と月額・年額・長期契約。初回割引、更新額、バンドル対象地域を確認",
+      "en": "Starter, One, One+, or regional equivalents across monthly and longer terms; verify introductory price, renewal, and bundle availability"
+    },
+    "pricingDetail": {
+      "ja": "契約期間、追加無料月、更新総額、端末条件、代替ID・監視・ウイルス対策・情報削除等の対象範囲、返金条件を確認します。",
+      "en": "Review term length, bonus months, renewal total, device rules, Alternative ID, monitoring, antivirus, data-removal coverage, and refund conditions."
+    },
+    "workflow": {
+      "ja": "複数端末へアプリを入れ、自動接続とネットワーク例外を設定し、必要に応じて監視・ウイルス対策・個人情報保護機能を有効化します。",
+      "en": "Users install apps across devices, configure auto-connect and network exceptions, and optionally enable monitoring, antivirus, or personal-data tools."
+    },
+    "bestFor": {
+      "ja": "多数の個人端末を一つのVPN契約で保護し、必要な周辺機能だけ追加したい利用者",
+      "en": "Users who want one VPN subscription across many personal devices with optional adjacent security tools"
+    },
+    "strengths": {
+      "ja": [
+        "多数端末で使いやすい契約設計",
+        "VPN以外の機能を段階選択",
+        "主要OS・ブラウザへの対応"
+      ],
+      "en": [
+        "Subscription designed for many devices",
+        "Tiered choice of non-VPN security features",
+        "Coverage across major operating systems and browsers"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "長期初回価格と更新額を分けて確認",
+        "追加機能はプラン・地域差",
+        "業務端末では会社のVPN方針を優先"
+      ],
+      "en": [
+        "Long-term introductory and renewal prices must be separated",
+        "Added features vary by tier and region",
+        "Company VPN policy takes priority on managed work devices"
+      ]
+    }
   },
   "proton-vpn": {
     "name": "Proton VPN",
     "affiliateKey": "proton-vpn",
     "sources": [
-      {"label": "Proton VPN — Pricing", "url": "https://protonvpn.com/pricing"},
-      {"label": "Proton VPN — Features", "url": "https://protonvpn.com/features"}
+      {
+        "label": "Proton VPN — Pricing",
+        "url": "https://protonvpn.com/pricing"
+      },
+      {
+        "label": "Proton VPN — Features",
+        "url": "https://protonvpn.com/features"
+      }
     ],
-    "positioning": {"ja": "無料プランを含み、プライバシー重視のVPNとProtonのメール・ストレージ等のバンドルを選べるサービス", "en": "A privacy-focused VPN with a free tier and optional bundles across Proton email, storage, and other services"},
-    "pricing": {"ja": "無料VPN、VPN単体有料版、Protonサービス一体型プラン。契約期間、接続端末、バンドル範囲を確認", "en": "A free VPN tier, paid VPN plans, and Proton-wide bundles; term length, device coverage, and included services vary"},
-    "pricingDetail": {"ja": "無料版と有料版のサーバー・速度・端末・機能差、月額・年額・長期の総額、メール・ストレージ等との重複を確認します。", "en": "Compare free and paid server, speed, device, and feature limits, then annualize each term and account for overlap with Proton email or storage."},
-    "workflow": {"ja": "端末へアプリを導入し、無料または有料サーバーへ接続します。必要に応じてProtonアカウントのメール・ストレージ等とまとめて管理します。", "en": "Users install apps, connect through free or paid servers, and can manage the VPN alongside Proton email, storage, and other account services."},
-    "bestFor": {"ja": "無料からVPNを試し、プライバシー重視のメール・ストレージ環境へ段階的に広げたい利用者", "en": "Users who want to start with a free privacy-focused VPN and optionally expand into email and storage"},
-    "strengths": {"ja": ["継続利用できる無料VPN", "プライバシー重視の製品群", "VPN単体と統合プランの選択"], "en": ["A continuing free VPN option", "Privacy-centered product ecosystem", "Choice between VPN-only and broader bundles"]},
-    "limits": {"ja": ["無料版はサーバー・機能等に制限", "バンドルの重複を確認", "用途別の速度・接続性を実測する必要"], "en": ["The free tier limits servers or capabilities", "Bundle overlap needs review", "Speed and connectivity should be tested for the actual use case"]}
+    "positioning": {
+      "ja": "無料プランを含み、プライバシー重視のVPNとProtonのメール・ストレージ等のバンドルを選べるサービス",
+      "en": "A privacy-focused VPN with a free tier and optional bundles across Proton email, storage, and other services"
+    },
+    "pricing": {
+      "ja": "無料VPN、VPN単体有料版、Protonサービス一体型プラン。契約期間、接続端末、バンドル範囲を確認",
+      "en": "A free VPN tier, paid VPN plans, and Proton-wide bundles; term length, device coverage, and included services vary"
+    },
+    "pricingDetail": {
+      "ja": "無料版と有料版のサーバー・速度・端末・機能差、月額・年額・長期の総額、メール・ストレージ等との重複を確認します。",
+      "en": "Compare free and paid server, speed, device, and feature limits, then annualize each term and account for overlap with Proton email or storage."
+    },
+    "workflow": {
+      "ja": "端末へアプリを導入し、無料または有料サーバーへ接続します。必要に応じてProtonアカウントのメール・ストレージ等とまとめて管理します。",
+      "en": "Users install apps, connect through free or paid servers, and can manage the VPN alongside Proton email, storage, and other account services."
+    },
+    "bestFor": {
+      "ja": "無料からVPNを試し、プライバシー重視のメール・ストレージ環境へ段階的に広げたい利用者",
+      "en": "Users who want to start with a free privacy-focused VPN and optionally expand into email and storage"
+    },
+    "strengths": {
+      "ja": [
+        "継続利用できる無料VPN",
+        "プライバシー重視の製品群",
+        "VPN単体と統合プランの選択"
+      ],
+      "en": [
+        "A continuing free VPN option",
+        "Privacy-centered product ecosystem",
+        "Choice between VPN-only and broader bundles"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "無料版はサーバー・機能等に制限",
+        "バンドルの重複を確認",
+        "用途別の速度・接続性を実測する必要"
+      ],
+      "en": [
+        "The free tier limits servers or capabilities",
+        "Bundle overlap needs review",
+        "Speed and connectivity should be tested for the actual use case"
+      ]
+    }
+  },
+  "xserver-shop": {
+    "name": "XServer Shop",
+    "affiliateKey": "xserver-shop",
+    "sources": [
+      {
+        "label": "XServer Shop official site",
+        "url": "https://shop.xserver.ne.jp/"
+      },
+      {
+        "label": "XServer Shop pricing",
+        "url": "https://shop.xserver.ne.jp/price/"
+      },
+      {
+        "label": "XServer Shop feature list",
+        "url": "https://shop.xserver.ne.jp/function/"
+      },
+      {
+        "label": "Thirty-day trial terms",
+        "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+      },
+      {
+        "label": "Sales, payment and payout fees",
+        "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+      }
+    ],
+    "positioning": {
+      "ja": "EC-CUBEを基盤に、月額固定型料金、販売手数料0円、国内サポートを組み合わせたネットショップ作成サービス",
+      "en": "A Japan-focused hosted ecommerce service combining EC-CUBE, fixed subscriptions, zero platform sales commission, and domestic support"
+    },
+    "pricing": {
+      "ja": "全プラン初期費用11,000円。ベーシックは36か月契約で月額換算1,980円から。決済・入金手数料は別",
+      "en": "JPY 11,000 setup on every plan; Basic starts at a JPY 1,980 monthly equivalent on thirty-six months, with separate payment and payout fees"
+    },
+    "pricingDetail": {
+      "ja": "初回契約は3～36か月の前払いです。販売手数料は0円ですが、標準Stripe決済4％と入金手数料が公表されています。",
+      "en": "Initial contracts are prepaid for three to thirty-six months. Platform sales commission is zero, while the bundled Stripe path and payouts have separate published fees."
+    },
+    "workflow": {
+      "ja": "EC-CUBEで商品、受注、顧客、在庫、配送、税、ポイント、権限を管理し、コード、テンプレート、対応プラグインで拡張します。",
+      "en": "Operate catalog, orders, customers, inventory, shipping, tax, points, and permissions in EC-CUBE, with code, templates, and compatible plugins for extension."
+    },
+    "bestFor": {
+      "ja": "国内向けECで、固定費、独自デザイン、顧客データ、EC-CUBE運用を重視する事業者・制作会社",
+      "en": "Japan-focused merchants and agencies prioritizing fixed platform charges, custom design, customer data, and EC-CUBE operations"
+    },
+    "strengths": {
+      "ja": [
+        "販売手数料0円",
+        "EC-CUBEの編集・拡張性",
+        "30日間無料試用と国内契約"
+      ],
+      "en": [
+        "Zero platform sales commission",
+        "Editable and extensible EC-CUBE environment",
+        "Thirty-day trial and Japan-based contracting"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "初期費用と契約期間分の前払い",
+        "決済・入金手数料は別",
+        "EC-CUBE操作やショップ運営は通常サポート対象外"
+      ],
+      "en": [
+        "Setup fee and prepaid contract term",
+        "Separate payment and payout fees",
+        "Detailed EC-CUBE operation and store consulting are outside normal support"
+      ]
+    }
   }
 }

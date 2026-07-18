@@ -7,7 +7,15 @@
       "content/articles/ja/business-web-hosting-comparison.json",
       "content/articles/en/business-web-hosting-comparison.json",
       "content/articles/ja/business-wordpress-hosting-comparison.json",
-      "content/articles/en/business-wordpress-hosting-comparison.json"
+      "content/articles/en/business-wordpress-hosting-comparison.json",
+      "content/articles/ja/xserver-shop-review.json",
+      "content/articles/ja/xserver-shop-vs-shopify.json",
+      "content/articles/ja/fixed-fee-ecommerce-platform-comparison.json",
+      "content/articles/ja/xserver-shop-vs-woocommerce.json",
+      "content/articles/en/xserver-shop-review.json",
+      "content/articles/en/xserver-shop-vs-shopify.json",
+      "content/articles/en/fixed-fee-ecommerce-platform-comparison.json",
+      "content/articles/en/xserver-shop-vs-woocommerce.json"
     ],
     "priorityProducts": [
       "activecampaign",
@@ -24,7 +32,8 @@
       "surfshark",
       "cpi",
       "xserver-business",
-      "xserver-for-wordpress"
+      "xserver-for-wordpress",
+      "xserver-shop"
     ],
     "includePriorityReviews": true,
     "priorityComparisonMinimumMatches": 2,

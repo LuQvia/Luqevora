@@ -1,0 +1,176 @@
+{
+  "id": "xserver-shop-vs-woocommerce-en",
+  "translationKey": "xserver-shop-vs-woocommerce",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-shop-vs-woocommerce",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "Ecommerce architecture comparison",
+  "title": "XServer Shop vs WooCommerce: Managed EC-CUBE or WordPress Commerce",
+  "metaTitle": "XServer Shop vs WooCommerce: Cost, Control and Maintenance",
+  "description": "Compare XServer Shop and WooCommerce by cost, EC-CUBE versus WordPress, hosting, updates, extensions, payments, data, and support ownership.",
+  "lead": "XServer Shop provides a managed EC-CUBE environment for Japanese merchants. WooCommerce is an open WordPress commerce layer that allows broader hosting and development choices. The important difference is not only flexibility but who owns infrastructure, updates, security, incidents, and compatibility.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer Shop",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer Shop official site",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Shop pricing",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Shop feature list",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "Thirty-day trial terms",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Sales, payment and payout fees",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "Included domain benefit",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Support scope",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    },
+    {
+      "label": "WooCommerce official site",
+      "url": "https://woocommerce.com/"
+    },
+    {
+      "label": "WooCommerce getting started",
+      "url": "https://woocommerce.com/document/getting-started/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: managed EC-CUBE or self-managed WordPress commerce",
+      "body": [
+        "Choose XServer Shop when EC-CUBE flexibility, Japanese contracting, and a packaged hosting environment are valuable. Choose WooCommerce when the organization has WordPress engineering capacity and wants to control hosting, themes, plugins, integrations, and deployment.",
+        "Include hosting, backups, security, payments, themes, extensions, development, and maintenance for WooCommerce. Include XServer Shop setup, prepaid subscription, payments, payouts, implementation, and agency work."
+      ]
+    },
+    {
+      "heading": "Core differences",
+      "body": [
+        "The main difference is the scope of technical ownership."
+      ],
+      "table": {
+        "headers": [
+          "Factor",
+          "XServer Shop",
+          "WooCommerce"
+        ],
+        "rows": [
+          [
+            "Commerce layer",
+            "Managed EC-CUBE 4-series environment",
+            "WordPress plugin"
+          ],
+          [
+            "Hosting",
+            "Included",
+            "Selected and contracted separately"
+          ],
+          [
+            "Platform sales commission",
+            "Zero",
+            "WooCommerce core is separate from payment costs"
+          ],
+          [
+            "Updates",
+            "Provider maintains supplied environment updates",
+            "Team manages WordPress, theme and extensions"
+          ],
+          [
+            "Extensions",
+            "Compatible EC-CUBE plugins and templates",
+            "WooCommerce and WordPress ecosystem"
+          ],
+          [
+            "Support",
+            "Hosting support; EC-CUBE operations excluded",
+            "Split across host, extensions and implementers"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Cost and maintenance",
+      "body": [
+        "XServer Shop publishes a setup fee, term-based subscription, four-percent bundled Stripe processing, and payout fees. WooCommerce cost depends on hosting, domains, payment gateways, themes, extensions, development, monitoring, backup, and maintenance.",
+        "A minimal WooCommerce site can look inexpensive, but a business deployment needs staging, recovery, vulnerability management, update testing, and incident ownership."
+      ]
+    },
+    {
+      "heading": "Compatibility testing",
+      "body": [
+        "The XServer Shop feature page currently displays EC-CUBE 4.0.3. Required plugins and templates should be tested during the trial. WooCommerce requires ongoing compatibility checks across WordPress, PHP, WooCommerce, themes, payment extensions, and other plugins.",
+        "Both approaches benefit from a representative staging catalog and documented rollback process before production changes."
+      ]
+    },
+    {
+      "heading": "Data and migration",
+      "body": [
+        "Verify exports for products, customers, orders, images, memberships, passwords, points, subscriptions, coupons, and reviews. Document whether data can be obtained through CSV, APIs, database access, or files and what cannot be transferred to another platform.",
+        "Payment credentials and some extension-specific records often need separate migration planning.",
+        "For regulated or business-critical stores, compare audit logs, administrator access, staging separation, recovery time objectives, extension end-of-life policies, and the process for urgent security patches. These controls often determine the true operating burden more than the software license or subscription alone.",
+        "Record the cost and recovery path for every critical extension so the team can replace it if the vendor stops maintenance or compatibility breaks after a platform update."
+      ]
+    },
+    {
+      "heading": "Decision",
+      "body": [
+        "XServer Shop is easier to shortlist when a Japanese EC-CUBE agency or operator is available and packaged infrastructure is preferred. WooCommerce is stronger when an existing WordPress engineering team needs deep integration with content and custom systems."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which platform is easier to operate?",
+      "answer": "XServer Shop packages more infrastructure, but merchants still need EC-CUBE operations. WooCommerce expands responsibility to WordPress hosting and extension maintenance."
+    },
+    {
+      "question": "Are both platforms free of transaction-related costs?",
+      "answer": "No. Payment processing, payouts, hosting, extensions, and maintenance must be reviewed separately."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer Shop review",
+      "url": "/en/website-builders/xserver-shop-review/",
+      "description": "Review pricing, payments, EC-CUBE, and support"
+    },
+    {
+      "label": "WooCommerce review",
+      "url": "/en/website-builders/woocommerce-review/",
+      "description": "Review WordPress commerce ownership and costs"
+    },
+    {
+      "label": "Fixed-fee ecommerce comparison",
+      "url": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "description": "Compare additional ecommerce operating models"
+    }
+  ]
+}

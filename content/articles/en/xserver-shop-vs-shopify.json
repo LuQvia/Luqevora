@@ -1,0 +1,175 @@
+{
+  "id": "xserver-shop-vs-shopify-en",
+  "translationKey": "xserver-shop-vs-shopify",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-shop-vs-shopify",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "Ecommerce platform comparison",
+  "title": "XServer Shop vs Shopify: Fees, Control and Operations",
+  "metaTitle": "XServer Shop vs Shopify: Fees, Control and Fit",
+  "description": "Compare XServer Shop and Shopify by subscriptions, sales and payment fees, design control, apps, maintenance, support, and portability.",
+  "lead": "XServer Shop centers fixed platform charges and managed EC-CUBE flexibility for the Japanese market. Shopify centers a hosted SaaS workflow, a broad app ecosystem, and faster nontechnical operations. The correct choice depends on staffing and total operating cost, not only the headline monthly price.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer Shop",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer Shop official site",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Shop pricing",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Shop feature list",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "Thirty-day trial terms",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Sales, payment and payout fees",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "Included domain benefit",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Support scope",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    },
+    {
+      "label": "Shopify pricing",
+      "url": "https://www.shopify.com/jp/pricing"
+    },
+    {
+      "label": "Shopify transaction fees",
+      "url": "https://help.shopify.com/ja/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-transaction-fees"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: EC-CUBE control or hosted SaaS convenience",
+      "body": [
+        "Choose XServer Shop when a Japan-based merchant or agency can manage EC-CUBE design and extensions and values zero platform sales commission. Choose Shopify when the organization prioritizes a hosted workflow, a large integration ecosystem, and faster administration by nontechnical staff.",
+        "Model payment fees, additional applications, themes, development, maintenance, payouts, domains, email, and migration. A lower platform commission can be offset by implementation or support labor."
+      ]
+    },
+    {
+      "heading": "Operating model comparison",
+      "body": [
+        "The platforms place technical responsibility in different locations."
+      ],
+      "table": {
+        "headers": [
+          "Factor",
+          "XServer Shop",
+          "Shopify"
+        ],
+        "rows": [
+          [
+            "Platform",
+            "Managed EC-CUBE environment",
+            "Hosted ecommerce SaaS"
+          ],
+          [
+            "Platform sales commission",
+            "Zero",
+            "Check plan and payment path"
+          ],
+          [
+            "Bundled payment path",
+            "Stripe with published four-percent fee",
+            "Shopify Payments and other options by market"
+          ],
+          [
+            "Setup fee",
+            "JPY 11,000 on every plan",
+            "Usually centered on subscription and implementation"
+          ],
+          [
+            "Customization",
+            "Code, templates and compatible plugins",
+            "Themes and apps"
+          ],
+          [
+            "Maintenance",
+            "Base environment and supplied EC-CUBE updates",
+            "Core SaaS platform managed by Shopify"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Cost modeling",
+      "body": [
+        "XServer Shop combines the setup fee, prepaid subscription, payment processing, payout fees, and any design or plugin work. Shopify combines the subscription, payment terms, possible third-party transaction fees, applications, themes, and partner services.",
+        "Run the model at expected monthly sales, order count, average order value, and payout frequency. Include internal labor for catalog, customer service, tax, shipping, and release testing."
+      ]
+    },
+    {
+      "heading": "Extensions and administration",
+      "body": [
+        "XServer Shop supports compatible EC-CUBE plugins, templates, and code changes, but the team must manage compatibility and testing. Shopify uses its app and theme ecosystem, which can be easier to install but can create recurring application fees and vendor dependencies.",
+        "A merchant with an experienced Japanese web agency may benefit from EC-CUBE control. A small team without development capacity may value Shopify administration more highly."
+      ]
+    },
+    {
+      "heading": "Trial and selection process",
+      "body": [
+        "Use the XServer Shop thirty-day trial to test catalog imports, variants, tax, shipping, payment, permissions, design changes, and required plugins. Some email and FTP functions remain restricted during the trial.",
+        "Reproduce the same store requirements in Shopify and compare setup time, staff workflow, checkout, reporting, exports, and annual total cost.",
+        "Also compare organizational controls such as administrator roles, approval processes, release testing, audit trails, customer-data exports, and incident escalation. A platform that is easier to launch can still require additional governance when several staff members, agencies, or sales channels share the account."
+      ]
+    },
+    {
+      "heading": "Decision",
+      "body": [
+        "XServer Shop is a strong candidate for Japanese merchants seeking fixed platform fees and EC-CUBE control with managed base infrastructure. Shopify is generally easier to shortlist for rapid hosted deployment, international channels, and a large app ecosystem."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is XServer Shop always cheaper at higher sales volume?",
+      "answer": "No. Payment, payout, development, maintenance, plugin, theme, and labor costs can change the result."
+    },
+    {
+      "question": "Which is easier for a nontechnical team?",
+      "answer": "Shopify is generally easier to shortlist for nontechnical hosted operations, while XServer Shop benefits from EC-CUBE or agency expertise."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer Shop review",
+      "url": "/en/website-builders/xserver-shop-review/",
+      "description": "Review fees, EC-CUBE, trial limits, and support"
+    },
+    {
+      "label": "Shopify review",
+      "url": "/en/website-builders/shopify-review/",
+      "description": "Review Shopify plans and operating model"
+    },
+    {
+      "label": "Shopify pricing guide",
+      "url": "/en/website-builders/shopify-pricing-guide/",
+      "description": "Model subscriptions, payments, and add-ons"
+    }
+  ]
+}

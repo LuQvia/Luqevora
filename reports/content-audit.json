@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T22:00:10.132Z",
+  "generatedAt": "2026-07-18T22:28:31.651Z",
   "auditDate": "2026-07-18",
   "thresholds": {
     "hardMinimumSources": 1,
@@ -20,10 +20,10 @@
     "promotionCandidatePairLimit": 25
   },
   "summary": {
-    "publishedDataArticles": 492,
-    "indexableDataArticles": 176,
+    "publishedDataArticles": 500,
+    "indexableDataArticles": 184,
     "noindexDataArticles": 316,
-    "averageIndexableScore": 93.9,
+    "averageIndexableScore": 94.2,
     "minimumIndexableScore": 70,
     "promotionEligible": 316,
     "promotionEligiblePairs": 158,
@@ -33,14 +33,14 @@
     "warningCount": 91,
     "byLanguage": {
       "ja": {
-        "published": 246,
-        "indexable": 88,
-        "averageScore": 95.1
+        "published": 250,
+        "indexable": 92,
+        "averageScore": 95.3
       },
       "en": {
-        "published": 246,
-        "indexable": 88,
-        "averageScore": 92.7
+        "published": 250,
+        "indexable": 92,
+        "averageScore": 93
       }
     }
   },
@@ -58,7 +58,15 @@
       "articleCount": 28
     },
     {
+      "host": "shopify.com",
+      "articleCount": 28
+    },
+    {
       "host": "activecampaign.com",
+      "articleCount": 26
+    },
+    {
+      "host": "help.shopify.com",
       "articleCount": 26
     },
     {
@@ -78,7 +86,7 @@
       "articleCount": 24
     },
     {
-      "host": "shopify.com",
+      "host": "woocommerce.com",
       "articleCount": 24
     },
     {
@@ -87,10 +95,6 @@
     },
     {
       "host": "getresponse.com",
-      "articleCount": 22
-    },
-    {
-      "host": "help.shopify.com",
       "articleCount": 22
     },
     {
@@ -110,7 +114,7 @@
       "articleCount": 20
     },
     {
-      "host": "woocommerce.com",
+      "host": "wix.com",
       "articleCount": 20
     },
     {
@@ -135,10 +139,6 @@
     },
     {
       "host": "siteground.com",
-      "articleCount": 18
-    },
-    {
-      "host": "wix.com",
       "articleCount": 18
     },
     {
@@ -8089,6 +8089,32 @@
       ]
     },
     {
+      "id": "fixed-fee-ecommerce-platform-comparison-en",
+      "translationKey": "fixed-fee-ecommerce-platform-comparison",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "fixed-fee-ecommerce-platform-comparison",
+      "route": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "sourceFile": "content/articles/en/fixed-fee-ecommerce-platform-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 532,
+      "sourceCount": 13,
+      "sourceHostCount": 5,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp",
+        "shopify.com",
+        "help.shopify.com",
+        "woocommerce.com",
+        "wix.com"
+      ]
+    },
+    {
       "id": "framer-review-en",
       "translationKey": "framer-review",
       "language": "en",
@@ -8931,6 +8957,75 @@
       "staleDays": -1,
       "sourceHosts": [
         "wordpress.org"
+      ]
+    },
+    {
+      "id": "xserver-shop-review-en",
+      "translationKey": "xserver-shop-review",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "xserver-shop-review",
+      "route": "/en/website-builders/xserver-shop-review/",
+      "sourceFile": "content/articles/en/xserver-shop-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 671,
+      "sourceCount": 7,
+      "sourceHostCount": 1,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "xserver-shop-vs-shopify-en",
+      "translationKey": "xserver-shop-vs-shopify",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "xserver-shop-vs-shopify",
+      "route": "/en/website-builders/xserver-shop-vs-shopify/",
+      "sourceFile": "content/articles/en/xserver-shop-vs-shopify.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 537,
+      "sourceCount": 9,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp",
+        "shopify.com",
+        "help.shopify.com"
+      ]
+    },
+    {
+      "id": "xserver-shop-vs-woocommerce-en",
+      "translationKey": "xserver-shop-vs-woocommerce",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "xserver-shop-vs-woocommerce",
+      "route": "/en/website-builders/xserver-shop-vs-woocommerce/",
+      "sourceFile": "content/articles/en/xserver-shop-vs-woocommerce.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 513,
+      "sourceCount": 9,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp",
+        "woocommerce.com"
       ]
     },
     {
@@ -13765,6 +13860,32 @@
       ]
     },
     {
+      "id": "fixed-fee-ecommerce-platform-comparison-ja",
+      "translationKey": "fixed-fee-ecommerce-platform-comparison",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "fixed-fee-ecommerce-platform-comparison",
+      "route": "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
+      "sourceFile": "content/articles/ja/fixed-fee-ecommerce-platform-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1569,
+      "sourceCount": 13,
+      "sourceHostCount": 5,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp",
+        "shopify.com",
+        "help.shopify.com",
+        "woocommerce.com",
+        "wix.com"
+      ]
+    },
+    {
       "id": "framer-review-ja",
       "translationKey": "framer-review",
       "language": "ja",
@@ -14128,13 +14249,13 @@
       "generated": false,
       "indexable": false,
       "score": 100,
-      "verifiedAt": "2026-07-18",
+      "verifiedAt": "2026-07-19",
       "units": 2108,
       "sourceCount": 3,
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": -1,
       "sourceHosts": [
         "shopify.com",
         "wix.com",
@@ -14607,6 +14728,75 @@
       "staleDays": -1,
       "sourceHosts": [
         "wordpress.org"
+      ]
+    },
+    {
+      "id": "xserver-shop-review-ja",
+      "translationKey": "xserver-shop-review",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "xserver-shop-review",
+      "route": "/ja/website-builders/xserver-shop-review/",
+      "sourceFile": "content/articles/ja/xserver-shop-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2329,
+      "sourceCount": 7,
+      "sourceHostCount": 1,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "xserver-shop-vs-shopify-ja",
+      "translationKey": "xserver-shop-vs-shopify",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "xserver-shop-vs-shopify",
+      "route": "/ja/website-builders/xserver-shop-vs-shopify/",
+      "sourceFile": "content/articles/ja/xserver-shop-vs-shopify.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1732,
+      "sourceCount": 9,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp",
+        "shopify.com",
+        "help.shopify.com"
+      ]
+    },
+    {
+      "id": "xserver-shop-vs-woocommerce-ja",
+      "translationKey": "xserver-shop-vs-woocommerce",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "xserver-shop-vs-woocommerce",
+      "route": "/ja/website-builders/xserver-shop-vs-woocommerce/",
+      "sourceFile": "content/articles/ja/xserver-shop-vs-woocommerce.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1654,
+      "sourceCount": 9,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": -1,
+      "sourceHosts": [
+        "shop.xserver.ne.jp",
+        "woocommerce.com"
       ]
     }
   ]

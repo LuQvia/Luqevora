@@ -1,0 +1,186 @@
+{
+  "id": "fixed-fee-ecommerce-platform-comparison-en",
+  "translationKey": "fixed-fee-ecommerce-platform-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "fixed-fee-ecommerce-platform-comparison",
+  "category": "website-builders",
+  "topic": "ecommerce-platforms",
+  "badge": "Ecommerce cost comparison",
+  "title": "Fixed-Fee Ecommerce Platforms: XServer Shop, WooCommerce, Wix and Shopify",
+  "metaTitle": "Fixed-Fee Ecommerce Platforms: Cost and Operations",
+  "description": "Compare XServer Shop, WooCommerce, Wix, and Shopify by subscriptions, sales commissions, payment and payout fees, implementation, and maintenance.",
+  "lead": "A zero platform sales commission does not make an ecommerce platform free. Compare subscriptions, setup, payment processing, payouts, applications, themes, development, hosting, maintenance, and staffing at the same sales volume.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check XServer Shop",
+      "officialUrl": "https://shop.xserver.ne.jp/",
+      "affiliateKey": "xserver-shop-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer Shop official site",
+      "url": "https://shop.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer Shop pricing",
+      "url": "https://shop.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServer Shop feature list",
+      "url": "https://shop.xserver.ne.jp/function/"
+    },
+    {
+      "label": "Thirty-day trial terms",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_free_trial.php"
+    },
+    {
+      "label": "Sales, payment and payout fees",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_method_sale_commission.php"
+    },
+    {
+      "label": "Included domain benefit",
+      "url": "https://shop.xserver.ne.jp/support/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "Support scope",
+      "url": "https://shop.xserver.ne.jp/support/contact/support.php"
+    },
+    {
+      "label": "Shopify pricing",
+      "url": "https://www.shopify.com/jp/pricing"
+    },
+    {
+      "label": "Shopify transaction fees",
+      "url": "https://help.shopify.com/ja/manual/your-account/manage-billing/billing-charges/types-of-charges/third-party-transaction-fees"
+    },
+    {
+      "label": "WooCommerce official site",
+      "url": "https://woocommerce.com/"
+    },
+    {
+      "label": "WooCommerce getting started",
+      "url": "https://woocommerce.com/document/getting-started/"
+    },
+    {
+      "label": "Wix eCommerce overview",
+      "url": "https://www.wix.com/ecommerce/website"
+    },
+    {
+      "label": "Wix pricing",
+      "url": "https://www.wix.com/plans"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line: compare cost structure and operational ownership",
+      "body": [
+        "XServer Shop combines managed EC-CUBE hosting and zero platform sales commission. WooCommerce maximizes software and data control but shifts more WordPress operations to the merchant. Wix combines site building and commerce, while Shopify emphasizes hosted commerce operations and integrations.",
+        "The lowest headline fee can become expensive when implementation, applications, maintenance, incidents, and internal labor are included. Model both cash cost and operational responsibility."
+      ]
+    },
+    {
+      "heading": "Platform structure",
+      "body": [
+        "Terms vary by market and configuration, so compare the cost model rather than a single advertised price."
+      ],
+      "table": {
+        "headers": [
+          "Platform",
+          "Cost structure",
+          "Primary advantage",
+          "Primary diligence"
+        ],
+        "rows": [
+          [
+            "XServer Shop",
+            "Setup plus fixed subscription, payment and payout fees",
+            "Managed EC-CUBE and zero platform sales commission",
+            "EC-CUBE compatibility and staffing"
+          ],
+          [
+            "WooCommerce",
+            "WordPress hosting, extensions and payments",
+            "Code, data and extension control",
+            "Maintenance, security and incident ownership"
+          ],
+          [
+            "Wix",
+            "Plan, payments and applications",
+            "Integrated site building and commerce",
+            "Portability, app cost and plan limits"
+          ],
+          [
+            "Shopify",
+            "Plan, payments or transactions, and applications",
+            "Hosted operations, channels and app ecosystem",
+            "Recurring add-ons and platform dependencies"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "XServer Shop cost structure",
+      "body": [
+        "XServer Shop publishes a JPY 11,000 setup fee on each plan and a Basic monthly equivalent from JPY 1,980 on the longest term. The platform sales commission is zero, while the bundled Stripe path and payouts have separate fees.",
+        "Add compatible plugin, template, design, implementation, migration, and ongoing operations. Use the thirty-day trial before choosing a prepaid contract term."
+      ]
+    },
+    {
+      "heading": "Model by sales volume and workflow",
+      "body": [
+        "Use monthly sales, orders, average order value, card share, refunds, payout frequency, applications, development, maintenance, and staffing. Payment costs scale with sales, while payout costs depend partly on frequency.",
+        "At low sales, setup and subscription can dominate. At high sales, variable payment or transaction fees grow. Fixed-fee platforms can still cost more if technical operations require additional personnel or agencies."
+      ]
+    },
+    {
+      "heading": "Maintenance and security ownership",
+      "body": [
+        "XServer Shop manages the base hosting environment and supplied EC-CUBE maintenance, while store operations and detailed EC-CUBE usage remain merchant responsibilities. WooCommerce shifts broader WordPress, server, extension, backup, and security duties to the chosen team and providers.",
+        "Shopify and Wix reduce core infrastructure work but require diligence around applications, themes, data export, account changes, and external integrations.",
+        "Document which party owns tax updates, accessibility checks, fraud review, data retention, customer-service workflows, and incident communications. These operational duties can outweigh a small difference in platform fees, especially when several external applications or agencies are involved."
+      ]
+    },
+    {
+      "heading": "Evaluation checklist",
+      "body": [
+        "Build the same representative catalog and test variants, tax, shipping, payment, refunds, customers, inventory, permissions, CSV, APIs, email, SEO, and exports. Create one annual cost sheet covering every subscription, payment, payout, application, theme, domain, mail, agency, and maintenance item."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does zero platform commission mean no ecommerce fees?",
+      "answer": "No. Payment processing, payouts, applications, hosting, development, and operations can still create material cost."
+    },
+    {
+      "question": "Are fixed-fee platforms always better at scale?",
+      "answer": "No. Technical staffing and maintenance can outweigh lower platform commissions."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer Shop review",
+      "url": "/en/website-builders/xserver-shop-review/",
+      "description": "Review the fixed fee, EC-CUBE environment, and operating constraints"
+    },
+    {
+      "label": "XServer Shop versus Shopify",
+      "url": "/en/website-builders/xserver-shop-vs-shopify/",
+      "description": "Compare managed EC-CUBE and hosted SaaS"
+    },
+    {
+      "label": "WooCommerce review",
+      "url": "/en/website-builders/woocommerce-review/",
+      "description": "Review self-managed WordPress commerce responsibilities"
+    }
+  ]
+}
