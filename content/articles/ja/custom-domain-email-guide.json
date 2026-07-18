@@ -1,0 +1,63 @@
+{
+  "id": "custom-domain-email-guide",
+  "translationKey": "custom-domain-email-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "custom-domain-email-guide",
+  "category": "business-software",
+  "topic": "google-workspace",
+  "badge": "実践ガイド",
+  "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+  "metaTitle": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+  "description": "独自ドメインメールの作成方法、レンタルサーバー、Google Workspace、MX、SPF、DKIM、DMARCを解説します。",
+  "lead": "独自ドメインを使った業務用メールの作成と認証設定を整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Google Workspace",
+      "url": "https://workspace.google.com/"
+    },
+    {
+      "label": "Google Workspace Admin Help",
+      "url": "https://support.google.com/a/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "少人数でWebサイトと一緒に管理するならレンタルサーバーのメール機能、Gmail画面と組織管理を重視するならGoogle Workspaceが候補です。"
+      ]
+    },
+    {
+      "heading": "作成手順",
+      "body": [
+        "ドメイン取得、メールサービス選定、アカウント作成、MX設定、送受信確認、SPF・DKIM・DMARC設定の順に進めます。"
+      ]
+    },
+    {
+      "heading": "メール認証",
+      "body": [
+        "SPFは送信元、DKIMは署名、DMARCは認証失敗時の処理方針を示します。到達率となりすまし対策のため設定します。"
+      ]
+    },
+    {
+      "heading": "運用",
+      "body": [
+        "info、support、contact等を用途別に作り、退職者や共有アドレスの権限を管理します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Gmailで使えますか？",
+      "answer": "Google Workspace、または対応するSMTP・IMAP設定で利用できます。"
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+[
+  {
+    "slug": "chatgpt-vs-claude",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": ["chatgpt", "claude"],
+    "relatedRoutes": [
+      {"category": "ai-tools", "slug": "chatgpt-review", "label": {"ja": "ChatGPTの個別レビュー", "en": "ChatGPT review"}, "description": {"ja": "プランと主要機能を確認", "en": "Review plans and core capabilities"}},
+      {"category": "ai-tools", "slug": "claude-review", "label": {"ja": "Claudeの個別レビュー", "en": "Claude review"}, "description": {"ja": "長文・分析・コード用途を確認", "en": "Review long-context, analysis, and coding workflows"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "ChatGPTとClaudeを比較｜文章・調査・コーディングに向くのはどっち？",
+        "description": "ChatGPTとClaudeの無料版、有料プラン、長文処理、調査、ファイル、コーディング、チーム管理を公式情報で比較します。",
+        "lead": "どちらも汎用AIですが、機能の広がり方と長い作業の進め方が異なります。日常の代表タスクで選びます。",
+        "verdictHeading": "結論：用途の幅と統合機能ならChatGPT、長文の思考と成果物作成ならClaude",
+        "verdict": "画像・データ・調査など多様な作業を一つにまとめたい場合はChatGPT、長い資料を読みながら文章やコードを継続的に仕上げたい場合はClaudeが有力です。",
+        "context": "モデル名だけでなく、必要な機能、利用枠、ファイル形式、チーム管理、データ条件を同じテストで比較してください。",
+        "choiceIntro": "最も頻度の高い3作業を同じ指示・同じ資料で試すと、品質だけでなく修正回数と操作時間の差が分かります。",
+        "chooseFirst": "ChatGPT向き：画像・音声・データ分析・調査など複数用途を一か所へ集約したい",
+        "chooseSecond": "Claude向き：長文読解、構成、執筆、コード、ファイル成果物を連続して進めたい",
+        "chooseAlternative": "別案：Googleサービスとの統合を最優先するならGeminiも同じ条件で試す",
+        "beginnerAnswer": "用途がまだ定まらない初心者には幅広く試せるChatGPT、長い文章や資料中心ならClaudeが理解しやすい場合があります。無料枠で同じ課題を試してください。"
+      },
+      "en": {
+        "title": "ChatGPT vs Claude: Which Is Better for Writing, Research, and Coding?",
+        "description": "Compare ChatGPT and Claude using official information on free access, paid plans, long documents, research, files, coding, and team administration.",
+        "lead": "Both are general-purpose AI assistants, but they organize capabilities and sustained work differently. The right choice depends on your repeatable tasks.",
+        "verdictHeading": "Bottom line: choose ChatGPT for breadth and integrated tools; Claude for sustained long-form work",
+        "verdict": "ChatGPT is the stronger default when you want images, data, research, and several workflows in one product. Claude is compelling when long documents, careful writing, coding, and artifact creation dominate.",
+        "context": "Compare required tools, usage allowances, file formats, team controls, and data terms—not model names alone.",
+        "choiceIntro": "Run your three most frequent tasks with the same prompt and source material, then count revisions and total completion time.",
+        "chooseFirst": "Choose ChatGPT for a broad mix of image, voice, data, research, and general productivity work",
+        "chooseSecond": "Choose Claude for sustained document analysis, writing, coding, and structured deliverables",
+        "chooseAlternative": "Also test Gemini if integration with Google services is the primary requirement",
+        "beginnerAnswer": "ChatGPT can be easier when a beginner wants to explore many use cases, while Claude can feel direct for document-heavy work. Test the same task in both free experiences."
+      }
+    }
+  },
+  {
+    "slug": "chatgpt-vs-gemini",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": ["chatgpt", "gemini"],
+    "relatedRoutes": [
+      {"category": "ai-tools", "slug": "chatgpt-review", "label": {"ja": "ChatGPTの個別レビュー", "en": "ChatGPT review"}, "description": {"ja": "汎用AIとしての機能を確認", "en": "Review its general AI capabilities"}},
+      {"category": "ai-tools", "slug": "gemini-review", "label": {"ja": "Geminiの個別レビュー", "en": "Gemini review"}, "description": {"ja": "Google連携とプランを確認", "en": "Review Google integration and plans"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "ChatGPTとGeminiを比較｜生成AIとGoogle連携で選ぶならどっち？",
+        "description": "ChatGPTとGeminiの無料版、有料プラン、調査、画像、ファイル、Gmail・Docs連携、ストレージを公式情報で比較します。",
+        "lead": "単体で幅広く使うChatGPTと、Googleサービスへ組み込まれるGeminiを、実際の仕事の流れで比べます。",
+        "verdictHeading": "結論：独立したAI作業基盤ならChatGPT、Google中心の仕事ならGemini",
+        "verdict": "AIとの会話から多様な成果物を作る独立した作業基盤を求めるならChatGPT、Gmail・Docs・Driveなど既存のGoogle環境へAIを組み込みたいならGeminiが選びやすいです。",
+        "context": "有料プランはAI利用枠だけでなく、ストレージや既存契約との重複まで含めて年間総額を比較します。",
+        "choiceIntro": "普段使うファイル、メール、文書をどこから取り込み、どこへ戻すかを書き出すと違いが明確になります。",
+        "chooseFirst": "ChatGPT向き：AI専用の作業空間で調査、作成、分析を幅広く進めたい",
+        "chooseSecond": "Gemini向き：Google WorkspaceやGoogle Oneの流れを変えずにAIを使いたい",
+        "chooseAlternative": "別案：長い資料の読解と執筆が中心ならClaudeも比較する",
+        "beginnerAnswer": "Googleサービスを日常的に使う初心者にはGemini、それ以外の幅広い用途を試したい場合はChatGPTが始めやすい傾向です。"
+      },
+      "en": {
+        "title": "ChatGPT vs Gemini: Which AI Fits General Work and Google Workflows?",
+        "description": "Compare ChatGPT and Gemini using official information on free access, paid plans, research, images, files, Gmail and Docs integration, and storage.",
+        "lead": "ChatGPT works as a broad standalone AI workspace, while Gemini is increasingly embedded in Google's services. Compare the end-to-end workflow.",
+        "verdictHeading": "Bottom line: ChatGPT for a standalone AI workspace; Gemini for Google-centered work",
+        "verdict": "Choose ChatGPT when you want a dedicated environment for varied AI deliverables. Choose Gemini when the priority is bringing AI into Gmail, Docs, Drive, and an existing Google account workflow.",
+        "context": "Evaluate paid plans using AI limits, bundled storage, and overlap with subscriptions you already pay for.",
+        "choiceIntro": "Map where your email, documents, and files begin and where final work must be stored; the lower-friction option will become clearer.",
+        "chooseFirst": "Choose ChatGPT for broad research, creation, and analysis in a dedicated AI workspace",
+        "chooseSecond": "Choose Gemini to keep work inside Google Workspace or Google One workflows",
+        "chooseAlternative": "Also compare Claude if long-document reading and writing dominate",
+        "beginnerAnswer": "Gemini can be easier for a beginner already living in Google services. ChatGPT is a flexible starting point for exploring a wider variety of standalone AI tasks."
+      }
+    }
+  },
+  {
+    "slug": "claude-vs-gemini",
+    "category": "ai-tools",
+    "topic": "generative-ai",
+    "products": ["claude", "gemini"],
+    "relatedRoutes": [
+      {"category": "ai-tools", "slug": "claude-review", "label": {"ja": "Claudeの個別レビュー", "en": "Claude review"}, "description": {"ja": "長文・分析用途を確認", "en": "Review long-form and analysis workflows"}},
+      {"category": "ai-tools", "slug": "gemini-review", "label": {"ja": "Geminiの個別レビュー", "en": "Gemini review"}, "description": {"ja": "Google連携を確認", "en": "Review Google integration"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "ClaudeとGeminiを比較｜長文分析とGoogle連携で選ぶなら？",
+        "description": "ClaudeとGeminiの料金、無料版、長文読解、調査、コード、Gmail・Docs連携、チーム機能を公式情報で比較します。",
+        "lead": "長い思考作業に強いClaudeと、Googleの情報環境へ広がるGeminiを、資料の入口と成果物の出口から比較します。",
+        "verdictHeading": "結論：長文の分析・制作ならClaude、Googleの情報を活用するならGemini",
+        "verdict": "資料を読み込み、考えを深め、文章やコードへ仕上げる仕事ではClaudeが有力です。Gmail・Docs・Drive・検索をまたいで作業する場合はGeminiの統合が効きます。",
+        "context": "どちらも機能更新が速いため、記事の比較表より実際のアカウント画面の利用可能機能を優先してください。",
+        "choiceIntro": "長文資料の分析テストと、Googleアプリをまたぐ日常作業テストを別々に行います。",
+        "chooseFirst": "Claude向き：長い資料、文章、コード、成果物を一つの対話で磨きたい",
+        "chooseSecond": "Gemini向き：Gmail・Docs・Drive・検索との接続を最優先したい",
+        "chooseAlternative": "別案：画像・データ・幅広い外部作業も含めるならChatGPTを加える",
+        "beginnerAnswer": "Google環境が中心ならGemini、長文の要約や執筆を中心に始めるならClaudeが分かりやすい選択です。"
+      },
+      "en": {
+        "title": "Claude vs Gemini: Long-Form Analysis or Google Integration?",
+        "description": "Compare Claude and Gemini using official information on pricing, free access, long documents, research, coding, Google app integration, and team features.",
+        "lead": "Claude emphasizes sustained reasoning and creation, while Gemini extends through Google's information environment. Compare both the input and destination of your work.",
+        "verdictHeading": "Bottom line: Claude for long-form analysis and creation; Gemini for Google-connected work",
+        "verdict": "Claude is compelling when the job is to read substantial material and refine writing or code. Gemini becomes attractive when Gmail, Docs, Drive, and Google Search are central to the workflow.",
+        "context": "Both products change quickly, so prioritize the capabilities shown in your actual regional account over an older static feature list.",
+        "choiceIntro": "Run one long-document analysis test and one task spanning several Google apps, then compare friction and revisions.",
+        "chooseFirst": "Choose Claude for sustained work with long documents, writing, code, and structured artifacts",
+        "chooseSecond": "Choose Gemini when Gmail, Docs, Drive, and Google Search integration matters most",
+        "chooseAlternative": "Add ChatGPT to the test if image, data, and a broader standalone workspace are required",
+        "beginnerAnswer": "Gemini is often the simpler fit for someone already centered on Google. Claude can be more direct for a beginner whose main need is document analysis and writing."
+      }
+    }
+  },
+  {
+    "slug": "otter-vs-fireflies",
+    "category": "ai-tools",
+    "topic": "ai-meeting-notes",
+    "products": ["otter", "fireflies"],
+    "relatedRoutes": [
+      {"category": "ai-tools", "slug": "ai-meeting-notes-tools", "label": {"ja": "AI議事録ツールの選び方", "en": "AI meeting-notes tools guide"}, "description": {"ja": "録音・同意・保持条件も含めて比較", "en": "Compare capture, consent, and retention requirements"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "Otter.aiとFireflies.aiを比較｜AI議事録・文字起こしに向くのは？",
+        "description": "Otter.aiとFireflies.aiの無料版、文字起こし、要約、保存容量、CRM連携、会議分析、料金を公式情報で比較します。",
+        "lead": "個人のリアルタイムノートに強いOtter.aiと、チームの会話データ活用へ広がるFireflies.aiを比較します。",
+        "verdictHeading": "結論：リアルタイムの個人ノートならOtter.ai、チーム分析と連携ならFireflies.ai",
+        "verdict": "会議中の文字起こしと個人の検索可能なノートを重視するならOtter.ai、複数会議をチーム知識として集約し、CRMや業務システムへつなぐならFireflies.aiが向きます。",
+        "context": "精度だけでなく、対応言語、ボット参加方式、保存期間、録音同意、AIクレジットを必ず確認します。",
+        "choiceIntro": "同じ30分の会議で話者識別、要約、アクション項目、検索、共有まで試します。",
+        "chooseFirst": "Otter.ai向き：リアルタイム文字起こしと個人の会議ノートを素早く使いたい",
+        "chooseSecond": "Fireflies.ai向き：営業・採用などの会議をチーム横断で検索・分析・連携したい",
+        "chooseAlternative": "別案：ボットを会議へ参加させられない場合はローカル録音方式の製品も検討する",
+        "beginnerAnswer": "個人利用とリアルタイム表示を重視する初心者にはOtter.ai、組織連携を最初から重視する場合はFireflies.aiが比較しやすいです。"
+      },
+      "en": {
+        "title": "Otter.ai vs Fireflies.ai: Which AI Meeting Assistant Fits Your Workflow?",
+        "description": "Compare Otter.ai and Fireflies.ai using official information on free tiers, transcription, summaries, storage, CRM integrations, analytics, and pricing.",
+        "lead": "Otter.ai is oriented toward live notes and individual productivity, while Fireflies.ai extends meeting data across team systems and analytics.",
+        "verdictHeading": "Bottom line: Otter.ai for live individual notes; Fireflies.ai for team intelligence and integrations",
+        "verdict": "Choose Otter.ai when real-time transcription and a searchable personal meeting notebook are central. Choose Fireflies.ai when conversations must feed a team knowledge base, CRM, and analytics workflow.",
+        "context": "Test supported languages, bot behavior, storage, recording consent, retention, and AI-credit billing—not accuracy alone.",
+        "choiceIntro": "Use the same 30-minute meeting to compare speakers, summaries, action items, search, sharing, and downstream integrations.",
+        "chooseFirst": "Choose Otter.ai for quick real-time transcription and individual meeting notes",
+        "chooseSecond": "Choose Fireflies.ai to search, analyze, and route sales, recruiting, or customer meetings across a team",
+        "chooseAlternative": "Consider a bot-free or local-recording product when policy prevents an assistant from joining meetings",
+        "beginnerAnswer": "Otter.ai can be a simpler first step for individual live notes. Fireflies.ai is easier to justify when team-wide integrations are already a requirement."
+      }
+    }
+  },
+  {
+    "slug": "webflow-vs-wix",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": ["webflow", "wix"],
+    "relatedRoutes": [
+      {"category": "website-builders", "slug": "webflow-review", "label": {"ja": "Webflowの個別レビュー", "en": "Webflow review"}, "description": {"ja": "CMSと制作フローを確認", "en": "Review CMS and design workflow"}},
+      {"category": "website-builders", "slug": "wix-review", "label": {"ja": "Wixの個別レビュー", "en": "Wix review"}, "description": {"ja": "事業機能と料金を確認", "en": "Review business features and pricing"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "WebflowとWixを比較｜デザイン自由度・料金・運用の違い",
+        "description": "WebflowとWixの無料版、料金、デザイン、CMS、予約・EC、共同制作、書き出しを公式情報で比較します。",
+        "lead": "制作プロ向けの構造制御が強いWebflowと、事業機能をまとめやすいWixを、公開後の更新まで含めて選びます。",
+        "verdictHeading": "結論：構造とデザイン制御ならWebflow、早い公開と事業機能ならWix",
+        "verdict": "デザイナーが細かなレイアウトとCMS構造を設計するならWebflow、予約・フォーム・店舗などをコードなしで早くまとめるならWixが向きます。",
+        "context": "WebflowはSiteとWorkspace、Wixはサイトプランとアプリを含めた総額で比較します。",
+        "choiceIntro": "制作担当者と更新担当者を分け、公開前と公開後の操作時間をそれぞれ測ります。",
+        "chooseFirst": "Webflow向き：デザインシステム、CMS、制作会社の共同作業を重視",
+        "chooseSecond": "Wix向き：小規模事業サイトを一人でも早く公開し、予約・EC等を追加したい",
+        "chooseAlternative": "別案：テンプレートの統一感を最優先するならSquarespaceも試す",
+        "beginnerAnswer": "一般的な初心者にはWixの方が公開まで進めやすく、WebflowはHTML/CSSの考え方を理解するほど強みが出ます。"
+      },
+      "en": {
+        "title": "Webflow vs Wix: Design Control, Pricing, and Site Operations Compared",
+        "description": "Compare Webflow and Wix using official information on free tiers, pricing, design, CMS, bookings, commerce, collaboration, and export.",
+        "lead": "Webflow offers production-oriented structure and control; Wix makes it easier to assemble business features quickly. Include the post-launch editor in the decision.",
+        "verdictHeading": "Bottom line: Webflow for structure and design control; Wix for fast launch and business features",
+        "verdict": "Webflow fits a designer building a controlled layout system and structured CMS. Wix is usually faster for a small business that wants bookings, forms, or a store without code.",
+        "context": "Budget Webflow site and workspace charges together, and Wix plan plus app costs together.",
+        "choiceIntro": "Separate the builder and content-editor roles, then time both initial production and a routine post-launch update.",
+        "chooseFirst": "Choose Webflow for design systems, structured CMS work, and agency collaboration",
+        "chooseSecond": "Choose Wix to launch a small-business site quickly and add bookings, forms, or commerce",
+        "chooseAlternative": "Also test Squarespace when template consistency is more important than free-form control",
+        "beginnerAnswer": "Wix is generally easier for a first-time site owner. Webflow becomes more rewarding as the user understands HTML and CSS concepts."
+      }
+    }
+  },
+  {
+    "slug": "webflow-vs-squarespace",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": ["webflow", "squarespace"],
+    "relatedRoutes": [
+      {"category": "website-builders", "slug": "webflow-review", "label": {"ja": "Webflowの個別レビュー", "en": "Webflow review"}, "description": {"ja": "デザインとCMSを確認", "en": "Review design and CMS capabilities"}},
+      {"category": "website-builders", "slug": "squarespace-review", "label": {"ja": "Squarespaceの個別レビュー", "en": "Squarespace review"}, "description": {"ja": "テンプレートと事業機能を確認", "en": "Review templates and business features"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "WebflowとSquarespaceを比較｜制作会社・ポートフォリオに向くのは？",
+        "description": "WebflowとSquarespaceの料金、テンプレート、CMS、共同制作、ブログ、予約、EC、移行性を公式情報で比較します。",
+        "lead": "自由に設計するWebflowと、統一されたデザインを早く運用するSquarespaceを比較します。",
+        "verdictHeading": "結論：独自設計とCMSならWebflow、完成度の高いテンプレート運用ならSquarespace",
+        "verdict": "ブランド独自の構造とコンポーネントを作り込むならWebflow、ポートフォリオやサービスサイトを整ったテンプレートで早く公開・更新するならSquarespaceが向きます。",
+        "context": "制作時の自由度だけでなく、担当者が毎月更新できるかを同じサンプルページで確認します。",
+        "choiceIntro": "トップページ制作と、既存ページの文章・画像更新を別テストにします。",
+        "chooseFirst": "Webflow向き：制作会社、デザイナー、構造化CMS、独自アニメーション",
+        "chooseSecond": "Squarespace向き：ポートフォリオ、店舗、サービス事業、少人数更新",
+        "chooseAlternative": "別案：自由配置と予約・アプリの種類を優先するならWixも比較",
+        "beginnerAnswer": "Squarespaceはテンプレートに沿って進めやすく初心者向きです。Webflowは学習が必要ですが、独自設計の自由度が高まります。"
+      },
+      "en": {
+        "title": "Webflow vs Squarespace: Which Fits Agencies and Portfolio Sites?",
+        "description": "Compare Webflow and Squarespace using official information on pricing, templates, CMS, collaboration, blogging, scheduling, commerce, and portability.",
+        "lead": "Webflow rewards custom system design, while Squarespace emphasizes fast operation within a cohesive design language.",
+        "verdictHeading": "Bottom line: Webflow for custom systems and CMS; Squarespace for polished template-led operations",
+        "verdict": "Choose Webflow to build a distinctive component and CMS system. Choose Squarespace to launch and maintain a polished portfolio or service site with fewer design decisions.",
+        "context": "Test not only what the designer can build, but whether the actual editor can complete monthly updates confidently.",
+        "choiceIntro": "Use separate tests for building a new landing page and updating text and media on an existing page.",
+        "chooseFirst": "Choose Webflow for agencies, designers, custom CMS structures, and distinctive interactions",
+        "chooseSecond": "Choose Squarespace for portfolios, shops, service businesses, and lean content teams",
+        "chooseAlternative": "Also compare Wix when free-form placement and a broad app catalog are priorities",
+        "beginnerAnswer": "Squarespace is usually easier when a beginner is comfortable following a template system. Webflow needs more learning but offers greater custom control."
+      }
+    }
+  },
+  {
+    "slug": "shopify-vs-squarespace",
+    "category": "website-builders",
+    "topic": "ecommerce-platform",
+    "products": ["shopify", "squarespace"],
+    "relatedRoutes": [
+      {"category": "website-builders", "slug": "shopify-review", "label": {"ja": "Shopifyの個別レビュー", "en": "Shopify review"}, "description": {"ja": "EC運用と料金を確認", "en": "Review commerce operations and pricing"}},
+      {"category": "website-builders", "slug": "squarespace-review", "label": {"ja": "Squarespaceの個別レビュー", "en": "Squarespace review"}, "description": {"ja": "デザイン・予約・販売を確認", "en": "Review design, scheduling, and selling"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "ShopifyとSquarespaceを比較｜ネットショップとブランドサイトに向くのは？",
+        "description": "ShopifyとSquarespaceの料金、決済、商品・在庫、デザイン、予約、ブログ、アプリ、取引条件を公式情報で比較します。",
+        "lead": "販売業務を中心に据えるShopifyと、ブランド表現とサイト運用をまとめるSquarespaceを比べます。",
+        "verdictHeading": "結論：EC運用と成長ならShopify、ブランドサイトと小規模販売ならSquarespace",
+        "verdict": "商品数、販売チャネル、在庫、注文処理を伸ばすならShopifyが有力です。作品・サービス・予約を魅力的なサイトで少量販売するならSquarespaceが簡潔です。",
+        "context": "基本料金だけでなく、決済・取引、アプリ、テーマ、予約、メールの費用を年間で合算します。",
+        "choiceIntro": "商品登録から購入、返金、在庫変更まで一連の運用を試し、デザイン編集と別に評価します。",
+        "chooseFirst": "Shopify向き：ECが主業務、商品・注文・在庫・販売チャネルを拡張したい",
+        "chooseSecond": "Squarespace向き：ブランドサイトが主で、作品・サービス・予約をシンプルに販売したい",
+        "chooseAlternative": "別案：サイト機能と自由配置を優先するならWixも比較",
+        "beginnerAnswer": "小さな商品数でサイト表現を重視するならSquarespace、最初から本格的な店舗運用を学ぶならShopifyが将来の拡張を見通しやすいです。"
+      },
+      "en": {
+        "title": "Shopify vs Squarespace: Ecommerce Operations or Brand-Led Selling?",
+        "description": "Compare Shopify and Squarespace using official information on pricing, payments, catalog and inventory, design, scheduling, blogging, apps, and transaction terms.",
+        "lead": "Shopify is built around commerce operations; Squarespace combines brand presentation with lighter selling and service workflows.",
+        "verdictHeading": "Bottom line: Shopify for commerce operations and growth; Squarespace for brand sites with lighter selling",
+        "verdict": "Shopify is the clearer choice for growing catalogs, channels, inventory, and order operations. Squarespace is simpler when a polished content or service site sells a smaller range of products, appointments, or creative work.",
+        "context": "Annualize payment and transaction terms, apps, themes, scheduling, and email—not just the platform subscription.",
+        "choiceIntro": "Test the complete path from product creation through checkout, refund, and inventory change, separately from visual page editing.",
+        "chooseFirst": "Choose Shopify when commerce is the core operation and catalog, orders, inventory, or channels will expand",
+        "chooseSecond": "Choose Squarespace when the brand site is primary and selling products, services, or appointments is secondary",
+        "chooseAlternative": "Also compare Wix when broad site features and free-form placement matter more",
+        "beginnerAnswer": "Squarespace can be simpler for a small catalog and brand-led site. Shopify provides a more structured path when the beginner expects serious store operations."
+      }
+    }
+  },
+  {
+    "slug": "wordpress-com-vs-wix",
+    "category": "website-builders",
+    "topic": "website-builder",
+    "products": ["wordpress-com", "wix"],
+    "relatedRoutes": [
+      {"category": "website-builders", "slug": "wordpress-com-review", "label": {"ja": "WordPress.comの個別レビュー", "en": "WordPress.com review"}, "description": {"ja": "マネージドWordPressを確認", "en": "Review managed WordPress"}},
+      {"category": "website-builders", "slug": "wix-review", "label": {"ja": "Wixの個別レビュー", "en": "Wix review"}, "description": {"ja": "サイト作成と事業機能を確認", "en": "Review site building and business features"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "WordPress.comとWixを比較｜ブログ・事業サイトに向くのはどっち？",
+        "description": "WordPress.comとWixの無料版、料金、ブログ、デザイン、プラグイン、予約・EC、バックアップ、移行性を公式情報で比較します。",
+        "lead": "WordPressの公開・拡張モデルを管理付きで使うWordPress.comと、視覚編集と事業機能が一体のWixを比べます。",
+        "verdictHeading": "結論：コンテンツとWordPress拡張ならWordPress.com、視覚編集と事業機能ならWix",
+        "verdict": "記事を蓄積し、WordPressのテーマ・プラグインへ広げたいならWordPress.com、ページを自由に配置し、予約・フォーム・店舗を素早く追加するならWixが向きます。",
+        "context": "WordPress.comはWordPress.orgとは管理範囲が異なり、Wixは他基盤へ完全移行しにくい点を理解して選びます。",
+        "choiceIntro": "記事公開、固定ページ編集、フォーム追加、バックアップ・書き出しを同じ条件で試します。",
+        "chooseFirst": "WordPress.com向き：ブログ、メディア、長期的なコンテンツ蓄積、WordPressの拡張性",
+        "chooseSecond": "Wix向き：小規模事業サイト、自由な視覚編集、予約・店舗などの即時導入",
+        "chooseAlternative": "別案：自社でサーバーを管理できるならWordPress.orgも別枠で比較",
+        "beginnerAnswer": "視覚操作ですぐ公開したい初心者にはWix、ブログを長く育てWordPressを学びたい初心者にはWordPress.comが向きます。"
+      },
+      "en": {
+        "title": "WordPress.com vs Wix: Which Fits Blogs and Small-Business Sites?",
+        "description": "Compare WordPress.com and Wix using official information on free tiers, pricing, blogging, design, plugins, bookings, commerce, backups, and portability.",
+        "lead": "WordPress.com offers managed WordPress publishing and extensibility; Wix integrates visual editing with a broad set of business features.",
+        "verdictHeading": "Bottom line: WordPress.com for content and WordPress extensibility; Wix for visual editing and business features",
+        "verdict": "Choose WordPress.com to build a durable publication and extend it through WordPress themes and plugins. Choose Wix to place pages visually and add bookings, forms, or commerce quickly.",
+        "context": "Understand that WordPress.com differs from self-hosted WordPress.org, while a complete Wix migration to another platform can require rebuilding.",
+        "choiceIntro": "Test article publishing, a static-page edit, a new form, and a backup or export workflow in both products.",
+        "chooseFirst": "Choose WordPress.com for blogs, media, long-term content accumulation, and WordPress extensions",
+        "chooseSecond": "Choose Wix for small-business sites, free-form visual editing, and fast deployment of bookings or stores",
+        "chooseAlternative": "Evaluate self-hosted WordPress.org separately if your team can manage hosting and maintenance",
+        "beginnerAnswer": "Wix is easier for a beginner who wants a visual launch quickly. WordPress.com is a strong starting point for someone building a long-lived blog and learning WordPress."
+      }
+    }
+  },
+  {
+    "slug": "semrush-vs-se-ranking",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": ["semrush", "se-ranking"],
+    "relatedRoutes": [
+      {"category": "seo-marketing", "slug": "semrush-review", "label": {"ja": "Semrushの個別レビュー", "en": "Semrush review"}, "description": {"ja": "マーケティング機能を確認", "en": "Review the marketing platform"}},
+      {"category": "seo-marketing", "slug": "se-ranking-review", "label": {"ja": "SE Rankingの個別レビュー", "en": "SE Ranking review"}, "description": {"ja": "順位計測とレポートを確認", "en": "Review rank tracking and reporting"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "SemrushとSE Rankingを比較｜SEO・順位計測・代理店運用の違い",
+        "description": "SemrushとSE Rankingの料金、順位計測、監査、競合、被リンク、AI検索、レポート、代理店機能を公式情報で比較します。",
+        "lead": "マーケティング全体へ広がるSemrushと、順位計測・レポートの構成を調整しやすいSE Rankingを比較します。",
+        "verdictHeading": "結論：マーケティング機能の幅ならSemrush、順位計測と費用調整ならSE Ranking",
+        "verdict": "SEOだけでなく競合、コンテンツ、広告等を一つの基盤で扱うならSemrush、サイト・キーワード数と更新頻度を調整しながら順位計測と報告を回すならSE Rankingが有力です。",
+        "context": "基本プランだけでなく、AI検索、代理店機能、API、追加ユーザーを同じ見積表に入れます。",
+        "choiceIntro": "同じ3サイトとキーワード群を登録し、監査、順位、競合、レポート作成時間を比較します。",
+        "chooseFirst": "Semrush向き：SEOをマーケティング全体と一体で管理したいチーム",
+        "chooseSecond": "SE Ranking向き：順位計測、定期レポート、代理店運用を費用に合わせて構成したい",
+        "chooseAlternative": "別案：被リンクと深いSEO調査が中心ならAhrefsも比較",
+        "beginnerAnswer": "順位計測と基本監査から始める初心者にはSE Rankingが整理しやすく、複数のマーケティング領域を学ぶ場合はSemrushの幅が役立ちます。"
+      },
+      "en": {
+        "title": "Semrush vs SE Ranking: SEO, Rank Tracking, and Agency Workflows Compared",
+        "description": "Compare Semrush and SE Ranking using official information on pricing, ranks, audits, competitors, backlinks, AI search, reports, and agency features.",
+        "lead": "Semrush extends across marketing functions, while SE Ranking emphasizes configurable rank tracking and reporting capacity.",
+        "verdictHeading": "Bottom line: Semrush for marketing breadth; SE Ranking for configurable tracking and reporting",
+        "verdict": "Choose Semrush when SEO must connect with wider competitor, content, and marketing work. Choose SE Ranking when rank tracking, repeatable reports, and capacity aligned to client or site volume are the priorities.",
+        "context": "Include AI Search, agency features, API access, and extra users in the same cost model as the base plan.",
+        "choiceIntro": "Add the same three sites and keyword set, then compare audit, rank, competitor, and report-production time.",
+        "chooseFirst": "Choose Semrush to manage SEO within a broader marketing platform",
+        "chooseSecond": "Choose SE Ranking to configure rank tracking, recurring reports, and agency capacity around budget",
+        "chooseAlternative": "Also compare Ahrefs when deep backlink and focused SEO research matter most",
+        "beginnerAnswer": "SE Ranking can be more approachable for starting with rankings and audits. Semrush is useful when the beginner intends to learn a broader marketing toolkit."
+      }
+    }
+  },
+  {
+    "slug": "ahrefs-vs-mangools",
+    "category": "seo-marketing",
+    "topic": "seo-tools",
+    "products": ["ahrefs", "mangools"],
+    "relatedRoutes": [
+      {"category": "seo-marketing", "slug": "ahrefs-review", "label": {"ja": "Ahrefsの個別レビュー", "en": "Ahrefs review"}, "description": {"ja": "SEOデータと上限を確認", "en": "Review SEO data and limits"}},
+      {"category": "seo-marketing", "slug": "mangools-review", "label": {"ja": "Mangoolsの個別レビュー", "en": "Mangools review"}, "description": {"ja": "5つのSEOツールを確認", "en": "Review the five-tool suite"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "AhrefsとMangoolsを比較｜SEO初心者・専門家に向くのは？",
+        "description": "AhrefsとMangoolsの料金、キーワード、SERP、順位、被リンク、競合、利用上限、使いやすさを公式情報で比較します。",
+        "lead": "SEOデータを深く調べるAhrefsと、主要作業を分かりやすい5ツールに整理するMangoolsを比較します。",
+        "verdictHeading": "結論：深いSEO・被リンク調査ならAhrefs、分かりやすさと必要十分な調査ならMangools",
+        "verdict": "競合・被リンク・キーワードを専門的に掘り下げるならAhrefs、個人や小規模チームがキーワード、SERP、順位を迷わず進めるならMangoolsが適します。",
+        "context": "検索回数やレポート上限を、実際の週次作業量へ置き換えて比較します。",
+        "choiceIntro": "同じ競合3社、キーワード30件、被リンク候補を調べ、操作数と得られる判断材料を記録します。",
+        "chooseFirst": "Ahrefs向き：SEO専門家、競合・被リンク調査、豊富なデータを重視",
+        "chooseSecond": "Mangools向き：初心者、個人ブログ、小規模事業、分かりやすいキーワード・順位作業",
+        "chooseAlternative": "別案：サイト監査とマーケティング全体も必要ならSemrushを比較",
+        "beginnerAnswer": "一般的な初心者にはMangoolsの分割された画面が理解しやすく、Ahrefsは調査量と専門性が高まるほど価値が出ます。"
+      },
+      "en": {
+        "title": "Ahrefs vs Mangools: Which SEO Suite Fits Beginners and Specialists?",
+        "description": "Compare Ahrefs and Mangools using official information on price, keywords, SERPs, rankings, backlinks, competition, usage limits, and usability.",
+        "lead": "Ahrefs supports deep SEO research, while Mangools divides core work across five more approachable tools.",
+        "verdictHeading": "Bottom line: Ahrefs for deep SEO and backlink research; Mangools for accessible focused work",
+        "verdict": "Choose Ahrefs for specialist competitor, backlink, and keyword research. Choose Mangools when an individual or small team needs clear tools for keywords, SERPs, and rankings without a broad platform.",
+        "context": "Translate search and report allowances into the actual number of weekly tasks your team completes.",
+        "choiceIntro": "Research the same three competitors, 30 keywords, and backlink opportunities, then record actions and decision-ready outputs.",
+        "chooseFirst": "Choose Ahrefs for SEO specialists and deep competitor, backlink, and data work",
+        "chooseSecond": "Choose Mangools for beginners, independent publishers, and small businesses prioritizing clarity",
+        "chooseAlternative": "Also compare Semrush when site audits and broader marketing workflows are required",
+        "beginnerAnswer": "Mangools is generally easier for a beginner because the workflow is separated into focused tools. Ahrefs becomes more valuable as research depth and specialization grow."
+      }
+    }
+  },
+  {
+    "slug": "mailchimp-vs-brevo",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": ["mailchimp", "brevo"],
+    "relatedRoutes": [
+      {"category": "seo-marketing", "slug": "mailchimp-review", "label": {"ja": "Mailchimpの個別レビュー", "en": "Mailchimp review"}, "description": {"ja": "連絡先課金と機能を確認", "en": "Review contact pricing and features"}},
+      {"category": "seo-marketing", "slug": "brevo-review", "label": {"ja": "Brevoの個別レビュー", "en": "Brevo review"}, "description": {"ja": "送信量課金と業務メールを確認", "en": "Review send-volume and transactional workflows"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "MailchimpとBrevoを比較｜料金・連絡先・メール自動化の違い",
+        "description": "MailchimpとBrevoの無料版、連絡先・送信量課金、自動化、CRM、トランザクションメール、SMSを公式情報で比較します。",
+        "lead": "連絡先数を軸に機能が広がるMailchimpと、送信量を軸にマーケティング・業務メールを扱うBrevoを比べます。",
+        "verdictHeading": "結論：テンプレートとマーケティング連携ならMailchimp、大きなリストと送信量管理ならBrevo",
+        "verdict": "豊富なテンプレート、セグメント、EC連携を使うならMailchimp、登録者数が多く送信頻度を調整し、トランザクションメールもまとめたいならBrevoが有力です。",
+        "context": "同じ連絡先数でも課金基準が違うため、12か月のリスト成長と送信予定を表にして見積もります。",
+        "choiceIntro": "現在と1年後の連絡先数、月間配信回数、必要ユーザー、自動化本数で料金を試算します。",
+        "chooseFirst": "Mailchimp向き：EC・マーケティング連携、テンプレート、複数セグメントを重視",
+        "chooseSecond": "Brevo向き：大きな連絡先リスト、送信量中心の費用、業務メール・SMSも必要",
+        "chooseAlternative": "別案：制作者向けの簡潔なニュースレターならMailerLiteも比較",
+        "beginnerAnswer": "テンプレートと連携を触りながら学ぶならMailchimp、料金を送信量で管理したい初心者にはBrevoが分かりやすい場合があります。"
+      },
+      "en": {
+        "title": "Mailchimp vs Brevo: Contact Pricing, Send Volume, and Automation Compared",
+        "description": "Compare Mailchimp and Brevo using official information on free tiers, contact and send-volume pricing, automation, CRM, transactional email, and SMS.",
+        "lead": "Mailchimp scales primarily through contact tiers and marketing features; Brevo emphasizes send volume across marketing and transactional communication.",
+        "verdictHeading": "Bottom line: Mailchimp for templates and marketing integrations; Brevo for larger lists and send-volume control",
+        "verdict": "Choose Mailchimp for a mature template, segmentation, commerce, and integration ecosystem. Choose Brevo when the list is large relative to send frequency or transactional messages need to share the platform.",
+        "context": "Build a 12-month forecast of list growth and sends because the products use different billing logic for the same audience.",
+        "choiceIntro": "Estimate current and year-end contacts, monthly campaigns, required users, and active automations before comparing totals.",
+        "chooseFirst": "Choose Mailchimp for commerce integrations, templates, and mature segmentation workflows",
+        "chooseSecond": "Choose Brevo for large lists, send-volume-oriented cost, and transactional email or SMS",
+        "chooseAlternative": "Also compare MailerLite for a simpler creator-oriented newsletter workflow",
+        "beginnerAnswer": "Mailchimp can be useful for learning through templates and integrations. Brevo may be easier to budget when the beginner understands expected send volume."
+      }
+    }
+  },
+  {
+    "slug": "getresponse-vs-mailerlite",
+    "category": "seo-marketing",
+    "topic": "email-marketing",
+    "products": ["getresponse", "mailerlite"],
+    "relatedRoutes": [
+      {"category": "seo-marketing", "slug": "getresponse-review", "label": {"ja": "GetResponseの個別レビュー", "en": "GetResponse review"}, "description": {"ja": "ファネル・ウェビナーを確認", "en": "Review funnels and webinars"}},
+      {"category": "seo-marketing", "slug": "mailerlite-review", "label": {"ja": "MailerLiteの個別レビュー", "en": "MailerLite review"}, "description": {"ja": "ニュースレターと料金を確認", "en": "Review newsletters and pricing"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "GetResponseとMailerLiteを比較｜メール配信・自動化・販売機能の違い",
+        "description": "GetResponseとMailerLiteの料金、無料版、登録者、自動化、ランディングページ、ファネル、ウェビナー、販売を公式情報で比較します。",
+        "lead": "マーケティング導線を広く作るGetResponseと、簡潔なニュースレター運用に強いMailerLiteを比較します。",
+        "verdictHeading": "結論：ファネル・ウェビナー・販売ならGetResponse、簡潔なニュースレターならMailerLite",
+        "verdict": "メールからファネル、ウェビナー、コースや販売へ広げるならGetResponse、ニュースレター、フォーム、自動化、ランディングページを少ない負担で運用するならMailerLiteが向きます。",
+        "context": "MailerLiteは2026年6月に無料枠が変更されたため、過去記事の上限を使わず現在の料金画面で比較します。",
+        "choiceIntro": "実際の登録フォーム、歓迎メール、3通の自動化、販売ページを両方で作ります。",
+        "chooseFirst": "GetResponse向き：高度な自動化、ファネル、ウェビナー、コンテンツ販売",
+        "chooseSecond": "MailerLite向き：制作者、小規模事業、分かりやすいニュースレター運用",
+        "chooseAlternative": "別案：送信量中心の料金とトランザクションメールならBrevoを比較",
+        "beginnerAnswer": "メール配信をシンプルに始める初心者にはMailerLite、将来ウェビナーやファネルまで一つにまとめたい場合はGetResponseが候補です。"
+      },
+      "en": {
+        "title": "GetResponse vs MailerLite: Email, Automation, and Selling Features Compared",
+        "description": "Compare GetResponse and MailerLite using official information on pricing, free access, subscribers, automation, landing pages, funnels, webinars, and selling.",
+        "lead": "GetResponse builds broader marketing journeys, while MailerLite emphasizes a simpler newsletter and creator workflow.",
+        "verdictHeading": "Bottom line: GetResponse for funnels, webinars, and selling; MailerLite for streamlined newsletters",
+        "verdict": "Choose GetResponse when email must connect to funnels, webinars, courses, or broader selling workflows. Choose MailerLite for a lower-friction newsletter, form, automation, and landing-page operation.",
+        "context": "MailerLite changed its free allowance in June 2026, so use current account limits rather than older comparison articles.",
+        "choiceIntro": "Build the same signup form, welcome email, three-message automation, and sales page in each product.",
+        "chooseFirst": "Choose GetResponse for advanced automation, funnels, webinars, and content monetization",
+        "chooseSecond": "Choose MailerLite for creators and small businesses wanting a direct newsletter workflow",
+        "chooseAlternative": "Also compare Brevo when send-volume pricing and transactional email are priorities",
+        "beginnerAnswer": "MailerLite is generally easier for a beginner starting with newsletters. GetResponse is worth the additional breadth when webinars or funnels are part of the near-term plan."
+      }
+    }
+  },
+  {
+    "slug": "clickup-vs-monday",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": ["clickup", "monday"],
+    "relatedRoutes": [
+      {"category": "business-software", "slug": "clickup-review", "label": {"ja": "ClickUpの個別レビュー", "en": "ClickUp review"}, "description": {"ja": "機能と料金を確認", "en": "Review features and pricing"}},
+      {"category": "business-software", "slug": "monday-review", "label": {"ja": "monday.comの個別レビュー", "en": "monday.com review"}, "description": {"ja": "ボードと業務設計を確認", "en": "Review boards and process design"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "ClickUpとmonday.comを比較｜料金・タスク・業務管理の違い",
+        "description": "ClickUpとmonday.comの無料版、料金、タスク、文書、時間計測、ダッシュボード、自動化、AIを公式情報で比較します。",
+        "lead": "多機能を一つへ集約するClickUpと、業務を視覚的なボードへ落とし込むmonday.comを比較します。",
+        "verdictHeading": "結論：ツール集約と細かな機能ならClickUp、視覚的な業務設計ならmonday.com",
+        "verdict": "タスク、Docs、チャット、時間計測を一つにまとめたいならClickUp、部門の業務手順をボード・列・ダッシュボードで見える化したいならmonday.comが向きます。",
+        "context": "どちらも自由度が高いため、導入前に命名、階層、ステータス、通知の標準ルールを決めます。",
+        "choiceIntro": "同じ案件を作り、登録から週次レポートまでの設定数と操作時間を比べます。",
+        "chooseFirst": "ClickUp向き：複数ツールを統合し、タスク・文書・チャット・時間を一体化",
+        "chooseSecond": "monday.com向き：業務プロセスを視覚化し、部門別にボードとダッシュボードを設計",
+        "chooseAlternative": "別案：責任・期限・依存関係を標準化するならAsanaも比較",
+        "beginnerAnswer": "ClickUpは機能が多く、monday.comは視覚的ですが設定の考え方が必要です。初心者はテンプレートを使い、最小構成で両方を試してください。"
+      },
+      "en": {
+        "title": "ClickUp vs monday.com: Tasks, Pricing, and Work Management Compared",
+        "description": "Compare ClickUp and monday.com using official information on free tiers, pricing, tasks, docs, time, dashboards, automation, and AI.",
+        "lead": "ClickUp consolidates many work tools, while monday.com models departmental processes through visual boards and dashboards.",
+        "verdictHeading": "Bottom line: ClickUp for tool consolidation; monday.com for visual process design",
+        "verdict": "Choose ClickUp to combine tasks, docs, chat, time, and goals in one configurable system. Choose monday.com to represent business processes visually through boards, columns, and cross-board dashboards.",
+        "context": "Both are flexible, so define naming, hierarchy, statuses, and notification standards before rollout.",
+        "choiceIntro": "Build the same project and measure configuration and operating time from intake through the weekly report.",
+        "chooseFirst": "Choose ClickUp to consolidate task, document, chat, and time-tracking tools",
+        "chooseSecond": "Choose monday.com to visualize departmental processes through boards and dashboards",
+        "chooseAlternative": "Also compare Asana when standardized accountability, dates, and dependencies matter most",
+        "beginnerAnswer": "Both require configuration: ClickUp presents more features, while monday.com emphasizes visual building blocks. Start from one template and a minimal workflow in each."
+      }
+    }
+  },
+  {
+    "slug": "trello-vs-asana",
+    "category": "business-software",
+    "topic": "task-management",
+    "products": ["trello", "asana"],
+    "relatedRoutes": [
+      {"category": "business-software", "slug": "trello-review", "label": {"ja": "Trelloの個別レビュー", "en": "Trello review"}, "description": {"ja": "カンバンと料金を確認", "en": "Review Kanban and pricing"}},
+      {"category": "business-software", "slug": "asana-review", "label": {"ja": "Asanaの個別レビュー", "en": "Asana review"}, "description": {"ja": "プロジェクト管理を確認", "en": "Review project management"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "TrelloとAsanaを比較｜初心者・チームのタスク管理に向くのは？",
+        "description": "TrelloとAsanaの無料版、料金、カンバン、タイムライン、依存関係、自動化、複数プロジェクト管理を公式情報で比較します。",
+        "lead": "カードを動かすシンプルなTrelloと、責任・期限・依存関係を構造化するAsanaを比べます。",
+        "verdictHeading": "結論：シンプルなカンバンならTrello、複数プロジェクトと依存関係ならAsana",
+        "verdict": "小規模チームが作業を見える化してすぐ始めるならTrello、担当・期限・依存関係・横断状況を標準化するならAsanaが向きます。",
+        "context": "機能数ではなく、更新が継続できる最小の運用ルールを作れる方を選びます。",
+        "choiceIntro": "日常タスクと複数部署が関わる案件の2種類を作り、情報量が増えたときの見やすさを確認します。",
+        "chooseFirst": "Trello向き：個人・小規模チーム、直感的なカンバン、短い導入時間",
+        "chooseSecond": "Asana向き：複数プロジェクト、依存関係、ポートフォリオ、組織標準",
+        "chooseAlternative": "別案：Wikiとデータベースも必要ならNotionを比較",
+        "beginnerAnswer": "初めてのタスク管理にはTrelloが理解しやすく、業務が複雑になり責任や依存関係が増えるとAsanaの価値が高まります。"
+      },
+      "en": {
+        "title": "Trello vs Asana: Which Task Manager Fits Beginners and Teams?",
+        "description": "Compare Trello and Asana using official information on free tiers, pricing, Kanban, timelines, dependencies, automation, and multi-project work.",
+        "lead": "Trello makes work visible through cards, while Asana structures ownership, dates, dependencies, and cross-project execution.",
+        "verdictHeading": "Bottom line: Trello for simple Kanban; Asana for dependencies and multi-project work",
+        "verdict": "Choose Trello when a small team needs a visible board and a fast start. Choose Asana when the organization must standardize owners, due dates, dependencies, and status across projects.",
+        "context": "Prefer the product whose smallest useful governance rules the team can maintain, rather than the one with the longest feature list.",
+        "choiceIntro": "Create one routine board and one cross-department project, then observe readability as tasks and dependencies increase.",
+        "chooseFirst": "Choose Trello for individuals and small teams needing intuitive Kanban and fast adoption",
+        "chooseSecond": "Choose Asana for multi-project work, dependencies, portfolios, and organization-wide standards",
+        "chooseAlternative": "Also compare Notion when a wiki and flexible databases are required",
+        "beginnerAnswer": "Trello is generally easier for a first task-management system. Asana becomes more valuable as responsibility, dependencies, and project volume grow."
+      }
+    }
+  },
+  {
+    "slug": "notion-vs-clickup",
+    "category": "business-software",
+    "topic": "project-management",
+    "products": ["notion", "clickup"],
+    "relatedRoutes": [
+      {"category": "business-software", "slug": "notion-review", "label": {"ja": "Notionの個別レビュー", "en": "Notion review"}, "description": {"ja": "Wikiとデータベースを確認", "en": "Review wiki and databases"}},
+      {"category": "business-software", "slug": "clickup-review", "label": {"ja": "ClickUpの個別レビュー", "en": "ClickUp review"}, "description": {"ja": "タスクと機能統合を確認", "en": "Review tasks and tool consolidation"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "NotionとClickUpを比較｜情報共有・タスク・プロジェクト管理の違い",
+        "description": "NotionとClickUpの無料版、料金、Wiki、Docs、データベース、タスク、時間計測、自動化、AIを公式情報で比較します。",
+        "lead": "情報を柔軟に組み立てるNotionと、実行管理機能を一つに集めるClickUpを比較します。",
+        "verdictHeading": "結論：Wikiと柔軟な情報設計ならNotion、タスク実行とツール集約ならClickUp",
+        "verdict": "会社の知識、文書、データベースを中心に仕事を設計するならNotion、担当・期限・時間・自動化を細かく管理し、複数ツールを減らすならClickUpが向きます。",
+        "context": "どちらも自由度が高いため、ページ・階層・ステータスの作成権限を決めないと重複が増えます。",
+        "choiceIntro": "議事録からタスク化し、期限更新、進捗報告、検索まで同じ案件で試します。",
+        "chooseFirst": "Notion向き：Wiki、文書、ナレッジ、柔軟なデータベースを中心にしたい",
+        "chooseSecond": "ClickUp向き：担当・期限・時間計測・自動化・チャットを実行管理へまとめたい",
+        "chooseAlternative": "別案：厳密なプロジェクト標準化ならAsanaを比較",
+        "beginnerAnswer": "文書や情報整理から始めるならNotion、最初からタスクと期限を中心に管理するならClickUpが目的を理解しやすいです。"
+      },
+      "en": {
+        "title": "Notion vs ClickUp: Knowledge, Tasks, and Project Management Compared",
+        "description": "Compare Notion and ClickUp using official information on free tiers, pricing, wikis, docs, databases, tasks, time tracking, automation, and AI.",
+        "lead": "Notion lets teams compose an information system; ClickUp concentrates execution and work-management functions in one platform.",
+        "verdictHeading": "Bottom line: Notion for knowledge and flexible information design; ClickUp for execution and consolidation",
+        "verdict": "Choose Notion when company knowledge, writing, and databases define the work. Choose ClickUp when owners, dates, time, automation, and replacing several operational tools are more important.",
+        "context": "Both are flexible, so govern who can create top-level pages, hierarchy, fields, and statuses to prevent duplication.",
+        "choiceIntro": "Use one project from meeting notes through task creation, due-date changes, status reporting, and search.",
+        "chooseFirst": "Choose Notion for wikis, documents, knowledge, and flexible databases",
+        "chooseSecond": "Choose ClickUp to combine ownership, dates, time tracking, automation, and communication around execution",
+        "chooseAlternative": "Also compare Asana when strict project standards and portfolio visibility are required",
+        "beginnerAnswer": "Notion is approachable when the starting need is documents and information. ClickUp is clearer when tasks and deadlines are the immediate center of work."
+      }
+    }
+  },
+  {
+    "slug": "slack-vs-microsoft-teams",
+    "category": "business-software",
+    "topic": "business-chat",
+    "products": ["slack", "microsoft-teams"],
+    "relatedRoutes": [
+      {"category": "business-software", "slug": "slack-guide", "label": {"ja": "Slackの使い方ガイド", "en": "Slack guide"}, "description": {"ja": "チャンネル・履歴・運用を確認", "en": "Review channels, history, and governance"}},
+      {"category": "business-software", "slug": "business-chat-tools-comparison", "label": {"ja": "ビジネスチャット総合比較", "en": "Business chat comparison"}, "description": {"ja": "他のチャット製品も確認", "en": "Compare additional business chat products"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "SlackとMicrosoft Teamsを比較｜チャット・会議・料金の違い",
+        "description": "SlackとMicrosoft Teamsの無料版、料金、履歴、チャンネル、会議、ファイル、外部連携、管理機能を公式情報で比較します。",
+        "lead": "外部アプリとチャンネル中心のSlack、Microsoft 365と会議・ファイルをまとめるTeamsを比較します。",
+        "verdictHeading": "結論：外部ツール連携と会話中心ならSlack、Microsoft 365と会議ならTeams",
+        "verdict": "多数のSaaS通知や外部組織との会話をチャンネルへ集約するならSlack、Outlook・Office・OneDrive・SharePointと会議を一体化するならMicrosoft Teamsが向きます。",
+        "context": "Teamsは単体とMicrosoft 365同梱、Slackは履歴・AI・管理機能のプラン差を含めて比較します。",
+        "choiceIntro": "日常チャット、外部共同作業、会議、ファイル権限、退職者処理を同じシナリオで試します。",
+        "chooseFirst": "Slack向き：多くの外部SaaS、チャンネル文化、社外組織との共同作業",
+        "chooseSecond": "Teams向き：Microsoft 365、会議・通話、Office共同編集、企業管理",
+        "chooseAlternative": "別案：Google Workspace中心の小規模組織はGoogle Chatも比較",
+        "beginnerAnswer": "既にMicrosoft 365を使う組織ならTeams、それ以外で多くのSaaSをつなぐならSlackが導入理由を説明しやすいです。"
+      },
+      "en": {
+        "title": "Slack vs Microsoft Teams: Chat, Meetings, Files, and Pricing Compared",
+        "description": "Compare Slack and Microsoft Teams using official information on free access, pricing, history, channels, meetings, files, integrations, and administration.",
+        "lead": "Slack organizes channels around a broad app ecosystem; Teams joins communication with Microsoft 365 meetings and files.",
+        "verdictHeading": "Bottom line: Slack for conversation and external tools; Teams for Microsoft 365 and meetings",
+        "verdict": "Choose Slack to centralize many SaaS notifications and external conversations in channels. Choose Microsoft Teams to integrate Outlook, Office, OneDrive, SharePoint, meetings, and enterprise administration.",
+        "context": "Compare standalone and Microsoft 365-bundled Teams options, and Slack differences in history, AI, and administration.",
+        "choiceIntro": "Test routine chat, external collaboration, meetings, file permissions, and employee offboarding with the same scenario.",
+        "chooseFirst": "Choose Slack for a broad SaaS ecosystem, channel-centric work, and external organization collaboration",
+        "chooseSecond": "Choose Teams for Microsoft 365, meetings, calling, Office coauthoring, and enterprise controls",
+        "chooseAlternative": "Also compare Google Chat for smaller organizations standardized on Google Workspace",
+        "beginnerAnswer": "Teams is easier to justify when Microsoft 365 is already standard. Slack is often clearer when a team uses many independent SaaS products and channel-based communication."
+      }
+    }
+  },
+  {
+    "slug": "hostinger-vs-siteground",
+    "category": "hosting-security",
+    "topic": "web-hosting",
+    "products": ["hostinger", "siteground"],
+    "relatedRoutes": [
+      {"category": "hosting-security", "slug": "hostinger-review", "label": {"ja": "Hostingerの個別レビュー", "en": "Hostinger review"}, "description": {"ja": "初回・更新価格を確認", "en": "Review introductory and renewal pricing"}},
+      {"category": "hosting-security", "slug": "siteground-review", "label": {"ja": "SiteGroundの個別レビュー", "en": "SiteGround review"}, "description": {"ja": "WordPress管理とサポートを確認", "en": "Review WordPress management and support"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "HostingerとSiteGroundを比較｜WordPress・料金・更新費用の違い",
+        "description": "HostingerとSiteGroundの初回・更新価格、契約期間、WordPress、バックアップ、メール、移行、サポートを公式情報で比較します。",
+        "lead": "低い長期契約価格と一体管理のHostinger、WordPress運用・バックアップ・サポートを重視するSiteGroundを比較します。",
+        "verdictHeading": "結論：初期費用と簡単な一体管理ならHostinger、WordPress運用支援ならSiteGround",
+        "verdict": "長期前払いで初期費用を抑え、サイト・ドメイン・メールをまとめたいならHostinger、日次バックアップ、ステージング、サポートを重視し更新費用を許容できるならSiteGroundが候補です。",
+        "context": "両社とも初回価格と更新価格が大きく異なるため、初年度と更新後2年分を分けて見積もります。",
+        "choiceIntro": "同じWordPressサイトを移行し、バックアップ復元、メール、キャッシュ、サポート問い合わせを試します。",
+        "chooseFirst": "Hostinger向き：初期費用、hPanel、サイト・ドメイン・メールの一体管理",
+        "chooseSecond": "SiteGround向き：日次バックアップ、ステージング、専門サポート、複数サイト運用",
+        "chooseAlternative": "別案：クラウド構成と開発者向け管理ならCloudwaysを比較",
+        "beginnerAnswer": "予算と簡単さを優先する初心者にはHostinger、サポートとWordPress管理機能へ多く支払える初心者にはSiteGroundが候補です。"
+      },
+      "en": {
+        "title": "Hostinger vs SiteGround: WordPress, Intro Pricing, and Renewals Compared",
+        "description": "Compare Hostinger and SiteGround using official information on introductory and renewal pricing, terms, WordPress, backups, email, migration, and support.",
+        "lead": "Hostinger emphasizes low introductory cost and unified management; SiteGround emphasizes managed WordPress operations, backups, and support.",
+        "verdictHeading": "Bottom line: Hostinger for low initial cost; SiteGround for managed WordPress operations",
+        "verdict": "Choose Hostinger to lower the initial multi-year cost and centralize sites, domains, and email. Choose SiteGround when daily backups, staging, and managed support justify a higher renewal budget.",
+        "context": "Both use introductory discounts that differ sharply from renewal rates, so model the first year and the following two years separately.",
+        "choiceIntro": "Migrate the same WordPress sample and test restore, email, caching, and a support interaction.",
+        "chooseFirst": "Choose Hostinger for initial cost, hPanel, and unified site, domain, and email management",
+        "chooseSecond": "Choose SiteGround for daily backups, staging, specialist support, and multi-site operations",
+        "chooseAlternative": "Also compare Cloudways when cloud configuration and developer control are required",
+        "beginnerAnswer": "Hostinger is often easier to budget for a cost-conscious beginner. SiteGround can suit a beginner willing to pay more at renewal for managed WordPress operations and support."
+      }
+    }
+  },
+  {
+    "slug": "cloudways-vs-kinsta",
+    "category": "hosting-security",
+    "topic": "managed-wordpress",
+    "products": ["cloudways", "kinsta"],
+    "relatedRoutes": [
+      {"category": "hosting-security", "slug": "cloudways-review", "label": {"ja": "Cloudwaysの個別レビュー", "en": "Cloudways review"}, "description": {"ja": "クラウド基盤と管理を確認", "en": "Review cloud infrastructure and administration"}},
+      {"category": "hosting-security", "slug": "kinsta-review", "label": {"ja": "Kinstaの個別レビュー", "en": "Kinsta review"}, "description": {"ja": "マネージドWordPressを確認", "en": "Review managed WordPress hosting"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "CloudwaysとKinstaを比較｜マネージドWordPressの料金・管理の違い",
+        "description": "CloudwaysとKinstaの料金体系、クラウド基盤、サイト上限、バックアップ、移行、ステージング、サポートを公式情報で比較します。",
+        "lead": "クラウド構成を選ぶCloudwaysと、WordPress運用をパッケージ化するKinstaを比較します。",
+        "verdictHeading": "結論：構成の自由度と複数サイトならCloudways、WordPress専用の簡潔な運用ならKinsta",
+        "verdict": "基盤・サーバーサイズを選び複数アプリを運用するならCloudways、WordPressの移行、監視、バックアップ、サポートを分かりやすいプランで任せるならKinstaが向きます。",
+        "context": "Cloudwaysはサーバー単位、Kinstaはサイト・訪問・容量等の上限を軸に費用を比較します。",
+        "choiceIntro": "同じサイトをステージングへ移行し、復元、性能確認、権限追加、障害時の問い合わせを試します。",
+        "chooseFirst": "Cloudways向き：開発者・制作会社、クラウド選択、複数サイト・アプリ、柔軟なサーバー構成",
+        "chooseSecond": "Kinsta向き：WordPress専用、運用負荷削減、移行・監視・専門サポート",
+        "chooseAlternative": "別案：制作ワークフローとWordPress製品群ならWP Engineも比較",
+        "beginnerAnswer": "一般的な初心者にはWordPress専用のKinstaが理解しやすく、Cloudwaysはサーバーとアプリの関係を理解する利用者向けです。"
+      },
+      "en": {
+        "title": "Cloudways vs Kinsta: Managed WordPress Pricing and Administration Compared",
+        "description": "Compare Cloudways and Kinsta using official information on pricing models, cloud infrastructure, site limits, backups, migration, staging, and support.",
+        "lead": "Cloudways lets operators choose cloud configuration; Kinsta packages a more focused managed WordPress operation.",
+        "verdictHeading": "Bottom line: Cloudways for configuration and multiple sites; Kinsta for focused WordPress operations",
+        "verdict": "Choose Cloudways to select infrastructure and server size for multiple sites or applications. Choose Kinsta to package WordPress migration, monitoring, backups, and specialist support into a more opinionated service.",
+        "context": "Model Cloudways at the server level and Kinsta through site, visit, storage, and other plan allowances.",
+        "choiceIntro": "Move the same sample site into staging, then test restore, performance checks, user access, and an incident-support scenario.",
+        "chooseFirst": "Choose Cloudways for developers, agencies, cloud choice, multi-site operation, and configurable servers",
+        "chooseSecond": "Choose Kinsta for WordPress-only operations, lower administrative load, migration, monitoring, and focused support",
+        "chooseAlternative": "Also compare WP Engine for a managed WordPress platform tied to a broader product and agency workflow",
+        "beginnerAnswer": "Kinsta is generally easier for a beginner because the service is WordPress-focused. Cloudways suits someone comfortable reasoning about servers and applications."
+      }
+    }
+  },
+  {
+    "slug": "1password-vs-bitwarden",
+    "category": "hosting-security",
+    "topic": "password-manager",
+    "products": ["1password", "bitwarden"],
+    "relatedRoutes": [
+      {"category": "hosting-security", "slug": "1password-review", "label": {"ja": "1Passwordの個別レビュー", "en": "1Password review"}, "description": {"ja": "個人・家族・企業機能を確認", "en": "Review personal, family, and business features"}},
+      {"category": "hosting-security", "slug": "bitwarden-review", "label": {"ja": "Bitwardenの個別レビュー", "en": "Bitwarden review"}, "description": {"ja": "無料版とセルフホストを確認", "en": "Review free tier and self-hosting"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "1PasswordとBitwardenを比較｜無料版・家族・企業利用の違い",
+        "description": "1PasswordとBitwardenの料金、無料版、共有、パスキー、2要素認証、企業管理、セルフホスト、復旧を公式情報で比較します。",
+        "lead": "使いやすい有料中心の1Passwordと、充実した無料版・オープンソースのBitwardenを比較します。",
+        "verdictHeading": "結論：使いやすさと企業導入なら1Password、無料版と柔軟性ならBitwarden",
+        "verdict": "家族・企業での導入体験、共有、管理、開発者連携を重視するなら1Password、無料で複数端末を使い、オープンソースやセルフホストの選択肢を求めるならBitwardenが有力です。",
+        "context": "暗号方式の単純比較ではなく、復旧、退職者処理、共有解除、監査、緊急時手順を実際に試します。",
+        "choiceIntro": "個人Vault、家族または組織共有、端末追加、アカウント復旧、退職者削除をテストします。",
+        "chooseFirst": "1Password向き：洗練された操作、Families、Business管理、Secret Key、開発者連携",
+        "chooseSecond": "Bitwarden向き：強力な無料版、オープンソース、低価格、セルフホスト選択肢",
+        "chooseAlternative": "別案：企業のPAMや特権アクセスまで必要ならKeeperも比較",
+        "beginnerAnswer": "無料で始めたい初心者にはBitwarden、有料でも導入ガイドと一貫した操作を重視する初心者には1Passwordが候補です。"
+      },
+      "en": {
+        "title": "1Password vs Bitwarden: Free, Family, and Business Use Compared",
+        "description": "Compare 1Password and Bitwarden using official information on pricing, free access, sharing, passkeys, 2FA, business administration, self-hosting, and recovery.",
+        "lead": "1Password emphasizes a polished paid experience, while Bitwarden combines a capable free tier with open-source and self-hosting options.",
+        "verdictHeading": "Bottom line: 1Password for polished adoption and business controls; Bitwarden for free value and flexibility",
+        "verdict": "Choose 1Password for a guided family or business experience, sharing, administration, and developer integration. Choose Bitwarden for a strong free tier, open-source clients, lower-cost upgrades, or self-hosting flexibility.",
+        "context": "Do not compare encryption claims alone; test recovery, offboarding, revoked sharing, audit, and emergency procedures.",
+        "choiceIntro": "Test a personal vault, family or organization sharing, a new device, account recovery, and employee offboarding.",
+        "chooseFirst": "Choose 1Password for polished UX, Families, Business controls, Secret Key, and developer integrations",
+        "chooseSecond": "Choose Bitwarden for its free tier, open-source model, value, and self-hosting option",
+        "chooseAlternative": "Also compare Keeper when privileged-access and wider enterprise security are required",
+        "beginnerAnswer": "Bitwarden is an accessible starting point when free use matters. 1Password suits a beginner willing to pay for a more guided and consistent family or business experience."
+      }
+    }
+  },
+  {
+    "slug": "nordpass-vs-keeper",
+    "category": "hosting-security",
+    "topic": "password-manager",
+    "products": ["nordpass", "keeper"],
+    "relatedRoutes": [
+      {"category": "hosting-security", "slug": "nordpass-review", "label": {"ja": "NordPassの個別レビュー", "en": "NordPass review"}, "description": {"ja": "個人・Business機能を確認", "en": "Review personal and business features"}},
+      {"category": "hosting-security", "slug": "keeper-review", "label": {"ja": "Keeperの個別レビュー", "en": "Keeper review"}, "description": {"ja": "企業管理と追加機能を確認", "en": "Review enterprise controls and add-ons"}}
+    ],
+    "locales": {
+      "ja": {
+        "title": "NordPassとKeeperを比較｜個人・企業のパスワード管理に向くのは？",
+        "description": "NordPassとKeeperの料金、無料版、共有、侵害監視、SSO、SCIM、監査、PAM・追加機能を公式情報で比較します。",
+        "lead": "導入しやすい個人・チーム向けのNordPassと、企業統制や特権アクセスへ広がるKeeperを比較します。",
+        "verdictHeading": "結論：簡単な導入と小規模チームならNordPass、企業統制と拡張ならKeeper",
+        "verdict": "個人や小規模チームが保存・共有・侵害監視を分かりやすく始めるならNordPass、RBAC、監査、プロビジョニング、PAMやSecrets Managerへ広げるならKeeperが向きます。",
+        "context": "Keeperは追加機能、NordPassは契約期間・最低人数を含めて総額を比較します。",
+        "choiceIntro": "共有フォルダ、入退社、SSO、監査レポート、緊急アクセスの運用を両方で確認します。",
+        "chooseFirst": "NordPass向き：個人、小規模チーム、簡単な導入、基本的な企業共有と監視",
+        "chooseSecond": "Keeper向き：大規模組織、細かな権限、監査、PAM・シークレット管理への拡張",
+        "chooseAlternative": "別案：オープンソースや無料版を重視するならBitwardenを比較",
+        "beginnerAnswer": "個人・小規模導入の初心者にはNordPass、企業セキュリティ担当が将来の統制拡張まで見るならKeeperが分かりやすいです。"
+      },
+      "en": {
+        "title": "NordPass vs Keeper: Password Management for Individuals and Businesses",
+        "description": "Compare NordPass and Keeper using official information on pricing, free access, sharing, breach monitoring, SSO, SCIM, audit, PAM, and add-ons.",
+        "lead": "NordPass emphasizes approachable personal and team deployment; Keeper extends into deeper enterprise governance and privileged access.",
+        "verdictHeading": "Bottom line: NordPass for straightforward smaller-team adoption; Keeper for governance and expansion",
+        "verdict": "Choose NordPass when an individual or smaller team needs accessible saving, sharing, and breach monitoring. Choose Keeper when RBAC, audit, provisioning, PAM, or secrets management are part of the roadmap.",
+        "context": "Include Keeper add-ons in its total and NordPass commitment term and minimum-seat rules in its total.",
+        "choiceIntro": "Test shared folders, onboarding and offboarding, SSO, audit reports, and emergency access in both environments.",
+        "chooseFirst": "Choose NordPass for individuals, small teams, accessible deployment, and core business sharing",
+        "chooseSecond": "Choose Keeper for larger organizations, granular roles, audit, and expansion into PAM or secrets management",
+        "chooseAlternative": "Also compare Bitwarden when open-source software or a strong free tier is a priority",
+        "beginnerAnswer": "NordPass is generally easier for a personal or small-team beginner. Keeper is clearer when a security administrator already expects advanced governance requirements."
+      }
+    }
+  }
+]

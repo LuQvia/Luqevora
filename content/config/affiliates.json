@@ -1,0 +1,8 @@
+{
+  "links": {},
+  "rules": {
+    "sponsoredLabel": {"ja":"広告・アフィリエイトを含みます","en":"Contains affiliate links"},
+    "defaultRel": "sponsored nofollow noopener",
+    "externalTarget": "_blank"
+  }
+}

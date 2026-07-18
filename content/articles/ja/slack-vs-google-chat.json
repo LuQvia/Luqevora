@@ -1,0 +1,63 @@
+{
+  "id": "slack-vs-google-chat",
+  "translationKey": "slack-vs-google-chat",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "slack-vs-google-chat",
+  "category": "business-software",
+  "topic": "business-chat",
+  "badge": "比較記事",
+  "title": "SlackとGoogle Chatを比較｜料金・機能・連携の違い【2026年版】",
+  "metaTitle": "SlackとGoogle Chatを比較｜料金・機能・連携の違い【2026年版】",
+  "description": "SlackとGoogle Chatを履歴、外部連携、会議、ファイル共有、管理機能、既存ツールとの相性で比較します。",
+  "lead": "SlackとGoogle Chatを現在の業務基盤に合わせて比較します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Slack Pricing",
+      "url": "https://slack.com/intl/ja-jp/pricing"
+    },
+    {
+      "label": "Google Chat",
+      "url": "https://workspace.google.com/products/chat/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "外部アプリ連携、Slack Connect、自動化ならSlack、Gmail・Drive・Meet・管理コンソール統合ならGoogle Chatが候補です。"
+      ]
+    },
+    {
+      "heading": "料金",
+      "body": [
+        "Slackはチャット単体のプラン、Google ChatはGoogle Workspace全体の料金として評価します。"
+      ]
+    },
+    {
+      "heading": "ファイル",
+      "body": [
+        "Slackは外部ストレージ連携、Google ChatはDriveとの標準統合が強みです。正式ファイルはチャット外のストレージへ保存します。"
+      ]
+    },
+    {
+      "heading": "併用",
+      "body": [
+        "併用すると情報分散と二重管理が起きやすいため、用途を明確に分けられない場合は一方へ統一します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Google Workspace利用中でもSlackは必要ですか？",
+      "answer": "外部SaaS連携や社外共同作業が多い場合は検討価値があります。"
+    }
+  ]
+}

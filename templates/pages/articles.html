@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="alternate" type="application/rss+xml" title="Luqevora {{lang}}" href="/feed-{{lang}}.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Luqevora">
+  <meta property="og:title" content="{{metaTitle}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="{{metaTitle}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{metaTitle}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{metaTitle}}">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0B1F44">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4.5.0">
+  <script type="application/ld+json">{{structuredData}}</script>
+  <script defer src="/assets/js/analytics-v4.5.0.js"></script>
+  <script defer src="/assets/js/main-v4.5.0.js"></script>
+  <script defer src="/assets/js/article-directory-v4.5.0.js"></script>
+</head>
+<body>
+{{header}}
+<main id="main">
+  <section class="page-hero directory-hero"><div class="container">
+    <nav aria-label="{{breadcrumbAriaLabel}}" class="breadcrumb"><a href="/{{lang}}/">Luqevora</a><span>/</span><span>{{breadcrumbCurrent}}</span></nav>
+    <span class="eyebrow">{{eyebrow}}</span>
+    <h1>{{title}}</h1>
+    <p class="page-lead">{{lead}}</p>
+  </div></section>
+  <section class="content-section"><div class="container">
+    <div class="article-filter-panel" role="search">
+      <label class="directory-search"><span>{{searchLabel}}</span><input autocomplete="off" data-article-search placeholder="{{searchPlaceholder}}" type="search"></label>
+      <label><span>{{categoryFilterLabel}}</span><select data-article-category>{{categoryOptions}}</select></label>
+      <label><span>{{typeFilterLabel}}</span><select data-article-type>{{typeOptions}}</select></label>
+      <button class="btn btn-secondary filter-reset" data-article-reset type="button">{{resetLabel}}</button>
+    </div>
+    <div aria-live="polite" class="directory-summary"><strong data-article-count>{{articleCount}}</strong> {{articleCountLabel}}</div>
+    <div class="grid article-directory-grid" data-article-list>{{articleCards}}</div>
+    <p class="directory-empty" data-article-empty hidden>{{emptyLabel}}</p>
+  </div></section>
+</main>
+{{footer}}
+</body>
+</html>

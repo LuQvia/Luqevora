@@ -1,0 +1,86 @@
+[
+  {
+    "id": "generative-ai",
+    "aliases": ["generative-ai", "ai-writing"],
+    "category": "ai-tools",
+    "name": {"ja": "生成AI・AI文章作成", "en": "Generative AI & Writing"},
+    "description": {"ja": "生成AIを、料金、モデル、データ利用、業務への適合性から比較します。", "en": "Compare generative AI tools by pricing, models, data handling, and workflow fit."}
+  },
+  {
+    "id": "ai-meeting-notes",
+    "aliases": ["ai-meeting-notes"],
+    "category": "ai-tools",
+    "name": {"ja": "AI議事録・文字起こし", "en": "AI Meeting Notes"},
+    "description": {"ja": "会議録画、文字起こし、要約、連携、データ管理の違いを整理します。", "en": "Compare recording, transcription, summaries, integrations, and data controls."}
+  },
+  {
+    "id": "website-builders",
+    "aliases": ["website-builder", "website-builders", "wordpress"],
+    "category": "website-builders",
+    "name": {"ja": "ホームページ作成", "en": "Website Builders"},
+    "description": {"ja": "公開方法、独自ドメイン、CMS、移行性からサイト作成サービスを比較します。", "en": "Compare site builders by publishing workflow, domains, CMS features, and portability."}
+  },
+  {
+    "id": "ecommerce-platforms",
+    "aliases": ["ecommerce-platform"],
+    "category": "website-builders",
+    "name": {"ja": "EC・ネットショップ", "en": "Ecommerce Platforms"},
+    "description": {"ja": "決済、商品管理、販売手数料、拡張性からEC基盤を比較します。", "en": "Compare ecommerce platforms by payments, catalog operations, fees, and extensibility."}
+  },
+  {
+    "id": "seo-tools",
+    "aliases": ["seo-tools"],
+    "category": "seo-marketing",
+    "name": {"ja": "SEO・検索可視性ツール", "en": "SEO & Search Visibility"},
+    "description": {"ja": "キーワード、順位、競合、サイト診断、AI検索可視性を同じ軸で比較します。", "en": "Compare keyword, ranking, competitor, audit, and AI-search visibility workflows."}
+  },
+  {
+    "id": "email-marketing",
+    "aliases": ["email-marketing"],
+    "category": "seo-marketing",
+    "name": {"ja": "メールマーケティング", "en": "Email Marketing"},
+    "description": {"ja": "連絡先課金、送信上限、自動化、フォーム、EC連携から比較します。", "en": "Compare contact billing, send limits, automation, forms, and ecommerce integrations."}
+  },
+  {
+    "id": "affiliate-marketing",
+    "aliases": ["affiliate-marketing", "content-monetization"],
+    "category": "seo-marketing",
+    "name": {"ja": "アフィリエイト・収益化", "en": "Affiliate & Content Monetization"},
+    "description": {"ja": "審査、広告選定、開示、コンテンツ収益化の実務を整理します。", "en": "Understand approvals, advertiser selection, disclosure, and sustainable content monetization."}
+  },
+  {
+    "id": "project-management",
+    "aliases": ["project-management", "task-management"],
+    "category": "business-software",
+    "name": {"ja": "プロジェクト・タスク管理", "en": "Project & Task Management"},
+    "description": {"ja": "タスク、依存関係、権限、自動化、レポートの違いを比較します。", "en": "Compare tasks, dependencies, permissions, automation, and reporting."}
+  },
+  {
+    "id": "team-collaboration",
+    "aliases": ["business-chat", "video-meetings", "google-workspace", "productivity-suite", "business-email", "calendar", "cloud-storage"],
+    "category": "business-software",
+    "name": {"ja": "チーム共同作業", "en": "Team Collaboration"},
+    "description": {"ja": "チャット、会議、ファイル、メール、予定管理を一体で整理します。", "en": "Compare chat, meetings, files, email, calendars, and collaboration administration."}
+  },
+  {
+    "id": "web-hosting",
+    "aliases": ["web-hosting", "managed-wordpress", "managed-cloud", "vps", "domain-hosting", "domains"],
+    "category": "hosting-security",
+    "name": {"ja": "レンタルサーバー・WordPress", "en": "Web & WordPress Hosting"},
+    "description": {"ja": "初回・更新料金、性能、バックアップ、移行、サポートを比較します。", "en": "Compare introductory and renewal pricing, performance, backups, migration, and support."}
+  },
+  {
+    "id": "vpn-security",
+    "aliases": ["vpn-services"],
+    "category": "hosting-security",
+    "name": {"ja": "VPN・通信セキュリティ", "en": "VPN & Connection Security"},
+    "description": {"ja": "対応端末、契約期間、更新、管理、プライバシー機能を比較します。", "en": "Compare device support, contract terms, renewals, administration, and privacy features."}
+  },
+  {
+    "id": "password-managers",
+    "aliases": ["password-managers", "password-manager"],
+    "category": "hosting-security",
+    "name": {"ja": "パスワード管理", "en": "Password Managers"},
+    "description": {"ja": "共有、権限、SSO、復旧、監査、料金をチーム利用の視点で比較します。", "en": "Compare sharing, permissions, SSO, recovery, audit controls, and team pricing."}
+  }
+]

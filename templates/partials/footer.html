@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/{{lang}}/">
+          <img alt="" decoding="async" height="384" loading="lazy" src="/assets/images/logo-icon.webp" width="384">
+          <span class="brand-light">Luqevora</span>
+        </a>
+        <p>{{footerDescription}}</p>
+        <p class="operator-label">{{operatorLabel}}</p>
+        <p class="footer-contact"><a href="mailto:info@luqevora.com">info@luqevora.com</a></p>
+      </div>
+      <div><div class="footer-title">{{categoryTitle}}</div><div class="footer-links">{{footerCategoryLinks}}</div></div>
+      <div><div class="footer-title">{{informationTitle}}</div><div class="footer-links">{{footerInformationLinks}}</div></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{year}} Luqevora. All rights reserved.</span>
+      <span>{{footerTagline}}</span>
+      <button class="footer-cookie-button" data-consent-settings hidden type="button">{{cookieSettingsLabel}}</button>
+    </div>
+  </div>
+</footer>
+<section aria-label="{{cookieAriaLabel}}" aria-live="polite" class="cookie-banner" hidden>
+  <p>{{cookieText}} <a class="privacy-link" href="/{{lang}}/privacy/">{{cookieDetailsLabel}}</a></p>
+  <div class="cookie-actions">
+    <button class="cookie-decline" data-consent-decline type="button">{{cookieDeclineLabel}}</button>
+    <button class="cookie-accept" data-consent-accept type="button">{{cookieAcceptLabel}}</button>
+  </div>
+</section>

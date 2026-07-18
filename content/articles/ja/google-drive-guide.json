@@ -1,0 +1,63 @@
+{
+  "id": "google-drive-guide",
+  "translationKey": "google-drive-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "google-drive-guide",
+  "category": "business-software",
+  "topic": "google-workspace",
+  "badge": "実践ガイド",
+  "title": "Google Driveとは？使い方・料金・共有方法を初心者向けに解説",
+  "metaTitle": "Google Driveとは？使い方・料金・共有方法を初心者向けに解説",
+  "description": "Google Driveの保存、共有、権限、同期、Google One、Google Workspace、共有ドライブを解説します。",
+  "lead": "Google Driveの基本操作と安全な共有方法を整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Google Drive Help",
+      "url": "https://support.google.com/drive/"
+    },
+    {
+      "label": "Google One",
+      "url": "https://one.google.com/about/plans"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "個人では無料容量から利用でき、法人ではGoogle Workspaceの共有ドライブと管理機能を使うと組織所有で管理しやすくなります。"
+      ]
+    },
+    {
+      "heading": "基本機能",
+      "body": [
+        "ファイル保存、フォルダ、共有、共同編集、検索、スマートフォン、Drive for desktopによる同期に対応します。"
+      ]
+    },
+    {
+      "heading": "共有権限",
+      "body": [
+        "閲覧、コメント、編集を必要最小限で付与し、機密資料はリンクを知っている全員ではなく特定ユーザーへ共有します。"
+      ]
+    },
+    {
+      "heading": "法人運用",
+      "body": [
+        "個人のマイドライブではなく共有ドライブを基本とし、退職者アカウント、所有権、外部共有を管理します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "無料容量は何GBですか？",
+      "answer": "Googleアカウントの保存容量はDrive、Gmail、Googleフォトで共有されます。最新容量は公式ページを確認してください。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="alternate" type="application/rss+xml" title="Luqevora {{lang}}" href="/feed-{{lang}}.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Luqevora">
+  <meta property="og:title" content="{{metaTitle}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="{{metaTitle}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{metaTitle}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{metaTitle}}">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0B1F44">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4.5.0">
+  <script type="application/ld+json">{{structuredData}}</script>
+  <script defer src="/assets/js/analytics-v4.5.0.js"></script>
+  <script defer src="/assets/js/main-v4.5.0.js"></script>
+</head>
+<body>
+{{header}}
+<main id="main">
+  <section class="hero"><div class="container hero-grid"><div><span class="eyebrow">{{homeEyebrow}}</span><h1>{{heroTitle}}</h1><p class="hero-copy">{{heroText}}</p><form action="/{{lang}}/articles/" aria-label="{{homeSearchAriaLabel}}" class="home-search" method="get" role="search"><label for="home-search-{{lang}}">{{homeSearchLabel}}</label><div><input id="home-search-{{lang}}" name="q" placeholder="{{homeSearchPlaceholder}}" type="search"><button class="btn btn-primary" type="submit">{{homeSearchButton}}</button></div></form><div class="actions"><a class="btn btn-secondary" href="/{{lang}}/articles/">{{browseLabel}}</a><a class="btn btn-secondary" href="/{{lang}}/editorial-policy/">{{methodLabel}}</a></div></div><aside class="hero-card"><img alt="" decoding="async" fetchpriority="high" height="512" src="/assets/images/social-icon.webp" width="512"><h2>{{heroCardTitle}}</h2><ul class="check-list">{{heroChecks}}</ul></aside></div></section>
+  <section aria-label="{{coverageAriaLabel}}" class="trust-strip"><div class="container trust-grid site-stats"><div class="trust-item"><strong data-home-article-count>{{articleCount}}</strong><span>{{articleCountLabel}}</span></div><div class="trust-item"><strong>{{categoryCount}}</strong><span>{{categoryCountLabel}}</span></div><div class="trust-item"><strong>JA / EN</strong><span>{{languageLabel}}</span></div><div class="trust-item"><strong>{{officialBadge}}</strong><span>{{officialLabel}}</span></div></div></section>
+  <section class="section" id="categories"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{categoriesEyebrow}}</span><h2>{{categoriesTitle}}</h2></div><p>{{categoriesLead}}</p></div><div class="grid category-grid category-grid-balanced">{{categoryCards}}</div></div></section>
+  <section class="section section-white" id="topics"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{topicsEyebrow}}</span><h2>{{topicsTitle}}</h2></div><p>{{topicsLead}}</p></div><div class="topic-link-grid">{{topicLinks}}</div><div class="section-action"><a class="btn btn-secondary" href="/{{lang}}/topics/">{{allTopicsLabel}}</a></div></div></section>
+  <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{comparisonsEyebrow}}</span><h2>{{comparisonsTitle}}</h2></div><p>{{comparisonsLead}}</p></div><div class="grid article-directory-grid home-featured-grid">{{comparisonCards}}</div><div class="section-action"><a class="btn btn-secondary" href="/{{lang}}/articles/?type=comparison">{{allComparisonsLabel}}</a></div></div></section>
+  <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{reviewsEyebrow}}</span><h2>{{reviewsTitle}}</h2></div><p>{{reviewsLead}}</p></div><div class="grid article-directory-grid">{{reviewCards}}</div><div class="section-action"><a class="btn btn-secondary" href="/{{lang}}/articles/?type=review">{{allReviewsLabel}}</a></div></div></section>
+  <section class="section section-white"><div class="container"><div class="transparency"><div><span class="eyebrow eyebrow-teal">{{transparencyEyebrow}}</span><h2>{{transparencyTitle}}</h2><p>{{transparencyText}}</p></div><ul class="check-list">{{transparencyChecks}}</ul></div></div></section>
+</main>
+{{footer}}
+</body>
+</html>

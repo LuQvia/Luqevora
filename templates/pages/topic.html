@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="alternate" type="application/rss+xml" title="Luqevora {{lang}}" href="/feed-{{lang}}.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Luqevora">
+  <meta property="og:title" content="{{metaTitle}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="{{metaTitle}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{metaTitle}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{metaTitle}}">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0B1F44">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4.5.0">
+  <script type="application/ld+json">{{structuredData}}</script>
+  <script defer src="/assets/js/analytics-v4.5.0.js"></script>
+  <script defer src="/assets/js/main-v4.5.0.js"></script>
+</head>
+<body>
+{{header}}
+<main id="main">
+  <section class="page-hero topic-hero"><div class="container">
+    <nav aria-label="{{breadcrumbAriaLabel}}" class="breadcrumb"><a href="/{{lang}}/">Luqevora</a><span>/</span><a href="/{{lang}}/topics/">{{topicsLabel}}</a><span>/</span><span>{{title}}</span></nav>
+    <span class="eyebrow">{{eyebrow}}</span>
+    <h1>{{title}}</h1>
+    <p class="page-lead">{{description}}</p>
+    <div class="topic-hero-actions"><a class="btn btn-secondary" href="/{{lang}}/{{categoryPath}}/">{{categoryLabel}}</a><span>{{articleCountLabel}}</span></div>
+  </div></section>
+  <section class="content-section"><div class="container">
+    <div class="topic-method-card"><div><span class="eyebrow">{{methodEyebrow}}</span><h2>{{methodTitle}}</h2></div><p>{{methodText}}</p></div>
+    <div class="grid article-directory-grid topic-article-grid">{{articleCards}}</div>
+  </div></section>
+</main>
+{{footer}}
+</body>
+</html>

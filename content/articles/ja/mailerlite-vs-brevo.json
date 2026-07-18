@@ -1,0 +1,108 @@
+{
+  "id": "mailerlite-vs-brevo",
+  "translationKey": "mailerlite-vs-brevo",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "mailerlite-vs-brevo",
+  "category": "seo-marketing",
+  "topic": "email-marketing",
+  "badge": "公式情報比較",
+  "title": "MailerLiteとBrevoを比較｜料金・配信数・自動化の違い",
+  "metaTitle": "MailerLiteとBrevoを比較｜無料枠・料金・メール自動化【2026年】",
+  "description": "MailerLiteとBrevoの無料枠、課金基準、配信数、登録者管理、メール自動化、ランディングページ、トランザクションメールを比較します。",
+  "lead": "MailerLiteはニュースレターとコンテンツ販売を分かりやすくまとめ、Brevoは配信量を基準にマーケティングとトランザクション通信を横断します。料金の安さは読者数と送信頻度で変わります。",
+  "publishedAt": "2026-07-18",
+  "updatedAt": "2026-07-18",
+  "verifiedAt": "2026-07-18",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {"label": "MailerLiteの公式料金を確認", "officialUrl": "https://www.mailerlite.com/pricing", "affiliateKey": "mailerlite"},
+    {"label": "Brevoの公式料金を確認", "officialUrl": "https://www.brevo.com/pricing/", "affiliateKey": "brevo"}
+  ],
+  "sources": [
+    {"label": "MailerLite — Pricing", "url": "https://www.mailerlite.com/pricing"},
+    {"label": "MailerLite — Email Marketing Features", "url": "https://www.mailerlite.com/features/email-marketing"},
+    {"label": "Brevo — Pricing", "url": "https://www.brevo.com/pricing/"},
+    {"label": "Brevo — Email Marketing", "url": "https://www.brevo.com/products/email-marketing/"}
+  ],
+  "sections": [
+    {
+      "heading": "結論：ニュースレターと制作者向け機能ならMailerLite、配信量と業務メールならBrevo",
+      "body": [
+        "ニュースレター、フォーム、ランディングページ、Webサイト、デジタル商品、予約を一つの環境で分かりやすく始めたい場合はMailerLiteが候補です。Powerでは無制限の月間メール、ユーザー、ビジュアル自動化などを案内しています。",
+        "マーケティングメールに加えて、SMTP・APIによるトランザクションメール、SMS、WhatsAppなど複数チャネルを段階的に使いたい場合はBrevoが候補です。料金は送信量を中心に選びやすく、無料プランでも承認後に1日300通まで送信できます。"
+      ],
+      "callout": "無料枠の大きさだけでなく、送信ドメイン認証、配信承認、連絡先の同意、解除導線、到達率の監視まで運用手順に含めてください。"
+    },
+    {
+      "heading": "MailerLiteとBrevoの違いを比較",
+      "body": ["公式料金ページで確認できる無料枠とサービス設計を比較します。"],
+      "table": {
+        "headers": ["比較項目", "MailerLite", "Brevo"],
+        "rows": [
+          ["無料枠", "250登録者、月2,500通、2ユーザー", "承認後に1日300通まで送信"],
+          ["主な課金軸", "有効登録者数、月間送信量、プラン", "月間送信量、利用チャネル、追加機能"],
+          ["開始プラン", "Comfortは月額12米ドルから、Powerは25米ドルからと案内", "Starterは月5,000通から。価格は地域・送信量で表示"],
+          ["メール制作", "ドラッグ＆ドロップ、シンプル、カスタムHTML、AI支援", "ドラッグ＆ドロップ、テンプレート、AIコンテンツ生成"],
+          ["自動化", "無料でも制限付きビジュアル自動化、有料で上限拡張", "Standard以上で複数ステップ自動化、A/Bテスト、送信時間最適化"],
+          ["周辺機能", "サイト、LP、フォーム、デジタル商品、予約、有料ニュースレター", "トランザクションメール、SMS、WhatsApp、営業・顧客データ機能"],
+          ["向く利用者", "個人制作者、ブログ、ニュースレター、小規模EC", "事業者、EC、開発連携、複数チャネル運用"]
+        ]
+      }
+    },
+    {
+      "heading": "料金は登録者数と送信回数を掛けて考える",
+      "body": [
+        "MailerLiteは有効登録者数と送信量で料金が変わります。Freeは250登録者・月2,500通、Comfortは登録者階層の10倍を月間上限とし、Powerはフェアユースの範囲で無制限送信を案内しています。読者数が増えると自動的に次の料金階層へ移る場合があります。",
+        "BrevoはStarterが月5,000通からで、Standardではマーケティング自動化やA/Bテスト、詳細レポート、ランディングページなどが加わります。送信頻度が低い場合の従量クレジットも案内されており、登録者数が多くても送信回数が少ない事業では比較対象になります。"
+      ],
+      "bullets": [
+        "現在の有効登録者数",
+        "通常月とキャンペーン月の送信回数",
+        "自動配信・トランザクションメールを含む総通数",
+        "共同編集するユーザー数",
+        "ランディングページ、フォーム、SMSなど追加機能"
+      ]
+    },
+    {
+      "heading": "自動化とトランザクションメール",
+      "body": [
+        "MailerLiteは登録フォーム、グループ、セグメント、EC連携を使い、ウェルカム、再送、購入行動などの自動化を作れます。ニュースレター、サイト、商品販売を同じUIで扱いたい制作者に分かりやすい構成です。",
+        "Brevoはマーケティングキャンペーンに加え、REST API、SMTP、Webhooksを使うトランザクションメールを全プランで案内しています。購入完了、パスワード再設定、システム通知など業務メールを同じ基盤へまとめたい場合に確認します。"
+      ]
+    },
+    {
+      "heading": "どちらが向いているか",
+      "body": ["必要なチャネルとコンテンツ制作の流れを基準に選びます。"],
+      "bullets": [
+        "MailerLite向き：ブログ読者、ニュースレター、フォーム・LP、デジタル商品や予約を簡単に運用",
+        "Brevo向き：送信量ベースの料金、トランザクションメール、SMS・WhatsApp、ECや営業データとの連携",
+        "別サービスも比較：国内向け日本語サポートを最優先、LINE中心、複雑なMA・CRMが必須"
+      ]
+    },
+    {
+      "heading": "移行・導入前チェックリスト",
+      "body": ["既存リストをそのまま読み込む前に、同意と到達率に関わるデータを整理します。"],
+      "bullets": [
+        "配信同意を確認できる登録経路と日時を保存する",
+        "解除済み、バウンス、長期未反応を除外する",
+        "SPF、DKIMなど送信ドメイン認証を設定する",
+        "少量配信から開始し、バウンス・迷惑報告を監視する",
+        "フォーム、自動化、タグ、テンプレートを移行前に再設計する",
+        "個人情報の保存地域、削除、書き出し手順を確認する"
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "無料プランはMailerLiteとBrevoのどちらが多く送れますか？", "answer": "MailerLiteは月2,500通、Brevoは承認後に1日300通までです。日ごとの制限と月間制限が異なるため、配信頻度に合わせて比較してください。"},
+    {"question": "トランザクションメールにも使えますか？", "answer": "Brevoは全プランでAPI・SMTPなどのトランザクション機能を案内しています。MailerLiteのマーケティング製品とは別に、同社グループのMailerSendを確認する構成です。"},
+    {"question": "登録者リストをそのまま移行してよいですか？", "answer": "配信同意を確認できない連絡先、解除済み、バウンス済みを除外し、各社の審査・利用規約と個人情報保護要件を確認してから移行してください。"}
+  ],
+  "relatedLinks": [
+    {"label": "MailerLiteの公式情報レビュー", "url": "/ja/seo-marketing/mailerlite-review/", "description": "無料枠、料金、自動化、周辺機能を詳しく確認"},
+    {"label": "Brevoの公式情報レビュー", "url": "/ja/seo-marketing/brevo-review/", "description": "配信量、トランザクション、複数チャネルを確認"}
+  ]
+}

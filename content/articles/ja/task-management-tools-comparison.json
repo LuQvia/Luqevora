@@ -1,0 +1,71 @@
+{
+  "id": "task-management-tools-comparison",
+  "translationKey": "task-management-tools-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "task-management-tools-comparison",
+  "category": "business-software",
+  "topic": "project-management",
+  "badge": "比較記事",
+  "title": "タスク管理ツールおすすめ比較｜Asana・Trello・Notion・Backlog・Todoist",
+  "metaTitle": "タスク管理ツールおすすめ比較｜Asana・Trello・Notion・Backlog・Todoist",
+  "description": "タスク管理ツールを無料プラン、カンバン、ガント、文書管理、自動化、チーム規模で比較します。",
+  "lead": "個人からチームまで、用途に合うタスク管理ツールを比較します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Asana Pricing",
+      "url": "https://asana.com/ja/pricing"
+    },
+    {
+      "label": "Trello Pricing",
+      "url": "https://trello.com/pricing"
+    },
+    {
+      "label": "Notion Pricing",
+      "url": "https://www.notion.com/ja/pricing"
+    },
+    {
+      "label": "Backlog Pricing",
+      "url": "https://backlog.com/ja/pricing/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "部門横断はAsana、カンバンはTrello、文書統合はNotion、国内開発案件はBacklog、個人ToDoはTodoistが候補です。"
+      ]
+    },
+    {
+      "heading": "選び方",
+      "body": [
+        "利用人数、表示形式、担当者・期限、依存関係、外部連携、無料版の制限を確認します。"
+      ]
+    },
+    {
+      "heading": "チャットとの違い",
+      "body": [
+        "チャットは相談・共有、タスク管理は担当者・期限・完了条件を残す場所として使い分けます。"
+      ]
+    },
+    {
+      "heading": "運用ルール",
+      "body": [
+        "担当者1名、期限、具体的タイトル、完了条件、コメント集約、期限超過確認をルール化します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "無料で使えるおすすめは？",
+      "answer": "個人はTodoistやGoogle Tasks、小規模カンバンはTrello、文書も含めるならNotionが候補です。"
+    }
+  ]
+}

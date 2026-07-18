@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="{{robots}}">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="alternate" type="application/rss+xml" title="Luqevora {{lang}}" href="/feed-{{lang}}.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Luqevora">
+  <meta property="og:title" content="{{metaTitle}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="{{title}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{metaTitle}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{title}}">
+  <meta property="article:published_time" content="{{publishedAt}}">
+  <meta property="article:modified_time" content="{{updatedAt}}">
+  <meta name="luqevora-content-type" content="{{contentType}}">
+  <meta name="luqevora-category" content="{{category}}">
+  <meta name="luqevora-topic" content="{{topic}}">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0B1F44">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4.5.0">
+  <script type="application/ld+json">{{structuredData}}</script>
+  <script defer src="/assets/js/analytics-v4.5.0.js"></script>
+  <script defer src="/assets/js/main-v4.5.0.js"></script>
+</head>
+<body>
+{{header}}
+<main id="main">
+  <section class="article-hero">
+    <div class="container">
+      <nav aria-label="{{breadcrumbAriaLabel}}" class="breadcrumb">{{breadcrumbs}}</nav>
+      <span class="badge">{{badge}}</span>
+      <h1>{{title}}</h1>
+      <p class="article-lead">{{lead}}</p>
+      <div class="article-meta"><span>{{publishedLabel}}</span><span>{{authorLabel}}</span></div>
+    </div>
+  </section>
+  <div class="container article-layout">
+    <article class="article-body">
+      {{featuredImage}}
+      {{decisionSummary}}
+      {{editorialNote}}
+      {{affiliateDisclosure}}
+      {{articleCtas}}
+      {{body}}
+      {{faq}}
+      {{evidencePanel}}
+      {{sources}}
+      {{relatedArticles}}
+      <div class="article-update">{{updateNote}}</div>
+    </article>
+    <aside aria-label="{{tocAriaLabel}}" class="article-sidebar">
+      <h2>{{tocTitle}}</h2>
+      <ol>{{tocItems}}</ol>
+    </aside>
+  </div>
+</main>
+{{footer}}
+</body>
+</html>

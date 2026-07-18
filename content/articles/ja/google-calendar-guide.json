@@ -1,0 +1,59 @@
+{
+  "id": "google-calendar-guide",
+  "translationKey": "google-calendar-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "google-calendar-guide",
+  "category": "business-software",
+  "topic": "google-workspace",
+  "badge": "実践ガイド",
+  "title": "Googleカレンダーの使い方｜予定共有・Meet連携を初心者向けに解説",
+  "metaTitle": "Googleカレンダーの使い方｜予定共有・Meet連携を初心者向けに解説",
+  "description": "Googleカレンダーの予定作成、共有、繰り返し、通知、Meet連携、複数カレンダー管理を解説します。",
+  "lead": "Googleカレンダーの基本操作と組織での共有方法を整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Google Calendar Help",
+      "url": "https://support.google.com/calendar/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "個人の予定からチーム会議まで管理でき、Google MeetやGmailと組み合わせると日程調整を一元化できます。"
+      ]
+    },
+    {
+      "heading": "予定作成",
+      "body": [
+        "タイトル、日時、場所、説明、参加者、通知、添付、Meetリンクを設定します。"
+      ]
+    },
+    {
+      "heading": "共有",
+      "body": [
+        "カレンダー全体の共有権限と、個別予定の参加者権限を分けて管理します。"
+      ]
+    },
+    {
+      "heading": "複数カレンダー",
+      "body": [
+        "仕事、採用、店舗、締切など用途別に分け、表示・非表示と色で整理します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "家族や社内で共有できますか？",
+      "answer": "GoogleアカウントやWorkspaceの設定に応じて共有できます。"
+    }
+  ]
+}

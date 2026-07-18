@@ -1,0 +1,116 @@
+{
+  "id": "semrush-vs-ahrefs",
+  "translationKey": "semrush-vs-ahrefs",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "semrush-vs-ahrefs",
+  "category": "seo-marketing",
+  "topic": "seo-tools",
+  "badge": "公式情報比較",
+  "title": "SemrushとAhrefsを比較｜SEO・競合分析・AI検索計測の違い",
+  "metaTitle": "SemrushとAhrefsを比較｜料金・キーワード・被リンク分析【2026年】",
+  "description": "SemrushとAhrefsの料金、登録サイト数、順位計測、サイト監査、競合・被リンク分析、AI検索計測、利用上限を公式情報で比較します。",
+  "lead": "SemrushとAhrefsはどちらもSEO調査に使えますが、搭載機能、データの見せ方、利用上限、AI検索への対応範囲が異なります。必要な作業から逆算して選びます。",
+  "publishedAt": "2026-07-18",
+  "updatedAt": "2026-07-18",
+  "verifiedAt": "2026-07-18",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {"label": "Semrushの公式料金を確認", "officialUrl": "https://www.semrush.com/pricing/", "affiliateKey": "semrush"},
+    {"label": "Ahrefsの公式料金を確認", "officialUrl": "https://ahrefs.com/pricing", "affiliateKey": "ahrefs"}
+  ],
+  "sources": [
+    {"label": "Semrush — SEO Toolkit Pricing", "url": "https://www.semrush.com/pricing/"},
+    {"label": "Semrush — SEO Toolkit Pricing and Limits", "url": "https://www.semrush.com/kb/1547-seo-toolkit-pricing-limits"},
+    {"label": "Ahrefs — Plans and Pricing", "url": "https://ahrefs.com/pricing"},
+    {"label": "Ahrefs — Plan Differences", "url": "https://help.ahrefs.com/en/articles/6117209-what-s-the-difference-between-all-ahrefs-subscription-plans"}
+  ],
+  "sections": [
+    {
+      "heading": "結論：マーケティング全体の管理ならSemrush、SEOデータを深く調べるならAhrefs",
+      "body": [
+        "SEO順位、サイト監査、競合調査に加えて、AI検索での可視性や複数のマーケティング業務を一つの製品群で扱いたい場合はSemrushが候補です。Starterでも日次の順位計測、サイト監査、競合分析、AI検索の計測を案内しています。",
+        "被リンク、競合ページ、キーワード、コンテンツ調査を中心に、クロールデータと履歴を使って深く分析したい場合はAhrefsが候補です。Liteから主要SEOツールを利用でき、Standard以上でContent Explorerやより長い履歴などが加わります。"
+      ],
+      "callout": "両社の検索ボリューム、トラフィック推定、被リンク数は独自データです。同じキーワードでも数値が一致するとは限らないため、ツール間の絶対値比較ではなく同一ツール内の推移に使います。"
+    },
+    {
+      "heading": "SemrushとAhrefsの公式プランを比較",
+      "body": ["個人・小規模チームが検討しやすい開始プランを基準に整理します。"],
+      "table": {
+        "headers": ["比較項目", "Semrush Starter", "Ahrefs Lite"],
+        "rows": [
+          ["月払い", "月額199米ドル", "月額129米ドル"],
+          ["年払い表示", "月額換算165.17米ドル", "年払いで最大17%節約と案内"],
+          ["管理対象", "5サイト", "5プロジェクト"],
+          ["順位計測", "500キーワードを日次計測", "750キーワードを計測"],
+          ["AI検索", "AI可視性、感情、独自プロンプトなどを案内", "5件の追跡プロンプトを案内"],
+          ["サイト監査", "Site Auditを含む", "100,000クロールクレジットを案内"],
+          ["主な強み", "SEO、競合、AI検索、マーケティング機能を横断", "被リンク、キーワード、コンテンツ、SERP履歴を深掘り"]
+        ]
+      }
+    },
+    {
+      "heading": "料金と利用上限の考え方",
+      "body": [
+        "SemrushはSEO Toolkitを中心に、用途別のToolkitや追加機能が用意されています。必要なデータ量だけでなく、使いたい機能が同じ契約に含まれるかを確認します。ユーザー追加、プロジェクト数、レポート上限も見積もり対象です。",
+        "AhrefsはLite、Standard、Advanced、Enterpriseでプロジェクト、履歴、順位計測、クロール、ユーザー追加などの上限が変わります。Liteにはユーザー単位のクレジット上限があり、Standard以上では公式が無制限のフェアユースを案内する項目があります。"
+      ],
+      "bullets": [
+        "登録する自社・顧客サイト数",
+        "毎日追跡するキーワードとAIプロンプト数",
+        "競合調査を行う担当者数と追加ユーザー料金",
+        "サイト監査のページ数と実行頻度",
+        "CSV・PDF・APIなど出力方法と上限"
+      ]
+    },
+    {
+      "heading": "キーワード・競合・被リンク分析の違い",
+      "body": [
+        "Semrushはキーワード調査、競合ドメイン、順位計測、サイト監査をプロジェクト単位で組み合わせ、施策管理へつなげやすい構成です。SEO以外のマーケティング情報も同じ環境で確認したいチームに向きます。",
+        "AhrefsはSite Explorer、Keywords Explorer、Site Audit、Rank Trackerを中心に、競合が流入を得ているページや被リンク、コンテンツの差を掘り下げる調査に向きます。StandardではContent ExplorerやSERP比較などが追加されます。"
+      ]
+    },
+    {
+      "heading": "AI検索計測は何を見るか",
+      "body": [
+        "従来の検索順位だけでは、AI回答内でブランドやページがどのように扱われているかを把握できません。SemrushはAI可視性、感情、プロンプト計測をSEOプランに組み込み、AhrefsもBrand Radarと追跡プロンプトを案内しています。",
+        "ただしAI回答は地域、言語、時点、質問文で変わります。導入前に日本語の対象テーマでテストし、必要なモデル、地域、プロンプト数、更新頻度が契約プランに含まれるか確認します。"
+      ]
+    },
+    {
+      "heading": "どちらが向いているか",
+      "body": ["担当業務とレポートの使い方で選びます。"],
+      "bullets": [
+        "Semrush向き：SEOとAI検索を横断、複数のマーケティング機能、定期レポートを一つにまとめたい",
+        "Ahrefs向き：被リンク・競合コンテンツ・キーワードを深く調査、SEO担当者が日常的にデータを掘る",
+        "無料ツールから開始：自社サイトだけを監査し、競合調査の頻度が低い",
+        "併用を検討：代理店や大規模サイトで、施策管理と詳細調査の両方が売上に直結する"
+      ]
+    },
+    {
+      "heading": "契約前の比較テスト",
+      "body": ["同じ3サイトと同じ30キーワードを両方で調べ、実務に必要な出力が得られるか確認します。"],
+      "bullets": [
+        "自社サイトの技術監査で重要な問題が見つかるか",
+        "競合の流入ページと被リンクを再現できるか",
+        "日本語キーワードと地域設定が業務に合うか",
+        "AI検索の追跡対象と履歴が必要量を満たすか",
+        "クライアント向けレポートを短時間で作れるか",
+        "上限超過や追加ユーザーを含む年間費用を比較する"
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "SemrushとAhrefsはどちらが安いですか？", "answer": "確認時点の月払い開始価格はAhrefs Liteが129米ドル、Semrush Starterが199米ドルです。ただし順位計測、AI検索、レポート、ユーザー、クロールなどの上限が異なるため、必要機能を同じ条件にそろえて比較してください。"},
+    {"question": "検索ボリュームの数値が違うのはなぜですか？", "answer": "各社が独自のデータ、推定方法、更新頻度を使うためです。絶対値を混在させず、同じツール内で相対比較や推移確認に使います。"},
+    {"question": "両方契約する必要はありますか？", "answer": "多くの小規模事業では、主要業務を満たす一方から始められます。代理店や大規模SEOチームで、施策管理と詳細な被リンク・競合調査を分けたい場合に併用を検討します。"}
+  ],
+  "relatedLinks": [
+    {"label": "Semrushの公式情報レビュー", "url": "/ja/seo-marketing/semrush-review/", "description": "料金、SEO・AI検索機能、上限を詳しく確認"},
+    {"label": "Ahrefsの公式情報レビュー", "url": "/ja/seo-marketing/ahrefs-review/", "description": "主要ツール、料金、クレジットの仕組みを確認"}
+  ]
+}

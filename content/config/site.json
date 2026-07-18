@@ -1,0 +1,22 @@
+{
+  "siteName": "Luqevora",
+  "baseUrl": "https://luqevora.com",
+  "defaultLanguage": "ja",
+  "languages": ["ja", "en"],
+  "xDefaultPath": "/",
+  "tagline": {
+    "ja": "より良いツールを、より明確な判断で。",
+    "en": "Better tools. Clearer decisions."
+  },
+  "organization": {
+    "name": "Luqevora",
+    "url": "https://luqevora.com"
+  },
+  "assetVersion": "4.5.0",
+  "defaultVerifiedAt": "2026-07-18",
+  "minimumArticlesPerLanguage": 280,
+  "minimumIndexableArticlesPerLanguage": 100,
+  "requireArticleTranslationParity": true,
+  "outputDirectory": "public",
+  "preserveTrailingSlash": true
+}

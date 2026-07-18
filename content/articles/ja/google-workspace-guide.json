@@ -1,0 +1,59 @@
+{
+  "id": "google-workspace-guide",
+  "translationKey": "google-workspace-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "google-workspace-guide",
+  "category": "business-software",
+  "topic": "google-workspace",
+  "badge": "実践ガイド",
+  "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+  "metaTitle": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+  "description": "Google WorkspaceのGmail、Drive、Meet、カレンダー、Chat、管理機能、導入手順を解説します。",
+  "lead": "Google Workspaceの基本機能と導入判断のポイントを整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Google Workspace",
+      "url": "https://workspace.google.com/intl/ja/pricing.html"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "独自ドメインGmail、Drive、Meet、カレンダー、Chat、管理コンソールを一体利用したい法人・個人事業主向けです。"
+      ]
+    },
+    {
+      "heading": "主な機能",
+      "body": [
+        "Gmail、Drive、Meet、Calendar、Docs、Sheets、Slides、Chat、Forms等を組織アカウントで利用できます。"
+      ]
+    },
+    {
+      "heading": "導入手順",
+      "body": [
+        "申込み、ドメイン所有権確認、ユーザー作成、MX設定、SPF・DKIM・DMARC、共有・管理ポリシー設定の順に進めます。"
+      ]
+    },
+    {
+      "heading": "注意点",
+      "body": [
+        "ユーザー単位課金、退職者データ、共有設定、管理者権限、バックアップ方針を確認します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "個人でも利用できますか？",
+      "answer": "個人事業主や少人数チームでも契約できます。"
+    }
+  ]
+}

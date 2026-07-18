@@ -1,0 +1,811 @@
+{
+  "generatedAt": "2026-07-18T00:54:16.930Z",
+  "count": 161,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "extension": "",
+      "bytes": 0
+    },
+    {
+      "path": "404.html",
+      "extension": ".html",
+      "bytes": 3503
+    },
+    {
+      "path": "CNAME",
+      "extension": "",
+      "bytes": 13
+    },
+    {
+      "path": "assets/css/style.css",
+      "extension": ".css",
+      "bytes": 28877
+    },
+    {
+      "path": "assets/images/apple-touch-icon.png",
+      "extension": ".png",
+      "bytes": 28595
+    },
+    {
+      "path": "assets/images/favicon-192.png",
+      "extension": ".png",
+      "bytes": 32438
+    },
+    {
+      "path": "assets/images/favicon-32.png",
+      "extension": ".png",
+      "bytes": 1658
+    },
+    {
+      "path": "assets/images/logo-icon.png",
+      "extension": ".png",
+      "bytes": 215247
+    },
+    {
+      "path": "assets/images/logo-icon.webp",
+      "extension": ".webp",
+      "bytes": 7858
+    },
+    {
+      "path": "assets/images/og-default.png",
+      "extension": ".png",
+      "bytes": 153242
+    },
+    {
+      "path": "assets/images/social-icon.png",
+      "extension": ".png",
+      "bytes": 707447
+    },
+    {
+      "path": "assets/images/social-icon.webp",
+      "extension": ".webp",
+      "bytes": 10652
+    },
+    {
+      "path": "assets/js/analytics-v4.2.0.js",
+      "extension": ".js",
+      "bytes": 7149
+    },
+    {
+      "path": "assets/js/article-directory-v4.2.0.js",
+      "extension": ".js",
+      "bytes": 2188
+    },
+    {
+      "path": "assets/js/contact-form-config.js",
+      "extension": ".js",
+      "bytes": 332
+    },
+    {
+      "path": "assets/js/contact-form.js",
+      "extension": ".js",
+      "bytes": 15825
+    },
+    {
+      "path": "assets/js/main-v4.2.0.js",
+      "extension": ".js",
+      "bytes": 3537
+    },
+    {
+      "path": "en/about/index.html",
+      "extension": ".html",
+      "bytes": 7768
+    },
+    {
+      "path": "en/affiliate-disclosure/index.html",
+      "extension": ".html",
+      "bytes": 7770
+    },
+    {
+      "path": "en/ai-tools/ai-meeting-notes-tools/index.html",
+      "extension": ".html",
+      "bytes": 30543
+    },
+    {
+      "path": "en/ai-tools/ai-writing-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 32271
+    },
+    {
+      "path": "en/ai-tools/chatgpt-review/index.html",
+      "extension": ".html",
+      "bytes": 21832
+    },
+    {
+      "path": "en/ai-tools/claude-review/index.html",
+      "extension": ".html",
+      "bytes": 22412
+    },
+    {
+      "path": "en/ai-tools/gemini-review/index.html",
+      "extension": ".html",
+      "bytes": 23400
+    },
+    {
+      "path": "en/ai-tools/index.html",
+      "extension": ".html",
+      "bytes": 14461
+    },
+    {
+      "path": "en/articles/index.html",
+      "extension": ".html",
+      "bytes": 59764
+    },
+    {
+      "path": "en/business-software/asana-review/index.html",
+      "extension": ".html",
+      "bytes": 20752
+    },
+    {
+      "path": "en/business-software/clickup-review/index.html",
+      "extension": ".html",
+      "bytes": 20940
+    },
+    {
+      "path": "en/business-software/index.html",
+      "extension": ".html",
+      "bytes": 16456
+    },
+    {
+      "path": "en/business-software/monday-review/index.html",
+      "extension": ".html",
+      "bytes": 21974
+    },
+    {
+      "path": "en/business-software/notion-review/index.html",
+      "extension": ".html",
+      "bytes": 20996
+    },
+    {
+      "path": "en/business-software/project-management-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 29541
+    },
+    {
+      "path": "en/business-software/trello-review/index.html",
+      "extension": ".html",
+      "bytes": 22121
+    },
+    {
+      "path": "en/contact/index.html",
+      "extension": ".html",
+      "bytes": 18440
+    },
+    {
+      "path": "en/editorial-policy/index.html",
+      "extension": ".html",
+      "bytes": 8253
+    },
+    {
+      "path": "en/hosting-security/1password-review/index.html",
+      "extension": ".html",
+      "bytes": 22386
+    },
+    {
+      "path": "en/hosting-security/bitwarden-review/index.html",
+      "extension": ".html",
+      "bytes": 21562
+    },
+    {
+      "path": "en/hosting-security/cloudways-review/index.html",
+      "extension": ".html",
+      "bytes": 22981
+    },
+    {
+      "path": "en/hosting-security/hostinger-review/index.html",
+      "extension": ".html",
+      "bytes": 22043
+    },
+    {
+      "path": "en/hosting-security/index.html",
+      "extension": ".html",
+      "bytes": 23589
+    },
+    {
+      "path": "en/hosting-security/keeper-review/index.html",
+      "extension": ".html",
+      "bytes": 21988
+    },
+    {
+      "path": "en/hosting-security/kinsta-review/index.html",
+      "extension": ".html",
+      "bytes": 22135
+    },
+    {
+      "path": "en/hosting-security/nordpass-review/index.html",
+      "extension": ".html",
+      "bytes": 23618
+    },
+    {
+      "path": "en/hosting-security/password-managers-small-business/index.html",
+      "extension": ".html",
+      "bytes": 27169
+    },
+    {
+      "path": "en/hosting-security/siteground-review/index.html",
+      "extension": ".html",
+      "bytes": 21594
+    },
+    {
+      "path": "en/hosting-security/web-hosting-small-business/index.html",
+      "extension": ".html",
+      "bytes": 27945
+    },
+    {
+      "path": "en/hosting-security/wp-engine-review/index.html",
+      "extension": ".html",
+      "bytes": 21983
+    },
+    {
+      "path": "en/hosting-security/zoho-vault-review/index.html",
+      "extension": ".html",
+      "bytes": 24879
+    },
+    {
+      "path": "en/index.html",
+      "extension": ".html",
+      "bytes": 20888
+    },
+    {
+      "path": "en/privacy/index.html",
+      "extension": ".html",
+      "bytes": 9656
+    },
+    {
+      "path": "en/seo-marketing/ahrefs-review/index.html",
+      "extension": ".html",
+      "bytes": 21683
+    },
+    {
+      "path": "en/seo-marketing/brevo-review/index.html",
+      "extension": ".html",
+      "bytes": 21733
+    },
+    {
+      "path": "en/seo-marketing/email-marketing-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 30179
+    },
+    {
+      "path": "en/seo-marketing/getresponse-review/index.html",
+      "extension": ".html",
+      "bytes": 22948
+    },
+    {
+      "path": "en/seo-marketing/index.html",
+      "extension": ".html",
+      "bytes": 24427
+    },
+    {
+      "path": "en/seo-marketing/kit-review/index.html",
+      "extension": ".html",
+      "bytes": 22640
+    },
+    {
+      "path": "en/seo-marketing/mailchimp-review/index.html",
+      "extension": ".html",
+      "bytes": 21653
+    },
+    {
+      "path": "en/seo-marketing/mailerlite-review/index.html",
+      "extension": ".html",
+      "bytes": 21746
+    },
+    {
+      "path": "en/seo-marketing/mangools-review/index.html",
+      "extension": ".html",
+      "bytes": 21019
+    },
+    {
+      "path": "en/seo-marketing/se-ranking-review/index.html",
+      "extension": ".html",
+      "bytes": 21274
+    },
+    {
+      "path": "en/seo-marketing/semrush-review/index.html",
+      "extension": ".html",
+      "bytes": 21321
+    },
+    {
+      "path": "en/seo-marketing/seo-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 29284
+    },
+    {
+      "path": "en/seo-marketing/ubersuggest-review/index.html",
+      "extension": ".html",
+      "bytes": 21510
+    },
+    {
+      "path": "en/terms/index.html",
+      "extension": ".html",
+      "bytes": 7999
+    },
+    {
+      "path": "en/website-builders/index.html",
+      "extension": ".html",
+      "bytes": 15982
+    },
+    {
+      "path": "en/website-builders/shopify-review/index.html",
+      "extension": ".html",
+      "bytes": 24088
+    },
+    {
+      "path": "en/website-builders/small-business-website-builders/index.html",
+      "extension": ".html",
+      "bytes": 28768
+    },
+    {
+      "path": "en/website-builders/squarespace-review/index.html",
+      "extension": ".html",
+      "bytes": 23303
+    },
+    {
+      "path": "en/website-builders/webflow-review/index.html",
+      "extension": ".html",
+      "bytes": 24181
+    },
+    {
+      "path": "en/website-builders/wix-review/index.html",
+      "extension": ".html",
+      "bytes": 23186
+    },
+    {
+      "path": "en/website-builders/wordpress-com-review/index.html",
+      "extension": ".html",
+      "bytes": 23897
+    },
+    {
+      "path": "favicon.ico",
+      "extension": ".ico",
+      "bytes": 10348
+    },
+    {
+      "path": "index.html",
+      "extension": ".html",
+      "bytes": 4859
+    },
+    {
+      "path": "ja/about/index.html",
+      "extension": ".html",
+      "bytes": 8295
+    },
+    {
+      "path": "ja/affiliate-disclosure/index.html",
+      "extension": ".html",
+      "bytes": 8547
+    },
+    {
+      "path": "ja/ai-tools/ai-meeting-notes-tools/index.html",
+      "extension": ".html",
+      "bytes": 32576
+    },
+    {
+      "path": "ja/ai-tools/ai-writing-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 36369
+    },
+    {
+      "path": "ja/ai-tools/chatgpt-review/index.html",
+      "extension": ".html",
+      "bytes": 24053
+    },
+    {
+      "path": "ja/ai-tools/claude-review/index.html",
+      "extension": ".html",
+      "bytes": 24528
+    },
+    {
+      "path": "ja/ai-tools/gemini-review/index.html",
+      "extension": ".html",
+      "bytes": 25058
+    },
+    {
+      "path": "ja/ai-tools/index.html",
+      "extension": ".html",
+      "bytes": 15071
+    },
+    {
+      "path": "ja/articles/index.html",
+      "extension": ".html",
+      "bytes": 89576
+    },
+    {
+      "path": "ja/business-software/asana-guide/index.html",
+      "extension": ".html",
+      "bytes": 12345
+    },
+    {
+      "path": "ja/business-software/asana-review/index.html",
+      "extension": ".html",
+      "bytes": 23041
+    },
+    {
+      "path": "ja/business-software/business-chat-tools-comparison/index.html",
+      "extension": ".html",
+      "bytes": 12304
+    },
+    {
+      "path": "ja/business-software/clickup-review/index.html",
+      "extension": ".html",
+      "bytes": 23480
+    },
+    {
+      "path": "ja/business-software/custom-domain-email-guide/index.html",
+      "extension": ".html",
+      "bytes": 11565
+    },
+    {
+      "path": "ja/business-software/google-calendar-guide/index.html",
+      "extension": ".html",
+      "bytes": 11278
+    },
+    {
+      "path": "ja/business-software/google-chat-guide/index.html",
+      "extension": ".html",
+      "bytes": 11310
+    },
+    {
+      "path": "ja/business-software/google-drive-guide/index.html",
+      "extension": ".html",
+      "bytes": 11679
+    },
+    {
+      "path": "ja/business-software/google-meet-guide/index.html",
+      "extension": ".html",
+      "bytes": 11442
+    },
+    {
+      "path": "ja/business-software/google-workspace-guide/index.html",
+      "extension": ".html",
+      "bytes": 11269
+    },
+    {
+      "path": "ja/business-software/index.html",
+      "extension": ".html",
+      "bytes": 26711
+    },
+    {
+      "path": "ja/business-software/monday-review/index.html",
+      "extension": ".html",
+      "bytes": 24676
+    },
+    {
+      "path": "ja/business-software/notion-review/index.html",
+      "extension": ".html",
+      "bytes": 23536
+    },
+    {
+      "path": "ja/business-software/project-management-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 34031
+    },
+    {
+      "path": "ja/business-software/slack-guide/index.html",
+      "extension": ".html",
+      "bytes": 11309
+    },
+    {
+      "path": "ja/business-software/slack-vs-google-chat/index.html",
+      "extension": ".html",
+      "bytes": 11543
+    },
+    {
+      "path": "ja/business-software/task-management-tools-comparison/index.html",
+      "extension": ".html",
+      "bytes": 12038
+    },
+    {
+      "path": "ja/business-software/trello-review/index.html",
+      "extension": ".html",
+      "bytes": 24905
+    },
+    {
+      "path": "ja/contact/index.html",
+      "extension": ".html",
+      "bytes": 19441
+    },
+    {
+      "path": "ja/editorial-policy/index.html",
+      "extension": ".html",
+      "bytes": 8639
+    },
+    {
+      "path": "ja/hosting-security/1password-review/index.html",
+      "extension": ".html",
+      "bytes": 23741
+    },
+    {
+      "path": "ja/hosting-security/ablenet-rental-server-review/index.html",
+      "extension": ".html",
+      "bytes": 11700
+    },
+    {
+      "path": "ja/hosting-security/ablenet-vps-review/index.html",
+      "extension": ".html",
+      "bytes": 11253
+    },
+    {
+      "path": "ja/hosting-security/bitwarden-review/index.html",
+      "extension": ".html",
+      "bytes": 23057
+    },
+    {
+      "path": "ja/hosting-security/cloudways-guide/index.html",
+      "extension": ".html",
+      "bytes": 11293
+    },
+    {
+      "path": "ja/hosting-security/cloudways-review/index.html",
+      "extension": ".html",
+      "bytes": 25692
+    },
+    {
+      "path": "ja/hosting-security/colorfulbox-review/index.html",
+      "extension": ".html",
+      "bytes": 11323
+    },
+    {
+      "path": "ja/hosting-security/com-vs-jp-domain/index.html",
+      "extension": ".html",
+      "bytes": 11234
+    },
+    {
+      "path": "ja/hosting-security/conoha-wing-review/index.html",
+      "extension": ".html",
+      "bytes": 11333
+    },
+    {
+      "path": "ja/hosting-security/domain-registrar-comparison/index.html",
+      "extension": ".html",
+      "bytes": 12028
+    },
+    {
+      "path": "ja/hosting-security/hostinger-review/index.html",
+      "extension": ".html",
+      "bytes": 24346
+    },
+    {
+      "path": "ja/hosting-security/hostinger-vs-ablenet-vps/index.html",
+      "extension": ".html",
+      "bytes": 11504
+    },
+    {
+      "path": "ja/hosting-security/hostinger-vs-lolipop/index.html",
+      "extension": ".html",
+      "bytes": 11745
+    },
+    {
+      "path": "ja/hosting-security/hostinger-vs-xserver/index.html",
+      "extension": ".html",
+      "bytes": 12022
+    },
+    {
+      "path": "ja/hosting-security/index.html",
+      "extension": ".html",
+      "bytes": 37581
+    },
+    {
+      "path": "ja/hosting-security/jetboy-review/index.html",
+      "extension": ".html",
+      "bytes": 11290
+    },
+    {
+      "path": "ja/hosting-security/keeper-review/index.html",
+      "extension": ".html",
+      "bytes": 23375
+    },
+    {
+      "path": "ja/hosting-security/kinsta-review/index.html",
+      "extension": ".html",
+      "bytes": 24662
+    },
+    {
+      "path": "ja/hosting-security/mixhost-review/index.html",
+      "extension": ".html",
+      "bytes": 11094
+    },
+    {
+      "path": "ja/hosting-security/namecheap-review/index.html",
+      "extension": ".html",
+      "bytes": 11296
+    },
+    {
+      "path": "ja/hosting-security/nordpass-review/index.html",
+      "extension": ".html",
+      "bytes": 25041
+    },
+    {
+      "path": "ja/hosting-security/password-managers-small-business/index.html",
+      "extension": ".html",
+      "bytes": 29484
+    },
+    {
+      "path": "ja/hosting-security/siteground-review/index.html",
+      "extension": ".html",
+      "bytes": 23910
+    },
+    {
+      "path": "ja/hosting-security/web-hosting-small-business/index.html",
+      "extension": ".html",
+      "bytes": 31506
+    },
+    {
+      "path": "ja/hosting-security/wp-engine-review/index.html",
+      "extension": ".html",
+      "bytes": 24661
+    },
+    {
+      "path": "ja/hosting-security/wpx-speed-review/index.html",
+      "extension": ".html",
+      "bytes": 11277
+    },
+    {
+      "path": "ja/hosting-security/xserver-vs-lolipop/index.html",
+      "extension": ".html",
+      "bytes": 11947
+    },
+    {
+      "path": "ja/hosting-security/zoho-vault-review/index.html",
+      "extension": ".html",
+      "bytes": 26178
+    },
+    {
+      "path": "ja/index.html",
+      "extension": ".html",
+      "bytes": 22399
+    },
+    {
+      "path": "ja/privacy/index.html",
+      "extension": ".html",
+      "bytes": 10595
+    },
+    {
+      "path": "ja/seo-marketing/a8net-guide/index.html",
+      "extension": ".html",
+      "bytes": 11765
+    },
+    {
+      "path": "ja/seo-marketing/affiliate-marketing-start-guide/index.html",
+      "extension": ".html",
+      "bytes": 12520
+    },
+    {
+      "path": "ja/seo-marketing/ahrefs-review/index.html",
+      "extension": ".html",
+      "bytes": 24388
+    },
+    {
+      "path": "ja/seo-marketing/brevo-review/index.html",
+      "extension": ".html",
+      "bytes": 23929
+    },
+    {
+      "path": "ja/seo-marketing/email-marketing-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 34041
+    },
+    {
+      "path": "ja/seo-marketing/getresponse-review/index.html",
+      "extension": ".html",
+      "bytes": 25380
+    },
+    {
+      "path": "ja/seo-marketing/how-to-make-money-blogging/index.html",
+      "extension": ".html",
+      "bytes": 12321
+    },
+    {
+      "path": "ja/seo-marketing/index.html",
+      "extension": ".html",
+      "bytes": 29229
+    },
+    {
+      "path": "ja/seo-marketing/kit-review/index.html",
+      "extension": ".html",
+      "bytes": 25171
+    },
+    {
+      "path": "ja/seo-marketing/mailchimp-review/index.html",
+      "extension": ".html",
+      "bytes": 24419
+    },
+    {
+      "path": "ja/seo-marketing/mailerlite-review/index.html",
+      "extension": ".html",
+      "bytes": 24140
+    },
+    {
+      "path": "ja/seo-marketing/mangools-review/index.html",
+      "extension": ".html",
+      "bytes": 22689
+    },
+    {
+      "path": "ja/seo-marketing/moshimo-affiliate-guide/index.html",
+      "extension": ".html",
+      "bytes": 11912
+    },
+    {
+      "path": "ja/seo-marketing/se-ranking-review/index.html",
+      "extension": ".html",
+      "bytes": 23472
+    },
+    {
+      "path": "ja/seo-marketing/semrush-review/index.html",
+      "extension": ".html",
+      "bytes": 23760
+    },
+    {
+      "path": "ja/seo-marketing/seo-tools-small-business/index.html",
+      "extension": ".html",
+      "bytes": 32118
+    },
+    {
+      "path": "ja/seo-marketing/ubersuggest-review/index.html",
+      "extension": ".html",
+      "bytes": 23577
+    },
+    {
+      "path": "ja/terms/index.html",
+      "extension": ".html",
+      "bytes": 8480
+    },
+    {
+      "path": "ja/website-builders/index.html",
+      "extension": ".html",
+      "bytes": 18045
+    },
+    {
+      "path": "ja/website-builders/shopify-review/index.html",
+      "extension": ".html",
+      "bytes": 26476
+    },
+    {
+      "path": "ja/website-builders/small-business-website-builders/index.html",
+      "extension": ".html",
+      "bytes": 33184
+    },
+    {
+      "path": "ja/website-builders/squarespace-review/index.html",
+      "extension": ".html",
+      "bytes": 25745
+    },
+    {
+      "path": "ja/website-builders/webflow-review/index.html",
+      "extension": ".html",
+      "bytes": 27090
+    },
+    {
+      "path": "ja/website-builders/wix-review/index.html",
+      "extension": ".html",
+      "bytes": 25718
+    },
+    {
+      "path": "ja/website-builders/wordpress-com-review/index.html",
+      "extension": ".html",
+      "bytes": 26775
+    },
+    {
+      "path": "ja/website-builders/wordpress-start-guide/index.html",
+      "extension": ".html",
+      "bytes": 12598
+    },
+    {
+      "path": "robots.txt",
+      "extension": ".txt",
+      "bytes": 65
+    },
+    {
+      "path": "site.webmanifest",
+      "extension": ".webmanifest",
+      "bytes": 559
+    },
+    {
+      "path": "sitemap.xml",
+      "extension": ".xml",
+      "bytes": 11775
+    }
+  ]
+}

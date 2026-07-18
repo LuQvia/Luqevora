@@ -1,0 +1,104 @@
+{
+  "id": "hostinger-vs-cloudways",
+  "translationKey": "hostinger-vs-cloudways",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "hostinger-vs-cloudways",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "公式情報比較",
+  "title": "HostingerとCloudwaysを比較｜初心者・WordPress運用に向くのはどっち？",
+  "metaTitle": "HostingerとCloudwaysを比較｜料金・管理・WordPress運用の違い【2026年】",
+  "description": "HostingerとCloudwaysの料金体系、契約期間、管理画面、バックアップ、クラウド基盤、向いている運用者を公式情報で比較します。",
+  "lead": "低価格から始めやすいHostingerと、クラウド基盤を選べるCloudwaysは、同じホスティングでも設計思想が異なります。料金表示だけでなく、管理範囲と運用負荷で選びます。",
+  "publishedAt": "2026-07-18",
+  "updatedAt": "2026-07-18",
+  "verifiedAt": "2026-07-18",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {"label": "Hostingerの公式料金を確認", "officialUrl": "https://www.hostinger.com/jp/pricing", "affiliateKey": "hostinger"},
+    {"label": "Cloudwaysの公式料金を確認", "officialUrl": "https://www.cloudways.com/en/pricing.php", "affiliateKey": "cloudways"}
+  ],
+  "sources": [
+    {"label": "Hostinger — 日本向け料金", "url": "https://www.hostinger.com/jp/pricing"},
+    {"label": "Cloudways — Pricing", "url": "https://www.cloudways.com/en/pricing.php"},
+    {"label": "Cloudways — Managed Cloud Hosting", "url": "https://www.cloudways.com/en/"}
+  ],
+  "sections": [
+    {
+      "heading": "結論：簡単さと長期価格ならHostinger、構成の自由度ならCloudways",
+      "body": [
+        "初めてWordPressサイトを作り、ドメイン、SSL、メール、サイト作成機能をまとめて管理したい場合はHostingerが分かりやすい選択です。日本向け円料金があり、長期契約の月額換算を低く抑えられます。",
+        "DigitalOcean、AWS、Google Cloudなどの基盤を選び、サーバーサイズやアプリを運用に合わせて調整したい場合はCloudwaysが候補です。一般的な共用ホスティングより設定項目が多いため、WordPressやサーバーの基礎知識がある運用者に向きます。"
+      ],
+      "callout": "最安価格だけで決めず、Hostingerは前払い総額と更新価格、Cloudwaysはサーバーサイズ・追加機能・バックアップ保存量まで含めた月額で比較してください。"
+    },
+    {
+      "heading": "HostingerとCloudwaysの違いを比較",
+      "body": ["2026年7月18日に確認した公式情報を、選定に必要な項目へ絞って整理します。"],
+      "table": {
+        "headers": ["比較項目", "Hostinger", "Cloudways"],
+        "rows": [
+          ["サービス設計", "ドメインやサイト作成機能もまとめやすいマネージドホスティング", "クラウド基盤上でアプリとサーバーを管理するマネージドクラウド"],
+          ["料金の考え方", "契約期間分を前払いし、月額換算を表示。更新価格を別に確認", "選ぶクラウド基盤とサーバーサイズで月額が変動"],
+          ["公式の開始価格", "Premiumは48か月契約で月額換算299円、初回総額14,352円", "料金ページは月額14米ドルから案内"],
+          ["管理", "独自のhPanelでサイト、ドメイン、メールなどを管理", "サーバーとアプリを分けて管理し、ステージングやSSHなどを利用"],
+          ["バックアップ", "Premiumは週次、Unlimited以上は日次を案内", "プランと追加設定により頻度・保存量を確認"],
+          ["向く利用者", "初心者、小規模事業、複数機能を一つにまとめたい人", "開発者、制作会社、クラウド構成を選びたい人"]
+        ]
+      }
+    },
+    {
+      "heading": "料金は契約期間と更新条件まで比べる",
+      "body": [
+        "Hostingerの日本向け料金では、Premiumが48か月契約の月額換算299円、初回総額14,352円、更新時は月額1,299円と案内されています。UnlimitedとCloud Startupも同様に長期前払いの割引があるため、月額換算だけでなく初回支払額と更新時の負担を確認します。",
+        "Cloudwaysはクラウド基盤、CPU・メモリ・ストレージなどの構成によって料金が変わります。長期前払いの安さより、必要なリソースを選んで拡張する考え方に近く、CDNやバックアップなど追加項目も見積もりへ含めます。"
+      ],
+      "bullets": [
+        "Hostinger：契約月数、初回総額、更新単価、無料ドメインやメールの対象期間を確認",
+        "Cloudways：基盤、サーバーサイズ、バックアップ保存量、CDNなどの追加費用を確認",
+        "どちらもキャンペーン表示ではなく、契約直前の請求画面を最終基準にする"
+      ]
+    },
+    {
+      "heading": "初心者向け機能と運用の自由度",
+      "body": [
+        "HostingerはWordPress、自社サイトビルダー、SSL、自動移行などを一つの管理画面から扱える構成です。設定をできるだけ減らし、サイト公開までを短くしたい場合に適しています。",
+        "CloudwaysはWordPress以外の対応アプリ、SSH、Git、ステージング、サーバー単位の管理など、制作・開発運用で使う機能を重視しています。自由度が高い一方、サーバーとアプリの関係、キャッシュ、DNSなどを理解している方が設定判断はしやすくなります。"
+      ]
+    },
+    {
+      "heading": "どちらが向いているか",
+      "body": ["サイトの規模より、誰がどこまで管理するかを先に決めると選びやすくなります。"],
+      "bullets": [
+        "Hostinger向き：初めての事業サイト、ブログ、複数の小規模サイト、円料金を重視",
+        "Cloudways向き：制作会社、開発者、複数のクライアントサイト、クラウド基盤を選びたい",
+        "別サービスも比較：国内電話サポート、国内データセンター、月単位の簡単な共用サーバー契約が最優先"
+      ]
+    },
+    {
+      "heading": "契約前チェックリスト",
+      "body": ["移行後に想定外の費用や管理作業が発生しないよう、次の項目を確認します。"],
+      "bullets": [
+        "必要なWebサイト数とストレージ容量",
+        "初回総額、更新価格、請求通貨、税",
+        "バックアップ頻度、保存期間、復元方法",
+        "メール、ドメイン、DNSをどこで管理するか",
+        "移行支援の対象範囲と作業中の停止時間",
+        "担当者がSSHやキャッシュ設定を管理できるか"
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "初心者にはHostingerとCloudwaysのどちらが簡単ですか？", "answer": "ドメインやサイト作成機能まで一つの画面で進めたい初心者には、一般にHostingerの方が理解しやすい構成です。Cloudwaysはサーバーとアプリを分けて管理するため、設定の選択肢が増えます。"},
+    {"question": "Cloudwaysは共用レンタルサーバーですか？", "answer": "Cloudwaysは選択したクラウド基盤上のサーバーとアプリを管理するマネージドクラウドサービスです。一般的な共用レンタルサーバーとは料金と管理の考え方が異なります。"},
+    {"question": "表示されている最安月額だけで比較してよいですか？", "answer": "いいえ。Hostingerは契約期間分の前払いと更新価格、Cloudwaysはサーバー構成と追加機能を含めて、実際の支払総額で比較してください。"}
+  ],
+  "relatedLinks": [
+    {"label": "Hostingerの公式情報レビュー", "url": "/ja/hosting-security/hostinger-review/", "description": "料金、更新価格、バックアップ条件を詳しく確認"},
+    {"label": "Cloudwaysの公式情報レビュー", "url": "/ja/hosting-security/cloudways-review/", "description": "クラウド基盤、管理機能、料金の考え方を確認"}
+  ]
+}

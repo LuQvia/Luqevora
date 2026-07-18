@@ -1,0 +1,1271 @@
+[
+  {
+    "legacyFile": "404.html",
+    "language": "en",
+    "title": "404 | Luqevora",
+    "description": "Page not found.",
+    "canonical": "https://luqevora.com/404.html",
+    "h1": "Page not found",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/about/index.html",
+    "language": "en",
+    "title": "About Luqevora | Luqevora",
+    "description": "Learn about Luqevora, its purpose, operation, and relationship with LuQvia.",
+    "canonical": "https://luqevora.com/en/about/",
+    "h1": "About Luqevora",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/affiliate-disclosure/index.html",
+    "language": "en",
+    "title": "Affiliate Disclosure | Luqevora",
+    "description": "How Luqevora uses affiliate links and protects editorial independence.",
+    "canonical": "https://luqevora.com/en/affiliate-disclosure/",
+    "h1": "Affiliate Disclosure",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/ai-tools/ai-meeting-notes-tools/index.html",
+    "language": "en",
+    "title": "5 AI Meeting Note and Transcription Tools Compared: Free Plans, Platforms and Data Protection",
+    "description": "A source-based comparison of Otter.ai, Fireflies.ai, Notta, tl;dv and Fathom covering free plans, supported meeting platforms, transcription features and data protection.",
+    "canonical": "https://luqevora.com/en/ai-tools/ai-meeting-notes-tools/",
+    "h1": "5 AI Meeting Note and Transcription Tools Compared: Free Plans, Platforms and Data Protection",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/ai-tools/ai-writing-tools-small-business/index.html",
+    "language": "en",
+    "title": "5 AI Writing Tools for Small Businesses: Pricing, Features and Data Policies",
+    "description": "An official-source comparison of ChatGPT, Claude, Gemini, Notion AI, and Grammarly for small-business writing workflows, pricing structures, and data controls.",
+    "canonical": "https://luqevora.com/en/ai-tools/ai-writing-tools-small-business/",
+    "h1": "5 AI Writing Tools for Small Businesses: Pricing, Features and Data Policies",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/ai-tools/chatgpt-review/index.html",
+    "language": "en",
+    "title": "ChatGPT Review: Pricing, Features and Data Policies",
+    "description": "An official-source review of ChatGPT Free, Plus and Business, covering pricing, core capabilities, separate API billing, administration and consumer versus business data conditions.",
+    "canonical": "https://luqevora.com/en/ai-tools/chatgpt-review/",
+    "h1": "ChatGPT Review: Pricing, Features and Data Policies",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/ai-tools/claude-review/index.html",
+    "language": "en",
+    "title": "Claude Review: Pro and Team Pricing, Features and Data Policies",
+    "description": "An official-source review of Claude Free, Pro, Max and Team, including prices, minimum seats, connectors, usage limits and consumer versus commercial data conditions.",
+    "canonical": "https://luqevora.com/en/ai-tools/claude-review/",
+    "h1": "Claude Review: Pro and Team Pricing, Features and Data Policies",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/ai-tools/gemini-review/index.html",
+    "language": "en",
+    "title": "Gemini Review: Personal Google AI vs Google Workspace",
+    "description": "An official-source review separating free Gemini access, personal Google AI plans and organization-managed Google Workspace, including features, pricing structure and data protections.",
+    "canonical": "https://luqevora.com/en/ai-tools/gemini-review/",
+    "h1": "Gemini Review: Personal Google AI vs Google Workspace",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/ai-tools/index.html",
+    "language": "en",
+    "title": "AI Tools Comparisons and Reviews | Luqevora",
+    "description": "Compare AI tools for writing, meeting notes and business workflows by use case, pricing and data terms.",
+    "canonical": "https://luqevora.com/en/ai-tools/",
+    "h1": "AI Tools",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/articles/index.html",
+    "language": "en",
+    "title": "All Comparisons and Tool Reviews | Luqevora",
+    "description": "Search 41 Luqevora comparison guides and product reviews by category, content type or keyword.",
+    "canonical": "https://luqevora.com/en/articles/",
+    "h1": "Find comparisons and tool reviews",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/asana-review/index.html",
+    "language": "en",
+    "title": "Asana Review: Personal, Starter and Advanced Pricing, Guests and Permissions",
+    "description": "Official-source review of Asana Personal, Starter, Advanced and Enterprise, including tasks, timelines, portfolios, guests, SSO and SCIM.",
+    "canonical": "https://luqevora.com/en/business-software/asana-review/",
+    "h1": "Asana Review: Personal, Starter and Advanced Pricing, Guests and Permissions",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/clickup-review/index.html",
+    "language": "en",
+    "title": "ClickUp Review: Free, Unlimited and Business Pricing, Guests and Permissions",
+    "description": "Official-source review of ClickUp Free Forever, Unlimited, Business and Enterprise, including tasks, Docs, time tracking, guests, SSO and SCIM.",
+    "canonical": "https://luqevora.com/en/business-software/clickup-review/",
+    "h1": "ClickUp Review: Free, Unlimited and Business Pricing, Guests and Permissions",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/index.html",
+    "language": "en",
+    "title": "Business Software Comparisons and Reviews | Luqevora",
+    "description": "Compare task and project management tools by free plans, permissions, guests and administration.",
+    "canonical": "https://luqevora.com/en/business-software/",
+    "h1": "Business Software",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/monday-review/index.html",
+    "language": "en",
+    "title": "monday.com Review: Free, Basic, Standard, Pro, Pricing and Permissions",
+    "description": "Official-source review of monday work management Free, Basic, Standard, Pro and Enterprise pricing, seat bundles, views, automation, guests, permissions, SAML and SCIM.",
+    "canonical": "https://luqevora.com/en/business-software/monday-review/",
+    "h1": "monday.com Review: Free, Basic, Standard, Pro, Pricing and Permissions",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/notion-review/index.html",
+    "language": "en",
+    "title": "Notion Review: Free, Plus and Business Plans, Permissions, Guests, AI and Data Controls",
+    "description": "Official-source review of Notion Free, Plus, Business and Enterprise plans, pages, databases, guests, permissions, AI, exports and admin controls.",
+    "canonical": "https://luqevora.com/en/business-software/notion-review/",
+    "h1": "Notion Review: Free, Plus and Business Plans, Permissions, Guests, AI and Data Controls",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/project-management-tools-small-business/index.html",
+    "language": "en",
+    "title": "5 Project Management Tools for Small Businesses: Free Plans, Pricing and Permissions Compared",
+    "description": "Compare Notion, Asana, ClickUp, monday.com and Trello using official information on free plans, pricing structures, project features, guests and permissions.",
+    "canonical": "https://luqevora.com/en/business-software/project-management-tools-small-business/",
+    "h1": "5 Project Management Tools for Small Businesses: Free Plans, Pricing and Permissions Compared",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/business-software/trello-review/index.html",
+    "language": "en",
+    "title": "Trello Review: Free, Standard, Premium, Enterprise, Pricing and Admin Controls",
+    "description": "Official-source review of Trello Free, Standard, Premium and Enterprise pricing, boards, automation, views, guests, administrator roles, CSV export and SSO.",
+    "canonical": "https://luqevora.com/en/business-software/trello-review/",
+    "h1": "Trello Review: Free, Standard, Premium, Enterprise, Pricing and Admin Controls",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/contact/index.html",
+    "language": "en",
+    "title": "Contact | Luqevora",
+    "description": "Contact Luqevora regarding general questions, corrections, product submissions, partnerships, website issues, privacy, legal matters, security, media, and other requests.",
+    "canonical": "https://luqevora.com/en/contact/",
+    "h1": "Contact",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/editorial-policy/index.html",
+    "language": "en",
+    "title": "Editorial Policy | Luqevora",
+    "description": "Our standards for research, evaluation, updates, corrections, and the use of AI.",
+    "canonical": "https://luqevora.com/en/editorial-policy/",
+    "h1": "Editorial Policy",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/1password-review/index.html",
+    "language": "en",
+    "title": "1Password Review: Teams Starter Pack and Business Pricing, Sharing and Admin Controls",
+    "description": "A fact-based review of 1Password Teams Starter Pack and Business covering pricing, seat limits, shared vaults, permissions, Watchtower, trials, and security architecture.",
+    "canonical": "https://luqevora.com/en/hosting-security/1password-review/",
+    "h1": "1Password Review: Teams Starter Pack and Business Pricing, Sharing and Admin Controls",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/bitwarden-review/index.html",
+    "language": "en",
+    "title": "Bitwarden Review: Teams and Enterprise Pricing, Sharing, SCIM and Self-Hosting",
+    "description": "A fact-based review of Bitwarden Teams and Enterprise covering pricing, sharing, event logs, directory sync, SCIM, SSO, recovery, and self-hosting.",
+    "canonical": "https://luqevora.com/en/hosting-security/bitwarden-review/",
+    "h1": "Bitwarden Review: Teams and Enterprise Pricing, Sharing, SCIM and Self-Hosting",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/cloudways-review/index.html",
+    "language": "en",
+    "title": "Cloudways Review: Pricing, Hourly Billing, Backups and Email Explained",
+    "description": "An official-source review of Cloudways Flexible covering DigitalOcean starting prices, hourly billing, backup frequency and storage charges, SSL, email and root access.",
+    "canonical": "https://luqevora.com/en/hosting-security/cloudways-review/",
+    "h1": "Cloudways Review: Pricing, Hourly Billing, Backups and Email Explained",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/hostinger-review/index.html",
+    "language": "en",
+    "title": "Hostinger Review: Premium, Unlimited and Cloud Startup Pricing, Renewals and Backups",
+    "description": "Review Hostinger Premium, Unlimited and Cloud Startup using official pricing, renewal, billing term, site, storage, backup, SSL and migration information.",
+    "canonical": "https://luqevora.com/en/hosting-security/hostinger-review/",
+    "h1": "Hostinger Review: Premium, Unlimited and Cloud Startup Pricing, Renewals and Backups",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/index.html",
+    "language": "en",
+    "title": "Hosting & Security Comparisons and Reviews | Luqevora",
+    "description": "Compare web hosting and password managers by pricing, backups, sharing and administrative controls.",
+    "canonical": "https://luqevora.com/en/hosting-security/",
+    "h1": "Hosting & Security",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/keeper-review/index.html",
+    "language": "en",
+    "title": "Keeper Review: Business Starter, Business and Enterprise Sharing, Admin and SSO",
+    "description": "A fact-based review of Keeper Business Starter, Business, and Enterprise covering seat ranges, sharing, delegated administration, SCIM, AD/LDAP, SAML SSO, RBAC, and trials.",
+    "canonical": "https://luqevora.com/en/hosting-security/keeper-review/",
+    "h1": "Keeper Review: Business Starter, Business and Enterprise Sharing, Admin and SSO",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/kinsta-review/index.html",
+    "language": "en",
+    "title": "Kinsta Review: Single 20GB Pricing, Bandwidth, Backups and Security",
+    "description": "Review Kinsta Single 20GB and multi-site WP 2 using official monthly/annual pricing, bandwidth, storage, CDN, migration, 14-day backup and overage information.",
+    "canonical": "https://luqevora.com/en/hosting-security/kinsta-review/",
+    "h1": "Kinsta Review: Single 20GB Pricing, Bandwidth, Backups and Security",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/nordpass-review/index.html",
+    "language": "en",
+    "title": "NordPass Review: Teams, Business and Enterprise seats, sharing and SSO",
+    "description": "Review NordPass Teams, Business and Enterprise using official information on seat requirements, sharing, monitoring, SSO, provisioning, trials and refunds.",
+    "canonical": "https://luqevora.com/en/hosting-security/nordpass-review/",
+    "h1": "NordPass Review: Teams, Business and Enterprise seats, sharing and SSO",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/password-managers-small-business/index.html",
+    "language": "en",
+    "title": "5 Business Password Managers for Small Teams: Pricing, Sharing and Admin Controls Compared",
+    "description": "Compare 1Password, Bitwarden, Keeper, NordPass and Zoho Vault using official information on pricing, sharing, admin controls, SSO, SCIM and trials.",
+    "canonical": "https://luqevora.com/en/hosting-security/password-managers-small-business/",
+    "h1": "5 Business Password Managers for Small Teams: Pricing, Sharing and Admin Controls Compared",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/siteground-review/index.html",
+    "language": "en",
+    "title": "SiteGround Review: StartUp, GrowBig and GoGeek Introductory, Renewal and Backup Terms",
+    "description": "Review SiteGround StartUp, GrowBig and GoGeek using official 12-month pricing, renewal, site, storage, daily backup, SSL, CDN and staging information.",
+    "canonical": "https://luqevora.com/en/hosting-security/siteground-review/",
+    "h1": "SiteGround Review: StartUp, GrowBig and GoGeek Introductory, Renewal and Backup Terms",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/web-hosting-small-business/index.html",
+    "language": "en",
+    "title": "5 Web Hosting Services for Small Businesses: Pricing, Backups and Management Compared",
+    "description": "Compare Hostinger, SiteGround, Kinsta, Cloudways and WP Engine using official information on pricing, renewal rates, backups, SSL, management model and WordPress support.",
+    "canonical": "https://luqevora.com/en/hosting-security/web-hosting-small-business/",
+    "h1": "5 Web Hosting Services for Small Businesses: Pricing, Backups and Management Compared",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/wp-engine-review/index.html",
+    "language": "en",
+    "title": "WP Engine Review: Pricing, Visits, Backups and Staging Explained",
+    "description": "An official-source review of WP Engine Startup, Professional, Growth and Scale covering price, sites, visits, storage, bandwidth, 30-day backups and support.",
+    "canonical": "https://luqevora.com/en/hosting-security/wp-engine-review/",
+    "h1": "WP Engine Review: Pricing, Visits, Backups and Staging Explained",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/hosting-security/zoho-vault-review/index.html",
+    "language": "en",
+    "title": "Zoho Vault Review: Free, Standard, Professional and Enterprise sharing and administration",
+    "description": "Review Zoho Vault Free, Standard, Professional and Enterprise using official information on sharing, administration, emergency access, SSO, SIEM and trial terms.",
+    "canonical": "https://luqevora.com/en/hosting-security/zoho-vault-review/",
+    "h1": "Zoho Vault Review: Free, Standard, Professional and Enterprise sharing and administration",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/index.html",
+    "language": "en",
+    "title": "Luqevora | AI, SaaS and Digital Tool Comparisons",
+    "description": "Compare AI, SaaS and web services using official information on pricing, features, limitations and suitability.",
+    "canonical": "https://luqevora.com/en/",
+    "h1": "Better tools. Clearer decisions.",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/privacy/index.html",
+    "language": "en",
+    "title": "Privacy Policy | Luqevora",
+    "description": "How Luqevora handles personal information, cookies, analytics, and external services.",
+    "canonical": "https://luqevora.com/en/privacy/",
+    "h1": "Privacy Policy",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/ahrefs-review/index.html",
+    "language": "en",
+    "title": "Ahrefs Review: Free Account, Starter and Lite, Backlinks, Rank Tracking and Site Audit",
+    "description": "Review Ahrefs Free, Starter, Lite, Standard and Advanced, verified sites, backlinks, rank tracking, site audits and limits using official sources.",
+    "canonical": "https://luqevora.com/en/seo-marketing/ahrefs-review/",
+    "h1": "Ahrefs Review: Free Account, Starter and Lite, Backlinks, Rank Tracking and Site Audit",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/brevo-review/index.html",
+    "language": "en",
+    "title": "Brevo Review: Free, Starter and Standard Pricing, Send Volume, Automation and CRM",
+    "description": "An official-source review of Brevo Free, Starter, Standard, Professional and Enterprise, send-volume pricing, contact limits, automation, landing pages and user access.",
+    "canonical": "https://luqevora.com/en/seo-marketing/brevo-review/",
+    "h1": "Brevo Review: Free, Starter and Standard Pricing, Send Volume, Automation and CRM",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/email-marketing-tools-small-business/index.html",
+    "language": "en",
+    "title": "5 Email Marketing Tools for Small Businesses: Free Plans, Sending Limits and Automation Compared",
+    "description": "Mailchimp, Brevo, MailerLite, Kit and GetResponse compared using official information on free plans, sending limits, billing models, automation, forms and landing pages.",
+    "canonical": "https://luqevora.com/en/seo-marketing/email-marketing-tools-small-business/",
+    "h1": "5 Email Marketing Tools for Small Businesses: Free Plans, Sending Limits and Automation Compared",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/getresponse-review/index.html",
+    "language": "en",
+    "title": "GetResponse Review: Free, Starter, Marketer and Creator Pricing and Automation",
+    "description": "An official-source review of GetResponse Free, Starter, Marketer and Creator, covering list tiers, unlimited sends, automation, ecommerce, courses and exports.",
+    "canonical": "https://luqevora.com/en/seo-marketing/getresponse-review/",
+    "h1": "GetResponse Review: Free, Starter, Marketer and Creator Pricing and Automation",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/index.html",
+    "language": "en",
+    "title": "SEO & Marketing Comparisons and Reviews | Luqevora",
+    "description": "Compare SEO and email marketing tools by free access, operating limits, automation and data coverage.",
+    "canonical": "https://luqevora.com/en/seo-marketing/",
+    "h1": "SEO & Marketing",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/kit-review/index.html",
+    "language": "en",
+    "title": "Kit Review: Newsletter, Creator and Creator Pro Pricing and Automation Explained",
+    "description": "An official-source review of Kit Newsletter, Creator and Creator Pro, covering subscriber limits, pricing, automation, team access, digital products and CSV exports.",
+    "canonical": "https://luqevora.com/en/seo-marketing/kit-review/",
+    "h1": "Kit Review: Newsletter, Creator and Creator Pro Pricing and Automation Explained",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/mailchimp-review/index.html",
+    "language": "en",
+    "title": "Mailchimp Review: Free, Essentials, Standard and Premium Pricing, Send Limits and Account Controls",
+    "description": "An official-source review of Mailchimp Free, Essentials, Standard and Premium, contact-based pricing, send limits, automation, user access and data exports.",
+    "canonical": "https://luqevora.com/en/seo-marketing/mailchimp-review/",
+    "h1": "Mailchimp Review: Free, Essentials, Standard and Premium Pricing, Send Limits and Account Controls",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/mailerlite-review/index.html",
+    "language": "en",
+    "title": "MailerLite Review: Free, Comfort and Power Pricing, Send Limits, Automation and Forms",
+    "description": "An official-source review of MailerLite Free, Comfort, Power and Enterprise, subscriber-based pricing, monthly sends, automation, forms, landing pages and exports.",
+    "canonical": "https://luqevora.com/en/seo-marketing/mailerlite-review/",
+    "h1": "MailerLite Review: Free, Comfort and Power Pricing, Send Limits, Automation and Forms",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/mangools-review/index.html",
+    "language": "en",
+    "title": "Mangools Review: Five SEO Tools, Plans, Rank Updates and Refund Terms",
+    "description": "Review Mangools&#x27; five SEO tools, Basic, Premium and Agency plans, rank-update frequency, annual billing and refund terms using official sources.",
+    "canonical": "https://luqevora.com/en/seo-marketing/mangools-review/",
+    "h1": "Mangools Review: Five SEO Tools, Plans, Rank Updates and Refund Terms",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/se-ranking-review/index.html",
+    "language": "en",
+    "title": "SE Ranking Review: Core and Growth Pricing, Rank Tracking, Audits and AI Search",
+    "description": "Review SE Ranking&#x27;s 14-day trial, Core, Growth and Enterprise plans, rank tracking, audits, backlinks, AI search and add-on costs using official sources.",
+    "canonical": "https://luqevora.com/en/seo-marketing/se-ranking-review/",
+    "h1": "SE Ranking Review: Core and Growth Pricing, Rank Tracking, Audits and AI Search",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/semrush-review/index.html",
+    "language": "en",
+    "title": "Semrush Review: SEO and AI Search Plans, Pricing, Rank Tracking and Site Audits",
+    "description": "Review Semrush Free, Starter, Pro+ and Advanced plans, rank tracking, site audits, competitor research, AI visibility and add-on costs using official sources.",
+    "canonical": "https://luqevora.com/en/seo-marketing/semrush-review/",
+    "h1": "Semrush Review: SEO and AI Search Plans, Pricing, Rank Tracking and Site Audits",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/seo-tools-small-business/index.html",
+    "language": "en",
+    "title": "5 SEO Tools for Small Businesses Compared: Free Access, Rank Tracking and Site Audits",
+    "description": "Compare Semrush, Ahrefs, Ubersuggest, SE Ranking and Mangools using official information on free access, trials, rank tracking, site audits, competitor research and AI search features.",
+    "canonical": "https://luqevora.com/en/seo-marketing/seo-tools-small-business/",
+    "h1": "5 SEO Tools for Small Businesses Compared: Free Access, Rank Tracking and Site Audits",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/seo-marketing/ubersuggest-review/index.html",
+    "language": "en",
+    "title": "Ubersuggest Review: Free Features, Pricing, Rank Tracking, Site Audits and Lifetime Plans",
+    "description": "Review Ubersuggest free features, Personal, Business and Enterprise, the seven-day trial, Lifetime plans, rank tracking, site audits and AI search using official sources.",
+    "canonical": "https://luqevora.com/en/seo-marketing/ubersuggest-review/",
+    "h1": "Ubersuggest Review: Free Features, Pricing, Rank Tracking, Site Audits and Lifetime Plans",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/terms/index.html",
+    "language": "en",
+    "title": "Terms of Use | Luqevora",
+    "description": "Terms covering content use, disclaimers, intellectual property, and prohibited conduct.",
+    "canonical": "https://luqevora.com/en/terms/",
+    "h1": "Terms of Use",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/index.html",
+    "language": "en",
+    "title": "Website Builders Comparisons and Reviews | Luqevora",
+    "description": "Compare website builders and commerce platforms by publishing model, domains, ecommerce and portability.",
+    "canonical": "https://luqevora.com/en/website-builders/",
+    "h1": "Website Builders",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/shopify-review/index.html",
+    "language": "en",
+    "title": "Shopify Review: Trial, Plans, Payments, Domains and Data Exports",
+    "description": "An official-source review of Shopify covering the trial, plans, products, inventory, orders, payments, domains, hosting, TLS, CSV exports and additional fees.",
+    "canonical": "https://luqevora.com/en/website-builders/shopify-review/",
+    "h1": "Shopify Review: Trial, Plans, Payments, Domains and Data Exports",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/small-business-website-builders/index.html",
+    "language": "en",
+    "title": "5 Website Builders for Small Businesses Compared: Free Options, Domains and Ecommerce",
+    "description": "An official-source comparison of Wix, Squarespace, WordPress.com, Webflow and Shopify covering free access, custom domains, publishing, ecommerce and SSL.",
+    "canonical": "https://luqevora.com/en/website-builders/small-business-website-builders/",
+    "h1": "5 Website Builders for Small Businesses Compared: Free Options, Domains and Ecommerce",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/squarespace-review/index.html",
+    "language": "en",
+    "title": "Squarespace Review: Trial, Domains, Commerce and Export Limits",
+    "description": "An official-source review of Squarespace covering its 14-day trial, domains, hosting, SSL, commerce fees and content-export limits.",
+    "canonical": "https://luqevora.com/en/website-builders/squarespace-review/",
+    "h1": "Squarespace Review: Trial, Domains, Commerce and Export Limits",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/webflow-review/index.html",
+    "language": "en",
+    "title": "Webflow Review: Starter, Site and Workspace Plans, CMS and Code Export",
+    "description": "An official-source review of Webflow covering the free Starter Site, Site and Workspace plans, domains, CMS, backups, code export and Ecommerce.",
+    "canonical": "https://luqevora.com/en/website-builders/webflow-review/",
+    "h1": "Webflow Review: Starter, Site and Workspace Plans, CMS and Code Export",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/wix-review/index.html",
+    "language": "en",
+    "title": "Wix Review: Free Site, Custom Domains, Payments and Portability",
+    "description": "An official-source review of Wix covering its free site, custom domains, SSL, payments, site history and data-export limits.",
+    "canonical": "https://luqevora.com/en/website-builders/wix-review/",
+    "h1": "Wix Review: Free Site, Custom Domains, Payments and Portability",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "en/website-builders/wordpress-com-review/index.html",
+    "language": "en",
+    "title": "WordPress.com Review: Free Plan, Plugins, Backups and Ecommerce",
+    "description": "An official-source review of WordPress.com covering free and paid plans, domains, plugins, SSL, backups, exports and WooCommerce.",
+    "canonical": "https://luqevora.com/en/website-builders/wordpress-com-review/",
+    "h1": "WordPress.com Review: Free Plan, Plugins, Backups and Ecommerce",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "index.html",
+    "language": "en",
+    "title": "Luqevora | Better tools. Clearer decisions.",
+    "description": "Luqevora helps you compare and choose AI, SaaS, and digital tools.",
+    "canonical": "https://luqevora.com/",
+    "h1": "Luqevora",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/about/index.html",
+    "language": "ja",
+    "title": "運営者情報 | Luqevora",
+    "description": "Luqevoraの目的、運営体制、LuQviaとの関係についてご案内します。",
+    "canonical": "https://luqevora.com/ja/about/",
+    "h1": "運営者情報",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/affiliate-disclosure/index.html",
+    "language": "ja",
+    "title": "広告・アフィリエイト掲載方針 | Luqevora",
+    "description": "Luqevoraの広告収益、アフィリエイトリンク、ランキングへの影響について説明します。",
+    "canonical": "https://luqevora.com/ja/affiliate-disclosure/",
+    "h1": "広告・アフィリエイト掲載方針",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/ai-tools/ai-meeting-notes-tools/index.html",
+    "language": "ja",
+    "title": "AI議事録・文字起こしツール5選｜無料枠・対応会議・データ保護を公式情報で比較",
+    "description": "Otter.ai、Fireflies.ai、Notta、tl;dv、Fathomを、無料枠、対応するWeb会議、文字起こし・要約機能、データ保護の公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/ai-tools/ai-meeting-notes-tools/",
+    "h1": "AI議事録・文字起こしツール5選｜無料枠・対応会議・データ保護を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/ai-tools/ai-writing-tools-small-business/index.html",
+    "language": "ja",
+    "title": "中小企業向けAI文章作成ツール5選｜料金・機能・データ利用方針を公式情報で比較",
+    "description": "ChatGPT、Claude、Gemini、Notion AI、Grammarlyを、公式料金・機能・データ利用方針に基づいて比較。中小企業・個人事業の用途別に選び方を整理します。",
+    "canonical": "https://luqevora.com/ja/ai-tools/ai-writing-tools-small-business/",
+    "h1": "中小企業向けAI文章作成ツール5選｜料金・機能・データ利用方針を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/ai-tools/chatgpt-review/index.html",
+    "language": "ja",
+    "title": "ChatGPTレビュー｜料金・機能・データ利用方針を公式情報で整理",
+    "description": "ChatGPTのFree、Plus、Businessを中心に、公式料金、主な機能、APIとの違い、個人向けと法人向けのデータ利用条件を整理します。",
+    "canonical": "https://luqevora.com/ja/ai-tools/chatgpt-review/",
+    "h1": "ChatGPTレビュー｜料金・機能・データ利用方針を公式情報で整理",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/ai-tools/claude-review/index.html",
+    "language": "ja",
+    "title": "Claudeレビュー｜Pro・Teamの料金、機能、データ利用方針を公式情報で整理",
+    "description": "ClaudeのFree、Pro、Max、Teamを中心に、公式料金、最低席数、コネクタ、利用上限、消費者向けと商用向けのデータ条件を整理します。",
+    "canonical": "https://luqevora.com/ja/ai-tools/claude-review/",
+    "h1": "Claudeレビュー｜Pro・Teamの料金、機能、データ利用方針を公式情報で整理",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/ai-tools/gemini-review/index.html",
+    "language": "ja",
+    "title": "Geminiレビュー｜個人向けGoogle AIとWorkspaceの違いを公式情報で整理",
+    "description": "Geminiの無料利用、個人向けGoogle AIプラン、Google Workspaceの違いを、機能、料金の考え方、管理、データ保護の観点で整理します。",
+    "canonical": "https://luqevora.com/ja/ai-tools/gemini-review/",
+    "h1": "Geminiレビュー｜個人向けGoogle AIとWorkspaceの違いを公式情報で整理",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/ai-tools/index.html",
+    "language": "ja",
+    "title": "AIツールの比較記事・レビュー | Luqevora",
+    "description": "生成AI、文章作成、会議記録などの業務向けAIツールを、用途・料金・データ条件から比較します。",
+    "canonical": "https://luqevora.com/ja/ai-tools/",
+    "h1": "AIツール",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/articles/index.html",
+    "language": "ja",
+    "title": "記事一覧・ツールレビュー検索 | Luqevora",
+    "description": "Luqevoraが公開する41件の比較記事・個別レビューを、カテゴリ・記事種別・キーワードで検索できます。",
+    "canonical": "https://luqevora.com/ja/articles/",
+    "h1": "比較記事・レビューを探す",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/asana-guide/index.html",
+    "language": "ja",
+    "title": "Asanaとは？使い方・料金・メリットを初心者向けに解説【2026年版】",
+    "description": "Asanaのタスク、プロジェクト、タイムライン、自動化、ポートフォリオ、料金、メリット・デメリットを解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/asana-guide/",
+    "h1": "Asanaとは？使い方・料金・メリットを初心者向けに解説【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/asana-review/index.html",
+    "language": "ja",
+    "title": "Asanaレビュー｜Personal・Starter・Advanced、料金、ゲスト、権限を公式情報で確認",
+    "description": "AsanaのPersonal、Starter、Advanced、Enterprise、タスク、タイムライン、ポートフォリオ、ゲスト、SSO・SCIMを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/business-software/asana-review/",
+    "h1": "Asanaレビュー｜Personal・Starter・Advanced、料金、ゲスト、権限を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/business-chat-tools-comparison/index.html",
+    "language": "ja",
+    "title": "ビジネスチャットツールおすすめ比較｜Slack・Google Chat・Chatwork・LINE WORKS・Teams",
+    "description": "主要ビジネスチャットを料金、履歴、外部連携、会議、ファイル、現場運用で比較します。",
+    "canonical": "https://luqevora.com/ja/business-software/business-chat-tools-comparison/",
+    "h1": "ビジネスチャットツールおすすめ比較｜Slack・Google Chat・Chatwork・LINE WORKS・Teams",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/clickup-review/index.html",
+    "language": "ja",
+    "title": "ClickUpレビュー｜Free・Unlimited・Business、料金、ゲスト、権限を公式情報で確認",
+    "description": "ClickUpのFree Forever、Unlimited、Business、Enterprise、タスク、Docs、時間計測、ゲスト、権限、SSO・SCIMを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/business-software/clickup-review/",
+    "h1": "ClickUpレビュー｜Free・Unlimited・Business、料金、ゲスト、権限を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/custom-domain-email-guide/index.html",
+    "language": "ja",
+    "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+    "description": "独自ドメインメールの作成方法、レンタルサーバー、Google Workspace、MX、SPF、DKIM、DMARCを解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/custom-domain-email-guide/",
+    "h1": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/google-calendar-guide/index.html",
+    "language": "ja",
+    "title": "Googleカレンダーの使い方｜予定共有・Meet連携を初心者向けに解説",
+    "description": "Googleカレンダーの予定作成、共有、繰り返し、通知、Meet連携、複数カレンダー管理を解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/google-calendar-guide/",
+    "h1": "Googleカレンダーの使い方｜予定共有・Meet連携を初心者向けに解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/google-chat-guide/index.html",
+    "language": "ja",
+    "title": "Google Chatとは？Spaces・料金・Slackとの違いを解説",
+    "description": "Google ChatのDM、Spaces、Drive、Meet、タスク、Google Workspace、Slackとの違いを解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/google-chat-guide/",
+    "h1": "Google Chatとは？Spaces・料金・Slackとの違いを解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/google-drive-guide/index.html",
+    "language": "ja",
+    "title": "Google Driveとは？使い方・料金・共有方法を初心者向けに解説",
+    "description": "Google Driveの保存、共有、権限、同期、Google One、Google Workspace、共有ドライブを解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/google-drive-guide/",
+    "h1": "Google Driveとは？使い方・料金・共有方法を初心者向けに解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/google-meet-guide/index.html",
+    "language": "ja",
+    "title": "Google Meetとは？使い方・料金・参加方法を初心者向けに解説",
+    "description": "Google Meetの会議作成、参加、画面共有、録画、字幕、Workspace版との違いを解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/google-meet-guide/",
+    "h1": "Google Meetとは？使い方・料金・参加方法を初心者向けに解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/google-workspace-guide/index.html",
+    "language": "ja",
+    "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+    "description": "Google WorkspaceのGmail、Drive、Meet、カレンダー、Chat、管理機能、導入手順を解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/google-workspace-guide/",
+    "h1": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/index.html",
+    "language": "ja",
+    "title": "業務ソフトウェアの比較記事・レビュー | Luqevora",
+    "description": "タスク・プロジェクト管理ツールを、無料プラン・権限・ゲスト・管理機能から比較します。",
+    "canonical": "https://luqevora.com/ja/business-software/",
+    "h1": "業務ソフトウェア",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/monday-review/index.html",
+    "language": "ja",
+    "title": "monday.comレビュー｜Free・Basic・Standard・Pro、料金、権限を公式情報で確認",
+    "description": "monday work managementの無料・Basic・Standard・Pro・Enterprise、料金、最小購入席数、ビュー、自動化、ゲスト、権限、SSO・SCIMを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/business-software/monday-review/",
+    "h1": "monday.comレビュー｜Free・Basic・Standard・Pro、料金、権限を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/notion-review/index.html",
+    "language": "ja",
+    "title": "Notionレビュー｜無料・Plus・Business、権限、ゲスト、AI、データ管理を公式情報で確認",
+    "description": "Notionの無料・Plus・Business・Enterprise、ページ・データベース、ゲスト、権限、AI、エクスポート、管理機能を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/business-software/notion-review/",
+    "h1": "Notionレビュー｜無料・Plus・Business、権限、ゲスト、AI、データ管理を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/project-management-tools-small-business/index.html",
+    "language": "ja",
+    "title": "中小企業向けタスク・プロジェクト管理ツール5選｜無料プラン・料金・権限管理を公式情報で比較",
+    "description": "Notion、Asana、ClickUp、monday.com、Trelloを、無料プラン、料金体系、タスク・プロジェクト機能、ゲスト、権限管理の公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/business-software/project-management-tools-small-business/",
+    "h1": "中小企業向けタスク・プロジェクト管理ツール5選｜無料プラン・料金・権限管理を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/slack-guide/index.html",
+    "language": "ja",
+    "title": "Slackとは？使い方・料金・Google Chatとの違いを解説",
+    "description": "Slackのチャンネル、DM、スレッド、ハドル、Slack Connect、アプリ連携、運用ルールを解説します。",
+    "canonical": "https://luqevora.com/ja/business-software/slack-guide/",
+    "h1": "Slackとは？使い方・料金・Google Chatとの違いを解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/slack-vs-google-chat/index.html",
+    "language": "ja",
+    "title": "SlackとGoogle Chatを比較｜料金・機能・連携の違い【2026年版】",
+    "description": "SlackとGoogle Chatを履歴、外部連携、会議、ファイル共有、管理機能、既存ツールとの相性で比較します。",
+    "canonical": "https://luqevora.com/ja/business-software/slack-vs-google-chat/",
+    "h1": "SlackとGoogle Chatを比較｜料金・機能・連携の違い【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/task-management-tools-comparison/index.html",
+    "language": "ja",
+    "title": "タスク管理ツールおすすめ比較｜Asana・Trello・Notion・Backlog・Todoist",
+    "description": "タスク管理ツールを無料プラン、カンバン、ガント、文書管理、自動化、チーム規模で比較します。",
+    "canonical": "https://luqevora.com/ja/business-software/task-management-tools-comparison/",
+    "h1": "タスク管理ツールおすすめ比較｜Asana・Trello・Notion・Backlog・Todoist",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/business-software/trello-review/index.html",
+    "language": "ja",
+    "title": "Trelloレビュー｜Free・Standard・Premium・Enterprise、料金と管理権限を確認",
+    "description": "TrelloのFree・Standard・Premium・Enterprise、料金、共同作業者、ボード、自動化、ビュー、ゲスト、管理者権限、CSV書き出し、SSOを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/business-software/trello-review/",
+    "h1": "Trelloレビュー｜Free・Standard・Premium・Enterprise、料金と管理権限を確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/contact/index.html",
+    "language": "ja",
+    "title": "お問い合わせ | Luqevora",
+    "description": "Luqevoraへの一般連絡、記事訂正、製品掲載、広告・提携、サイト不具合、個人情報、法務、セキュリティ、取材等のお問い合わせ窓口です。",
+    "canonical": "https://luqevora.com/ja/contact/",
+    "h1": "お問い合わせ",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/editorial-policy/index.html",
+    "language": "ja",
+    "title": "編集方針 | Luqevora",
+    "description": "Luqevoraの記事制作、評価基準、情報更新、AI利用に関する基本方針です。",
+    "canonical": "https://luqevora.com/ja/editorial-policy/",
+    "h1": "編集方針",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/1password-review/index.html",
+    "language": "ja",
+    "title": "1Passwordレビュー｜Teams Starter Pack・Businessの料金・共有・管理機能を確認",
+    "description": "1PasswordのTeams Starter PackとBusinessを、料金、最大ユーザー数、共有ボルト、権限、Watchtower、試用、セキュリティの公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/1password-review/",
+    "h1": "1Passwordレビュー｜Teams Starter Pack・Businessの料金・共有・管理機能を確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/ablenet-rental-server-review/index.html",
+    "language": "ja",
+    "title": "ABLENETレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
+    "description": "ABLENETレンタルサーバーの料金、WordPress、LiteSpeed、バックアップ、SSL、メリット・注意点を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/ablenet-rental-server-review/",
+    "h1": "ABLENETレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/ablenet-vps-review/index.html",
+    "language": "ja",
+    "title": "ABLENET VPSの評判・料金を公式情報で確認｜AI・Docker・WordPress",
+    "description": "ABLENET VPSのLinux・Windows、Docker、AIセルフホスト、WordPress、無料試用、管理上の注意点を整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/ablenet-vps-review/",
+    "h1": "ABLENET VPSの評判・料金を公式情報で確認｜AI・Docker・WordPress",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/bitwarden-review/index.html",
+    "language": "ja",
+    "title": "Bitwardenレビュー｜Teams・Enterpriseの料金・共有・SCIM・セルフホストを確認",
+    "description": "Bitwarden TeamsとEnterpriseを、料金、共有、イベントログ、ディレクトリ同期、SCIM、SSO、復旧、セルフホストの公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/bitwarden-review/",
+    "h1": "Bitwardenレビュー｜Teams・Enterpriseの料金・共有・SCIM・セルフホストを確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/cloudways-guide/index.html",
+    "language": "ja",
+    "title": "Cloudwaysの評判・料金を公式情報で確認｜マネージドクラウド",
+    "description": "CloudwaysのWordPress、クラウド基盤、従量課金、バックアップ、ステージング、SSH・Gitを整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/cloudways-guide/",
+    "h1": "Cloudwaysの評判・料金を公式情報で確認｜マネージドクラウド",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/cloudways-review/index.html",
+    "language": "ja",
+    "title": "Cloudwaysレビュー｜料金・従量課金・バックアップ・メールを公式情報で確認",
+    "description": "Cloudways FlexibleのDigitalOcean開始価格、時間課金、バックアップ頻度・保持・容量料金、SSL、メール、rootアクセスの条件を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/cloudways-review/",
+    "h1": "Cloudwaysレビュー｜料金・従量課金・バックアップ・メールを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/colorfulbox-review/index.html",
+    "language": "ja",
+    "title": "ColorfulBoxの評判・料金を公式情報で確認｜WordPress・バックアップ",
+    "description": "ColorfulBoxのLiteSpeed、WordPressセットアップ、地域分散バックアップ、料金、メリット・注意点を整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/colorfulbox-review/",
+    "h1": "ColorfulBoxの評判・料金を公式情報で確認｜WordPress・バックアップ",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/com-vs-jp-domain/index.html",
+    "language": "ja",
+    "title": "「.com」と「.jp」の違いを比較｜独自ドメインはどっち？",
+    "description": "comとjpの登録条件、料金、信頼性、SEO、海外展開、用途を比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/com-vs-jp-domain/",
+    "h1": "「.com」と「.jp」の違いを比較｜独自ドメインはどっち？",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/conoha-wing-review/index.html",
+    "language": "ja",
+    "title": "ConoHa WINGの評判・料金を公式情報で確認｜WordPressにおすすめ？",
+    "description": "ConoHa WINGのWordPressかんたんセットアップ、バックアップ、独自ドメイン特典、料金、注意点を整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/conoha-wing-review/",
+    "h1": "ConoHa WINGの評判・料金を公式情報で確認｜WordPressにおすすめ？",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/domain-registrar-comparison/index.html",
+    "language": "ja",
+    "title": "独自ドメイン取得サービスおすすめ比較｜更新料金・管理機能で選ぶ【2026年版】",
+    "description": "独自ドメイン取得サービスを更新料金、移管、Whois、DNS、自動更新、サポートで比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/domain-registrar-comparison/",
+    "h1": "独自ドメイン取得サービスおすすめ比較｜更新料金・管理機能で選ぶ【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/hostinger-review/index.html",
+    "language": "ja",
+    "title": "Hostingerレビュー｜Premium・Unlimited・Cloud Startupの料金・更新価格・バックアップを確認",
+    "description": "HostingerのPremium、Unlimited、Cloud Startupを、初回・更新料金、契約期間、サイト数、容量、バックアップ、SSL、移行の公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/hostinger-review/",
+    "h1": "Hostingerレビュー｜Premium・Unlimited・Cloud Startupの料金・更新価格・バックアップを確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/hostinger-vs-ablenet-vps/index.html",
+    "language": "ja",
+    "title": "HostingerとABLENET VPSを比較｜WordPress・AI開発にはどっち？",
+    "description": "HostingerとABLENET VPSをWordPress、Docker、AIセルフホスト、管理難易度、サポートで比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/hostinger-vs-ablenet-vps/",
+    "h1": "HostingerとABLENET VPSを比較｜WordPress・AI開発にはどっち？",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/hostinger-vs-lolipop/index.html",
+    "language": "ja",
+    "title": "Hostingerとロリポップ！を比較｜初心者にはどっちがおすすめ？",
+    "description": "Hostingerとロリポップ！を料金、WordPress、表示速度、サポート、バックアップ、AI機能で比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/hostinger-vs-lolipop/",
+    "h1": "Hostingerとロリポップ！を比較｜初心者にはどっちがおすすめ？",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/hostinger-vs-xserver/index.html",
+    "language": "ja",
+    "title": "Hostingerとエックスサーバーを比較｜WordPressにはどっちがおすすめ？",
+    "description": "Hostingerとエックスサーバーを料金、更新費用、WordPress機能、バックアップ、サポート、国内外運用で比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/hostinger-vs-xserver/",
+    "h1": "Hostingerとエックスサーバーを比較｜WordPressにはどっちがおすすめ？",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/index.html",
+    "language": "ja",
+    "title": "サーバー・セキュリティの比較記事・レビュー | Luqevora",
+    "description": "Webホスティングとパスワード管理を、料金・バックアップ・共有・管理機能から比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/",
+    "h1": "サーバー・セキュリティ",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/jetboy-review/index.html",
+    "language": "ja",
+    "title": "JETBOYレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
+    "description": "JETBOYのLiteSpeed、CloudLinux、WordPress、バックアップ、無料SSL、プラン変更について公式情報を整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/jetboy-review/",
+    "h1": "JETBOYレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/keeper-review/index.html",
+    "language": "ja",
+    "title": "Keeperレビュー｜Business Starter・Business・Enterpriseの共有・権限・SSOを確認",
+    "description": "Keeper Business Starter、Business、Enterpriseを、対象人数、共有、委任管理、SCIM、AD/LDAP、SAML SSO、RBAC、試用の公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/keeper-review/",
+    "h1": "Keeperレビュー｜Business Starter・Business・Enterpriseの共有・権限・SSOを確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/kinsta-review/index.html",
+    "language": "ja",
+    "title": "Kinstaレビュー｜Single 20GBの料金・帯域・バックアップ・セキュリティを公式情報で確認",
+    "description": "KinstaのSingle 20GBと複数サイト向けWP 2を、月払い・年払い、帯域、ストレージ、CDN、移行、14日バックアップ、超過条件の公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/kinsta-review/",
+    "h1": "Kinstaレビュー｜Single 20GBの料金・帯域・バックアップ・セキュリティを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/mixhost-review/index.html",
+    "language": "ja",
+    "title": "mixhostの評判・料金を公式情報で確認｜WordPress・LiteSpeed",
+    "description": "mixhostのWordPress、LiteSpeed、cPanel、バックアップ、SSL、更新料金、サポートを整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/mixhost-review/",
+    "h1": "mixhostの評判・料金を公式情報で確認｜WordPress・LiteSpeed",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/namecheap-review/index.html",
+    "language": "ja",
+    "title": "Namecheapの評判・料金を公式情報で確認｜ドメイン・ホスティング",
+    "description": "Namecheapのドメイン、Whois Privacy、ホスティング、WordPress、VPS、料金、注意点を整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/namecheap-review/",
+    "h1": "Namecheapの評判・料金を公式情報で確認｜ドメイン・ホスティング",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/nordpass-review/index.html",
+    "language": "ja",
+    "title": "NordPassレビュー｜Teams・Business・Enterpriseの人数条件・共有・SSOを確認",
+    "description": "NordPassの法人向けTeams・Business・Enterpriseを、10名パック、最低人数、共有、監査、SSO・プロビジョニング、試用・返金条件で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/nordpass-review/",
+    "h1": "NordPassレビュー｜Teams・Business・Enterpriseの人数条件・共有・SSOを確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/password-managers-small-business/index.html",
+    "language": "ja",
+    "title": "中小企業向けパスワード管理ツール5選｜料金・共有・管理機能を公式情報で比較",
+    "description": "1Password、Bitwarden、Keeper、NordPass、Zoho Vaultを、料金体系、共有、管理者権限、SSO・SCIM、無料試用の公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/password-managers-small-business/",
+    "h1": "中小企業向けパスワード管理ツール5選｜料金・共有・管理機能を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/siteground-review/index.html",
+    "language": "ja",
+    "title": "SiteGroundレビュー｜StartUp・GrowBig・GoGeekの初回・更新料金とバックアップを確認",
+    "description": "SiteGroundのStartUp、GrowBig、GoGeekを、12か月前払い、更新価格、サイト数、容量、日次バックアップ、SSL、CDN、ステージングの公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/siteground-review/",
+    "h1": "SiteGroundレビュー｜StartUp・GrowBig・GoGeekの初回・更新料金とバックアップを確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/web-hosting-small-business/index.html",
+    "language": "ja",
+    "title": "中小企業向けWebホスティング5選｜料金・バックアップ・運用方式を公式情報で比較",
+    "description": "Hostinger、SiteGround、Kinsta、Cloudways、WP Engineを、料金、更新価格、バックアップ、SSL、運用方式、WordPress対応の公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/web-hosting-small-business/",
+    "h1": "中小企業向けWebホスティング5選｜料金・バックアップ・運用方式を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/wp-engine-review/index.html",
+    "language": "ja",
+    "title": "WP Engineレビュー｜料金・訪問数・バックアップ・ステージングを公式情報で確認",
+    "description": "WP EngineのStartup・Professional・Growth・Scaleを、料金、サイト数、訪問数、容量、帯域、30日バックアップ、サポートの公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/wp-engine-review/",
+    "h1": "WP Engineレビュー｜料金・訪問数・バックアップ・ステージングを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/wpx-speed-review/index.html",
+    "language": "ja",
+    "title": "wpX Speedの評判・料金を公式情報で確認｜WordPress専用サーバー",
+    "description": "wpX SpeedのWordPress専用設計、料金体系、NVMe、オートスケール、バックアップ、注意点を整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/wpx-speed-review/",
+    "h1": "wpX Speedの評判・料金を公式情報で確認｜WordPress専用サーバー",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/xserver-vs-lolipop/index.html",
+    "language": "ja",
+    "title": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
+    "description": "エックスサーバーとロリポップ！を料金、WordPress、速度、バックアップ、サポート、ドメイン特典で比較します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/xserver-vs-lolipop/",
+    "h1": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/hosting-security/zoho-vault-review/index.html",
+    "language": "ja",
+    "title": "Zoho Vaultレビュー｜Free・Standard・Professional・Enterpriseの共有・管理機能を確認",
+    "description": "Zoho VaultのFree、Standard、Professional、Enterpriseを、共有、管理者権限、緊急アクセス、SSO、SIEM、試用条件で公式情報から整理します。",
+    "canonical": "https://luqevora.com/ja/hosting-security/zoho-vault-review/",
+    "h1": "Zoho Vaultレビュー｜Free・Standard・Professional・Enterpriseの共有・管理機能を確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/index.html",
+    "language": "ja",
+    "title": "Luqevora｜AI・SaaS・デジタルツール比較",
+    "description": "AI・SaaS・Webサービスを公式情報を基準に比較し、料金・機能・制約・向いている利用者を分かりやすく整理します。",
+    "canonical": "https://luqevora.com/ja/",
+    "h1": "より良いツール選びを、 もっと分かりやすく。",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/privacy/index.html",
+    "language": "ja",
+    "title": "プライバシーポリシー | Luqevora",
+    "description": "Luqevoraにおける個人情報、アクセス解析、Cookie、外部サービスの取扱いについて定めます。",
+    "canonical": "https://luqevora.com/ja/privacy/",
+    "h1": "プライバシーポリシー",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/a8net-guide/index.html",
+    "language": "ja",
+    "title": "A8.netの使い方｜案件検索・提携・広告掲載を初心者向けに解説",
+    "description": "A8.netの登録後設定、案件検索、提携申請、広告リンク作成、成果レポート、セルフバックの使い方を解説します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/a8net-guide/",
+    "h1": "A8.netの使い方｜案件検索・提携・広告掲載を初心者向けに解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/affiliate-marketing-start-guide/index.html",
+    "language": "ja",
+    "title": "アフィリエイトの始め方｜初心者向けに仕組みと手順を解説【2026年版】",
+    "description": "アフィリエイトの仕組み、ASP登録、案件選定、提携申請、記事設計、広告掲載、成果確認まで初心者向けに解説します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/affiliate-marketing-start-guide/",
+    "h1": "アフィリエイトの始め方｜初心者向けに仕組みと手順を解説【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/ahrefs-review/index.html",
+    "language": "ja",
+    "title": "Ahrefsレビュー｜無料アカウント、Starter・Lite、被リンク、サイト監査を公式情報で確認",
+    "description": "Ahrefsの無料アカウント、Starter、Lite、Standard、Advanced、確認済みサイト、被リンク、順位計測、サイト監査を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/ahrefs-review/",
+    "h1": "Ahrefsレビュー｜無料アカウント、Starter・Lite、被リンク、サイト監査を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/brevo-review/index.html",
+    "language": "ja",
+    "title": "Brevoレビュー｜Free・Starter・Standardの料金、送信量、自動化、CRMを公式情報で確認",
+    "description": "BrevoのFree、Starter、Standard、Professional、Enterprise、送信量課金、連絡先上限、自動化、ランディングページ、ユーザー権限を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/brevo-review/",
+    "h1": "Brevoレビュー｜Free・Starter・Standardの料金、送信量、自動化、CRMを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/email-marketing-tools-small-business/index.html",
+    "language": "ja",
+    "title": "中小企業向けメールマーケティングツール5選｜無料プラン・配信上限・自動化を公式情報で比較",
+    "description": "Mailchimp、Brevo、MailerLite、Kit、GetResponseを、無料プラン、配信上限、課金方式、自動化、フォーム・ランディングページの公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/email-marketing-tools-small-business/",
+    "h1": "中小企業向けメールマーケティングツール5選｜無料プラン・配信上限・自動化を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/getresponse-review/index.html",
+    "language": "ja",
+    "title": "GetResponseレビュー｜Free・Starter・Marketer・Creatorの料金と自動化を公式情報で確認",
+    "description": "GetResponseのFree、Starter、Marketer、Creatorについて、料金、リスト上限、無制限配信、自動化、EC、コース、書き出しを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/getresponse-review/",
+    "h1": "GetResponseレビュー｜Free・Starter・Marketer・Creatorの料金と自動化を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/how-to-make-money-blogging/index.html",
+    "language": "ja",
+    "title": "ブログで稼ぐ方法｜初心者向けに収益化の仕組みを解説【2026年版】",
+    "description": "ブログ収益化の方法、ジャンル選定、集客記事と収益記事、SEO、内部リンク、改善指標を初心者向けに解説します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/how-to-make-money-blogging/",
+    "h1": "ブログで稼ぐ方法｜初心者向けに収益化の仕組みを解説【2026年版】",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/index.html",
+    "language": "ja",
+    "title": "SEO・マーケティングの比較記事・レビュー | Luqevora",
+    "description": "SEO分析とメールマーケティングを、無料枠・運用上限・自動化・データ取得範囲から比較します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/",
+    "h1": "SEO・マーケティング",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/kit-review/index.html",
+    "language": "ja",
+    "title": "Kitレビュー｜Newsletter・Creator・Creator Proの料金と自動化を公式情報で確認",
+    "description": "KitのNewsletter、Creator、Creator Proについて、購読者上限、料金、自動化、チーム人数、デジタル商品、CSV書き出しを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/kit-review/",
+    "h1": "Kitレビュー｜Newsletter・Creator・Creator Proの料金と自動化を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/mailchimp-review/index.html",
+    "language": "ja",
+    "title": "Mailchimpレビュー｜無料・Essentials・Standard・Premiumの料金構造と送信上限を公式情報で確認",
+    "description": "MailchimpのFree、Essentials、Standard、Premium、連絡先課金、月間送信上限、オートメーション、ユーザー権限、データ書き出しを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/mailchimp-review/",
+    "h1": "Mailchimpレビュー｜無料・Essentials・Standard・Premiumの料金構造と送信上限を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/mailerlite-review/index.html",
+    "language": "ja",
+    "title": "MailerLiteレビュー｜Free・Comfort・Powerの料金、送信上限、自動化、フォームを公式情報で確認",
+    "description": "MailerLiteのFree、Comfort、Power、Enterprise、購読者課金、月間送信量、自動化、フォーム、ランディングページ、書き出しを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/mailerlite-review/",
+    "h1": "MailerLiteレビュー｜Free・Comfort・Powerの料金、送信上限、自動化、フォームを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/mangools-review/index.html",
+    "language": "ja",
+    "title": "Mangoolsレビュー｜5つのSEOツール、料金体系、順位更新、返金条件を公式情報で確認",
+    "description": "MangoolsのKWFinder、SERPChecker、SERPWatcher、LinkMiner、SiteProfiler、Basic・Premium・Agency、順位更新と契約条件を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/mangools-review/",
+    "h1": "Mangoolsレビュー｜5つのSEOツール、料金体系、順位更新、返金条件を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/moshimo-affiliate-guide/index.html",
+    "language": "ja",
+    "title": "もしもアフィリエイトの使い方｜登録・案件検索・かんたんリンクを解説",
+    "description": "もしもアフィリエイトの登録、案件検索、提携申請、広告リンク、かんたんリンク、報酬制度を初心者向けに解説します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/moshimo-affiliate-guide/",
+    "h1": "もしもアフィリエイトの使い方｜登録・案件検索・かんたんリンクを解説",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/se-ranking-review/index.html",
+    "language": "ja",
+    "title": "SE Rankingレビュー｜Core・Growthの料金、順位計測、サイト診断、AI検索を公式情報で確認",
+    "description": "SE Rankingの14日間試用、Core・Growth・Enterprise、順位計測、サイト診断、競合・被リンク、AI検索、追加費用を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/se-ranking-review/",
+    "h1": "SE Rankingレビュー｜Core・Growthの料金、順位計測、サイト診断、AI検索を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/semrush-review/index.html",
+    "language": "ja",
+    "title": "Semrushレビュー｜SEO・AI検索プラン、料金、順位計測、サイト診断を公式情報で確認",
+    "description": "SemrushのFree、Starter、Pro+、Advanced、順位計測、サイト診断、競合調査、AI検索可視性、追加料金を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/semrush-review/",
+    "h1": "Semrushレビュー｜SEO・AI検索プラン、料金、順位計測、サイト診断を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/seo-tools-small-business/index.html",
+    "language": "ja",
+    "title": "中小企業向けSEOツール5選｜無料利用・順位計測・サイト診断を公式情報で比較",
+    "description": "Semrush、Ahrefs、Ubersuggest、SE Ranking、Mangoolsを、無料利用・試用、順位計測、サイト診断、競合・被リンク調査、AI検索対応の公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/seo-tools-small-business/",
+    "h1": "中小企業向けSEOツール5選｜無料利用・順位計測・サイト診断を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/seo-marketing/ubersuggest-review/index.html",
+    "language": "ja",
+    "title": "Ubersuggestレビュー｜無料機能、料金、順位計測、サイト監査、買切りを公式情報で確認",
+    "description": "Ubersuggestの無料機能、Personal・Business・Enterprise、7日間試用、買切り、順位計測、サイト監査、AI検索を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/seo-marketing/ubersuggest-review/",
+    "h1": "Ubersuggestレビュー｜無料機能、料金、順位計測、サイト監査、買切りを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/terms/index.html",
+    "language": "ja",
+    "title": "利用規約 | Luqevora",
+    "description": "Luqevoraのコンテンツ利用、免責事項、知的財産権等に関する条件です。",
+    "canonical": "https://luqevora.com/ja/terms/",
+    "h1": "利用規約",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/index.html",
+    "language": "ja",
+    "title": "Webサイト制作の比較記事・レビュー | Luqevora",
+    "description": "Webサイト作成、EC、ホスティング一体型サービスを、公開方法・独自ドメイン・移行性から比較します。",
+    "canonical": "https://luqevora.com/ja/website-builders/",
+    "h1": "Webサイト制作",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/shopify-review/index.html",
+    "language": "ja",
+    "title": "Shopifyレビュー｜無料試用・料金・決済・ドメイン・データ書き出しを公式情報で確認",
+    "description": "Shopifyの無料試用、プラン、商品・在庫・注文・決済、独自ドメイン、ホスティング、TLS、CSV書き出し、追加手数料を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/website-builders/shopify-review/",
+    "h1": "Shopifyレビュー｜無料試用・料金・決済・ドメイン・データ書き出しを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/small-business-website-builders/index.html",
+    "language": "ja",
+    "title": "中小企業向けホームページ作成ツール5選｜無料枠・独自ドメイン・EC機能を公式情報で比較",
+    "description": "Wix、Squarespace、WordPress.com、Webflow、Shopifyを、無料利用、独自ドメイン、公開・運用方式、EC機能、SSLの公式情報で比較します。",
+    "canonical": "https://luqevora.com/ja/website-builders/small-business-website-builders/",
+    "h1": "中小企業向けホームページ作成ツール5選｜無料枠・独自ドメイン・EC機能を公式情報で比較",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/squarespace-review/index.html",
+    "language": "ja",
+    "title": "Squarespaceレビュー｜無料試用・独自ドメイン・EC・書き出し範囲を公式情報で確認",
+    "description": "Squarespaceの14日間無料試用、独自ドメイン、ホスティング、SSL、販売機能、取引手数料、エクスポート範囲を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/website-builders/squarespace-review/",
+    "h1": "Squarespaceレビュー｜無料試用・独自ドメイン・EC・書き出し範囲を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/webflow-review/index.html",
+    "language": "ja",
+    "title": "Webflowレビュー｜無料Starter・Site/Workspace・CMS・コード書き出しを公式情報で確認",
+    "description": "Webflowの無料Starter、SiteプランとWorkspaceプラン、独自ドメイン、CMS、バックアップ、コード書き出し、Ecommerceを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/website-builders/webflow-review/",
+    "h1": "Webflowレビュー｜無料Starter・Site/Workspace・CMS・コード書き出しを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/wix-review/index.html",
+    "language": "ja",
+    "title": "Wixレビュー｜無料プラン・独自ドメイン・決済・移行制約を公式情報で確認",
+    "description": "Wixの無料サイト、独自ドメイン、SSL、決済、バックアップ・データ書き出しの範囲を公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/website-builders/wix-review/",
+    "h1": "Wixレビュー｜無料プラン・独自ドメイン・決済・移行制約を公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/wordpress-com-review/index.html",
+    "language": "ja",
+    "title": "WordPress.comレビュー｜無料プラン・プラグイン・バックアップ・ECを公式情報で確認",
+    "description": "WordPress.comの無料・有料プラン、独自ドメイン、プラグイン、SSL、バックアップ、エクスポート、WooCommerceを公式情報で整理します。",
+    "canonical": "https://luqevora.com/ja/website-builders/wordpress-com-review/",
+    "h1": "WordPress.comレビュー｜無料プラン・プラグイン・バックアップ・ECを公式情報で確認",
+    "status": "needs-content-migration"
+  },
+  {
+    "legacyFile": "ja/website-builders/wordpress-start-guide/index.html",
+    "language": "ja",
+    "title": "WordPressの始め方｜初心者向けに開設から初期設定まで解説【2026年版】",
+    "description": "WordPressの始め方を初心者向けに解説。サーバー契約、独自ドメイン、インストール、SSL、初期設定、テーマ・プラグインまで整理します。",
+    "canonical": "https://luqevora.com/ja/website-builders/wordpress-start-guide/",
+    "h1": "WordPressの始め方｜初心者向けに開設から初期設定まで解説【2026年版】",
+    "status": "needs-content-migration"
+  }
+]

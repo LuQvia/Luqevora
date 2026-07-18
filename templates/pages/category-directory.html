@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="alternate" type="application/rss+xml" title="Luqevora {{lang}}" href="/feed-{{lang}}.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Luqevora">
+  <meta property="og:title" content="{{metaTitle}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="{{metaTitle}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{metaTitle}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{metaTitle}}">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0B1F44">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css?v=4.5.0">
+  <script type="application/ld+json">{{structuredData}}</script>
+  <script defer src="/assets/js/analytics-v4.5.0.js"></script>
+  <script defer src="/assets/js/main-v4.5.0.js"></script>
+</head>
+<body>
+{{header}}
+<main id="main">
+  <section class="page-hero category-hero">
+    <div class="container">
+      <nav aria-label="{{breadcrumbAriaLabel}}" class="breadcrumb"><a href="/{{lang}}/">Luqevora</a><span>/</span><span>{{title}}</span></nav>
+      <div class="category-hero-grid">
+        <div><span class="eyebrow">{{eyebrow}}</span><h1>{{title}}</h1><p class="page-lead">{{description}}</p></div>
+        <a class="btn btn-secondary" href="/{{lang}}/articles/?category={{categoryId}}">{{allArticlesLabel}}</a>
+      </div>
+    </div>
+  </section>
+  <section class="content-section category-content">
+    <div class="container">
+      <div class="section-heading"><div><span class="eyebrow">{{evaluationEyebrow}}</span><h2>{{evaluationTitle}}</h2></div></div>
+      <div class="grid feature-grid">
+        <div class="feature"><span class="number">01</span><h3>{{pointOneTitle}}</h3><p>{{pointOneText}}</p></div>
+        <div class="feature"><span class="number">02</span><h3>{{pointTwoTitle}}</h3><p>{{pointTwoText}}</p></div>
+        <div class="feature"><span class="number">03</span><h3>{{pointThreeTitle}}</h3><p>{{pointThreeText}}</p></div>
+      </div>
+      <section class="category-article-group">
+        <div class="section-heading compact-heading"><div><span class="eyebrow">{{articlesEyebrow}}</span><h2>{{articlesTitle}}</h2></div><p>{{articlesLead}}</p></div>
+        <div class="grid article-directory-grid">{{articleCards}}</div>
+      </section>
+      <section class="category-related topic-section"><div class="section-heading compact-heading"><div><span class="eyebrow">{{topicsEyebrow}}</span><h2>{{topicsTitle}}</h2></div><p>{{topicsLead}}</p></div><div class="topic-link-grid">{{topicLinks}}</div></section>
+      <section class="category-related"><div class="section-heading compact-heading"><h2>{{relatedTitle}}</h2></div><div class="related-category-grid">{{relatedCategories}}</div></section>
+    </div>
+  </section>
+</main>
+{{footer}}
+</body>
+</html>

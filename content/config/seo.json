@@ -1,0 +1,65 @@
+{
+  "indexing": {
+    "mode": "priority",
+    "includeLegacyRoutes": true,
+    "includeSourceFiles": [
+      "content/article-batches/bilingual-affiliate-intents.json"
+    ],
+    "priorityProducts": [
+      "activecampaign",
+      "getresponse",
+      "hubspot",
+      "semrush",
+      "monday",
+      "clickup",
+      "shopify",
+      "hostinger",
+      "kinsta",
+      "wp-engine",
+      "nordvpn",
+      "surfshark"
+    ],
+    "includePriorityReviews": true,
+    "priorityComparisonMinimumMatches": 2,
+    "ensureTranslationParity": true
+  },
+  "metadata": {
+    "titleSoftLimit": {
+      "ja": 48,
+      "en": 68
+    },
+    "descriptionSoftLimit": {
+      "ja": 110,
+      "en": 170
+    }
+  },
+  "images": {
+    "publicDirectory": "/assets/images/articles",
+    "sourceDirectory": "source-assets/images/articles",
+    "width": 1200,
+    "height": 675,
+    "format": "jpg",
+    "quality": 86
+  },
+  "relatedArticles": {
+    "count": 5
+  },
+  "quality": {
+    "hardMinimumSources": 1,
+    "recommendedSources": 2,
+    "hardMinimumUnits": {
+      "ja": 300,
+      "en": 300
+    },
+    "recommendedUnits": {
+      "ja": 600,
+      "en": 500
+    },
+    "staleWarningDays": 180,
+    "staleCriticalDays": 365,
+    "minimumSections": 4,
+    "minimumFaqs": 2,
+    "promotionScore": 82,
+    "promotionCandidatePairLimit": 25
+  }
+}

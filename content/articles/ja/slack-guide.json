@@ -1,0 +1,59 @@
+{
+  "id": "slack-guide",
+  "translationKey": "slack-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "slack-guide",
+  "category": "business-software",
+  "topic": "business-chat",
+  "badge": "実践ガイド",
+  "title": "Slackとは？使い方・料金・Google Chatとの違いを解説",
+  "metaTitle": "Slackとは？使い方・料金・Google Chatとの違いを解説",
+  "description": "Slackのチャンネル、DM、スレッド、ハドル、Slack Connect、アプリ連携、運用ルールを解説します。",
+  "lead": "Slackを社内外の業務連絡に使うための基本構造と運用ルールを整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Slack Pricing",
+      "url": "https://slack.com/intl/ja-jp/pricing"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "多数のSaaS連携、社外連携、通知自動化、チャンネル中心の情報共有を重視する組織に向きます。"
+      ]
+    },
+    {
+      "heading": "基本構造",
+      "body": [
+        "ワークスペース、チャンネル、DM、スレッドを使い分けます。重要情報は個人DMではなく共有チャンネルへ残します。"
+      ]
+    },
+    {
+      "heading": "主な機能",
+      "body": [
+        "ハドル、Slack Connect、アプリ連携、ワークフロー、検索、canvas、リスト等があります。プランにより履歴と機能が異なります。"
+      ]
+    },
+    {
+      "heading": "運用ルール",
+      "body": [
+        "チャンネル命名、スレッド、全体メンション、ファイル正本、退職者停止、外部ゲスト確認をルール化します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Slackは無料ですか？",
+      "answer": "無料プランがあります。履歴や連携数等の制限は公式料金ページで確認してください。"
+    }
+  ]
+}

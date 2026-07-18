@@ -1,0 +1,75 @@
+{
+  "id": "business-chat-tools-comparison",
+  "translationKey": "business-chat-tools-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "business-chat-tools-comparison",
+  "category": "business-software",
+  "topic": "business-chat",
+  "badge": "比較記事",
+  "title": "ビジネスチャットツールおすすめ比較｜Slack・Google Chat・Chatwork・LINE WORKS・Teams",
+  "metaTitle": "ビジネスチャットツールおすすめ比較｜Slack・Google Chat・Chatwork・LINE WORKS・Teams",
+  "description": "主要ビジネスチャットを料金、履歴、外部連携、会議、ファイル、現場運用で比較します。",
+  "lead": "業務基盤と利用者に合うビジネスチャットを選ぶための比較記事です。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Slack",
+      "url": "https://slack.com/intl/ja-jp/pricing"
+    },
+    {
+      "label": "Google Chat",
+      "url": "https://workspace.google.com/products/chat/"
+    },
+    {
+      "label": "Chatwork",
+      "url": "https://go.chatwork.com/ja/price/"
+    },
+    {
+      "label": "LINE WORKS",
+      "url": "https://line-works.com/pricing/"
+    },
+    {
+      "label": "Microsoft Teams",
+      "url": "https://www.microsoft.com/ja-jp/microsoft-teams/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "外部連携ならSlack、Google中心ならGoogle Chat、シンプルさならChatwork、店舗・現場ならLINE WORKS、Microsoft 365中心ならTeamsが候補です。"
+      ]
+    },
+    {
+      "heading": "選び方",
+      "body": [
+        "現在のメール、ストレージ、会議、取引先ツール、履歴保存、外部ゲスト、管理機能を基準にします。"
+      ]
+    },
+    {
+      "heading": "導入ルール",
+      "body": [
+        "重要情報をDMへ閉じない、スレッドを使う、正本の保存先を統一する、退職者を停止する等を決めます。"
+      ]
+    },
+    {
+      "heading": "無料プラン",
+      "body": [
+        "無料版は履歴、人数、通話、ストレージに制限があります。会社運用では有料化後の総額で比較します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "小規模企業にはどれですか？",
+      "answer": "既存のGoogleまたはMicrosoft環境、現場のIT習熟度、社外連携で選びます。"
+    }
+  ]
+}

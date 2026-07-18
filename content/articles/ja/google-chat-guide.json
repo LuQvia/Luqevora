@@ -1,0 +1,63 @@
+{
+  "id": "google-chat-guide",
+  "translationKey": "google-chat-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "google-chat-guide",
+  "category": "business-software",
+  "topic": "business-chat",
+  "badge": "実践ガイド",
+  "title": "Google Chatとは？Spaces・料金・Slackとの違いを解説",
+  "metaTitle": "Google Chatとは？Spaces・料金・Slackとの違いを解説",
+  "description": "Google ChatのDM、Spaces、Drive、Meet、タスク、Google Workspace、Slackとの違いを解説します。",
+  "lead": "Google Chatの基本機能と、Google Workspace中心の組織での使い方を整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Google Chat Help",
+      "url": "https://support.google.com/chat/"
+    },
+    {
+      "label": "Google Workspace Chat",
+      "url": "https://workspace.google.com/products/chat/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "Gmail、Drive、Meet、カレンダーを中心に業務を行う組織に向くビジネスチャットです。"
+      ]
+    },
+    {
+      "heading": "Spaces",
+      "body": [
+        "プロジェクトや部署ごとに会話、ファイル、タスクをまとめます。"
+      ]
+    },
+    {
+      "heading": "Google連携",
+      "body": [
+        "Driveのファイル権限、Meet会議、Gmail内表示など、Googleサービスと自然に連携します。"
+      ]
+    },
+    {
+      "heading": "Slackとの違い",
+      "body": [
+        "Google統合と契約集約ならGoogle Chat、外部SaaS連携とワークフローならSlackが候補です。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Google Chatは無料ですか？",
+      "answer": "個人Googleアカウントでも基本機能を利用できます。法人向け管理はGoogle Workspaceで提供されます。"
+    }
+  ]
+}

@@ -1,0 +1,1476 @@
+{
+  "generatedAt": "2026-07-18T11:59:46.464Z",
+  "generatorVersion": 2,
+  "dimensions": "1200x675",
+  "format": "jpg",
+  "quality": 86,
+  "imageCount": 244,
+  "generatedCount": 0,
+  "reusedCount": 244,
+  "images": [
+    {
+      "route": "/en/ai-tools/ai-meeting-notes-tools/",
+      "image": "source-assets/images/articles/en/ai-tools/ai-meeting-notes-tools.jpg",
+      "fingerprint": "56d5ae40ffb221b5e9948a01f2cc99092f187f7cda24bcaecc86fdd84683b769",
+      "status": "reused"
+    },
+    {
+      "route": "/en/ai-tools/ai-writing-tools-small-business/",
+      "image": "source-assets/images/articles/en/ai-tools/ai-writing-tools-small-business.jpg",
+      "fingerprint": "5f8400be20ed4895639c540e8997c15d17dc607acda8a3158f2312ed08f4f6c8",
+      "status": "reused"
+    },
+    {
+      "route": "/en/ai-tools/chatgpt-review/",
+      "image": "source-assets/images/articles/en/ai-tools/chatgpt-review.jpg",
+      "fingerprint": "bf65e4f2e3abd45a3def7907d020baf3cfea1fdfb0cc4b91c3d4ef330d951b2c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/ai-tools/claude-review/",
+      "image": "source-assets/images/articles/en/ai-tools/claude-review.jpg",
+      "fingerprint": "2826b58a852b76c8eb6eb56e4e213e0117fc648e57fc9f418c47c3a6d01d531c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/ai-tools/gemini-review/",
+      "image": "source-assets/images/articles/en/ai-tools/gemini-review.jpg",
+      "fingerprint": "6b6c519c844a1b968dfb44a97e3e652e2b4c0d001957c6b45f816790e9b81b25",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/asana-guide/",
+      "image": "source-assets/images/articles/en/business-software/asana-guide.jpg",
+      "fingerprint": "a456686b8f44eb5181430ff9c539b6214fc1d53d9d1b392678c6cbce33454a91",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/asana-review/",
+      "image": "source-assets/images/articles/en/business-software/asana-review.jpg",
+      "fingerprint": "c80d90411d158d891216f33c4ea7ff7b87167641f095b48c0e80e62a9da67118",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/business-chat-tools-comparison/",
+      "image": "source-assets/images/articles/en/business-software/business-chat-tools-comparison.jpg",
+      "fingerprint": "3fccc2638821ed4c32377a60616e236da263d8ab9a3500e7e205ba90c905dea4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/clickup-alternatives/",
+      "image": "source-assets/images/articles/en/business-software/clickup-alternatives.jpg",
+      "fingerprint": "71d2e8be55eea24dc9caeb4a1c5c8a3da88d67abfaa6d22fe3e5c06c898f8841",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/clickup-for-small-business/",
+      "image": "source-assets/images/articles/en/business-software/clickup-for-small-business.jpg",
+      "fingerprint": "1d87acc041c758b1c160c367e4abb8ecfcf34933913d7af7e39babef9ba2524c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/clickup-pricing-guide/",
+      "image": "source-assets/images/articles/en/business-software/clickup-pricing-guide.jpg",
+      "fingerprint": "af1f012bd407a25ba9661797c73e552fc31f19f4656fd61aca36b15fef90dfe6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/clickup-review/",
+      "image": "source-assets/images/articles/en/business-software/clickup-review.jpg",
+      "fingerprint": "d8eaf3b79675d5c36b19db210b5beef7672f3b1526ab7a037436d94c305e8062",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/clickup-vs-monday/",
+      "image": "source-assets/images/articles/en/business-software/clickup-vs-monday.jpg",
+      "fingerprint": "1214947b30bc47b3d04ffdd54dc18fe03754882e20eeca0878855dac2c0f14ee",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/custom-domain-email-guide/",
+      "image": "source-assets/images/articles/en/business-software/custom-domain-email-guide.jpg",
+      "fingerprint": "902b6040f384acfd202df672b5edb0a859ce28831aa82f95ed48b9bfd16cff38",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-calendar-guide/",
+      "image": "source-assets/images/articles/en/business-software/google-calendar-guide.jpg",
+      "fingerprint": "f1cd2c5d9e3575d430873341284e37ed9d7acde08249898c471f1f27e652eef6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-chat-guide/",
+      "image": "source-assets/images/articles/en/business-software/google-chat-guide.jpg",
+      "fingerprint": "8b7b97df9ab6576c0293292d22675ca118ed81fda59222e6f5f9f310c8d35b9a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-drive-guide/",
+      "image": "source-assets/images/articles/en/business-software/google-drive-guide.jpg",
+      "fingerprint": "fa7c31f88e126a1c6e44230456e4bfec4843967fe5d98d527022e09fbe295ba0",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-meet-guide/",
+      "image": "source-assets/images/articles/en/business-software/google-meet-guide.jpg",
+      "fingerprint": "42ed06359ecc6e576413c4979ef4ceb84e67fc90caaa0f408a70f6c0e48a9ca2",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-workspace-guide/",
+      "image": "source-assets/images/articles/en/business-software/google-workspace-guide.jpg",
+      "fingerprint": "46cd7d74795a7563dac750b96125e987dcd5b3f352e585d340f47492eaf8ae81",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-alternatives/",
+      "image": "source-assets/images/articles/en/business-software/monday-alternatives.jpg",
+      "fingerprint": "7e0288554a1bf09799cf06c420c0c946d48effe4408d54196240f3bf8571b260",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-for-small-business/",
+      "image": "source-assets/images/articles/en/business-software/monday-for-small-business.jpg",
+      "fingerprint": "624dc25327494d1528b0118f552f8454c7ce925646663da7c794ff4f2d78a06a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-pricing-guide/",
+      "image": "source-assets/images/articles/en/business-software/monday-pricing-guide.jpg",
+      "fingerprint": "2bfba21c274063a24b7901e859140351e528fa441c190cfb2db11bf34c4b9391",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-review/",
+      "image": "source-assets/images/articles/en/business-software/monday-review.jpg",
+      "fingerprint": "b0c308c89ef1add0020b2f30b28ae8a2e4301ccf5b4bf09698a20231623a9ac6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/notion-review/",
+      "image": "source-assets/images/articles/en/business-software/notion-review.jpg",
+      "fingerprint": "8428d4daee16626cb4fcb6944b3b0ee09d1049ee43a2c5c52830893e239e5029",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/project-management-tools-small-business/",
+      "image": "source-assets/images/articles/en/business-software/project-management-tools-small-business.jpg",
+      "fingerprint": "1874bd24f7ea081bf260e908da7d073bc3a94c8a9488a601154b253ffad3413a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/slack-guide/",
+      "image": "source-assets/images/articles/en/business-software/slack-guide.jpg",
+      "fingerprint": "70bf4641c14181e5094a73e4d11a05dff14e2a01eb9d4892837bceb127efb72c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/slack-vs-google-chat/",
+      "image": "source-assets/images/articles/en/business-software/slack-vs-google-chat.jpg",
+      "fingerprint": "8612149191dddc967f6088df932da0e59f00db7467490266b1096dbe9dc6b732",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/task-management-tools-comparison/",
+      "image": "source-assets/images/articles/en/business-software/task-management-tools-comparison.jpg",
+      "fingerprint": "86fba48fd35850db99f4e40880e01b51c399706df0cb9bbcb0b7787833c17994",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/trello-review/",
+      "image": "source-assets/images/articles/en/business-software/trello-review.jpg",
+      "fingerprint": "38ee274c7a9c9e2d5d04506b01774b5338cc28550d773ca6ef09f854fad5c751",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/1password-review/",
+      "image": "source-assets/images/articles/en/hosting-security/1password-review.jpg",
+      "fingerprint": "f594ce4a514cde8d0ea58bc62fafc967c08964f068a6ef7d5151c6f7461a7386",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/ablenet-rental-server-review/",
+      "image": "source-assets/images/articles/en/hosting-security/ablenet-rental-server-review.jpg",
+      "fingerprint": "901627329a6ef24e8d8a1870ff0d3c44460f7bfac910f079f586b08e89a2cac0",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/ablenet-vps-review/",
+      "image": "source-assets/images/articles/en/hosting-security/ablenet-vps-review.jpg",
+      "fingerprint": "4ad49af6b9abe8764e0d9721f6adc40fb9f3bc45706be65051bb5a7e7378a846",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/bitwarden-review/",
+      "image": "source-assets/images/articles/en/hosting-security/bitwarden-review.jpg",
+      "fingerprint": "5db41a5d8c3c13e5a9968231947fc152086ed9a86ae49e9e058ec40321c687a9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/cloudways-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/cloudways-guide.jpg",
+      "fingerprint": "67694d82a61fdde2e05e17ed3c50529b6097c17894219a127ab217e3c366d018",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/cloudways-review/",
+      "image": "source-assets/images/articles/en/hosting-security/cloudways-review.jpg",
+      "fingerprint": "65517877b8f10dcf101fbb8f002b8776957e531fd904a303dd20944f1a10cf93",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/colorfulbox-review/",
+      "image": "source-assets/images/articles/en/hosting-security/colorfulbox-review.jpg",
+      "fingerprint": "ac2a644fa339a9371a92dab246a9a72574761462ad6bee6d0ed5057abafd77f7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/com-vs-jp-domain/",
+      "image": "source-assets/images/articles/en/hosting-security/com-vs-jp-domain.jpg",
+      "fingerprint": "caaec6ad17f2482fbe70d0a16df2027b0af69366cef23db2257663bc8954f70d",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/conoha-wing-review/",
+      "image": "source-assets/images/articles/en/hosting-security/conoha-wing-review.jpg",
+      "fingerprint": "0d3e27c90601b3ca3a7ffa4ef3c9800a460a256360eeac9f6a8466f94df73ef3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/domain-registrar-comparison/",
+      "image": "source-assets/images/articles/en/hosting-security/domain-registrar-comparison.jpg",
+      "fingerprint": "5d14a6262c4750916b9185a96dcd2aa2476824603c81a6323f4d4ee250b0098c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-alternatives/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-alternatives.jpg",
+      "fingerprint": "2ac2118bb1fca41932bb0a20d404c738c38b83501b19393ef96f9412521e9669",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-for-small-business/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-for-small-business.jpg",
+      "fingerprint": "59464af68069acf5e11819afbb31acf4af8d2517b75bab1234cbd310fa5dcd8e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-pricing-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-pricing-guide.jpg",
+      "fingerprint": "de99ae89bc3d6e2220c9494933f7d0acecb0254ae8c934358ccd8271c57838e7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-review/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-review.jpg",
+      "fingerprint": "b173c48de9411104e3bb6835b71208fe38786c97998a0f35df5a2ed8db79e74e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-vs-ablenet-vps/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-ablenet-vps.jpg",
+      "fingerprint": "69d7ef5dfce270d03d38ccdcac76d6687be4eaec35f3741b8dac1e5b0d348169",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-vs-kinsta/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-kinsta.jpg",
+      "fingerprint": "4a9dc9c4d0ede20e34a0ea1cf8908cb35b957526038de82ca8e46e535a022766",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-vs-lolipop/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-lolipop.jpg",
+      "fingerprint": "0e3da4f7d315b065a704e3fcf697017719d6def7355e619e55a6b987037511fd",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-vs-wp-engine/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-wp-engine.jpg",
+      "fingerprint": "0c6a2e2bf93ab2380d9c77e0d183838a81225653e79d5b345defcb0106823c77",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-vs-xserver/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-xserver.jpg",
+      "fingerprint": "5723e09d607f782e1b745285535eb41d0f964778268804f80c89f096c71260cf",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/jetboy-review/",
+      "image": "source-assets/images/articles/en/hosting-security/jetboy-review.jpg",
+      "fingerprint": "e721237130531d62ca44e7e14849844df3f2a420f76f710b3af5fdd55af0acfe",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/keeper-review/",
+      "image": "source-assets/images/articles/en/hosting-security/keeper-review.jpg",
+      "fingerprint": "96a39be93a2383b876731a0da248ffa45ab5d5b31cb83c28a37a1115b104f246",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/kinsta-alternatives/",
+      "image": "source-assets/images/articles/en/hosting-security/kinsta-alternatives.jpg",
+      "fingerprint": "72cc3f0d7696aa32b9eebee215e1b05a3321a752888979cac6495123875c62aa",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/kinsta-for-agencies/",
+      "image": "source-assets/images/articles/en/hosting-security/kinsta-for-agencies.jpg",
+      "fingerprint": "7655bb0978d780abf6461e055c3798d031152b06e9a0f24ad25eb774ec6dca80",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/kinsta-pricing-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/kinsta-pricing-guide.jpg",
+      "fingerprint": "a66d8c25d5da8897465e6b165ac003d48f52e4198a1248c2a88a6dbbd3311123",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/kinsta-review/",
+      "image": "source-assets/images/articles/en/hosting-security/kinsta-review.jpg",
+      "fingerprint": "8b5246b37469c366220c368bb23d60ab81cd2cf3920e20980b7c49aa9fcfaa8b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/kinsta-vs-wp-engine/",
+      "image": "source-assets/images/articles/en/hosting-security/kinsta-vs-wp-engine.jpg",
+      "fingerprint": "9c7f8573ca0ef94d3fa81da539fb092e99890d8f3f31eb99898c7b6b7f7186d8",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/mixhost-review/",
+      "image": "source-assets/images/articles/en/hosting-security/mixhost-review.jpg",
+      "fingerprint": "27d4a19527554d4bacad40011e8e4d4225d587d9fd8312ed65ac3b768cb086c6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/namecheap-review/",
+      "image": "source-assets/images/articles/en/hosting-security/namecheap-review.jpg",
+      "fingerprint": "89805244f7d195beb25fc9d8d2074f3a3fa544cc3e2635e7ddfe8b79c2b6c824",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/nordpass-review/",
+      "image": "source-assets/images/articles/en/hosting-security/nordpass-review.jpg",
+      "fingerprint": "a67275a415c991acc119d22e65eb0c1df1e6c713eb941942e502e3c92ed2372b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/nordvpn-alternatives/",
+      "image": "source-assets/images/articles/en/hosting-security/nordvpn-alternatives.jpg",
+      "fingerprint": "b825ac44e2c3d8fbc58ca5c37595c4874e4b8c7d918ff7ff7f15a8518f5d10a9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/nordvpn-for-remote-teams/",
+      "image": "source-assets/images/articles/en/hosting-security/nordvpn-for-remote-teams.jpg",
+      "fingerprint": "d03ae7f6e036c3ae82fd52c120ab0d614d6f404f55f1f672b1d2d301b2382374",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/nordvpn-pricing-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/nordvpn-pricing-guide.jpg",
+      "fingerprint": "bee6b24fe26fd52e44847c559d8770d6b3ba630ab41576071301601cc56c42c9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/nordvpn-review/",
+      "image": "source-assets/images/articles/en/hosting-security/nordvpn-review.jpg",
+      "fingerprint": "753d24f4d4f73730af1753006f8dc78ae300460b35e2a3689fa39710223c0aee",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/nordvpn-vs-surfshark/",
+      "image": "source-assets/images/articles/en/hosting-security/nordvpn-vs-surfshark.jpg",
+      "fingerprint": "91f247c319a2ed8ebbac074c5ff4b120da6da250ccc5f2ac34fa4f460a41949b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/password-managers-small-business/",
+      "image": "source-assets/images/articles/en/hosting-security/password-managers-small-business.jpg",
+      "fingerprint": "45359344901145b1a6404435519ccb1df55ff7585e3b2cf7f99fd8afe776551e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/siteground-review/",
+      "image": "source-assets/images/articles/en/hosting-security/siteground-review.jpg",
+      "fingerprint": "6ae7e50ba405c820d6256bcc668f4ff8e97bddc5042f2b940c22e230be14e112",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/surfshark-alternatives/",
+      "image": "source-assets/images/articles/en/hosting-security/surfshark-alternatives.jpg",
+      "fingerprint": "2691564b39c1859895d60978dc575822200fca769f37ed27717276c9c8db8096",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/surfshark-for-small-business/",
+      "image": "source-assets/images/articles/en/hosting-security/surfshark-for-small-business.jpg",
+      "fingerprint": "0e3eddf488d6eb3f5b252036b004efaf10b8d05dee694e9c9ffc3ba990a64c60",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/surfshark-pricing-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/surfshark-pricing-guide.jpg",
+      "fingerprint": "f0f5685ab304348e4718edfa849cd6def065e37b49bd66a53331faee5b07f76a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/surfshark-review/",
+      "image": "source-assets/images/articles/en/hosting-security/surfshark-review.jpg",
+      "fingerprint": "9670b938c2a530f9288739734cba8c68d690c8f644aae20d57a58243093572b9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/web-hosting-small-business/",
+      "image": "source-assets/images/articles/en/hosting-security/web-hosting-small-business.jpg",
+      "fingerprint": "3aefd0972d5a2b57174b66e05456d5dce6435e07c982685f664aa3510c1a71a5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/wp-engine-alternatives/",
+      "image": "source-assets/images/articles/en/hosting-security/wp-engine-alternatives.jpg",
+      "fingerprint": "0dda6605c424888e21464e3a7c561e23e634e7e6a296e484528e9d15393dd5c6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/wp-engine-for-agencies/",
+      "image": "source-assets/images/articles/en/hosting-security/wp-engine-for-agencies.jpg",
+      "fingerprint": "7dc6bd76019ccbcf7c3e75c5453f1352a727a64748aed35909e56ca9a09db373",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/wp-engine-pricing-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/wp-engine-pricing-guide.jpg",
+      "fingerprint": "c1852f653de6cd08687783f245e8f918f6223b743f9863df2ad9b0b410baff94",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/wp-engine-review/",
+      "image": "source-assets/images/articles/en/hosting-security/wp-engine-review.jpg",
+      "fingerprint": "d3f0260f0f18efa362c516b7d77f38c667732f62f63eac96eb27a52ba61b6dc4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/wpx-speed-review/",
+      "image": "source-assets/images/articles/en/hosting-security/wpx-speed-review.jpg",
+      "fingerprint": "68ef1fe95a5e6e0cf4d5360abb6c9f38824044d65e896358c7e54758b71f474e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-vs-lolipop/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-vs-lolipop.jpg",
+      "fingerprint": "8fcfbff85517a8d0afee914cd434c8763571a8642e9bd7e23ced0bdfe13387d5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/zoho-vault-review/",
+      "image": "source-assets/images/articles/en/hosting-security/zoho-vault-review.jpg",
+      "fingerprint": "4661ebb4beb3a03f15a7ed8cb487927f0fc311ff05d3437df9ec1088d61fce4a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/a8net-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/a8net-guide.jpg",
+      "fingerprint": "b89c18f4ba246851291f5aa7f82cbfd0095eb08f282c0c7412dc24d4541985e7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/activecampaign-alternatives/",
+      "image": "source-assets/images/articles/en/seo-marketing/activecampaign-alternatives.jpg",
+      "fingerprint": "273c6f674f70f7909a58144ed36fdff379c016f3fa1fbc31ce78ac95d1d3fce0",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/activecampaign-for-ecommerce/",
+      "image": "source-assets/images/articles/en/seo-marketing/activecampaign-for-ecommerce.jpg",
+      "fingerprint": "536df022f66609d0d98e62a77da125ca32b0da17466eedec6996dabd2eb4f737",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/activecampaign-pricing-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/activecampaign-pricing-guide.jpg",
+      "fingerprint": "d94d300478400f2f19d596e7e1e0f591f9d7eda9abe9441099cb90d118ea55e0",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/activecampaign-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/activecampaign-review.jpg",
+      "fingerprint": "cc28a66fe23ab835dc4d0d7e32101011dc747bd74560501c66b832501f1128a8",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/activecampaign-vs-hubspot/",
+      "image": "source-assets/images/articles/en/seo-marketing/activecampaign-vs-hubspot.jpg",
+      "fingerprint": "5a89f11959576456436737f014273ee25dae89380f99cd95f063ab7e6a6c9c76",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/affiliate-marketing-start-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/affiliate-marketing-start-guide.jpg",
+      "fingerprint": "68d8677b3ad7921c60a1fdac06f855c72e88f08daecc7947d911ca43d11f2b29",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/ahrefs-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/ahrefs-review.jpg",
+      "fingerprint": "b5de4d58954a799eb070cf51ee6a470134a43de4031fb255d847359a1fdbb62a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/brevo-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/brevo-review.jpg",
+      "fingerprint": "129507fb2b750667938233be79198e6aa1152dd411d38ce6a6d37af00fd2c1c7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/email-marketing-tools-small-business/",
+      "image": "source-assets/images/articles/en/seo-marketing/email-marketing-tools-small-business.jpg",
+      "fingerprint": "d49d49cb46057a04fb9b06a6940b2d491e52eebbaf3dbda3954af3acea4d2361",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/getresponse-alternatives/",
+      "image": "source-assets/images/articles/en/seo-marketing/getresponse-alternatives.jpg",
+      "fingerprint": "a9ac34f0ec65faa3ef61c2a4bce313c6f9f7fdfebdc9a24da94bcbe90008e648",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/getresponse-for-creators/",
+      "image": "source-assets/images/articles/en/seo-marketing/getresponse-for-creators.jpg",
+      "fingerprint": "1fca07d57d2293cfe42a19a52b422a399b696865867d45b45aeb8ad3ebffc8a4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/getresponse-pricing-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/getresponse-pricing-guide.jpg",
+      "fingerprint": "0c76941363a1821e9c48b745b225756305252e18c79168b3713a5b5388dd84b3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/getresponse-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/getresponse-review.jpg",
+      "fingerprint": "5549aaa36dabf92a22f99914b64e43e0dcbfa7a344a6e39e19d3a1ddc7668d5c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/getresponse-vs-activecampaign/",
+      "image": "source-assets/images/articles/en/seo-marketing/getresponse-vs-activecampaign.jpg",
+      "fingerprint": "9e23deeb07fab8a584225917f621ee61afca2772785c58b87900714e813bac29",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/getresponse-vs-hubspot/",
+      "image": "source-assets/images/articles/en/seo-marketing/getresponse-vs-hubspot.jpg",
+      "fingerprint": "869d7dcc51ed3929f66a35fd9cc032f73e618810e1fd3322e4414d48711a24ab",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/how-to-make-money-blogging/",
+      "image": "source-assets/images/articles/en/seo-marketing/how-to-make-money-blogging.jpg",
+      "fingerprint": "e752a33a69f22c697ce3d0bbbbd44a99b1b441823ba93adfa2af555c2801aee5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/hubspot-marketing-alternatives/",
+      "image": "source-assets/images/articles/en/seo-marketing/hubspot-marketing-alternatives.jpg",
+      "fingerprint": "ebcab0ad126bbb271a4e2e686f7e65fea2d8476c3c9abda560dd1bcfd54b3229",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/hubspot-marketing-for-small-business/",
+      "image": "source-assets/images/articles/en/seo-marketing/hubspot-marketing-for-small-business.jpg",
+      "fingerprint": "aee1ffcceac94cbf54bbf0b33b2061f461aaccacd92a66dee8d8d4ba5ab64283",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/hubspot-marketing-pricing-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/hubspot-marketing-pricing-guide.jpg",
+      "fingerprint": "199ded35788bb14233bed24b24824e37b737cfd85cf91c5c783ef864899b4c73",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/hubspot-marketing-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/hubspot-marketing-review.jpg",
+      "fingerprint": "6036d3de29e148bee4a9a5056eedc5d0b968a824610b2e29b3df6f4adecba6ae",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/kit-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/kit-review.jpg",
+      "fingerprint": "656121d758353a781d0b4a99d30ef3e1917701beb3d56d8377132f73810ce679",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/mailchimp-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/mailchimp-review.jpg",
+      "fingerprint": "842f2c1f540c17775514ebd6989be6ef3e199edd8b2bf17ba0afbc4e424a8f13",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/mailerlite-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/mailerlite-review.jpg",
+      "fingerprint": "89d8d8a9d921fe73f06f515c86ede979833a494cea931c05e8f58fb69e26b4df",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/mangools-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/mangools-review.jpg",
+      "fingerprint": "969be26f5014ae0485e082eedcb4b5b3e50e54830437c260418254e8807d19ac",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/moshimo-affiliate-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/moshimo-affiliate-guide.jpg",
+      "fingerprint": "613898aee467f3df8e88def1d01ece9cd7b391f94ec64bef438b5962ffa3a6ba",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/se-ranking-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/se-ranking-review.jpg",
+      "fingerprint": "1d549d358f228ff19c9f971f0417da3b5ac1a737376115b83d2a180da237e0d5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/semrush-alternatives/",
+      "image": "source-assets/images/articles/en/seo-marketing/semrush-alternatives.jpg",
+      "fingerprint": "250151d893bd904f7b9eac54a7f82817ef5b52f717efe3c3606b6cf5cc0f3839",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/semrush-for-small-business/",
+      "image": "source-assets/images/articles/en/seo-marketing/semrush-for-small-business.jpg",
+      "fingerprint": "b17695b15a971cdab044f17077a1ce893d0db0f70e16afedeb5d4d5aaa63fd02",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/semrush-pricing-guide/",
+      "image": "source-assets/images/articles/en/seo-marketing/semrush-pricing-guide.jpg",
+      "fingerprint": "88321a2622af6c28c2f8912d666e61130c94d0039593fc17e56f6cfb3a268eae",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/semrush-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/semrush-review.jpg",
+      "fingerprint": "77c662128bb3dae49929805a5d23fd142aaefd7d2da995d8af83b13ab1c45ff0",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/seo-tools-small-business/",
+      "image": "source-assets/images/articles/en/seo-marketing/seo-tools-small-business.jpg",
+      "fingerprint": "79a7d8a13100a06ba35e400ebf328cc296f1ad7b226ed438dcaf1d2ff3550474",
+      "status": "reused"
+    },
+    {
+      "route": "/en/seo-marketing/ubersuggest-review/",
+      "image": "source-assets/images/articles/en/seo-marketing/ubersuggest-review.jpg",
+      "fingerprint": "63c34d7210c8c6145914006d796b85f0618d05e3dcbc36876cd7b3dd393742ed",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/hostinger-website-builder-review/",
+      "image": "source-assets/images/articles/en/website-builders/hostinger-website-builder-review.jpg",
+      "fingerprint": "38c3a8e36107d761c5fb9141d327b29b8bcdb31c0d63105b6e857dacf24dc6d5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-alternatives/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-alternatives.jpg",
+      "fingerprint": "6c2db8f9cd96c327f285be6408678026cafd425d8d9e7386598ab65b428cf290",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-for-small-business/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-for-small-business.jpg",
+      "fingerprint": "8a27d7da5d5147dc86c2410af44a35564342edd5ea1e258a83a7c0db977a15c7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-pricing-guide/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-pricing-guide.jpg",
+      "fingerprint": "4e082074a2d34dcd48b145920774e086ae442f6c618a49ccc591872096e74fa4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-review/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-review.jpg",
+      "fingerprint": "e9776d27bacb689e634dbf2576f06ef825aa5d245f90fa01cdb31601dc171967",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-vs-hostinger-website-builder/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-vs-hostinger-website-builder.jpg",
+      "fingerprint": "182a40525b17eefaa3d20c66760a829ceb34b46fe498656bd841ec7c6da23a1b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/small-business-website-builders/",
+      "image": "source-assets/images/articles/en/website-builders/small-business-website-builders.jpg",
+      "fingerprint": "288fe94318f1e9e983d3c80871016c5a837453a6b0d7ef510a8a32709cc76d0e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/squarespace-review/",
+      "image": "source-assets/images/articles/en/website-builders/squarespace-review.jpg",
+      "fingerprint": "7e7d1d77c6d88e799f944d31103279da67f010f53de30bde22587a93423d50b4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/webflow-review/",
+      "image": "source-assets/images/articles/en/website-builders/webflow-review.jpg",
+      "fingerprint": "5cd850e88ccf88eaef6edc55466e979f1986fe1014ba0c3219f575d7d9e448e6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/wix-review/",
+      "image": "source-assets/images/articles/en/website-builders/wix-review.jpg",
+      "fingerprint": "5da8ca04fcd133970ed31c119e5980384032b897bdc194b53aac6327474ef9d9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/wordpress-com-review/",
+      "image": "source-assets/images/articles/en/website-builders/wordpress-com-review.jpg",
+      "fingerprint": "d847d2748846f3307b768a1fa986b55de7426557e0ea1a3d6ce1a6d77d927490",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/wordpress-start-guide/",
+      "image": "source-assets/images/articles/en/website-builders/wordpress-start-guide.jpg",
+      "fingerprint": "eec93a5606d00e8466917113b73e1bc744d8fdac333284304d04887b18609487",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/ai-tools/ai-meeting-notes-tools/",
+      "image": "source-assets/images/articles/ja/ai-tools/ai-meeting-notes-tools.jpg",
+      "fingerprint": "8080edae0402ba52ebba271b23e379921ce23307e1aec2631966dbabf8171b9c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/ai-tools/ai-writing-tools-small-business/",
+      "image": "source-assets/images/articles/ja/ai-tools/ai-writing-tools-small-business.jpg",
+      "fingerprint": "e3d178c6e641e65b5e50b595e28fe322f69aa19026fc254834274b0eb7da9507",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/ai-tools/chatgpt-review/",
+      "image": "source-assets/images/articles/ja/ai-tools/chatgpt-review.jpg",
+      "fingerprint": "fe2fc9dbb37fd42decefe990aec077a1ebcdf50f3aa35dc1743108f430ca429f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/ai-tools/claude-review/",
+      "image": "source-assets/images/articles/ja/ai-tools/claude-review.jpg",
+      "fingerprint": "358a4fe44c1b0b3b8691ab42e0f83157e3edb883ea0321f92b9aef4c179c577e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/ai-tools/gemini-review/",
+      "image": "source-assets/images/articles/ja/ai-tools/gemini-review.jpg",
+      "fingerprint": "602d1e3e6f63bae35fdf5d475df65ea90b6a81d0d1a5c058d5f1abb878583c6e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/asana-guide/",
+      "image": "source-assets/images/articles/ja/business-software/asana-guide.jpg",
+      "fingerprint": "2a0db662c46a5b93b02940479c236ecfe732ea79b9f5ab31813e7cbfb8a8ef6d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/asana-review/",
+      "image": "source-assets/images/articles/ja/business-software/asana-review.jpg",
+      "fingerprint": "91833b5a733bd5e112d8c7f3f7e9dd78211613ad87114deaa9c46bc2149b3645",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/business-chat-tools-comparison/",
+      "image": "source-assets/images/articles/ja/business-software/business-chat-tools-comparison.jpg",
+      "fingerprint": "e179b8c5d314c19400453182a7503c730be2fc1d8b5e7cc120568e0eb2feed6d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/clickup-alternatives/",
+      "image": "source-assets/images/articles/ja/business-software/clickup-alternatives.jpg",
+      "fingerprint": "8b00f25ea97802fc3d9bf058a64f5f5e2c3c1e77e06d137dce6a5f96aa7016d3",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/clickup-for-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/clickup-for-small-business.jpg",
+      "fingerprint": "dada7f6b8a1e940ffc00e1872e4ae512d04e188da83ea2b2a7b4a320aa7a1033",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/clickup-pricing-guide/",
+      "image": "source-assets/images/articles/ja/business-software/clickup-pricing-guide.jpg",
+      "fingerprint": "94aa6416e8ca59afc8a8a7d3a0fb33148adce81d2d54c9c33c1d375192d0c786",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/clickup-review/",
+      "image": "source-assets/images/articles/ja/business-software/clickup-review.jpg",
+      "fingerprint": "c10db91485fe153ec023c6159a4950450b1399f3712602384f67cadc9c3ec2b5",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/clickup-vs-monday/",
+      "image": "source-assets/images/articles/ja/business-software/clickup-vs-monday.jpg",
+      "fingerprint": "8db7fe8b910ee0b4ddd10e9bf02f3de889522b2784acab780b50ca37840a7ab1",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/custom-domain-email-guide/",
+      "image": "source-assets/images/articles/ja/business-software/custom-domain-email-guide.jpg",
+      "fingerprint": "8381db345ee7f1f521df8106df2d18838eb6f9dffa016628780b49c4f8b541a3",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-calendar-guide/",
+      "image": "source-assets/images/articles/ja/business-software/google-calendar-guide.jpg",
+      "fingerprint": "8ed940cf39fca420c78e5dc2efa12bc798251edc3b511ae5da6f0de578c6fd4e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-chat-guide/",
+      "image": "source-assets/images/articles/ja/business-software/google-chat-guide.jpg",
+      "fingerprint": "8e284a36094d12e7ec7ad30272a7d1780c840f80e2dc0c852999dc4dc63f8468",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-drive-guide/",
+      "image": "source-assets/images/articles/ja/business-software/google-drive-guide.jpg",
+      "fingerprint": "07c36d2029c0c0f5a009fe77b53282e233b7902900b5f62c14ea8b1627e231ca",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-meet-guide/",
+      "image": "source-assets/images/articles/ja/business-software/google-meet-guide.jpg",
+      "fingerprint": "39b02abe233f31c42f3b165d8124a42ee3104776137a4644bafce20dc4bdd7c1",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-workspace-guide/",
+      "image": "source-assets/images/articles/ja/business-software/google-workspace-guide.jpg",
+      "fingerprint": "d4dce6fba4b836135721fea3e416c9936a3474dd58d5519cd67b76b04575c294",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-alternatives/",
+      "image": "source-assets/images/articles/ja/business-software/monday-alternatives.jpg",
+      "fingerprint": "d60b46a5ab810bda403918bb867e54fedbd2dc1bdd4ad23beb0f3ca190b84f4f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-for-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/monday-for-small-business.jpg",
+      "fingerprint": "18b4fd02d4520bcb62496c0665591d9916b407f304a7f010ffe30accc542c010",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-pricing-guide/",
+      "image": "source-assets/images/articles/ja/business-software/monday-pricing-guide.jpg",
+      "fingerprint": "a4a56ba1a5d75040557dd3dd33ebdf411063f6c0db1386f567270e72c8a0c740",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-review/",
+      "image": "source-assets/images/articles/ja/business-software/monday-review.jpg",
+      "fingerprint": "92b55ce5d6b288f687185b0e15af5d37222cad8af20463b1633f5314601c736b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/notion-review/",
+      "image": "source-assets/images/articles/ja/business-software/notion-review.jpg",
+      "fingerprint": "67f0fa41ac700d0a168169043d59c631c950de737b8f709fd1fd0071b9d1e304",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/project-management-tools-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/project-management-tools-small-business.jpg",
+      "fingerprint": "c610b02e3d598383f3e9e6bf061b139000acebe9e7c86e9a73ad08d59be2ad69",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/slack-guide/",
+      "image": "source-assets/images/articles/ja/business-software/slack-guide.jpg",
+      "fingerprint": "14e61ee0b4fbe06b2626234539927b94a03d4f51ad43b53ac8c55c3f7abb574c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/slack-vs-google-chat/",
+      "image": "source-assets/images/articles/ja/business-software/slack-vs-google-chat.jpg",
+      "fingerprint": "7f3c198067bb701ef0b031541c9fd3d916de641069b02c6227aa8dc7dfaeba1e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/task-management-tools-comparison/",
+      "image": "source-assets/images/articles/ja/business-software/task-management-tools-comparison.jpg",
+      "fingerprint": "f41bfe0f03638618077c85e8fdce207a037c6cdda46fd955f8b6ef005abddc2b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/trello-review/",
+      "image": "source-assets/images/articles/ja/business-software/trello-review.jpg",
+      "fingerprint": "c56a373e3edf1d663bb971b1274ad2851cc9ebda9ab95f7a538478377a157691",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/1password-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/1password-review.jpg",
+      "fingerprint": "d17b5dd1247be2ff54d42ac043434fe3ecf12d8842e694d44ba1f9e86864087b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/ablenet-rental-server-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/ablenet-rental-server-review.jpg",
+      "fingerprint": "68264934700c2c206659962202f3ca770f0112b234bc3467ba4101983b30c802",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/ablenet-vps-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/ablenet-vps-review.jpg",
+      "fingerprint": "309fcfb5e79719383c55748f3456fdd8ea03c1a0f8958c28e4587171ce3e7be8",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/bitwarden-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/bitwarden-review.jpg",
+      "fingerprint": "7bed342b56d3dd8ffb21f4d0c8a1cabcd06dd9101fb4a7d5ee1e322b32e9766f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/cloudways-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/cloudways-guide.jpg",
+      "fingerprint": "f5e5bd2ca39056876fece25d45812fc9b7403da7c612d73e96370091ef829c6d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/cloudways-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/cloudways-review.jpg",
+      "fingerprint": "0c0e24907158d9192dcfd9445d87e8106def70ce32970a8281b6b12a8c9ce59d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/colorfulbox-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/colorfulbox-review.jpg",
+      "fingerprint": "0b8380becbbda2571f1f9789d72aeac12aac4236e40edef68b065c92ed0d3041",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/com-vs-jp-domain/",
+      "image": "source-assets/images/articles/ja/hosting-security/com-vs-jp-domain.jpg",
+      "fingerprint": "7f1f6d000034d89ca08b0fda9b589a3ddd22de717458d19f27a8ae0a900e3516",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/conoha-wing-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/conoha-wing-review.jpg",
+      "fingerprint": "b99a7998e43ff1431fdc482cf57a819eb8ea2d6ba934acb7a80a035e761be214",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/domain-registrar-comparison/",
+      "image": "source-assets/images/articles/ja/hosting-security/domain-registrar-comparison.jpg",
+      "fingerprint": "bc0f19982afc8ddcf684117eb0adaad258c68404308bb2bf226e209200808074",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-alternatives/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-alternatives.jpg",
+      "fingerprint": "b35369e96c51e38fa099faa9bd482c85a8857d919b13c17c21b39ea5a4c7be2a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-for-small-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-for-small-business.jpg",
+      "fingerprint": "bcbc696947ea34d889640a106a17ec723d3d3c797c7d3069fe2a0f64898218a2",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-pricing-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-pricing-guide.jpg",
+      "fingerprint": "be02b12cf2965138d1222da9ec99a90c4182e4f4473f65eec5a80a9924be803e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-review.jpg",
+      "fingerprint": "64d3099f6eac5f0f60d32fd4fd1488b4be1a7153ee8a9290a024b13b918becee",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-vs-ablenet-vps/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-ablenet-vps.jpg",
+      "fingerprint": "b81f17ea73cc9da477851ef6424319ff7c36cd451b090a96baf468bb9bc80f0f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-vs-kinsta/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-kinsta.jpg",
+      "fingerprint": "845ea7ca81b3d0bdc9f8790ce8992ecd784444c838fa445e11011afcb1f13bf9",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-vs-lolipop/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-lolipop.jpg",
+      "fingerprint": "9f598bbb49d83929598ab6a266b7fb05ce809648dc338b3c4b7ebe8691fdc070",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-vs-wp-engine/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-wp-engine.jpg",
+      "fingerprint": "0f127441446fee5daf3294c5f9af2312184ef76d982512bdfcb056a210244409",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-vs-xserver/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-xserver.jpg",
+      "fingerprint": "583d19e0a9af4dfda10c333e16d382415077e83b7371b62e9acc3074d8054234",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/jetboy-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/jetboy-review.jpg",
+      "fingerprint": "2794296497de9fa9c00ed4cf0f8ec73ddaeea5f50233750e6ffba22615efde66",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/keeper-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/keeper-review.jpg",
+      "fingerprint": "da4802bc7b93d75ed9d5acc73b771b9d2c6be0a23d0aa3871d3601b72b7be34f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/kinsta-alternatives/",
+      "image": "source-assets/images/articles/ja/hosting-security/kinsta-alternatives.jpg",
+      "fingerprint": "a13b71861b08ae4477da5c197cafab39a595d5deabf1cc9b92fab00297d94c13",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/kinsta-for-agencies/",
+      "image": "source-assets/images/articles/ja/hosting-security/kinsta-for-agencies.jpg",
+      "fingerprint": "58acb335f7f45bb8a74a602241bfa9fdfd6b0b8c9cfacf0e349dad50863d5908",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/kinsta-pricing-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/kinsta-pricing-guide.jpg",
+      "fingerprint": "ea0a5b4e01a1c60ded2f56da3611c8f2f75cd01c71a9ce9df2243461f867a19e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/kinsta-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/kinsta-review.jpg",
+      "fingerprint": "7a638656fb44b61ea66bef46d2ec78af489fa4dcaa7c79bd70a6bfbde1e578b6",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/kinsta-vs-wp-engine/",
+      "image": "source-assets/images/articles/ja/hosting-security/kinsta-vs-wp-engine.jpg",
+      "fingerprint": "ebb8cee315b68a8af508881c822306f3f11a66ae372efb223b0199ca44a41522",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/mixhost-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/mixhost-review.jpg",
+      "fingerprint": "20083ccb269b7e1ae12345b94fa0d19af68217938e406341cbeddfc6577747ae",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/namecheap-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/namecheap-review.jpg",
+      "fingerprint": "ce11fc948b1c0df003d7b3325cbd9cc2859ca9236ab19dd18b418896fc736594",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/nordpass-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/nordpass-review.jpg",
+      "fingerprint": "57758ba4283af44f4fef6fb01eacab054ebfe7b36f72abaf0cd5f8a63c04a745",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/nordvpn-alternatives/",
+      "image": "source-assets/images/articles/ja/hosting-security/nordvpn-alternatives.jpg",
+      "fingerprint": "0b3c49668f0a2a717ffad07c3b837fea54e570149e732e8d84696005888f89fb",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/nordvpn-for-remote-teams/",
+      "image": "source-assets/images/articles/ja/hosting-security/nordvpn-for-remote-teams.jpg",
+      "fingerprint": "5bc199695a506e039a59876ee2d83472a5577ee2787596766fc4ece8ad558f2f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/nordvpn-pricing-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/nordvpn-pricing-guide.jpg",
+      "fingerprint": "528d083eae457412fa10e2341956f6d6598101496d57df3f0d3b27fde1b7fb8d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/nordvpn-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/nordvpn-review.jpg",
+      "fingerprint": "61f70bc7b4a97a856109a1e62fc9d45fb68033c5452aa70eec4780f763184f65",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/nordvpn-vs-surfshark/",
+      "image": "source-assets/images/articles/ja/hosting-security/nordvpn-vs-surfshark.jpg",
+      "fingerprint": "be1b6e63d617da6a3939b18261e75f58da396116a30e80e2652f62539e9f89d9",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/password-managers-small-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/password-managers-small-business.jpg",
+      "fingerprint": "0b573e74f69e3cc8379ffd956f1999c430405035eff7709662d6c229025aeb3a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/siteground-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/siteground-review.jpg",
+      "fingerprint": "754d1e3b79241b09e67159a5b2e8a5cc7cd8880caadf544e69dcc801a794dd50",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/surfshark-alternatives/",
+      "image": "source-assets/images/articles/ja/hosting-security/surfshark-alternatives.jpg",
+      "fingerprint": "d715d690a10776cf0fcbc24829020d3a9e5f798b9a589ed79187e43d8e29723b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/surfshark-for-small-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/surfshark-for-small-business.jpg",
+      "fingerprint": "8f2c409cbc4388a2c791308168870c1160e79eef6eab7491986c80ff1ee5391e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/surfshark-pricing-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/surfshark-pricing-guide.jpg",
+      "fingerprint": "4f44dc1f3473e09649ee236be7aa180ba3f0f35a21e9b01ffa57c9fd95c64241",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/surfshark-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/surfshark-review.jpg",
+      "fingerprint": "db63526214e1b5c323c5884d62321488ff6ae2eaadf7b9e696f5a0391450c09a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/web-hosting-small-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/web-hosting-small-business.jpg",
+      "fingerprint": "3ac86a450fc74bc492ee058e68de6e12499590c0a7d545b7502bc2e8996db767",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/wp-engine-alternatives/",
+      "image": "source-assets/images/articles/ja/hosting-security/wp-engine-alternatives.jpg",
+      "fingerprint": "5c0b81a9f0495c9f2b91dc74d1775583a52b2f4023b8acec072cc698ba93c09a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/wp-engine-for-agencies/",
+      "image": "source-assets/images/articles/ja/hosting-security/wp-engine-for-agencies.jpg",
+      "fingerprint": "322d44cc0cbf30c12a2c05f349f7bab82b7c3095293fb33ee57e4e8caf7b2ab9",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/wp-engine-pricing-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/wp-engine-pricing-guide.jpg",
+      "fingerprint": "21871d3b2bb409b2d553e694faf9c24fca8e991638bd2d10d0b8ef69a8e6c288",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/wp-engine-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/wp-engine-review.jpg",
+      "fingerprint": "e24ae293533fdc226a68d153753e9af9d3397f766343304efc2a8acdc07a2af5",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/wpx-speed-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/wpx-speed-review.jpg",
+      "fingerprint": "fd03db7523a447f62bcab2b34bffff889e8e8a8202f8bef78d7e40bbaae94d4c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-vs-lolipop/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-vs-lolipop.jpg",
+      "fingerprint": "59c94ab6a36e9e2a539347ad78229d647a53217c088093327809064d0017522d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/zoho-vault-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/zoho-vault-review.jpg",
+      "fingerprint": "e0f2c4cc7a279e474067ae0ced98cbcd2c6f98d7e3d841da431d6ec6ab049f85",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/a8net-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/a8net-guide.jpg",
+      "fingerprint": "f325ce43fc433bfeb052f41d8b8c54c5f5e709452dbf866e783cb0029fda7871",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/activecampaign-alternatives/",
+      "image": "source-assets/images/articles/ja/seo-marketing/activecampaign-alternatives.jpg",
+      "fingerprint": "fa68fa212da03a86cfc53e10cdb38701434cf6cbbf49ee8c02e119f63a49a038",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/activecampaign-for-ecommerce/",
+      "image": "source-assets/images/articles/ja/seo-marketing/activecampaign-for-ecommerce.jpg",
+      "fingerprint": "b150b5c8f8f2bfce9672602f8767c662c09162e05a4c250535de84c4f19ab8e6",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/activecampaign-pricing-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/activecampaign-pricing-guide.jpg",
+      "fingerprint": "ff23cd6785c89696d09c838cce171d3798ae1adc683fdacc9823301c16a0f88a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/activecampaign-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/activecampaign-review.jpg",
+      "fingerprint": "4971fa6ff50cb6d6bcec90463b8c11e6849cc7e8e4d90228553fe78c603e6be4",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/activecampaign-vs-hubspot/",
+      "image": "source-assets/images/articles/ja/seo-marketing/activecampaign-vs-hubspot.jpg",
+      "fingerprint": "1a53a3a2f31b8fbc58f4de6dc1103e582a3b65cd17633a8ba7bfeb4ac27c5947",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/affiliate-marketing-start-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/affiliate-marketing-start-guide.jpg",
+      "fingerprint": "3fca80d826fda74c1f681e022584fa7146dd854aae99bcc114b510f58787c03d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/ahrefs-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/ahrefs-review.jpg",
+      "fingerprint": "5b3fa95ef973dbad931e017407cec7a5faf3d561a65f8287510e631afc352517",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/brevo-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/brevo-review.jpg",
+      "fingerprint": "f8f196752bf8a9cbf59bdc9ccdb91515b4c7556d07b667836c2adcfc13d9eb98",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/email-marketing-tools-small-business/",
+      "image": "source-assets/images/articles/ja/seo-marketing/email-marketing-tools-small-business.jpg",
+      "fingerprint": "6e617a1b697891b5aadc31c5602ac0bf7d3fc0c8511053f3b8ae35fcf4d117d6",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/getresponse-alternatives/",
+      "image": "source-assets/images/articles/ja/seo-marketing/getresponse-alternatives.jpg",
+      "fingerprint": "e2364a86de261c98c940bdabc634da3f398429d1c91824b78710fc648afd5035",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/getresponse-for-creators/",
+      "image": "source-assets/images/articles/ja/seo-marketing/getresponse-for-creators.jpg",
+      "fingerprint": "55abc18e350823d8695e0111e095c8ff3bb909cdbfe4e5e29e740a7a2efe0e9a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/getresponse-pricing-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/getresponse-pricing-guide.jpg",
+      "fingerprint": "927792c505071a05e5a5f3f576fe4dc72db5c54371b8e487450f46a09613bc9b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/getresponse-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/getresponse-review.jpg",
+      "fingerprint": "feb0969a258e7e9123e812cca5c045fbcd9db331fbe4f519e0e109bc6fb0cb5e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/getresponse-vs-activecampaign/",
+      "image": "source-assets/images/articles/ja/seo-marketing/getresponse-vs-activecampaign.jpg",
+      "fingerprint": "28bc902faeaa692045f3ba4b9ac7255b1eededc884932527d55caa532bfb988b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/getresponse-vs-hubspot/",
+      "image": "source-assets/images/articles/ja/seo-marketing/getresponse-vs-hubspot.jpg",
+      "fingerprint": "1efe5f27816fe09f70c7f00e3091a204d6205ee14af3dc863467a5c9d51de890",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/how-to-make-money-blogging/",
+      "image": "source-assets/images/articles/ja/seo-marketing/how-to-make-money-blogging.jpg",
+      "fingerprint": "58fb8a8f7a11685f174d42000e1b7562621aaad17f390d5784ec4a973e262d81",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/hubspot-marketing-alternatives/",
+      "image": "source-assets/images/articles/ja/seo-marketing/hubspot-marketing-alternatives.jpg",
+      "fingerprint": "be93b274d75d711e47a53daef86bb1e2011d492f2f29d3c43da17a5b864cdf33",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/hubspot-marketing-for-small-business/",
+      "image": "source-assets/images/articles/ja/seo-marketing/hubspot-marketing-for-small-business.jpg",
+      "fingerprint": "6e46fdfa61a18f2fd92ada149243fe18bd35a947fc8cec537d6904752e2443a5",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/hubspot-marketing-pricing-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/hubspot-marketing-pricing-guide.jpg",
+      "fingerprint": "5c323f08de0271d83890b7b5a45aa84a10c68c95e1556dbac568bab69f9ff363",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/hubspot-marketing-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/hubspot-marketing-review.jpg",
+      "fingerprint": "1abb1f4e0e6e56e76c8a54e6c763c4120d3a5aebeaab22298b70007ff48cd59d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/kit-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/kit-review.jpg",
+      "fingerprint": "f77059b0795852d6fec303c5c2133f154d0e1274cccd857e3d4039c2b15af9c8",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/mailchimp-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/mailchimp-review.jpg",
+      "fingerprint": "faa0640506c5dbd713f27448eb17809dbd920a6a29c0bbf84679ac6b894aeab4",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/mailerlite-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/mailerlite-review.jpg",
+      "fingerprint": "0065a0ba98b63b8305353ef4d67e4154256636824b07dc9152843bdabeab20be",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/mangools-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/mangools-review.jpg",
+      "fingerprint": "0b9569396b0b5c142b8ede4f2666d9193d7ad09f319214d864f75fa795744c79",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/moshimo-affiliate-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/moshimo-affiliate-guide.jpg",
+      "fingerprint": "f000b5ee982e9ec50cfb2b55fdde2116e95c112d3179bf477381a77938effbb8",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/se-ranking-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/se-ranking-review.jpg",
+      "fingerprint": "d7283e0b34f4a8ffdfb1af70796be078dc385ba101279c922e56bbd8bb9e709c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/semrush-alternatives/",
+      "image": "source-assets/images/articles/ja/seo-marketing/semrush-alternatives.jpg",
+      "fingerprint": "08b123a9e29f14e4d16aa37a8ae493ed83eb474fe85dbb53342d41aa0dee195d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/semrush-for-small-business/",
+      "image": "source-assets/images/articles/ja/seo-marketing/semrush-for-small-business.jpg",
+      "fingerprint": "3ea88fb9bb5e8065cda589db5edc85e7ca98f548411e2605b84cbc086a1e4656",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/semrush-pricing-guide/",
+      "image": "source-assets/images/articles/ja/seo-marketing/semrush-pricing-guide.jpg",
+      "fingerprint": "f98834fac4f7738379dbdfab59e5b92004b32fb8b733bc9c1b753d632b064d15",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/semrush-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/semrush-review.jpg",
+      "fingerprint": "b64c96f89540e4ab1768d495774f2f365101290006bc5a7a865dc60b82b1d22a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/seo-tools-small-business/",
+      "image": "source-assets/images/articles/ja/seo-marketing/seo-tools-small-business.jpg",
+      "fingerprint": "bffdf7026c88b2d9368d285e1f6d2a94cb26d81e210e7eb15985f6a58c972ce2",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/seo-marketing/ubersuggest-review/",
+      "image": "source-assets/images/articles/ja/seo-marketing/ubersuggest-review.jpg",
+      "fingerprint": "518a84c4f6038bca181451f4160b3c772a3fa3e179f8d172e781b523c0ac5983",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/hostinger-website-builder-review/",
+      "image": "source-assets/images/articles/ja/website-builders/hostinger-website-builder-review.jpg",
+      "fingerprint": "5f3eb438cd6b4a525ebd45313245571e8cde6d54bda2538ce9f035aa43d23236",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-alternatives/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-alternatives.jpg",
+      "fingerprint": "ed9346b354c46c54d50b5d57ecf5b815436bfca31c6614635a4b19faeb5cd21b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-for-small-business/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-for-small-business.jpg",
+      "fingerprint": "468991ea670e744b717f33718ae01b8bb395452c079d876d1cd9e5b05381351e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-pricing-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-pricing-guide.jpg",
+      "fingerprint": "cf25f2c4fba82bc0f59c62c2e41af0d7ab1cb5a9c4851c0bdd60e97deb0ae098",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-review/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-review.jpg",
+      "fingerprint": "a3f55a0a11b26d0e0769cf74c3eb855a3eaa036641f022fac8fba52f16bef801",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-vs-hostinger-website-builder/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-vs-hostinger-website-builder.jpg",
+      "fingerprint": "f7c365278da81cc07e1f71322ea626edb7a6a12e30c2dac25af1c54e03a6d583",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/small-business-website-builders/",
+      "image": "source-assets/images/articles/ja/website-builders/small-business-website-builders.jpg",
+      "fingerprint": "f13bcfedd7bf55379305d72c1ae0c41553af6a3c0bbce5dcfbc925e180602ae0",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/squarespace-review/",
+      "image": "source-assets/images/articles/ja/website-builders/squarespace-review.jpg",
+      "fingerprint": "ce85e780bc1de503c49785173ead25b365a4ee299190744132217c41471a5443",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/webflow-review/",
+      "image": "source-assets/images/articles/ja/website-builders/webflow-review.jpg",
+      "fingerprint": "0949159f9d379fbd701267380382c5b92b88f6bc82aced1937f57f5fd1d9dd72",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/wix-review/",
+      "image": "source-assets/images/articles/ja/website-builders/wix-review.jpg",
+      "fingerprint": "dfdb5f40f130d2fb1a93e2a4309bd40b5c253867221e5a71bd8337fbfe62a918",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/wordpress-com-review/",
+      "image": "source-assets/images/articles/ja/website-builders/wordpress-com-review.jpg",
+      "fingerprint": "d920903d0e1e2de71329c54c591049b700df3fc8b6b5bde4e35784ffbc42e44c",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/wordpress-start-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/wordpress-start-guide.jpg",
+      "fingerprint": "b17fe98f3fe0f02d36b30780f3c5adc26838b1234bd49c3718f443f965ade70f",
+      "status": "reused"
+    }
+  ]
+}

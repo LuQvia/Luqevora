@@ -1,0 +1,59 @@
+{
+  "id": "cloudways-guide",
+  "translationKey": "cloudways-guide",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "cloudways-guide",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "公式情報レビュー",
+  "title": "Cloudwaysの評判・料金を公式情報で確認｜マネージドクラウド",
+  "metaTitle": "Cloudwaysの評判・料金を公式情報で確認｜マネージドクラウド",
+  "description": "CloudwaysのWordPress、クラウド基盤、従量課金、バックアップ、ステージング、SSH・Gitを整理します。",
+  "lead": "Cloudwaysのマネージドクラウドとしての特徴を整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Cloudways",
+      "url": "https://www.cloudways.com/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "クラウド環境を利用しながら、サーバー運用の一部をサービス側へ任せたい中級者・開発者向けです。"
+      ]
+    },
+    {
+      "heading": "特徴",
+      "body": [
+        "WordPress導入、ステージング、バックアップ、SSH、Git、キャッシュ、CDN連携等を確認します。"
+      ]
+    },
+    {
+      "heading": "料金",
+      "body": [
+        "選択するクラウド基盤、サーバーサイズ、追加機能で料金が変わります。円価格が公式にない場合は公式通貨で掲載します。"
+      ]
+    },
+    {
+      "heading": "注意点",
+      "body": [
+        "一般的な共用サーバーより設定項目が多く、完全初心者には管理が難しい場合があります。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "AWSを利用できますか？",
+      "answer": "対応クラウド基盤は公式料金・製品ページで確認してください。"
+    }
+  ]
+}

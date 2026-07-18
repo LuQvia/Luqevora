@@ -1,0 +1,109 @@
+{
+  "id": "notion-vs-asana",
+  "translationKey": "notion-vs-asana",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "notion-vs-asana",
+  "category": "business-software",
+  "topic": "project-management",
+  "badge": "公式情報比較",
+  "title": "NotionとAsanaを比較｜情報共有・タスク・プロジェクト管理の違い",
+  "metaTitle": "NotionとAsanaを比較｜無料版・料金・タスク管理【2026年】",
+  "description": "NotionとAsanaの無料版、料金、ドキュメント、データベース、タスク、プロジェクト、フォーム、自動化、AI、権限を比較します。",
+  "lead": "Notionは情報とデータベースを自由に組み立て、Asanaは担当者と期限を軸に仕事の流れを管理します。社内Wikiとプロジェクト管理のどちらを中心にするかで選びます。",
+  "publishedAt": "2026-07-18",
+  "updatedAt": "2026-07-18",
+  "verifiedAt": "2026-07-18",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {"label": "Notionの公式料金を確認", "officialUrl": "https://www.notion.com/pricing", "affiliateKey": "notion"},
+    {"label": "Asanaの公式料金を確認", "officialUrl": "https://asana.com/pricing", "affiliateKey": "asana"}
+  ],
+  "sources": [
+    {"label": "Notion — Pricing", "url": "https://www.notion.com/pricing"},
+    {"label": "Notion — Projects", "url": "https://www.notion.com/product/projects"},
+    {"label": "Asana — Pricing", "url": "https://asana.com/pricing"},
+    {"label": "Asana — Product Overview", "url": "https://asana.com/product/use-asana"}
+  ],
+  "sections": [
+    {
+      "heading": "結論：Wikiとデータベース中心ならNotion、期限と責任の管理ならAsana",
+      "body": [
+        "議事録、手順書、社内Wiki、企画書、顧客情報などをページとデータベースで自由にまとめ、その中にタスク管理も組み込みたい場合はNotionが候補です。Plusは1メンバー月額10米ドル、Businessは20米ドルと案内されています。",
+        "誰が何をいつまでに行うかを明確にし、依頼受付、自動化、複数プロジェクトの進捗、目標、作業負荷まで管理したい場合はAsanaが候補です。Starterは年払いで1ユーザー月額10.99米ドルです。"
+      ],
+      "callout": "両方を導入する場合は、Notionを決定事項・手順・資料、Asanaを担当・期限・進捗に分け、同じタスクを二重登録しないルールを作ります。"
+    },
+    {
+      "heading": "NotionとAsanaの違いを比較",
+      "body": ["無料版と小規模チーム向けの有料プランを中心に整理します。"],
+      "table": {
+        "headers": ["比較項目", "Notion", "Asana"],
+        "rows": [
+          ["無料版", "個人はページとブロック無制限。複数メンバーは制限、添付は1ファイル5MBまで", "2ユーザーまで。タスクとプロジェクトは無制限"],
+          ["最初の有料", "Plus：1メンバー月額10米ドル", "Starter：年払いで1ユーザー月額10.99米ドル"],
+          ["中心機能", "ページ、Wiki、Docs、データベース、Sites、Forms", "タスク、プロジェクト、Forms、Rules、Timeline、Gantt"],
+          ["プロジェクト管理", "データベースのプロパティ、ビュー、サブタスク、依存関係を組み合わせる", "担当者、期限、依存関係、複数プロジェクト、進捗更新を標準化"],
+          ["上位管理", "Businessで権限、AI、検索、プライベートチームスペースなど", "Advancedでポートフォリオ、目標、作業負荷、承認など"],
+          ["AI", "Free・Plusは試用、BusinessでNotion AgentやAI Meeting Notesなどを案内", "有料プランでAI Studio Basicのクレジットを案内"],
+          ["向く用途", "情報共有、Wiki、柔軟な業務DB、企画・ナレッジ", "案件進行、依頼受付、期限・担当・負荷、部門横断"]
+        ]
+      }
+    },
+    {
+      "heading": "無料版と料金の違い",
+      "body": [
+        "Notion Freeは個人利用ならページとブロックが無制限ですが、複数メンバーのワークスペースではブロック数に制限があります。Plusでは共同編集ブロック、ファイルアップロード、ゲスト、サイトのカスタマイズなどが拡張されます。BusinessはAIと高度な権限・検索機能を含む構成です。",
+        "Asana Personalは2ユーザーまでで、リスト、ボード、カレンダー、無制限タスク・プロジェクトを利用できます。Starterではユーザー上限がなくなり、タイムライン、ガント、フォーム、カスタム項目、自動化などが加わります。"
+      ],
+      "bullets": [
+        "メンバーと無料ゲストの数え方",
+        "ファイルサイズ、履歴、書き出しの上限",
+        "フォーム、データベース、自動化の必要範囲",
+        "AI機能と追加クレジットの費用",
+        "SSO、監査ログ、権限管理が必要になる時期"
+      ]
+    },
+    {
+      "heading": "情報管理とタスク管理の違い",
+      "body": [
+        "Notionでは文章、画像、表、データベースを同じページへ配置し、業務に合わせて項目やビューを作ります。自由度が高い一方、ページ名、保存場所、プロパティ、テンプレートを管理者が設計しないと、似た情報が複数箇所へ増えます。",
+        "Asanaではタスクに担当者と期限を持たせ、プロジェクト、フォーム、ルールを通じて仕事を流します。同じタスクを複数プロジェクトへ関連付けられるため、部署別と案件別の進捗を二重入力せずに見せられます。"
+      ]
+    },
+    {
+      "heading": "どちらが向いているか",
+      "body": ["導入目的を一文で説明できる方を選びます。"],
+      "bullets": [
+        "Notion向き：社内Wikiを作る、議事録・手順書・企画とタスクを近くに置く、独自データベースを構築",
+        "Asana向き：案件の遅延を減らす、依頼の入口を統一、担当と期限を明確化、複数部署の進捗を報告",
+        "併用向き：情報量が多く、ナレッジと実行管理の両方に専任の運用担当がいる",
+        "別ツールも比較：表計算中心、チャット中心、単純な個人ToDoだけで十分"
+      ]
+    },
+    {
+      "heading": "試験導入の手順",
+      "body": ["実際の1プロジェクトを同じ条件で登録し、更新と検索にかかる時間を測ります。"],
+      "bullets": [
+        "目的、成果物、担当、期限、関連資料を登録する",
+        "フォームから新規依頼を1件受け付ける",
+        "定例会議の議事録と決定事項を保存する",
+        "期限超過と担当未設定を一覧で確認する",
+        "外部ゲストの閲覧・編集範囲を確認する",
+        "1週間後に情報を検索し、最新版を迷わず特定できるか確認する"
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "Notionだけでプロジェクト管理できますか？", "answer": "データベース、サブタスク、依存関係、複数ビューを使って管理できます。依頼受付、自動化、ポートフォリオ、作業負荷などを標準機能で強く管理したい場合はAsanaとも比較してください。"},
+    {"question": "NotionとAsanaを併用してもよいですか？", "answer": "可能です。Notionを手順・議事録・資料、Asanaを担当・期限・進捗に分け、どちらを正式なタスク台帳にするか決めると二重管理を防げます。"},
+    {"question": "小規模チームではどちらが安いですか？", "answer": "Notion Plusは1メンバー月額10米ドル、Asana Starterは年払い月額換算10.99米ドルです。無料版の人数条件、必要なAI・自動化・履歴を含めて比較してください。"}
+  ],
+  "relatedLinks": [
+    {"label": "Notionの公式情報レビュー", "url": "/ja/business-software/notion-review/", "description": "ページ、データベース、料金、AI機能を詳しく確認"},
+    {"label": "Asanaの公式情報レビュー", "url": "/ja/business-software/asana-review/", "description": "タスク、フォーム、自動化、上位管理を確認"}
+  ]
+}

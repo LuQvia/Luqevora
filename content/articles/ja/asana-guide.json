@@ -1,0 +1,73 @@
+{
+  "id": "asana-guide",
+  "translationKey": "asana-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "asana-guide",
+  "category": "business-software",
+  "topic": "project-management",
+  "badge": "実践ガイド",
+  "title": "Asanaとは？使い方・料金・メリットを初心者向けに解説【2026年版】",
+  "metaTitle": "Asanaとは？使い方・料金・メリットを初心者向けに解説【2026年版】",
+  "description": "Asanaのタスク、プロジェクト、タイムライン、自動化、ポートフォリオ、料金、メリット・デメリットを解説します。",
+  "lead": "Asanaの基本構造、料金、主要機能、導入時の運用ルールを整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "Asana Pricing",
+      "url": "https://asana.com/ja/pricing"
+    },
+    {
+      "label": "Asana Help",
+      "url": "https://help.asana.com/hc/ja"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "担当者、期限、依存関係、複数プロジェクト、自動化を標準化したい組織に向くワークマネジメントツールです。"
+      ]
+    },
+    {
+      "heading": "料金",
+      "body": [
+        "日本向け公式ページではPersonal無料、Starterは年払い月額換算1,200円、月払い1,475円、Advancedは年払い月額換算2,700円、月払い3,300円と案内されています。"
+      ]
+    },
+    {
+      "heading": "使い方",
+      "body": [
+        "チーム、プロジェクト、タスクを作成し、リスト、ボード、カレンダー、タイムラインを用途で使い分けます。"
+      ]
+    },
+    {
+      "heading": "自動化と横断管理",
+      "body": [
+        "フォーム、ルール、ポートフォリオ、ゴール、ワークロード等はプランにより利用できます。"
+      ]
+    },
+    {
+      "heading": "導入ルール",
+      "body": [
+        "担当者を1名、期限、完了条件、具体的タイトル、コメント集約、週次確認を定めます。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "無料プランは何人までですか？",
+      "answer": "Personalは2ユーザーまでと公式料金ページで案内されています。"
+    },
+    {
+      "question": "無料トライアルはありますか？",
+      "answer": "対象有料プランの最新条件を公式ページで確認してください。"
+    }
+  ]
+}

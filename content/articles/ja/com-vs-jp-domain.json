@@ -1,0 +1,59 @@
+{
+  "id": "com-vs-jp-domain",
+  "translationKey": "com-vs-jp-domain",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "com-vs-jp-domain",
+  "category": "hosting-security",
+  "topic": "domain-hosting",
+  "badge": "比較記事",
+  "title": "「.com」と「.jp」の違いを比較｜独自ドメインはどっち？",
+  "metaTitle": "「.com」と「.jp」の違いを比較｜独自ドメインはどっち？",
+  "description": "comとjpの登録条件、料金、信頼性、SEO、海外展開、用途を比較します。",
+  "lead": "comとjpの違いを、ブランド・対象地域・更新費用の観点で整理します。",
+  "publishedAt": "2026-07-17",
+  "updatedAt": "2026-07-17",
+  "verifiedAt": "2026-07-17",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "JPRS",
+      "url": "https://jprs.jp/about/jp-dom/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "国内外へ広げるブランドや多言語サイトには.com、日本向けであることを明確にしたいサービスには.jpが候補です。SEOだけを理由に選ぶ必要はありません。"
+      ]
+    },
+    {
+      "heading": "登録条件",
+      "body": [
+        ".comは広く登録できます。.jpは日本国内の住所を持つ個人・組織が対象です。.co.jpは属性型で原則1組織1ドメインです。"
+      ]
+    },
+    {
+      "heading": "SEO",
+      "body": [
+        "ドメイン末尾だけで順位が決まるわけではありません。言語、内容、地域、リンク、サイト構造等が総合的に評価されます。"
+      ]
+    },
+    {
+      "heading": "ブランド",
+      "body": [
+        "短く覚えやすく、将来の事業拡張を妨げず、商標を侵害しない名称を選びます。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "日本向けなら必ず.jpですか？",
+      "answer": "必須ではありません。.comも日本国内で広く利用されています。"
+    }
+  ]
+}

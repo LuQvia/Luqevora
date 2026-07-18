@@ -1,0 +1,107 @@
+{
+  "id": "clickup-vs-asana",
+  "translationKey": "clickup-vs-asana",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "clickup-vs-asana",
+  "category": "business-software",
+  "topic": "project-management",
+  "badge": "公式情報比較",
+  "title": "ClickUpとAsanaを比較｜料金・タスク管理・自動化の違い",
+  "metaTitle": "ClickUpとAsanaを比較｜無料版・料金・機能の違い【2026年】",
+  "description": "ClickUpとAsanaの無料版、料金、タスク・プロジェクト管理、Docs、チャット、時間計測、フォーム、自動化、AI機能を比較します。",
+  "lead": "ClickUpは多機能を一つに集約し、Asanaはチーム横断の仕事を構造化して進捗を見える化します。機能数より、担当者が迷わず運用できるかで選びます。",
+  "publishedAt": "2026-07-18",
+  "updatedAt": "2026-07-18",
+  "verifiedAt": "2026-07-18",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {"label": "ClickUpの公式料金を確認", "officialUrl": "https://clickup.com/pricing", "affiliateKey": "clickup"},
+    {"label": "Asanaの公式料金を確認", "officialUrl": "https://asana.com/pricing", "affiliateKey": "asana"}
+  ],
+  "sources": [
+    {"label": "ClickUp — Pricing", "url": "https://clickup.com/pricing"},
+    {"label": "Asana — Pricing", "url": "https://asana.com/pricing"},
+    {"label": "Asana — Product Overview", "url": "https://asana.com/product/use-asana"}
+  ],
+  "sections": [
+    {
+      "heading": "結論：機能集約と低い開始価格ならClickUp、組織横断の標準化ならAsana",
+      "body": [
+        "タスク、Docs、チャット、時間計測、目標、ダッシュボードなどを一つのワークスペースへ集め、細かな設定を使い分けたい場合はClickUpが候補です。有料のUnlimitedは年払いで1ユーザー月額7米ドルと案内されています。",
+        "プロジェクト、依頼受付、ポートフォリオ、目標、作業負荷を段階的に標準化し、複数部署の進捗を同じ方法で管理したい場合はAsanaが候補です。Starterは年払いで1ユーザー月額10.99米ドルです。"
+      ],
+      "callout": "最初から全機能を有効にせず、タスク名、担当者、期限、ステータス、完了条件の5項目だけで試験運用すると定着しやすくなります。"
+    },
+    {
+      "heading": "ClickUpとAsanaのプランを比較",
+      "body": ["個人・小規模チームが検討しやすい無料版と最初の有料プランを中心に整理します。"],
+      "table": {
+        "headers": ["比較項目", "ClickUp", "Asana"],
+        "rows": [
+          ["無料プラン", "Free Forever。タスクとメンバーは無制限、ストレージ60MB", "Personal。2ユーザーまで、タスクとプロジェクトは無制限"],
+          ["最初の有料プラン", "Unlimited：年払いで1ユーザー月額7米ドル", "Starter：年払いで1ユーザー月額10.99米ドル"],
+          ["上位の例", "Business：年払いで1ユーザー月額12米ドル", "Advanced：年払いで1ユーザー月額24.99米ドル"],
+          ["表示", "リスト、ボード、カレンダー、ガント、タイムラインなど。プランで上限", "リスト、ボード、カレンダー。Starterでタイムラインとガント"],
+          ["周辺機能", "Docs、Chat、時間計測、Goals、Whiteboardsなどを統合", "Forms、Rules、Portfolios、Goals、Workloadを段階的に提供"],
+          ["AI", "Brain AIなど別料金のAIプランを案内", "有料プランにAI Studio Basicのクレジットを案内"],
+          ["向く運用", "一つの製品へ機能を集約し、細かくカスタマイズ", "部門横断で共通ルールを作り、進捗と責任を明確化"]
+        ]
+      }
+    },
+    {
+      "heading": "無料版と有料版の境界",
+      "body": [
+        "ClickUpのFree Foreverは無制限タスクと無制限メンバーを案内しますが、ストレージは60MBで、フォーム、ガント、カスタム項目、連携などに上限があります。Unlimitedではストレージ、フォーム、ガント、連携、時間計測などが拡張されます。",
+        "Asana Personalは2ユーザーまで無料で、リスト、ボード、カレンダー、無制限のタスク・プロジェクトを利用できます。3人以上のチームやタイムライン、ガント、フォーム、カスタム項目、自動化が必要になるとStarterを検討します。"
+      ],
+      "bullets": [
+        "チーム内の有料対象ユーザー数",
+        "外部ゲストの扱いと権限",
+        "フォーム、自動化、ダッシュボードの必要数",
+        "ファイル保存量と外部ストレージ連携",
+        "AI機能の追加料金・クレジット"
+      ]
+    },
+    {
+      "heading": "タスク管理と自動化の違い",
+      "body": [
+        "ClickUpはSpace、Folder、List、Taskなど階層が多く、カスタム項目や表示を細かく設定できます。チームごとに柔軟な運用を作れますが、構成ルールを決めないと同じ仕事が複数の場所へ分散しやすくなります。",
+        "Asanaはタスクを複数プロジェクトへ関連付け、更新を同期する機能や、Forms、Rules、テンプレートで受付から完了までを標準化します。Advancedではポートフォリオ、目標、作業負荷など複数プロジェクトを管理する機能が加わります。"
+      ]
+    },
+    {
+      "heading": "どちらが向いているか",
+      "body": ["既存ツールを減らしたいのか、仕事の進め方を統一したいのかを分けます。"],
+      "bullets": [
+        "ClickUp向き：Docsやチャットも集約、時間計測を内蔵、多数の設定を自社向けに調整したい",
+        "Asana向き：依頼受付とプロジェクトを標準化、複数部署・経営目標までつなげたい",
+        "別ツールも比較：簡単なカンバンだけで十分、社内チャットが中心、表計算の柔軟さを優先"
+      ]
+    },
+    {
+      "heading": "導入テストの進め方",
+      "body": ["同じ実案件を2週間ずつ試し、機能数ではなく入力漏れと確認時間を比較します。"],
+      "bullets": [
+        "10件程度の実タスクを登録し、担当・期限・完了条件を設定",
+        "フォームから依頼を受け、自動で担当者へ割り当てる",
+        "週次会議でダッシュボードや進捗更新を使う",
+        "外部ゲストを招待し、見える範囲を確認する",
+        "完了済みタスクを検索し、履歴を追えるか確認する",
+        "管理者が設定を保守する時間も評価する"
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "無料で3人以上使うならClickUpですか？", "answer": "ClickUp Free Foreverは無制限メンバーを案内しています。Asana Personalは2ユーザーまでです。ただしClickUp無料版にもストレージや機能上限があるため、必要な運用を試して確認してください。"},
+    {"question": "ClickUpとAsanaのどちらが簡単ですか？", "answer": "設定項目を絞った標準運用はAsanaが理解しやすい場合があります。ClickUpは多機能で柔軟ですが、最初に階層・ステータス・表示のルールを決める必要があります。"},
+    {"question": "AI機能は基本料金に含まれますか？", "answer": "ClickUpはBrain AIなどの別料金プランを案内し、Asanaは有料プランにAI Studio Basicのクレジットを案内しています。対象機能、上限、追加クレジットを契約前に確認してください。"}
+  ],
+  "relatedLinks": [
+    {"label": "ClickUpの公式情報レビュー", "url": "/ja/business-software/clickup-review/", "description": "料金、表示、Docs、時間計測などを詳しく確認"},
+    {"label": "Asanaの公式情報レビュー", "url": "/ja/business-software/asana-review/", "description": "プラン、フォーム、自動化、ポートフォリオを確認"}
+  ]
+}

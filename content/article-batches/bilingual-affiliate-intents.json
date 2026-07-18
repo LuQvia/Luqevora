@@ -1,0 +1,49 @@
+[
+  {"slug": "hostinger-pricing-guide", "product": "hostinger", "intent": "pricing", "category": "hosting-security", "topic": "web-hosting"},
+  {"slug": "hostinger-alternatives", "product": "hostinger", "intent": "alternatives", "category": "hosting-security", "topic": "web-hosting", "alternatives": ["siteground", "cloudways", "kinsta"]},
+  {"slug": "hostinger-for-small-business", "product": "hostinger", "intent": "use-case", "category": "hosting-security", "topic": "web-hosting", "alternatives": ["siteground", "cloudways"], "audience": {"ja": "小規模事業者", "en": "small businesses"}, "useCase": {"ja": "低コストで事業サイトを公開し、ドメイン・メール・サーバーをまとめて管理すること", "en": "launching a cost-conscious business website while managing domain, email, and hosting together"}},
+
+  {"slug": "kinsta-pricing-guide", "product": "kinsta", "intent": "pricing", "category": "hosting-security", "topic": "web-hosting"},
+  {"slug": "kinsta-alternatives", "product": "kinsta", "intent": "alternatives", "category": "hosting-security", "topic": "web-hosting", "alternatives": ["wp-engine", "cloudways", "siteground"]},
+  {"slug": "kinsta-for-agencies", "product": "kinsta", "intent": "use-case", "category": "hosting-security", "topic": "web-hosting", "alternatives": ["wp-engine", "cloudways"], "audience": {"ja": "制作会社", "en": "web agencies"}, "useCase": {"ja": "複数のWordPress顧客サイトを移行・保守し、権限と請求を整理すること", "en": "migrating and maintaining multiple WordPress client sites with controlled access and billing"}},
+
+  {"slug": "wp-engine-pricing-guide", "product": "wp-engine", "intent": "pricing", "category": "hosting-security", "topic": "web-hosting"},
+  {"slug": "wp-engine-alternatives", "product": "wp-engine", "intent": "alternatives", "category": "hosting-security", "topic": "web-hosting", "alternatives": ["kinsta", "cloudways", "siteground"]},
+  {"slug": "wp-engine-for-agencies", "product": "wp-engine", "intent": "use-case", "category": "hosting-security", "topic": "web-hosting", "alternatives": ["kinsta", "cloudways"], "audience": {"ja": "WordPress制作会社", "en": "WordPress agencies"}, "useCase": {"ja": "制作・検証・バックアップ・保守を標準化して顧客サイトを運用すること", "en": "standardizing production, staging, backups, and maintenance across client sites"}},
+
+  {"slug": "semrush-pricing-guide", "product": "semrush", "intent": "pricing", "category": "seo-marketing", "topic": "seo-tools"},
+  {"slug": "semrush-alternatives", "product": "semrush", "intent": "alternatives", "category": "seo-marketing", "topic": "seo-tools", "alternatives": ["ahrefs", "se-ranking", "mangools"]},
+  {"slug": "semrush-for-small-business", "product": "semrush", "intent": "use-case", "category": "seo-marketing", "topic": "seo-tools", "alternatives": ["se-ranking", "mangools"], "audience": {"ja": "小規模マーケティングチーム", "en": "small marketing teams"}, "useCase": {"ja": "キーワード、競合、順位、サイト監査を少人数で継続管理すること", "en": "managing keywords, competitors, rankings, and site audits with a small team"}},
+
+  {"slug": "getresponse-pricing-guide", "product": "getresponse", "intent": "pricing", "category": "seo-marketing", "topic": "email-marketing"},
+  {"slug": "getresponse-alternatives", "product": "getresponse", "intent": "alternatives", "category": "seo-marketing", "topic": "email-marketing", "alternatives": ["mailerlite", "activecampaign", "brevo"]},
+  {"slug": "getresponse-for-creators", "product": "getresponse", "intent": "use-case", "category": "seo-marketing", "topic": "email-marketing", "alternatives": ["kit", "mailerlite"], "audience": {"ja": "クリエイター・小規模事業者", "en": "creators and small businesses"}, "useCase": {"ja": "メール、ランディングページ、自動化、ウェビナーを販売導線へまとめること", "en": "combining email, landing pages, automation, and webinars into a sales funnel"}},
+
+  {"slug": "activecampaign-pricing-guide", "product": "activecampaign", "intent": "pricing", "category": "seo-marketing", "topic": "email-marketing"},
+  {"slug": "activecampaign-alternatives", "product": "activecampaign", "intent": "alternatives", "category": "seo-marketing", "topic": "email-marketing", "alternatives": ["getresponse", "hubspot-marketing", "mailerlite"]},
+  {"slug": "activecampaign-for-ecommerce", "product": "activecampaign", "intent": "use-case", "category": "seo-marketing", "topic": "email-marketing", "alternatives": ["getresponse", "hubspot-marketing"], "audience": {"ja": "成長中のEC事業者", "en": "growing ecommerce teams"}, "useCase": {"ja": "顧客行動に応じてメール・メッセージ・営業タスクを自動化すること", "en": "automating email, messaging, and sales tasks from customer behavior"}},
+
+  {"slug": "hubspot-marketing-pricing-guide", "product": "hubspot-marketing", "intent": "pricing", "category": "seo-marketing", "topic": "email-marketing"},
+  {"slug": "hubspot-marketing-alternatives", "product": "hubspot-marketing", "intent": "alternatives", "category": "seo-marketing", "topic": "email-marketing", "alternatives": ["activecampaign", "mailchimp", "brevo"]},
+  {"slug": "hubspot-marketing-for-small-business", "product": "hubspot-marketing", "intent": "use-case", "category": "seo-marketing", "topic": "email-marketing", "alternatives": ["activecampaign", "mailchimp"], "audience": {"ja": "CRM導入を進める小規模事業者", "en": "small businesses adopting a CRM"}, "useCase": {"ja": "顧客情報を中心にマーケティング・営業・サービスの履歴をつなぐこと", "en": "connecting marketing, sales, and service history around customer records"}},
+
+  {"slug": "shopify-pricing-guide", "product": "shopify", "intent": "pricing", "category": "website-builders", "topic": "ecommerce-platform"},
+  {"slug": "shopify-alternatives", "product": "shopify", "intent": "alternatives", "category": "website-builders", "topic": "ecommerce-platform", "alternatives": ["bigcommerce", "woocommerce", "squarespace"]},
+  {"slug": "shopify-for-small-business", "product": "shopify", "intent": "use-case", "category": "website-builders", "topic": "ecommerce-platform", "alternatives": ["woocommerce", "squarespace"], "audience": {"ja": "小規模なEC事業者", "en": "small ecommerce businesses"}, "useCase": {"ja": "オンラインストアを公開し、商品・注文・決済・配送を一つの管理画面で運用すること", "en": "launching an online store and managing products, orders, payments, and shipping in one workspace"}},
+
+  {"slug": "monday-pricing-guide", "product": "monday", "intent": "pricing", "category": "business-software", "topic": "project-management"},
+  {"slug": "monday-alternatives", "product": "monday", "intent": "alternatives", "category": "business-software", "topic": "project-management", "alternatives": ["clickup", "asana", "wrike"]},
+  {"slug": "monday-for-small-business", "product": "monday", "intent": "use-case", "category": "business-software", "topic": "project-management", "alternatives": ["clickup", "asana"], "audience": {"ja": "部門横断で働く小規模チーム", "en": "small cross-functional teams"}, "useCase": {"ja": "案件・担当・期限を可視化し、定型作業を自動化すること", "en": "visualizing projects, owners, and deadlines while automating repeatable work"}},
+
+  {"slug": "clickup-pricing-guide", "product": "clickup", "intent": "pricing", "category": "business-software", "topic": "project-management"},
+  {"slug": "clickup-alternatives", "product": "clickup", "intent": "alternatives", "category": "business-software", "topic": "project-management", "alternatives": ["monday", "asana", "notion"]},
+  {"slug": "clickup-for-small-business", "product": "clickup", "intent": "use-case", "category": "business-software", "topic": "project-management", "alternatives": ["monday", "asana"], "audience": {"ja": "複数ツールを整理したい小規模事業者", "en": "small businesses consolidating work tools"}, "useCase": {"ja": "タスク、文書、目標、ダッシュボードを一つの作業空間へまとめること", "en": "bringing tasks, documents, goals, and dashboards into one workspace"}},
+
+  {"slug": "nordvpn-pricing-guide", "product": "nordvpn", "intent": "pricing", "category": "hosting-security", "topic": "vpn-services"},
+  {"slug": "nordvpn-alternatives", "product": "nordvpn", "intent": "alternatives", "category": "hosting-security", "topic": "vpn-services", "alternatives": ["surfshark", "proton-vpn"]},
+  {"slug": "nordvpn-for-remote-teams", "product": "nordvpn", "intent": "use-case", "category": "hosting-security", "topic": "vpn-services", "alternatives": ["surfshark", "proton-vpn"], "audience": {"ja": "複数拠点・リモートで働く小規模チーム", "en": "small distributed and remote teams"}, "useCase": {"ja": "業務端末の通信保護を揃え、接続・更新・復旧手順を管理すること", "en": "standardizing protected connections and documenting setup, renewal, and recovery across work devices"}},
+
+  {"slug": "surfshark-pricing-guide", "product": "surfshark", "intent": "pricing", "category": "hosting-security", "topic": "vpn-services"},
+  {"slug": "surfshark-alternatives", "product": "surfshark", "intent": "alternatives", "category": "hosting-security", "topic": "vpn-services", "alternatives": ["nordvpn", "proton-vpn"]},
+  {"slug": "surfshark-for-small-business", "product": "surfshark", "intent": "use-case", "category": "hosting-security", "topic": "vpn-services", "alternatives": ["nordvpn", "proton-vpn"], "audience": {"ja": "多数の端末を使う小規模事業者", "en": "small businesses with many devices"}, "useCase": {"ja": "多数端末のVPN接続と追加セキュリティ機能を一つの契約で管理すること", "en": "managing VPN connections and added security features for many devices under one subscription"}}
+]

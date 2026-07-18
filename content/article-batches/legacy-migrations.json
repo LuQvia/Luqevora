@@ -1,0 +1,793 @@
+[
+  {
+    "slug": "ablenet-rental-server-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "ABLENET Rental Server", "url": "https://www.ablenet.jp/rentalserver/"}],
+    "ctas": [{"label": {"ja": "ABLENETレンタルサーバーの公式情報を確認", "en": "Check ABLENET Rental Server official details"}, "officialUrl": "https://www.ablenet.jp/rentalserver/", "affiliateKey": "ablenet"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "ablenet-vps-review", "label": {"ja": "ABLENET VPSのレビュー", "en": "ABLENET VPS review"}, "description": {"ja": "VPSとの管理範囲の違いを確認", "en": "Compare the VPS administration model"}}],
+    "locales": {
+      "ja": {
+        "subject": "ABLENETレンタルサーバー",
+        "title": "ABLENETレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
+        "description": "ABLENETレンタルサーバーの料金、WordPress、LiteSpeed、バックアップ、SSL、メリット・注意点を公式情報で整理します。",
+        "lead": "国内向け共用レンタルサーバーとして、WordPress運用と契約条件を判断できる形に整理します。",
+        "verdict": "サーバー構築をせずにWordPressや企業サイトを運用し、国内向けの案内を重視する利用者の候補です。root権限や自由なOS構成が必要ならVPSを選びます。",
+        "context": "料金だけでなく、バックアップの復元範囲、更新条件、サポート窓口、プラン変更方法を契約前に確認します。",
+        "overview": "共用ホスティングとして、Webサイト公開に必要なサーバー、SSL、WordPress関連機能、セキュリティやバックアップをまとめて利用します。",
+        "capabilities": ["WordPressの導入・運用", "LiteSpeedを含むWeb配信環境", "SSL、WAF、バックアップ等の保護機能"],
+        "pricing": "プラン、契約期間、初回・更新条件で実質費用が変わります。月額換算ではなく契約期間全体の支払額を確認します。",
+        "tradeoff": "共用サーバーは管理負荷を抑えられる一方、VPSのようにOSやサーバー設定を自由に変更する用途には向きません。",
+        "strengths": ["国内向けWordPressサイトをまとめて管理しやすい", "サーバー保守を提供元へ任せられる"],
+        "caveats": ["バックアップの保存期間と復元手順", "更新料金、返金、プラン変更条件"],
+        "fitIntro": "技術的な自由度より、公開と日常運用の簡単さを優先する場合に適します。",
+        "bestFor": ["個人ブログや小規模事業サイト", "WordPressを簡単に始めたい利用者", "国内向け案内とサポートを重視する利用者"]
+      },
+      "en": {
+        "subject": "ABLENET Rental Server",
+        "title": "ABLENET Rental Server Review: Pricing, WordPress, and Backups",
+        "description": "Review ABLENET Rental Server using official information on plans, WordPress, LiteSpeed, backups, SSL, strengths, and limitations.",
+        "lead": "This guide explains the Japanese shared-hosting service in a format that helps buyers evaluate WordPress operations and contract terms.",
+        "verdict": "ABLENET Rental Server is a candidate for Japan-focused WordPress or business sites whose owners do not want to administer a server. Choose a VPS instead when root access or custom operating-system control is required.",
+        "context": "Before purchase, verify backup restoration, renewal conditions, support channels, and the process for changing plans.",
+        "overview": "The shared-hosting service packages the server environment, SSL, WordPress-related tools, security, and backups needed to publish a website.",
+        "capabilities": ["WordPress installation and operation", "A web-serving stack that includes LiteSpeed", "SSL, WAF, backup, and related protections"],
+        "pricing": "Effective cost varies by plan, commitment, and renewal terms. Use the total due for the billing period rather than a monthly equivalent.",
+        "tradeoff": "Shared hosting lowers administration, but it does not provide the operating-system freedom of a VPS.",
+        "strengths": ["Straightforward management for Japan-focused WordPress sites", "Infrastructure maintenance handled by the provider"],
+        "caveats": ["Backup retention and restoration procedure", "Renewal, refund, and plan-change rules"],
+        "fitIntro": "It fits buyers who prioritize publishing and routine operation over low-level server control.",
+        "bestFor": ["Personal blogs and small-business sites", "Users starting WordPress without server administration", "Buyers who value Japanese-language service information"]
+      }
+    }
+  },
+  {
+    "slug": "ablenet-vps-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "vps",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "ABLENET VPS", "url": "https://www.ablenet.jp/vps/"}],
+    "ctas": [{"label": {"ja": "ABLENET VPSの公式プランを確認", "en": "Check ABLENET VPS official plans"}, "officialUrl": "https://www.ablenet.jp/vps/", "affiliateKey": "ablenet-vps"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "ablenet-rental-server-review", "label": {"ja": "ABLENETレンタルサーバーのレビュー", "en": "ABLENET Rental Server review"}, "description": {"ja": "共用ホスティングとの違いを確認", "en": "Compare shared hosting"}}],
+    "locales": {
+      "ja": {
+        "subject": "ABLENET VPS",
+        "title": "ABLENET VPSの評判・料金を公式情報で確認｜AI・Docker・WordPress",
+        "description": "ABLENET VPSのLinux・Windows、Docker、AIセルフホスト、WordPress、無料試用、管理上の注意点を整理します。",
+        "lead": "自由なサーバー構築と、自分で負う保守責任の両方を理解して選ぶためのレビューです。",
+        "verdict": "Linux・Windows環境でDocker、開発環境、WordPress、セルフホストアプリを構築したい利用者の候補です。OS更新や防御、監視を自分で行えない場合はマネージドサービスが安全です。",
+        "context": "AIモデルやコンテナはメモリ、CPU、ストレージを多く使うため、最小プランだけで判断しません。",
+        "overview": "VPSでは仮想サーバーへ管理者権限で接続し、OS、ミドルウェア、コンテナ、アプリを目的に合わせて構成します。",
+        "capabilities": ["Linux・Windows系プランの選択", "Dockerや開発環境の構築", "WordPress・セルフホストアプリの運用"],
+        "pricing": "CPU、メモリ、ストレージ、OS、契約期間、バックアップ等で総額が変わります。負荷試験で必要サイズを決めます。",
+        "tradeoff": "自由度が高い代わりに、初期設定、更新、ファイアウォール、バックアップ、障害対応は利用者の責任になります。",
+        "strengths": ["用途に合わせてサーバーを構築できる", "国内事業者のVPSとして検討できる"],
+        "caveats": ["管理者権限の保護とOS更新", "AI・Docker利用時の実メモリとストレージ消費"],
+        "fitIntro": "サーバー管理の担当者と更新手順を明確にできる開発用途に適します。",
+        "bestFor": ["Docker・検証環境・小規模アプリ", "VPS上のWordPressや業務ツール", "LinuxまたはWindowsサーバーを学びたい利用者"]
+      },
+      "en": {
+        "subject": "ABLENET VPS",
+        "title": "ABLENET VPS Review: Linux, Windows, Docker, AI, and WordPress",
+        "description": "Review ABLENET VPS using official information on Linux and Windows plans, Docker, self-hosted AI, WordPress, trials, and administration.",
+        "lead": "The service should be chosen with a clear understanding of both server freedom and the maintenance responsibility that comes with it.",
+        "verdict": "ABLENET VPS is a candidate for users building Docker environments, development servers, WordPress, or self-hosted applications on Linux or Windows. A managed service is safer when no one can own patching, security, and monitoring.",
+        "context": "AI models and containers can consume substantial memory, CPU, and disk, so do not choose solely from the smallest plan.",
+        "overview": "A VPS gives the customer administrative access to configure the operating system, middleware, containers, and applications for a specific workload.",
+        "capabilities": ["Choice of Linux or Windows-oriented plans", "Docker and development environment deployment", "WordPress and self-hosted application operation"],
+        "pricing": "Total cost depends on CPU, memory, storage, operating system, term, and backup requirements. Size the server with a workload test.",
+        "tradeoff": "Greater control also makes the customer responsible for setup, updates, firewall policy, backups, monitoring, and incident response.",
+        "strengths": ["Configurable server for many workloads", "A Japan-based VPS option"],
+        "caveats": ["Administrative access protection and patching", "Real memory and storage use for AI or containers"],
+        "fitIntro": "It fits development use when an owner and repeatable maintenance process are defined.",
+        "bestFor": ["Docker, test environments, and small applications", "WordPress or internal tools on a VPS", "Users learning Linux or Windows server administration"]
+      }
+    }
+  },
+  {
+    "slug": "colorfulbox-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "ColorfulBox", "url": "https://www.colorfulbox.jp/"}],
+    "ctas": [{"label": {"ja": "ColorfulBoxの公式情報を確認", "en": "Check ColorfulBox official details"}, "officialUrl": "https://www.colorfulbox.jp/", "affiliateKey": "colorfulbox"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "web-hosting-small-business", "label": {"ja": "小規模事業向けサーバー比較", "en": "Small-business hosting comparison"}, "description": {"ja": "他社も同じ軸で比較", "en": "Compare other hosts on the same criteria"}}],
+    "locales": {
+      "ja": {
+        "subject": "ColorfulBox",
+        "title": "ColorfulBoxの評判・料金を公式情報で確認｜WordPress・バックアップ",
+        "description": "ColorfulBoxのLiteSpeed、WordPressセットアップ、地域分散バックアップ、料金、メリット・注意点を整理します。",
+        "lead": "国内WordPressサイト向けに、性能だけでなく復旧と更新費用まで確認します。",
+        "verdict": "LiteSpeed、WordPress導入、バックアップをまとめたい国内サイトの候補です。重要サイトでは自動バックアップがあることだけでなく、保存先と復元手順を試します。",
+        "context": "キャンペーン価格、契約期間、更新料金、プラン変更、返金条件を契約画面で確認します。",
+        "overview": "共用レンタルサーバーとして、WordPress、SSL、Webメール、セキュリティ、地域分散バックアップ等を提供します。",
+        "capabilities": ["LiteSpeed環境とWordPress導入", "地域を分けたバックアップ", "SSL・メール・セキュリティ機能"],
+        "pricing": "契約期間とキャンペーンで月額換算が変わります。初回総額と更新時の同一期間総額を並べます。",
+        "tradeoff": "多機能な共用サーバーですが、CPU・メモリを占有するアプリやroot権限が必要な用途にはVPS等が必要です。",
+        "strengths": ["WordPress開始に必要な機能をまとめやすい", "バックアップの地理的分散を訴求"],
+        "caveats": ["バックアップ保持期間と復元費用", "キャンペーン終了後の更新総額"],
+        "fitIntro": "国内向けブログ、店舗、会社サイトを共用サーバーで運用したい場合に検討します。",
+        "bestFor": ["WordPressブログ", "小規模事業・店舗サイト", "バックアップ配置を重視する利用者"]
+      },
+      "en": {
+        "subject": "ColorfulBox",
+        "title": "ColorfulBox Review: WordPress, LiteSpeed, and Distributed Backups",
+        "description": "Review ColorfulBox using official information on LiteSpeed, WordPress setup, geographically distributed backups, pricing, strengths, and cautions.",
+        "lead": "For a Japan-focused WordPress site, evaluate recovery and renewal cost alongside performance features.",
+        "verdict": "ColorfulBox is a candidate for Japan-based sites that want LiteSpeed, WordPress setup, and backups in one service. For an important site, test restoration and storage location instead of relying on the existence of automatic backups alone.",
+        "context": "Check campaign price, commitment, renewal total, plan changes, and refund conditions at checkout.",
+        "overview": "The shared host packages WordPress, SSL, email, security, and geographically distributed backup features.",
+        "capabilities": ["LiteSpeed and WordPress setup", "Backups stored in a separate region", "SSL, email, and security tooling"],
+        "pricing": "The effective monthly amount changes with term and promotions. Compare first-payment and renewal totals for the same term.",
+        "tradeoff": "The shared platform is feature-rich but does not replace a VPS for applications needing dedicated resources or root access.",
+        "strengths": ["Bundled WordPress launch features", "Emphasis on geographically separated backups"],
+        "caveats": ["Backup retention, restoration, and possible fees", "Renewal total after promotions"],
+        "fitIntro": "Consider it for a Japan-focused blog, shop, or company site on shared hosting.",
+        "bestFor": ["WordPress blogs", "Small-business and local shop sites", "Buyers who prioritize backup location"]
+      }
+    }
+  },
+  {
+    "slug": "conoha-wing-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "ConoHa WING", "url": "https://www.conoha.jp/wing/"}],
+    "ctas": [{"label": {"ja": "ConoHa WINGの公式プランを確認", "en": "Check ConoHa WING official plans"}, "officialUrl": "https://www.conoha.jp/wing/", "affiliateKey": "conoha-wing"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "web-hosting-small-business", "label": {"ja": "小規模事業向けサーバー比較", "en": "Small-business hosting comparison"}, "description": {"ja": "国内外の候補を比較", "en": "Compare Japan-based and international options"}}],
+    "locales": {
+      "ja": {
+        "subject": "ConoHa WING",
+        "title": "ConoHa WINGの評判・料金を公式情報で確認｜WordPressにおすすめ？",
+        "description": "ConoHa WINGのWordPressかんたんセットアップ、バックアップ、独自ドメイン特典、料金、注意点を整理します。",
+        "lead": "WordPress開始の簡単さと、長期契約・更新後の運用費を同時に確認します。",
+        "verdict": "サーバー、独自ドメイン、WordPressテーマや初期設定をまとめて始めたい国内ユーザーの候補です。既存サイト移行ではメール、DNS、停止時間も計画します。",
+        "context": "WINGパック等の契約期間、通常料金、更新、自動更新、ドメイン特典の維持条件を確認します。",
+        "overview": "WordPressかんたんセットアップを中心に、サーバー、独自ドメイン、SSL、バックアップ、管理画面を一体化します。",
+        "capabilities": ["WordPressかんたんセットアップ", "独自ドメイン関連特典", "自動バックアップとSSL"],
+        "pricing": "長期契約の月額換算と支払総額、契約更新後の単価を分けて確認します。特典の適用条件も費用の一部です。",
+        "tradeoff": "一体型で始めやすい一方、ドメインやメールを同じ事業者へ集約すると移行時の作業範囲が広がります。",
+        "strengths": ["WordPress公開までの手順を減らせる", "国内向けの管理・支払環境"],
+        "caveats": ["長期契約と自動更新", "ドメイン特典の対象・維持条件"],
+        "fitIntro": "国内ユーザーがWordPressブログや事業サイトを一括で開始する用途に向きます。",
+        "bestFor": ["初めてのWordPress", "国内向けブログ・事業サイト", "サーバーとドメインをまとめたい利用者"]
+      },
+      "en": {
+        "subject": "ConoHa WING",
+        "title": "ConoHa WING Review: WordPress Setup, Backups, and Pricing",
+        "description": "Review ConoHa WING using official information on simplified WordPress setup, backups, domain benefits, pricing, and limitations.",
+        "lead": "Evaluate its easy WordPress launch together with the long-term contract and renewal cost.",
+        "verdict": "ConoHa WING is a candidate for Japan-based users who want hosting, a domain, WordPress setup, and related services together. Existing-site migrations should also plan email, DNS, and potential downtime.",
+        "context": "Verify commitment length, regular and renewal pricing, auto-renewal, and conditions for retaining any domain benefit.",
+        "overview": "The service combines simplified WordPress setup with hosting, custom domains, SSL, backups, and a unified control panel.",
+        "capabilities": ["Guided WordPress setup", "Custom-domain benefits on eligible terms", "Automatic backups and SSL"],
+        "pricing": "Separate the effective monthly amount from the amount due for a long commitment and the later renewal rate. Benefit eligibility also affects value.",
+        "tradeoff": "Bundling is convenient, but putting domains and email with the same provider expands the scope of a future migration.",
+        "strengths": ["Fewer steps from purchase to WordPress publication", "Japan-oriented administration and billing"],
+        "caveats": ["Long-term agreement and auto-renewal", "Eligibility and retention of domain benefits"],
+        "fitIntro": "It fits Japan-based users starting a WordPress blog or business site as one package.",
+        "bestFor": ["First WordPress sites", "Japan-focused blogs and company sites", "Users who want hosting and domains together"]
+      }
+    }
+  },
+  {
+    "slug": "hostinger-vs-ablenet-vps",
+    "category": "hosting-security",
+    "type": "comparison",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [
+      {"label": "Hostinger WordPress Hosting", "url": "https://www.hostinger.com/jp/wordpress-hosting"},
+      {"label": "ABLENET VPS", "url": "https://www.ablenet.jp/vps/"}
+    ],
+    "ctas": [
+      {"label": {"ja": "Hostingerの公式プランを確認", "en": "Check Hostinger official plans"}, "officialUrl": "https://www.hostinger.com/jp/wordpress-hosting", "affiliateKey": "hostinger"},
+      {"label": {"ja": "ABLENET VPSの公式プランを確認", "en": "Check ABLENET VPS official plans"}, "officialUrl": "https://www.ablenet.jp/vps/", "affiliateKey": "ablenet-vps"}
+    ],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "hostinger-review", "label": {"ja": "Hostingerの個別レビュー", "en": "Hostinger review"}, "description": {"ja": "マネージドホスティングを確認", "en": "Review managed hosting"}}],
+    "locales": {
+      "ja": {
+        "subject": "HostingerとABLENET VPS",
+        "title": "HostingerとABLENET VPSを比較｜WordPress・AI開発にはどっち？",
+        "description": "HostingerとABLENET VPSをWordPress、Docker、AIセルフホスト、管理難易度、サポートで比較します。",
+        "lead": "簡単なマネージドホスティングと、自由なVPSは同じ料金表だけでは比較できません。管理責任から選びます。",
+        "verdict": "WordPressや事業サイトを簡単に公開するならHostinger、Docker、AI、独自アプリ、Windows・Linux環境を自分で構築するならABLENET VPSが向きます。",
+        "context": "VPSでは運用担当者の作業時間、バックアップ、監視、セキュリティ対応も費用へ含めます。",
+        "overviewHeading": "サービス設計の違い",
+        "overview": "Hostingerはサイト公開に必要な管理をまとめ、ABLENET VPSは仮想サーバー自体を提供します。",
+        "capabilities": ["Hostinger：WordPress、SSL、メール、バックアップを一体管理", "ABLENET VPS：OS、Docker、ミドルウェアを自由に構成", "管理範囲と障害対応の責任が大きく異なる"],
+        "comparisonRows": [["WordPress", "Hostingerは簡単導入、VPSは利用者が構築・保守"], ["Docker・AI", "VPSが適するが必要リソースと安全な公開方法を設計"], ["管理責任", "Hostingerは提供元の範囲が広く、VPSは利用者責任が広い"]],
+        "pricing": "Hostingerは長期前払いと更新価格、ABLENET VPSはサーバースペック、OS、バックアップ、管理工数を比較します。",
+        "tradeoff": "簡単さと自由度は両立しにくく、担当者の技術と保守時間を先に決める必要があります。",
+        "strengths": ["用途が明確なら選択基準が分かりやすい", "VPSは独自構成、Hostingerは公開の速さに強い"],
+        "caveats": ["VPSを未管理のまま公開しない", "長期料金と更新料金を同じ期間で比較"],
+        "fitIntro": "サイト運用とサーバー開発を別の用途として判断します。",
+        "bestFor": ["Hostinger：ブログ、企業サイト、初めてのWordPress", "ABLENET VPS：Docker、検証、セルフホスト", "両方併用：公開サイトと開発環境を分離"]
+      },
+      "en": {
+        "subject": "Hostinger and ABLENET VPS",
+        "title": "Hostinger vs ABLENET VPS: WordPress Hosting or a Server for AI and Docker?",
+        "description": "Compare Hostinger and ABLENET VPS across WordPress, Docker, self-hosted AI, administration, and support.",
+        "lead": "Managed hosting and a configurable VPS cannot be judged by headline price alone; the ownership boundary is the deciding factor.",
+        "verdict": "Choose Hostinger to publish WordPress and business sites with less administration. Choose ABLENET VPS when you need to build a Linux or Windows server for Docker, AI, or a custom application.",
+        "context": "For a VPS, include administrator time, backups, monitoring, security work, and incident response in the cost.",
+        "overviewHeading": "How the service models differ",
+        "overview": "Hostinger packages website operations, while ABLENET provides a virtual server that the customer configures and maintains.",
+        "capabilities": ["Hostinger: unified WordPress, SSL, email, and backup management", "ABLENET VPS: configurable operating system, Docker, and middleware", "Very different responsibility for administration and incidents"],
+        "comparisonRows": [["WordPress", "Hostinger provides guided setup; a VPS requires customer deployment and maintenance"], ["Docker and AI", "A VPS is more suitable, but resources and secure exposure must be designed"], ["Responsibility", "Hostinger manages more of the stack; the customer owns more on a VPS"]],
+        "pricing": "Compare Hostinger commitment and renewal pricing against VPS specifications, operating system, backups, and administration time.",
+        "tradeoff": "Convenience and low-level freedom rarely coexist, so define the team's technical ownership and maintenance budget first.",
+        "strengths": ["A clear choice when the workload is defined", "VPS flexibility versus faster managed publication"],
+        "caveats": ["Never expose an unmanaged VPS", "Compare commitments and renewals over the same period"],
+        "fitIntro": "Treat website operations and server development as separate use cases.",
+        "bestFor": ["Hostinger: blogs, company sites, and first WordPress projects", "ABLENET VPS: Docker, testing, and self-hosting", "Using both: separation between a public site and development environment"]
+      }
+    }
+  },
+  {
+    "slug": "hostinger-vs-lolipop",
+    "category": "hosting-security",
+    "type": "comparison",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [
+      {"label": "Hostinger WordPress Hosting", "url": "https://www.hostinger.com/jp/wordpress-hosting"},
+      {"label": "Lolipop Hosting", "url": "https://lolipop.jp/"}
+    ],
+    "ctas": [
+      {"label": {"ja": "Hostingerの公式プランを確認", "en": "Check Hostinger official plans"}, "officialUrl": "https://www.hostinger.com/jp/wordpress-hosting", "affiliateKey": "hostinger"},
+      {"label": {"ja": "ロリポップ！の公式プランを確認", "en": "Check Lolipop official plans"}, "officialUrl": "https://lolipop.jp/", "affiliateKey": "lolipop"}
+    ],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "hostinger-review", "label": {"ja": "Hostingerの個別レビュー", "en": "Hostinger review"}, "description": {"ja": "初回・更新条件を確認", "en": "Review introductory and renewal terms"}}],
+    "locales": {
+      "ja": {
+        "subject": "Hostingerとロリポップ！",
+        "title": "Hostingerとロリポップ！を比較｜初心者にはどっちがおすすめ？",
+        "description": "Hostingerとロリポップ！を料金、WordPress、表示速度、サポート、バックアップ、AI機能で比較します。",
+        "lead": "海外発の一体型Hostingerと、国内で長く提供されるロリポップ！を、初心者の運用条件で比較します。",
+        "verdict": "長期初回価格とサイト作成・AI機能を重視するならHostinger、日本語の国内サービス、短い契約選択、国内向けサポートを重視するならロリポップ！が候補です。",
+        "context": "最安月額ではなく、必要なバックアップ、容量、サイト数、更新価格を満たすプラン同士で比べます。",
+        "overview": "両方ともWordPressを簡単に始められますが、契約期間、管理画面、特典、サポートの設計が異なります。",
+        "capabilities": ["WordPress簡単導入とSSL", "複数サイト・メール・ドメイン管理", "バックアップと復元の条件はプラン別に確認"],
+        "comparisonRows": [["料金", "Hostingerは長期初回割引、ロリポップ！は国内プランと契約期間を比較"], ["管理", "HostingerはhPanel、ロリポップ！は日本語の国内管理環境"], ["サポート", "受付方法、時間、技術範囲を契約前に確認"]],
+        "pricing": "同じ年数で初回総額、更新総額、ドメイン・メール・バックアップの追加費用を並べます。",
+        "tradeoff": "低価格プランでは必要なバックアップや容量が不足する場合があり、価格比較の対象プランを揃える必要があります。",
+        "strengths": ["初心者向けの選択肢が豊富", "WordPress開始に必要な機能をまとめられる"],
+        "caveats": ["初回・更新価格の差", "復元、サポート、特典の対象プラン"],
+        "fitIntro": "支払期間とサポート言語を重視して選びます。",
+        "bestFor": ["Hostinger：長期割引と一体型機能", "ロリポップ！：国内向け案内と日本語サポート", "初心者：必要条件を満たす中位プランを比較"]
+      },
+      "en": {
+        "subject": "Hostinger and Lolipop",
+        "title": "Hostinger vs Lolipop: Which Hosting Service Is Better for Beginners?",
+        "description": "Compare Hostinger and Japan's Lolipop hosting across pricing, WordPress, performance, support, backups, and site-building features.",
+        "lead": "This comparison contrasts Hostinger's international all-in-one platform with a long-running Japanese shared-hosting provider.",
+        "verdict": "Choose Hostinger for multi-year introductory pricing and integrated site-building tools. Choose Lolipop when Japanese service information, local support, and Japan-oriented contract options matter more.",
+        "context": "Compare the plans that actually include required backup, storage, site, and renewal conditions—not the lowest advertised monthly amount.",
+        "overview": "Both simplify WordPress launch, but their commitments, dashboards, benefits, and support models differ.",
+        "capabilities": ["Guided WordPress setup and SSL", "Site, email, and domain administration", "Plan-specific backup and restoration"],
+        "comparisonRows": [["Pricing", "Hostinger emphasizes long introductory terms; Lolipop offers Japan-oriented plans and terms"], ["Administration", "Hostinger uses hPanel; Lolipop provides a Japanese domestic control environment"], ["Support", "Confirm channel, hours, language, and technical scope"]],
+        "pricing": "Over the same time period, compare initial and renewal totals plus any domain, email, and backup costs.",
+        "tradeoff": "The cheapest tier may omit the capacity or recovery function you need, so align the compared plan level.",
+        "strengths": ["Several beginner-oriented choices", "Bundled features for launching WordPress"],
+        "caveats": ["Difference between introductory and renewal pricing", "Plan eligibility for restoration, support, and benefits"],
+        "fitIntro": "Billing commitment and support language are primary decision factors.",
+        "bestFor": ["Hostinger: long introductory terms and integrated features", "Lolipop: Japanese information and support", "Beginners: compare the mid-tier plan that meets all requirements"]
+      }
+    }
+  },
+  {
+    "slug": "hostinger-vs-xserver",
+    "category": "hosting-security",
+    "type": "comparison",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [
+      {"label": "Hostinger WordPress Hosting", "url": "https://www.hostinger.com/jp/wordpress-hosting"},
+      {"label": "XServer", "url": "https://www.xserver.ne.jp/"}
+    ],
+    "ctas": [
+      {"label": {"ja": "Hostingerの公式プランを確認", "en": "Check Hostinger official plans"}, "officialUrl": "https://www.hostinger.com/jp/wordpress-hosting", "affiliateKey": "hostinger"},
+      {"label": {"ja": "エックスサーバーの公式プランを確認", "en": "Check XServer official plans"}, "officialUrl": "https://www.xserver.ne.jp/", "affiliateKey": "xserver"}
+    ],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "hostinger-review", "label": {"ja": "Hostingerの個別レビュー", "en": "Hostinger review"}, "description": {"ja": "料金と機能を確認", "en": "Review pricing and features"}}],
+    "locales": {
+      "ja": {
+        "subject": "Hostingerとエックスサーバー",
+        "title": "Hostingerとエックスサーバーを比較｜WordPressにはどっちがおすすめ？",
+        "description": "Hostingerとエックスサーバーを料金、更新費用、WordPress機能、バックアップ、サポート、国内外運用で比較します。",
+        "lead": "長期割引と一体型機能のHostinger、国内WordPress運用で実績を持つエックスサーバーを比較します。",
+        "verdict": "初回の長期費用とWebサイト作成機能を重視するならHostinger、国内向けWordPress運用、日本語サポート、国内事業者への安心感を重視するならエックスサーバーが候補です。",
+        "context": "初回だけでなく3年程度の更新費用、バックアップ復元、ドメイン特典を同じ条件で計算します。",
+        "overview": "両社ともWordPress、SSL、バックアップ等を提供しますが、料金の見せ方、管理画面、データ配置、サポートが異なります。",
+        "capabilities": ["WordPress簡単導入", "複数サイト・ドメイン・メール管理", "自動バックアップとセキュリティ"],
+        "comparisonRows": [["初回費用", "Hostingerは長期割引、エックスサーバーは国内キャンペーンを確認"], ["更新", "両社の同一期間・同一機能で総額比較"], ["運用", "管理画面、データセンター、サポート言語を確認"]],
+        "pricing": "契約期間を揃え、初回、更新、ドメイン、メール、バックアップ、移行にかかる総額を並べます。",
+        "tradeoff": "安い初回価格と、国内サポート・長期運用の安心感のどちらへ予算を配分するかが主な判断です。",
+        "strengths": ["どちらもWordPress開始に必要な機能を一体化", "用途と予算で明確に比較しやすい"],
+        "caveats": ["キャンペーンと通常更新の差", "バックアップ復元・移行支援の対象範囲"],
+        "fitIntro": "対象ユーザーの地域と、トラブル時に必要な支援から決めます。",
+        "bestFor": ["Hostinger：初期費用と国際展開", "エックスサーバー：国内WordPressと日本語サポート", "法人：請求・契約・サポート要件を優先"]
+      },
+      "en": {
+        "subject": "Hostinger and XServer",
+        "title": "Hostinger vs XServer: Which Is Better for WordPress in Japan?",
+        "description": "Compare Hostinger and Japan's XServer across pricing, renewals, WordPress, backups, support, and domestic or international operation.",
+        "lead": "Hostinger emphasizes multi-year introductory value and integrated tools; XServer is a long-running Japan-focused WordPress host.",
+        "verdict": "Choose Hostinger for introductory multi-year cost and integrated site-building features. Choose XServer when Japan-focused WordPress operations, Japanese support, and a domestic provider are primary requirements.",
+        "context": "Model several years of renewal, restoration, and domain benefits rather than the first payment alone.",
+        "overview": "Both provide WordPress, SSL, and backups, but pricing presentation, administration, infrastructure location, and support differ.",
+        "capabilities": ["Guided WordPress launch", "Multi-site, domain, and email management", "Automatic backups and security tooling"],
+        "comparisonRows": [["Initial cost", "Hostinger uses long-term discounts; check current XServer promotions"], ["Renewal", "Compare the same term and required features"], ["Operations", "Review dashboard, data location, and support language"]],
+        "pricing": "Align the commitment and compare initial, renewal, domain, email, backup, and migration totals.",
+        "tradeoff": "The main decision is whether to allocate more budget to the lowest initial cost or to Japan-focused support and operations.",
+        "strengths": ["Both bundle core WordPress launch requirements", "Clear differentiation by region and budget"],
+        "caveats": ["Promotion versus normal renewal", "Scope of restoration and migration assistance"],
+        "fitIntro": "Decide from audience location and the support needed during an incident.",
+        "bestFor": ["Hostinger: introductory value and international sites", "XServer: Japan-focused WordPress and Japanese support", "Organizations: prioritize billing, contract, and support requirements"]
+      }
+    }
+  },
+  {
+    "slug": "jetboy-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "JETBOY", "url": "https://www.jetboy.jp/"}],
+    "ctas": [{"label": {"ja": "JETBOYの公式情報を確認", "en": "Check JETBOY official details"}, "officialUrl": "https://www.jetboy.jp/", "affiliateKey": "jetboy"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "web-hosting-small-business", "label": {"ja": "小規模事業向けサーバー比較", "en": "Small-business hosting comparison"}, "description": {"ja": "容量・復元・更新で比較", "en": "Compare capacity, recovery, and renewals"}}],
+    "locales": {
+      "ja": {
+        "subject": "JETBOY",
+        "title": "JETBOYレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
+        "description": "JETBOYのLiteSpeed、CloudLinux、WordPress、バックアップ、無料SSL、プラン変更について公式情報を整理します。",
+        "lead": "国内共用ホスティングとして、WordPress性能と運用条件を公式情報から確認します。",
+        "verdict": "LiteSpeed環境でWordPressを運用したい個人・小規模サイトの候補です。契約前に現在の申込可否、プラン、サポート、バックアップ復元条件を確認します。",
+        "context": "小規模サービスは提供条件が変わる可能性も考え、移行用バックアップを自分でも保持します。",
+        "overview": "共用環境でWordPress、LiteSpeed、CloudLinux、SSL、バックアップ等を利用し、サーバー保守を任せます。",
+        "capabilities": ["LiteSpeedとCloudLinux環境", "WordPress運用", "SSL、バックアップ、プラン変更"],
+        "pricing": "プラン、契約期間、初回・更新料金、変更時の差額を公式申込画面で確認します。",
+        "tradeoff": "必要十分な共用環境である一方、サポート体制、復旧手順、将来のプラン拡張を事前に確認する必要があります。",
+        "strengths": ["WordPress向けの高速化技術", "サーバー管理を簡略化"],
+        "caveats": ["最新の受付・プラン提供状況", "バックアップの保存と復元範囲"],
+        "fitIntro": "小規模WordPressで、必要な容量と支援範囲が一致する場合に検討します。",
+        "bestFor": ["個人ブログ", "小規模WordPressサイト", "LiteSpeed環境を試したい利用者"]
+      },
+      "en": {
+        "subject": "JETBOY",
+        "title": "JETBOY Hosting Review: LiteSpeed, CloudLinux, and WordPress",
+        "description": "Review Japan's JETBOY hosting using official information on LiteSpeed, CloudLinux, WordPress, backups, SSL, and plan changes.",
+        "lead": "Evaluate this Japanese shared host through its WordPress stack and current operating terms.",
+        "verdict": "JETBOY is a possible fit for smaller WordPress sites seeking a LiteSpeed environment. Confirm current sales availability, plans, support, and restoration terms before purchase.",
+        "context": "Because service conditions can change, retain an independent migration-ready backup as well as any provider backup.",
+        "overview": "The shared environment packages WordPress, LiteSpeed, CloudLinux, SSL, backups, and server maintenance.",
+        "capabilities": ["LiteSpeed and CloudLinux environment", "WordPress operation", "SSL, backups, and plan changes"],
+        "pricing": "Verify the current plan, commitment, first and renewal charge, and treatment of plan-change differences in the checkout flow.",
+        "tradeoff": "The service may cover a small site's needs, but support capacity, restoration, and future scaling deserve explicit review.",
+        "strengths": ["WordPress-oriented performance stack", "Reduced server-administration work"],
+        "caveats": ["Current ordering and plan availability", "Backup retention and restoration scope"],
+        "fitIntro": "Consider it when a small WordPress workload matches the available capacity and support.",
+        "bestFor": ["Personal blogs", "Small WordPress sites", "Users wanting to test a LiteSpeed environment"]
+      }
+    }
+  },
+  {
+    "slug": "mixhost-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "mixhost", "url": "https://mixhost.jp/"}],
+    "ctas": [{"label": {"ja": "mixhostの公式プランを確認", "en": "Check mixhost official plans"}, "officialUrl": "https://mixhost.jp/", "affiliateKey": "mixhost"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "web-hosting-small-business", "label": {"ja": "小規模事業向けサーバー比較", "en": "Small-business hosting comparison"}, "description": {"ja": "国内サーバーを比較", "en": "Compare additional Japanese hosts"}}],
+    "locales": {
+      "ja": {
+        "subject": "mixhost",
+        "title": "mixhostの評判・料金を公式情報で確認｜WordPress・LiteSpeed",
+        "description": "mixhostのWordPress、LiteSpeed、cPanel、バックアップ、SSL、更新料金、サポートを整理します。",
+        "lead": "WordPress向け性能、cPanel管理、契約更新までをまとめて判断します。",
+        "verdict": "LiteSpeedとcPanelを使い、複数のWordPressサイトを運用したい利用者の候補です。初回割引と更新料金、バックアップ復元、リソース上限を確認します。",
+        "context": "速度の宣伝だけでなく、自分のテーマ・プラグイン構成でキャッシュと復元を試します。",
+        "overview": "WordPress、LiteSpeed、cPanel、SSL、メール、バックアップを共用ホスティングとしてまとめます。",
+        "capabilities": ["LiteSpeed環境", "cPanelによるサイト・メール管理", "WordPress、SSL、バックアップ"],
+        "pricing": "初回キャンペーン、契約期間、更新価格、上位プランへの変更条件を同じ期間で比較します。",
+        "tradeoff": "cPanelは標準的で移行しやすい一方、操作項目が多く、初心者は必要な機能を絞る必要があります。",
+        "strengths": ["WordPress向けの構成", "cPanelによる標準的な管理"],
+        "caveats": ["更新料金と長期契約", "バックアップ復元・リソース制限"],
+        "fitIntro": "複数サイトやcPanel経験があり、国内向けホスティングを求める場合に適します。",
+        "bestFor": ["WordPressブログ・事業サイト", "複数サイト運用", "cPanelを使いたい利用者"]
+      },
+      "en": {
+        "subject": "mixhost",
+        "title": "mixhost Review: WordPress, LiteSpeed, cPanel, and Renewals",
+        "description": "Review Japan's mixhost using official information on WordPress, LiteSpeed, cPanel, backups, SSL, renewals, and support.",
+        "lead": "Evaluate WordPress performance, cPanel administration, and the full renewal cycle together.",
+        "verdict": "mixhost is a candidate for users operating WordPress sites with LiteSpeed and cPanel. Confirm the gap between introductory and renewal pricing, restoration, and resource allowances.",
+        "context": "Test caching and restoration with your real theme and plugin pattern rather than relying on speed claims alone.",
+        "overview": "The shared host combines WordPress, LiteSpeed, cPanel, SSL, email, and backups.",
+        "capabilities": ["LiteSpeed web stack", "Site and email administration through cPanel", "WordPress, SSL, and backups"],
+        "pricing": "Compare promotion, commitment, renewal, and upgrade terms over the same time period.",
+        "tradeoff": "cPanel is a widely used and portable model, but its many controls can be more complex for a first-time owner.",
+        "strengths": ["WordPress-oriented environment", "Standardized cPanel administration"],
+        "caveats": ["Renewal price and long commitments", "Restoration and resource limits"],
+        "fitIntro": "It fits users with multiple sites or cPanel familiarity who need Japan-focused hosting.",
+        "bestFor": ["WordPress blogs and business sites", "Multi-site administration", "Users who prefer cPanel"]
+      }
+    }
+  },
+  {
+    "slug": "namecheap-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "domain-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "Namecheap", "url": "https://www.namecheap.com/"}],
+    "ctas": [{"label": {"ja": "Namecheapの公式情報を確認", "en": "Check Namecheap official details"}, "officialUrl": "https://www.namecheap.com/", "affiliateKey": "namecheap"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "domain-registrar-comparison", "label": {"ja": "ドメイン取得サービス比較", "en": "Domain registrar comparison"}, "description": {"ja": "更新・移管・DNSで比較", "en": "Compare renewal, transfer, and DNS"}}],
+    "locales": {
+      "ja": {
+        "subject": "Namecheap",
+        "title": "Namecheapの評判・料金を公式情報で確認｜ドメイン・ホスティング",
+        "description": "Namecheapのドメイン、Whois Privacy、ホスティング、WordPress、VPS、料金、注意点を整理します。",
+        "lead": "海外ドメイン登録を中心に、初回価格と更新、移管、DNS、ホスティングを判断します。",
+        "verdict": "多様なTLDと海外向け管理画面を使い、ドメイン、DNS、ホスティングをまとめたい利用者の候補です。日本語サポート、円請求、.jp固有条件を重視する場合は国内事業者も比較します。",
+        "context": "ドメインは取得価格より更新、移管、Privacy、失効時の復旧費用が長期費用を左右します。",
+        "overview": "ドメイン登録を中心に、DNS、Privacy、共有ホスティング、WordPress、VPS、メール等を提供します。",
+        "capabilities": ["多数のTLD登録と移管", "DNSとPrivacy関連機能", "ホスティング・メール・SSL等の追加サービス"],
+        "pricing": "初年度、更新、移管、Privacy、為替・税をTLDごとに確認します。安い初回価格だけで複数年を判断しません。",
+        "tradeoff": "サービスをまとめられる一方、海外事業者の英語サポート、請求通貨、地域固有ドメインの扱いを理解する必要があります。",
+        "strengths": ["TLDと関連サービスの選択肢", "ドメイン・DNS・ホスティングを一つのアカウントで管理"],
+        "caveats": ["TLDごとの更新・復旧価格", "サポート言語、税、請求通貨"],
+        "fitIntro": "海外向けドメインと英語の管理環境に抵抗がない利用者へ向きます。",
+        "bestFor": [".com等の国際ドメイン", "複数TLDの一括管理", "ドメインとホスティングをまとめたい利用者"]
+      },
+      "en": {
+        "subject": "Namecheap",
+        "title": "Namecheap Review: Domains, Privacy, Hosting, and Renewals",
+        "description": "Review Namecheap using official information on domains, Whois privacy, hosting, WordPress, VPS, pricing, and limitations.",
+        "lead": "Evaluate the registrar through renewal, transfers, DNS, and related hosting rather than the first-year domain price alone.",
+        "verdict": "Namecheap is a candidate for buyers who want many TLDs plus DNS and hosting in one international account. A local registrar may fit better when local-language support, domestic billing, or country-domain rules are critical.",
+        "context": "Long-run domain cost is driven by renewal, transfer, privacy, and expiration recovery more than first-year registration.",
+        "overview": "The registrar offers a broad TLD catalog plus DNS, privacy, shared hosting, WordPress, VPS, email, and SSL products.",
+        "capabilities": ["Registration and transfer across many TLDs", "DNS and privacy-related controls", "Optional hosting, email, SSL, and VPS services"],
+        "pricing": "Check registration, renewal, transfer, privacy, tax, and currency for each TLD. Do not extrapolate a first-year promotion across several years.",
+        "tradeoff": "Bundling is convenient, but buyers must be comfortable with international billing, support, and country-specific domain rules.",
+        "strengths": ["Wide TLD and related-service selection", "Domains, DNS, and hosting under one account"],
+        "caveats": ["TLD-specific renewal and recovery fees", "Support language, tax, and billing currency"],
+        "fitIntro": "It suits users comfortable with an international registrar and English administration.",
+        "bestFor": ["International domains such as .com", "Central management of several TLDs", "Users bundling domains and hosting"]
+      }
+    }
+  },
+  {
+    "slug": "wpx-speed-review",
+    "category": "hosting-security",
+    "type": "review",
+    "topic": "managed-wordpress",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "wpX Speed", "url": "https://wpx.jp/"}],
+    "ctas": [{"label": {"ja": "wpX Speedの公式プランを確認", "en": "Check wpX Speed official plans"}, "officialUrl": "https://wpx.jp/", "affiliateKey": "wpx-speed"}],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "web-hosting-small-business", "label": {"ja": "小規模事業向けサーバー比較", "en": "Small-business hosting comparison"}, "description": {"ja": "WordPressホスティングを比較", "en": "Compare WordPress hosting options"}}],
+    "locales": {
+      "ja": {
+        "subject": "wpX Speed",
+        "title": "wpX Speedの評判・料金を公式情報で確認｜WordPress専用サーバー",
+        "description": "wpX SpeedのWordPress専用設計、料金体系、NVMe、オートスケール、バックアップ、注意点を整理します。",
+        "lead": "WordPress専用ホスティングとして、アクセス変動と料金・復旧条件を確認します。",
+        "verdict": "WordPress専用環境とアクセス増加への対応を重視する国内サイトの候補です。月額だけでなく、課金単位、オートスケール、バックアップ、サイト移行を確認します。",
+        "context": "瞬間的なアクセス増加を想定するなら、負荷試験と上限到達時の挙動を公式仕様で確認します。",
+        "overview": "WordPress専用のサーバー環境として、NVMe、キャッシュ、オートスケール、SSL、バックアップ等を提供します。",
+        "capabilities": ["WordPress専用環境", "NVMe等の性能設計", "オートスケールとバックアップ"],
+        "pricing": "料金単位、プラン変更、オートスケール時の扱い、初回・更新条件を実際の月間利用量で見積もります。",
+        "tradeoff": "WordPressへ最適化される一方、WordPress以外のアプリや自由なサーバー構築には向きません。",
+        "strengths": ["WordPress用途に焦点", "アクセス変動へ対応する設計"],
+        "caveats": ["料金単位とスケール条件", "バックアップ保持・復元・移行範囲"],
+        "fitIntro": "国内向けWordPressで、アクセス変動と運用簡略化を重視する場合に適します。",
+        "bestFor": ["WordPressブログ・メディア", "キャンペーンでアクセスが変動するサイト", "国内向けの専用WordPress環境"]
+      },
+      "en": {
+        "subject": "wpX Speed",
+        "title": "wpX Speed Review: Japan-Focused Managed WordPress Hosting",
+        "description": "Review wpX Speed using official information on its WordPress-only design, pricing model, NVMe, autoscaling, backups, and limitations.",
+        "lead": "Evaluate this WordPress-specific host through traffic variability, billing, and recovery conditions.",
+        "verdict": "wpX Speed is a candidate for Japan-focused sites that value a WordPress-specific environment and traffic-spike handling. Verify billing units, autoscaling, backups, and migration—not only monthly price.",
+        "context": "For expected traffic spikes, review load behavior and the official rule when a capacity boundary is reached.",
+        "overview": "The WordPress-only environment includes NVMe-oriented infrastructure, caching, autoscaling, SSL, and backup features.",
+        "capabilities": ["WordPress-specific hosting", "Performance-oriented NVMe environment", "Autoscaling and backups"],
+        "pricing": "Estimate billing units, plan changes, autoscaling treatment, and first or renewal terms from expected monthly use.",
+        "tradeoff": "WordPress specialization simplifies that workload but does not suit non-WordPress applications or custom server construction.",
+        "strengths": ["Focused on WordPress", "Designed for traffic variability"],
+        "caveats": ["Billing unit and scale conditions", "Backup retention, restoration, and migration scope"],
+        "fitIntro": "It fits Japan-focused WordPress sites that value simplified operations and handling of variable traffic.",
+        "bestFor": ["WordPress blogs and publications", "Campaign-driven traffic spikes", "Japan-focused WordPress hosting"]
+      }
+    }
+  },
+  {
+    "slug": "xserver-vs-lolipop",
+    "category": "hosting-security",
+    "type": "comparison",
+    "topic": "web-hosting",
+    "publishedAt": "2026-07-17",
+    "sources": [
+      {"label": "XServer", "url": "https://www.xserver.ne.jp/"},
+      {"label": "Lolipop Hosting", "url": "https://lolipop.jp/"}
+    ],
+    "ctas": [
+      {"label": {"ja": "エックスサーバーの公式プランを確認", "en": "Check XServer official plans"}, "officialUrl": "https://www.xserver.ne.jp/", "affiliateKey": "xserver"},
+      {"label": {"ja": "ロリポップ！の公式プランを確認", "en": "Check Lolipop official plans"}, "officialUrl": "https://lolipop.jp/", "affiliateKey": "lolipop"}
+    ],
+    "relatedRoutes": [{"category": "hosting-security", "slug": "web-hosting-small-business", "label": {"ja": "小規模事業向けサーバー比較", "en": "Small-business hosting comparison"}, "description": {"ja": "他社も含めて比較", "en": "Compare additional hosting providers"}}],
+    "locales": {
+      "ja": {
+        "subject": "エックスサーバーとロリポップ！",
+        "title": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
+        "description": "エックスサーバーとロリポップ！を料金、WordPress、速度、バックアップ、サポート、ドメイン特典で比較します。",
+        "lead": "国内で利用される2サービスを、最安値ではなく必要機能を満たすプラン同士で比較します。",
+        "verdict": "長期運用の性能、複数サイト、WordPress支援を重視するならエックスサーバー、費用を抑えて小さく始め、プランを選びたいならロリポップ！が候補です。",
+        "context": "サイト規模、復元、電話・チャット等のサポート要件に合わせて対象プランを揃えます。",
+        "overview": "両社ともWordPress、SSL、メール、バックアップ等を提供しますが、料金段階とリソース、支援範囲が異なります。",
+        "capabilities": ["WordPress簡単導入", "独自ドメイン・メール・SSL", "バックアップとサポートはプラン別に確認"],
+        "comparisonRows": [["開始", "ロリポップ！は低価格帯、エックスサーバーは中長期運用を重視"], ["WordPress", "必要サイト数、容量、移行支援を比較"], ["復旧", "自動バックアップ、保持、復元費用を確認"]],
+        "pricing": "同じ期間・必要機能で初回と更新の総額を計算し、ドメイン特典の対象と維持条件も確認します。",
+        "tradeoff": "安く始めるか、最初から余裕ある構成へ支払うかの違いが大きく、将来の移行費も考えます。",
+        "strengths": ["国内向けの情報とサポート", "WordPress開始の選択肢が分かりやすい"],
+        "caveats": ["最安プランと必要プランを混同しない", "更新、バックアップ復元、ドメイン特典"],
+        "fitIntro": "予算だけでなく、3年後のサイト数と運用担当者で選びます。",
+        "bestFor": ["エックスサーバー：複数サイト・中長期運用", "ロリポップ！：小さく低価格から開始", "初心者：必要な復旧・支援が含まれるプラン"]
+      },
+      "en": {
+        "subject": "XServer and Lolipop",
+        "title": "XServer vs Lolipop: Japanese WordPress Hosting for Beginners",
+        "description": "Compare XServer and Lolipop across pricing, WordPress, performance, backups, support, and domain benefits.",
+        "lead": "Compare these two Japanese hosts at the plan level that meets required features, not by their lowest advertised price.",
+        "verdict": "Choose XServer when longer-term WordPress performance, multiple sites, and support justify the plan. Choose Lolipop when the priority is starting smaller at a lower cost with several plan steps.",
+        "context": "Align compared tiers with site scale, restoration, and required phone, chat, or other support channels.",
+        "overview": "Both package WordPress, SSL, email, and backups, but resource levels, price steps, and support scope differ.",
+        "capabilities": ["Guided WordPress setup", "Custom domains, email, and SSL", "Plan-specific backup and support"],
+        "comparisonRows": [["Starting point", "Lolipop includes lower-cost entry tiers; XServer emphasizes longer-term operation"], ["WordPress", "Compare sites, storage, and migration support"], ["Recovery", "Check automatic backup, retention, and restoration cost"]],
+        "pricing": "Calculate initial and renewal totals for the same term and feature set, including domain benefit conditions.",
+        "tradeoff": "The choice is partly between starting at a smaller price and paying for more capacity early, with future migration cost included.",
+        "strengths": ["Japan-focused information and support", "Clear WordPress launch options"],
+        "caveats": ["Do not compare the cheapest tier to the required tier", "Renewal, restoration, and domain benefits"],
+        "fitIntro": "Use budget, expected site count in three years, and operating owner to decide.",
+        "bestFor": ["XServer: multiple sites and longer-term operations", "Lolipop: small, lower-cost launch", "Beginners: a tier with the needed recovery and support"]
+      }
+    }
+  },
+  {
+    "slug": "a8net-guide",
+    "category": "seo-marketing",
+    "type": "guide",
+    "topic": "affiliate-marketing",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "A8.net", "url": "https://www.a8.net/"}],
+    "ctas": [{"label": {"ja": "A8.netの公式サイトを確認", "en": "Check the official A8.net site"}, "officialUrl": "https://www.a8.net/", "affiliateKey": "a8net"}],
+    "relatedRoutes": [{"category": "seo-marketing", "slug": "affiliate-marketing-start-guide", "label": {"ja": "アフィリエイトの始め方", "en": "How to start affiliate marketing"}, "description": {"ja": "案件選定から表示までを確認", "en": "Review selection, disclosure, and publishing"}}],
+    "locales": {
+      "ja": {
+        "subject": "A8.net",
+        "title": "A8.netの使い方｜案件検索・提携・広告掲載を初心者向けに解説",
+        "description": "A8.netの登録後設定、案件検索、提携申請、広告リンク作成、成果レポート、セルフバックの使い方を解説します。",
+        "lead": "案件を増やす前に、サイト情報、提携条件、広告表示、成果確認の基本手順を整えます。",
+        "verdict": "A8.netは日本向け案件を探す主要ASP候補です。登録後すぐ大量掲載せず、読者課題と一致する案件を選び、提携条件と広告表示を守ります。",
+        "context": "案件ごとに対象媒体、禁止表現、成果条件、否認条件、掲載可能地域が異なります。",
+        "overview": "サイト情報を登録し、カテゴリや条件でプログラムを検索し、提携承認後に広告素材やリンクを取得して記事へ掲載します。",
+        "capabilities": ["案件検索と提携申請", "広告リンク・素材の作成", "成果・確定・支払レポートとセルフバック"],
+        "pricing": "利用者側の登録費だけでなく、振込条件、報酬確定、セルフバック条件を確認します。案件は報酬額だけで選びません。",
+        "tradeoff": "案件数が多い一方、読者に合わない広告を増やすと信頼と記事品質を損ないます。",
+        "strengths": ["日本向け案件を幅広く検索できる", "提携・素材・成果確認を一つの管理画面で進められる"],
+        "caveats": ["案件ごとの禁止事項と成果条件", "広告であることの明確な表示"],
+        "fitIntro": "日本語サイトで読者ニーズに合う案件を少数から検証する運用に向きます。",
+        "bestFor": ["日本向けブログ・比較サイト", "ASPを初めて使う運営者", "複数ジャンルの案件を調査したい人"]
+      },
+      "en": {
+        "subject": "A8.net",
+        "title": "How to Use A8.net: Programs, Approval, Links, and Reporting",
+        "description": "A practical English guide to the Japan-focused A8.net affiliate network, including profile setup, program search, approval, links, reports, and self-purchase offers.",
+        "lead": "Before adding more offers, establish accurate site information, program compliance, disclosure, and conversion tracking.",
+        "verdict": "A8.net is a major candidate for publishers targeting Japanese affiliate programs. Start with offers that directly match a reader problem and comply with each advertiser's media, language, and conversion rules.",
+        "context": "Eligibility, prohibited claims, conversion events, rejection rules, and geographic scope differ by program and may be Japanese-only.",
+        "overview": "Publishers register a site, search programs, request partnerships, obtain approved creative or links, publish them with disclosure, and review conversions and approval reports.",
+        "capabilities": ["Program search and partnership applications", "Affiliate links and creative assets", "Conversion, approval, payment, and self-purchase reporting"],
+        "pricing": "Review payout thresholds, approval timing, and self-purchase terms. Commission amount should not be the sole program-selection criterion.",
+        "tradeoff": "The network has broad Japan-focused coverage, but irrelevant offers and untranslated compliance terms can reduce trust and create risk.",
+        "strengths": ["Broad discovery of Japanese affiliate programs", "Partnership, creative, and reporting in one dashboard"],
+        "caveats": ["Program-specific restrictions and conversion terms", "Clear advertising disclosure and Japanese-language requirements"],
+        "fitIntro": "It fits publishers serving Japanese readers who can review program terms in Japanese and test a small number of relevant offers.",
+        "bestFor": ["Japanese blogs and comparison sites", "Publishers entering Japan-focused affiliate marketing", "Research across several Japanese advertiser categories"]
+      }
+    }
+  },
+  {
+    "slug": "affiliate-marketing-start-guide",
+    "category": "seo-marketing",
+    "type": "guide",
+    "topic": "affiliate-marketing",
+    "publishedAt": "2026-07-17",
+    "sources": [
+      {"label": "A8.net", "url": "https://www.a8.net/"},
+      {"label": "Moshimo Affiliate", "url": "https://af.moshimo.com/"}
+    ],
+    "ctas": [
+      {"label": {"ja": "A8.netの公式サイトを確認", "en": "Check A8.net"}, "officialUrl": "https://www.a8.net/", "affiliateKey": "a8net"},
+      {"label": {"ja": "もしもアフィリエイトの公式サイトを確認", "en": "Check Moshimo Affiliate"}, "officialUrl": "https://af.moshimo.com/", "affiliateKey": "moshimo-affiliate"}
+    ],
+    "relatedRoutes": [{"category": "seo-marketing", "slug": "how-to-make-money-blogging", "label": {"ja": "ブログ収益化の設計", "en": "Blog monetization guide"}, "description": {"ja": "集客記事と収益記事を設計", "en": "Plan discovery and conversion content"}}],
+    "locales": {
+      "ja": {
+        "subject": "アフィリエイトマーケティング",
+        "title": "アフィリエイトの始め方｜初心者向けに仕組みと手順を解説【2026年版】",
+        "description": "アフィリエイトの仕組み、ASP登録、案件選定、提携申請、記事設計、広告掲載、成果確認まで初心者向けに解説します。",
+        "lead": "広告を増やす前に、読者課題、一次情報、比較基準、開示、計測の順で仕組みを作ります。",
+        "verdict": "最初は一つの読者課題と2〜3案件に絞り、公式情報を基に比較記事と個別記事を作る方法が安全です。大量の薄い記事や不明確な広告表示は避けます。",
+        "context": "収益は保証されず、ASP・広告主の規約、景品表示、ステルスマーケティング、個人情報、各地域の法令を確認します。",
+        "overview": "テーマを決め、サイトを整え、ASPへ登録し、案件を選び、提携後に読者の判断を助ける記事へ広告リンクを掲載します。",
+        "capabilities": ["読者課題と検索意図の定義", "ASP登録・案件比較・提携", "広告開示、リンク計測、改善"],
+        "pricing": "初期費用だけでなく、ドメイン、サーバー、制作、更新、計測ツールの年間費用と作業時間を予算化します。",
+        "tradeoff": "成果報酬型は在庫を持たずに始められますが、検索流入、信頼、案件終了、承認率に左右されます。",
+        "strengths": ["読者の購入判断を助けながら収益化できる", "複数の提供元を同じ比較軸で紹介できる"],
+        "caveats": ["広告開示と正確な表現", "案件終了・条件変更・否認理由の監視"],
+        "fitIntro": "特定分野の経験を公式情報と組み合わせ、継続更新できる運営者に向きます。",
+        "bestFor": ["専門分野を持つブログ", "比較・レビューサイト", "小さく検証して改善できる運営者"]
+      },
+      "en": {
+        "subject": "affiliate marketing",
+        "title": "How to Start Affiliate Marketing: A Practical Beginner Guide for 2026",
+        "description": "Learn the affiliate model, network registration, offer selection, approval, content design, disclosure, link placement, and performance review.",
+        "lead": "Build the system in the order of reader problem, primary sources, evaluation criteria, disclosure, and measurement before adding more offers.",
+        "verdict": "A safe starting point is one audience problem and two or three programs, supported by official-source comparisons and individual reviews. Avoid mass-producing thin pages or hiding the advertising relationship.",
+        "context": "Income is not guaranteed. Review network and advertiser rules, disclosure, endorsement, privacy, and consumer-protection requirements in every target region.",
+        "overview": "Choose a focused topic, prepare the site, join networks, select and apply to programs, then publish decision-helping content with disclosed affiliate links and measurement.",
+        "capabilities": ["Audience problem and search-intent definition", "Network registration, program comparison, and approval", "Disclosure, link measurement, and iterative improvement"],
+        "pricing": "Budget annual domain, hosting, production, maintenance, and analytics cost plus the operator's time—not only cash startup cost.",
+        "tradeoff": "Performance-based publishing can start without inventory, but results depend on traffic, trust, program availability, and advertiser approval.",
+        "strengths": ["Monetization can align with helping readers choose", "Several providers can be evaluated on transparent criteria"],
+        "caveats": ["Clear disclosure and accurate claims", "Monitoring program closures, term changes, and reversals"],
+        "fitIntro": "It fits operators who can combine domain experience with primary research and ongoing updates.",
+        "bestFor": ["Blogs with subject-matter expertise", "Comparison and review sites", "Operators able to test small and improve continuously"]
+      }
+    }
+  },
+  {
+    "slug": "how-to-make-money-blogging",
+    "category": "seo-marketing",
+    "type": "guide",
+    "topic": "content-monetization",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "Google Search Central — Creating helpful content", "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"}],
+    "ctas": [],
+    "relatedRoutes": [{"category": "seo-marketing", "slug": "affiliate-marketing-start-guide", "label": {"ja": "アフィリエイトの始め方", "en": "How to start affiliate marketing"}, "description": {"ja": "案件選定と広告掲載を確認", "en": "Review program selection and disclosure"}}],
+    "locales": {
+      "ja": {
+        "subject": "ブログ収益化",
+        "title": "ブログで稼ぐ方法｜初心者向けに収益化の仕組みを解説【2026年版】",
+        "description": "ブログ収益化の方法、ジャンル選定、集客記事と収益記事、SEO、内部リンク、改善指標を初心者向けに解説します。",
+        "lead": "検索順位や記事数ではなく、特定の読者課題を解決し、次の行動へつなぐ仕組みを作ります。",
+        "verdict": "収益化は、専門テーマ、役立つ一次情報、集客記事、比較・レビュー記事、適切な導線、継続更新の組み合わせです。短期間の収益や検索流入は保証されません。",
+        "context": "Googleの人を第一にしたコンテンツ方針を基準に、検索エンジンだけを狙う大量生成を避けます。",
+        "overview": "読者像と課題を定義し、学習用記事から比較・購入判断記事へ内部リンクをつなぎ、広告・商品・サービス等で収益化します。",
+        "capabilities": ["専門テーマと読者課題の設計", "集客記事・比較記事・個別レビューの役割分担", "内部リンク、成果計測、更新"],
+        "pricing": "ドメイン、サーバー、制作、画像、メール、計測、外注等の費用と、公開・更新に必要な時間を年間で見積もります。",
+        "tradeoff": "ブログは資産になる可能性がありますが、検索変動、案件終了、内容の陳腐化、制作時間を負担します。",
+        "strengths": ["知識を長期的なコンテンツへ変えられる", "複数の収益手段を組み合わせられる"],
+        "caveats": ["薄い大量記事を避ける", "収益・順位の保証表現をしない"],
+        "fitIntro": "一つの分野を継続して調査・更新し、読者の質問へ具体的に答えられる人に向きます。",
+        "bestFor": ["専門知識や実務経験がある人", "長期で更新できる小規模メディア", "メール・商品・サービスと連携する事業者"]
+      },
+      "en": {
+        "subject": "blog monetization",
+        "title": "How to Make Money Blogging: A Practical Monetization System for 2026",
+        "description": "Learn blog monetization models, niche selection, discovery and conversion content, SEO, internal links, and improvement metrics.",
+        "lead": "Build around a specific reader problem and useful next action rather than article count or rankings alone.",
+        "verdict": "Sustainable monetization combines focused expertise, primary research, discovery content, comparisons and reviews, clear navigation, and ongoing maintenance. Fast income and search traffic are never guaranteed.",
+        "context": "Use Google's people-first content guidance and avoid publishing large volumes designed only to attract search engines.",
+        "overview": "Define an audience and problem, connect educational content to comparison and decision pages through internal links, then monetize through disclosed advertising, products, or services.",
+        "capabilities": ["Focused subject and audience-problem design", "Distinct roles for discovery, comparison, and review pages", "Internal linking, conversion measurement, and maintenance"],
+        "pricing": "Annualize domains, hosting, production, images, email, analytics, contractors, and the time required to publish and update.",
+        "tradeoff": "A blog can become a durable asset, but it carries search volatility, program closures, content decay, and production cost.",
+        "strengths": ["Transforms expertise into durable content", "Supports several complementary revenue models"],
+        "caveats": ["Avoid mass production of thin articles", "Do not promise income or rankings"],
+        "fitIntro": "It fits someone able to research and update one field consistently and answer concrete reader questions.",
+        "bestFor": ["People with subject or professional experience", "Small publications with a long-term update process", "Businesses connecting content with email, products, or services"]
+      }
+    }
+  },
+  {
+    "slug": "moshimo-affiliate-guide",
+    "category": "seo-marketing",
+    "type": "guide",
+    "topic": "affiliate-marketing",
+    "publishedAt": "2026-07-17",
+    "sources": [{"label": "Moshimo Affiliate", "url": "https://af.moshimo.com/"}],
+    "ctas": [{"label": {"ja": "もしもアフィリエイトの公式サイトを確認", "en": "Check the official Moshimo Affiliate site"}, "officialUrl": "https://af.moshimo.com/", "affiliateKey": "moshimo-affiliate"}],
+    "relatedRoutes": [{"category": "seo-marketing", "slug": "a8net-guide", "label": {"ja": "A8.netの使い方", "en": "How to use A8.net"}, "description": {"ja": "別の国内ASPも確認", "en": "Review another Japan-focused network"}}],
+    "locales": {
+      "ja": {
+        "subject": "もしもアフィリエイト",
+        "title": "もしもアフィリエイトの使い方｜登録・案件検索・かんたんリンクを解説",
+        "description": "もしもアフィリエイトの登録、案件検索、提携申請、広告リンク、かんたんリンク、報酬制度を初心者向けに解説します。",
+        "lead": "登録後の案件選定から広告開示、成果確認まで、読者の信頼を損なわない手順で進めます。",
+        "verdict": "日本向け物販・サービス案件を扱うASP候補です。かんたんリンク等の便利さだけでなく、各案件の提携条件、対象商品、成果条件、禁止表現を確認します。",
+        "context": "広告主やプラットフォームの条件は変わるため、リンク作成時と記事更新時に管理画面を再確認します。",
+        "overview": "媒体を登録し、案件を検索・提携し、承認後に広告リンクや利用可能な作成機能を使って記事へ掲載します。",
+        "capabilities": ["案件検索と提携申請", "広告リンク・かんたんリンク等の作成", "成果・承認・支払の確認"],
+        "pricing": "報酬率だけでなく、成果地点、承認期間、否認条件、振込条件、キャンペーン期間を確認します。",
+        "tradeoff": "物販リンクを作りやすい一方、リンクを増やしすぎると比較基準が曖昧になり、読者体験を損ないます。",
+        "strengths": ["日本向け案件と物販導線を探しやすい", "初心者向けのリンク作成手段"],
+        "caveats": ["案件ごとの提携・掲載条件", "広告開示とリンク切れの定期確認"],
+        "fitIntro": "日本語コンテンツで商品・サービスを比較し、定期更新できる運営者に向きます。",
+        "bestFor": ["日本向けブログ", "物販・サービス比較記事", "複数ASPを使い分ける運営者"]
+      },
+      "en": {
+        "subject": "Moshimo Affiliate",
+        "title": "How to Use Moshimo Affiliate: Registration, Programs, and Easy Links",
+        "description": "An English guide to Japan-focused Moshimo Affiliate registration, program search, approval, ad links, Easy Link features, and reporting.",
+        "lead": "Move from program selection through disclosure and reporting without sacrificing reader trust.",
+        "verdict": "Moshimo is a candidate for publishers promoting Japanese retail and service programs. Convenience features do not replace checking advertiser eligibility, products, conversion rules, and prohibited claims.",
+        "context": "Advertiser and platform terms change, so recheck the dashboard when creating a link and during every material article update.",
+        "overview": "Publishers register a property, search and apply to programs, then use approved link-creation features and monitor conversions and approvals.",
+        "capabilities": ["Program discovery and partnership applications", "Affiliate and Easy Link-style creation", "Conversion, approval, and payout reporting"],
+        "pricing": "Compare conversion event, approval period, reversal rules, payout conditions, and campaign dates—not commission percentage alone.",
+        "tradeoff": "Retail links may be easier to create, but excessive links and weak criteria reduce clarity and reader experience.",
+        "strengths": ["Discovery of Japan-focused programs and retail paths", "Beginner-oriented link creation"],
+        "caveats": ["Program-specific approval and placement rules", "Disclosure and recurring link-health checks"],
+        "fitIntro": "It fits operators publishing Japanese-language product or service comparisons with an update process.",
+        "bestFor": ["Japan-focused blogs", "Retail and service comparison articles", "Publishers combining several Japanese networks"]
+      }
+    }
+  },
+  {
+    "slug": "wordpress-start-guide",
+    "category": "website-builders",
+    "type": "guide",
+    "topic": "wordpress",
+    "publishedAt": "2026-07-17",
+    "sources": [
+      {"label": "WordPress.org", "url": "https://wordpress.org/"},
+      {"label": "WordPress Documentation", "url": "https://wordpress.org/documentation/"}
+    ],
+    "ctas": [],
+    "relatedRoutes": [{"category": "website-builders", "slug": "wordpress-com-review", "label": {"ja": "WordPress.comのレビュー", "en": "WordPress.com review"}, "description": {"ja": "マネージド版との違いを確認", "en": "Compare the managed service"}}],
+    "locales": {
+      "ja": {
+        "subject": "WordPress",
+        "title": "WordPressの始め方｜初心者向けに開設から初期設定まで解説【2026年版】",
+        "description": "WordPressの始め方を初心者向けに解説。サーバー契約、独自ドメイン、インストール、SSL、初期設定、テーマ・プラグインまで整理します。",
+        "lead": "サーバーとドメインを選ぶ前に、更新担当者、バックアップ、セキュリティ、公開目的を決めます。",
+        "verdict": "WordPress.orgは自由度の高い公開基盤ですが、ホスティング、更新、バックアップ、セキュリティを自分または契約先が管理します。最初は機能を増やしすぎず、公式テーマと必要最小限のプラグインで始めます。",
+        "context": "WordPress.comのマネージドサービスとは、ホスティングと管理責任が異なります。",
+        "overview": "目的を決め、ホスティングとドメインを契約し、WordPressを導入してSSL、URL、ユーザー、テーマ、バックアップ、更新を設定します。",
+        "capabilities": ["投稿・固定ページによるコンテンツ公開", "テーマでデザイン、プラグインで機能拡張", "独自ホスティングによるデータ・運用の選択"],
+        "pricing": "サーバー、ドメイン、テーマ、プラグイン、バックアップ、保守、制作時間を年間総額で見積もります。WordPressソフトウェアが無料でも運用は無料ではありません。",
+        "tradeoff": "自由度と移行性が高い一方、更新不足、互換性、脆弱性、バックアップ失敗を管理する必要があります。",
+        "strengths": ["幅広いテーマ・プラグイン", "ホスティングとデータ運用を選べる"],
+        "caveats": ["コア・テーマ・プラグインの継続更新", "復元可能な外部バックアップ"],
+        "fitIntro": "長期的にコンテンツや機能を育て、保守担当を確保できるサイトに向きます。",
+        "bestFor": ["ブログ・メディア", "企業・サービスサイト", "将来の拡張と移行性を重視する運営者"]
+      },
+      "en": {
+        "subject": "WordPress",
+        "title": "How to Start WordPress: Hosting, Domain, Setup, and Security",
+        "description": "A beginner guide to starting self-hosted WordPress, including hosting, domains, installation, SSL, settings, themes, plugins, backups, and maintenance.",
+        "lead": "Before choosing a host and domain, define the publishing goal, maintenance owner, backup process, and security responsibility.",
+        "verdict": "WordPress.org is a flexible publishing platform, but the owner or hosting provider must handle hosting, updates, backups, and security. Start with a maintained theme and the fewest necessary plugins.",
+        "context": "This self-hosted model has a different responsibility boundary from the managed WordPress.com service.",
+        "overview": "Define the site, purchase hosting and a domain, install WordPress, then configure SSL, URLs, users, theme, backups, and updates before publishing.",
+        "capabilities": ["Publishing through posts and pages", "Themes for presentation and plugins for extensions", "Choice of hosting and data-operation model"],
+        "pricing": "Annualize hosting, domain, themes, plugins, backups, maintenance, and production time. Free software does not make the full operation free.",
+        "tradeoff": "WordPress offers broad control and portability, but the owner must manage updates, compatibility, vulnerabilities, and recoverable backups.",
+        "strengths": ["Large theme and plugin ecosystem", "Choice of hosting and data operations"],
+        "caveats": ["Ongoing core, theme, and plugin updates", "Restorable off-platform backups"],
+        "fitIntro": "It fits sites that will grow content or features over time and have a defined maintenance owner.",
+        "bestFor": ["Blogs and publications", "Business and service websites", "Operators prioritizing future extensibility and portability"]
+      }
+    }
+  }
+]

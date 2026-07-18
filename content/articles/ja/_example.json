@@ -1,0 +1,21 @@
+{
+  "id": "example-review",
+  "translationKey": "example-review",
+  "language": "ja",
+  "type": "review",
+  "status": "draft",
+  "slug": "example-review",
+  "category": "ai-tools",
+  "title": "サンプルレビュー",
+  "description": "記事データの記入例です。",
+  "publishedAt": "2026-07-16",
+  "updatedAt": "2026-07-16",
+  "verifiedAt": "2026-07-16",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": true,
+  "sources": [{"label":"公式サイト","url":"https://example.com"}],
+  "sections": [
+    {"heading":"概要","body":["本文は段落単位の配列で管理します。"]}
+  ]
+}
