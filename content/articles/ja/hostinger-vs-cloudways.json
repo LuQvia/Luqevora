@@ -207,16 +207,6 @@
       "label": "LiteSpeed対応サーバー比較",
       "url": "/ja/hosting-security/litespeed-hosting-comparison/",
       "description": "Webサーバーとキャッシュ運用を比較"
-    },
-    {
-      "label": "cPanel対応サーバー比較",
-      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
-      "description": "管理画面と移行性を比較"
-    },
-    {
-      "label": "法人向けレンタルサーバー比較",
-      "url": "/ja/hosting-security/business-web-hosting-comparison/",
-      "description": "法人運用の要件を整理"
     }
   ]
 }

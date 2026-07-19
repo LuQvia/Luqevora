@@ -55,7 +55,27 @@
       "content/articles/en/color-me-shop-vs-shopify.json",
       "content/articles/en/color-me-shop-vs-xserver-shop.json",
       "content/articles/en/japanese-ecommerce-platform-seo-comparison.json",
-      "content/articles/en/color-me-shop-seo-guide.json"
+      "content/articles/en/color-me-shop-seo-guide.json",
+      "content/articles/ja/shin-rental-server-review.json",
+      "content/articles/en/shin-rental-server-review.json",
+      "content/articles/ja/shin-rental-server-pricing.json",
+      "content/articles/en/shin-rental-server-pricing.json",
+      "content/articles/ja/shin-rental-server-wordpress.json",
+      "content/articles/en/shin-rental-server-wordpress.json",
+      "content/articles/ja/shin-rental-server-pros-cons.json",
+      "content/articles/en/shin-rental-server-pros-cons.json",
+      "content/articles/ja/shin-rental-server-vs-xserver.json",
+      "content/articles/en/shin-rental-server-vs-xserver.json",
+      "content/articles/ja/shin-rental-server-vs-conoha-wing.json",
+      "content/articles/en/shin-rental-server-vs-conoha-wing.json",
+      "content/articles/ja/shin-rental-server-vs-lolipop.json",
+      "content/articles/en/shin-rental-server-vs-lolipop.json",
+      "content/articles/ja/shin-rental-server-vs-mixhost.json",
+      "content/articles/en/shin-rental-server-vs-mixhost.json",
+      "content/articles/ja/best-wordpress-hosting-japan.json",
+      "content/articles/en/best-wordpress-hosting-japan.json",
+      "content/articles/ja/best-japanese-web-hosting.json",
+      "content/articles/en/best-japanese-web-hosting.json"
     ],
     "priorityProducts": [
       "activecampaign",
@@ -77,7 +97,8 @@
       "goope",
       "iclusta",
       "jetboy",
-      "color-me-shop"
+      "color-me-shop",
+      "shin-rental-server"
     ],
     "includePriorityReviews": true,
     "priorityComparisonMinimumMatches": 2,

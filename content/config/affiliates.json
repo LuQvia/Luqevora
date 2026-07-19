@@ -316,6 +316,53 @@
       "language": "ja",
       "destination": "https://shop-pro.jp/",
       "rawHtml": "ネットショップ開業は、30日間お試し無料の <A href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+I0SHE\" rel=\"nofollow\">カラーミーショップ</A> で！\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+I0SHE\" alt=\"\">"
+    },
+    "shin-server-long": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000025450001",
+      "language": "ja",
+      "destination": "https://www.shin-server.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+2FIRH6+5GDG+5YJRM\" rel=\"nofollow\">自由と先進性を兼ね備えた新世代レンタルサーバー『シンレンタルサーバー』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B8452+2FIRH6+5GDG+5YJRM\" alt=\"\">"
+    },
+    "shin-server-evolve": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000025450001",
+      "language": "ja",
+      "destination": "https://www.shin-server.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+2FIRH6+5GDG+5ZEMQ\" rel=\"nofollow\">シン化するレンタルサーバー『シンレンタルサーバー』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B8452+2FIRH6+5GDG+5ZEMQ\" alt=\"\">"
+    },
+    "shin-server-url": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000025450001",
+      "language": "ja",
+      "destination": "https://www.shin-server.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+2FIRH6+5GDG+5YZ76\" rel=\"nofollow\">https://www.shin-server.jp/</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B8452+2FIRH6+5GDG+5YZ76\" alt=\"\">"
+    },
+    "shin-server-newgen": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000025450001",
+      "language": "ja",
+      "destination": "https://www.shin-server.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+2FIRH6+5GDG+5Z6WY\" rel=\"nofollow\">新世代レンタルサーバー『シンレンタルサーバー』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B8452+2FIRH6+5GDG+5Z6WY\" alt=\"\">"
+    },
+    "shin-server-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000025450001",
+      "language": "ja",
+      "destination": "https://www.shin-server.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+2FIRH6+5GDG+5YRHE\" rel=\"nofollow\">シンレンタルサーバー</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B8452+2FIRH6+5GDG+5YRHE\" alt=\"\">"
+    },
+    "shin-server-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.shin-server.jp/",
+      "url": "https://www.shin-server.jp/"
     }
   },
   "rules": {

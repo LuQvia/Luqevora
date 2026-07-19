@@ -167,6 +167,11 @@
       "label": "cPanel hosting comparison",
       "url": "/en/hosting-security/cpanel-hosting-comparison/",
       "description": "Compare control panels and portability"
+    },
+    {
+      "label": "Shin Rental Server review",
+      "url": "/en/hosting-security/shin-rental-server-review/",
+      "description": "Review pricing, features, and constraints"
     }
   ]
 }

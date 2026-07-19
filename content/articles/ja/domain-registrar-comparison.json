@@ -63,5 +63,37 @@
       "question": "SEOに強いドメイン会社はありますか？",
       "answer": "レジストラの違いだけで検索順位が決まるわけではありません。"
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "シンレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/shin-rental-server-review/",
+      "description": "料金・機能・注意点を公式情報で確認"
+    },
+    {
+      "label": "シンレンタルサーバー料金比較",
+      "url": "/ja/hosting-security/shin-rental-server-pricing/",
+      "description": "通常版とビジネス版を比較"
+    },
+    {
+      "label": "WordPress設定・移行ガイド",
+      "url": "/ja/hosting-security/shin-rental-server-wordpress/",
+      "description": "新規設置と移行手順を確認"
+    },
+    {
+      "label": "メリット・デメリット",
+      "url": "/ja/hosting-security/shin-rental-server-pros-cons/",
+      "description": "契約前の判断材料を整理"
+    },
+    {
+      "label": "シンレンタルサーバーとエックスサーバー",
+      "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+      "description": "同一運営会社の2サービスを比較"
+    },
+    {
+      "label": "シンレンタルサーバーとConoHa WING",
+      "url": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
+      "description": "料金体系と運用方法を比較"
+    }
   ]
 }

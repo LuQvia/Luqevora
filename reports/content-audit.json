@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T03:43:39.190Z",
+  "generatedAt": "2026-07-19T04:13:52.622Z",
   "auditDate": "2026-07-19",
   "thresholds": {
     "hardMinimumSources": 1,
@@ -20,10 +20,10 @@
     "promotionCandidatePairLimit": 25
   },
   "summary": {
-    "publishedDataArticles": 538,
-    "indexableDataArticles": 222,
+    "publishedDataArticles": 558,
+    "indexableDataArticles": 242,
     "noindexDataArticles": 316,
-    "averageIndexableScore": 95.3,
+    "averageIndexableScore": 95.7,
     "minimumIndexableScore": 70,
     "promotionEligible": 316,
     "promotionEligiblePairs": 158,
@@ -33,14 +33,14 @@
     "warningCount": 88,
     "byLanguage": {
       "ja": {
-        "published": 269,
-        "indexable": 111,
-        "averageScore": 96.2
+        "published": 279,
+        "indexable": 121,
+        "averageScore": 96.5
       },
       "en": {
-        "published": 269,
-        "indexable": 111,
-        "averageScore": 94.5
+        "published": 279,
+        "indexable": 121,
+        "averageScore": 94.9
       }
     }
   },
@@ -114,6 +114,10 @@
       "articleCount": 22
     },
     {
+      "host": "shin-server.jp",
+      "articleCount": 20
+    },
+    {
       "host": "trello.com",
       "articleCount": 20
     },
@@ -159,10 +163,6 @@
     },
     {
       "host": "nordvpn.com",
-      "articleCount": 16
-    },
-    {
-      "host": "surfshark.com",
       "articleCount": 16
     }
   ],
@@ -5393,6 +5393,58 @@
       ]
     },
     {
+      "id": "best-japanese-web-hosting-en",
+      "translationKey": "best-japanese-web-hosting",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "best-japanese-web-hosting",
+      "route": "/en/hosting-security/best-japanese-web-hosting/",
+      "sourceFile": "content/articles/en/best-japanese-web-hosting.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 771,
+      "sourceCount": 21,
+      "sourceHostCount": 5,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "xserver.ne.jp",
+        "conoha.jp",
+        "lolipop.jp",
+        "mixhost.jp"
+      ]
+    },
+    {
+      "id": "best-wordpress-hosting-japan-en",
+      "translationKey": "best-wordpress-hosting-japan",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "best-wordpress-hosting-japan",
+      "route": "/en/hosting-security/best-wordpress-hosting-japan/",
+      "sourceFile": "content/articles/en/best-wordpress-hosting-japan.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 789,
+      "sourceCount": 21,
+      "sourceHostCount": 5,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "xserver.ne.jp",
+        "conoha.jp",
+        "lolipop.jp",
+        "mixhost.jp"
+      ]
+    },
+    {
       "id": "bitwarden-vs-keeper-en",
       "translationKey": "bitwarden-vs-keeper",
       "language": "en",
@@ -6489,6 +6541,186 @@
       "sourceHosts": [
         "protonvpn.com",
         "surfshark.com"
+      ]
+    },
+    {
+      "id": "shin-rental-server-pricing-en",
+      "translationKey": "shin-rental-server-pricing",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-pricing",
+      "route": "/en/hosting-security/shin-rental-server-pricing/",
+      "sourceFile": "content/articles/en/shin-rental-server-pricing.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 709,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-pros-cons-en",
+      "translationKey": "shin-rental-server-pros-cons",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-pros-cons",
+      "route": "/en/hosting-security/shin-rental-server-pros-cons/",
+      "sourceFile": "content/articles/en/shin-rental-server-pros-cons.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 736,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-review-en",
+      "translationKey": "shin-rental-server-review",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-review",
+      "route": "/en/hosting-security/shin-rental-server-review/",
+      "sourceFile": "content/articles/en/shin-rental-server-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 693,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-conoha-wing-en",
+      "translationKey": "shin-rental-server-vs-conoha-wing",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-conoha-wing",
+      "route": "/en/hosting-security/shin-rental-server-vs-conoha-wing/",
+      "sourceFile": "content/articles/en/shin-rental-server-vs-conoha-wing.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 737,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "conoha.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-lolipop-en",
+      "translationKey": "shin-rental-server-vs-lolipop",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-lolipop",
+      "route": "/en/hosting-security/shin-rental-server-vs-lolipop/",
+      "sourceFile": "content/articles/en/shin-rental-server-vs-lolipop.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 740,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "lolipop.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-mixhost-en",
+      "translationKey": "shin-rental-server-vs-mixhost",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-mixhost",
+      "route": "/en/hosting-security/shin-rental-server-vs-mixhost/",
+      "sourceFile": "content/articles/en/shin-rental-server-vs-mixhost.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 713,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "mixhost.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-xserver-en",
+      "translationKey": "shin-rental-server-vs-xserver",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-xserver",
+      "route": "/en/hosting-security/shin-rental-server-vs-xserver/",
+      "sourceFile": "content/articles/en/shin-rental-server-vs-xserver.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 724,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-wordpress-en",
+      "translationKey": "shin-rental-server-wordpress",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-wordpress",
+      "route": "/en/hosting-security/shin-rental-server-wordpress/",
+      "sourceFile": "content/articles/en/shin-rental-server-wordpress.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 748,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
       ]
     },
     {
@@ -11607,6 +11839,58 @@
       ]
     },
     {
+      "id": "best-japanese-web-hosting-ja",
+      "translationKey": "best-japanese-web-hosting",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "best-japanese-web-hosting",
+      "route": "/ja/hosting-security/best-japanese-web-hosting/",
+      "sourceFile": "content/articles/ja/best-japanese-web-hosting.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2465,
+      "sourceCount": 21,
+      "sourceHostCount": 5,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "xserver.ne.jp",
+        "conoha.jp",
+        "lolipop.jp",
+        "mixhost.jp"
+      ]
+    },
+    {
+      "id": "best-wordpress-hosting-japan-ja",
+      "translationKey": "best-wordpress-hosting-japan",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "best-wordpress-hosting-japan",
+      "route": "/ja/hosting-security/best-wordpress-hosting-japan/",
+      "sourceFile": "content/articles/ja/best-wordpress-hosting-japan.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2607,
+      "sourceCount": 21,
+      "sourceHostCount": 5,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "xserver.ne.jp",
+        "conoha.jp",
+        "lolipop.jp",
+        "mixhost.jp"
+      ]
+    },
+    {
       "id": "bitwarden-vs-keeper-ja",
       "translationKey": "bitwarden-vs-keeper",
       "language": "ja",
@@ -12703,6 +12987,186 @@
       "sourceHosts": [
         "protonvpn.com",
         "surfshark.com"
+      ]
+    },
+    {
+      "id": "shin-rental-server-pricing-ja",
+      "translationKey": "shin-rental-server-pricing",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-pricing",
+      "route": "/ja/hosting-security/shin-rental-server-pricing/",
+      "sourceFile": "content/articles/ja/shin-rental-server-pricing.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2406,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-pros-cons-ja",
+      "translationKey": "shin-rental-server-pros-cons",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-pros-cons",
+      "route": "/ja/hosting-security/shin-rental-server-pros-cons/",
+      "sourceFile": "content/articles/ja/shin-rental-server-pros-cons.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2429,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-review-ja",
+      "translationKey": "shin-rental-server-review",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-review",
+      "route": "/ja/hosting-security/shin-rental-server-review/",
+      "sourceFile": "content/articles/ja/shin-rental-server-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2354,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-conoha-wing-ja",
+      "translationKey": "shin-rental-server-vs-conoha-wing",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-conoha-wing",
+      "route": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
+      "sourceFile": "content/articles/ja/shin-rental-server-vs-conoha-wing.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2372,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "conoha.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-lolipop-ja",
+      "translationKey": "shin-rental-server-vs-lolipop",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-lolipop",
+      "route": "/ja/hosting-security/shin-rental-server-vs-lolipop/",
+      "sourceFile": "content/articles/ja/shin-rental-server-vs-lolipop.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2371,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "lolipop.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-mixhost-ja",
+      "translationKey": "shin-rental-server-vs-mixhost",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-mixhost",
+      "route": "/ja/hosting-security/shin-rental-server-vs-mixhost/",
+      "sourceFile": "content/articles/ja/shin-rental-server-vs-mixhost.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2396,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "mixhost.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-vs-xserver-ja",
+      "translationKey": "shin-rental-server-vs-xserver",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-vs-xserver",
+      "route": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+      "sourceFile": "content/articles/ja/shin-rental-server-vs-xserver.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2361,
+      "sourceCount": 12,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp",
+        "xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "shin-rental-server-wordpress-ja",
+      "translationKey": "shin-rental-server-wordpress",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "shin-rental-server-wordpress",
+      "route": "/ja/hosting-security/shin-rental-server-wordpress/",
+      "sourceFile": "content/articles/ja/shin-rental-server-wordpress.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2529,
+      "sourceCount": 9,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 4,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shin-server.jp"
       ]
     },
     {

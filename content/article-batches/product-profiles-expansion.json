@@ -1534,5 +1534,95 @@
         "Migration can affect data and URLs"
       ]
     }
+  },
+  "shin-rental-server": {
+    "name": "Shin Rental Server",
+    "affiliateKey": "shin-server-long",
+    "sources": [
+      {
+        "label": "シンレンタルサーバー公式サイト",
+        "url": "https://www.shin-server.jp/"
+      },
+      {
+        "label": "シンレンタルサーバー 料金",
+        "url": "https://www.shin-server.jp/service/price.php"
+      },
+      {
+        "label": "シンレンタルサーバー 機能一覧",
+        "url": "https://www.shin-server.jp/service/functions.php"
+      },
+      {
+        "label": "シンレンタルサーバー 特長",
+        "url": "https://www.shin-server.jp/service/feature.php"
+      },
+      {
+        "label": "シンレンタルサーバー ビジネスプラン",
+        "url": "https://www.shin-server.jp/service/business.php"
+      },
+      {
+        "label": "シンレンタルサーバー 自動バックアップ",
+        "url": "https://www.shin-server.jp/service/detail_backup.php"
+      },
+      {
+        "label": "WordPressクイックスタート FAQ",
+        "url": "https://www.shin-server.jp/support/faq/contract_new_wordpress_plan.php"
+      },
+      {
+        "label": "WordPress簡単移行マニュアル",
+        "url": "https://www.shin-server.jp/support/manual/man_install_transfer_wp.php"
+      },
+      {
+        "label": "シンレンタルサーバー 利用規約",
+        "url": "https://www.shin-server.jp/rule.php"
+      }
+    ],
+    "positioning": {
+      "ja": "NVMe大容量、WordPress支援、14日分バックアップ、独自ドメイン特典を備える国内共用レンタルサーバー",
+      "en": "Japan-focused shared hosting with large NVMe storage, WordPress workflows, fourteen-day backups, and domain benefits"
+    },
+    "pricing": {
+      "ja": "通常36か月月額換算はベーシック1,078円、スタンダード2,002円、プレミアム4,004円。契約期間分を一括前払い",
+      "en": "Normal thirty-six-month equivalents are JPY 1,078, JPY 2,002, and JPY 4,004, prepaid for the selected term"
+    },
+    "pricingDetail": {
+      "ja": "キャンペーンの実質価格ではなく、通常更新料金、支払総額、ドメイン条件、外部バックアップ、移行費を含めて比較します。",
+      "en": "Compare normal renewal cost, full prepayment, domain conditions, independent backups, and migration cost rather than temporary effective prices."
+    },
+    "workflow": {
+      "ja": "WordPressクイックスタート、簡単インストール、簡単移行、無料SSL、14日分バックアップを使って運用します。",
+      "en": "Operate with WordPress Quick Start, installation, migration, SSL, and fourteen-day backups."
+    },
+    "bestFor": {
+      "ja": "国内サポート、大容量、複数WordPress、長期契約を重視する個人・制作会社・中小事業者",
+      "en": "Individuals, agencies, and smaller businesses prioritizing domestic support, storage, multiple WordPress sites, and long-term contracts"
+    },
+    "strengths": {
+      "ja": [
+        "ベーシックから700GB NVMe",
+        "WordPress新規設置・移行",
+        "14日分自動バックアップ",
+        "独自ドメイン特典"
+      ],
+      "en": [
+        "700 GB NVMe from Basic",
+        "WordPress setup and migration",
+        "Fourteen-day automatic backups",
+        "Domain benefit"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "長期契約は一括前払い",
+        "クイックスタートは無料お試し対象外",
+        "自動移行には対象外構成",
+        "速度表現は自社測定条件付き"
+      ],
+      "en": [
+        "Prepaid long terms",
+        "No trial with Quick Start",
+        "Automated migration exclusions",
+        "Provider-defined performance tests"
+      ]
+    }
   }
 }

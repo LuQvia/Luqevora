@@ -123,6 +123,31 @@
       "label": "Business web hosting comparison",
       "url": "/en/hosting-security/business-web-hosting-comparison/",
       "description": "Evaluate business hosting requirements"
+    },
+    {
+      "label": "Shin Rental Server review",
+      "url": "/en/hosting-security/shin-rental-server-review/",
+      "description": "Review pricing, features, and constraints"
+    },
+    {
+      "label": "Shin Rental Server pricing",
+      "url": "/en/hosting-security/shin-rental-server-pricing/",
+      "description": "Compare standard and business plans"
+    },
+    {
+      "label": "WordPress setup and migration guide",
+      "url": "/en/hosting-security/shin-rental-server-wordpress/",
+      "description": "Review setup and migration steps"
+    },
+    {
+      "label": "Pros and cons",
+      "url": "/en/hosting-security/shin-rental-server-pros-cons/",
+      "description": "Review pre-contract trade-offs"
+    },
+    {
+      "label": "Shin Rental Server vs XServer",
+      "url": "/en/hosting-security/shin-rental-server-vs-xserver/",
+      "description": "Compare two services from the same operator"
     }
   ]
 }

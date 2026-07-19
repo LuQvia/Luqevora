@@ -193,11 +193,6 @@
       "label": "LiteSpeed hosting comparison",
       "url": "/en/hosting-security/litespeed-hosting-comparison/",
       "description": "Compare server stack and cache workflow"
-    },
-    {
-      "label": "cPanel hosting comparison",
-      "url": "/en/hosting-security/cpanel-hosting-comparison/",
-      "description": "Compare control panels and portability"
     }
   ]
 }

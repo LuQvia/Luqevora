@@ -1,17 +1,17 @@
 {
   "featuredComparisons": [
+    "shin-rental-server-vs-xserver",
+    "shin-rental-server-vs-conoha-wing",
+    "best-wordpress-hosting-japan",
     "color-me-shop-vs-shopify",
-    "color-me-shop-vs-xserver-shop",
-    "japanese-ecommerce-platform-seo-comparison",
-    "xserver-shop-vs-shopify",
-    "fixed-fee-ecommerce-platform-comparison"
+    "color-me-shop-vs-xserver-shop"
   ],
   "featuredReviews": [
+    "shin-rental-server-review",
+    "shin-rental-server-pricing",
+    "shin-rental-server-wordpress",
     "color-me-shop-review",
-    "color-me-shop-seo-guide",
     "xserver-shop-review",
-    "goope-review",
-    "jetboy-review",
-    "iclusta-review"
+    "jetboy-review"
   ]
 }

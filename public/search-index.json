@@ -288,6 +288,22 @@
     "topic": "web-hosting"
   },
   {
+    "title": "Best Japanese Web Hosting: Selection by Use Case (2026)",
+    "description": "A use-case framework for Japanese web hosting covering blogs, business sites, multiple sites, short trials, LiteSpeed, backups, and migration.",
+    "url": "/en/hosting-security/best-japanese-web-hosting/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Best WordPress Hosting in Japan: Five Services Compared (2026)",
+    "description": "Compare five Japan-focused WordPress hosts by pricing, migration, backups, performance tooling, domains, and contract structure.",
+    "url": "/en/hosting-security/best-wordpress-hosting-japan/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Bitwarden Review: Teams and Enterprise Pricing, Sharing, SCIM and Self-Hosting",
     "description": "A fact-based review of Bitwarden Teams and Enterprise covering pricing, sharing, event logs, directory sync, SCIM, SSO, recovery, and self-hosting.",
     "url": "/en/hosting-security/bitwarden-review/",
@@ -640,6 +656,62 @@
     "topic": "vpn-security"
   },
   {
+    "title": "Shin Rental Server Pricing: Standard and Business Plans Compared",
+    "description": "Compare Shin Rental Server standard and business plans by monthly equivalent, prepayment, renewal cost, storage, CPU, memory, and operational fit.",
+    "url": "/en/hosting-security/shin-rental-server-pricing/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Shin Rental Server Pros and Cons: Checks Before You Contract",
+    "description": "Assess Shin Rental Server advantages and constraints across performance, storage, WordPress, backups, support, renewal, trial, and migration.",
+    "url": "/en/hosting-security/shin-rental-server-pros-cons/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Shin Rental Server Review: Pricing, Performance, and Limits (2026)",
+    "description": "An official-source review of Shin Rental Server covering pricing, storage, WordPress, backups, domains, business plans, trial conditions, and operational limits.",
+    "url": "/en/hosting-security/shin-rental-server-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Shin Rental Server vs ConoHa WING: Pricing and Contract Differences",
+    "description": "Compare Shin Rental Server and ConoHa WING by billing model, WING Pack, storage, CPU, memory, domain benefits, and WordPress workflow.",
+    "url": "/en/hosting-security/shin-rental-server-vs-conoha-wing/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Shin Rental Server vs Lolipop: A Beginner-Focused Comparison",
+    "description": "Compare Shin Rental Server and Lolipop by pricing, plan range, LiteSpeed, storage, WordPress, backups, and support.",
+    "url": "/en/hosting-security/shin-rental-server-vs-lolipop/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Shin Rental Server vs mixhost: Renewal Cost and Feature Differences",
+    "description": "Compare Shin Rental Server and mixhost by introductory and renewal cost, WordPress, migration, LiteSpeed, backups, and refund conditions.",
+    "url": "/en/hosting-security/shin-rental-server-vs-mixhost/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Shin Rental Server vs XServer: Differences and Selection Guide",
+    "description": "Compare Shin Rental Server and XServer by normal pricing, storage, WordPress workflow, trials, backups, domains, and operational maturity.",
+    "url": "/en/hosting-security/shin-rental-server-vs-xserver/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "SiteGround Review: StartUp, GrowBig and GoGeek Introductory, Renewal and Backup Terms",
     "description": "Review SiteGround StartUp, GrowBig and GoGeek using official 12-month pricing, renewal, site, storage, daily backup, SSL, CDN and staging information.",
     "url": "/en/hosting-security/siteground-review/",
@@ -670,6 +742,14 @@
     "language": "en",
     "category": "hosting-security",
     "topic": "vpn-security"
+  },
+  {
+    "title": "Using Shin Rental Server for WordPress: Setup and Migration Guide",
+    "description": "A practical guide to WordPress Quick Start, installation, migration, SSL, backups, DNS cutover, excluded data, and pre-launch checks on Shin Rental Server.",
+    "url": "/en/hosting-security/shin-rental-server-wordpress/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
   },
   {
     "title": "WP Engine Alternatives: Compare Pricing, Workflows, and Migration",
@@ -1832,6 +1912,14 @@
     "topic": "vpn-security"
   },
   {
+    "title": "WordPress向け国内レンタルサーバー比較｜5社の選び方【2026年】",
+    "description": "シンレンタルサーバー、エックスサーバー、ConoHa WING、ロリポップ！、mixhostを料金、移行、バックアップ、速度機能、契約条件で比較します。",
+    "url": "/ja/hosting-security/best-wordpress-hosting-japan/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "WP Engineの代替サービス3選｜用途・料金・移行条件を比較",
     "description": "WP Engineと代替候補Kinsta、Cloudways、SiteGroundを公式情報で比較。用途、料金体系、強み、制約、移行前の試用項目を整理します。",
     "url": "/ja/hosting-security/wp-engine-alternatives/",
@@ -1912,6 +2000,70 @@
     "topic": "web-hosting"
   },
   {
+    "title": "シンレンタルサーバーでWordPressを始める方法と移行手順",
+    "description": "WordPressクイックスタート、簡単インストール、簡単移行、SSL、バックアップ、DNS切替、移行対象外データと公開前チェックを解説します。",
+    "url": "/ja/hosting-security/shin-rental-server-wordpress/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバーとConoHa WINGを比較｜料金・契約の違い",
+    "description": "シンレンタルサーバーとConoHa WINGを、料金体系、通常課金、WINGパック、容量、CPU・メモリ、ドメイン、WordPressから比較します。",
+    "url": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバーとmixhostを比較｜更新料金・機能の違い",
+    "description": "シンレンタルサーバーとmixhostを、初回料金と更新料金、WordPress、移行、LiteSpeed、バックアップ、返金保証から比較します。",
+    "url": "/ja/hosting-security/shin-rental-server-vs-mixhost/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバーとエックスサーバーを比較｜違いと選び方",
+    "description": "シンレンタルサーバーとエックスサーバーを、通常料金、容量、WordPress、無料お試し、バックアップ、ドメイン、運用実績から比較します。",
+    "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバーとロリポップ！を比較｜初心者向けの選び方",
+    "description": "シンレンタルサーバーとロリポップ！を、料金、プラン幅、LiteSpeed、容量、WordPress、バックアップ、電話サポートから比較します。",
+    "url": "/ja/hosting-security/shin-rental-server-vs-lolipop/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバーのメリット・デメリット｜契約前の確認事項",
+    "description": "シンレンタルサーバーの利点と注意点を、性能、容量、WordPress、バックアップ、サポート、契約更新、試用、移行の観点から整理します。",
+    "url": "/ja/hosting-security/shin-rental-server-pros-cons/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバーレビュー｜料金・速度・注意点【2026年】",
+    "description": "シンレンタルサーバーを公式情報で検証。料金、容量、WordPress、バックアップ、独自ドメイン、ビジネスプラン、試用条件と注意点を解説します。",
+    "url": "/ja/hosting-security/shin-rental-server-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "シンレンタルサーバー料金・プラン比較｜通常版とビジネス版",
+    "description": "シンレンタルサーバーの通常プランとビジネスプランを比較。月額換算、一括前払い、更新料金、容量、CPU・メモリ、選び方を整理します。",
+    "url": "/ja/hosting-security/shin-rental-server-pricing/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "中小企業向けWebホスティング5選｜料金・バックアップ・運用方式を公式情報で比較",
     "description": "Hostinger、SiteGround、Kinsta、Cloudways、WP Engineを、料金、更新価格、バックアップ、SSL、運用方式、WordPress対応の公式情報で比較します。",
     "url": "/ja/hosting-security/web-hosting-small-business/",
@@ -1926,6 +2078,14 @@
     "language": "ja",
     "category": "hosting-security",
     "topic": "password-managers"
+  },
+  {
+    "title": "国内レンタルサーバーおすすめ比較｜用途別に選ぶ基準【2026年】",
+    "description": "ブログ、法人サイト、複数サイト、短期検証、LiteSpeed利用など用途別に、国内レンタルサーバーの比較基準とおすすめ候補を整理します。",
+    "url": "/ja/hosting-security/best-japanese-web-hosting/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
   },
   {
     "title": "法人向けSLA付きレンタルサーバー比較【2026年】",

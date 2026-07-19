@@ -188,6 +188,11 @@
       "label": "cPanel対応サーバー比較",
       "url": "/ja/hosting-security/cpanel-hosting-comparison/",
       "description": "管理画面と移行性を比較"
+    },
+    {
+      "label": "シンレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/shin-rental-server-review/",
+      "description": "料金・機能・注意点を公式情報で確認"
     }
   ]
 }

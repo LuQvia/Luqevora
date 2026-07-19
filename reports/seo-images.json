@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-19T03:43:39.884Z",
+  "generatedAt": "2026-07-19T04:13:53.328Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 304,
+  "imageCount": 324,
   "generatedCount": 0,
-  "reusedCount": 304,
+  "reusedCount": 324,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -198,6 +198,18 @@
       "route": "/en/hosting-security/ablenet-vps-review/",
       "image": "source-assets/images/articles/en/hosting-security/ablenet-vps-review.jpg",
       "fingerprint": "4ad49af6b9abe8764e0d9721f6adc40fb9f3bc45706be65051bb5a7e7378a846",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/best-japanese-web-hosting/",
+      "image": "source-assets/images/articles/en/hosting-security/best-japanese-web-hosting.jpg",
+      "fingerprint": "6af42dd917166ae12aee8affb74641eeb0e24cd2e1fa385c3ea6458ab74ea136",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/best-wordpress-hosting-japan/",
+      "image": "source-assets/images/articles/en/hosting-security/best-wordpress-hosting-japan.jpg",
+      "fingerprint": "d9b7b586cf7d7cbeff257cecffbf3364f2d2787b75fa087d4377b295bf5f9c05",
       "status": "reused"
     },
     {
@@ -468,6 +480,54 @@
       "route": "/en/hosting-security/password-managers-small-business/",
       "image": "source-assets/images/articles/en/hosting-security/password-managers-small-business.jpg",
       "fingerprint": "45359344901145b1a6404435519ccb1df55ff7585e3b2cf7f99fd8afe776551e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-pricing/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-pricing.jpg",
+      "fingerprint": "9b9e71604f9468899f41728cf9f8bdaedfcd08acfcc1c36f3c85945d3ec15b05",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-pros-cons/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-pros-cons.jpg",
+      "fingerprint": "1712390c2964d61335cfe801f2d9a80464417d0b8f0bf3bfe31b52e2d8324403",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-review/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-review.jpg",
+      "fingerprint": "b189f66618e4bb7cd6d4c083a46070cc6d4f979fa5a01c71b80c1d223c1bd01c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-vs-conoha-wing/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-vs-conoha-wing.jpg",
+      "fingerprint": "1120c92e975d90d6a325223f0f6312404b302db83f1373fac0c65bf924a005d7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-vs-lolipop/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-vs-lolipop.jpg",
+      "fingerprint": "3448347ef2cd427c5f8b603550c07a5cb3dff6c65dd39a72845afd42642f43b9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-vs-mixhost/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-vs-mixhost.jpg",
+      "fingerprint": "28cc13f5b96c3eb3f2f035e6ecc9dcb7851e8413f1e9ab88442ee4407dc45ade",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-vs-xserver/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-vs-xserver.jpg",
+      "fingerprint": "a4f99eafb309ff3f2a15276aa90a06def39c652eb937e0dc8c3d048b5c2fe28f",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/shin-rental-server-wordpress/",
+      "image": "source-assets/images/articles/en/hosting-security/shin-rental-server-wordpress.jpg",
+      "fingerprint": "85864d9ce44870754eb415ef6b160d2ac7f2caf177aa258742f65af80a7b2e4f",
       "status": "reused"
     },
     {
@@ -1113,6 +1173,18 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/best-japanese-web-hosting/",
+      "image": "source-assets/images/articles/ja/hosting-security/best-japanese-web-hosting.jpg",
+      "fingerprint": "a733848e26d323fa0d9ae4e7ab19443f40884062db8bca707465cd7bff48f21f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/best-wordpress-hosting-japan/",
+      "image": "source-assets/images/articles/ja/hosting-security/best-wordpress-hosting-japan.jpg",
+      "fingerprint": "2fd77fd4d689de21268219f96c8e948cf4e188cb9ad78f886ec06f2d1c2c7200",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/bitwarden-review/",
       "image": "source-assets/images/articles/ja/hosting-security/bitwarden-review.jpg",
       "fingerprint": "7bed342b56d3dd8ffb21f4d0c8a1cabcd06dd9101fb4a7d5ee1e322b32e9766f",
@@ -1380,6 +1452,54 @@
       "route": "/ja/hosting-security/password-managers-small-business/",
       "image": "source-assets/images/articles/ja/hosting-security/password-managers-small-business.jpg",
       "fingerprint": "0b573e74f69e3cc8379ffd956f1999c430405035eff7709662d6c229025aeb3a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-pricing/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-pricing.jpg",
+      "fingerprint": "83266ad5f3bdf6a235e66e881e267865e2b72b43d02eea57c7acc8c7a3c9cb20",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-pros-cons/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-pros-cons.jpg",
+      "fingerprint": "a08e339a858934b3f4804cb6c83f2f56b8472cb20957708cb2fa7622d3629358",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-review.jpg",
+      "fingerprint": "952e9c0e77ab046f22bb439e1c28a8a8860aa97c0cef91ae5c441be2b4154c4e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-vs-conoha-wing.jpg",
+      "fingerprint": "c36176385a7eaa53a02f37acbed2d023256dca581c748388b23b6329295a79d6",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-vs-lolipop/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-vs-lolipop.jpg",
+      "fingerprint": "12f825f647edf9af72909fdc1a48512f74a90192d39f1e40eed03b1429c259a0",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-vs-mixhost/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-vs-mixhost.jpg",
+      "fingerprint": "63cb399aba0c6c0a44822a69cc63ae48ba78dd62b6b8c64d4c135842ecbcd413",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-vs-xserver.jpg",
+      "fingerprint": "a5beffd951de79ec5f9283b732fa153dca823ec0e4eaaa846e3900c812deda03",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/shin-rental-server-wordpress/",
+      "image": "source-assets/images/articles/ja/hosting-security/shin-rental-server-wordpress.jpg",
+      "fingerprint": "a3241d8af09a664f3f88ae7bee21362f6bfe8fa27161e89ad2ce6c4291a3e593",
       "status": "reused"
     },
     {

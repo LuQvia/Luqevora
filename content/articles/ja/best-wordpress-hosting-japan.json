@@ -1,0 +1,306 @@
+{
+  "id": "best-wordpress-hosting-japan-ja",
+  "translationKey": "best-wordpress-hosting-japan",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "best-wordpress-hosting-japan",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "WordPress向け国内レンタルサーバー比較｜5社の選び方【2026年】",
+  "metaTitle": "WordPress向け国内レンタルサーバー比較｜5社の選び方【2026年】",
+  "description": "シンレンタルサーバー、エックスサーバー、ConoHa WING、ロリポップ！、mixhostを料金、移行、バックアップ、速度機能、契約条件で比較します。",
+  "lead": "国内WordPressサーバーは、各社が高速性を訴求しているため、広告上の速度順位だけでは選べません。復元可能なバックアップ、移行制限、更新料金、管理画面、サポート、契約解除の柔軟性を同じ表で比較します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "シンレンタルサーバーの公式条件を確認",
+      "officialUrl": "https://www.shin-server.jp/",
+      "affiliateKey": "shin-server-evolve"
+    }
+  ],
+  "sources": [
+    {
+      "label": "シンレンタルサーバー公式サイト",
+      "url": "https://www.shin-server.jp/"
+    },
+    {
+      "label": "シンレンタルサーバー 料金",
+      "url": "https://www.shin-server.jp/service/price.php"
+    },
+    {
+      "label": "シンレンタルサーバー 機能一覧",
+      "url": "https://www.shin-server.jp/service/functions.php"
+    },
+    {
+      "label": "シンレンタルサーバー 特長",
+      "url": "https://www.shin-server.jp/service/feature.php"
+    },
+    {
+      "label": "シンレンタルサーバー ビジネスプラン",
+      "url": "https://www.shin-server.jp/service/business.php"
+    },
+    {
+      "label": "シンレンタルサーバー 自動バックアップ",
+      "url": "https://www.shin-server.jp/service/detail_backup.php"
+    },
+    {
+      "label": "WordPressクイックスタート FAQ",
+      "url": "https://www.shin-server.jp/support/faq/contract_new_wordpress_plan.php"
+    },
+    {
+      "label": "WordPress簡単移行マニュアル",
+      "url": "https://www.shin-server.jp/support/manual/man_install_transfer_wp.php"
+    },
+    {
+      "label": "シンレンタルサーバー 利用規約",
+      "url": "https://www.shin-server.jp/rule.php"
+    },
+    {
+      "label": "エックスサーバー 料金",
+      "url": "https://www.xserver.ne.jp/price/"
+    },
+    {
+      "label": "エックスサーバー 自動バックアップ",
+      "url": "https://www.xserver.ne.jp/functions/service_backup.php"
+    },
+    {
+      "label": "エックスサーバー WordPress運用機能",
+      "url": "https://www.xserver.ne.jp/feature/wordpress_reasons.php"
+    },
+    {
+      "label": "ConoHa WING 料金",
+      "url": "https://www.conoha.jp/pricing/"
+    },
+    {
+      "label": "ConoHa WING リソース",
+      "url": "https://www.conoha.jp/wing/function/resource/"
+    },
+    {
+      "label": "ConoHa WING ビジネスプラン",
+      "url": "https://www.conoha.jp/wing/business/"
+    },
+    {
+      "label": "ロリポップ！料金",
+      "url": "https://lolipop.jp/pricing/"
+    },
+    {
+      "label": "ロリポップ！機能一覧",
+      "url": "https://lolipop.jp/service/specs/"
+    },
+    {
+      "label": "ロリポップ！サーバー仕様",
+      "url": "https://lolipop.jp/service/server-spec/"
+    },
+    {
+      "label": "mixhost公式サイト・料金",
+      "url": "https://mixhost.jp/"
+    },
+    {
+      "label": "mixhost更新料金改定",
+      "url": "https://mixhost.jp/news/1736"
+    },
+    {
+      "label": "mixhost利用規約",
+      "url": "https://mixhost.jp/tos/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：用途別の第一候補",
+      "body": [
+        "大容量と新技術ならシンレンタルサーバー、実績と標準性ならエックスサーバー、短期課金の柔軟性ならConoHa WING、低価格から段階的に始めるならロリポップ！、LiteSpeedとWordPress管理機能ならmixhostが比較候補です。",
+        "どのサービスもプランや契約期間で条件が変わります。最安価格だけでなく、更新料金、復元、移行、ドメイン、管理画面、サポートを同じ用途で比較します。"
+      ],
+      "affiliateMaterialKey": "shin-server-long"
+    },
+    {
+      "heading": "5サービス比較",
+      "body": [
+        "数値は2026年7月19日に確認した公式情報を基準とし、キャンペーンは除外または別扱いにします。"
+      ],
+      "table": {
+        "headers": [
+          "サービス",
+          "強み",
+          "注意点",
+          "向く用途"
+        ],
+        "rows": [
+          [
+            "シンレンタルサーバー",
+            "大容量・WordPress・14日バックアップ",
+            "長期一括前払い",
+            "複数サイト・画像多め"
+          ],
+          [
+            "エックスサーバー",
+            "実績・情報量・標準機能",
+            "短期解約には不向き",
+            "長期ブログ・企業サイト"
+          ],
+          [
+            "ConoHa WING",
+            "通常料金とWINGパック",
+            "特典条件が料金方式で違う",
+            "短期検証・長期運用"
+          ],
+          [
+            "ロリポップ！",
+            "低価格からプランが豊富",
+            "機能がプランで異なる",
+            "初心者・小規模サイト"
+          ],
+          [
+            "mixhost",
+            "LiteSpeed・WordPress管理",
+            "初回と更新料金が違う",
+            "開発・テスト運用"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "SEOで重要なのはサーバー名ではない",
+      "body": [
+        "サーバー変更だけで順位が上がる保証はありません。クロール安定性、稼働、表示速度、Core Web Vitals、エラー率は技術基盤ですが、検索意図、独自情報、内部リンク、サイト構造、外部評価も必要です。速度改善は同一サイトの変更前後で測定します。"
+      ]
+    },
+    {
+      "heading": "基本仕様と料金の読み方",
+      "body": [
+        "通常プランはベーシック、スタンダード、プレミアムの3段階です。公式機能一覧では36か月契約時の通常月額換算が1,078円、2,002円、4,004円と案内されています。表示される月額は契約期間分を月割りした金額で、支払いは契約期間分の一括前払いです。",
+        "キャンペーンでは割引やキャッシュバックが行われますが、更新時の負担を判断するには通常の更新料金を基準にします。初年度の実質価格だけでなく、2回目以降の支払額、ドメイン特典の維持条件、解約手続きの期限まで確認してください。"
+      ],
+      "table": {
+        "headers": [
+          "プラン",
+          "36か月契約の通常月額換算",
+          "vCPU・メモリ",
+          "NVMe容量"
+        ],
+        "rows": [
+          [
+            "ベーシック",
+            "1,078円",
+            "6コア・8GB",
+            "700GB"
+          ],
+          [
+            "スタンダード",
+            "2,002円",
+            "8コア・12GB",
+            "1,000GB"
+          ],
+          [
+            "プレミアム",
+            "4,004円",
+            "10コア・16GB",
+            "1,200GB"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "WordPressと移行機能",
+      "body": [
+        "新規契約時のWordPressクイックスタートは、WordPress設置、独自SSL設定、ドメイン取得・設定をまとめて行います。ただし申込みと同時に料金が発生し、10日間無料のお試しは利用できません。無料期間で管理画面を確認したい場合は通常申込みとの違いを理解して選びます。",
+        "WordPress簡単移行は、移行元URLとログイン情報を使って他社サーバーから移行する機能です。マルチサイト、2GBを超えるデータベース、WordPress.com、特殊な本体構成などは対象外になる場合があります。.htaccessやwp-content外のデータも自動移行されないため、公開前に差分を確認します。"
+      ]
+    },
+    {
+      "heading": "バックアップと復旧",
+      "body": [
+        "全プランでWeb・メールデータとMySQLデータベースを1日1回保存し、過去14日分を保持すると案内されています。自動取得されていても、復元対象、復元単位、反映時間、DNSや外部ストレージのデータは別管理です。",
+        "更新前、テーマ変更前、プラグイン追加前、移行前には、サーバー側バックアップとは別に自分でもファイルとデータベースを取得します。バックアップが存在することと、必要時間内に復元できることは別なので、テスト環境で復旧手順を確認してください。"
+      ]
+    },
+    {
+      "heading": "速度表現を評価する方法",
+      "body": [
+        "公式サイトは国内最速No.1と案内していますが、2026年6月30日の自社調査で、選定した国内6サービス・プランをh2loadで5回計測した結果です。速度順位は測定対象、同時接続、キャッシュ、PHP処理、データベース、地域によって変わります。",
+        "実サイトではテーマ、画像、広告タグ、外部フォント、プラグイン、アクセス集中、管理画面の処理も影響します。契約後は同じサイトを使い、TTFB、LCP、管理画面応答、バックアップ時間、負荷時エラーを測定して判断します。"
+      ]
+    },
+    {
+      "heading": "契約前チェックリスト",
+      "body": [
+        "長期契約を選ぶ前に、必要容量、WordPress数、メール数、バックアップ復元、サポート窓口、請求方法、契約更新、自動更新、移行対象外データを確認します。法人利用では担当者退職時のアカウント移管、二要素認証、権限分離、障害連絡の受信先も決めます。"
+      ],
+      "bullets": [
+        "通常更新料金と契約期間分の総額を確認する",
+        "無料お試しとWordPressクイックスタートの併用可否を確認する",
+        "簡単移行の対象外データを手動で保全する",
+        "14日分バックアップから復元する手順を試す",
+        "独自ドメイン特典の対象種類と維持条件を確認する",
+        "速度は自社サイトの実測で判断する"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "シンレンタルサーバーには無料お試しがありますか？",
+      "answer": "通常申込みでは10日間無料のお試しが案内されています。ただしWordPressクイックスタートは申込みと同時に支払いが発生し、無料お試しの対象外です。"
+    },
+    {
+      "question": "自動バックアップは何日分ですか？",
+      "answer": "公式情報ではWeb・メールデータとMySQLデータベースを1日1回保存し、過去14日分を保持します。外部サービスやDNSなどは別途保全してください。"
+    },
+    {
+      "question": "長期契約の月額表示は毎月払いですか？",
+      "answer": "月額は契約期間分の料金を1か月あたりに換算した表示です。契約期間分を一括前払いするため、申込画面の支払総額を確認してください。"
+    },
+    {
+      "question": "WordPress簡単移行ですべて移せますか？",
+      "answer": "いいえ。.htaccess、wp-content外のデータ、特殊構成、外部メールやDNSなどは別途確認が必要です。移行後にフォームや通知もテストしてください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "シンレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/shin-rental-server-review/",
+      "description": "料金・機能・注意点を公式情報で確認"
+    },
+    {
+      "label": "シンレンタルサーバー料金比較",
+      "url": "/ja/hosting-security/shin-rental-server-pricing/",
+      "description": "通常版とビジネス版を比較"
+    },
+    {
+      "label": "WordPress設定・移行ガイド",
+      "url": "/ja/hosting-security/shin-rental-server-wordpress/",
+      "description": "新規設置と移行手順を確認"
+    },
+    {
+      "label": "メリット・デメリット",
+      "url": "/ja/hosting-security/shin-rental-server-pros-cons/",
+      "description": "契約前の判断材料を整理"
+    },
+    {
+      "label": "シンレンタルサーバーとエックスサーバー",
+      "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+      "description": "同一運営会社の2サービスを比較"
+    },
+    {
+      "label": "シンレンタルサーバーとConoHa WING",
+      "url": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
+      "description": "料金体系と運用方法を比較"
+    },
+    {
+      "label": "シンレンタルサーバーとロリポップ！",
+      "url": "/ja/hosting-security/shin-rental-server-vs-lolipop/",
+      "description": "初心者向けプランを比較"
+    },
+    {
+      "label": "シンレンタルサーバーとmixhost",
+      "url": "/ja/hosting-security/shin-rental-server-vs-mixhost/",
+      "description": "更新料金とWordPress機能を比較"
+    }
+  ]
+}
