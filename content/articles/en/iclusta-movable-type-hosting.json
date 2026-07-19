@@ -1,0 +1,193 @@
+{
+  "id": "iclusta-movable-type-hosting-en",
+  "translationKey": "iclusta-movable-type-hosting",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "iclusta-movable-type-hosting",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official-source review",
+  "title": "iCLUSTA+ for Movable Type: Licensing and Caveats",
+  "metaTitle": "iCLUSTA+ for Movable Type: Licensing and Caveats",
+  "description": "iCLUSTA+ for Movable Type: Licensing and Caveats. Review official pricing, SLA, support, CMS, and contract terms.",
+  "lead": "iCLUSTA+ can be attractive for commercial Movable Type use because Regular and Pro include one commercial user license.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check iCLUSTA+ byGMO",
+      "officialUrl": "https://shared.gmocloud.com/iclusta/",
+      "affiliateKey": "iclusta-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "iCLUSTA+ official site",
+      "url": "https://shared.gmocloud.com/iclusta/"
+    },
+    {
+      "label": "iCLUSTA+ pricing",
+      "url": "https://shared.gmocloud.com/iclusta/price/"
+    },
+    {
+      "label": "iCLUSTA+ features",
+      "url": "https://shared.gmocloud.com/iclusta/function/"
+    },
+    {
+      "label": "iCLUSTA+ SLA",
+      "url": "https://shared.gmocloud.com/iclusta/sla/"
+    },
+    {
+      "label": "iCLUSTA+ 30日間refund guarantee",
+      "url": "https://shared.gmocloud.com/30day.html"
+    },
+    {
+      "label": "iCLUSTA+ WordPress",
+      "url": "https://shared.gmocloud.com/iclusta/option/wordpress/"
+    },
+    {
+      "label": "iCLUSTA+ Movable Type",
+      "url": "https://shared.gmocloud.com/iclusta/option/movabletype/"
+    },
+    {
+      "label": "iCLUSTA+ surcharge",
+      "url": "https://shared.gmocloud.com/iclusta/price/surcharge/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line",
+      "body": [
+        "iCLUSTA+ can be attractive for commercial Movable Type use because Regular and Pro include one commercial user license."
+      ]
+    },
+    {
+      "heading": "Plan licensing",
+      "body": [
+        "Mini requires a paid license arrangement, while Regular and Pro include one user license."
+      ]
+    },
+    {
+      "heading": "Installation requirements",
+      "body": [
+        "Automatic installation is available, but MySQL requires a separate application."
+      ]
+    },
+    {
+      "heading": "Maintenance and users",
+      "body": [
+        "Unlimited users and vendor maintenance require additional terms and fees."
+      ]
+    },
+    {
+      "heading": "Before purchasing",
+      "body": [
+        "Confirm user count, maintenance, migration, backup, and database requirements."
+      ]
+    },
+    {
+      "heading": "Commercial license scope",
+      "body": [
+        "The included commercial license on Regular and Pro is a one-user license. Teams that need multiple editors, vendor maintenance, or broader product support should price the relevant annual maintenance and license terms before choosing a plan.",
+        "Do not assume that every additional domain or installation is covered by the included license. Confirm the number of permitted installations and users for the intended architecture."
+      ]
+    },
+    {
+      "heading": "Database and deployment",
+      "body": [
+        "Movable Type auto-installation is available, but MySQL requires a separate application. Administrators should confirm database version, character encoding, scheduled tasks, static publishing paths, file permissions, and backup procedures.",
+        "For an existing site, test templates, plugins, asset paths, redirects, search, forms, and scheduled publishing in a non-production environment before changing DNS."
+      ]
+    },
+    {
+      "heading": "Maintenance and security",
+      "body": [
+        "A commercial CMS still requires product updates, access control, logging, backups, and vulnerability response. The optional maintenance and security services should be compared with internal administrator capacity.",
+        "WordPress may have a larger ecosystem, while Movable Type can suit organizations that prefer static publishing and controlled editorial workflows. Choose based on governance and maintenance requirements, not license cost alone."
+      ]
+    },
+    {
+      "heading": "Procurement checklist",
+      "body": [
+        "Before approval, obtain a written quotation or save the checkout summary. Record the plan, contract term, surcharge, domain registration and renewal, certificate options, migration assistance, restore fees, and cancellation procedure. Assign an owner for DNS, mail, CMS updates, backups, and incident communication.",
+        "Run a non-production test using the expected number of domains, mailboxes, databases, scheduled jobs, and administrator accounts. Measure migration time, confirm outbound and inbound mail, test a backup restoration, and document the rollback path before changing production DNS."
+      ]
+    },
+    {
+      "heading": "Security and governance",
+      "body": [
+        "Provider controls do not replace customer governance. Use named administrator accounts, multifactor authentication where available, least-privilege access, current CMS components, external backups, and a documented offboarding process. Review logs and provider notices regularly.",
+        "For regulated or sensitive workloads, confirm data location, subprocessors, retention, access records, vulnerability handling, and contractual responsibilities with the provider. A shared hosting plan may be suitable for a public website but not for every application or data classification."
+      ]
+    },
+    {
+      "heading": "Ongoing review",
+      "body": [
+        "Recheck pricing and specifications at renewal because surcharges, capacity, supported software, and campaign terms can change. Compare the actual annual invoice and support usage with the original estimate.",
+        "Track uptime, page performance, mail delivery, restore tests, support response, and administrator effort. These operating measurements provide a better renewal decision than marketing claims alone."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is iCLUSTA+ intended for business use?",
+      "answer": "Yes. Its positioning, SLA, mail, SSL, and support options target organizational website operations."
+    },
+    {
+      "question": "Should buyers compare only the monthly fee?",
+      "answer": "No. Include surcharges, domains, options, migration, recovery, and commitment terms."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Business web hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Compare business hosting options"
+    },
+    {
+      "label": "CPI hosting review",
+      "url": "/en/hosting-security/cpi-rental-server-review/",
+      "description": "Review business hosting operations"
+    },
+    {
+      "label": "XServer for WordPress review",
+      "url": "/en/hosting-security/xserver-for-wordpress-review/",
+      "description": "Compare managed WordPress hosting"
+    },
+    {
+      "label": "iCLUSTA+ vs CPI",
+      "url": "/en/hosting-security/iclusta-vs-cpi/",
+      "description": "Compare SLA, support, and pricing"
+    },
+    {
+      "label": "SLA web hosting comparison",
+      "url": "/en/hosting-security/sla-web-hosting-comparison/",
+      "description": "Review guarantees and credits"
+    },
+    {
+      "label": "JETBOY review",
+      "url": "/en/hosting-security/jetboy-review/",
+      "description": "Review pricing, LiteSpeed, cPanel, and constraints"
+    },
+    {
+      "label": "JETBOY vs XServer for WordPress",
+      "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "Compare operations and support"
+    },
+    {
+      "label": "LiteSpeed hosting comparison",
+      "url": "/en/hosting-security/litespeed-hosting-comparison/",
+      "description": "Compare server stack and cache workflow"
+    },
+    {
+      "label": "cPanel hosting comparison",
+      "url": "/en/hosting-security/cpanel-hosting-comparison/",
+      "description": "Compare control panels and portability"
+    }
+  ]
+}

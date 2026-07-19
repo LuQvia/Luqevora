@@ -1,0 +1,172 @@
+{
+  "id": "iclusta-movable-type-hosting-ja",
+  "translationKey": "iclusta-movable-type-hosting",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "iclusta-movable-type-hosting",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "iCLUSTA+のMovable Type対応｜料金・ライセンス・注意点",
+  "metaTitle": "iCLUSTA+のMovable Type対応｜料金・ライセンス・注意点",
+  "description": "iCLUSTA+でMovable Typeを使う場合のライセンス、自動インストール、MySQL、保守費用を公式情報で解説します。",
+  "lead": "レギュラーとプロではMovable Type商用1ユーザー版が無料ですが、無制限ユーザーや年間メンテナンスには追加費用があります。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "iCLUSTA+ byGMOの詳細",
+      "officialUrl": "https://shared.gmocloud.com/iclusta/",
+      "affiliateKey": "iclusta-movabletype"
+    }
+  ],
+  "sources": [
+    {
+      "label": "iCLUSTA+ 公式サイト",
+      "url": "https://shared.gmocloud.com/iclusta/"
+    },
+    {
+      "label": "iCLUSTA+ 料金",
+      "url": "https://shared.gmocloud.com/iclusta/price/"
+    },
+    {
+      "label": "iCLUSTA+ 機能一覧",
+      "url": "https://shared.gmocloud.com/iclusta/function/"
+    },
+    {
+      "label": "iCLUSTA+ SLA",
+      "url": "https://shared.gmocloud.com/iclusta/sla/"
+    },
+    {
+      "label": "iCLUSTA+ 30日間返金保証",
+      "url": "https://shared.gmocloud.com/30day.html"
+    },
+    {
+      "label": "iCLUSTA+ WordPress",
+      "url": "https://shared.gmocloud.com/iclusta/option/wordpress/"
+    },
+    {
+      "label": "iCLUSTA+ Movable Type",
+      "url": "https://shared.gmocloud.com/iclusta/option/movabletype/"
+    },
+    {
+      "label": "iCLUSTA+ サーチャージ",
+      "url": "https://shared.gmocloud.com/iclusta/price/surcharge/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "Movable Typeを法人サイトで使い、商用ライセンス費用を抑えたい場合にiCLUSTA+は有力です。"
+      ],
+      "affiliateMaterialKey": "iclusta-movabletype"
+    },
+    {
+      "heading": "プラン別ライセンス",
+      "body": [
+        "レギュラーとプロは商用1ユーザー版が無料です。ミニや追加マルチドメインでは月額費用が発生します。"
+      ],
+      "table": {
+        "headers": [
+          "プラン",
+          "商用ライセンス"
+        ],
+        "rows": [
+          [
+            "ミニ",
+            "有料"
+          ],
+          [
+            "レギュラー",
+            "1ユーザー版1個無料"
+          ],
+          [
+            "プロ",
+            "1ユーザー版1個無料"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "導入条件",
+      "body": [
+        "自動インストールに対応しますが、MySQLの利用には別途申込みが必要です。複数ユーザー、アップデート支援、製品サポートは年間メンテナンスの条件を確認します。"
+      ]
+    },
+    {
+      "heading": "WordPressとの違い",
+      "body": [
+        "静的生成や承認フローを重視する法人ではMovable Typeが候補になります。プラグインの豊富さや一般的な制作人材の多さではWordPressも比較してください。"
+      ]
+    },
+    {
+      "heading": "契約前チェック",
+      "body": [
+        "ライセンス数、ユーザー数、MySQL、保守、移行、バックアップを確認します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Movable Typeは全プランで無料ですか？",
+      "answer": "レギュラーとプロの商用1ユーザー版は無料です。ミニや追加利用には費用が発生します。"
+    },
+    {
+      "question": "複数ユーザーで使えますか？",
+      "answer": "標準無料ライセンスは1ユーザー版です。無制限化には年間メンテナンス等の条件を確認してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "CPIやXServer系と比較"
+    },
+    {
+      "label": "CPIレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/cpi-rental-server-review/",
+      "description": "法人向け機能と運用条件を確認"
+    },
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "WordPress専用運用と比較"
+    },
+    {
+      "label": "iCLUSTA+とCPIの比較",
+      "url": "/ja/hosting-security/iclusta-vs-cpi/",
+      "description": "SLA、サポート、料金を比較"
+    },
+    {
+      "label": "SLA付きレンタルサーバー比較",
+      "url": "/ja/hosting-security/sla-web-hosting-comparison/",
+      "description": "保証範囲と返金条件を確認"
+    },
+    {
+      "label": "JETBOYレビュー",
+      "url": "/ja/hosting-security/jetboy-review/",
+      "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "JETBOYとXServer for WordPressの比較",
+      "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "LiteSpeed対応サーバー比較",
+      "url": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "description": "Webサーバーとキャッシュ運用を比較"
+    },
+    {
+      "label": "cPanel対応サーバー比較",
+      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "description": "管理画面と移行性を比較"
+    }
+  ]
+}

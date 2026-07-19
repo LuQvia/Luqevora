@@ -1,17 +1,17 @@
 {
   "featuredComparisons": [
-    "goope-vs-wix",
-    "store-website-builder-comparison",
-    "beauty-salon-website-builder-comparison",
-    "reservation-website-builder-comparison",
-    "xserver-shop-vs-shopify"
+    "color-me-shop-vs-shopify",
+    "color-me-shop-vs-xserver-shop",
+    "japanese-ecommerce-platform-seo-comparison",
+    "xserver-shop-vs-shopify",
+    "fixed-fee-ecommerce-platform-comparison"
   ],
   "featuredReviews": [
-    "goope-review",
+    "color-me-shop-review",
+    "color-me-shop-seo-guide",
     "xserver-shop-review",
-    "xserver-for-wordpress-review",
-    "cpi-rental-server-review",
-    "shopify-review",
-    "semrush-review"
+    "goope-review",
+    "jetboy-review",
+    "iclusta-review"
   ]
 }

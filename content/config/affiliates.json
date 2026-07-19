@@ -143,6 +143,179 @@
       "language": "ja",
       "destination": "https://goope.jp/",
       "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B844Z+AM8BX6+348+1UFJOI\" rel=\"nofollow\">便利な予約機能もあります◎ホームページ作成サービス「グーペ」</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B844Z+AM8BX6+348+1UFJOI\" alt=\"\">"
+    },
+    "iclusta": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012042007",
+      "language": "ja",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8450+EDZ5UI+2KX0+161F0Y\" rel=\"nofollow\">レンタルサーバー「iCLUSTA+ byGMO」</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B8450+EDZ5UI+2KX0+161F0Y\" alt=\"\">"
+    },
+    "iclusta-corporate": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012042007",
+      "language": "ja",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8450+EDZ5UI+2KX0+15VUEQ\" rel=\"nofollow\">法人向けレンタルサーバー「iCLUSTA+ byGMO」の詳細はこちら</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B8450+EDZ5UI+2KX0+15VUEQ\" alt=\"\">"
+    },
+    "iclusta-ssl": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012042007",
+      "language": "ja",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8450+EDZ5UI+2KX0+15VMOY\" rel=\"nofollow\">独自SSLずっと無料！レンタルサーバー「iCLUSTA+ byGMO」の詳細はこちら</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B8450+EDZ5UI+2KX0+15VMOY\" alt=\"\">"
+    },
+    "iclusta-sla": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012042007",
+      "language": "ja",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8450+EDZ5UI+2KX0+15W24I\" rel=\"nofollow\">稼働率100%保証＆無料SSL レンタルサーバならiCLUSTA+ byGMO！詳しくはこちら</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B8450+EDZ5UI+2KX0+15W24I\" alt=\"\">"
+    },
+    "iclusta-wordpress": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012042007",
+      "language": "ja",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8450+EDZ5UI+2KX0+15WHK2\" rel=\"nofollow\">WordPressに最適！レンタルサーバーiCLUSTA+ byGMO！詳しくはこちら</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B8450+EDZ5UI+2KX0+15WHK2\" alt=\"\">"
+    },
+    "iclusta-movabletype": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012042007",
+      "language": "ja",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8450+EDZ5UI+2KX0+1617B6\" rel=\"nofollow\">Movable Type商用利用可！レンタルサーバー「iCLUSTA+ byGMO」</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B8450+EDZ5UI+2KX0+1617B6\" alt=\"\">"
+    },
+    "iclusta-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://shared.gmocloud.com/iclusta/",
+      "url": "https://shared.gmocloud.com/iclusta/"
+    },
+    "jetboy": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SS7GY\" rel=\"nofollow\">JETBOY</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SS7GY\" alt=\"\">"
+    },
+    "jetboy-rental": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SNX5E\" rel=\"nofollow\">【JETBOYレンタルサーバー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SNX5E\" alt=\"\">"
+    },
+    "jetboy-ssd": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SO4V6\" rel=\"nofollow\">月額980円・高速SSD【JETBOYレンタルサーバー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SO4V6\" alt=\"\">"
+    },
+    "jetboy-wp-tuned": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SR4W2\" rel=\"nofollow\">WordPress専用チューニング高速SSD【JETBOYレンタルサーバー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SR4W2\" alt=\"\">"
+    },
+    "jetboy-wp-highspec": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SRCLU\" rel=\"nofollow\">WordPressでハイスペックな【JETBOYレンタルサーバー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SRCLU\" alt=\"\">"
+    },
+    "jetboy-wp-onetouch": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SRKBM\" rel=\"nofollow\">ワンタッチでWordPress作成・月額980円高速SSD【JETBOYレンタルサーバー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SRKBM\" alt=\"\">"
+    },
+    "jetboy-long": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000002979029",
+      "language": "ja",
+      "destination": "https://www.jetboy.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+1PBOUY+MZI+4SRZR6\" rel=\"nofollow\">JETBOYレンタルサーバー</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B8451+1PBOUY+MZI+4SRZR6\" alt=\"\">"
+    },
+    "jetboy-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.jetboy.jp/",
+      "url": "https://www.jetboy.jp/"
+    },
+    "color-me-shop-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "all",
+      "destination": "https://shop-pro.jp/",
+      "url": "https://shop-pro.jp/"
+    },
+    "color-me-shop-review": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000012003",
+      "language": "ja",
+      "destination": "https://shop-pro.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+I2PXE\" rel=\"nofollow\">カラーミーショップの料金・機能・30日間無料体験を公式ページで確認する</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+I2PXE\" alt=\"\">"
+    },
+    "color-me-shop-vs-shopify": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000012003",
+      "language": "ja",
+      "destination": "https://shop-pro.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+IPNJM\" rel=\"nofollow\">国内向けネットショップ運営を重視する方は、カラーミーショップの機能と料金を確認する</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+IPNJM\" alt=\"\">"
+    },
+    "color-me-shop-vs-xserver-shop": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000012003",
+      "language": "ja",
+      "destination": "https://shop-pro.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+IZARM\" rel=\"nofollow\">SaaS型の運用しやすさを重視する方は、カラーミーショップの詳細を確認する</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+IZARM\" alt=\"\">"
+    },
+    "color-me-shop-seo-comparison": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000012003",
+      "language": "ja",
+      "destination": "https://shop-pro.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+IWQ6A\" rel=\"nofollow\">国産ネットショップ作成サービスを比較中の方は、カラーミーショップのSEO・集客機能を確認する</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+IWQ6A\" alt=\"\">"
+    },
+    "color-me-shop-seo-guide": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000012003",
+      "language": "ja",
+      "destination": "https://shop-pro.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+IZQ76\" rel=\"nofollow\">カラーミーショップで商品・カテゴリSEOを実践する前に、利用できる機能を確認する</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+IZQ76\" alt=\"\">"
+    },
+    "color-me-shop-trial": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000000012003",
+      "language": "ja",
+      "destination": "https://shop-pro.jp/",
+      "rawHtml": "ネットショップ開業は、30日間お試し無料の <A href=\"https://px.a8.net/svt/ejp?a8mat=4B8451+2VLGT6+348+I0SHE\" rel=\"nofollow\">カラーミーショップ</A> で！\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B8451+2VLGT6+348+I0SHE\" alt=\"\">"
     }
   },
   "rules": {

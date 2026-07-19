@@ -59,5 +59,22 @@
       "question": "Gmailで使えますか？",
       "answer": "Google Workspace、または対応するSMTP・IMAP設定で利用できます。"
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "iCLUSTA+ byGMOレビュー",
+      "url": "/ja/hosting-security/iclusta-review/",
+      "description": "SLA、SSL、メール、料金を確認"
+    },
+    {
+      "label": "iCLUSTA+とCPIの比較",
+      "url": "/ja/hosting-security/iclusta-vs-cpi/",
+      "description": "法人サーバーの運用条件を比較"
+    },
+    {
+      "label": "法人向けSLA付きサーバー比較",
+      "url": "/ja/hosting-security/business-hosting-sla-comparison/",
+      "description": "保証対象と返金条件を比較"
+    }
   ]
 }

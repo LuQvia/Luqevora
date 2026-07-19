@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-18T22:47:21.785Z",
+  "generatedAt": "2026-07-19T03:43:39.884Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 276,
+  "imageCount": 304,
   "generatedCount": 0,
-  "reusedCount": 276,
+  "reusedCount": 304,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -207,6 +207,12 @@
       "status": "reused"
     },
     {
+      "route": "/en/hosting-security/business-hosting-sla-comparison/",
+      "image": "source-assets/images/articles/en/hosting-security/business-hosting-sla-comparison.jpg",
+      "fingerprint": "ac53d6c5b1271331ffd73a74685eafbd3ec47e9147795122551a5fc9f3b32a1c",
+      "status": "reused"
+    },
+    {
       "route": "/en/hosting-security/business-web-hosting-comparison/",
       "image": "source-assets/images/articles/en/hosting-security/business-web-hosting-comparison.jpg",
       "fingerprint": "97e750063dd769329573d4e1b86f3c7a7ad251f84b64386f9ece4d161fa0bfcd",
@@ -246,6 +252,12 @@
       "route": "/en/hosting-security/conoha-wing-review/",
       "image": "source-assets/images/articles/en/hosting-security/conoha-wing-review.jpg",
       "fingerprint": "0d3e27c90601b3ca3a7ffa4ef3c9800a460a256360eeac9f6a8466f94df73ef3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/cpanel-hosting-comparison/",
+      "image": "source-assets/images/articles/en/hosting-security/cpanel-hosting-comparison.jpg",
+      "fingerprint": "650622a0eb20c32d13d1abbe99d777c2da59a9332c4cc498e4aee18cb0e3ae75",
       "status": "reused"
     },
     {
@@ -321,9 +333,45 @@
       "status": "reused"
     },
     {
+      "route": "/en/hosting-security/iclusta-movable-type-hosting/",
+      "image": "source-assets/images/articles/en/hosting-security/iclusta-movable-type-hosting.jpg",
+      "fingerprint": "2196bbd3f0b154a4fa3564c15723d78d2377ebcc9eacd24c3d17658d57cbaf68",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/iclusta-review/",
+      "image": "source-assets/images/articles/en/hosting-security/iclusta-review.jpg",
+      "fingerprint": "6b73b53f4c13347b85237f7e75df4064977ca840a56809ce09903ff5bd3a403c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/iclusta-vs-cpi/",
+      "image": "source-assets/images/articles/en/hosting-security/iclusta-vs-cpi.jpg",
+      "fingerprint": "3f889d08ad6d3690c0ef053b5750f55a2c8a98ca6fa95ae0a19da646eb8a4a9e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/iclusta-vs-xserver-for-wordpress/",
+      "image": "source-assets/images/articles/en/hosting-security/iclusta-vs-xserver-for-wordpress.jpg",
+      "fingerprint": "f3a7679d5dfafebf42aa058e347a39db60cefdd852a305c8b34e6d3f8f47abed",
+      "status": "reused"
+    },
+    {
       "route": "/en/hosting-security/jetboy-review/",
       "image": "source-assets/images/articles/en/hosting-security/jetboy-review.jpg",
       "fingerprint": "e721237130531d62ca44e7e14849844df3f2a420f76f710b3af5fdd55af0acfe",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/jetboy-vs-hostinger/",
+      "image": "source-assets/images/articles/en/hosting-security/jetboy-vs-hostinger.jpg",
+      "fingerprint": "ff17b365aab4dde830c6b746dfff6e9c1809514b6b44c8cddd4abd2236744835",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "image": "source-assets/images/articles/en/hosting-security/jetboy-vs-xserver-for-wordpress.jpg",
+      "fingerprint": "6b06d460a952d5d74be9a95e1dc2c3840cce9c75a317376a3bcc9dd6d0711be2",
       "status": "reused"
     },
     {
@@ -360,6 +408,12 @@
       "route": "/en/hosting-security/kinsta-vs-wp-engine/",
       "image": "source-assets/images/articles/en/hosting-security/kinsta-vs-wp-engine.jpg",
       "fingerprint": "9c7f8573ca0ef94d3fa81da539fb092e99890d8f3f31eb99898c7b6b7f7186d8",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/litespeed-hosting-comparison/",
+      "image": "source-assets/images/articles/en/hosting-security/litespeed-hosting-comparison.jpg",
+      "fingerprint": "cc0ed881021f182eca3001ba3fe3aac80c1efae69b9d57d64d3226a1e0138ffd",
       "status": "reused"
     },
     {
@@ -717,6 +771,30 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/color-me-shop-review/",
+      "image": "source-assets/images/articles/en/website-builders/color-me-shop-review.jpg",
+      "fingerprint": "c16b75342bba06c5d0379bc8b3a596458092935b8daf5957ba66ed01b3ae5f5e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/color-me-shop-seo-guide/",
+      "image": "source-assets/images/articles/en/website-builders/color-me-shop-seo-guide.jpg",
+      "fingerprint": "c8321f96b61977b1d8b9da01f246a7a097061aa33959feb9ab8ab9f6e399dc82",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/color-me-shop-vs-shopify/",
+      "image": "source-assets/images/articles/en/website-builders/color-me-shop-vs-shopify.jpg",
+      "fingerprint": "ea45568a320ae38172a675c7aa8a0113de0d3887c1efb3996e74e18fd3a7cbaf",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/color-me-shop-vs-xserver-shop/",
+      "image": "source-assets/images/articles/en/website-builders/color-me-shop-vs-xserver-shop.jpg",
+      "fingerprint": "295bb0059c28f8f9e30b273765444f596cc37bf966af7042490958efdeca279b",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
       "image": "source-assets/images/articles/en/website-builders/fixed-fee-ecommerce-platform-comparison.jpg",
       "fingerprint": "a3bc8aeff05f8bfab6813efc217712675b7ce36f75a0ade8edfecd82675ccca9",
@@ -738,6 +816,12 @@
       "route": "/en/website-builders/hostinger-website-builder-review/",
       "image": "source-assets/images/articles/en/website-builders/hostinger-website-builder-review.jpg",
       "fingerprint": "38c3a8e36107d761c5fb9141d327b29b8bcdb31c0d63105b6e857dacf24dc6d5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/japanese-ecommerce-platform-seo-comparison/",
+      "image": "source-assets/images/articles/en/website-builders/japanese-ecommerce-platform-seo-comparison.jpg",
+      "fingerprint": "3a575536211be8747fdc807cb4ae2933a68ad60ad96c95f8d978d4faa1fe81f4",
       "status": "reused"
     },
     {
@@ -1035,6 +1119,12 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/business-hosting-sla-comparison/",
+      "image": "source-assets/images/articles/ja/hosting-security/business-hosting-sla-comparison.jpg",
+      "fingerprint": "0e17aca86cb513c5dd01bb82f01e12c2969d79ecdef4e31ec6be3a9c8bd36606",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/business-web-hosting-comparison/",
       "image": "source-assets/images/articles/ja/hosting-security/business-web-hosting-comparison.jpg",
       "fingerprint": "622e63749f6cd29b5fce95c4ceaab05f7bc3fb28c2401d1fba97c0598fdf916b",
@@ -1074,6 +1164,12 @@
       "route": "/ja/hosting-security/conoha-wing-review/",
       "image": "source-assets/images/articles/ja/hosting-security/conoha-wing-review.jpg",
       "fingerprint": "b99a7998e43ff1431fdc482cf57a819eb8ea2d6ba934acb7a80a035e761be214",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "image": "source-assets/images/articles/ja/hosting-security/cpanel-hosting-comparison.jpg",
+      "fingerprint": "b6bcb1a5efad5a8543b54b2bc67e37771908a514c33d03a168f226cc61b6462b",
       "status": "reused"
     },
     {
@@ -1149,9 +1245,45 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/iclusta-movable-type-hosting/",
+      "image": "source-assets/images/articles/ja/hosting-security/iclusta-movable-type-hosting.jpg",
+      "fingerprint": "8deec85deab053baf2323ee6cd3193b95fb09e60d647589ad17509bdf67b486f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/iclusta-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/iclusta-review.jpg",
+      "fingerprint": "3e3dbcd8d39b2b6e8dca545be95e3c4adbe83409c67297ab9b61cbf2ca335f4a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/iclusta-vs-cpi/",
+      "image": "source-assets/images/articles/ja/hosting-security/iclusta-vs-cpi.jpg",
+      "fingerprint": "1acb07ab8cec2afa104287e717e12bfb7660fb36711bdae7e47dc5d11ba09e1e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+      "image": "source-assets/images/articles/ja/hosting-security/iclusta-vs-xserver-for-wordpress.jpg",
+      "fingerprint": "006b0117c7af103b0054cba6809e1f5edfdc5ec2e2c50529e93c3b028373b88e",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/jetboy-review/",
       "image": "source-assets/images/articles/ja/hosting-security/jetboy-review.jpg",
       "fingerprint": "2794296497de9fa9c00ed4cf0f8ec73ddaeea5f50233750e6ffba22615efde66",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/jetboy-vs-hostinger/",
+      "image": "source-assets/images/articles/ja/hosting-security/jetboy-vs-hostinger.jpg",
+      "fingerprint": "5495b7079bf3f021a0e138efcc9cd53c36de555200f2a552428c6519d3794915",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "image": "source-assets/images/articles/ja/hosting-security/jetboy-vs-xserver-for-wordpress.jpg",
+      "fingerprint": "003dd2699b040c3bf182bf90ee6fd4e96ff80372427ed00f39be5a1392dfaf15",
       "status": "reused"
     },
     {
@@ -1188,6 +1320,12 @@
       "route": "/ja/hosting-security/kinsta-vs-wp-engine/",
       "image": "source-assets/images/articles/ja/hosting-security/kinsta-vs-wp-engine.jpg",
       "fingerprint": "ebb8cee315b68a8af508881c822306f3f11a66ae372efb223b0199ca44a41522",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "image": "source-assets/images/articles/ja/hosting-security/litespeed-hosting-comparison.jpg",
+      "fingerprint": "9d524d1e129035b5ea59cc85e33ec9ed82fc05525daea944fe0e027bf7c64034",
       "status": "reused"
     },
     {
@@ -1545,6 +1683,30 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/color-me-shop-review/",
+      "image": "source-assets/images/articles/ja/website-builders/color-me-shop-review.jpg",
+      "fingerprint": "caf2af1469a1d548d6bf5729b8620665d50f28161a255b8bce6ed3c3523585b7",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/color-me-shop-seo-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/color-me-shop-seo-guide.jpg",
+      "fingerprint": "fa601c7afd82960ea17918e6d8939c49633ee4dfdfec51b50f1244865c9c6f96",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/color-me-shop-vs-shopify/",
+      "image": "source-assets/images/articles/ja/website-builders/color-me-shop-vs-shopify.jpg",
+      "fingerprint": "8f1406ef667a03ddb66977adfefccd4327e1a8bd17d87cfc26f10adb7fe00d54",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+      "image": "source-assets/images/articles/ja/website-builders/color-me-shop-vs-xserver-shop.jpg",
+      "fingerprint": "ffadbaa7451546174664925ce8970d03210563323c1fdcc992e8344ea58d09e0",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/fixed-fee-ecommerce-platform-comparison/",
       "image": "source-assets/images/articles/ja/website-builders/fixed-fee-ecommerce-platform-comparison.jpg",
       "fingerprint": "c3f580c6d114926bfa9484d4aa2b793dd2dc2c053c660e93969f54ce5977c85b",
@@ -1566,6 +1728,12 @@
       "route": "/ja/website-builders/hostinger-website-builder-review/",
       "image": "source-assets/images/articles/ja/website-builders/hostinger-website-builder-review.jpg",
       "fingerprint": "5f3eb438cd6b4a525ebd45313245571e8cde6d54bda2538ce9f035aa43d23236",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/japanese-ecommerce-platform-seo-comparison/",
+      "image": "source-assets/images/articles/ja/website-builders/japanese-ecommerce-platform-seo-comparison.jpg",
+      "fingerprint": "4bd577b084581b3bfaa2d1409bc57e1863a44486e5cb7850514c9b24666ad6d9",
       "status": "reused"
     },
     {

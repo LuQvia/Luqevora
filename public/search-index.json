@@ -304,6 +304,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "Business Web Hosting SLA Comparison",
+    "description": "Business Web Hosting SLA Comparison. Review official pricing, SLA, support, CMS, and contract terms.",
+    "url": "/en/hosting-security/business-hosting-sla-comparison/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Business WordPress Hosting: XServer, Kinsta and WP Engine",
     "description": "Compare XServer for WordPress, Kinsta, and WP Engine by pricing model, sites, staging, backups, access, support, currency, and operating fit.",
     "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
@@ -339,6 +347,14 @@
     "title": "ConoHa WING Review: WordPress Setup, Backups, and Pricing",
     "description": "Review ConoHa WING using official information on simplified WordPress setup, backups, domain benefits, pricing, and limitations.",
     "url": "/en/hosting-security/conoha-wing-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "cPanel Hosting Comparison and Selection Guide (2026)",
+    "description": "Compare cPanel hosting based on domains, email, WordPress, backups, migration, permissions, and provider-specific implementation, with JETBOY as a case study.",
+    "url": "/en/hosting-security/cpanel-hosting-comparison/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -424,6 +440,38 @@
     "topic": "web-hosting"
   },
   {
+    "title": "iCLUSTA+ byGMO Review: Business Hosting Features and Caveats",
+    "description": "iCLUSTA+ byGMO Review: Business Hosting Features and Caveats. Review official pricing, SLA, support, CMS, and contract terms.",
+    "url": "/en/hosting-security/iclusta-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "iCLUSTA+ for Movable Type: Licensing and Caveats",
+    "description": "iCLUSTA+ for Movable Type: Licensing and Caveats. Review official pricing, SLA, support, CMS, and contract terms.",
+    "url": "/en/hosting-security/iclusta-movable-type-hosting/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "iCLUSTA+ vs CPI: Business Hosting Comparison",
+    "description": "iCLUSTA+ vs CPI: Business Hosting Comparison. Review official pricing, SLA, support, CMS, and contract terms.",
+    "url": "/en/hosting-security/iclusta-vs-cpi/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "iCLUSTA+ vs XServer for WordPress",
+    "description": "iCLUSTA+ vs XServer for WordPress. Review official pricing, SLA, support, CMS, and contract terms.",
+    "url": "/en/hosting-security/iclusta-vs-xserver-for-wordpress/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Is Hostinger Right for Small Businesses? Cost, Features, and Fit",
     "description": "Assess whether Hostinger fits small businesses for launching a cost-conscious business website while managing domain, email, and hosting together",
     "url": "/en/hosting-security/hostinger-for-small-business/",
@@ -464,9 +512,25 @@
     "topic": "web-hosting"
   },
   {
-    "title": "JETBOY Hosting Review: LiteSpeed, CloudLinux, and WordPress",
-    "description": "Review Japan's JETBOY hosting using official information on LiteSpeed, CloudLinux, WordPress, backups, SSL, and plan changes.",
+    "title": "JETBOY Review: Pricing, LiteSpeed and Limits (2026)",
+    "description": "An official-source review of JETBOY hosting, covering current pricing, the 14-day trial, LiteSpeed Enterprise, cPanel, WordPress, migration, and contract checks.",
     "url": "/en/hosting-security/jetboy-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "JETBOY vs Hostinger: Japan and Global Hosting (2026)",
+    "description": "Compare JETBOY and Hostinger across market focus, control panels, pricing, performance testing, migration, email, and support.",
+    "url": "/en/hosting-security/jetboy-vs-hostinger/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "JETBOY vs XServer for WordPress (2026)",
+    "description": "Compare JETBOY and XServer for WordPress across service model, pricing, administration, performance, migration, support, and business operations.",
+    "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -507,6 +571,14 @@
     "title": "Kinsta vs WP Engine: Managed WordPress Pricing and Features",
     "description": "Compare Kinsta and WP Engine across starting price, sites, visits, storage, backups, migration, staging, support, and workflow.",
     "url": "/en/hosting-security/kinsta-vs-wp-engine/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "LiteSpeed Hosting Comparison and Selection Guide (2026)",
+    "description": "A practical comparison framework for LiteSpeed hosting, including Enterprise versus OpenLiteSpeed, LSCache, resources, benchmarks, backups, and migration.",
+    "url": "/en/hosting-security/litespeed-hosting-comparison/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -944,6 +1016,38 @@
     "topic": "website-builders"
   },
   {
+    "title": "Color Me Shop Review: Pricing, Features, and SEO Limits",
+    "description": "Review Color Me Shop using official information on pricing, payments, catalog operations, design, SEO controls, acquisition tools, and support.",
+    "url": "/en/website-builders/color-me-shop-review/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Color Me Shop SEO Guide: Categories, Products, and Sitemaps",
+    "description": "A practical Color Me Shop SEO workflow covering titles, descriptions, categories, products, XML sitemaps, internal links, and content improvement.",
+    "url": "/en/website-builders/color-me-shop-seo-guide/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Color Me Shop vs Shopify: Cost, SEO, and Operations",
+    "description": "Compare Color Me Shop and Shopify across Japan-focused operations, pricing, payments, apps, SEO, international selling, and support.",
+    "url": "/en/website-builders/color-me-shop-vs-shopify/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Color Me Shop vs XServer Shop: SaaS vs Managed EC-CUBE",
+    "description": "Compare Color Me Shop and XServer Shop by setup cost, platform fees, EC-CUBE, maintenance, SEO controls, and extensibility.",
+    "url": "/en/website-builders/color-me-shop-vs-xserver-shop/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "Fixed-Fee Ecommerce Platforms: XServer Shop, WooCommerce, Wix and Shopify",
     "description": "Compare XServer Shop, WooCommerce, Wix, and Shopify by subscriptions, sales commissions, payment and payout fees, implementation, and maintenance.",
     "url": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
@@ -987,6 +1091,14 @@
     "title": "Is Shopify Right for Small Ecommerce Businesses? Cost, Features, and Fit",
     "description": "Assess whether Shopify fits small ecommerce businesses for launching an online store and managing products, orders, payments, and shipping in one workspace",
     "url": "/en/website-builders/shopify-for-small-business/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Japanese Ecommerce Platform SEO Comparison: 10 Checks",
+    "description": "A practical framework for comparing Japanese ecommerce platforms by category control, product metadata, sitemaps, structured data, performance, and governance.",
+    "url": "/en/website-builders/japanese-ecommerce-platform-seo-comparison/",
     "language": "en",
     "category": "website-builders",
     "topic": "ecommerce-platforms"
@@ -1408,6 +1520,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "cPanel対応レンタルサーバー比較【2026年】",
+    "description": "cPanel対応レンタルサーバーの選び方を解説。JETBOYを中心に、ドメイン、メール、WordPress、バックアップ、移行性、権限管理を比較します。",
+    "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
     "description": "CPIとXServerビジネスを、料金、容量、バックアップ、SLA、メール、サポート、移行支援から公式情報で比較します。",
     "url": "/ja/hosting-security/cpi-vs-xserver-business/",
@@ -1496,8 +1616,56 @@
     "topic": "web-hosting"
   },
   {
-    "title": "JETBOYレンタルサーバーの評判・料金を公式情報で確認【2026年版】",
-    "description": "JETBOYのLiteSpeed、CloudLinux、WordPress、バックアップ、無料SSL、プラン変更について公式情報を整理します。",
+    "title": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
+    "description": "iCLUSTA+ byGMOを、SLA、SSL、メール、WordPress、サポート、返金保証、料金上の注意点から公式情報で検証します。",
+    "url": "/ja/hosting-security/iclusta-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "iCLUSTA+とCPIを比較｜法人サーバーの違い【2026年】",
+    "description": "iCLUSTA+とCPIを比較｜法人サーバーの違い。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+    "url": "/ja/hosting-security/iclusta-vs-cpi/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "iCLUSTA+とXServer for WordPressを比較【2026年】",
+    "description": "iCLUSTA+とXServer for WordPressを比較。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+    "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "iCLUSTA+のMovable Type対応｜料金・ライセンス・注意点",
+    "description": "iCLUSTA+でMovable Typeを使う場合のライセンス、自動インストール、MySQL、保守費用を公式情報で解説します。",
+    "url": "/ja/hosting-security/iclusta-movable-type-hosting/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "JETBOYとHostingerを比較｜国内・海外サーバー【2026年】",
+    "description": "JETBOYとHostingerを比較。国内運用、料金、LiteSpeed、管理画面、サポート、データセンター、WordPress移行の違いを公式情報で整理します。",
+    "url": "/ja/hosting-security/jetboy-vs-hostinger/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "JETBOYとXServer for WordPressを比較【2026年】",
+    "description": "JETBOYとXServer for WordPressを公式情報で比較。料金体系、LiteSpeed、WordPress管理、サポート、移行、法人利用の違いを整理します。",
+    "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
+    "description": "JETBOYレンタルサーバーを公式情報で検証。料金、14日間無料体験、LiteSpeed、cPanel、WordPress、プラン選びと契約前の注意点を解説します。",
     "url": "/ja/hosting-security/jetboy-review/",
     "language": "ja",
     "category": "hosting-security",
@@ -1547,6 +1715,14 @@
     "title": "Kinstaレビュー｜Single 20GBの料金・帯域・バックアップ・セキュリティを公式情報で確認",
     "description": "KinstaのSingle 20GBと複数サイト向けWP 2を、月払い・年払い、帯域、ストレージ、CDN、移行、14日バックアップ、超過条件の公式情報で整理します。",
     "url": "/ja/hosting-security/kinsta-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "LiteSpeed対応レンタルサーバー比較【2026年】",
+    "description": "LiteSpeed対応レンタルサーバーの選び方を解説。JETBOYを中心に、Enterprise版、LSCache、CPU・メモリ、移行、バックアップを比較します。",
+    "url": "/ja/hosting-security/litespeed-hosting-comparison/",
     "language": "ja",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -1750,6 +1926,14 @@
     "language": "ja",
     "category": "hosting-security",
     "topic": "password-managers"
+  },
+  {
+    "title": "法人向けSLA付きレンタルサーバー比較【2026年】",
+    "description": "法人向けレンタルサーバーのSLA、対象範囲、返金率、サポート、料金を比較します。",
+    "url": "/ja/hosting-security/business-hosting-sla-comparison/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
   },
   {
     "title": "法人向けWordPressホスティング3社比較｜XServer・Kinsta・WP Engine",
@@ -2152,6 +2336,38 @@
     "topic": "ecommerce-platforms"
   },
   {
+    "title": "カラーミーショップSEO設定ガイド｜カテゴリ・商品・サイトマップ",
+    "description": "カラーミーショップのSEO設定を、タイトル、description、カテゴリ、商品、XMLサイトマップ、内部リンク、コンテンツ改善の順に解説します。",
+    "url": "/ja/website-builders/color-me-shop-seo-guide/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "カラーミーショップとShopifyを比較｜料金・SEO・運用の違い",
+    "description": "カラーミーショップとShopifyを、国内運用、料金構造、決済、アプリ、SEO、越境販売、サポートから比較します。",
+    "url": "/ja/website-builders/color-me-shop-vs-shopify/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "カラーミーショップとXServerショップを比較｜SaaSとEC-CUBE",
+    "description": "カラーミーショップとXServerショップを、初期費用、販売手数料、EC-CUBE、保守、SEO、拡張性から比較します。",
+    "url": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "カラーミーショップレビュー｜料金・機能・SEOの注意点【2026年】",
+    "description": "カラーミーショップを公式情報で検証。料金、決済手数料、商品管理、デザイン、SEO設定、集客、サポートと選び方を整理します。",
+    "url": "/ja/website-builders/color-me-shop-review/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "グーペとWixを比較｜店舗ホームページはどちらが向く？",
     "description": "グーペとWixを、料金構造、デザイン、予約、独自ドメイン、メール、更新、拡張性、移行性から比較します。",
     "url": "/ja/website-builders/goope-vs-wix/",
@@ -2182,6 +2398,14 @@
     "language": "ja",
     "category": "website-builders",
     "topic": "website-builders"
+  },
+  {
+    "title": "国産ネットショップ作成サービスSEO比較｜確認すべき10項目",
+    "description": "国産ECサービスをSEO観点で比較するための実務チェックリスト。カテゴリ、商品、サイトマップ、構造化データ、速度、運用権限を確認します。",
+    "url": "/ja/website-builders/japanese-ecommerce-platform-seo-comparison/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
   },
   {
     "title": "店舗向けホームページ作成サービス比較｜グーペ・Wix・Squarespace・WordPress.com",

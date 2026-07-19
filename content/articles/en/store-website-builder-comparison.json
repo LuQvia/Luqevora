@@ -191,6 +191,36 @@
       "label": "Website builders with booking features",
       "url": "/en/website-builders/reservation-website-builder-comparison/",
       "description": "Compare schedules, notifications, cancellations, and integrations"
+    },
+    {
+      "label": "iCLUSTA+ byGMO review",
+      "url": "/en/hosting-security/iclusta-review/",
+      "description": "Review SLA, SSL, mail, and pricing"
+    },
+    {
+      "label": "iCLUSTA+ vs CPI",
+      "url": "/en/hosting-security/iclusta-vs-cpi/",
+      "description": "Compare business hosting operations"
+    },
+    {
+      "label": "Business hosting SLA comparison",
+      "url": "/en/hosting-security/business-hosting-sla-comparison/",
+      "description": "Compare coverage and credits"
+    },
+    {
+      "label": "Color Me Shop review",
+      "url": "/en/website-builders/color-me-shop-review/",
+      "description": "Review pricing, features, and SEO controls"
+    },
+    {
+      "label": "Color Me Shop vs Shopify",
+      "url": "/en/website-builders/color-me-shop-vs-shopify/",
+      "description": "Compare Japan-focused operations and ecosystem scale"
+    },
+    {
+      "label": "Color Me Shop vs XServer Shop",
+      "url": "/en/website-builders/color-me-shop-vs-xserver-shop/",
+      "description": "Compare SaaS and managed EC-CUBE"
     }
   ]
 }

@@ -222,6 +222,56 @@
       "label": "XServer for WordPress versus XServer Business",
       "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
       "description": "Compare specialized and general Japan hosting"
+    },
+    {
+      "label": "iCLUSTA+ byGMO review",
+      "url": "/en/hosting-security/iclusta-review/",
+      "description": "Review SLA, SSL, mail, and pricing"
+    },
+    {
+      "label": "iCLUSTA+ vs CPI",
+      "url": "/en/hosting-security/iclusta-vs-cpi/",
+      "description": "Compare business hosting operations"
+    },
+    {
+      "label": "Business hosting SLA comparison",
+      "url": "/en/hosting-security/business-hosting-sla-comparison/",
+      "description": "Compare coverage and credits"
+    },
+    {
+      "label": "iCLUSTA+ and XServer for WordPress comparison",
+      "url": "/en/hosting-security/iclusta-vs-xserver-for-wordpress/",
+      "description": "Compare CMS scope, SLA, mail, and support"
+    },
+    {
+      "label": "iCLUSTA+ Movable Type hosting guide",
+      "url": "/en/hosting-security/iclusta-movable-type-hosting/",
+      "description": "Review licensing and maintenance"
+    },
+    {
+      "label": "JETBOY review",
+      "url": "/en/hosting-security/jetboy-review/",
+      "description": "Review pricing, LiteSpeed, cPanel, and constraints"
+    },
+    {
+      "label": "JETBOY vs XServer for WordPress",
+      "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "Compare operations and support"
+    },
+    {
+      "label": "LiteSpeed hosting comparison",
+      "url": "/en/hosting-security/litespeed-hosting-comparison/",
+      "description": "Compare server stack and cache workflow"
+    },
+    {
+      "label": "cPanel hosting comparison",
+      "url": "/en/hosting-security/cpanel-hosting-comparison/",
+      "description": "Compare control panels and portability"
+    },
+    {
+      "label": "Business web hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Evaluate business hosting requirements"
     }
   ]
 }

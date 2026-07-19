@@ -1,0 +1,143 @@
+{
+  "id": "cpanel-hosting-comparison-en",
+  "translationKey": "cpanel-hosting-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "cpanel-hosting-comparison",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official sources reviewed",
+  "title": "cPanel Hosting Comparison and Selection Guide (2026)",
+  "metaTitle": "cPanel Hosting Comparison and Selection Guide (2026)",
+  "description": "Compare cPanel hosting based on domains, email, WordPress, backups, migration, permissions, and provider-specific implementation, with JETBOY as a case study.",
+  "lead": "cPanel can improve portability and familiarity, but the provider controls available modules, resources, backups, and support.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Visit the official JETBOY site",
+      "officialUrl": "https://www.jetboy.jp/",
+      "affiliateKey": "jetboy-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JETBOY 公式サイト",
+      "url": "https://www.jetboy.jp/"
+    },
+    {
+      "label": "JETBOY プラン・料金",
+      "url": "https://www.jetboy.jp/price/"
+    },
+    {
+      "label": "JETBOYの特徴",
+      "url": "https://www.jetboy.jp/feature/"
+    },
+    {
+      "label": "JETBOY LiteSpeed",
+      "url": "https://www.jetboy.jp/litespeed/"
+    },
+    {
+      "label": "JETBOY 会社概要",
+      "url": "https://www.jetboy.jp/company/"
+    },
+    {
+      "label": "JETBOY 特定商取引法表記",
+      "url": "https://www.jetboy.jp/tokuteisho/"
+    },
+    {
+      "label": "cPanel official site",
+      "url": "https://cpanel.net/"
+    },
+    {
+      "label": "cPanel documentation",
+      "url": "https://docs.cpanel.net/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict",
+      "body": [
+        "cPanel hosting is useful for administrators who want a widely recognized interface for domains, mail, files, databases, and SSL. JETBOY states that cPanel is available on every plan.",
+        "The same panel name does not guarantee the same modules or permissions. Verify backups, terminal access, cron jobs, DNS editing, email tools, security controls, and restoration during the trial."
+      ]
+    },
+    {
+      "heading": "Functions to verify",
+      "body": [
+        "Compare domain limits, DNS controls, mailbox quotas, spam filtering, SPF, DKIM, DMARC, file access, database tools, WordPress installation, backup retention, and restoration fees.",
+        "The hosting provider’s configuration and support policy matter as much as the cPanel interface itself."
+      ]
+    },
+    {
+      "heading": "JETBOY’s implementation",
+      "body": [
+        "JETBOY combines cPanel with LiteSpeed Enterprise, SSD storage, free SSL, WordPress installation, and published CPU and memory allocations. Its 14-day trial is an opportunity to inspect the exact cPanel feature set.",
+        "The Mini plan limits custom domains to ten, while the current price table lists unlimited domains for First and higher. Real capacity still depends on CPU, memory, databases, and storage."
+      ]
+    },
+    {
+      "heading": "Migration planning",
+      "body": [
+        "Even a cPanel-to-cPanel migration may not allow a complete account restore. Confirm migration assistance, site and mailbox size limits, SSL handling, cron jobs, DNS changes, and downtime.",
+        "After migration, test forms, inbound and outbound email, bookings, payments, administration, scheduled tasks, and backups before cancelling the previous service."
+      ]
+    },
+    {
+      "heading": "When cPanel is not ideal",
+      "body": [
+        "A dedicated managed WordPress platform may be simpler for a team that only needs WordPress and does not want to administer hosting components. Teams accustomed to a Japanese proprietary panel should also test terminology and navigation before choosing cPanel.",
+        "Business buyers should evaluate user roles, two-factor authentication, logs, offboarding, and support identity checks."
+      ]
+    },
+    {
+      "heading": "Procurement and exit checklist",
+      "body": [
+        "For business use, inspect how the provider separates the hosting account from the billing account. Confirm two-factor authentication, recovery contacts, audit visibility, delegated access, API availability, and the procedure for transferring ownership. A shared master login creates avoidable risk when agencies, contractors, and internal staff all need access. Define who controls the domain registrar and DNS independently of the hosting panel.",
+        "Create an exit test before committing. Export a full site copy, databases, mailboxes, DNS records, certificates where applicable, cron schedules, and configuration notes. Verify that the export can be restored somewhere else without proprietary dependencies. Also review suspension rules, storage and inode limits, backup exclusions, abuse handling, and the grace period after non-payment. Portability is one of cPanel’s potential advantages, but it only exists when the provider permits complete and usable exports."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is JETBOY available with an English interface?",
+      "answer": "JETBOY uses cPanel, but buyers should confirm the language available for account management, billing, documentation, and support before contracting."
+    },
+    {
+      "question": "Should an international reader use the A8.net link?",
+      "answer": "No A8.net link is used in the English edition. The English article links directly to the official service because the affiliate program and service are primarily Japan-focused."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "JETBOY review",
+      "url": "/en/hosting-security/jetboy-review/",
+      "description": "Review pricing, LiteSpeed, cPanel, and constraints"
+    },
+    {
+      "label": "JETBOY vs XServer for WordPress",
+      "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "Compare operations and support"
+    },
+    {
+      "label": "LiteSpeed hosting comparison",
+      "url": "/en/hosting-security/litespeed-hosting-comparison/",
+      "description": "Compare server stack and cache workflow"
+    },
+    {
+      "label": "cPanel hosting comparison",
+      "url": "/en/hosting-security/cpanel-hosting-comparison/",
+      "description": "Compare control panels and portability"
+    },
+    {
+      "label": "Business web hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Evaluate business hosting requirements"
+    }
+  ]
+}

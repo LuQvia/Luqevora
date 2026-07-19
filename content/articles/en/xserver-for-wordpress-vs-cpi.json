@@ -198,6 +198,41 @@
       "label": "Japan business hosting comparison",
       "url": "/en/hosting-security/business-web-hosting-comparison/",
       "description": "Compare additional business hosting options"
+    },
+    {
+      "label": "iCLUSTA+ byGMO review",
+      "url": "/en/hosting-security/iclusta-review/",
+      "description": "Review SLA, SSL, mail, and pricing"
+    },
+    {
+      "label": "iCLUSTA+ vs CPI",
+      "url": "/en/hosting-security/iclusta-vs-cpi/",
+      "description": "Compare business hosting operations"
+    },
+    {
+      "label": "Business hosting SLA comparison",
+      "url": "/en/hosting-security/business-hosting-sla-comparison/",
+      "description": "Compare coverage and credits"
+    },
+    {
+      "label": "JETBOY review",
+      "url": "/en/hosting-security/jetboy-review/",
+      "description": "Review pricing, LiteSpeed, cPanel, and constraints"
+    },
+    {
+      "label": "JETBOY vs XServer for WordPress",
+      "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "Compare operations and support"
+    },
+    {
+      "label": "LiteSpeed hosting comparison",
+      "url": "/en/hosting-security/litespeed-hosting-comparison/",
+      "description": "Compare server stack and cache workflow"
+    },
+    {
+      "label": "cPanel hosting comparison",
+      "url": "/en/hosting-security/cpanel-hosting-comparison/",
+      "description": "Compare control panels and portability"
     }
   ]
 }

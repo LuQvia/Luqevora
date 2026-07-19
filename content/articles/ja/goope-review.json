@@ -197,6 +197,31 @@
       "label": "予約機能付きホームページ作成サービス比較",
       "url": "/ja/website-builders/reservation-website-builder-comparison/",
       "description": "予約枠、通知、キャンセル、外部連携を比較"
+    },
+    {
+      "label": "カラーミーショップレビュー",
+      "url": "/ja/website-builders/color-me-shop-review/",
+      "description": "料金・機能・SEOの注意点を確認"
+    },
+    {
+      "label": "カラーミーショップとShopifyの比較",
+      "url": "/ja/website-builders/color-me-shop-vs-shopify/",
+      "description": "国内運用と拡張性を比較"
+    },
+    {
+      "label": "カラーミーショップとXServerショップの比較",
+      "url": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+      "description": "SaaS型とEC-CUBE型を比較"
+    },
+    {
+      "label": "国産ネットショップSEO比較",
+      "url": "/ja/website-builders/japanese-ecommerce-platform-seo-comparison/",
+      "description": "SEO要件を10項目で確認"
+    },
+    {
+      "label": "カラーミーショップSEO設定ガイド",
+      "url": "/ja/website-builders/color-me-shop-seo-guide/",
+      "description": "設定と改善手順を確認"
     }
   ]
 }

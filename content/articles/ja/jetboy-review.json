@@ -1,0 +1,187 @@
+{
+  "id": "jetboy-review-ja",
+  "translationKey": "jetboy-review",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "jetboy-review",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
+  "metaTitle": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
+  "description": "JETBOYレンタルサーバーを公式情報で検証。料金、14日間無料体験、LiteSpeed、cPanel、WordPress、プラン選びと契約前の注意点を解説します。",
+  "lead": "JETBOYは、LiteSpeed Enterprise、cPanel、SSD、プランごとのCPU・メモリ割当を特徴とする国内レンタルサーバーです。低価格だけでなく、年契約、初期費用、データベース数、移行方法まで確認して選びます。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "JETBOYの詳細を確認",
+      "officialUrl": "https://www.jetboy.jp/",
+      "affiliateKey": "jetboy-long"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JETBOY 公式サイト",
+      "url": "https://www.jetboy.jp/"
+    },
+    {
+      "label": "JETBOY プラン・料金",
+      "url": "https://www.jetboy.jp/price/"
+    },
+    {
+      "label": "JETBOYの特徴",
+      "url": "https://www.jetboy.jp/feature/"
+    },
+    {
+      "label": "JETBOY LiteSpeed",
+      "url": "https://www.jetboy.jp/litespeed/"
+    },
+    {
+      "label": "JETBOY 会社概要",
+      "url": "https://www.jetboy.jp/company/"
+    },
+    {
+      "label": "JETBOY 特定商取引法表記",
+      "url": "https://www.jetboy.jp/tokuteisho/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "JETBOYは、LiteSpeedとcPanelを使いたいWordPress運営者、サイト成長に合わせてCPU・メモリを増やしたい利用者に向く候補です。年契約ではミニが月あたり550円からですが、初期費用と年額の一括支払いを含む初年度総額で判断する必要があります。",
+        "14日間の無料トライアルが案内されているため、管理画面、WordPressの操作、表示速度、サポート対応を契約前に確認できます。"
+      ],
+      "affiliateMaterialKey": "jetboy-long"
+    },
+    {
+      "heading": "料金とプラン",
+      "body": [
+        "公式料金ページでは、ミニ、ファースト、スタンダード、プレミアム、ビジネス、ビジネスPROの6プランが案内されています。年契約の月額換算は550円から8,338円までで、月契約より年契約が割安です。料金は税込表示ですが、キャンペーンや初期費用は申込時点で再確認してください。"
+      ],
+      "table": {
+        "headers": [
+          "プラン",
+          "年契約の月額換算",
+          "SSD",
+          "CPU・メモリ"
+        ],
+        "rows": [
+          [
+            "ミニ",
+            "550円",
+            "100GB",
+            "2コア・4GB"
+          ],
+          [
+            "ファースト",
+            "1,078円",
+            "150GB",
+            "4コア・8GB"
+          ],
+          [
+            "スタンダード",
+            "1,518円",
+            "200GB",
+            "6コア・12GB"
+          ],
+          [
+            "プレミアム",
+            "2,178円",
+            "250GB",
+            "8コア・24GB"
+          ],
+          [
+            "ビジネス",
+            "4,180円",
+            "300GB",
+            "10コア・32GB"
+          ],
+          [
+            "ビジネスPRO",
+            "8,338円",
+            "500GB",
+            "12コア・64GB"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "LiteSpeedとWordPress",
+      "body": [
+        "JETBOYはLiteSpeed Enterpriseを採用し、WordPressではLiteSpeed Cacheを利用できると案内しています。ただし、公式ベンチマークの速度差は測定条件に依存します。実サイトではテーマ、画像、外部スクリプト、プラグイン、キャッシュ設定、データベース負荷も速度を左右します。",
+        "WordPressはワンタッチインストールに対応します。導入後は自動更新、バックアップ、復元手順、管理者権限、WAFやログ確認の運用まで設計してください。"
+      ],
+      "affiliateMaterialKey": "jetboy-wp-tuned"
+    },
+    {
+      "heading": "cPanelとサイト移行",
+      "body": [
+        "全プランでcPanelが提供され、ファイル、メール、ドメイン、データベースなどを管理できます。cPanel経験者には理解しやすい一方、日本独自の簡易パネルに慣れた利用者は無料体験で操作性を確認する方が安全です。",
+        "公式サイトはサイト引越しの代行サポートを案内しています。対象サイト、容量、CMS、メール、DNS切替、作業回数、停止時間、追加料金の有無を申込前に確認してください。"
+      ]
+    },
+    {
+      "heading": "デメリットと注意点",
+      "body": [
+        "最安のミニは独自ドメイン10個、MySQL 3個です。複数のWordPressサイトを運営する場合は、データベース数とCPU・メモリの余裕を確認します。",
+        "広告素材には月額980円という表現がありますが、現在の公式ページではファーストの年契約月額換算は税込1,078円です。広告表示と本文の料金が異なる場合は、申込画面の現行価格を優先してください。",
+        "特定商取引法表記では契約後の返品・キャンセルを受け付けない旨が記載されています。無料トライアルの解約期限と本契約への移行条件を事前に確認します。"
+      ]
+    },
+    {
+      "heading": "おすすめプランの考え方",
+      "body": [
+        "小規模な1サイトならミニも候補ですが、WordPressを複数運営する場合はファースト以上が比較しやすくなります。アクセス増加を見込むメディアは、PV目安だけに依存せず、同時接続、PHP処理、管理画面の応答、バックアップ時間を試験してください。",
+        "法人利用では、障害情報、サポート窓口、復旧責任、メール運用、請求書、権限管理、退職者アカウント処理まで含めて判断します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "JETBOYは月額550円で使えますか？",
+      "answer": "ミニの年契約を月額換算した税込価格が550円です。年間6,600円に加えて、申込時点の初期費用などを確認してください。"
+    },
+    {
+      "question": "無料トライアルはありますか？",
+      "answer": "公式サイトでは14日間の無料トライアルを案内しています。本契約への移行条件と解約期限を申込画面で確認してください。"
+    },
+    {
+      "question": "JETBOYはWordPress向けですか？",
+      "answer": "LiteSpeed、ワンタッチインストール、cPanelを利用できます。ただしサイトの速度はテーマやプラグイン、画像、キャッシュ設定にも左右されます。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "JETBOYレビュー",
+      "url": "/ja/hosting-security/jetboy-review/",
+      "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "JETBOYとXServer for WordPressの比較",
+      "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "LiteSpeed対応サーバー比較",
+      "url": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "description": "Webサーバーとキャッシュ運用を比較"
+    },
+    {
+      "label": "cPanel対応サーバー比較",
+      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "description": "管理画面と移行性を比較"
+    },
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "法人運用の要件を整理"
+    }
+  ]
+}

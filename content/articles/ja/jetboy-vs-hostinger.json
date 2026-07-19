@@ -1,0 +1,170 @@
+{
+  "id": "jetboy-vs-hostinger-ja",
+  "translationKey": "jetboy-vs-hostinger",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "jetboy-vs-hostinger",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "JETBOYとHostingerを比較｜国内・海外サーバー【2026年】",
+  "metaTitle": "JETBOYとHostingerを比較｜国内・海外サーバー【2026年】",
+  "description": "JETBOYとHostingerを比較。国内運用、料金、LiteSpeed、管理画面、サポート、データセンター、WordPress移行の違いを公式情報で整理します。",
+  "lead": "国内向けサポートとcPanelを重視するならJETBOY、国際展開やHostinger独自のWordPress環境を比較したいならHostingerが候補です。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "JETBOYの詳細を確認",
+      "officialUrl": "https://www.jetboy.jp/",
+      "affiliateKey": "jetboy-rental"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JETBOY 公式サイト",
+      "url": "https://www.jetboy.jp/"
+    },
+    {
+      "label": "JETBOY プラン・料金",
+      "url": "https://www.jetboy.jp/price/"
+    },
+    {
+      "label": "JETBOYの特徴",
+      "url": "https://www.jetboy.jp/feature/"
+    },
+    {
+      "label": "JETBOY LiteSpeed",
+      "url": "https://www.jetboy.jp/litespeed/"
+    },
+    {
+      "label": "JETBOY 会社概要",
+      "url": "https://www.jetboy.jp/company/"
+    },
+    {
+      "label": "JETBOY 特定商取引法表記",
+      "url": "https://www.jetboy.jp/tokuteisho/"
+    },
+    {
+      "label": "Hostinger 公式サイト",
+      "url": "https://www.hostinger.com/"
+    },
+    {
+      "label": "Hostinger Web Hosting",
+      "url": "https://www.hostinger.com/web-hosting"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論",
+      "body": [
+        "JETBOYは国内事業者による日本語運用、cPanel、LiteSpeed、国内向けプランを重視する利用者に向きます。Hostingerは複数地域への展開、独自管理画面、グローバルなサービス群を比較したい場合の候補です。",
+        "海外サービスでは表示価格、契約期間、更新料金、通貨、税、サポート言語を確認します。国内サービスでは初期費用、年契約、支払方法、国内法に基づく表記を確認します。"
+      ],
+      "affiliateMaterialKey": "jetboy-rental"
+    },
+    {
+      "heading": "比較表",
+      "body": [
+        "両社ともWordPress運用を対象にできますが、管理画面や契約体系が異なります。"
+      ],
+      "table": {
+        "headers": [
+          "項目",
+          "JETBOY",
+          "Hostinger"
+        ],
+        "rows": [
+          [
+            "運営・対象",
+            "日本の事業者、国内向け",
+            "国際的なホスティング事業者"
+          ],
+          [
+            "管理画面",
+            "cPanelと独自パネル",
+            "独自のhPanel"
+          ],
+          [
+            "Web技術",
+            "LiteSpeed Enterpriseを案内",
+            "プラン別の公式仕様を確認"
+          ],
+          [
+            "料金確認",
+            "税込、年・月契約、初期費用",
+            "契約期間、更新価格、税・通貨"
+          ],
+          [
+            "サポート",
+            "日本語窓口を確認",
+            "対応言語と時間帯を確認"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "速度比較の注意",
+      "body": [
+        "同じLiteSpeed系の構成でも、データセンターの場所、CDN、キャッシュ、PHP、データベース、画像、テーマで結果は変わります。日本の利用者が中心なら日本からの遅延、海外比率が高いなら対象地域からの遅延を測定してください。",
+        "ベンチマーク記事を作る場合は、同一WordPress、同一ページ、同一測定地点、キャッシュ有無、複数回の中央値を示す必要があります。"
+      ]
+    },
+    {
+      "heading": "管理と移行",
+      "body": [
+        "cPanel経験者はJETBOYへ移行しやすい場合があります。HostingerのhPanelは独自UIのため、ドメイン、メール、バックアップ、ステージング、DNSの操作を無料期間や返金条件の範囲で確認します。",
+        "メールを同時移行する場合は、WebサイトだけでなくMX、SPF、DKIM、DMARC、メールボックス、転送、端末設定まで移行計画へ含めます。"
+      ]
+    },
+    {
+      "heading": "選び方",
+      "body": [
+        "国内の小規模事業、個人メディア、cPanel運用ならJETBOYを試す価値があります。海外顧客や多地域展開、長期割引を重視する場合はHostingerの現行プランを比較してください。",
+        "どちらも契約直前に更新価格、解約、バックアップ復元、サポート範囲、禁止コンテンツを確認します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "JETBOYとHostingerはどちらが速いですか？",
+      "answer": "一律には決められません。データセンター、サイト構成、キャッシュ、測定地点を揃えた実測が必要です。"
+    },
+    {
+      "question": "国内サイトならJETBOYが必ず有利ですか？",
+      "answer": "国内運用や日本語サポートには利点がありますが、料金、機能、復旧、運用体制まで比較してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "JETBOYレビュー",
+      "url": "/ja/hosting-security/jetboy-review/",
+      "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "JETBOYとXServer for WordPressの比較",
+      "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "LiteSpeed対応サーバー比較",
+      "url": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "description": "Webサーバーとキャッシュ運用を比較"
+    },
+    {
+      "label": "cPanel対応サーバー比較",
+      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "description": "管理画面と移行性を比較"
+    },
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "法人運用の要件を整理"
+    }
+  ]
+}

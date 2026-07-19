@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-18T22:47:21.279Z",
-  "auditDate": "2026-07-18",
+  "generatedAt": "2026-07-19T03:43:39.190Z",
+  "auditDate": "2026-07-19",
   "thresholds": {
     "hardMinimumSources": 1,
     "recommendedSources": 2,
@@ -20,34 +20,34 @@
     "promotionCandidatePairLimit": 25
   },
   "summary": {
-    "publishedDataArticles": 510,
-    "indexableDataArticles": 194,
+    "publishedDataArticles": 538,
+    "indexableDataArticles": 222,
     "noindexDataArticles": 316,
-    "averageIndexableScore": 94.5,
+    "averageIndexableScore": 95.3,
     "minimumIndexableScore": 70,
     "promotionEligible": 316,
     "promotionEligiblePairs": 158,
     "promotionCandidatePairs": 25,
     "promotionCandidates": 50,
     "errorCount": 0,
-    "warningCount": 91,
+    "warningCount": 88,
     "byLanguage": {
       "ja": {
-        "published": 255,
-        "indexable": 97,
-        "averageScore": 95.5
+        "published": 269,
+        "indexable": 111,
+        "averageScore": 96.2
       },
       "en": {
-        "published": 255,
-        "indexable": 97,
-        "averageScore": 93.4
+        "published": 269,
+        "indexable": 111,
+        "averageScore": 94.5
       }
     }
   },
   "topSourceHosts": [
     {
       "host": "hostinger.com",
-      "articleCount": 36
+      "articleCount": 38
     },
     {
       "host": "asana.com",
@@ -188,7 +188,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "1password.com",
             "bitwarden.com"
@@ -211,7 +211,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "1password.com",
             "bitwarden.com"
@@ -240,7 +240,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "1password.com",
             "keepersecurity.com"
@@ -263,7 +263,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "1password.com",
             "keepersecurity.com"
@@ -292,7 +292,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "1password.com",
             "nordpass.com"
@@ -315,7 +315,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "1password.com",
             "nordpass.com"
@@ -344,7 +344,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "ahrefs.com",
             "mangools.com"
@@ -367,7 +367,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "ahrefs.com",
             "mangools.com"
@@ -396,7 +396,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "ahrefs.com",
             "seranking.com"
@@ -419,7 +419,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "ahrefs.com",
             "seranking.com"
@@ -448,7 +448,7 @@
           "sourceHostCount": 3,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "ahrefs.com",
             "neilpatel.com",
@@ -472,7 +472,7 @@
           "sourceHostCount": 3,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "ahrefs.com",
             "neilpatel.com",
@@ -502,7 +502,7 @@
           "sourceHostCount": 1,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com"
           ]
@@ -524,7 +524,7 @@
           "sourceHostCount": 1,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com"
           ]
@@ -552,7 +552,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "asana.com"
@@ -575,7 +575,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "asana.com"
@@ -604,7 +604,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "basecamp.com"
@@ -627,7 +627,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "basecamp.com"
@@ -656,7 +656,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "monday.com"
@@ -679,7 +679,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "monday.com"
@@ -708,7 +708,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "notion.com"
@@ -731,7 +731,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "airtable.com",
             "notion.com"
@@ -760,7 +760,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "asana.com",
             "basecamp.com"
@@ -783,7 +783,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "asana.com",
             "basecamp.com"
@@ -812,7 +812,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "asana.com",
             "monday.com"
@@ -835,7 +835,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "asana.com",
             "monday.com"
@@ -864,7 +864,7 @@
           "sourceHostCount": 1,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "basecamp.com"
           ]
@@ -886,7 +886,7 @@
           "sourceHostCount": 1,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "basecamp.com"
           ]
@@ -914,7 +914,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "basecamp.com",
             "monday.com"
@@ -937,7 +937,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "basecamp.com",
             "monday.com"
@@ -966,7 +966,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "basecamp.com",
             "trello.com"
@@ -989,7 +989,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "basecamp.com",
             "trello.com"
@@ -1018,7 +1018,7 @@
           "sourceHostCount": 1,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bigcommerce.com"
           ]
@@ -1040,7 +1040,7 @@
           "sourceHostCount": 1,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bigcommerce.com"
           ]
@@ -1068,7 +1068,7 @@
           "sourceHostCount": 3,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bigcommerce.com",
             "shopify.com",
@@ -1092,7 +1092,7 @@
           "sourceHostCount": 3,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bigcommerce.com",
             "shopify.com",
@@ -1122,7 +1122,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bigcommerce.com",
             "squarespace.com"
@@ -1145,7 +1145,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bigcommerce.com",
             "squarespace.com"
@@ -1174,7 +1174,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bitwarden.com",
             "keepersecurity.com"
@@ -1197,7 +1197,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bitwarden.com",
             "keepersecurity.com"
@@ -1226,7 +1226,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bitwarden.com",
             "nordpass.com"
@@ -1249,7 +1249,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "bitwarden.com",
             "nordpass.com"
@@ -1278,7 +1278,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "brevo.com",
             "activecampaign.com"
@@ -1301,7 +1301,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "brevo.com",
             "activecampaign.com"
@@ -1330,7 +1330,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "brevo.com",
             "getresponse.com"
@@ -1353,7 +1353,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "brevo.com",
             "getresponse.com"
@@ -1382,7 +1382,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "brevo.com",
             "kit.com"
@@ -1405,7 +1405,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "brevo.com",
             "kit.com"
@@ -1434,7 +1434,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "openai.com",
             "claude.com"
@@ -1457,7 +1457,7 @@
           "sourceHostCount": 2,
           "sectionCount": 6,
           "faqCount": 3,
-          "staleDays": -1,
+          "staleDays": 0,
           "sourceHosts": [
             "openai.com",
             "claude.com"
@@ -1484,7 +1484,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "bitwarden.com"
@@ -1507,7 +1507,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "bitwarden.com"
@@ -1530,7 +1530,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "keepersecurity.com"
@@ -1553,7 +1553,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "keepersecurity.com"
@@ -1576,7 +1576,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "nordpass.com"
@@ -1599,7 +1599,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "nordpass.com"
@@ -1622,7 +1622,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "mangools.com"
@@ -1645,7 +1645,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "mangools.com"
@@ -1668,7 +1668,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "seranking.com"
@@ -1691,7 +1691,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "seranking.com"
@@ -1714,7 +1714,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "neilpatel.com",
@@ -1738,7 +1738,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "neilpatel.com",
@@ -1762,7 +1762,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com"
       ]
@@ -1784,7 +1784,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com"
       ]
@@ -1806,7 +1806,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "asana.com"
@@ -1829,7 +1829,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "asana.com"
@@ -1852,7 +1852,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "basecamp.com"
@@ -1875,7 +1875,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "basecamp.com"
@@ -1898,7 +1898,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "monday.com"
@@ -1921,7 +1921,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "monday.com"
@@ -1944,7 +1944,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "notion.com"
@@ -1967,7 +1967,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "notion.com"
@@ -1990,7 +1990,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "basecamp.com"
@@ -2013,7 +2013,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "basecamp.com"
@@ -2036,7 +2036,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "monday.com"
@@ -2059,7 +2059,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "monday.com"
@@ -2082,7 +2082,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com"
       ]
@@ -2104,7 +2104,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com"
       ]
@@ -2126,7 +2126,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "monday.com"
@@ -2149,7 +2149,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "monday.com"
@@ -2172,7 +2172,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "trello.com"
@@ -2195,7 +2195,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "trello.com"
@@ -2218,7 +2218,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com"
       ]
@@ -2240,7 +2240,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com"
       ]
@@ -2262,7 +2262,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "shopify.com",
@@ -2286,7 +2286,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "shopify.com",
@@ -2310,7 +2310,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "squarespace.com"
@@ -2333,7 +2333,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "squarespace.com"
@@ -2356,7 +2356,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "keepersecurity.com"
@@ -2379,7 +2379,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "keepersecurity.com"
@@ -2402,7 +2402,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "nordpass.com"
@@ -2425,7 +2425,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "nordpass.com"
@@ -2448,7 +2448,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "activecampaign.com"
@@ -2471,7 +2471,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "activecampaign.com"
@@ -2494,7 +2494,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "getresponse.com"
@@ -2517,7 +2517,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "getresponse.com"
@@ -2540,7 +2540,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "kit.com"
@@ -2563,7 +2563,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "kit.com"
@@ -2586,7 +2586,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "claude.com"
@@ -2609,7 +2609,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "claude.com"
@@ -2950,27 +2950,6 @@
     {
       "code": "source-depth",
       "message": "Indexable article has 1 source(s); recommended is 2",
-      "articleId": "jetboy-review-ja",
-      "language": "ja",
-      "route": "/ja/hosting-security/jetboy-review/"
-    },
-    {
-      "code": "source-depth",
-      "message": "Indexable article has 1 source(s); recommended is 2",
-      "articleId": "jetboy-review-en",
-      "language": "en",
-      "route": "/en/hosting-security/jetboy-review/"
-    },
-    {
-      "code": "content-depth",
-      "message": "Indexable article has 364 content units; recommended is 500",
-      "articleId": "jetboy-review-en",
-      "language": "en",
-      "route": "/en/hosting-security/jetboy-review/"
-    },
-    {
-      "code": "source-depth",
-      "message": "Indexable article has 1 source(s); recommended is 2",
       "articleId": "mixhost-review-ja",
       "language": "ja",
       "route": "/ja/hosting-security/mixhost-review/"
@@ -3274,7 +3253,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "claude.com"
@@ -3297,7 +3276,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "one.google.com",
@@ -3321,7 +3300,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "microsoft.com"
@@ -3344,7 +3323,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "perplexity.ai"
@@ -3367,7 +3346,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "claude.com",
         "one.google.com",
@@ -3391,7 +3370,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "claude.com",
         "microsoft.com"
@@ -3414,7 +3393,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "claude.com",
         "perplexity.ai"
@@ -3437,7 +3416,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fathom.ai"
       ]
@@ -3459,7 +3438,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fathom.ai",
         "tldv.io"
@@ -3482,7 +3461,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fireflies.ai"
       ]
@@ -3504,7 +3483,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fireflies.ai",
         "fathom.ai"
@@ -3527,7 +3506,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fireflies.ai",
         "tldv.io"
@@ -3550,7 +3529,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "one.google.com",
         "gemini.google.com",
@@ -3574,7 +3553,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "microsoft.com"
       ]
@@ -3596,7 +3575,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai"
       ]
@@ -3618,7 +3597,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai",
         "fathom.ai"
@@ -3641,7 +3620,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai",
         "fireflies.ai"
@@ -3664,7 +3643,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai",
         "tldv.io"
@@ -3687,7 +3666,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "perplexity.ai"
       ]
@@ -3709,7 +3688,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "perplexity.ai",
         "one.google.com",
@@ -3733,7 +3712,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "perplexity.ai",
         "microsoft.com"
@@ -3756,7 +3735,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "tldv.io"
       ]
@@ -3778,7 +3757,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com"
       ]
@@ -3800,7 +3779,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "asana.com"
@@ -3823,7 +3802,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "basecamp.com"
@@ -3846,7 +3825,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "monday.com"
@@ -3869,7 +3848,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "notion.com"
@@ -3892,7 +3871,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "help.asana.com"
@@ -3915,7 +3894,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "basecamp.com"
@@ -3938,7 +3917,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "monday.com"
@@ -3961,7 +3940,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com"
       ]
@@ -3983,7 +3962,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "monday.com"
@@ -4006,7 +3985,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "trello.com"
@@ -4029,7 +4008,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com",
         "workspace.google.com",
@@ -4055,7 +4034,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "monday.com",
@@ -4080,7 +4059,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "monday.com",
@@ -4104,7 +4083,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com"
       ]
@@ -4126,7 +4105,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "airtable.com"
@@ -4149,7 +4128,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "asana.com"
@@ -4172,7 +4151,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "basecamp.com"
@@ -4195,7 +4174,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "monday.com"
@@ -4218,7 +4197,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "todoist.com"
@@ -4241,7 +4220,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "trello.com"
@@ -4264,7 +4243,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "workspace.google.com",
         "support.google.com"
@@ -4287,7 +4266,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "support.google.com"
       ]
@@ -4309,7 +4288,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "support.google.com",
         "workspace.google.com"
@@ -4332,7 +4311,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "support.google.com",
         "one.google.com"
@@ -4355,7 +4334,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "support.google.com",
         "workspace.google.com"
@@ -4378,7 +4357,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "workspace.google.com"
       ]
@@ -4400,7 +4379,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com"
       ]
@@ -4422,7 +4401,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "airtable.com"
@@ -4445,7 +4424,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "asana.com"
@@ -4468,7 +4447,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "clickup.com"
@@ -4491,7 +4470,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "monday.com"
@@ -4514,7 +4493,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "trello.com"
@@ -4537,7 +4516,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "wrike.com"
@@ -4560,7 +4539,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "microsoft.com"
       ]
@@ -4582,7 +4561,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "clickup.com",
@@ -4607,7 +4586,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "clickup.com",
@@ -4631,7 +4610,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com"
       ]
@@ -4653,7 +4632,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "notion.com"
@@ -4676,7 +4655,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "trello.com"
@@ -4699,7 +4678,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "asana.com"
@@ -4722,7 +4701,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "basecamp.com"
@@ -4745,7 +4724,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "clickup.com"
@@ -4768,7 +4747,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "atlassian.com"
@@ -4791,7 +4770,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "todoist.com"
@@ -4814,7 +4793,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "trello.com"
@@ -4837,7 +4816,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "wrike.com"
@@ -4860,7 +4839,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com"
       ]
@@ -4882,7 +4861,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com"
       ]
@@ -4904,7 +4883,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com",
         "workspace.google.com"
@@ -4927,7 +4906,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com",
         "microsoft.com"
@@ -4950,7 +4929,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "trello.com",
@@ -4975,7 +4954,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com"
       ]
@@ -4997,7 +4976,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com",
         "asana.com"
@@ -5020,7 +4999,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com",
         "basecamp.com"
@@ -5043,7 +5022,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com",
         "trello.com"
@@ -5066,7 +5045,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "trello.com",
         "airtable.com"
@@ -5089,7 +5068,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "trello.com",
         "asana.com"
@@ -5112,7 +5091,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "trello.com",
         "wrike.com"
@@ -5135,7 +5114,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com"
       ]
@@ -5157,7 +5136,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "airtable.com"
@@ -5180,7 +5159,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "asana.com"
@@ -5203,7 +5182,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "basecamp.com"
@@ -5226,7 +5205,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "clickup.com"
@@ -5249,7 +5228,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "monday.com"
@@ -5272,7 +5251,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "zoom.com"
       ]
@@ -5294,7 +5273,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "zoom.com",
         "microsoft.com"
@@ -5317,7 +5296,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "bitwarden.com"
@@ -5340,7 +5319,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "keepersecurity.com"
@@ -5363,7 +5342,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "nordpass.com"
@@ -5386,7 +5365,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ablenet.jp"
       ]
@@ -5408,7 +5387,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ablenet.jp"
       ]
@@ -5430,7 +5409,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "keepersecurity.com"
@@ -5453,10 +5432,32 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "nordpass.com"
+      ]
+    },
+    {
+      "id": "business-hosting-sla-comparison-en",
+      "translationKey": "business-hosting-sla-comparison",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "business-hosting-sla-comparison",
+      "route": "/en/hosting-security/business-hosting-sla-comparison/",
+      "sourceFile": "content/articles/en/business-hosting-sla-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 554,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 11,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
       ]
     },
     {
@@ -5476,7 +5477,7 @@
       "sourceHostCount": 4,
       "sectionCount": 7,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cpi.ad.jp",
         "business.xserver.ne.jp",
@@ -5501,7 +5502,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp",
         "kinsta.com",
@@ -5525,7 +5526,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cloudways.com"
       ]
@@ -5547,7 +5548,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cloudways.com",
         "kinsta.com"
@@ -5570,7 +5571,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cloudways.com",
         "wpengine.com"
@@ -5593,7 +5594,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "colorfulbox.jp"
       ]
@@ -5615,7 +5616,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "jprs.jp"
       ]
@@ -5637,9 +5638,33 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "conoha.jp"
+      ]
+    },
+    {
+      "id": "cpanel-hosting-comparison-en",
+      "translationKey": "cpanel-hosting-comparison",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "cpanel-hosting-comparison",
+      "route": "/en/hosting-security/cpanel-hosting-comparison/",
+      "sourceFile": "content/articles/en/cpanel-hosting-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 510,
+      "sourceCount": 8,
+      "sourceHostCount": 3,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "cpanel.net",
+        "docs.cpanel.net"
       ]
     },
     {
@@ -5659,7 +5684,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 4,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cpi.ad.jp"
       ]
@@ -5681,7 +5706,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cpi.ad.jp",
         "business.xserver.ne.jp"
@@ -5704,7 +5729,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "jprs.jp",
         "cloudflare.com",
@@ -5728,7 +5753,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "siteground.com",
@@ -5753,7 +5778,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "siteground.com",
@@ -5777,7 +5802,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com"
       ]
@@ -5799,7 +5824,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "ablenet.jp"
@@ -5822,7 +5847,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "cloudways.com"
@@ -5845,7 +5870,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "kinsta.com"
@@ -5868,7 +5893,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "lolipop.jp"
@@ -5891,7 +5916,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "siteground.com"
@@ -5914,7 +5939,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "wpengine.com"
@@ -5937,10 +5962,98 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "iclusta-movable-type-hosting-en",
+      "translationKey": "iclusta-movable-type-hosting",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "iclusta-movable-type-hosting",
+      "route": "/en/hosting-security/iclusta-movable-type-hosting/",
+      "sourceFile": "content/articles/en/iclusta-movable-type-hosting.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 541,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 11,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
+      ]
+    },
+    {
+      "id": "iclusta-review-en",
+      "translationKey": "iclusta-review",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "iclusta-review",
+      "route": "/en/hosting-security/iclusta-review/",
+      "sourceFile": "content/articles/en/iclusta-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 537,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 8,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
+      ]
+    },
+    {
+      "id": "iclusta-vs-cpi-en",
+      "translationKey": "iclusta-vs-cpi",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "iclusta-vs-cpi",
+      "route": "/en/hosting-security/iclusta-vs-cpi/",
+      "sourceFile": "content/articles/en/iclusta-vs-cpi.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 558,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 11,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
+      ]
+    },
+    {
+      "id": "iclusta-vs-xserver-for-wordpress-en",
+      "translationKey": "iclusta-vs-xserver-for-wordpress",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "iclusta-vs-xserver-for-wordpress",
+      "route": "/en/hosting-security/iclusta-vs-xserver-for-wordpress/",
+      "sourceFile": "content/articles/en/iclusta-vs-xserver-for-wordpress.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 541,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 11,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
       ]
     },
     {
@@ -5950,19 +6063,65 @@
       "category": "hosting-security",
       "slug": "jetboy-review",
       "route": "/en/hosting-security/jetboy-review/",
-      "sourceFile": "content/article-batches/legacy-migrations.json#jetboy-review:en",
-      "generated": true,
+      "sourceFile": "content/articles/en/jetboy-review.json",
+      "generated": false,
       "indexable": true,
-      "score": 75,
+      "score": 100,
       "verifiedAt": "2026-07-19",
-      "units": 364,
-      "sourceCount": 1,
+      "units": 502,
+      "sourceCount": 6,
       "sourceHostCount": 1,
-      "sectionCount": 6,
+      "sectionCount": 5,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "jetboy.jp"
+      ]
+    },
+    {
+      "id": "jetboy-vs-hostinger-en",
+      "translationKey": "jetboy-vs-hostinger",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "jetboy-vs-hostinger",
+      "route": "/en/hosting-security/jetboy-vs-hostinger/",
+      "sourceFile": "content/articles/en/jetboy-vs-hostinger.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 503,
+      "sourceCount": 8,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "hostinger.com"
+      ]
+    },
+    {
+      "id": "jetboy-vs-xserver-for-wordpress-en",
+      "translationKey": "jetboy-vs-xserver-for-wordpress",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "jetboy-vs-xserver-for-wordpress",
+      "route": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "sourceFile": "content/articles/en/jetboy-vs-xserver-for-wordpress.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 518,
+      "sourceCount": 8,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "wp.xserver.ne.jp"
       ]
     },
     {
@@ -5982,7 +6141,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com",
@@ -6007,7 +6166,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com",
@@ -6031,7 +6190,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com"
       ]
@@ -6053,10 +6212,33 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com"
+      ]
+    },
+    {
+      "id": "litespeed-hosting-comparison-en",
+      "translationKey": "litespeed-hosting-comparison",
+      "language": "en",
+      "category": "hosting-security",
+      "slug": "litespeed-hosting-comparison",
+      "route": "/en/hosting-security/litespeed-hosting-comparison/",
+      "sourceFile": "content/articles/en/litespeed-hosting-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 527,
+      "sourceCount": 8,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "litespeedtech.com"
       ]
     },
     {
@@ -6076,7 +6258,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mixhost.jp"
       ]
@@ -6098,7 +6280,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "namecheap.com"
       ]
@@ -6120,7 +6302,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordpass.com",
         "keepersecurity.com"
@@ -6143,7 +6325,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com",
         "surfshark.com",
@@ -6167,7 +6349,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com",
         "surfshark.com",
@@ -6191,7 +6373,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com"
       ]
@@ -6213,7 +6395,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com"
       ]
@@ -6235,7 +6417,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com",
         "surfshark.com"
@@ -6258,7 +6440,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "protonvpn.com"
       ]
@@ -6280,7 +6462,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "protonvpn.com",
         "nordvpn.com"
@@ -6303,7 +6485,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "protonvpn.com",
         "surfshark.com"
@@ -6326,7 +6508,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "siteground.com",
         "cloudways.com"
@@ -6349,7 +6531,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "siteground.com",
         "kinsta.com"
@@ -6372,7 +6554,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com",
         "nordvpn.com",
@@ -6396,7 +6578,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com",
         "nordvpn.com",
@@ -6420,7 +6602,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com"
       ]
@@ -6442,7 +6624,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com"
       ]
@@ -6464,7 +6646,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "cloudways.com"
@@ -6487,7 +6669,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "hostinger.com"
@@ -6510,7 +6692,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "kinsta.com"
@@ -6533,7 +6715,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "siteground.com"
@@ -6556,7 +6738,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "wpengine.com"
@@ -6579,7 +6761,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com",
         "kinsta.com",
@@ -6604,7 +6786,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com",
         "kinsta.com",
@@ -6628,7 +6810,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com"
       ]
@@ -6650,7 +6832,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com",
         "siteground.com"
@@ -6673,7 +6855,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpx.jp"
       ]
@@ -6695,7 +6877,7 @@
       "sourceHostCount": 1,
       "sectionCount": 5,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp"
       ]
@@ -6717,7 +6899,7 @@
       "sourceHostCount": 2,
       "sectionCount": 5,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp",
         "cpi.ad.jp"
@@ -6740,7 +6922,7 @@
       "sourceHostCount": 2,
       "sectionCount": 5,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp",
         "business.xserver.ne.jp"
@@ -6763,7 +6945,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "xserver.ne.jp",
         "lolipop.jp"
@@ -6786,7 +6968,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "a8.net"
       ]
@@ -6808,7 +6990,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com",
         "getresponse.com",
@@ -6833,7 +7015,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com",
         "getresponse.com",
@@ -6857,7 +7039,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com"
       ]
@@ -6879,7 +7061,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com"
       ]
@@ -6901,7 +7083,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com",
         "hubspot.com"
@@ -6924,7 +7106,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "a8.net",
         "af.moshimo.com"
@@ -6947,7 +7129,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "mangools.com"
@@ -6970,7 +7152,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "seranking.com"
@@ -6993,7 +7175,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "neilpatel.com",
@@ -7017,7 +7199,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "activecampaign.com"
@@ -7040,7 +7222,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "getresponse.com"
@@ -7063,7 +7245,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "kit.com"
@@ -7086,7 +7268,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "mailerlite.com",
@@ -7111,7 +7293,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "kit.com",
@@ -7135,7 +7317,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com"
       ]
@@ -7157,7 +7339,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "activecampaign.com"
@@ -7180,7 +7362,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "hubspot.com"
@@ -7203,7 +7385,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "kit.com"
@@ -7226,7 +7408,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "mailerlite.com"
@@ -7249,7 +7431,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "developers.google.com"
       ]
@@ -7271,7 +7453,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "activecampaign.com",
@@ -7296,7 +7478,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "activecampaign.com",
@@ -7320,7 +7502,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com"
       ]
@@ -7342,7 +7524,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com"
       ]
@@ -7364,7 +7546,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "brevo.com"
@@ -7387,7 +7569,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "mailchimp.com"
@@ -7410,7 +7592,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kit.com",
         "activecampaign.com"
@@ -7433,7 +7615,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kit.com",
         "hubspot.com"
@@ -7456,7 +7638,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "activecampaign.com"
@@ -7479,7 +7661,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "brevo.com"
@@ -7502,7 +7684,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "getresponse.com"
@@ -7525,7 +7707,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "kit.com"
@@ -7548,7 +7730,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "mailerlite.com"
@@ -7571,7 +7753,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "activecampaign.com"
@@ -7594,7 +7776,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "brevo.com"
@@ -7617,7 +7799,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "hubspot.com"
@@ -7640,7 +7822,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "kit.com"
@@ -7663,7 +7845,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mangools.com",
         "neilpatel.com",
@@ -7687,7 +7869,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "af.moshimo.com"
       ]
@@ -7709,7 +7891,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "seranking.com",
         "mangools.com"
@@ -7732,7 +7914,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "seranking.com",
         "neilpatel.com",
@@ -7756,7 +7938,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "ahrefs.com",
@@ -7781,7 +7963,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "seranking.com",
@@ -7805,7 +7987,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com"
       ]
@@ -7827,7 +8009,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "ahrefs.com",
@@ -7851,7 +8033,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "mangools.com"
@@ -7874,7 +8056,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "seranking.com"
@@ -7897,7 +8079,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "neilpatel.com",
@@ -7921,7 +8103,7 @@
       "sourceHostCount": 5,
       "sectionCount": 7,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -7947,7 +8129,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com"
       ]
@@ -7969,7 +8151,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "shopify.com",
@@ -7993,10 +8175,102 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "squarespace.com"
+      ]
+    },
+    {
+      "id": "color-me-shop-review-en",
+      "translationKey": "color-me-shop-review",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "color-me-shop-review",
+      "route": "/en/website-builders/color-me-shop-review/",
+      "sourceFile": "content/articles/en/color-me-shop-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 538,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
+      ]
+    },
+    {
+      "id": "color-me-shop-seo-guide-en",
+      "translationKey": "color-me-shop-seo-guide",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "color-me-shop-seo-guide",
+      "route": "/en/website-builders/color-me-shop-seo-guide/",
+      "sourceFile": "content/articles/en/color-me-shop-seo-guide.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 538,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
+      ]
+    },
+    {
+      "id": "color-me-shop-vs-shopify-en",
+      "translationKey": "color-me-shop-vs-shopify",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "color-me-shop-vs-shopify",
+      "route": "/en/website-builders/color-me-shop-vs-shopify/",
+      "sourceFile": "content/articles/en/color-me-shop-vs-shopify.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 536,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
+      ]
+    },
+    {
+      "id": "color-me-shop-vs-xserver-shop-en",
+      "translationKey": "color-me-shop-vs-xserver-shop",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "color-me-shop-vs-xserver-shop",
+      "route": "/en/website-builders/color-me-shop-vs-xserver-shop/",
+      "sourceFile": "content/articles/en/color-me-shop-vs-xserver-shop.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 538,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
       ]
     },
     {
@@ -8016,7 +8290,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co"
       ]
@@ -8038,7 +8312,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "framer.com"
@@ -8061,7 +8335,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "squarespace.com"
@@ -8084,7 +8358,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "webflow.com",
@@ -8108,7 +8382,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "wix.com"
@@ -8131,7 +8405,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp",
         "shopify.com",
@@ -8157,7 +8431,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com"
       ]
@@ -8179,7 +8453,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com",
         "squarespace.com"
@@ -8202,7 +8476,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com",
         "webflow.com",
@@ -8226,7 +8500,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com",
         "wix.com"
@@ -8249,7 +8523,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp"
@@ -8272,7 +8546,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -8296,7 +8570,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com"
       ]
@@ -8318,7 +8592,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "squarespace.com"
@@ -8341,7 +8615,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "wix.com"
@@ -8364,10 +8638,33 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "wordpress.com"
+      ]
+    },
+    {
+      "id": "japanese-ecommerce-platform-seo-comparison-en",
+      "translationKey": "japanese-ecommerce-platform-seo-comparison",
+      "language": "en",
+      "category": "website-builders",
+      "slug": "japanese-ecommerce-platform-seo-comparison",
+      "route": "/en/website-builders/japanese-ecommerce-platform-seo-comparison/",
+      "sourceFile": "content/articles/en/japanese-ecommerce-platform-seo-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 536,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
       ]
     },
     {
@@ -8387,7 +8684,7 @@
       "sourceHostCount": 5,
       "sectionCount": 7,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -8413,7 +8710,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8439,7 +8736,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8464,7 +8761,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com"
@@ -8487,7 +8784,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8511,7 +8808,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8535,7 +8832,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8559,7 +8856,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8583,7 +8880,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "wix.com",
@@ -8607,7 +8904,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -8631,7 +8928,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "squarespace.com",
         "woocommerce.com"
@@ -8654,7 +8951,7 @@
       "sourceHostCount": 5,
       "sectionCount": 7,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -8680,7 +8977,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -8704,7 +9001,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -8729,7 +9026,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -8753,7 +9050,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -8777,7 +9074,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -8801,7 +9098,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wix.com",
         "bigcommerce.com"
@@ -8824,7 +9121,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wix.com",
         "squarespace.com",
@@ -8848,7 +9145,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com"
       ]
@@ -8870,7 +9167,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "bigcommerce.com"
@@ -8893,7 +9190,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "hostinger.com"
@@ -8916,7 +9213,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "shopify.com",
@@ -8940,7 +9237,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "wix.com"
@@ -8963,7 +9260,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "framer.com"
@@ -8986,7 +9283,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "squarespace.com"
@@ -9009,7 +9306,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "webflow.com",
@@ -9033,7 +9330,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "wix.com"
@@ -9056,7 +9353,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "woocommerce.com"
@@ -9079,7 +9376,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.org"
       ]
@@ -9101,7 +9398,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp"
       ]
@@ -9123,7 +9420,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp",
         "shopify.com",
@@ -9147,7 +9444,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp",
         "woocommerce.com"
@@ -9170,7 +9467,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "claude.com"
@@ -9193,7 +9490,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "one.google.com",
@@ -9217,7 +9514,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "microsoft.com"
@@ -9240,7 +9537,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "openai.com",
         "perplexity.ai"
@@ -9263,7 +9560,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "claude.com",
         "one.google.com",
@@ -9287,7 +9584,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "claude.com",
         "microsoft.com"
@@ -9310,7 +9607,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "claude.com",
         "perplexity.ai"
@@ -9333,7 +9630,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fathom.ai"
       ]
@@ -9355,7 +9652,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fathom.ai",
         "tldv.io"
@@ -9378,7 +9675,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fireflies.ai"
       ]
@@ -9400,7 +9697,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fireflies.ai",
         "fathom.ai"
@@ -9423,7 +9720,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "fireflies.ai",
         "tldv.io"
@@ -9446,7 +9743,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "one.google.com",
         "gemini.google.com",
@@ -9470,7 +9767,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "microsoft.com"
       ]
@@ -9492,7 +9789,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai"
       ]
@@ -9514,7 +9811,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai",
         "fathom.ai"
@@ -9537,7 +9834,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai",
         "fireflies.ai"
@@ -9560,7 +9857,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "otter.ai",
         "tldv.io"
@@ -9583,7 +9880,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "perplexity.ai"
       ]
@@ -9605,7 +9902,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "perplexity.ai",
         "one.google.com",
@@ -9629,7 +9926,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "perplexity.ai",
         "microsoft.com"
@@ -9652,7 +9949,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "tldv.io"
       ]
@@ -9674,7 +9971,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com"
       ]
@@ -9696,7 +9993,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "asana.com"
@@ -9719,7 +10016,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "basecamp.com"
@@ -9742,7 +10039,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "monday.com"
@@ -9765,7 +10062,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "airtable.com",
         "notion.com"
@@ -9788,7 +10085,7 @@
       "sourceHostCount": 2,
       "sectionCount": 5,
       "faqCount": 2,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "asana.com",
         "help.asana.com"
@@ -9811,7 +10108,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "basecamp.com"
@@ -9834,7 +10131,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "asana.com",
         "monday.com"
@@ -9857,7 +10154,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com"
       ]
@@ -9879,7 +10176,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "monday.com"
@@ -9902,7 +10199,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "basecamp.com",
         "trello.com"
@@ -9925,7 +10222,7 @@
       "sourceHostCount": 5,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "slack.com",
         "workspace.google.com",
@@ -9951,7 +10248,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "monday.com",
@@ -9976,7 +10273,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "monday.com",
@@ -10000,7 +10297,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com"
       ]
@@ -10022,7 +10319,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "airtable.com"
@@ -10045,7 +10342,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": 1,
       "sourceHosts": [
         "clickup.com",
         "asana.com"
@@ -10068,7 +10365,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "basecamp.com"
@@ -10091,7 +10388,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "monday.com"
@@ -10114,7 +10411,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "todoist.com"
@@ -10137,7 +10434,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "clickup.com",
         "trello.com"
@@ -10160,7 +10457,7 @@
       "sourceHostCount": 2,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "workspace.google.com",
         "support.google.com"
@@ -10183,7 +10480,7 @@
       "sourceHostCount": 1,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "support.google.com"
       ]
@@ -10205,7 +10502,7 @@
       "sourceHostCount": 2,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "support.google.com",
         "workspace.google.com"
@@ -10228,7 +10525,7 @@
       "sourceHostCount": 2,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "support.google.com",
         "one.google.com"
@@ -10251,7 +10548,7 @@
       "sourceHostCount": 2,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "support.google.com",
         "workspace.google.com"
@@ -10274,7 +10571,7 @@
       "sourceHostCount": 1,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "workspace.google.com"
       ]
@@ -10296,7 +10593,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com"
       ]
@@ -10318,7 +10615,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "airtable.com"
@@ -10341,7 +10638,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "asana.com"
@@ -10364,7 +10661,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "clickup.com"
@@ -10387,7 +10684,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "monday.com"
@@ -10410,7 +10707,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "trello.com"
@@ -10433,7 +10730,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "atlassian.com",
         "wrike.com"
@@ -10456,7 +10753,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "microsoft.com"
       ]
@@ -10478,7 +10775,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "clickup.com",
@@ -10503,7 +10800,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "clickup.com",
@@ -10527,7 +10824,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com"
       ]
@@ -10549,7 +10846,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "notion.com"
@@ -10572,7 +10869,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "monday.com",
         "trello.com"
@@ -10595,7 +10892,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": 1,
       "sourceHosts": [
         "notion.com",
         "asana.com"
@@ -10618,7 +10915,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "basecamp.com"
@@ -10641,7 +10938,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "clickup.com"
@@ -10664,7 +10961,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "atlassian.com"
@@ -10687,7 +10984,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "todoist.com"
@@ -10710,7 +11007,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "trello.com"
@@ -10733,7 +11030,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "notion.com",
         "wrike.com"
@@ -10756,7 +11053,7 @@
       "sourceHostCount": 1,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "slack.com"
       ]
@@ -10778,7 +11075,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com"
       ]
@@ -10800,7 +11097,7 @@
       "sourceHostCount": 2,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "slack.com",
         "workspace.google.com"
@@ -10823,7 +11120,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "slack.com",
         "microsoft.com"
@@ -10846,7 +11143,7 @@
       "sourceHostCount": 4,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "asana.com",
         "trello.com",
@@ -10871,7 +11168,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com"
       ]
@@ -10893,7 +11190,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com",
         "asana.com"
@@ -10916,7 +11213,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com",
         "basecamp.com"
@@ -10939,7 +11236,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "todoist.com",
         "trello.com"
@@ -10962,7 +11259,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "trello.com",
         "airtable.com"
@@ -10985,7 +11282,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "trello.com",
         "asana.com"
@@ -11008,7 +11305,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "trello.com",
         "wrike.com"
@@ -11031,7 +11328,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com"
       ]
@@ -11053,7 +11350,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "airtable.com"
@@ -11076,7 +11373,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "asana.com"
@@ -11099,7 +11396,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "basecamp.com"
@@ -11122,7 +11419,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "clickup.com"
@@ -11145,7 +11442,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wrike.com",
         "monday.com"
@@ -11168,7 +11465,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "zoom.com"
       ]
@@ -11190,7 +11487,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "zoom.com",
         "microsoft.com"
@@ -11213,7 +11510,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "bitwarden.com"
@@ -11236,7 +11533,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "keepersecurity.com"
@@ -11259,7 +11556,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "1password.com",
         "nordpass.com"
@@ -11282,7 +11579,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ablenet.jp"
       ]
@@ -11304,7 +11601,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ablenet.jp"
       ]
@@ -11326,7 +11623,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "keepersecurity.com"
@@ -11349,10 +11646,32 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bitwarden.com",
         "nordpass.com"
+      ]
+    },
+    {
+      "id": "business-hosting-sla-comparison-ja",
+      "translationKey": "business-hosting-sla-comparison",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "business-hosting-sla-comparison",
+      "route": "/ja/hosting-security/business-hosting-sla-comparison/",
+      "sourceFile": "content/articles/ja/business-hosting-sla-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 702,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
       ]
     },
     {
@@ -11372,7 +11691,7 @@
       "sourceHostCount": 4,
       "sectionCount": 7,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cpi.ad.jp",
         "business.xserver.ne.jp",
@@ -11397,7 +11716,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp",
         "kinsta.com",
@@ -11421,7 +11740,7 @@
       "sourceHostCount": 1,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "cloudways.com"
       ]
@@ -11443,7 +11762,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cloudways.com",
         "kinsta.com"
@@ -11466,7 +11785,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cloudways.com",
         "wpengine.com"
@@ -11489,7 +11808,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "colorfulbox.jp"
       ]
@@ -11511,7 +11830,7 @@
       "sourceHostCount": 1,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "jprs.jp"
       ]
@@ -11533,9 +11852,33 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "conoha.jp"
+      ]
+    },
+    {
+      "id": "cpanel-hosting-comparison-ja",
+      "translationKey": "cpanel-hosting-comparison",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "cpanel-hosting-comparison",
+      "route": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "sourceFile": "content/articles/ja/cpanel-hosting-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1318,
+      "sourceCount": 8,
+      "sourceHostCount": 3,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "cpanel.net",
+        "docs.cpanel.net"
       ]
     },
     {
@@ -11555,7 +11898,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 4,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cpi.ad.jp"
       ]
@@ -11577,7 +11920,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "cpi.ad.jp",
         "business.xserver.ne.jp"
@@ -11600,7 +11943,7 @@
       "sourceHostCount": 3,
       "sectionCount": 4,
       "faqCount": 1,
-      "staleDays": 1,
+      "staleDays": 2,
       "sourceHosts": [
         "jprs.jp",
         "cloudflare.com",
@@ -11624,7 +11967,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "siteground.com",
@@ -11649,7 +11992,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "siteground.com",
@@ -11673,7 +12016,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com"
       ]
@@ -11695,7 +12038,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "ablenet.jp"
@@ -11718,7 +12061,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": 1,
       "sourceHosts": [
         "hostinger.com",
         "cloudways.com"
@@ -11741,7 +12084,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "kinsta.com"
@@ -11764,7 +12107,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "lolipop.jp"
@@ -11787,7 +12130,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "siteground.com"
@@ -11810,7 +12153,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "wpengine.com"
@@ -11833,10 +12176,98 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "xserver.ne.jp"
+      ]
+    },
+    {
+      "id": "iclusta-movable-type-hosting-ja",
+      "translationKey": "iclusta-movable-type-hosting",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "iclusta-movable-type-hosting",
+      "route": "/ja/hosting-security/iclusta-movable-type-hosting/",
+      "sourceFile": "content/articles/ja/iclusta-movable-type-hosting.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 659,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
+      ]
+    },
+    {
+      "id": "iclusta-review-ja",
+      "translationKey": "iclusta-review",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "iclusta-review",
+      "route": "/ja/hosting-security/iclusta-review/",
+      "sourceFile": "content/articles/ja/iclusta-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1373,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 5,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
+      ]
+    },
+    {
+      "id": "iclusta-vs-cpi-ja",
+      "translationKey": "iclusta-vs-cpi",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "iclusta-vs-cpi",
+      "route": "/ja/hosting-security/iclusta-vs-cpi/",
+      "sourceFile": "content/articles/ja/iclusta-vs-cpi.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 912,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
+      ]
+    },
+    {
+      "id": "iclusta-vs-xserver-for-wordpress-ja",
+      "translationKey": "iclusta-vs-xserver-for-wordpress",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "iclusta-vs-xserver-for-wordpress",
+      "route": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+      "sourceFile": "content/articles/ja/iclusta-vs-xserver-for-wordpress.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1002,
+      "sourceCount": 8,
+      "sourceHostCount": 1,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shared.gmocloud.com"
       ]
     },
     {
@@ -11846,19 +12277,65 @@
       "category": "hosting-security",
       "slug": "jetboy-review",
       "route": "/ja/hosting-security/jetboy-review/",
-      "sourceFile": "content/article-batches/legacy-migrations.json#jetboy-review:ja",
-      "generated": true,
+      "sourceFile": "content/articles/ja/jetboy-review.json",
+      "generated": false,
       "indexable": true,
-      "score": 90,
+      "score": 100,
       "verifiedAt": "2026-07-19",
-      "units": 1119,
-      "sourceCount": 1,
+      "units": 1871,
+      "sourceCount": 6,
       "sourceHostCount": 1,
       "sectionCount": 6,
-      "faqCount": 2,
-      "staleDays": -1,
+      "faqCount": 3,
+      "staleDays": 0,
       "sourceHosts": [
         "jetboy.jp"
+      ]
+    },
+    {
+      "id": "jetboy-vs-hostinger-ja",
+      "translationKey": "jetboy-vs-hostinger",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "jetboy-vs-hostinger",
+      "route": "/ja/hosting-security/jetboy-vs-hostinger/",
+      "sourceFile": "content/articles/ja/jetboy-vs-hostinger.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1248,
+      "sourceCount": 8,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "hostinger.com"
+      ]
+    },
+    {
+      "id": "jetboy-vs-xserver-for-wordpress-ja",
+      "translationKey": "jetboy-vs-xserver-for-wordpress",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "jetboy-vs-xserver-for-wordpress",
+      "route": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "sourceFile": "content/articles/ja/jetboy-vs-xserver-for-wordpress.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1483,
+      "sourceCount": 8,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "wp.xserver.ne.jp"
       ]
     },
     {
@@ -11878,7 +12355,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com",
@@ -11903,7 +12380,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com",
@@ -11927,7 +12404,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com"
       ]
@@ -11949,10 +12426,33 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kinsta.com",
         "wpengine.com"
+      ]
+    },
+    {
+      "id": "litespeed-hosting-comparison-ja",
+      "translationKey": "litespeed-hosting-comparison",
+      "language": "ja",
+      "category": "hosting-security",
+      "slug": "litespeed-hosting-comparison",
+      "route": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "sourceFile": "content/articles/ja/litespeed-hosting-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1306,
+      "sourceCount": 8,
+      "sourceHostCount": 2,
+      "sectionCount": 5,
+      "faqCount": 2,
+      "staleDays": 0,
+      "sourceHosts": [
+        "jetboy.jp",
+        "litespeedtech.com"
       ]
     },
     {
@@ -11972,7 +12472,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mixhost.jp"
       ]
@@ -11994,7 +12494,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "namecheap.com"
       ]
@@ -12016,7 +12516,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordpass.com",
         "keepersecurity.com"
@@ -12039,7 +12539,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com",
         "surfshark.com",
@@ -12063,7 +12563,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com",
         "surfshark.com",
@@ -12087,7 +12587,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com"
       ]
@@ -12109,7 +12609,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com"
       ]
@@ -12131,7 +12631,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "nordvpn.com",
         "surfshark.com"
@@ -12154,7 +12654,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "protonvpn.com"
       ]
@@ -12176,7 +12676,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "protonvpn.com",
         "nordvpn.com"
@@ -12199,7 +12699,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "protonvpn.com",
         "surfshark.com"
@@ -12222,7 +12722,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "siteground.com",
         "cloudways.com"
@@ -12245,7 +12745,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "siteground.com",
         "kinsta.com"
@@ -12268,7 +12768,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com",
         "nordvpn.com",
@@ -12292,7 +12792,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com",
         "nordvpn.com",
@@ -12316,7 +12816,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com"
       ]
@@ -12338,7 +12838,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "surfshark.com"
       ]
@@ -12360,7 +12860,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "cloudways.com"
@@ -12383,7 +12883,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "hostinger.com"
@@ -12406,7 +12906,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "kinsta.com"
@@ -12429,7 +12929,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "siteground.com"
@@ -12452,7 +12952,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "wpengine.com"
@@ -12475,7 +12975,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com",
         "kinsta.com",
@@ -12500,7 +13000,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com",
         "kinsta.com",
@@ -12524,7 +13024,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com"
       ]
@@ -12546,7 +13046,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpengine.com",
         "siteground.com"
@@ -12569,7 +13069,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wpx.jp"
       ]
@@ -12591,7 +13091,7 @@
       "sourceHostCount": 1,
       "sectionCount": 8,
       "faqCount": 4,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp"
       ]
@@ -12613,7 +13113,7 @@
       "sourceHostCount": 2,
       "sectionCount": 5,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp",
         "cpi.ad.jp"
@@ -12636,7 +13136,7 @@
       "sourceHostCount": 2,
       "sectionCount": 5,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wp.xserver.ne.jp",
         "business.xserver.ne.jp"
@@ -12659,7 +13159,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "xserver.ne.jp",
         "lolipop.jp"
@@ -12682,7 +13182,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "a8.net"
       ]
@@ -12704,7 +13204,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com",
         "getresponse.com",
@@ -12729,7 +13229,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com",
         "getresponse.com",
@@ -12753,7 +13253,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com"
       ]
@@ -12775,7 +13275,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com"
       ]
@@ -12797,7 +13297,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "activecampaign.com",
         "hubspot.com"
@@ -12820,7 +13320,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "a8.net",
         "af.moshimo.com"
@@ -12843,7 +13343,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "mangools.com"
@@ -12866,7 +13366,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "seranking.com"
@@ -12889,7 +13389,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "ahrefs.com",
         "neilpatel.com",
@@ -12913,7 +13413,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "activecampaign.com"
@@ -12936,7 +13436,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "getresponse.com"
@@ -12959,7 +13459,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "brevo.com",
         "kit.com"
@@ -12982,7 +13482,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "mailerlite.com",
@@ -13007,7 +13507,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "kit.com",
@@ -13031,7 +13531,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com"
       ]
@@ -13053,7 +13553,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "activecampaign.com"
@@ -13076,7 +13576,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "hubspot.com"
@@ -13099,7 +13599,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "kit.com"
@@ -13122,7 +13622,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "getresponse.com",
         "mailerlite.com"
@@ -13145,7 +13645,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "developers.google.com"
       ]
@@ -13167,7 +13667,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "activecampaign.com",
@@ -13192,7 +13692,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "activecampaign.com",
@@ -13216,7 +13716,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com"
       ]
@@ -13238,7 +13738,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com"
       ]
@@ -13260,7 +13760,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "brevo.com"
@@ -13283,7 +13783,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hubspot.com",
         "mailchimp.com"
@@ -13306,7 +13806,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kit.com",
         "activecampaign.com"
@@ -13329,7 +13829,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "kit.com",
         "hubspot.com"
@@ -13352,7 +13852,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "activecampaign.com"
@@ -13375,7 +13875,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "brevo.com"
@@ -13398,7 +13898,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "getresponse.com"
@@ -13421,7 +13921,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "kit.com"
@@ -13444,7 +13944,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailchimp.com",
         "mailerlite.com"
@@ -13467,7 +13967,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "activecampaign.com"
@@ -13490,7 +13990,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": 1,
       "sourceHosts": [
         "mailerlite.com",
         "brevo.com"
@@ -13513,7 +14013,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "hubspot.com"
@@ -13536,7 +14036,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mailerlite.com",
         "kit.com"
@@ -13559,7 +14059,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "mangools.com",
         "neilpatel.com",
@@ -13583,7 +14083,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "af.moshimo.com"
       ]
@@ -13605,7 +14105,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "seranking.com",
         "mangools.com"
@@ -13628,7 +14128,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "seranking.com",
         "neilpatel.com",
@@ -13652,7 +14152,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "ahrefs.com",
@@ -13677,7 +14177,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "seranking.com",
@@ -13701,7 +14201,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com"
       ]
@@ -13723,7 +14223,7 @@
       "sourceHostCount": 3,
       "sectionCount": 7,
       "faqCount": 3,
-      "staleDays": 0,
+      "staleDays": 1,
       "sourceHosts": [
         "semrush.com",
         "ahrefs.com",
@@ -13747,7 +14247,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "mangools.com"
@@ -13770,7 +14270,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "seranking.com"
@@ -13793,7 +14293,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "semrush.com",
         "neilpatel.com",
@@ -13817,7 +14317,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -13843,7 +14343,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com"
       ]
@@ -13865,7 +14365,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "shopify.com",
@@ -13889,10 +14389,102 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "bigcommerce.com",
         "squarespace.com"
+      ]
+    },
+    {
+      "id": "color-me-shop-review-ja",
+      "translationKey": "color-me-shop-review",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "color-me-shop-review",
+      "route": "/ja/website-builders/color-me-shop-review/",
+      "sourceFile": "content/articles/ja/color-me-shop-review.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1993,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
+      ]
+    },
+    {
+      "id": "color-me-shop-seo-guide-ja",
+      "translationKey": "color-me-shop-seo-guide",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "color-me-shop-seo-guide",
+      "route": "/ja/website-builders/color-me-shop-seo-guide/",
+      "sourceFile": "content/articles/ja/color-me-shop-seo-guide.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2203,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
+      ]
+    },
+    {
+      "id": "color-me-shop-vs-shopify-ja",
+      "translationKey": "color-me-shop-vs-shopify",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "color-me-shop-vs-shopify",
+      "route": "/ja/website-builders/color-me-shop-vs-shopify/",
+      "sourceFile": "content/articles/ja/color-me-shop-vs-shopify.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2219,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
+      ]
+    },
+    {
+      "id": "color-me-shop-vs-xserver-shop-ja",
+      "translationKey": "color-me-shop-vs-xserver-shop",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "color-me-shop-vs-xserver-shop",
+      "route": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+      "sourceFile": "content/articles/ja/color-me-shop-vs-xserver-shop.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 2223,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 7,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
       ]
     },
     {
@@ -13912,7 +14504,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co"
       ]
@@ -13934,7 +14526,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "framer.com"
@@ -13957,7 +14549,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "squarespace.com"
@@ -13980,7 +14572,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "webflow.com",
@@ -14004,7 +14596,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "duda.co",
         "wix.com"
@@ -14027,7 +14619,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp",
         "shopify.com",
@@ -14053,7 +14645,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com"
       ]
@@ -14075,7 +14667,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com",
         "squarespace.com"
@@ -14098,7 +14690,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com",
         "webflow.com",
@@ -14122,7 +14714,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "framer.com",
         "wix.com"
@@ -14145,7 +14737,7 @@
       "sourceHostCount": 2,
       "sectionCount": 7,
       "faqCount": 4,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp"
@@ -14168,7 +14760,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -14192,7 +14784,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com"
       ]
@@ -14214,7 +14806,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "squarespace.com"
@@ -14237,7 +14829,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "wix.com"
@@ -14260,10 +14852,33 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "hostinger.com",
         "wordpress.com"
+      ]
+    },
+    {
+      "id": "japanese-ecommerce-platform-seo-comparison-ja",
+      "translationKey": "japanese-ecommerce-platform-seo-comparison",
+      "language": "ja",
+      "category": "website-builders",
+      "slug": "japanese-ecommerce-platform-seo-comparison",
+      "route": "/ja/website-builders/japanese-ecommerce-platform-seo-comparison/",
+      "sourceFile": "content/articles/ja/japanese-ecommerce-platform-seo-comparison.json",
+      "generated": false,
+      "indexable": true,
+      "score": 100,
+      "verifiedAt": "2026-07-19",
+      "units": 1996,
+      "sourceCount": 5,
+      "sourceHostCount": 2,
+      "sectionCount": 6,
+      "faqCount": 3,
+      "staleDays": 0,
+      "sourceHosts": [
+        "shop-pro.jp",
+        "help.shop-pro.jp"
       ]
     },
     {
@@ -14283,7 +14898,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -14309,7 +14924,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14335,7 +14950,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14360,7 +14975,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com"
@@ -14383,7 +14998,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14407,7 +15022,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14431,7 +15046,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14455,7 +15070,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14479,7 +15094,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "wix.com",
@@ -14503,7 +15118,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shopify.com",
         "help.shopify.com",
@@ -14527,7 +15142,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "squarespace.com",
         "woocommerce.com"
@@ -14550,7 +15165,7 @@
       "sourceHostCount": 5,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "goope.jp",
         "help.goope.jp",
@@ -14576,7 +15191,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -14600,7 +15215,7 @@
       "sourceHostCount": 4,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -14625,7 +15240,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -14649,7 +15264,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -14673,7 +15288,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "webflow.com",
         "help.webflow.com",
@@ -14697,7 +15312,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wix.com",
         "bigcommerce.com"
@@ -14720,7 +15335,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wix.com",
         "squarespace.com",
@@ -14744,7 +15359,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com"
       ]
@@ -14766,7 +15381,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "bigcommerce.com"
@@ -14789,7 +15404,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "hostinger.com"
@@ -14812,7 +15427,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "shopify.com",
@@ -14836,7 +15451,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "woocommerce.com",
         "wix.com"
@@ -14859,7 +15474,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "framer.com"
@@ -14882,7 +15497,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "squarespace.com"
@@ -14905,7 +15520,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "webflow.com",
@@ -14929,7 +15544,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "wix.com"
@@ -14952,7 +15567,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.com",
         "woocommerce.com"
@@ -14975,7 +15590,7 @@
       "sourceHostCount": 1,
       "sectionCount": 6,
       "faqCount": 2,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "wordpress.org"
       ]
@@ -14997,7 +15612,7 @@
       "sourceHostCount": 1,
       "sectionCount": 7,
       "faqCount": 4,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp"
       ]
@@ -15019,7 +15634,7 @@
       "sourceHostCount": 3,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp",
         "shopify.com",
@@ -15043,7 +15658,7 @@
       "sourceHostCount": 2,
       "sectionCount": 6,
       "faqCount": 3,
-      "staleDays": -1,
+      "staleDays": 0,
       "sourceHosts": [
         "shop.xserver.ne.jp",
         "woocommerce.com"

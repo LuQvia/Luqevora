@@ -205,6 +205,41 @@
       "label": "法人向けサーバー比較",
       "url": "/ja/hosting-security/business-web-hosting-comparison/",
       "description": "他の法人向け候補も比較"
+    },
+    {
+      "label": "iCLUSTA+ byGMOレビュー",
+      "url": "/ja/hosting-security/iclusta-review/",
+      "description": "SLA、SSL、メール、料金を確認"
+    },
+    {
+      "label": "iCLUSTA+とCPIの比較",
+      "url": "/ja/hosting-security/iclusta-vs-cpi/",
+      "description": "法人サーバーの運用条件を比較"
+    },
+    {
+      "label": "法人向けSLA付きサーバー比較",
+      "url": "/ja/hosting-security/business-hosting-sla-comparison/",
+      "description": "保証対象と返金条件を比較"
+    },
+    {
+      "label": "JETBOYレビュー",
+      "url": "/ja/hosting-security/jetboy-review/",
+      "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "JETBOYとXServer for WordPressの比較",
+      "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "LiteSpeed対応サーバー比較",
+      "url": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "description": "Webサーバーとキャッシュ運用を比較"
+    },
+    {
+      "label": "cPanel対応サーバー比較",
+      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "description": "管理画面と移行性を比較"
     }
   ]
 }

@@ -1472,5 +1472,67 @@
         "Operations are primarily Japan-focused"
       ]
     }
+  },
+  "color-me-shop": {
+    "name": "Color Me Shop",
+    "affiliateKey": null,
+    "sources": [
+      {
+        "label": "Color Me Shop official site",
+        "url": "https://shop-pro.jp/"
+      },
+      {
+        "label": "Plans",
+        "url": "https://shop-pro.jp/plans"
+      },
+      {
+        "label": "SEO help",
+        "url": "https://help.shop-pro.jp/hc/ja/articles/115004714548"
+      }
+    ],
+    "positioning": {
+      "ja": "国内向け決済・配送・運営支援とテンプレート、HTML・CSS編集を組み合わせたネットショップ作成サービス",
+      "en": "A Japan-focused ecommerce service combining domestic operations, templates, support, and HTML/CSS customization"
+    },
+    "pricing": {
+      "ja": "レギュラー月額4,950円、ラージ9,595円、プレミアム35,640円から。契約時点の条件を要確認",
+      "en": "Regular JPY 4,950 monthly, Large JPY 9,595, and Premium from JPY 35,640; confirm current terms"
+    },
+    "pricingDetail": {
+      "ja": "月額だけでなく初期費用、決済、アプリ、テンプレート、制作・移行費を含めて比較します。",
+      "en": "Compare subscription, setup, payments, apps, themes, implementation, and migration as total cost."
+    },
+    "workflow": {
+      "ja": "商品・受注・顧客・配送・集客を管理画面で運用し、ページ別SEO設定とサイトマップを管理します。",
+      "en": "Operate catalog, orders, customers, shipping, and acquisition while managing page metadata and sitemaps."
+    },
+    "bestFor": {
+      "ja": "国内向けECで日本語支援と標準機能を重視する中小事業者",
+      "en": "Small and midsize merchants prioritizing Japan-focused operations and support"
+    },
+    "strengths": {
+      "ja": [
+        "国内向け運用",
+        "ページ別SEO設定",
+        "テンプレートとHTML・CSS編集"
+      ],
+      "en": [
+        "Japan-focused operations",
+        "Page-level SEO controls",
+        "Templates plus HTML/CSS customization"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "総費用は決済・アプリで変動",
+        "越境要件は個別確認",
+        "移行時のURL・データ制約"
+      ],
+      "en": [
+        "Total cost varies with payments and apps",
+        "International requirements need validation",
+        "Migration can affect data and URLs"
+      ]
+    }
   }
 }

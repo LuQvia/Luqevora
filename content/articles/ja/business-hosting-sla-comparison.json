@@ -1,0 +1,193 @@
+{
+  "id": "business-hosting-sla-comparison-ja",
+  "translationKey": "business-hosting-sla-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "business-hosting-sla-comparison",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "法人向けSLA付きレンタルサーバー比較【2026年】",
+  "metaTitle": "法人向けSLA付きレンタルサーバー比較【2026年】",
+  "description": "法人向けレンタルサーバーのSLA、対象範囲、返金率、サポート、料金を比較します。",
+  "lead": "SLAの数値だけでなく、対象サービス、除外条件、返金申請、障害情報の確認方法を比較することが重要です。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "iCLUSTA+ byGMOの詳細",
+      "officialUrl": "https://shared.gmocloud.com/iclusta/",
+      "affiliateKey": "iclusta-sla"
+    }
+  ],
+  "sources": [
+    {
+      "label": "iCLUSTA+ 公式サイト",
+      "url": "https://shared.gmocloud.com/iclusta/"
+    },
+    {
+      "label": "iCLUSTA+ 料金",
+      "url": "https://shared.gmocloud.com/iclusta/price/"
+    },
+    {
+      "label": "iCLUSTA+ 機能一覧",
+      "url": "https://shared.gmocloud.com/iclusta/function/"
+    },
+    {
+      "label": "iCLUSTA+ SLA",
+      "url": "https://shared.gmocloud.com/iclusta/sla/"
+    },
+    {
+      "label": "iCLUSTA+ 30日間返金保証",
+      "url": "https://shared.gmocloud.com/30day.html"
+    },
+    {
+      "label": "iCLUSTA+ WordPress",
+      "url": "https://shared.gmocloud.com/iclusta/option/wordpress/"
+    },
+    {
+      "label": "iCLUSTA+ Movable Type",
+      "url": "https://shared.gmocloud.com/iclusta/option/movabletype/"
+    },
+    {
+      "label": "iCLUSTA+ サーチャージ",
+      "url": "https://shared.gmocloud.com/iclusta/price/surcharge/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：保証率ではなく対象範囲で選ぶ",
+      "body": [
+        "iCLUSTA+、CPI、XServer for WordPressなどはSLAを掲げていますが、対象となるWeb、メール、データベース、マルチドメインの範囲が異なります。"
+      ],
+      "affiliateMaterialKey": "iclusta-sla"
+    },
+    {
+      "heading": "比較表",
+      "body": [
+        "契約前に各社の最新約款を確認してください。"
+      ],
+      "table": {
+        "headers": [
+          "サービス",
+          "SLAの特徴",
+          "主な確認点"
+        ],
+        "rows": [
+          [
+            "iCLUSTA+",
+            "100％保証",
+            "Web・メール・DB、返金率"
+          ],
+          [
+            "CPI",
+            "100％基準",
+            "主契約Web中心、対象外範囲"
+          ],
+          [
+            "XServer for WordPress",
+            "99.99％以上",
+            "WordPress専用環境の対象範囲"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "SLAの読み方",
+      "body": [
+        "SLAは可用性の目標と返金制度です。障害ゼロや事業損失の補償を意味しません。計測方法、月間稼働率、計画停止、不可抗力、申請期限を確認します。"
+      ]
+    },
+    {
+      "heading": "法人運用の確認項目",
+      "body": [
+        "メール停止、DNS障害、データベース停止、復旧作業、障害告知の方法を確認します。"
+      ],
+      "bullets": [
+        "対象サービス",
+        "返金率",
+        "申請期限",
+        "計画停止の扱い",
+        "バックアップ復旧"
+      ]
+    },
+    {
+      "heading": "選び方",
+      "body": [
+        "メールを含む保証と電話サポートならiCLUSTA+、制作公開工程ならCPI、WordPress専用運用ならXServer for WordPressを軸に比較します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "SLA100％なら絶対に停止しませんか？",
+      "answer": "いいえ。障害時に所定の返金を行う保証制度で、停止ゼロを意味しません。"
+    },
+    {
+      "question": "SLAだけでサーバーを選べますか？",
+      "answer": "バックアップ、復旧、サポート、メール、料金、契約条件も合わせて判断してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "CPIやXServer系と比較"
+    },
+    {
+      "label": "CPIレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/cpi-rental-server-review/",
+      "description": "法人向け機能と運用条件を確認"
+    },
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "WordPress専用運用と比較"
+    },
+    {
+      "label": "iCLUSTA+とCPIの比較",
+      "url": "/ja/hosting-security/iclusta-vs-cpi/",
+      "description": "SLA、サポート、料金を比較"
+    },
+    {
+      "label": "SLA付きレンタルサーバー比較",
+      "url": "/ja/hosting-security/sla-web-hosting-comparison/",
+      "description": "保証範囲と返金条件を確認"
+    },
+    {
+      "label": "iCLUSTA+ byGMOレビュー",
+      "url": "/ja/hosting-security/iclusta-review/",
+      "description": "SLA、SSL、メール、料金を確認"
+    },
+    {
+      "label": "法人向けSLA付きサーバー比較",
+      "url": "/ja/hosting-security/business-hosting-sla-comparison/",
+      "description": "保証対象と返金条件を比較"
+    },
+    {
+      "label": "JETBOYレビュー",
+      "url": "/ja/hosting-security/jetboy-review/",
+      "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "JETBOYとXServer for WordPressの比較",
+      "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "LiteSpeed対応サーバー比較",
+      "url": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "description": "Webサーバーとキャッシュ運用を比較"
+    },
+    {
+      "label": "cPanel対応サーバー比較",
+      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "description": "管理画面と移行性を比較"
+    }
+  ]
+}

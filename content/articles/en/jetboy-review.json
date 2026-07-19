@@ -1,0 +1,128 @@
+{
+  "id": "jetboy-review-en",
+  "translationKey": "jetboy-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "jetboy-review",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official sources reviewed",
+  "title": "JETBOY Review: Pricing, LiteSpeed and Limits (2026)",
+  "metaTitle": "JETBOY Review: Pricing, LiteSpeed and Limits (2026)",
+  "description": "An official-source review of JETBOY hosting, covering current pricing, the 14-day trial, LiteSpeed Enterprise, cPanel, WordPress, migration, and contract checks.",
+  "lead": "JETBOY is a Japan-focused hosting option built around LiteSpeed Enterprise, cPanel, SSD storage, and plan-level CPU and memory allocations.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Visit the official JETBOY site",
+      "officialUrl": "https://www.jetboy.jp/",
+      "affiliateKey": "jetboy-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JETBOY 公式サイト",
+      "url": "https://www.jetboy.jp/"
+    },
+    {
+      "label": "JETBOY プラン・料金",
+      "url": "https://www.jetboy.jp/price/"
+    },
+    {
+      "label": "JETBOYの特徴",
+      "url": "https://www.jetboy.jp/feature/"
+    },
+    {
+      "label": "JETBOY LiteSpeed",
+      "url": "https://www.jetboy.jp/litespeed/"
+    },
+    {
+      "label": "JETBOY 会社概要",
+      "url": "https://www.jetboy.jp/company/"
+    },
+    {
+      "label": "JETBOY 特定商取引法表記",
+      "url": "https://www.jetboy.jp/tokuteisho/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict",
+      "body": [
+        "JETBOY is a Japan-focused shared hosting service for users who value LiteSpeed Enterprise, cPanel, SSD storage, and published CPU and memory allocations. Its lowest advertised annual equivalent is JPY 550 per month, but buyers should compare the annual prepayment, setup fee, renewal terms, and operational requirements rather than the headline monthly equivalent.",
+        "The official site advertises a 14-day trial. Use that period to test the panel, WordPress installation, cache behavior, support response, backups, and the workflow required to move a production site."
+      ]
+    },
+    {
+      "heading": "Plans and resource allocations",
+      "body": [
+        "JETBOY publishes six plans: Mini, First, Standard, Premium, Business, and Business PRO. Annual-equivalent prices range from JPY 550 to JPY 8,338 per month, including tax on the current price page. Resource allocations rise from 2 CPU cores and 4 GB memory to 12 cores and 64 GB memory.",
+        "The lowest Mini plan lists 100 GB SSD, three MySQL databases, and ten custom domains. Higher plans expand databases, storage, CPU, and memory. Treat traffic estimates as guidance, not a guaranteed capacity level, because application design and concurrent PHP work can change actual limits."
+      ]
+    },
+    {
+      "heading": "LiteSpeed and WordPress",
+      "body": [
+        "JETBOY states that it runs LiteSpeed Enterprise and supports LiteSpeed Cache for WordPress. This can provide a useful cache stack, but performance also depends on the theme, plugins, images, third-party scripts, PHP work, database queries, and cache exclusions.",
+        "WordPress can be installed through the hosting interface. Before production use, define update policy, administrator access, backup frequency, restoration tests, security logging, and a rollback process."
+      ]
+    },
+    {
+      "heading": "cPanel and migration",
+      "body": [
+        "The service provides cPanel across its plans according to the official feature page. Experienced cPanel users may find domain, file, email, database, and SSL administration familiar. New users should verify the exact modules exposed by the host during the trial.",
+        "JETBOY also promotes migration assistance. Confirm eligible CMSs, site size, mailbox transfer, DNS work, expected downtime, number of migrations, and whether any exceptional work is chargeable."
+      ]
+    },
+    {
+      "heading": "Constraints and contract checks",
+      "body": [
+        "The current official pricing differs from older promotional copy that mentions JPY 980. Article pricing should follow the current official page, while any supplied advertisement must remain unchanged. The legal notice also says returns or cancellations are not accepted after purchase, so trial expiry and conversion to a paid contract require close attention.",
+        "For business use, review incident communications, support channels, account ownership, invoices, email security, access control, and the process for removing former staff accounts."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is JETBOY available with an English interface?",
+      "answer": "JETBOY uses cPanel, but buyers should confirm the language available for account management, billing, documentation, and support before contracting."
+    },
+    {
+      "question": "Should an international reader use the A8.net link?",
+      "answer": "No A8.net link is used in the English edition. The English article links directly to the official service because the affiliate program and service are primarily Japan-focused."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "JETBOY review",
+      "url": "/en/hosting-security/jetboy-review/",
+      "description": "Review pricing, LiteSpeed, cPanel, and constraints"
+    },
+    {
+      "label": "JETBOY vs XServer for WordPress",
+      "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "Compare operations and support"
+    },
+    {
+      "label": "LiteSpeed hosting comparison",
+      "url": "/en/hosting-security/litespeed-hosting-comparison/",
+      "description": "Compare server stack and cache workflow"
+    },
+    {
+      "label": "cPanel hosting comparison",
+      "url": "/en/hosting-security/cpanel-hosting-comparison/",
+      "description": "Compare control panels and portability"
+    },
+    {
+      "label": "Business web hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Evaluate business hosting requirements"
+    }
+  ]
+}

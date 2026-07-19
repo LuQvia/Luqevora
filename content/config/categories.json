@@ -1,7 +1,67 @@
 [
-  {"id":"ai-tools","order":10,"path":"ai-tools","name":{"ja":"AIツール","en":"AI Tools"},"description":{"ja":"生成AI、文章作成、会議支援などの機能・料金・データ条件を公式情報で比較します。","en":"Compare generative AI, writing, and meeting tools using provider-owned information on features, pricing, and data terms."}},
-  {"id":"website-builders","order":20,"path":"website-builders","name":{"ja":"Webサイト制作","en":"Website Builders"},"description":{"ja":"Webサイト作成、EC、ホスティング一体型サービスを、公開方法・独自ドメイン・移行性から比較します。","en":"Compare website builders and commerce platforms by publishing workflow, custom domains, hosting, and portability."}},
-  {"id":"seo-marketing","order":30,"path":"seo-marketing","name":{"ja":"SEO・マーケティング","en":"SEO & Marketing"},"description":{"ja":"SEO、メール配信、集客、アフィリエイト関連サービスを料金・上限・運用条件から比較します。","en":"Compare SEO, email, audience growth, and affiliate tools by price, limits, and operating requirements."}},
-  {"id":"business-software","order":40,"path":"business-software","name":{"ja":"業務効率化","en":"Business Software"},"description":{"ja":"タスク管理、チャット、共同編集、Google Workspaceなどの業務ツールを公式情報で整理します。","en":"Compare project management, chat, collaboration, and productivity software using official product information."}},
-  {"id":"hosting-security","order":50,"path":"hosting-security","name":{"ja":"サーバー・セキュリティ","en":"Hosting & Security"},"description":{"ja":"レンタルサーバー、クラウド、ドメイン、パスワード管理を料金・更新・バックアップ・移行条件から比較します。","en":"Compare hosting, cloud, domains, and password managers by price, renewals, backups, and migration terms."}}
+  {
+    "id": "ai-tools",
+    "order": 10,
+    "path": "ai-tools",
+    "name": {
+      "ja": "AIツール",
+      "en": "AI Tools"
+    },
+    "description": {
+      "ja": "生成AI、文章作成、会議支援などの機能・料金・データ条件を公式情報で比較します。",
+      "en": "Compare generative AI, writing, and meeting tools using provider-owned information on features, pricing, and data terms."
+    }
+  },
+  {
+    "id": "website-builders",
+    "order": 20,
+    "path": "website-builders",
+    "name": {
+      "ja": "Webサイト制作",
+      "en": "Website Builders"
+    },
+    "description": {
+      "ja": "Webサイト作成、ネットショップ、EC、ホスティング一体型サービスを、料金・SEO・決済・公開方法・独自ドメイン・移行性から比較します。",
+      "en": "Compare website builders and ecommerce platforms by pricing, SEO controls, payments, publishing workflow, custom domains, hosting, and portability."
+    }
+  },
+  {
+    "id": "seo-marketing",
+    "order": 30,
+    "path": "seo-marketing",
+    "name": {
+      "ja": "SEO・マーケティング",
+      "en": "SEO & Marketing"
+    },
+    "description": {
+      "ja": "SEO、メール配信、集客、アフィリエイト関連サービスを料金・上限・運用条件から比較します。",
+      "en": "Compare SEO, email, audience growth, and affiliate tools by price, limits, and operating requirements."
+    }
+  },
+  {
+    "id": "business-software",
+    "order": 40,
+    "path": "business-software",
+    "name": {
+      "ja": "業務効率化",
+      "en": "Business Software"
+    },
+    "description": {
+      "ja": "タスク管理、チャット、共同編集、Google Workspaceなどの業務ツールを公式情報で整理します。",
+      "en": "Compare project management, chat, collaboration, and productivity software using official product information."
+    }
+  },
+  {
+    "id": "hosting-security",
+    "order": 50,
+    "path": "hosting-security",
+    "name": {
+      "ja": "サーバー・セキュリティ",
+      "en": "Hosting & Security"
+    },
+    "description": {
+      "ja": "レンタルサーバー、クラウド、ドメイン、パスワード管理を料金・更新・バックアップ・移行条件から比較します。",
+      "en": "Compare hosting, cloud, domains, and password managers by price, renewals, backups, and migration terms."
+    }
+  }
 ]

@@ -1,0 +1,142 @@
+{
+  "id": "jetboy-vs-xserver-for-wordpress-en",
+  "translationKey": "jetboy-vs-xserver-for-wordpress",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "jetboy-vs-xserver-for-wordpress",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official sources reviewed",
+  "title": "JETBOY vs XServer for WordPress (2026)",
+  "metaTitle": "JETBOY vs XServer for WordPress (2026)",
+  "description": "Compare JETBOY and XServer for WordPress across service model, pricing, administration, performance, migration, support, and business operations.",
+  "lead": "JETBOY is a conventional cPanel and LiteSpeed hosting environment, while XServer for WordPress focuses on managed corporate WordPress operations.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Visit the official JETBOY site",
+      "officialUrl": "https://www.jetboy.jp/",
+      "affiliateKey": "jetboy-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JETBOY 公式サイト",
+      "url": "https://www.jetboy.jp/"
+    },
+    {
+      "label": "JETBOY プラン・料金",
+      "url": "https://www.jetboy.jp/price/"
+    },
+    {
+      "label": "JETBOYの特徴",
+      "url": "https://www.jetboy.jp/feature/"
+    },
+    {
+      "label": "JETBOY LiteSpeed",
+      "url": "https://www.jetboy.jp/litespeed/"
+    },
+    {
+      "label": "JETBOY 会社概要",
+      "url": "https://www.jetboy.jp/company/"
+    },
+    {
+      "label": "JETBOY 特定商取引法表記",
+      "url": "https://www.jetboy.jp/tokuteisho/"
+    },
+    {
+      "label": "XServer for WordPress official site",
+      "url": "https://wp.xserver.ne.jp/"
+    },
+    {
+      "label": "XServer for WordPress pricing",
+      "url": "https://wp.xserver.ne.jp/price/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict",
+      "body": [
+        "Choose JETBOY when you want a general hosting environment with cPanel, LiteSpeed, email, databases, and transparent plan resources. Evaluate XServer for WordPress when a managed, WordPress-specific operating model and specialist support are more important than a conventional hosting panel.",
+        "The services do not have identical scope, so compare total operational cost rather than the lowest monthly figure."
+      ]
+    },
+    {
+      "heading": "Service model",
+      "body": [
+        "JETBOY is a general-purpose Japanese hosting service with six resource tiers. XServer for WordPress is positioned around corporate WordPress operations. The difference affects who handles updates, troubleshooting, migration, security configuration, and ongoing maintenance."
+      ]
+    },
+    {
+      "heading": "Pricing method",
+      "body": [
+        "JETBOY offers annual and monthly contracts plus setup fees. XServer for WordPress pricing depends on its current plan and service scope. Build separate first-year and renewal-year estimates, then add migration work, maintenance labor, domains, email, backups, and any paid support."
+      ]
+    },
+    {
+      "heading": "Performance and administration",
+      "body": [
+        "JETBOY combines LiteSpeed Enterprise with cPanel. That gives technically involved teams control, but it also leaves more configuration responsibility with the customer. A WordPress-specific managed service can reduce internal work if its support scope matches the organization’s needs.",
+        "Agencies should test account separation, staging, SSH or Git requirements, backup retention, user permissions, handover, and incident response."
+      ]
+    },
+    {
+      "heading": "Selection guidance",
+      "body": [
+        "JETBOY is a practical candidate for users comfortable administering hosting and using cPanel or LiteSpeed Cache. XServer for WordPress deserves priority when expert assistance and a WordPress-focused operational boundary justify the price.",
+        "For a critical site, benchmark a copy of the real application and test restoration and support before migration."
+      ]
+    },
+    {
+      "heading": "Procurement and exit checklist",
+      "body": [
+        "Before procurement, document the production workload: number of sites, monthly traffic, peak concurrent requests, database size, mailbox count, plugin inventory, external integrations, and recovery objectives. Ask each provider to identify which tasks are included in standard support and which remain the customer’s responsibility. A managed WordPress label should not be assumed to include every plugin conflict, custom-code defect, security incident, or content restoration request.",
+        "Run a migration rehearsal using a non-production copy. Measure DNS cutover, file and database transfer, certificate issuance, cache warming, form delivery, scheduled tasks, administration response, and restoration from backup. Record the staff time required for routine updates and incident handling. This converts an apparently higher monthly fee into a comparable total operating cost and prevents a low hosting price from hiding recurring internal labor.",
+        "Finally, assign an owner for each operational task and document escalation contacts. Confirm maintenance windows, communication channels, response expectations, and the evidence required when requesting restoration or investigating an incident. This prevents assumptions about managed service boundaries."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is JETBOY available with an English interface?",
+      "answer": "JETBOY uses cPanel, but buyers should confirm the language available for account management, billing, documentation, and support before contracting."
+    },
+    {
+      "question": "Should an international reader use the A8.net link?",
+      "answer": "No A8.net link is used in the English edition. The English article links directly to the official service because the affiliate program and service are primarily Japan-focused."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "JETBOY review",
+      "url": "/en/hosting-security/jetboy-review/",
+      "description": "Review pricing, LiteSpeed, cPanel, and constraints"
+    },
+    {
+      "label": "JETBOY vs XServer for WordPress",
+      "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "Compare operations and support"
+    },
+    {
+      "label": "LiteSpeed hosting comparison",
+      "url": "/en/hosting-security/litespeed-hosting-comparison/",
+      "description": "Compare server stack and cache workflow"
+    },
+    {
+      "label": "cPanel hosting comparison",
+      "url": "/en/hosting-security/cpanel-hosting-comparison/",
+      "description": "Compare control panels and portability"
+    },
+    {
+      "label": "Business web hosting comparison",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "description": "Evaluate business hosting requirements"
+    }
+  ]
+}

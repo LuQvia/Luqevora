@@ -1,0 +1,196 @@
+{
+  "id": "iclusta-review-ja",
+  "translationKey": "iclusta-review",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "iclusta-review",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
+  "metaTitle": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
+  "description": "iCLUSTA+ byGMOを、SLA、SSL、メール、WordPress、サポート、返金保証、料金上の注意点から公式情報で検証します。",
+  "lead": "iCLUSTA+は、法人サイトとメールを一体運用し、SLA、電話サポート、無料SSL、複数ドメインを重視する組織向けの共用サーバーです。契約前には基本料金だけでなくサーチャージ、オプション、最低利用期間も確認します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "iCLUSTA+ byGMOの詳細",
+      "officialUrl": "https://shared.gmocloud.com/iclusta/",
+      "affiliateKey": "iclusta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "iCLUSTA+ 公式サイト",
+      "url": "https://shared.gmocloud.com/iclusta/"
+    },
+    {
+      "label": "iCLUSTA+ 料金",
+      "url": "https://shared.gmocloud.com/iclusta/price/"
+    },
+    {
+      "label": "iCLUSTA+ 機能一覧",
+      "url": "https://shared.gmocloud.com/iclusta/function/"
+    },
+    {
+      "label": "iCLUSTA+ SLA",
+      "url": "https://shared.gmocloud.com/iclusta/sla/"
+    },
+    {
+      "label": "iCLUSTA+ 30日間返金保証",
+      "url": "https://shared.gmocloud.com/30day.html"
+    },
+    {
+      "label": "iCLUSTA+ WordPress",
+      "url": "https://shared.gmocloud.com/iclusta/option/wordpress/"
+    },
+    {
+      "label": "iCLUSTA+ Movable Type",
+      "url": "https://shared.gmocloud.com/iclusta/option/movabletype/"
+    },
+    {
+      "label": "iCLUSTA+ サーチャージ",
+      "url": "https://shared.gmocloud.com/iclusta/price/surcharge/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：安定性と法人運用を優先する企業向け",
+      "body": [
+        "iCLUSTA+はミニ、レギュラー、プロの3プランを提供し、Web・メール・データベースを業務利用する法人を主な対象としています。全プランでSLA100％保証、アルファSSL無料、メールアドレス数無制限、MySQL無制限が案内されています。",
+        "一方、最安価格だけで選ぶ個人ブログには過剰になり得ます。料金には別途サーチャージが加算されるため、申込時の総額で比較してください。"
+      ],
+      "affiliateMaterialKey": "iclusta-corporate"
+    },
+    {
+      "heading": "プランと容量",
+      "body": [
+        "公式機能表ではSSD最大容量がミニ300GB、レギュラー500GB、プロ750GBです。独自ドメイン数、同時アクセス上限、スケールアップ回数などもプランで異なります。"
+      ],
+      "table": {
+        "headers": [
+          "項目",
+          "ミニ",
+          "レギュラー",
+          "プロ"
+        ],
+        "rows": [
+          [
+            "SSD最大容量",
+            "300GB",
+            "500GB",
+            "750GB"
+          ],
+          [
+            "主な対象",
+            "小規模法人サイト",
+            "標準的な法人運用",
+            "高負荷・大規模運用"
+          ],
+          [
+            "成果報酬条件",
+            "3,500円",
+            "4,500円",
+            "8,000円"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "SLA、SSL、バックアップ",
+      "body": [
+        "SLAはWeb、メール、データベースサーバーを対象に100％を保証し、稼働率に応じた返金率が定められています。これは停止しないことの保証ではなく、条件を満たす障害時に利用料金を返金する制度です。",
+        "アルファSSLは全プランで無料です。バックアップも標準対応ですが、復旧範囲や復旧依頼の費用は最新仕様を確認してください。"
+      ],
+      "affiliateMaterialKey": "iclusta-sla"
+    },
+    {
+      "heading": "WordPressとMovable Type",
+      "body": [
+        "WordPressは管理画面から自動インストールでき、LiteSpeed Cache対応や有料の移行・設定代行が案内されています。MySQLは別途利用申込みが必要です。",
+        "Movable Typeはレギュラーとプロで商用1ユーザー版ライセンスが無料です。複数ユーザーや年間メンテナンスには追加費用が発生します。"
+      ],
+      "affiliateMaterialKey": "iclusta-wordpress"
+    },
+    {
+      "heading": "契約前の注意点",
+      "body": [
+        "A8.net成果は広告主新規で、オンライン申込み後に最低2か月の利用が確認された場合に対象です。利用者向けには30日間返金保証がありますが、ドメイン費用、追加オプション、振込手数料など対象外があります。",
+        "基本料金とは別にサーチャージが請求されます。サポート時間、移行代行、データ復旧、SSLの種類も含め、申込画面と見積書で総額を確認してください。"
+      ],
+      "bullets": [
+        "法人名義・請求書要件を確認",
+        "必要なメール容量とドメイン数を算定",
+        "SLAの対象と申請手順を確認",
+        "サーチャージとオプションを含めて比較"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "iCLUSTA+はどのような利用者に向きますか？",
+      "answer": "法人サイト、法人メール、複数ドメイン、電話サポート、SLAを重視する組織に向きます。"
+    },
+    {
+      "question": "SLA100％は停止しないという意味ですか？",
+      "answer": "停止を完全に防ぐ保証ではありません。対象サービスの稼働率が基準を下回った場合に所定の返金を行う制度です。"
+    },
+    {
+      "question": "料金以外に追加費用はありますか？",
+      "answer": "サーチャージ、ドメイン、移行・復旧などのオプション費用が発生する場合があります。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "法人向けレンタルサーバー比較",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "description": "CPIやXServer系と比較"
+    },
+    {
+      "label": "CPIレンタルサーバーレビュー",
+      "url": "/ja/hosting-security/cpi-rental-server-review/",
+      "description": "法人向け機能と運用条件を確認"
+    },
+    {
+      "label": "XServer for WordPressレビュー",
+      "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "description": "WordPress専用運用と比較"
+    },
+    {
+      "label": "iCLUSTA+とCPIの比較",
+      "url": "/ja/hosting-security/iclusta-vs-cpi/",
+      "description": "SLA、サポート、料金を比較"
+    },
+    {
+      "label": "SLA付きレンタルサーバー比較",
+      "url": "/ja/hosting-security/sla-web-hosting-comparison/",
+      "description": "保証範囲と返金条件を確認"
+    },
+    {
+      "label": "JETBOYレビュー",
+      "url": "/ja/hosting-security/jetboy-review/",
+      "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "JETBOYとXServer for WordPressの比較",
+      "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+      "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "LiteSpeed対応サーバー比較",
+      "url": "/ja/hosting-security/litespeed-hosting-comparison/",
+      "description": "Webサーバーとキャッシュ運用を比較"
+    },
+    {
+      "label": "cPanel対応サーバー比較",
+      "url": "/ja/hosting-security/cpanel-hosting-comparison/",
+      "description": "管理画面と移行性を比較"
+    }
+  ]
+}

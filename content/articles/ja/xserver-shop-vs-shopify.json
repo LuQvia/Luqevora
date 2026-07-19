@@ -184,6 +184,41 @@
       "label": "Shopify料金ガイド",
       "url": "/ja/website-builders/shopify-pricing-guide/",
       "description": "プラン・決済・追加費用を整理"
+    },
+    {
+      "label": "iCLUSTA+ byGMOレビュー",
+      "url": "/ja/hosting-security/iclusta-review/",
+      "description": "SLA、SSL、メール、料金を確認"
+    },
+    {
+      "label": "iCLUSTA+とCPIの比較",
+      "url": "/ja/hosting-security/iclusta-vs-cpi/",
+      "description": "法人サーバーの運用条件を比較"
+    },
+    {
+      "label": "法人向けSLA付きサーバー比較",
+      "url": "/ja/hosting-security/business-hosting-sla-comparison/",
+      "description": "保証対象と返金条件を比較"
+    },
+    {
+      "label": "カラーミーショップレビュー",
+      "url": "/ja/website-builders/color-me-shop-review/",
+      "description": "料金・機能・SEOの注意点を確認"
+    },
+    {
+      "label": "カラーミーショップとShopifyの比較",
+      "url": "/ja/website-builders/color-me-shop-vs-shopify/",
+      "description": "国内運用と拡張性を比較"
+    },
+    {
+      "label": "カラーミーショップとXServerショップの比較",
+      "url": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+      "description": "SaaS型とEC-CUBE型を比較"
+    },
+    {
+      "label": "国産ネットショップSEO比較",
+      "url": "/ja/website-builders/japanese-ecommerce-platform-seo-comparison/",
+      "description": "SEO要件を10項目で確認"
     }
   ]
 }
