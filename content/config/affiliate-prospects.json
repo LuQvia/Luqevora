@@ -1,0 +1,55 @@
+{
+  "version": "4.3.0",
+  "verifiedAt": "2026-07-20",
+  "policy": "Before approval, articles use official links. Add only network-issued tracking URLs after approval and retain the disclosure and sponsored rel attributes.",
+  "programs": [
+    {
+      "key": "monday-com",
+      "name": "monday.com",
+      "status": "account-creation-blocked",
+      "officialProgram": "https://monday.com/affiliate-program",
+      "network": "PartnerStack",
+      "articleCount": 5
+    },
+    {
+      "key": "google-workspace",
+      "name": "Google Workspace",
+      "status": "not-applied",
+      "officialProgram": "https://workspace.google.com/intl/ja/referral-program/",
+      "network": "Google referral program",
+      "articleCount": 4
+    },
+    {
+      "key": "shopify",
+      "name": "Shopify",
+      "status": "not-applied",
+      "officialProgram": "https://www.shopify.com/jp/affiliates",
+      "network": "Impact",
+      "articleCount": 4
+    },
+    {
+      "key": "hubspot-crm",
+      "name": "HubSpot",
+      "status": "not-applied",
+      "officialProgram": "https://www.hubspot.com/partners/affiliates",
+      "network": "Impact",
+      "articleCount": 4
+    },
+    {
+      "key": "hostinger",
+      "name": "Hostinger",
+      "status": "not-applied",
+      "officialProgram": "https://www.hostinger.com/jp/affiliates",
+      "network": "Hostinger affiliate platform",
+      "articleCount": 3
+    }
+  ],
+  "switchExample": {
+    "key": "monday-com",
+    "entry": {
+      "type": "url",
+      "network": "PartnerStack",
+      "url": "PASTE_NETWORK_ISSUED_HTTPS_URL_HERE"
+    }
+  }
+}

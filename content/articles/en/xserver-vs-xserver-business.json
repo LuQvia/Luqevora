@@ -1,0 +1,233 @@
+{
+  "id": "xserver-vs-xserver-business-en",
+  "translationKey": "xserver-vs-xserver-business",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "xserver-vs-xserver-business",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official-source verification",
+  "title": "XServer vs XServer Business: Which Service Fits a Company?",
+  "metaTitle": "XServer vs XServer Business: Which Service Fits a Company?",
+  "description": "Compare XServer and XServer Business by pricing, setup fees, permissions, assisted setup, security, isolation, and support.",
+  "lead": "The Business plan inside regular XServer is not the same product as XServer Business. A small company may be served by standard XServer, while organizations needing delegated administration, assisted operations, dedicated environments, or stronger governance should evaluate XServer Business.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the business hosting selection guide",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "affiliateKey": "xserver-business-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServerビジネスofficial site",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerビジネスpricing plans",
+      "url": "https://business.xserver.ne.jp/price/"
+    },
+    {
+      "label": "XServerビジネスfeature list",
+      "url": "https://business.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "managed dedicated servers",
+      "url": "https://business.xserver.ne.jp/feature/dedicated.php"
+    },
+    {
+      "label": "XServerビジネスservice features",
+      "url": "https://business.xserver.ne.jp/feature/"
+    },
+    {
+      "label": "XServerビジネス affiliate information",
+      "url": "https://business.xserver.ne.jp/affiliate/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: divide by operating requirements, not company size",
+      "body": [
+        "A small company may be adequately served by regular XServer Standard or Business. XServer Business becomes relevant when delegated administration, assisted configuration, stronger controls, dedicated options, or a formal business-support model are required.",
+        "Do not automatically map companies to XServer Business and individuals to regular XServer. Use blast radius, responsibility, recovery objectives, and administrator count."
+      ],
+      "table": {
+        "headers": [
+          "Service",
+          "Primary use",
+          "Normal pricing model",
+          "Operational profile"
+        ],
+        "rows": [
+          [
+            "XServer",
+            "Personal and smaller-company web/WordPress",
+            "From JPY 990 monthly equivalent on 36 months",
+            "Shared environment and standard control panel"
+          ],
+          [
+            "XServer Business shared",
+            "Company sites, email, and assisted operations",
+            "From JPY 3,762 per month on 36 months plus setup",
+            "Business controls and assisted configuration"
+          ],
+          [
+            "Managed virtual dedicated",
+            "Higher load, separation, limited in-house administration",
+            "From JPY 19,800 per month on 36 months plus setup",
+            "Virtual allocation with provider management"
+          ],
+          [
+            "Managed physical dedicated",
+            "Physical isolation requirements",
+            "From JPY 29,700 per month plus setup",
+            "Physical single-customer server"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Business plan versus XServer Business",
+      "body": [
+        "The Business plan inside regular XServer adds 700 GB, administrator users, tamper detection, and included assistance. XServer Business is a separate service with shared, managed virtual dedicated, and managed physical dedicated offerings.",
+        "Compare setup fee, normal rates, trial period, controls, SLA, assistance, and isolation rather than product names."
+      ]
+    },
+    {
+      "heading": "Pricing and service structure",
+      "body": [
+        "XServer Business is divided into shared hosting, managed virtual dedicated servers, and managed physical dedicated servers. Shared hosting offers Standard, Premium, and Enterprise tiers, with lower monthly equivalents on longer contracts. Setup fees mean it should not be compared with regular XServer on monthly price alone.",
+        "Virtual managed dedicated plans balance isolation and cost, while physical plans assign a physical server to one customer. Evaluate normal rates, setup charges, contract length, migration work, and internal operating cost instead of a temporary campaign figure."
+      ],
+      "table": {
+        "headers": [
+          "Service",
+          "Primary use",
+          "Normal pricing model",
+          "Operational profile"
+        ],
+        "rows": [
+          [
+            "XServer",
+            "Personal and smaller-company web/WordPress",
+            "From JPY 990 monthly equivalent on 36 months",
+            "Shared environment and standard control panel"
+          ],
+          [
+            "XServer Business shared",
+            "Company sites, email, and assisted operations",
+            "From JPY 3,762 per month on 36 months plus setup",
+            "Business controls and assisted configuration"
+          ],
+          [
+            "Managed virtual dedicated",
+            "Higher load, separation, limited in-house administration",
+            "From JPY 19,800 per month on 36 months plus setup",
+            "Virtual allocation with provider management"
+          ],
+          [
+            "Managed physical dedicated",
+            "Physical isolation requirements",
+            "From JPY 29,700 per month plus setup",
+            "Physical single-customer server"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Business operating requirements",
+      "body": [
+        "Companies should review separated administrator rights, access removal after staff changes, incident notification, invoices, logs, backups, WAF, tamper detection, and mail authentication. Capabilities differ across shared and dedicated XServer Business plans.",
+        "Assisted configuration and migration do not automatically cover application warranties, third-party SaaS, DNS ownership, mail delivery, or software maintenance. Document the provider and customer responsibility boundary before signing."
+      ]
+    },
+    {
+      "heading": "Choosing shared, virtual, or physical",
+      "body": [
+        "Shared hosting is the cost-oriented option for common company sites and email. Managed virtual dedicated hosting is relevant when stronger separation and provider-managed operations are needed. Physical dedicated hosting fits explicit physical-isolation or exclusive-resource requirements.",
+        "A dedicated environment does not remove application failures, configuration mistakes, compromised accounts, or external API outages. Define availability, recovery time, backup location, monitoring, and named owners."
+      ]
+    },
+    {
+      "heading": "Pre-contract checklist",
+      "body": [
+        "Use the trial to inspect administration, permissions, email, SSL, backups, support channels, invoicing, and migration. The affiliate condition requires a contract of at least six months, but editorial guidance should prioritize the reader’s actual operating term."
+      ],
+      "bullets": [
+        "Choose the required separation level",
+        "Calculate setup and full contract cost",
+        "Confirm exclusions from assisted setup",
+        "Assign internal incident and account owners",
+        "Test mail and recovery during the trial"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is XServer Business the same as regular XServer?",
+      "answer": "No. Regular XServer has a plan named Business, while XServer Business is a separate service offering shared and managed virtual and physical dedicated hosting."
+    },
+    {
+      "question": "Does every company need XServer Business?",
+      "answer": "No. A smaller company site may fit regular XServer. Decide by permissions, assisted operations, isolation, dedicated resources, and service-level requirements."
+    },
+    {
+      "question": "Is a trial available?",
+      "answer": "The official XServer Business site advertises a fourteen-day trial. Confirm eligibility, payment, migration, and dedicated-plan conditions at application."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer Review: Pricing, Features, and Contract Limits",
+      "url": "/en/hosting-security/xserver-rental-server-review/",
+      "description": "An official-source XServer review covering pricing, storage, WordPress, domains, backups, email, support, and contract constraints."
+    },
+    {
+      "label": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+      "url": "/en/hosting-security/xserver-rental-server-pricing/",
+      "description": "Compare XServer Standard, Premium, and Business by normal pricing, storage, domain benefits, Xwrite, business controls, and prepaid terms."
+    },
+    {
+      "label": "XServer Pros and Cons: What to Check Before Contracting",
+      "url": "/en/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "Assess XServer advantages and limits across WordPress, pricing, backups, multiple sites, email, support, and contract conditions."
+    },
+    {
+      "label": "Starting WordPress on XServer: Quick Start, Installation, and Migration",
+      "url": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+      "description": "A practical XServer WordPress guide covering Quick Start, installation, migration, SSL, DNS, backups, and pre-launch checks."
+    },
+    {
+      "label": "Running Multiple Sites on XServer: Domains, Email, FTP, and Governance",
+      "url": "/en/hosting-security/xserver-multiple-domain-site-guide/",
+      "description": "Plan multiple domains, WordPress sites, email accounts, FTP access, backups, ownership, and operating controls on XServer."
+    },
+    {
+      "label": "Preparing a Company Website and Domain Email on XServer",
+      "url": "/en/hosting-security/xserver-company-website-email-guide/",
+      "description": "Plan a company website, domain email, SSL, WordPress, account ownership, backups, and support on XServer."
+    },
+    {
+      "label": "XServer vs ConoHa WING: Pricing, Contracts, and WordPress Workflows",
+      "url": "/en/hosting-security/xserver-vs-conoha-wing/",
+      "description": "Compare XServer and ConoHa WING by normal pricing, long and short terms, storage, WordPress, domains, backups, and support."
+    },
+    {
+      "label": "XServer vs Lolipop: A Beginner-Focused Hosting Comparison",
+      "url": "/en/hosting-security/xserver-vs-lolipop/",
+      "description": "Compare XServer and Lolipop by pricing, storage, WordPress, backups, telephone support, and multi-site operations."
+    },
+    {
+      "label": "XServer Business Review: Shared, Virtual, and Physical Managed Servers",
+      "url": "/en/hosting-security/xserver-business-review/",
+      "description": "Review XServer Business shared hosting and managed virtual and physical dedicated servers by pricing, SLA, controls, and support."
+    }
+  ]
+}

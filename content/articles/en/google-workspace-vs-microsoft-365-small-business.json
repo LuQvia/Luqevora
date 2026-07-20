@@ -1,0 +1,144 @@
+{
+  "id": "google-workspace-vs-microsoft-365-small-business-en",
+  "translationKey": "google-workspace-vs-microsoft-365-small-business",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "google-workspace-vs-microsoft-365-small-business",
+  "category": "business-software",
+  "topic": "productivity-suite",
+  "badge": "Official-source guide",
+  "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+  "metaTitle": "Google Workspace vs Microsoft 365 for Small Businesses",
+  "description": "Compare Google Workspace and Microsoft 365 across email, collaboration, desktop apps, meetings, storage, and administration.",
+  "lead": "Google Workspace favors browser-first collaboration. Microsoft 365 favors desktop Office workflows and compatibility with existing Office assets.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Google Workspace pricing and features",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "affiliateKey": "google-workspace"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Google Workspace pricing",
+      "url": "https://workspace.google.com/pricing?hl=ja"
+    },
+    {
+      "label": "Google Workspace for business",
+      "url": "https://workspace.google.com/intl/ja/business/"
+    },
+    {
+      "label": "Microsoft 365 business plan comparison",
+      "url": "https://www.microsoft.com/ja-jp/microsoft-365/business/compare-all-microsoft-365-business-products"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line",
+      "body": [
+        "Google Workspace favors browser-first collaboration. Microsoft 365 favors desktop Office workflows and compatibility with existing Office assets.",
+        "Do not decide on brand recognition or headline price alone. Compare real users, daily workflows, administrator effort, migration, and exit or export requirements under the same conditions."
+      ],
+      "callout": "Terms can change. Recheck the official pricing page and agreement immediately before purchase."
+    },
+    {
+      "heading": "Pricing and contract terms",
+      "body": [
+        "Compare three-year total cost including desktop apps, mailbox capacity, meetings, device management, migration, and training—not only user price.",
+        "When introductory pricing applies, separate the promotional period from normal pricing and record the actual invoiced total. Track apps, integrations, migration, implementation, and maintenance as separate cost lines."
+      ],
+      "table": {
+        "headers": [
+          "Axis",
+          "Google Workspace",
+          "Microsoft 365"
+        ],
+        "rows": [
+          [
+            "Center",
+            "Browser collaboration",
+            "Desktop Office plus cloud"
+          ],
+          [
+            "Email",
+            "Gmail",
+            "Exchange Online and Outlook"
+          ],
+          [
+            "Meetings",
+            "Google Meet",
+            "Microsoft Teams"
+          ],
+          [
+            "Best fit",
+            "Link sharing and live coauthoring",
+            "Office formats and internal standards"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How to test with real work",
+      "body": [
+        "Co-edit the same proposal, spreadsheet, and presentation, then test external sharing, version history, mobile use, and offline work.",
+        "Do more than view sample screens. Complete the full path from input through completion, revision, approval, and export. Test as both an end user and administrator and record confusion points and setup time."
+      ],
+      "bullets": [
+        "Use the same user and data volume for every candidate",
+        "Separate mandatory from optional capabilities",
+        "Configure notifications, permissions, and automation",
+        "Test CSV or other export and cancellation procedures",
+        "Record annual total cost and staff effort"
+      ]
+    },
+    {
+      "heading": "Best fit",
+      "body": [
+        "Google fits cloud-native collaboration; Microsoft fits organizations prioritizing Office file compatibility and desktop workflows.",
+        "A feature-rich service can fail when the underlying process is undefined. Map the current workflow and ownership on one page before configuring the product."
+      ]
+    },
+    {
+      "heading": "Cautions and failure prevention",
+      "body": [
+        "Running both can duplicate identity, administration, storage, and sharing policy. Define ownership even when each suite has a separate role.",
+        "When customer or personal data is involved, include access control, multifactor authentication, offboarding, retention, deletion, and backup in the operating policy. Document design decisions and review dates so the system survives staff changes."
+      ]
+    },
+    {
+      "heading": "Implementation sequence",
+      "body": [
+        "Define the target workflow, users, owner, and success criteria first. Build a small pilot, run it for two to four weeks, remove unnecessary fields, and only then migrate production data.",
+        "After launch, review usage, missing data, duplicated work, excessive notifications, and cost after 30 days. Repeat at least 60 days before renewal to decide whether to continue, change tier, or migrate."
+      ],
+      "bullets": [
+        "Limit the initial objective and workflow",
+        "Define required data and permissions",
+        "Pilot with a small group",
+        "Record cost, effort, and outcome",
+        "Review regularly after production launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can this article be published before affiliate approval?",
+      "answer": "Yes. The page uses a normal official link until approval. After approval, the verified affiliate URL can be added to the central configuration without claiming a relationship beforehand."
+    },
+    {
+      "question": "Can I decide using the price shown in the article?",
+      "answer": "No. Pricing, promotions, features, billing terms, tax, and regional availability change. Verify the official pricing and checkout pages immediately before purchase."
+    },
+    {
+      "question": "What matters most during implementation?",
+      "answer": "Define the workflow, data owner, completion criteria, permissions, and review process, then reproduce them in a small pilot instead of choosing by feature count."
+    }
+  ]
+}

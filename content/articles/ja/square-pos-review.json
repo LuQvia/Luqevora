@@ -1,0 +1,143 @@
+{
+  "id": "square-pos-review-ja",
+  "translationKey": "square-pos-review",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "square-pos-review",
+  "category": "cashless-payments",
+  "topic": "pos-payment-integration",
+  "badge": "公式情報レビュー",
+  "title": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+  "metaTitle": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+  "description": "Square POSレジの無料範囲、端末価格、対面決済手数料、在庫・顧客管理、オンライン連携を公式情報で整理します。",
+  "lead": "Square POSレジは、標準POSアプリを無料で利用し、Squareの決済端末、在庫・顧客管理、売上レポート、請求書、オンライン販売へ拡張できる店舗運営基盤です。料金公開の分かりやすさが強みですが、端末と業種別有料機能を含めて比較します。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Square POSレジの無料アカウントを確認",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "affiliateKey": "square-pos-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "Square — 決済手数料",
+      "url": "https://squareup.com/jp/ja/payments/our-fees"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：POSと決済を同一基盤で始めたい店舗向け",
+      "body": [
+        "Squareは、無料POS、決済、端末、オンライン販売、請求書を同じアカウントで扱いたい小規模事業者に分かりやすい選択肢です。端末価格と主要な手数料が公開され、初期試算をしやすい点があります。",
+        "一方、業種別の高度機能、複数端末、スタッフ管理、KDSなどを使う場合は有料プランを確認します。無料標準POSだけで必要業務を再現できるかを先に試してください。"
+      ]
+    },
+    {
+      "heading": "料金と端末",
+      "body": [
+        "標準のSquare POSレジアプリは無料で、登録手数料や月額固定費はありません。公式ページではSquare リーダー4,980円、Square スタンド29,980円、Square ターミナル39,980円が案内されています。",
+        "端末を購入する構成と、手持ちのスマートフォン・タブレットを活用する構成で初期費用が変わります。紙レシート、顧客画面、持ち運び、バッテリー、設置面積も比較します。"
+      ]
+    },
+    {
+      "heading": "決済手数料",
+      "body": [
+        "対象条件を満たす年間キャッシュレス決済額3,000万円未満の中小事業者では、主要カードの対面決済が2.5%からと案内されています。対象外取引は3.25%以上またはカスタム料率です。",
+        "オンラインは3.6%、非対面手入力は3.75%、請求書は3.25%など、受付方法で料率が変わります。店舗売上とオンライン売上を混ぜずに計算します。"
+      ]
+    },
+    {
+      "heading": "主な機能と拡張性",
+      "body": [
+        "商品登録、在庫、顧客、売上レポート、スタッフ管理、決済、払い戻しをまとめて扱えます。必要に応じてSquare オンラインビジネス、請求書、予約、業種別POSへ広げられます。",
+        "店舗とオンラインの商品・顧客・決済を同一基盤へ寄せたい場合に利点があります。既存ECや会計システムがある場合は、連携範囲とデータの主従を決めます。"
+      ]
+    },
+    {
+      "heading": "メリット・注意点",
+      "body": [
+        "固定費なしで標準POSを試し、必要な端末を選べる点が強みです。みずほ銀行と三井住友銀行は最短翌営業日、その他の金融機関は毎週金曜日の自動振込が案内されています。",
+        "2.5%はすべての加盟店・ブランドに無条件で適用されるわけではありません。また、飲食・小売の高度機能には別プランがあるため、無料と有料の境界を確認します。"
+      ]
+    },
+    {
+      "heading": "導入前チェックリスト",
+      "body": [
+        "無料アカウントで商品登録、会計、返品、在庫、顧客、レポートを試し、端末を選定します。オンラインや請求書も使う場合は、チャネル別手数料と入金、会計連携を確認してください。"
+      ],
+      "bullets": [
+        "2.5%適用条件と対象ブランド",
+        "必要端末とレシート運用",
+        "業種別有料プランの必要性",
+        "入金口座と振込タイミング",
+        "既存EC・会計とのデータ連携"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Square POSレジは無料で使えますか？",
+      "answer": "標準POSアプリは無料ですが、決済手数料、端末購入、業種別有料機能は別です。"
+    },
+    {
+      "question": "導入前に何を試すべきですか？",
+      "answer": "実際の商品、金額、返品、締め、通信障害、スタッフ権限、データ出力を使い、1日の営業を再現してください。"
+    },
+    {
+      "question": "比較時に最も重要な費用は何ですか？",
+      "answer": "決済手数料だけでなく、端末、月額、通信、周辺機器、入金、サポートを含む3年間総額で比較します。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+      "url": "/ja/cashless-payments/air-regi-review/",
+      "description": "Airレジの無料範囲、必要機器、在庫・顧客・売上管理、Airペイ連携、導入時の注意点を整理します。"
+    },
+    {
+      "label": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+      "url": "/ja/cashless-payments/airpay-review/",
+      "description": "Airペイの通常手数料、2.48%プログラム、対応ブランド、月3回・6回の入金、Airレジ連携を公式情報で確認します。"
+    },
+    {
+      "label": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+      "url": "/ja/cashless-payments/paycas-mobile-review/",
+      "description": "PayCAS Mobileのプリンター・SIM内蔵端末、対応決済、個別見積もり、月2回入金、POS連携の確認事項を解説します。"
+    },
+    {
+      "label": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "description": "AirペイとSquareを、対面決済手数料、固定費、端末、入金、POS連携、オンライン決済から比較します。"
+    },
+    {
+      "label": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "description": "注文、会計、キッチン、決済、サポート、総費用を同じ要件表で比較する実務ガイドです。"
+    },
+    {
+      "label": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "description": "飲食店向けPOSとモバイルオーダーの料金・多言語・決済連携を確認します。"
+    },
+    {
+      "label": "funfoの評判・料金・機能を検証｜無料POSレジの注意点",
+      "url": "/ja/store-dx/funfo-review/",
+      "description": "無料から試せる飲食店向けPOS・モバイルオーダーを確認します。"
+    }
+  ]
+}

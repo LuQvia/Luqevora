@@ -1,0 +1,191 @@
+{
+  "id": "funfo-vs-kantan-chumon-en",
+  "translationKey": "funfo-vs-kantan-chumon",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "funfo-vs-kantan-chumon",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Official-source comparison",
+  "title": "funfo vs Kantan Chumon: Free POS Testing vs Published Modular Pricing",
+  "metaTitle": "funfo vs Kantan Chumon: Restaurant POS and Mobile Ordering Compared (2026)",
+  "description": "Compare funfo and Kantan Chumon by published pricing, free testing, POS and mobile ordering, multilingual service, customer marketing, subsidies, and implementation model.",
+  "lead": "funfo is an app-led restaurant platform that can be tested from a zero-fee tier. Kantan Chumon publishes monthly prices for POS, handheld, mobile-order, LINE-order, and tablet-order configurations. Compare testability, required hardware, implementation support, and total cost separately.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "funfo official website",
+      "url": "https://www.funfo.jp/"
+    },
+    {
+      "label": "funfo pricing",
+      "url": "https://www.funfo.jp/index.php/pricing/"
+    },
+    {
+      "label": "funfo FAQ",
+      "url": "https://www.funfo.jp/index.php/qa/"
+    },
+    {
+      "label": "Wiz — Kantan Chumon",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Conclusion: choose funfo for no-fee self-testing and Kantan Chumon for a quoted modular deployment",
+      "body": [
+        "funfo publishes a zero-fee Free tier and lets a restaurant test the iPad and smartphone-order workflow directly. It fits operators that want to validate one location before moving to a paid tier.",
+        "Kantan Chumon publishes a JPY 2,980 monthly POS-only starting point and separate configurations for handheld and ordering workflows. It suits restaurants that want to select a named configuration and confirm hardware, payment, installation, and support in a deployment quotation."
+      ]
+    },
+    {
+      "heading": "Key differences",
+      "body": [
+        "Compare the implementation model rather than treating both products as identical POS packages."
+      ],
+      "table": {
+        "headers": [
+          "Criterion",
+          "funfo",
+          "Kantan Chumon"
+        ],
+        "rows": [
+          [
+            "Pricing visibility",
+            "Free and paid pricing published",
+            "Quotation required"
+          ],
+          [
+            "Testing",
+            "Download and test on iPad",
+            "Consultation, demo, and quotation"
+          ],
+          [
+            "Ordering",
+            "POS, dine-in/off-premise ordering, handheld",
+            "Tablet POS and customer smartphone ordering"
+          ],
+          [
+            "Customer marketing",
+            "LINE acquisition and advanced customer functions",
+            "Recommendation and repeat-order functions described in partner materials"
+          ],
+          [
+            "Languages",
+            "Automatic multilingual functions advertised",
+            "Japanese, Chinese, English, and Korean supported"
+          ],
+          [
+            "Subsidy approach",
+            "Confirm program eligibility separately",
+            "Subsidy consultation is emphasized"
+          ],
+          [
+            "Best fit",
+            "Self-testing and staged rollout",
+            "Guided implementation and procurement"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Cost and rollout",
+      "body": [
+        "With funfo, add the iPad, printers, payment fees, support, and the paid tier needed for concurrent devices or customer management.",
+        "Kantan Chumon publishes monthly tax-inclusive prices of JPY 2,980 for POS only, JPY 8,980 for POS plus handheld, JPY 8,980 for web mobile ordering, JPY 12,980 for LINE mobile ordering, and JPY 15,980 for TTO ordering. Confirm hardware, payment fees, installation, extra devices, support, and contract terms separately."
+      ]
+    },
+    {
+      "heading": "Operations and customer growth",
+      "body": [
+        "funfo is differentiated by the visible LINE and customer-management path, especially in the higher tier. It is worth testing when the restaurant wants ordering data to support repeat-customer communication.",
+        "Kantan Chumon emphasizes smartphone ordering, sales analysis, and recommendation-related functions. Confirm exact plan availability and reporting screens in a demonstration."
+      ]
+    },
+    {
+      "heading": "Which should a restaurant choose?",
+      "body": [
+        "Use the restaurant’s implementation capability and commercial requirements."
+      ],
+      "bullets": [
+        "Choose funfo to test at zero monthly fee, use an existing iPad, and roll out in stages",
+        "Consider Kantan Chumon for guided requirements definition and subsidy discussion",
+        "Compare both for high-order-frequency formats such as izakaya, yakiniku, cafés, and casual dining"
+      ]
+    },
+    {
+      "heading": "Common evaluation checklist",
+      "body": [
+        "Send both providers the same requirement sheet."
+      ],
+      "bullets": [
+        "First-year and renewal total cost",
+        "Required devices and printers",
+        "Peak concurrent orders and logins",
+        "Menu modifiers, courses, and table movement",
+        "Multilingual scope",
+        "Payment and accounting integrations",
+        "Support and outage procedures",
+        "Data export and termination terms",
+        "KPIs: waiting time, average check, table turns, and order errors"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which product is cheaper?",
+      "answer": "funfo has a zero-fee starting tier. Kantan Chumon publishes a JPY 2,980 monthly POS-only plan and higher-priced configurations. Compare total cost including hardware and payment processing."
+    },
+    {
+      "question": "Which is easier to test?",
+      "answer": "A restaurant with an iPad can test funfo directly. Kantan Chumon is evaluated through inquiry, demonstration, and quotation."
+    },
+    {
+      "question": "Which is better for subsidies?",
+      "answer": "A restaurant with an iPad can test funfo directly. For Kantan Chumon, review the published plan first and then test the selected POS, handheld, or ordering configuration through a demonstration and quotation."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review the quotation-led restaurant POS and ordering option."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, analytics, support, and total cost."
+    },
+    {
+      "label": "Restaurant Mobile Ordering Implementation Guide",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "description": "Plan QR ordering, staff workflows, fallback procedures, and KPIs."
+    },
+    {
+      "label": "Restaurant POS vs Mobile Ordering: Which Comes First?",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "description": "Understand the roles, integration, and implementation sequence."
+    }
+  ]
+}

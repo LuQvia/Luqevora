@@ -1,0 +1,200 @@
+{
+  "id": "air-regi-vs-square-pos-en",
+  "translationKey": "air-regi-vs-square-pos",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "air-regi-vs-square-pos",
+  "category": "cashless-payments",
+  "topic": "pos-payment-integration",
+  "badge": "Official-source comparison",
+  "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+  "metaTitle": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+  "description": "Compare AirREGI and Square POS across free features, hardware, payments, inventory, customer management, and expansion options.",
+  "lead": "AirREGI and Square POS both provide a free standard POS application. AirREGI emphasizes Japanese store workflows and the Air service ecosystem, while Square emphasizes integrated payments, hardware, online commerce, and invoices.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check current Airレジ terms",
+      "officialUrl": "https://airregi.jp/",
+      "affiliateKey": "air-regi-official-en"
+    },
+    {
+      "label": "Check current Square POSレジ terms",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "affiliateKey": "square-pos-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 費用・料金",
+      "url": "https://airregi.jp/jp/cost/"
+    },
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "Airレジ — 機能一覧",
+      "url": "https://airregi.jp/jp/function/list/"
+    },
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "Square — 決済手数料",
+      "url": "https://squareup.com/jp/ja/payments/our-fees"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: choose the surrounding service ecosystem",
+      "body": [
+        "AirREGI fits a Japanese store that wants to build around AirPAY, reservations, accounting connections, and restaurant ordering.",
+        "Square POS fits a business that wants Square payments, hardware, online selling, and invoices under one platform."
+      ]
+    },
+    {
+      "heading": "Free scope and startup cost",
+      "body": [
+        "Both standard POS applications are free, but a production store still needs devices, printing, cash handling, payments, and connectivity.",
+        "AirREGI can use existing compatible iPads, while Square offers published Reader, Stand, and Terminal options."
+      ],
+      "table": {
+        "headers": [
+          "Criterion",
+          "AirREGI",
+          "Square POS"
+        ],
+        "rows": [
+          [
+            "Standard POS fee",
+            "JPY 0",
+            "JPY 0"
+          ],
+          [
+            "Primary devices",
+            "iPad or iPhone",
+            "Phones, tablets, and Square hardware"
+          ],
+          [
+            "Payments",
+            "Separate AirPAY application",
+            "Square payments in the same account"
+          ],
+          [
+            "Store functions",
+            "Catalog, inventory, customers, sales, accounting links",
+            "Catalog, inventory, customers, sales, online, invoices"
+          ],
+          [
+            "Restaurant expansion",
+            "AirREGI Order and Restaurant Board",
+            "Square for Restaurants and kitchen tools"
+          ],
+          [
+            "Cost model",
+            "Free POS plus peripherals and services",
+            "Free POS plus hardware and industry plans"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Register functions",
+      "body": [
+        "AirREGI documents order entry, checkout, inventory, customers, sales analysis, CSV exports, accounting connections, and offline checkout.",
+        "Square provides catalog, inventory, customers, reports, staff access, and refunds and connects those functions to online and invoice workflows."
+      ]
+    },
+    {
+      "heading": "Payment integration",
+      "body": [
+        "AirREGI transfers amounts to AirPAY to reduce duplicate entry, but the payment contract and underwriting remain separate.",
+        "Square POS and Square payments operate under the same provider and account, simplifying hardware and payment reporting."
+      ]
+    },
+    {
+      "heading": "Advanced restaurant and retail functions",
+      "body": [
+        "AirREGI Order, Square for Restaurants, retail plans, and other advanced modules can create additional software or hardware cost.",
+        "Do not compare only the free applications when handhelds, kitchen displays, mobile ordering, multi-store administration, or detailed inventory are required."
+      ]
+    },
+    {
+      "heading": "Run the same scenario",
+      "body": [
+        "Configure one week of products, staff, discounts, refunds, closing, inventory, and payments in both systems and reproduce the same trading scenario.",
+        "A practical pilot should use the same products, discounts, tax rules, staff roles, refund cases, and end-of-day reports in both systems. Record setup time, checkout time, correction steps, hardware needs, and export quality. This converts a feature comparison into an operating-cost comparison and exposes training or exception-handling differences before a full migration. Rehearse the selected workflow with every role before launch."
+      ],
+      "bullets": [
+        "Initial setup time",
+        "Touches required to complete checkout",
+        "Inventory, customer, and sales reporting",
+        "Payment and accounting connections",
+        "Export and migration after cancellation"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I simply choose the lowest processing rate?",
+      "answer": "No. Compare the effective cost including eligibility, payment mix, hardware, subscriptions, settlement, and integration."
+    },
+    {
+      "question": "Should POS and payments come from one provider?",
+      "answer": "One provider can simplify amount transfer and support, but also compare functionality, rates, and portability."
+    },
+    {
+      "question": "Which sales data is needed for a comparison?",
+      "answer": "Prepare at least three months of value and transaction count by card brand, e-money, QR, cash, and in-person or online channel."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    }
+  ]
+}

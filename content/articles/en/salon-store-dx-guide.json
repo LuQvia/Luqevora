@@ -1,0 +1,135 @@
+{
+  "id": "salon-store-dx-guide-en",
+  "translationKey": "salon-store-dx-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "salon-store-dx-guide",
+  "category": "store-dx",
+  "topic": "store-reservations-crm",
+  "badge": "Salon Store DX guide",
+  "title": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+  "metaTitle": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+  "description": "A phased plan for salons to reduce telephone work, booking errors, duplicate customer records, payment reconciliation, and manual accounting entry.",
+  "lead": "In a salon, booking capacity and staff schedules may be more operationally important than checkout. Design one journey from booking to visit, service, payment, and retention.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Run the free salon Store DX assessment",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AirREGI — Features",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES Reservations — Feature List",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE Official Account — Service Overview",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee Accounting — Official Service Page",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "Money Forward Cloud Accounting — POS Integration",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Consolidate booking channels",
+      "body": [
+        "Bring telephone, website, social, and in-store bookings into one schedule. Define staff, resources, service duration, buffers, change deadlines, and cancellation rules.",
+        "Allow customers to confirm or change eligible bookings themselves when appropriate, while retaining a controlled process for exceptions."
+      ]
+    },
+    {
+      "heading": "Limit customer records to defined purposes",
+      "body": [
+        "Define the visit history, service notes, cautions, and follow-up information necessary to provide the service. Do not collect information without an operational or legal purpose.",
+        "When booking and POS hold separate customer records, standardize identifiers, ownership, update rules, permissions, and deletion procedures."
+      ]
+    },
+    {
+      "heading": "Evaluate prepayment and cancellation workflows",
+      "body": [
+        "Prepayment, passes, and memberships may reduce checkout time or missed appointments, but processing fees, refunds, expiry, and accounting treatment must be understood.",
+        "Display the cancellation policy at booking and in confirmation messages, and train staff to apply exceptions consistently."
+      ]
+    },
+    {
+      "heading": "Use LINE to support booking and retention",
+      "body": [
+        "Connect booking confirmation, availability alerts, post-visit follow-up, and inquiries. Measure completed bookings and repeat visits rather than follower count alone.",
+        "Segment broadcasts by visit timing or service. Define responsibility for one-to-one chat, broadcast approval, and response times."
+      ]
+    },
+    {
+      "heading": "Connect POS, payments, and accounting",
+      "body": [
+        "Separate services, retail products, discounts, pass consumption, and payment methods. When booking prepayment and in-store payment coexist, prevent duplicate sales records.",
+        "Confirm location, department, tax, settlement fee, and unsettled balance rules with an accounting adviser where appropriate."
+      ]
+    },
+    {
+      "heading": "Design permissions and staff training",
+      "body": [
+        "Separate permissions for booking changes, customer data, discounts, cancellations, refunds, and sales reports. Remove access promptly when staff leave.",
+        "Practice fallback procedures for internet failure, device failure, booking conflicts, and payment errors, not only normal screen operation."
+      ]
+    },
+    {
+      "heading": "Review monthly operating indicators",
+      "body": [
+        "Track bookings by channel, cancellation rate, next-booking rate, repeat visits, average value, service duration, retail sales, and closing time.",
+        "When results do not improve, adjust capacity, service duration, communication, and staffing before purchasing more functions."
+      ]
+    },
+    {
+      "heading": "Control the customer journey across channels",
+      "body": [
+        "Map discovery, inquiry, booking, reminder, arrival, service, checkout, next booking, and follow-up as one journey. For each stage, identify the system of record, the message sent to the customer, the staff action required, and the metric that confirms completion. This prevents a convenient front-end tool from creating hidden manual work for reception or closing staff.",
+        "Review consent wording, message templates, retention periods, and escalation rules whenever a new channel is added. Test duplicate customers, name changes, missed appointments, staff transfers, refunds, and service complaints so that customer history remains usable and access remains limited to the people who need it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a salon implement POS or booking first?",
+      "answer": "Prioritize booking when telephone work and scheduling errors dominate. Prioritize POS when sales, payment methods, retail inventory, or closing totals are unreliable."
+    },
+    {
+      "question": "Can customer notes be managed only in LINE?",
+      "answer": "LINE is useful for communication, but service records may require stronger search, access control, retention, and backup. Select a system appropriate to the information being stored."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Free Store DX assessment",
+      "url": "/en/store-dx-assessment/",
+      "description": "Select salon and generate a phased priority list."
+    },
+    {
+      "label": "Store DX stack comparison",
+      "url": "/en/store-dx/store-dx-stack-comparison/",
+      "description": "Compare booking, LINE, POS, payment, and accounting combinations."
+    },
+    {
+      "label": "Website builders for local stores",
+      "url": "/en/website-builders/store-website-builder-comparison/",
+      "description": "Compare local-business website and booking routes."
+    }
+  ]
+}

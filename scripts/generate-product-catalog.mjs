@@ -47,8 +47,8 @@ function majority(items, fallback) {
 
 const products = Object.entries(merged).map(([id, profile]) => {
   const related = relatedArticles(id, profile);
-  const category = majority(related.map(item => item.category), 'business-software');
-  const topic = majority(related.map(item => item.topic), topics.find(item => item.category === category)?.id || '');
+  const category = profile.category || majority(related.map(item => item.category), 'business-software');
+  const topic = profile.topic || majority(related.map(item => item.topic), topics.find(item => item.category === category)?.id || '');
   const corpus = normalize(JSON.stringify(profile));
   const flags = {
     freeOption: hasAny(corpus, ['無料', 'free tier', 'free plan', 'free access', '無料版', '無料利用']),

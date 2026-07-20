@@ -13,8 +13,8 @@
   "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
   "lead": "法人向けサーバーは、Webとメールをまとめるか、WordPress運用を専用基盤へ分けるかで候補が変わります。4サービスを料金、容量、バックアップ、メール、SLA、権限、支援範囲から整理します。",
   "publishedAt": "2026-07-19",
-  "updatedAt": "2026-07-19",
-  "verifiedAt": "2026-07-19",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
   "author": "Luqevora編集部",
   "featured": true,
   "affiliateDisclosure": true,
@@ -32,7 +32,7 @@
     {
       "label": "XServerビジネスを確認",
       "officialUrl": "https://business.xserver.ne.jp/",
-      "affiliateKey": "xserver-business-official"
+      "affiliateKey": "xserver-business-main"
     },
     {
       "label": "ConoHa WINGビジネスを確認",
@@ -266,6 +266,16 @@
       "label": "iCLUSTA+とXServer for WordPressの比較",
       "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
       "description": "CMS範囲、SLA、メール、サポートを比較"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-19T07:58:00.424Z",
-  "lastVerified": "2026-07-19",
+  "generatedAt": "2026-07-20T13:22:45.532Z",
+  "lastVerified": "2026-07-20",
   "sourceFiles": [
     "content/article-batches/product-profiles.json",
     "content/article-batches/product-profiles-expansion.json"
   ],
-  "productCount": 63,
+  "productCount": 78,
   "fields": {
     "pricing": "Current pricing summary. Verify exact amounts on official sources before publication.",
     "flags": "Text-supported capability indicators, not performance scores.",
@@ -153,7 +153,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "claude",
@@ -295,7 +295,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "fathom",
@@ -437,7 +437,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "fireflies",
@@ -579,7 +579,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "gemini",
@@ -721,7 +721,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "microsoft-copilot",
@@ -880,22 +880,22 @@
         },
         {
           "language": "en",
-          "type": "review",
-          "title": "Microsoft Teams Review: Pricing, Features, Best-Fit Uses, and Limitations",
-          "url": "/en/business-software/microsoft-teams-review/",
+          "type": "comparison",
+          "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+          "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
           "category": "business-software",
-          "topic": "video-meetings"
+          "topic": "productivity-suite"
         },
         {
           "language": "ja",
-          "type": "review",
-          "title": "Microsoft Teamsレビュー｜料金・機能・向いている用途を公式情報で確認",
-          "url": "/ja/business-software/microsoft-teams-review/",
+          "type": "comparison",
+          "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+          "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
           "category": "business-software",
-          "topic": "video-meetings"
+          "topic": "productivity-suite"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "otter",
@@ -1037,7 +1037,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "perplexity",
@@ -1195,7 +1195,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "tldv",
@@ -1337,7 +1337,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "airtable",
@@ -1511,7 +1511,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "asana",
@@ -1685,7 +1685,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "basecamp",
@@ -1859,7 +1859,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "clickup",
@@ -2033,7 +2033,355 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "google-workspace",
+      "name": "Google Workspace",
+      "affiliateKey": "google-workspace",
+      "category": "business-software",
+      "categoryName": {
+        "ja": "業務効率化",
+        "en": "Business Software"
+      },
+      "topic": "google-workspace",
+      "positioning": {
+        "ja": "独自ドメインGmail、Drive、Meet、カレンダー、共同編集、管理を統合する業務スイート",
+        "en": "A business suite combining domain Gmail, Drive, Meet, Calendar, collaboration, and administration"
+      },
+      "pricing": {
+        "ja": "ユーザー単位。Starter、Standard、Plus等を年間・柔軟プランで比較",
+        "en": "Per-user pricing across Starter, Standard, Plus, and other editions with annual or flexible billing"
+      },
+      "pricingDetail": {
+        "ja": "必要ユーザー、ストレージ、会議、保持、管理機能に加え、移行と退職者データの運用を含めて総額を確認します。",
+        "en": "Estimate users, storage, meetings, retention, administration, migration, and offboarding operations together."
+      },
+      "pricingModel": "contact-or-variable",
+      "workflow": {
+        "ja": "組織アカウントでメール、ファイル、会議、予定、文書を共有し、管理者が発行・停止・権限を管理します。",
+        "en": "Organization accounts share email, files, meetings, calendars, and documents while administrators manage provisioning and access."
+      },
+      "bestFor": {
+        "ja": "独自ドメインメールとクラウド共同編集を一つの管理基盤へまとめたい組織",
+        "en": "Organizations centralizing domain email and cloud collaboration"
+      },
+      "strengths": {
+        "ja": [
+          "Gmailと共同編集",
+          "一元的なアカウント管理",
+          "Meet・Drive・カレンダー連携"
+        ],
+        "en": [
+          "Gmail and live collaboration",
+          "Centralized account administration",
+          "Integrated Meet, Drive, and Calendar"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "ユーザー単位課金",
+          "DNS・移行の初期設定",
+          "退職者と共有データの運用が必要"
+        ],
+        "en": [
+          "Per-user licensing",
+          "DNS and migration setup",
+          "Offboarding and shared-data governance required"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "Google Workspace pricing",
+          "url": "https://workspace.google.com/pricing?hl=ja"
+        },
+        {
+          "label": "Google Workspace business",
+          "url": "https://workspace.google.com/intl/ja/business/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Free Gmail vs Google Workspace for Business Email",
+          "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
+          "category": "business-software",
+          "topic": "business-email"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Google Chatとは？Spaces・料金・Slackとの違いを解説",
+          "url": "/ja/business-software/google-chat-guide/",
+          "category": "business-software",
+          "topic": "business-chat"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Google Driveとは？使い方・料金・共有方法を初心者向けに解説",
+          "url": "/ja/business-software/google-drive-guide/",
+          "category": "business-software",
+          "topic": "google-workspace"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Google Meetとは？使い方・料金・参加方法を初心者向けに解説",
+          "url": "/ja/business-software/google-meet-guide/",
+          "category": "business-software",
+          "topic": "google-workspace"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+          "url": "/en/business-software/google-workspace-pricing-small-business/",
+          "category": "business-software",
+          "topic": "google-workspace"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+          "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+          "category": "business-software",
+          "topic": "productivity-suite"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Google Workspaceで独自ドメインメールを設定する手順",
+          "url": "/ja/business-software/google-workspace-domain-email-setup/",
+          "category": "business-software",
+          "topic": "business-email"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+          "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+          "category": "business-software",
+          "topic": "productivity-suite"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+          "url": "/ja/business-software/google-workspace-guide/",
+          "category": "business-software",
+          "topic": "google-workspace"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+          "url": "/ja/business-software/google-workspace-pricing-small-business/",
+          "category": "business-software",
+          "topic": "google-workspace"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "How to Set Up Custom-Domain Email with Google Workspace",
+          "url": "/en/business-software/google-workspace-domain-email-setup/",
+          "category": "business-software",
+          "topic": "business-email"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
+          "url": "/en/business-software/google-chat-guide/",
+          "category": "business-software",
+          "topic": "business-chat"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "hubspot-crm",
+      "name": "HubSpot CRM",
+      "affiliateKey": "hubspot-crm",
+      "category": "business-software",
+      "categoryName": {
+        "ja": "業務効率化",
+        "en": "Business Software"
+      },
+      "topic": "crm",
+      "positioning": {
+        "ja": "顧客、会社、取引、マーケティング、営業、サポートのデータをつなぐCRM基盤",
+        "en": "A CRM platform connecting contacts, companies, deals, marketing, sales, and service data"
+      },
+      "pricing": {
+        "ja": "無料CRMから開始し、Starter、Professional、Enterprise等へ機能拡張",
+        "en": "Start with free CRM and expand into Starter, Professional, Enterprise, and additional products"
+      },
+      "pricingDetail": {
+        "ja": "シート、製品、マーケティング連絡先、追加機能、導入支援を分けて見積もります。",
+        "en": "Estimate seats, products, marketing contacts, add-ons, and implementation services separately."
+      },
+      "pricingModel": "contact-or-variable",
+      "workflow": {
+        "ja": "問い合わせから顧客・会社・商談・活動を一つの履歴へ集約し、マーケティング・営業・サポートへ引き継ぎます。",
+        "en": "Centralize inquiries, contacts, companies, deals, and activities, then connect marketing, sales, and service workflows."
+      },
+      "bestFor": {
+        "ja": "顧客情報と営業活動をスプレッドシートから移し、段階的に機能を拡張したい企業",
+        "en": "Businesses replacing sales spreadsheets and expanding customer operations in stages"
+      },
+      "strengths": {
+        "ja": [
+          "期限なしの無料CRM入口",
+          "顧客データ中心の統合",
+          "段階的な製品拡張"
+        ],
+        "en": [
+          "Free CRM entry point",
+          "Customer-data-centered integration",
+          "Staged product expansion"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "上位機能の費用構造",
+          "マーケティング連絡先等の課金確認",
+          "導入支援は別パートナー制度を確認"
+        ],
+        "en": [
+          "Higher-tier cost structure",
+          "Marketing contact and other billing drivers",
+          "Client implementation may require a different partner program"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "HubSpot CRM Japan",
+          "url": "https://www.hubspot.jp/products/crm"
+        },
+        {
+          "label": "HubSpot free CRM",
+          "url": "https://www.hubspot.com/products/crm?software=crm"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "ActiveCampaign vs HubSpot Marketing Hub: Advanced Automation or an Integrated CRM Platform?",
+          "url": "/en/seo-marketing/activecampaign-vs-hubspot/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "ActiveCampaignとHubSpot Marketing Hubを比較｜高度な自動化か、統合CRM・マーケティング基盤か",
+          "url": "/ja/seo-marketing/activecampaign-vs-hubspot/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "CRM Comparison for Small Businesses: HubSpot, monday CRM, and Salesforce",
+          "url": "/en/business-software/crm-comparison-small-business-japan/",
+          "category": "business-software",
+          "topic": "crm"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "GetResponse vs HubSpot Marketing Hub: Campaign Funnels or CRM-Centered Team Operations?",
+          "url": "/en/seo-marketing/getresponse-vs-hubspot/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "GetResponseとHubSpot Marketing Hubを比較｜キャンペーンファネルか、CRM中心の部門連携か",
+          "url": "/ja/seo-marketing/getresponse-vs-hubspot/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "HubSpot Free CRM Review for Small Businesses",
+          "url": "/en/business-software/hubspot-free-crm-review-small-business/",
+          "category": "business-software",
+          "topic": "crm"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "HubSpot Marketing Hub vs Brevo: Integrated CRM Operations or Send-Volume Marketing?",
+          "url": "/en/seo-marketing/hubspot-vs-brevo/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "HubSpot Marketing Hub vs Mailchimp: CRM Platform or Focused Email Marketing?",
+          "url": "/en/seo-marketing/hubspot-vs-mailchimp/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "HubSpot Marketing HubとBrevoを比較｜統合CRMか、送信量中心のマーケティング運用か",
+          "url": "/ja/seo-marketing/hubspot-vs-brevo/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "HubSpot Marketing HubとMailchimpを比較｜CRM一体型マーケティングとメール配信を比べる",
+          "url": "/ja/seo-marketing/hubspot-vs-mailchimp/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "HubSpot Marketing HubはCRM導入を進める小規模事業者に向く？料金・機能・導入条件を確認",
+          "url": "/ja/seo-marketing/hubspot-marketing-for-small-business/",
+          "category": "seo-marketing",
+          "topic": "email-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "HubSpotとSalesforceを比較｜小規模企業のCRM選び",
+          "url": "/ja/business-software/hubspot-vs-salesforce-small-business/",
+          "category": "business-software",
+          "topic": "crm"
+        }
+      ],
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "jira",
@@ -2207,7 +2555,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "microsoft-teams",
@@ -2381,7 +2729,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "monday",
@@ -2540,22 +2888,22 @@
         },
         {
           "language": "en",
-          "type": "review",
-          "title": "Is monday.com Right for Small Cross-functional Teams? Cost, Features, and Fit",
-          "url": "/en/business-software/monday-for-small-business/",
+          "type": "comparison",
+          "title": "CRM Comparison for Small Businesses: HubSpot, monday CRM, and Salesforce",
+          "url": "/en/business-software/crm-comparison-small-business-japan/",
           "category": "business-software",
-          "topic": "project-management"
+          "topic": "crm"
         },
         {
           "language": "en",
-          "type": "comparison",
-          "title": "Jira vs monday.com: Software Delivery or Cross-Department Workflows?",
-          "url": "/en/business-software/jira-vs-monday/",
+          "type": "guide",
+          "title": "How to Manage Website Production Projects in monday.com",
+          "url": "/en/business-software/monday-web-production-project-management/",
           "category": "business-software",
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "notion",
@@ -2729,7 +3077,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "slack",
@@ -2903,7 +3251,7 @@
           "topic": "business-chat"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "todoist",
@@ -3077,7 +3425,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "trello",
@@ -3251,7 +3599,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "wrike",
@@ -3425,7 +3773,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "zoom",
@@ -3535,7 +3883,675 @@
           "topic": "video-meetings"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "airpay",
+      "name": "Airペイ",
+      "affiliateKey": "airpay-official",
+      "category": "cashless-payments",
+      "categoryName": {
+        "ja": "キャッシュレス決済",
+        "en": "Cashless Payments"
+      },
+      "topic": "cashless-payment-services",
+      "positioning": {
+        "ja": "カード、電子マネー、QRコード決済をiPadまたはiPhoneとカードリーダー等で受け付け、Airレジとも連携できる店舗向け決済サービス",
+        "en": "An in-person payment service for cards, e-money, and QR payments using an iPad or iPhone and compatible reader, with integration to AirREGI"
+      },
+      "pricing": {
+        "ja": "月額固定費・振込手数料は0円。通常のカード等は3.24%、交通系電子マネー等は2.95%税別、QRは0.99%または2.95%税別。条件・審査を満たす主要カードは2.48%",
+        "en": "No monthly or bank transfer fee. Standard card and selected wallet transactions are 3.24%; transit e-money and many QR methods are 2.95% before tax, COIN+ is 0.99% before tax, and eligible major cards may qualify for 2.48%"
+      },
+      "pricingDetail": {
+        "ja": "ブランド別料率、消費税の課税区分、ディスカウント適用条件、端末やiPadの準備、キャンペーン終了後の負担を確認します。売上規模別に加重平均手数料を計算してください。",
+        "en": "Verify brand-specific rates, tax treatment, discount eligibility, required device costs, and post-campaign terms. Calculate a weighted effective rate using the store's actual payment mix."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "加盟店審査後、対応端末で金額を入力またはAirレジから連携し、カード・電子マネー・QR決済を受け付けます。金融機関によりAirペイの入金は月6回または月3回です。",
+        "en": "After merchant underwriting, the store enters or transfers the amount from AirREGI and accepts cards, e-money, and QR payments. AirPAY settlement occurs three or six times monthly depending on the bank."
+      },
+      "bestFor": {
+        "ja": "Airレジとの一体運用、幅広い国内決済ブランド、固定費0円、比較的多い入金回数を重視する店舗",
+        "en": "Stores prioritizing AirREGI integration, broad Japanese payment acceptance, no monthly fee, and relatively frequent settlement"
+      },
+      "strengths": {
+        "ja": [
+          "Airレジとの金額連携",
+          "月額固定費と振込手数料が0円",
+          "カード・電子マネー・QRに幅広く対応"
+        ],
+        "en": [
+          "Amount transfer from AirREGI",
+          "No monthly or bank transfer fee",
+          "Broad support for cards, e-money, and QR payments"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "ブランドごとに審査と料率が異なる",
+          "iPad・iPhone等の対応環境が必要",
+          "入金回数は金融機関や決済機能で異なる"
+        ],
+        "en": [
+          "Underwriting and fees vary by payment brand",
+          "A compatible iPad or iPhone environment is required",
+          "Settlement timing varies by bank and payment function"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": false,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "Airペイ — 決済手数料・振込手数料",
+          "url": "https://faq.airpayment.jp/hc/ja/articles/218985588-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E6%8C%AF%E8%BE%BC%E6%89%8B%E6%95%B0%E6%96%99"
+        },
+        {
+          "label": "Airペイ — 決済手数料ディスカウントプログラム",
+          "url": "https://faq.airpayment.jp/hc/ja/articles/39897820982553-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+        },
+        {
+          "label": "Airペイ — 入金サイクル",
+          "url": "https://faq.airpayment.jp/hc/ja/articles/219379377-%E5%85%A5%E9%87%91-%E6%8C%AF%E8%BE%BC-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%81%A8%E6%8C%AF%E8%BE%BC%E9%87%91%E9%A1%8D%E3%81%AE%E7%A2%BA%E8%AA%8D%E6%96%B9%E6%B3%95"
+        },
+        {
+          "label": "Airペイ — 対応している決済の種類",
+          "url": "https://faq.airpayment.jp/hc/ja/articles/212207478-%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E6%B1%BA%E6%B8%88%E3%81%AE%E7%A8%AE%E9%A1%9E"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+          "url": "/ja/cashless-payments/airpay-vs-square/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+          "url": "/ja/cashless-payments/airpay-review/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+          "url": "/en/cashless-payments/airpay-review/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+          "url": "/en/cashless-payments/airpay-vs-square/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "AirREGI Review: Free POS Features, Costs, and Limitations",
+          "url": "/en/cashless-payments/air-regi-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+          "url": "/ja/cashless-payments/air-regi-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "air-regi",
+      "name": "Airレジ",
+      "affiliateKey": "air-regi-official",
+      "category": "cashless-payments",
+      "categoryName": {
+        "ja": "キャッシュレス決済",
+        "en": "Cashless Payments"
+      },
+      "topic": "pos-payment-integration",
+      "positioning": {
+        "ja": "iPadまたはiPhoneで利用でき、注文入力、会計、商品・在庫・顧客管理、売上分析をまとめる無料POSレジアプリ",
+        "en": "A free POS application for iPad or iPhone that combines order entry, checkout, product, inventory, customer management, and sales analysis"
+      },
+      "pricing": {
+        "ja": "初期費用・月額費用・基本サポートを含むAirレジアプリは0円。iPad、プリンター、ドロア、決済サービス、Airレジ オーダー等は別途",
+        "en": "The AirREGI application, core features, and standard support are free; iPad hardware, printers, cash drawers, payment services, and AirREGI Order are separate"
+      },
+      "pricingDetail": {
+        "ja": "無料なのはPOSアプリ部分です。店舗で必要なiPad、レシートプリンター、キャッシュドロア、バーコードリーダー、自動つり銭機、Airペイ、オーダー機能まで含めた初年度総額を計算します。",
+        "en": "The free component is the POS software. Calculate the first-year total for the required iPad, receipt printer, cash drawer, barcode reader, cash recycler, AirPAY, and ordering modules."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "商品を登録し、iPadまたはiPhoneで注文・会計を行い、売上、在庫、顧客情報を管理します。Airペイや会計ソフト、予約、Airレジ オーダーと連携できます。",
+        "en": "The store registers products, processes orders and checkout on iPad or iPhone, and manages sales, stock, and customers, with optional links to AirPAY, accounting, reservations, and ordering."
+      },
+      "bestFor": {
+        "ja": "POSソフトの固定費を抑えながら、小売・飲食・サービス店舗の基本的な会計と売上管理を整えたい事業者",
+        "en": "Retail, restaurant, and service businesses that want core checkout and sales management without a recurring POS software fee"
+      },
+      "strengths": {
+        "ja": [
+          "POSアプリの基本機能が無料",
+          "商品・在庫・顧客・売上分析を一体化",
+          "Airペイや会計・予約・オーダーサービスと連携"
+        ],
+        "en": [
+          "Free core POS application",
+          "Integrated product, inventory, customer, and sales management",
+          "Connections to AirPAY, accounting, reservations, and ordering services"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "iPad等の機器費用は別",
+          "キャッシュレス決済は別途申込・審査",
+          "高度なオーダー運用は追加サービスが必要"
+        ],
+        "en": [
+          "Hardware such as an iPad is separate",
+          "Cashless payments require a separate application and underwriting",
+          "Advanced ordering workflows require additional services"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "Airレジ — 費用・料金",
+          "url": "https://airregi.jp/jp/cost/"
+        },
+        {
+          "label": "Airレジ — 機能・できること",
+          "url": "https://airregi.jp/jp/function/"
+        },
+        {
+          "label": "Airレジ — 機能一覧",
+          "url": "https://airregi.jp/jp/function/list/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+          "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+          "url": "/ja/cashless-payments/air-regi-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+          "url": "/en/cashless-payments/airpay-review/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "AirREGI Review: Free POS Features, Costs, and Limitations",
+          "url": "/en/cashless-payments/air-regi-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+          "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+          "url": "/ja/cashless-payments/airpay-review/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": ".com vs .jp Domains: Registration, Brand, SEO, and International Use",
+          "url": "/en/hosting-security/com-vs-jp-domain/",
+          "category": "hosting-security",
+          "topic": "domains"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+          "url": "/en/cashless-payments/airpay-vs-square/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Airtable Review: Pricing, Features, Best-Fit Uses, and Limitations",
+          "url": "/en/business-software/airtable-review/",
+          "category": "business-software",
+          "topic": "project-management"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Airtable vs Asana: Business Databases or Structured Project Execution?",
+          "url": "/en/business-software/airtable-vs-asana/",
+          "category": "business-software",
+          "topic": "project-management"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Airtable vs Basecamp: Custom Business Database or Project Communication Hub?",
+          "url": "/en/business-software/airtable-vs-basecamp/",
+          "category": "business-software",
+          "topic": "project-management"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Airtable vs monday.com: Flexible Work Databases or Visual Team Operations?",
+          "url": "/en/business-software/airtable-vs-monday/",
+          "category": "business-software",
+          "topic": "project-management"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "paycas-mobile",
+      "name": "PayCAS Mobile",
+      "affiliateKey": "paycas-mobile-official",
+      "category": "cashless-payments",
+      "categoryName": {
+        "ja": "キャッシュレス決済",
+        "en": "Cashless Payments"
+      },
+      "topic": "cashless-payment-services",
+      "positioning": {
+        "ja": "プリンター、カード・電子マネー・QRリーダー、ソフトバンクSIMを内蔵し、持ち運んで利用できるAndroidベースのオールインワン決済端末",
+        "en": "An Android-based all-in-one mobile payment terminal with an integrated printer, card, e-money, and QR readers, plus a SoftBank SIM"
+      },
+      "pricing": {
+        "ja": "初期費用、月額費用、端末料金、決済手数料、トランザクション費用は加盟店ごとの見積もり。売上は月2回入金、振込手数料は無料",
+        "en": "Setup, monthly, terminal, processing, and transaction fees are quoted for each merchant. Settlement is twice monthly and bank transfer fees are free"
+      },
+      "pricingDetail": {
+        "ja": "見積書では端末代、通信費、月額、ブランド別料率、トランザクション料、アプリ費用、最低利用期間、故障・紛失時の負担を分けて確認します。",
+        "en": "The quotation should separate terminal cost, connectivity, monthly fees, brand rates, transaction charges, optional applications, minimum term, and replacement liability."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "SIM搭載端末を持ち運び、カード、電子マネー、QR決済を1台で処理し、その場でレシートを印刷します。PayCAS DX Storeから業務アプリを追加できます。",
+        "en": "Staff carry the SIM-connected terminal, process card, e-money, and QR payments on one device, print receipts, and can add business applications through PayCAS DX Store."
+      },
+      "bestFor": {
+        "ja": "テーブル会計、訪問サービス、イベント、移動販売など、通信とプリンターを内蔵した持ち運び端末を重視する事業者",
+        "en": "Table service, field service, events, and mobile merchants that prioritize a portable terminal with built-in connectivity and receipt printing"
+      },
+      "strengths": {
+        "ja": [
+          "プリンターとSIMを内蔵",
+          "カード・電子マネー・QRを1台で処理",
+          "Androidアプリで機能追加可能"
+        ],
+        "en": [
+          "Built-in printer and mobile connectivity",
+          "Cards, e-money, and QR payments on one device",
+          "Additional functions through Android applications"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "料金は個別見積もり",
+          "入金は原則月2回",
+          "POS連動要件は利用システムごとに確認"
+        ],
+        "en": [
+          "Pricing requires a quotation",
+          "Standard settlement is twice monthly",
+          "POS integration must be checked for the specific system"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "PayCAS — PayCAS Mobile",
+          "url": "https://www.paycas.jp/paycas-mobile"
+        },
+        {
+          "label": "PayCAS — 料金",
+          "url": "https://www.paycas.jp/price"
+        },
+        {
+          "label": "PayCAS — サービス概要",
+          "url": "https://www.paycas.jp/service"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "review",
+          "title": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+          "url": "/en/cashless-payments/paycas-mobile-review/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+          "url": "/ja/cashless-payments/paycas-mobile-review/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+          "url": "/en/cashless-payments/square-vs-paycas-mobile/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "SquareとPayCAS Mobileを比較｜小型端末かSIM・プリンター内蔵か",
+          "url": "/ja/cashless-payments/square-vs-paycas-mobile/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+          "url": "/en/store-dx/funfo-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "funfo vs Kantan Chumon: Free POS Testing vs Published Modular Pricing",
+          "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+          "url": "/en/store-dx/restaurant-inbound-order-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Jimdo AI Builder vs Creator: Key Differences and Selection",
+          "url": "/en/website-builders/jimdo-ai-builder-vs-creator/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+          "url": "/en/store-dx/kantan-chumon-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Ochanoko Saisai Review: Pricing, Store Features, and Limits",
+          "url": "/en/website-builders/ochanoko-saisai-review/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Ochanoko Saisai vs Jimdo: Store Features and Ease of Use",
+          "url": "/en/website-builders/ochanoko-saisai-vs-jimdo/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+          "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "square-pos",
+      "name": "Square POSレジ",
+      "affiliateKey": "square-pos-official",
+      "category": "cashless-payments",
+      "categoryName": {
+        "ja": "キャッシュレス決済",
+        "en": "Cashless Payments"
+      },
+      "topic": "pos-payment-integration",
+      "positioning": {
+        "ja": "無料POSアプリ、決済、商品・在庫・顧客管理、売上レポート、請求書、オンライン販売を同一アカウントで展開できる店舗運営基盤",
+        "en": "A commerce platform combining a free POS application, payments, catalog, inventory, customer management, reporting, invoices, and online selling in one account"
+      },
+      "pricing": {
+        "ja": "標準POSアプリは無料で月額固定費なし。端末はSquare リーダー4,980円、Square スタンド29,980円、Square ターミナル39,980円。対象主要カードの対面決済は2.5%から",
+        "en": "The standard POS application has no monthly fee. Listed hardware includes Square Reader at JPY 4,980, Square Stand at JPY 29,980, and Square Terminal at JPY 39,980. Eligible major in-person card payments start at 2.5%"
+      },
+      "pricingDetail": {
+        "ja": "業種別POSの有料機能、端末購入費、対面・オンライン・非対面・請求書の各料率を分けて計算します。2.5%の対象条件と、対象外の3.25%以上の取引も確認します。",
+        "en": "Separate industry-specific paid software, hardware purchases, and in-person, online, card-not-present, and invoice rates. Verify eligibility for 2.5% and transactions that use 3.25% or higher rates."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "商品登録後、スマートフォン、タブレット、Square端末で会計し、決済、在庫、顧客、レポートをSquare データで管理します。必要に応じてオンライン販売や請求書へ拡張します。",
+        "en": "After catalog setup, the business checks out on a phone, tablet, or Square device and manages payments, stock, customers, and reporting in Square Dashboard, with optional online selling and invoices."
+      },
+      "bestFor": {
+        "ja": "POSと決済を同一事業者で始め、店舗・オンライン・請求書まで段階的に拡張したい小規模事業者",
+        "en": "Small businesses that want POS and payments from one provider and may expand into online sales and invoices"
+      },
+      "strengths": {
+        "ja": [
+          "標準POSアプリが無料",
+          "端末価格と主要手数料が公開",
+          "店舗・オンライン・請求書を同一基盤で運用"
+        ],
+        "en": [
+          "Free standard POS application",
+          "Published hardware pricing and major payment rates",
+          "Unified in-person, online, and invoice workflows"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "業種別の高度機能は有料プランがある",
+          "2.5%料率には適用条件がある",
+          "必要端末によって初期費用が変わる"
+        ],
+        "en": [
+          "Advanced industry features may require paid plans",
+          "The 2.5% rate has eligibility conditions",
+          "Initial cost varies by hardware configuration"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "Square — POSレジ料金",
+          "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+        },
+        {
+          "label": "Square — POSレジ機能",
+          "url": "https://squareup.com/jp/ja/point-of-sale/features"
+        },
+        {
+          "label": "Square — 決済手数料",
+          "url": "https://squareup.com/jp/ja/payments/our-fees"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+          "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+          "url": "/ja/cashless-payments/square-pos-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+          "url": "/en/cashless-payments/airpay-vs-square/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+          "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+          "url": "/ja/cashless-payments/airpay-vs-square/",
+          "category": "cashless-payments",
+          "topic": "cashless-payment-services"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+          "url": "/ja/store-dx/emeao-pos-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+          "url": "/ja/store-dx/funfo-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+          "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+          "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+          "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+          "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Square POS Review: Pricing, Hardware, Features, and Limits",
+          "url": "/en/cashless-payments/square-pos-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        }
+      ],
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "1password",
@@ -3661,7 +4677,7 @@
           "topic": "password-managers"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "bitwarden",
@@ -3787,7 +4803,7 @@
           "topic": "password-managers"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "cloudways",
@@ -3961,7 +4977,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "hostinger",
@@ -4049,6 +5065,14 @@
         {
           "language": "en",
           "type": "guide",
+          "title": "Hostinger Pricing and Renewal Cost: Calculate the Full Commitment",
+          "url": "/en/hosting-security/hostinger-pricing-renewal-cost-japan/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "guide",
           "title": "Hostinger Pricing Guide: Plans, Limits, and Total Cost",
           "url": "/en/hosting-security/hostinger-pricing-guide/",
           "category": "hosting-security",
@@ -4105,6 +5129,14 @@
         {
           "language": "en",
           "type": "comparison",
+          "title": "Hostinger vs XServer for a Small Business Website",
+          "url": "/en/hosting-security/hostinger-vs-xserver-small-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
           "title": "Hostinger vs XServer: Which Is Better for WordPress in Japan?",
           "url": "/en/hosting-security/hostinger-vs-xserver/",
           "category": "hosting-security",
@@ -4117,25 +5149,9 @@
           "url": "/en/website-builders/hostinger-website-builder-review/",
           "category": "website-builders",
           "topic": "website-builder"
-        },
-        {
-          "language": "en",
-          "type": "comparison",
-          "title": "Hostinger Website Builder vs Squarespace: Pricing, Design, and Small-Business Operations",
-          "url": "/en/website-builders/hostinger-website-builder-vs-squarespace/",
-          "category": "website-builders",
-          "topic": "website-builder"
-        },
-        {
-          "language": "en",
-          "type": "comparison",
-          "title": "Hostinger Website Builder vs Wix: Low-Cost Bundle or Broader Business Features?",
-          "url": "/en/website-builders/hostinger-website-builder-vs-wix/",
-          "category": "website-builders",
-          "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "jetboy",
@@ -4303,7 +5319,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "keeper",
@@ -4429,7 +5445,7 @@
           "topic": "password-manager"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "kinsta",
@@ -4603,7 +5619,7 @@
           "topic": "managed-wordpress"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "nordpass",
@@ -4729,7 +5745,7 @@
           "topic": "password-manager"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "nordvpn",
@@ -4903,7 +5919,7 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "proton-vpn",
@@ -5077,7 +6093,7 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "shin-rental-server",
@@ -5283,7 +6299,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "siteground",
@@ -5457,7 +6473,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "surfshark",
@@ -5631,7 +6647,7 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "wordpress-com",
@@ -5805,7 +6821,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "wp-engine",
@@ -5979,7 +6995,411 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "xserver",
+      "name": "XServer",
+      "affiliateKey": "xserver-main",
+      "category": "hosting-security",
+      "categoryName": {
+        "ja": "サーバー・セキュリティ",
+        "en": "Hosting & Security"
+      },
+      "topic": "web-hosting",
+      "positioning": {
+        "ja": "WordPress、複数ドメイン、メール、SSL、14日分バックアップを備える国内レンタルサーバー",
+        "en": "Japan-focused hosting with WordPress workflows, multiple domains, email, SSL, and fourteen-day backups"
+      },
+      "pricing": {
+        "ja": "通常36か月月額換算はスタンダード990円、プレミアム1,980円、ビジネス3,960円。初期費用無料",
+        "en": "Normal thirty-six-month equivalents are JPY 990, JPY 1,980, and JPY 3,960, with no setup fee"
+      },
+      "pricingDetail": {
+        "ja": "長期契約は契約期間分を前払い。キャンペーンではなく通常更新料金、ドメイン条件、移行・復旧費を含めて比較",
+        "en": "Long terms are prepaid; compare normal renewal, domain conditions, migration, and recovery rather than campaign effective pricing"
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "WordPress簡単インストール・移行、無料SSL、WAF、バックアップ、メール、複数ドメインを管理",
+        "en": "Operate WordPress installation and migration, SSL, WAF, backups, email, and multiple domains"
+      },
+      "bestFor": {
+        "ja": "国内サポートと複数WordPress・会社サイトを一つの管理環境にまとめたい個人・制作会社・中小企業",
+        "en": "Individuals, agencies, and smaller companies consolidating multiple WordPress or company sites with Japan-based support"
+      },
+      "strengths": {
+        "ja": [
+          "500GB以上のNVMe",
+          "WordPress運用支援",
+          "14日分バックアップ",
+          "複数ドメイン・メール"
+        ],
+        "en": [
+          "500 GB or more NVMe",
+          "WordPress tools",
+          "Fourteen-day backups",
+          "Multi-domain and email"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "長期契約は前払い",
+          "ドメイン特典に条件",
+          "電話・チャットは平日",
+          "専用保証は別サービス"
+        ],
+        "en": [
+          "Prepaid long terms",
+          "Conditional domain benefit",
+          "Weekday telephone and chat",
+          "Dedicated guarantees require another service"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": true,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "エックスサーバー公式サイト",
+          "url": "https://www.xserver.ne.jp/"
+        },
+        {
+          "label": "エックスサーバー料金プラン",
+          "url": "https://www.xserver.ne.jp/price/index.php"
+        },
+        {
+          "label": "エックスサーバー機能一覧",
+          "url": "https://www.xserver.ne.jp/functions/"
+        },
+        {
+          "label": "エックスサーバー特長",
+          "url": "https://www.xserver.ne.jp/feature/"
+        },
+        {
+          "label": "独自ドメイン永久無料特典",
+          "url": "https://www.xserver.ne.jp/manual/man_order_present_domain.php"
+        },
+        {
+          "label": "自動バックアップ機能",
+          "url": "https://www.xserver.ne.jp/functions/service_backup.php"
+        },
+        {
+          "label": "WordPress簡単インストール",
+          "url": "https://www.xserver.ne.jp/manual/man_install_auto_word.php"
+        },
+        {
+          "label": "WordPress簡単移行",
+          "url": "https://www.xserver.ne.jp/manual/man_install_transfer_wp.php"
+        },
+        {
+          "label": "エックスサーバーサポート",
+          "url": "https://www.xserver.ne.jp/support/"
+        },
+        {
+          "label": "法人向けレンタルサーバー選び方ガイド",
+          "url": "https://www.xserver.ne.jp/comparison/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
+          "url": "/en/hosting-security/business-web-hosting-comparison/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Business WordPress Hosting: XServer, Kinsta and WP Engine",
+          "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Color Me Shop vs XServer Shop: SaaS vs Managed EC-CUBE",
+          "url": "/en/website-builders/color-me-shop-vs-xserver-shop/",
+          "category": "website-builders",
+          "topic": "ecommerce-platforms"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "CPI vs XServer Business for Organizations in Japan",
+          "url": "/en/hosting-security/cpi-vs-xserver-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+          "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Fixed-Fee Ecommerce Platforms: XServer Shop, WooCommerce, Wix and Shopify",
+          "url": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
+          "category": "website-builders",
+          "topic": "ecommerce-platforms"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Hostinger vs XServer for a Small Business Website",
+          "url": "/en/hosting-security/hostinger-vs-xserver-small-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Hostinger vs XServer: Which Is Better for WordPress in Japan?",
+          "url": "/en/hosting-security/hostinger-vs-xserver/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "Hostingerとエックスサーバーを比較｜WordPressにはどっちがおすすめ？",
+          "url": "/ja/hosting-security/hostinger-vs-xserver/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "Hostingerとエックスサーバーを比較｜小規模事業のサーバー選び",
+          "url": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "iCLUSTA+ vs XServer for WordPress",
+          "url": "/en/hosting-security/iclusta-vs-xserver-for-wordpress/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "iCLUSTA+とXServer for WordPressを比較【2026年】",
+          "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "xserver-business",
+      "name": "XServer Business",
+      "affiliateKey": "xserver-business-main",
+      "category": "hosting-security",
+      "categoryName": {
+        "ja": "サーバー・セキュリティ",
+        "en": "Hosting & Security"
+      },
+      "topic": "web-hosting",
+      "positioning": {
+        "ja": "共有サーバーから仮想・物理マネージド専用まで、法人向け管理・支援を提供するホスティング",
+        "en": "Business hosting ranging from shared service to managed virtual and physical dedicated servers"
+      },
+      "pricing": {
+        "ja": "共有36か月月額3,762円から。仮想専用19,800円から、物理専用29,700円から。初期費用あり",
+        "en": "Shared from JPY 3,762 per month on thirty-six months, managed virtual from JPY 19,800, physical from JPY 29,700, with setup fees"
+      },
+      "pricingDetail": {
+        "ja": "キャンペーン実質額ではなく初期費用、通常月額、契約期間、移行、運用支援、社内工数で比較",
+        "en": "Compare setup, normal monthly rates, term, migration, assistance, and internal effort rather than effective campaign pricing"
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "法人権限、設定代行、移転支援、セキュリティ、共有・専用環境を要件に合わせて運用",
+        "en": "Operate business permissions, assisted setup, migration, security, and shared or dedicated environments"
+      },
+      "bestFor": {
+        "ja": "複数担当者、管理統制、設定支援、専用リソース、法人サポートを必要とする組織",
+        "en": "Organizations needing multiple administrators, governance, assisted operations, dedicated resources, and business support"
+      },
+      "strengths": {
+        "ja": [
+          "共有・仮想・物理の選択肢",
+          "設定・移転支援",
+          "法人管理機能",
+          "マネージド専用サーバー"
+        ],
+        "en": [
+          "Shared, virtual, and physical options",
+          "Setup and migration assistance",
+          "Business controls",
+          "Managed dedicated servers"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "初期費用あり",
+          "通常料金は一般向けより高い",
+          "専用でもアプリ運用は別責任",
+          "要件定義が必要"
+        ],
+        "en": [
+          "Setup fees",
+          "Higher normal cost than consumer hosting",
+          "Application operations remain separate",
+          "Requires clear requirements"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "XServerビジネス公式サイト",
+          "url": "https://business.xserver.ne.jp/"
+        },
+        {
+          "label": "XServerビジネス料金プラン",
+          "url": "https://business.xserver.ne.jp/price/"
+        },
+        {
+          "label": "XServerビジネス機能一覧",
+          "url": "https://business.xserver.ne.jp/functions/"
+        },
+        {
+          "label": "マネージド専用サーバー",
+          "url": "https://business.xserver.ne.jp/feature/dedicated.php"
+        },
+        {
+          "label": "XServerビジネス特長",
+          "url": "https://business.xserver.ne.jp/feature/"
+        },
+        {
+          "label": "XServerビジネス アフィリエイト案内",
+          "url": "https://business.xserver.ne.jp/affiliate/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
+          "url": "/en/hosting-security/business-web-hosting-comparison/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Business WordPress Hosting: XServer, Kinsta and WP Engine",
+          "url": "/en/hosting-security/business-wordpress-hosting-comparison/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "CPI vs XServer Business for Organizations in Japan",
+          "url": "/en/hosting-security/cpi-vs-xserver-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+          "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Hostinger vs XServer for a Small Business Website",
+          "url": "/en/hosting-security/hostinger-vs-xserver-small-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "Hostingerとエックスサーバーを比較｜小規模事業のサーバー選び",
+          "url": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "JETBOY vs XServer for WordPress (2026)",
+          "url": "/en/hosting-security/jetboy-vs-xserver-for-wordpress/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "XServer Business Review: Shared, Virtual, and Physical Managed Servers",
+          "url": "/en/hosting-security/xserver-business-review/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "XServer for WordPress Review for Japanese Businesses",
+          "url": "/en/hosting-security/xserver-for-wordpress-review/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "XServer for WordPress vs CPI for Business Websites in Japan",
+          "url": "/en/hosting-security/xserver-for-wordpress-vs-cpi/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "XServer for WordPress vs XServer Business",
+          "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
+          "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        }
+      ],
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "activecampaign",
@@ -6153,7 +7573,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "ahrefs",
@@ -6311,7 +7731,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "brevo",
@@ -6485,7 +7905,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "getresponse",
@@ -6659,7 +8079,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "hubspot-marketing",
@@ -6771,6 +8191,14 @@
         {
           "language": "en",
           "type": "comparison",
+          "title": "CRM Comparison for Small Businesses: HubSpot, monday CRM, and Salesforce",
+          "url": "/en/business-software/crm-comparison-small-business-japan/",
+          "category": "business-software",
+          "topic": "crm"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
           "title": "GetResponse vs HubSpot Marketing Hub: Campaign Funnels or CRM-Centered Team Operations?",
           "url": "/en/seo-marketing/getresponse-vs-hubspot/",
           "category": "seo-marketing",
@@ -6823,17 +8251,9 @@
           "url": "/en/seo-marketing/hubspot-vs-mailchimp/",
           "category": "seo-marketing",
           "topic": "email-marketing"
-        },
-        {
-          "language": "ja",
-          "type": "comparison",
-          "title": "HubSpot Marketing HubとBrevoを比較｜統合CRMか、送信量中心のマーケティング運用か",
-          "url": "/ja/seo-marketing/hubspot-vs-brevo/",
-          "category": "seo-marketing",
-          "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "kit",
@@ -6944,6 +8364,14 @@
         },
         {
           "language": "en",
+          "type": "guide",
+          "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+          "url": "/en/store-dx/restaurant-pos-selection-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
           "type": "comparison",
           "title": "Kit vs ActiveCampaign: Creator Monetization or Advanced Behavior Automation?",
           "url": "/en/seo-marketing/kit-vs-activecampaign/",
@@ -6997,17 +8425,9 @@
           "url": "/en/seo-marketing/mailerlite-vs-kit/",
           "category": "seo-marketing",
           "topic": "email-marketing"
-        },
-        {
-          "language": "ja",
-          "type": "comparison",
-          "title": "MailerLiteとKitを比較｜小規模事業のメール配信か、クリエイター収益化か",
-          "url": "/ja/seo-marketing/mailerlite-vs-kit/",
-          "category": "seo-marketing",
-          "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "mailchimp",
@@ -7181,7 +8601,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "mailerlite",
@@ -7355,7 +8775,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "mangools",
@@ -7513,7 +8933,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "se-ranking",
@@ -7687,7 +9107,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "semrush",
@@ -7861,7 +9281,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "ubersuggest",
@@ -8003,7 +9423,1039 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "emeao-pos",
+      "name": "EMEAO! POSレジ・システム業者紹介",
+      "affiliateKey": "emeao-pos-fit",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "restaurant-pos-orders",
+      "positioning": {
+        "ja": "POS製品そのものではなく、要件をヒアリングして対応可能なPOSレジ・システム業者を紹介するコンシェルジュ型サービス",
+        "en": "A Japan-focused concierge that matches a business with eligible POS vendors rather than selling a POS product itself"
+      },
+      "pricing": {
+        "ja": "利用者側の相談・業者紹介手数料は無料。POS導入費用は紹介先ごとの見積もり",
+        "en": "Buyer-side consultation and matching are described as free; POS implementation is quoted by introduced vendors"
+      },
+      "pricingDetail": {
+        "ja": "POS本体、ソフトウェア、端末、プリンター、決済、設定、研修、保守、回線等は紹介先の見積もりを比較します。",
+        "en": "Compare vendor quotations for POS software, devices, printers, payment processing, setup, training, support, connectivity, and contract terms."
+      },
+      "pricingModel": "contact-or-variable",
+      "workflow": {
+        "ja": "フォーム問い合わせ後、コンシェルジュが予算・機能・納期等をヒアリングし、条件に対応可能な業者を最大8社まで紹介",
+        "en": "After an inquiry, a concierge interviews the business about budget, functions, and timing, then introduces up to eight eligible vendors"
+      },
+      "bestFor": {
+        "ja": "POSレジの候補が決まっておらず、複数業者の提案と見積もりを同じ要件で比較したい法人・個人事業主",
+        "en": "Japanese businesses and sole proprietors without a fixed POS shortlist that want comparable proposals from several vendors"
+      },
+      "strengths": {
+        "ja": [
+          "利用者側の紹介手数料が無料",
+          "要件ヒアリング後に候補業者を選定",
+          "最大8社の提案を比較可能"
+        ],
+        "en": [
+          "No buyer-side matching fee",
+          "Concierge-led requirements matching",
+          "Potential comparison of up to eight vendors"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "問い合わせ後の電話ヒアリングが必要",
+          "紹介後は複数業者への対応が発生",
+          "POS導入費用自体は無料ではない"
+        ],
+        "en": [
+          "Follow-up interview required",
+          "Multiple vendor contacts may require time",
+          "POS implementation itself is not free"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "EMEAO! POSレジ・システム業者紹介 公式ページ",
+          "url": "https://emeao.jp/pos-lp2/"
+        },
+        {
+          "label": "EMEAO! POSレジ・システム業者選定ガイド",
+          "url": "https://emeao.jp/guide/pos/"
+        },
+        {
+          "label": "EMEAO! 公式サイト",
+          "url": "https://emeao.jp/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+          "url": "/ja/store-dx/emeao-pos-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+          "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+          "url": "/en/store-dx/emeao-pos-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+          "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+          "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+          "url": "/ja/store-dx/funfo-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+          "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+          "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+          "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+          "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+          "url": "/ja/cashless-payments/square-pos-review/",
+          "category": "cashless-payments",
+          "topic": "pos-payment-integration"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+          "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "freee-accounting",
+      "name": "freee会計",
+      "affiliateKey": "freee-accounting-official",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "store-backoffice-integration",
+      "positioning": {
+        "ja": "銀行、カード、レジ、決済などの取引データを取り込み、店舗の記帳・請求・決算業務をクラウドで進める会計サービス",
+        "en": "A cloud accounting service that imports bank, card, register, and payment data for bookkeeping, invoicing, and closing workflows."
+      },
+      "pricing": {
+        "ja": "事業形態と必要機能によりプランが異なります。POS連携対象、部門、権限、請求、給与連携を公式条件で確認します。",
+        "en": "Plans vary by entity and required functions. Verify POS connections, departments, permissions, invoicing, and payroll links."
+      },
+      "pricingDetail": {
+        "ja": "POSから連携される売上粒度、決済入金の消込方法、現金差額、税区分、店舗別部門の扱いを税理士と確認します。",
+        "en": "Confirm sales granularity, settlement reconciliation, cash differences, tax mapping, and location departments with an accounting adviser."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "POS・銀行・カードの明細を取り込み、取引ルールを整え、日次確認と月次締めで未処理・差額を解消します。",
+        "en": "Import POS, bank, and card data, define posting rules, and resolve exceptions through daily checks and monthly close."
+      },
+      "bestFor": {
+        "ja": "売上・決済・銀行の転記を減らし、店舗別の月次会計を早めたい個人事業主・中小法人",
+        "en": "Sole proprietors and SMBs reducing sales and settlement re-entry and accelerating monthly close."
+      },
+      "strengths": {
+        "ja": [
+          "銀行・決済・レジ等とのデータ連携",
+          "記帳から決算までクラウドで管理",
+          "Airレジ等との連携導線"
+        ],
+        "en": [
+          "Connections to banks, payments, and registers",
+          "Cloud bookkeeping and closing workflows",
+          "Documented integration paths with services such as AirREGI"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "連携粒度はサービスごとに異なる",
+          "税区分と入金消込の初期設計が必要",
+          "会計判断は税理士等への確認が必要"
+        ],
+        "en": [
+          "Data granularity varies by connector",
+          "Tax and settlement rules need setup",
+          "Accounting judgments may require professional review"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "freee会計 — 公式サービスページ",
+          "url": "https://www.freee.co.jp/accounting/"
+        },
+        {
+          "label": "Airレジ — freee会計連携",
+          "url": "https://airregi.jp/partner/freee/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Retail Store DX Guide: Unify POS, Inventory, Payments, and Accounting",
+          "url": "/en/store-dx/retail-store-dx-guide/",
+          "category": "store-dx",
+          "topic": "store-backoffice-integration"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+          "url": "/en/store-dx/salon-store-dx-guide/",
+          "category": "store-dx",
+          "topic": "store-reservations-crm"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+          "url": "/en/store-dx/small-restaurant-dx-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+          "url": "/en/store-dx/store-dx-implementation-roadmap/",
+          "category": "store-dx",
+          "topic": "store-backoffice-integration"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+          "url": "/en/store-dx/store-dx-stack-comparison/",
+          "category": "store-dx",
+          "topic": "store-backoffice-integration"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "funfo",
+      "name": "funfo",
+      "affiliateKey": "funfo-short",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "restaurant-pos-orders",
+      "positioning": {
+        "ja": "iPad向けPOSレジ、店内外モバイルオーダー、ハンディ、LINE連携を一体で扱う飲食店向けアプリ",
+        "en": "A restaurant app combining iPad POS, dine-in and off-premise mobile ordering, handheld operation, and LINE integration"
+      },
+      "pricing": {
+        "ja": "Freeは月額0円。Liteは年払い換算月額4,950円、Businessは9,900円、Business Plusは14,850円",
+        "en": "Free is JPY 0. Annual-billing monthly equivalents are JPY 4,950 for Lite, JPY 9,900 for Business, and JPY 14,850 for Business Plus"
+      },
+      "pricingDetail": {
+        "ja": "月払いはLite 5,550円、Business 11,000円、Business Plus 16,500円。iPad、周辺機器、決済手数料、導入支援等は別途確認します。",
+        "en": "Monthly billing is JPY 5,550 for Lite, JPY 11,000 for Business, and JPY 16,500 for Business Plus. Budget for iPad hardware, peripherals, payment processing, and implementation support."
+      },
+      "pricingModel": "freemium",
+      "workflow": {
+        "ja": "来店客がQRコードから注文し、店舗はiPad POSとiPhoneハンディで注文・会計を管理。LINE連携と売上分析も利用可能",
+        "en": "Customers order through QR codes while the store manages orders and checkout with an iPad POS and iPhone handheld workflow, with LINE and analytics options"
+      },
+      "bestFor": {
+        "ja": "無料からモバイルオーダーを試し、店舗規模やLINE施策に応じて有料プランへ段階移行したい飲食店",
+        "en": "Restaurants that want to test mobile ordering for free and scale into paid tiers for more devices and customer management"
+      },
+      "strengths": {
+        "ja": [
+          "月額0円のFreeプラン",
+          "POSと店内外モバイルオーダーを一体化",
+          "LINE連携と上位プランの顧客管理"
+        ],
+        "en": [
+          "Zero-monthly-fee Free tier",
+          "Integrated POS and dine-in/off-premise ordering",
+          "LINE integration and advanced customer functions"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "店舗側はiPadが必要",
+          "無料版は同時ログイン等に制限",
+          "周辺機器・決済手数料・連携準備を別途確認"
+        ],
+        "en": [
+          "iPad required on the store side",
+          "Free tier has device and feature limits",
+          "Hardware, processing fees, and integration lead time require separate planning"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "funfo 公式サイト",
+          "url": "https://www.funfo.jp/"
+        },
+        {
+          "label": "funfo 料金プラン",
+          "url": "https://www.funfo.jp/index.php/pricing/"
+        },
+        {
+          "label": "funfo よくある質問",
+          "url": "https://www.funfo.jp/index.php/qa/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "review",
+          "title": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+          "url": "/en/store-dx/funfo-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+          "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "funfo vs Kantan Chumon: Free POS Testing vs Published Modular Pricing",
+          "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+          "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+          "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+          "url": "/ja/store-dx/funfo-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "line-official-account",
+      "name": "LINE公式アカウント",
+      "affiliateKey": "line-official-account-official",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "store-customer-marketing",
+      "positioning": {
+        "ja": "店舗が友だち登録した顧客へ情報配信、チャット、応答、クーポンなどを提供する公式の顧客接点",
+        "en": "An official customer channel for broadcasts, chat, automated responses, coupons, and retention communication."
+      },
+      "pricing": {
+        "ja": "無料から開始でき、主に無料メッセージ数と追加配信可否でプランが分かれます。最新の通数と料金を公式表で確認します。",
+        "en": "A free entry plan is available, with tiers mainly differentiated by included messages and additional-message availability."
+      },
+      "pricingDetail": {
+        "ja": "友だち数だけでなく、月間配信回数、対象人数、チャット履歴、オプション、運用担当時間を含めて判断します。",
+        "en": "Estimate monthly broadcasts, audience size, chat retention, options, and staff time rather than using follower count alone."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "来店・Web・SNSから友だち追加を促し、同意と配信目的を整理したうえで、予約案内、再来店、個別チャットへ接続します。",
+        "en": "Acquire opt-in contacts in-store and online, define consent and communication purposes, then connect booking, retention, and one-to-one chat."
+      },
+      "bestFor": {
+        "ja": "再来店促進、予約案内、問い合わせ対応を一つの顧客接点にまとめたい店舗",
+        "en": "Stores consolidating retention messages, booking guidance, and customer inquiries."
+      },
+      "strengths": {
+        "ja": [
+          "無料プランから開始可能",
+          "配信と個別チャットを使い分けられる",
+          "店舗の予約・販促導線へ接続しやすい"
+        ],
+        "en": [
+          "Free entry plan",
+          "Broadcast and one-to-one chat workflows",
+          "Fits booking and local marketing journeys"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "一斉配信は通数管理が必要",
+          "顧客同意と配信目的の設計が必要",
+          "予約・POS連携は利用サービスごとに異なる"
+        ],
+        "en": [
+          "Broadcast volume must be managed",
+          "Consent and message purpose require governance",
+          "Booking and POS integrations vary by service"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": false,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "LINE公式アカウント — サービス概要",
+          "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+        },
+        {
+          "label": "LINE公式アカウント — 料金プラン",
+          "url": "https://www.lycbiz.com/jp/service/line-official-account/plan/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Is monday.com Right for Small Cross-functional Teams? Cost, Features, and Fit",
+          "url": "/en/business-software/monday-for-small-business/",
+          "category": "business-software",
+          "topic": "project-management"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Is Shopify Right for Small Ecommerce Businesses? Cost, Features, and Fit",
+          "url": "/en/website-builders/shopify-for-small-business/",
+          "category": "website-builders",
+          "topic": "ecommerce-platform"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "monday.com vs Notion: Visual Operations or a Docs-and-Knowledge Workspace?",
+          "url": "/en/business-software/monday-vs-notion/",
+          "category": "business-software",
+          "topic": "project-management"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+          "url": "/en/store-dx/salon-store-dx-guide/",
+          "category": "store-dx",
+          "topic": "store-reservations-crm"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+          "url": "/en/store-dx/store-dx-implementation-roadmap/",
+          "category": "store-dx",
+          "topic": "store-backoffice-integration"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+          "url": "/en/store-dx/store-dx-stack-comparison/",
+          "category": "store-dx",
+          "topic": "store-backoffice-integration"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Trello vs Asana: Which Task Manager Fits Beginners and Teams?",
+          "url": "/en/business-software/trello-vs-asana/",
+          "category": "business-software",
+          "topic": "task-management"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "XServer for WordPress Review for Japanese Businesses",
+          "url": "/en/hosting-security/xserver-for-wordpress-review/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "1Password vs Bitwarden: Free, Family, and Business Use Compared",
+          "url": "/en/hosting-security/1password-vs-bitwarden/",
+          "category": "hosting-security",
+          "topic": "password-manager"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "1Password vs Keeper: Team Workflow, Administration, and Security",
+          "url": "/en/hosting-security/1password-vs-keeper/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "1Password vs NordPass: Team Administration or Consumer Simplicity?",
+          "url": "/en/hosting-security/1password-vs-nordpass/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "ABLENET Rental Server Review: Pricing, WordPress, and Backups",
+          "url": "/en/hosting-security/ablenet-rental-server-review/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "stores-reservation",
+      "name": "STORES 予約",
+      "affiliateKey": "stores-reservation-official",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "store-reservations-crm",
+      "positioning": {
+        "ja": "ネット予約、顧客管理、事前決済、回数券、スタッフ管理、外部連携を店舗規模に応じて構成できる予約管理サービス",
+        "en": "A reservation platform covering online booking, customer records, prepayment, passes, staff management, and integrations."
+      },
+      "pricing": {
+        "ja": "無料プランと有料プランがあります。予約件数、公開ページ数、スタッフ数、決済手数料、契約期間を公式料金表で確認します。",
+        "en": "Free and paid plans are available. Verify booking limits, published pages, staff limits, payment fees, and contract terms on the official pricing page."
+      },
+      "pricingDetail": {
+        "ja": "月額だけでなく予約上限、超過料金、事前決済手数料、オプション、複数店舗管理を含む総費用で比較します。",
+        "en": "Compare total cost including booking limits, overage, prepayment fees, options, and multi-location administration."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "WebやSNSから予約を受け付け、スタッフ・設備枠、顧客情報、リマインド、事前決済を一つの予約台帳で管理します。",
+        "en": "Accept bookings from web and social channels, then manage staff, resources, customer records, reminders, and prepayment in one schedule."
+      },
+      "bestFor": {
+        "ja": "美容サロン、スクール、施設、サービス店舗で電話予約の負担と予約ミスを減らしたい事業者",
+        "en": "Salons, classes, facilities, and service businesses reducing phone bookings and scheduling errors."
+      },
+      "strengths": {
+        "ja": [
+          "無料から基本運用を確認できる",
+          "予約・顧客・決済を一体管理",
+          "LINEやGoogleカレンダー等との連携機能"
+        ],
+        "en": [
+          "Free entry option",
+          "Integrated booking, customer, and payment workflows",
+          "Connections with LINE, Google Calendar, and other services"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "機能はプランごとに異なる",
+          "予約件数やスタッフ数に上限がある",
+          "事前決済には別途手数料がある"
+        ],
+        "en": [
+          "Features vary by plan",
+          "Booking and staff limits apply",
+          "Prepayment carries separate processing fees"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "STORES 予約 — サービス概要・料金",
+          "url": "https://stores.fun/reserve"
+        },
+        {
+          "label": "STORES 予約 — 機能一覧",
+          "url": "https://stores.fun/reserve/functions"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Shopify vs STORES: Ecommerce Scale or Japanese Store Operations?",
+          "url": "/en/website-builders/shopify-vs-stores-small-business/",
+          "category": "website-builders",
+          "topic": "ecommerce-platform"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Website Builders with Booking Features for Stores, Classes and Salons",
+          "url": "/en/website-builders/reservation-website-builder-comparison/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Framer vs Wix: Design-Led Sites or All-in-One Business Features?",
+          "url": "/en/website-builders/framer-vs-wix/",
+          "category": "website-builders",
+          "topic": "website-builder"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "ShopifyとSTORESを比較｜ECと店舗連携で選ぶ",
+          "url": "/ja/website-builders/shopify-vs-stores-small-business/",
+          "category": "website-builders",
+          "topic": "ecommerce-platform"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+          "url": "/en/store-dx/small-restaurant-dx-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "予約機能付きホームページ作成サービス比較｜店舗・教室・サロン向け",
+          "url": "/ja/website-builders/reservation-website-builder-comparison/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "kantan-chumon",
+      "name": "かんたん注文",
+      "affiliateKey": "kantan-chumon-short",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "restaurant-pos-orders",
+      "positioning": {
+        "ja": "お客様のスマートフォン注文とタブレット型POSを組み合わせる飲食店向けオーダー・店舗運営システム",
+        "en": "A restaurant ordering and operations system combining customer smartphone ordering with a tablet-based POS"
+      },
+      "pricing": {
+        "ja": "公式月額（税込）はPOSのみ2,980円、POSハンディ8,980円、Webモバイルオーダー8,980円、LINEモバイルオーダー12,980円、TTO注文15,980円",
+        "en": "Published monthly prices including tax are JPY 2,980 for POS only, JPY 8,980 for POS plus handheld, JPY 8,980 for web mobile ordering, JPY 12,980 for LINE mobile ordering, and JPY 15,980 for TTO ordering"
+      },
+      "pricingDetail": {
+        "ja": "周辺機器、決済手数料、設置・設定、追加端末、契約条件は構成により別途確認します。タブレットオーダー追加は月額880円/台、追加ハンディは1,100円/台、有償LINEサポートは月額2,200円と公式料金ページに記載されています。",
+        "en": "Hardware, payment processing, installation, configuration, extra devices, and contract conditions depend on the deployment. The official pricing page lists tablet-order add-ons at JPY 880 per device per month, additional handheld devices at JPY 1,100 each, and paid LINE support at JPY 2,200 per month."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "来店客がスマートフォンやタブレットから注文し、店舗側がPOS、ハンディ、注文・会計・売上情報を管理する運用。日本語・中国語・英語・韓国語に対応",
+        "en": "Customers order from smartphones or tablets while the restaurant manages POS, handheld, ordering, checkout, and sales data; Japanese, Chinese, English, and Korean are supported"
+      },
+      "bestFor": {
+        "ja": "注文回数が多く、人手不足、注文待ち、多言語対応を改善したい飲食店",
+        "en": "Restaurants seeking to reduce order waiting, manage limited floor staffing, and support multilingual ordering"
+      },
+      "strengths": {
+        "ja": [
+          "公開された構成別月額料金",
+          "スマートフォン注文とタブレット型POS",
+          "日本語・中国語・英語・韓国語への対応",
+          "決済端末・プリンター・会計ソフト等の連携"
+        ],
+        "en": [
+          "Published monthly prices by deployment type",
+          "Customer smartphone ordering and tablet POS",
+          "Japanese, Chinese, English, and Korean support",
+          "Payment-terminal, printer, and accounting integrations"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "周辺機器・決済・設置を含む総額は見積確認が必要",
+          "補助金は要件と採択が必要",
+          "通信障害時の代替運用が必要"
+        ],
+        "en": [
+          "A quotation is still required for hardware, payments, installation, and total cost",
+          "Subsidy eligibility and approval apply",
+          "Fallback procedures are required for outages"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": false,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "かんたん注文 — 料金プラン",
+          "url": "https://www.kantan-order.com/pricing_details/"
+        },
+        {
+          "label": "かんたん注文 — 飲食業界向けPOSレジ",
+          "url": "https://www.kantan-order.com/pos_reji/"
+        },
+        {
+          "label": "株式会社Wiz — かんたん注文",
+          "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+          "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+          "url": "/ja/store-dx/kantan-chumon-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+          "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "funfo vs Kantan Chumon: Free POS Testing vs Published Modular Pricing",
+          "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+          "url": "/en/store-dx/kantan-chumon-review/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+          "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+          "category": "store-dx",
+          "topic": "restaurant-pos-orders"
+        }
+      ],
+      "lastVerified": "2026-07-20"
+    },
+    {
+      "id": "moneyforward-cloud-accounting",
+      "name": "マネーフォワード クラウド会計",
+      "affiliateKey": "moneyforward-accounting-official",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "Store & Restaurant DX"
+      },
+      "topic": "store-backoffice-integration",
+      "positioning": {
+        "ja": "POS、決済、銀行、カード等の明細を取得し、会計・請求・経費・給与などのバックオフィスへつなぐクラウド会計基盤",
+        "en": "A cloud accounting platform connecting POS, payment, bank, and card data with accounting, invoices, expenses, and payroll workflows."
+      },
+      "pricing": {
+        "ja": "事業規模と利用サービスにより構成が異なります。POS連携、会計、勤怠、給与を別々に契約する場合の総額を確認します。",
+        "en": "Configuration varies by business size and modules. Compare the combined cost of POS connections, accounting, attendance, and payroll."
+      },
+      "pricingDetail": {
+        "ja": "AirレジやSquare等の対象連携、取得できる明細、店舗別集計、決済入金の消込、給与連携まで確認します。",
+        "en": "Verify supported POS products such as AirREGI or Square, imported detail, location reporting, settlement matching, and payroll connections."
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "POS・決済・金融明細を連携し、自動取得したデータを確認・仕訳して、店舗別損益と資金繰りを月次で確認します。",
+        "en": "Connect POS, settlement, and financial data, review suggested entries, and monitor location profit and cash flow monthly."
+      },
+      "bestFor": {
+        "ja": "会計だけでなく経費・請求・勤怠・給与を同一シリーズで段階的に整えたい中小法人",
+        "en": "SMBs gradually standardizing accounting, expenses, invoicing, attendance, and payroll in one product family."
+      },
+      "strengths": {
+        "ja": [
+          "複数POSとの公式連携情報",
+          "会計から人事労務までの製品群",
+          "店舗売上と金融明細の自動取得"
+        ],
+        "en": [
+          "Documented connections with multiple POS products",
+          "Product family spanning finance and HR",
+          "Automated import of store sales and financial data"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "連携可能項目はPOSごとに異なる",
+          "複数サービス契約時は総額確認が必要",
+          "初期の勘定科目・部門設計が必要"
+        ],
+        "en": [
+          "Imported fields vary by POS",
+          "Total cost rises across multiple modules",
+          "Initial account and department design is required"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "マネーフォワード クラウド会計 — POSレジ連携",
+          "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+        },
+        {
+          "label": "マネーフォワード クラウド — 連携サービス",
+          "url": "https://biz.moneyforward.com/integration/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "review",
+          "title": "Cloudways Review: Managed Cloud Pricing, WordPress, and Administration",
+          "url": "/en/hosting-security/cloudways-guide/",
+          "category": "hosting-security",
+          "topic": "managed-cloud"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Cloudways vs Kinsta: Managed WordPress Pricing and Administration Compared",
+          "url": "/en/hosting-security/cloudways-vs-kinsta/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Cloudways vs WP Engine: Cloud Flexibility or WordPress Specialization?",
+          "url": "/en/hosting-security/cloudways-vs-wp-engine/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "CloudwaysとKinstaを比較｜マネージドWordPressの料金・管理の違い",
+          "url": "/ja/hosting-security/cloudways-vs-kinsta/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "CloudwaysとWP Engineを比較｜クラウド自由度とWordPress専門運用を比べる",
+          "url": "/ja/hosting-security/cloudways-vs-wp-engine/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Cloudwaysの評判・料金を公式情報で確認｜マネージドクラウド",
+          "url": "/ja/hosting-security/cloudways-guide/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Hostinger Alternatives: Compare Pricing, Workflows, and Migration",
+          "url": "/en/hosting-security/hostinger-alternatives/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Hostinger vs Cloudways: Beginner Hosting or Managed Cloud?",
+          "url": "/en/hosting-security/hostinger-vs-cloudways/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "HostingerとCloudwaysを比較｜初心者・WordPress運用に向くのはどっち？",
+          "url": "/ja/hosting-security/hostinger-vs-cloudways/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "Hostingerの代替サービス3選｜用途・料金・移行条件を比較",
+          "url": "/ja/hosting-security/hostinger-alternatives/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Kinsta Alternatives: Compare Pricing, Workflows, and Migration",
+          "url": "/en/hosting-security/kinsta-alternatives/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "Kinstaの代替サービス3選｜用途・料金・移行条件を比較",
+          "url": "/ja/hosting-security/kinsta-alternatives/",
+          "category": "hosting-security",
+          "topic": "web-hosting"
+        }
+      ],
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "bigcommerce",
@@ -8177,7 +10629,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "color-me-shop",
@@ -8355,7 +10807,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "duda",
@@ -8529,7 +10981,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "framer",
@@ -8703,7 +11155,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "goope",
@@ -8857,7 +11309,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "hostinger-website-builder",
@@ -9031,7 +11483,7 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "jimdo",
@@ -9237,7 +11689,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "shopify",
@@ -9365,8 +11817,32 @@
         {
           "language": "en",
           "type": "guide",
+          "title": "Shopify Launch Checklist for a Small Store",
+          "url": "/en/website-builders/shopify-launch-checklist-small-store/",
+          "category": "website-builders",
+          "topic": "ecommerce-platform"
+        },
+        {
+          "language": "en",
+          "type": "guide",
           "title": "Shopify Pricing Guide: Plans, Limits, and Total Cost",
           "url": "/en/website-builders/shopify-pricing-guide/",
+          "category": "website-builders",
+          "topic": "ecommerce-platform"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Shopify Total Cost: Plans, Payments, Apps, and Themes",
+          "url": "/en/website-builders/shopify-pricing-total-cost-japan/",
+          "category": "website-builders",
+          "topic": "ecommerce-platform"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "Shopify vs BASE for a Small Online Store",
+          "url": "/en/website-builders/shopify-vs-base-small-business/",
           "category": "website-builders",
           "topic": "ecommerce-platform"
         },
@@ -9385,33 +11861,9 @@
           "url": "/en/website-builders/shopify-vs-framer/",
           "category": "website-builders",
           "topic": "ecommerce-platform"
-        },
-        {
-          "language": "en",
-          "type": "comparison",
-          "title": "Shopify vs Hostinger Website Builder: Scaling Ecommerce or a Lower-Cost Starter Store?",
-          "url": "/en/website-builders/shopify-vs-hostinger-website-builder/",
-          "category": "website-builders",
-          "topic": "ecommerce-platform"
-        },
-        {
-          "language": "en",
-          "type": "comparison",
-          "title": "Shopify vs Squarespace: Ecommerce Operations or Brand-Led Selling?",
-          "url": "/en/website-builders/shopify-vs-squarespace/",
-          "category": "website-builders",
-          "topic": "ecommerce-platform"
-        },
-        {
-          "language": "en",
-          "type": "comparison",
-          "title": "Shopify vs Wix: Ecommerce Operations or an All-Purpose Business Site?",
-          "url": "/en/website-builders/shopify-vs-wix/",
-          "category": "website-builders",
-          "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "squarespace",
@@ -9585,7 +12037,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "webflow",
@@ -9759,7 +12211,7 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "wix",
@@ -9933,7 +12385,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "woocommerce",
@@ -10107,7 +12559,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "xserver-shop",
@@ -10293,7 +12745,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     },
     {
       "id": "ochanoko-saisai",
@@ -10487,7 +12939,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-19"
+      "lastVerified": "2026-07-20"
     }
   ]
 }

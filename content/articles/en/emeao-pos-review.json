@@ -1,0 +1,208 @@
+{
+  "id": "emeao-pos-review-en",
+  "translationKey": "emeao-pos-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "emeao-pos-review",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Official-source review",
+  "title": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+  "metaTitle": "EMEAO! POS Vendor Matching Review for Businesses in Japan (2026)",
+  "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats.",
+  "lead": "EMEAO! is not a POS product. It is a Japanese concierge service that interviews a business about requirements and introduces eligible POS vendors. It can reduce vendor-search work when the product shortlist is not fixed, but the business must still handle the interview, proposals, demonstrations, and contract review.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the official EMEAO! POS matching page",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "affiliateKey": "emeao-pos-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "EMEAO! official POS vendor matching page (Japanese)",
+      "url": "https://emeao.jp/pos-lp2/"
+    },
+    {
+      "label": "EMEAO! POS vendor selection guide (Japanese)",
+      "url": "https://emeao.jp/guide/pos/"
+    },
+    {
+      "label": "EMEAO! official website (Japanese)",
+      "url": "https://emeao.jp/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: useful when requirements are clearer than the product shortlist",
+      "body": [
+        "EMEAO! positions itself as a concierge rather than an automated quote form. Its official POS page says that staff organize requirements and select up to eight vetted vendors that may fit the project.",
+        "A restaurant that already wants funfo or Kantan Chumon should normally contact that provider directly. EMEAO! is more relevant when the business wants several proposals across vendors, hardware configurations, support levels, or multi-location requirements."
+      ]
+    },
+    {
+      "heading": "How the service works",
+      "body": [
+        "The business submits an inquiry, answers a follow-up interview about budget, timing, functions, and constraints, and then receives contact or proposals from selected vendors. The official page describes the matching service as free to the buyer.",
+        "Free matching does not mean free POS implementation. Hardware, software, payment processing, setup, training, connectivity, and support are priced by the introduced vendors."
+      ],
+      "table": {
+        "headers": [
+          "Stage",
+          "Action",
+          "Prepare"
+        ],
+        "rows": [
+          [
+            "Inquiry",
+            "Submit project outline",
+            "Business details and contact information"
+          ],
+          [
+            "Interview",
+            "Explain requirements and schedule",
+            "Budget, functions, locations, target date"
+          ],
+          [
+            "Introductions",
+            "Receive vendor proposals",
+            "Common comparison sheet and demo scenarios"
+          ],
+          [
+            "Decision",
+            "Compare and negotiate",
+            "Total cost, support, term, exit and export terms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Benefits",
+      "body": [
+        "The concierge can reduce repeated vendor discovery and initial explanation work. It is particularly useful when the business knows the operational problem but does not know which POS architecture or supplier fits it.",
+        "The official POS page states that vendors are selected from a screened network and that up to eight may be introduced. Actual availability depends on the project, location, budget, and timetable."
+      ],
+      "bullets": [
+        "No buyer-side matching fee",
+        "One requirements interview before vendor introductions",
+        "Ability to compare multiple proposals",
+        "Useful before a product shortlist exists",
+        "Can communicate regional and deadline constraints early"
+      ]
+    },
+    {
+      "heading": "Caveats",
+      "body": [
+        "The inquiry does not eliminate sales work. The business still needs to respond to introduced vendors, review demonstrations and quotations, and decide which company to contract with.",
+        "Use a common requirements sheet. Without it, proposals may use different device counts, support scopes, processing assumptions, and contract periods, making the cheapest headline price misleading."
+      ],
+      "bullets": [
+        "Japanese-language, Japan-market workflow",
+        "Telephone or direct follow-up is part of the process",
+        "Several vendor contacts may require time",
+        "Matching is free, implementation is not",
+        "The buyer remains responsible for final selection"
+      ]
+    },
+    {
+      "heading": "Direct provider inquiry versus vendor matching",
+      "body": [
+        "Choose the path based on shortlist maturity."
+      ],
+      "table": {
+        "headers": [
+          "Path",
+          "Best when",
+          "Trade-off"
+        ],
+        "rows": [
+          [
+            "Direct inquiry",
+            "A specific product is already shortlisted",
+            "The buyer performs cross-vendor comparison"
+          ],
+          [
+            "EMEAO! matching",
+            "Requirements exist but vendors are not fixed",
+            "Interview and multiple proposal follow-up"
+          ],
+          [
+            "Independent web research",
+            "The buyer wants broad market discovery",
+            "Higher filtering and repeated explanation work"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Requirements checklist",
+      "body": [
+        "Prepare the same facts before the concierge interview and vendor calls."
+      ],
+      "bullets": [
+        "Business type, number of stores, terminals, and seats",
+        "New installation or replacement",
+        "Initial and recurring budget",
+        "Checkout, inventory, ordering, reservations, and workforce scope",
+        "Payments, accounting, ecommerce, and API integrations",
+        "Target deployment date",
+        "Migration, training, support, and outage requirements",
+        "Contract term, termination, and data export"
+      ]
+    },
+    {
+      "heading": "Who should use it",
+      "body": [
+        "It fits Japanese businesses and sole proprietors that genuinely plan to source a POS system, want several proposals, and can participate in follow-up calls. It is less useful for casual research, projects with a final vendor already selected, or teams unable to respond to introductions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is EMEAO! free?",
+      "answer": "The official site describes the buyer-side consultation and matching service as free. POS products, devices, implementation, processing, and support from the selected vendor are separate costs."
+    },
+    {
+      "question": "How many vendors are introduced?",
+      "answer": "The official POS page says up to eight. Actual introductions depend on the requirements and vendor availability."
+    },
+    {
+      "question": "Is it available outside Japan?",
+      "answer": "The service pages and workflow are Japanese and focused on Japanese vendor sourcing. Confirm location coverage directly for any non-standard requirement."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review the direct self-testing POS and mobile-order route."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review the named provider consultation route."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Use a consistent POS requirements and cost framework."
+    },
+    {
+      "label": "funfo vs Kantan Chumon: Free Self-Testing or Consultation-Led Restaurant POS?",
+      "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+      "description": "Compare the two direct product evaluation routes."
+    }
+  ]
+}

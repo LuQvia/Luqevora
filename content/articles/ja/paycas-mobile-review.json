@@ -1,0 +1,143 @@
+{
+  "id": "paycas-mobile-review-ja",
+  "translationKey": "paycas-mobile-review",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "paycas-mobile-review",
+  "category": "cashless-payments",
+  "topic": "cashless-payment-services",
+  "badge": "公式情報レビュー",
+  "title": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+  "metaTitle": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+  "description": "PayCAS Mobileのプリンター・SIM内蔵端末、対応決済、個別見積もり、月2回入金、POS連携の確認事項を解説します。",
+  "lead": "PayCAS Mobileは、カード、電子マネー、QR決済、プリンター、ソフトバンクSIMを1台にまとめた持ち運び型端末です。レジ周りを省スペース化し、テーブル会計や屋外決済に向きますが、料金は個別見積もりのため契約条件を細分化して確認します。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "PayCAS Mobileの見積もり条件を確認",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "affiliateKey": "paycas-mobile-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "PayCAS — PayCAS Mobile",
+      "url": "https://www.paycas.jp/paycas-mobile"
+    },
+    {
+      "label": "PayCAS — 料金",
+      "url": "https://www.paycas.jp/price"
+    },
+    {
+      "label": "PayCAS — サービス概要",
+      "url": "https://www.paycas.jp/service"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：通信とレシートを1台にまとめたい店舗向け",
+      "body": [
+        "PayCAS Mobileは、有線LANやWi-Fiがない場所でもSIM通信で決済し、その場でレシートを出したい業態に向きます。飲食店のテーブル会計、イベント、訪問サービス、移動販売との相性があります。",
+        "料金の透明性より、端末一体性と運用の簡潔さを重視する製品です。初期費用、月額、端末、通信、料率、トランザクション、アプリを分けた見積もりが必要です。"
+      ]
+    },
+    {
+      "heading": "端末の特徴",
+      "body": [
+        "プリンター、カードリーダー、電子マネー、QR読み取り、大画面タッチパネル、ソフトバンクSIMを内蔵します。複数機器を持ち運ぶ必要がなく、カウンター周りも整理しやすい構成です。",
+        "AndroidベースのPayDroidを採用し、PayCAS DX Storeから業務アプリを追加できます。必要なアプリの料金、提供会社、データ連携、サポート窓口を確認します。"
+      ]
+    },
+    {
+      "heading": "料金と入金",
+      "body": [
+        "公式料金ページでは、決済手数料、初期費用、月額費用、端末料金、トランザクション費用は加盟店ごとに提案するとされています。公開された一律料金だけで他社比較はできません。",
+        "売上は毎月15日までを当月末、月末までを翌月15日に入金する月2回サイクルで、振込手数料は無料です。資金繰り上、週次や翌営業日入金が必要かを確認します。"
+      ]
+    },
+    {
+      "heading": "対応決済と運用",
+      "body": [
+        "1台でクレジットカード、電子マネー、QR決済に対応し、タッチ決済とPIN入力も端末内で処理できます。ブランドごとの申込・審査と利用開始時期は契約時に確認します。",
+        "充電、SIM圏外、ロール紙切れ、端末故障、紛失時の代替手順が重要です。予備端末や交換条件、サポート受付時間を見積書と約款で確認します。"
+      ]
+    },
+    {
+      "heading": "メリット・注意点",
+      "body": [
+        "端末、通信、プリンターを一体化できるため、スタッフが客席や屋外へ持ち運びやすく、決済手段ごとの機器切替も減らせます。契約・入金を一本化する設計も管理負担を抑えます。",
+        "一方で、公開価格だけでは総額が分からず、月2回入金は他社より遅く感じる業態があります。POS金額連携や売上データ連携は、利用するPOS・アプリ単位で確認してください。"
+      ]
+    },
+    {
+      "heading": "見積もり比較チェックリスト",
+      "body": [
+        "同じ売上構成と端末台数を各社に伝え、3年間総額で比較します。端末の故障・紛失、解約、最低利用期間、通信障害、アプリ追加の条件も金額化します。"
+      ],
+      "bullets": [
+        "端末代・月額・通信費の内訳",
+        "ブランド別決済手数料と税",
+        "トランザクション費用",
+        "月2回入金で資金繰りが成立するか",
+        "POS・業務アプリの連携範囲"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "PayCAS Mobileは無料で使えますか？",
+      "answer": "公式ページでは無料利用ではなく個別見積もりです。初期、月額、端末、通信、決済、トランザクション費用を確認してください。"
+    },
+    {
+      "question": "導入前に何を試すべきですか？",
+      "answer": "実際の商品、金額、返品、締め、通信障害、スタッフ権限、データ出力を使い、1日の営業を再現してください。"
+    },
+    {
+      "question": "比較時に最も重要な費用は何ですか？",
+      "answer": "決済手数料だけでなく、端末、月額、通信、周辺機器、入金、サポートを含む3年間総額で比較します。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+      "url": "/ja/cashless-payments/air-regi-review/",
+      "description": "Airレジの無料範囲、必要機器、在庫・顧客・売上管理、Airペイ連携、導入時の注意点を整理します。"
+    },
+    {
+      "label": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+      "url": "/ja/cashless-payments/airpay-review/",
+      "description": "Airペイの通常手数料、2.48%プログラム、対応ブランド、月3回・6回の入金、Airレジ連携を公式情報で確認します。"
+    },
+    {
+      "label": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+      "url": "/ja/cashless-payments/square-pos-review/",
+      "description": "Square POSレジの無料範囲、端末価格、対面決済手数料、在庫・顧客管理、オンライン連携を公式情報で整理します。"
+    },
+    {
+      "label": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "description": "AirペイとSquareを、対面決済手数料、固定費、端末、入金、POS連携、オンライン決済から比較します。"
+    },
+    {
+      "label": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "description": "注文、会計、キッチン、決済、サポート、総費用を同じ要件表で比較する実務ガイドです。"
+    },
+    {
+      "label": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "description": "飲食店向けPOSとモバイルオーダーの料金・多言語・決済連携を確認します。"
+    },
+    {
+      "label": "funfoの評判・料金・機能を検証｜無料POSレジの注意点",
+      "url": "/ja/store-dx/funfo-review/",
+      "description": "無料から試せる飲食店向けPOS・モバイルオーダーを確認します。"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "restaurant-pos-three-way-comparison-en",
+  "translationKey": "restaurant-pos-three-way-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "restaurant-pos-three-way-comparison",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Official-source comparison",
+  "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+  "metaTitle": "funfo vs Kantan Chumon vs EMEAO! for Restaurant POS in Japan",
+  "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan.",
+  "lead": "These are not three equivalent POS products. funfo is a restaurant app that can be tested directly, Kantan Chumon is a named POS and ordering service with published configuration pricing, and EMEAO! is a vendor-matching service. Select the sourcing route before comparing features.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check funfo officially",
+      "officialUrl": "https://www.funfo.jp/",
+      "affiliateKey": "funfo-official"
+    },
+    {
+      "label": "Check Kantan Chumon officially",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "affiliateKey": "kantan-chumon-official"
+    },
+    {
+      "label": "Check EMEAO! POS matching officially",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "affiliateKey": "emeao-pos-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "EMEAO! official POS vendor matching page (Japanese)",
+      "url": "https://emeao.jp/pos-lp2/"
+    },
+    {
+      "label": "EMEAO! POS vendor selection guide (Japanese)",
+      "url": "https://emeao.jp/guide/pos/"
+    },
+    {
+      "label": "EMEAO! official website (Japanese)",
+      "url": "https://emeao.jp/"
+    },
+    {
+      "label": "funfo official website",
+      "url": "https://www.funfo.jp/"
+    },
+    {
+      "label": "funfo official pricing",
+      "url": "https://www.funfo.jp/index.php/pricing/"
+    },
+    {
+      "label": "Kantan Chumon official provider page",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: test, consult, or source multiple vendors",
+      "body": [
+        "Use funfo when a small restaurant can test an iPad-based POS and mobile-order workflow directly. Use Kantan Chumon when the restaurant wants to discuss one named product and possible implementation support. Use EMEAO! when the shortlist is not fixed and the business wants proposals from several eligible vendors.",
+        "The correct choice depends on sourcing maturity, not a universal feature score."
+      ]
+    },
+    {
+      "heading": "Role comparison",
+      "body": [
+        "Compare what each option actually provides."
+      ],
+      "table": {
+        "headers": [
+          "Criterion",
+          "funfo",
+          "Kantan Chumon",
+          "EMEAO!"
+        ],
+        "rows": [
+          [
+            "Role",
+            "Restaurant POS and mobile-order app",
+            "Named restaurant POS and ordering service",
+            "POS vendor matching service"
+          ],
+          [
+            "Starting point",
+            "Download and test",
+            "Inquiry, demo, and quotation",
+            "Requirements interview and vendor introductions"
+          ],
+          [
+            "Pricing visibility",
+            "Free and paid tiers published",
+            "Published configuration pricing starting at JPY 2,980 per month for POS only",
+            "Matching free; vendor implementation quoted"
+          ],
+          [
+            "Comparison scope",
+            "One product",
+            "One product",
+            "Several potential vendors"
+          ],
+          [
+            "Best stage",
+            "Early hands-on test",
+            "Named-product evaluation",
+            "Pre-shortlist market sourcing"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Cost comparison",
+      "body": [
+        "funfo has a zero-fee starting tier but hardware, payment processing, and paid functions may add cost. Kantan Chumon publishes configuration pricing starting at JPY 2,980 per month for POS only, while devices, installation, payment, support, and contract-specific total cost require confirmation.",
+        "EMEAO! does not charge the buyer for matching according to its official page, but each introduced vendor prices its POS solution separately. Compare first-year and renewal totals using identical device and service assumptions."
+      ]
+    },
+    {
+      "heading": "Time and workload",
+      "body": [
+        "funfo can be tested quickly but requires self-configuration. Kantan Chumon adds provider-led coordination. EMEAO! can reduce market search time but adds a concierge interview and follow-up with several vendors.",
+        "For a deadline, provide deployment date, payment approval, hardware installation, data migration, and training milestones rather than a single launch date."
+      ]
+    },
+    {
+      "heading": "Best fit by situation",
+      "body": [
+        "Use the route that matches the project."
+      ],
+      "bullets": [
+        "Small restaurant and immediate low-cost test: funfo",
+        "Named restaurant product and implementation consultation: Kantan Chumon",
+        "Multiple stores, unusual requirements, or no shortlist: EMEAO!",
+        "Higher-confidence process: test a representative app first, convert findings into requirements, then request comparable proposals"
+      ]
+    },
+    {
+      "heading": "Use one comparison sheet",
+      "body": [
+        "Keep store count, device count, peak order volume, payments, printers, ordering, inventory, reservations, integrations, support, and outage procedures constant across quotations.",
+        "Compare hardware, processing fees, setup, support, contract term, termination, data migration, and additional-store costs—not only the monthly subscription."
+      ]
+    },
+    {
+      "heading": "Final recommendation",
+      "body": [
+        "funfo is the direct testing route, Kantan Chumon is the named-provider consultation route, and EMEAO! is the multi-vendor sourcing route. Avoid selecting solely on “free,” “subsidy,” or “lowest price.” Validate exception workflows such as refunds, split bills, sold-out items, network outages, and end-of-day reconciliation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which option is cheapest?",
+      "answer": "There is no reliable single answer. funfo has a free tier, Kantan Chumon publishes configuration pricing starting at JPY 2,980 per month for POS only, and EMEAO! matching is free while introduced POS solutions are priced separately. Compare total cost."
+    },
+    {
+      "question": "What if the product shortlist is empty?",
+      "answer": "Prepare requirements and use a vendor-matching route such as EMEAO!, or independently shortlist two or three representative POS products for comparable demos."
+    },
+    {
+      "question": "What should a small restaurant test first?",
+      "answer": "If an iPad is available, a hands-on free test can reveal workflow requirements before requesting broader quotations."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review the direct self-testing POS and mobile-order route."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review the named provider consultation route."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Use a consistent POS requirements and cost framework."
+    },
+    {
+      "label": "funfo vs Kantan Chumon: Free Self-Testing or Consultation-Led Restaurant POS?",
+      "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+      "description": "Compare the two direct product evaluation routes."
+    }
+  ]
+}

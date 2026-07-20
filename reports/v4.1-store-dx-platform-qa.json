@@ -1,0 +1,439 @@
+{
+  "version": "4.1.0",
+  "generatedAt": "2026-07-20T13:23:08.054Z",
+  "total": 86,
+  "passed": 86,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "package version supports Store DX v4.1+",
+      "ok": true,
+      "detail": "4.3.0"
+    },
+    {
+      "name": "platform config version",
+      "ok": true,
+      "detail": "4.1.0"
+    },
+    {
+      "name": "platform has five solution groups",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article exists: store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article published: store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article exists: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article published: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article exists: salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article published: salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article exists: retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja article published: retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article exists: store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article published: store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article exists: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article published: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article exists: salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article published: salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article exists: retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en article published: retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog includes stores-reservation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog includes line-official-account",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog includes freee-accounting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog includes moneyforward-cloud-accounting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: stores-reservation-official",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: line-official-account-official",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: freee-accounting-official",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: moneyforward-accounting-official",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: luqevora-store-dx-diagnosis",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: luqevora-store-dx-diagnosis-en",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA configured: luqvia-store-dx-line",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja Store DX hub generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja Store DX diagnosis generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub canonical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub diagnosis CTA",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub structured data",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub consultation route",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub links product air-regi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub links product square-pos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub links product stores-reservation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub links product line-official-account",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub links product freee-accounting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja hub links product moneyforward-cloud-accounting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis canonical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis has industry options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis has pain options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis privacy copy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis JSON-LD valid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en Store DX hub generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en Store DX diagnosis generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub canonical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub diagnosis CTA",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub structured data",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub consultation route",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub links product air-regi",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub links product square-pos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub links product stores-reservation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub links product line-official-account",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub links product freee-accounting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en hub links product moneyforward-cloud-accounting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis canonical",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis has industry options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis has pain options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis privacy copy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis JSON-LD valid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis asset copied",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja diagnosis in sitemap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en diagnosis in sitemap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja sitemap article store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja sitemap article store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja sitemap article salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja sitemap article retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en sitemap article store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en sitemap article store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en sitemap article salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en sitemap article retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja search article store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja search article store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja search article salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ja search article retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en search article store-dx-implementation-roadmap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en search article store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en search article salon-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "en search article retail-store-dx-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "public HTML count remains substantial",
+      "ok": true,
+      "detail": "1032"
+    }
+  ]
+}

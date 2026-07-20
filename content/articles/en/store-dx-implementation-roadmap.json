@@ -1,0 +1,128 @@
+{
+  "id": "store-dx-implementation-roadmap-en",
+  "translationKey": "store-dx-implementation-roadmap",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "store-dx-implementation-roadmap",
+  "category": "store-dx",
+  "topic": "store-backoffice-integration",
+  "badge": "Store DX implementation guide",
+  "title": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+  "metaTitle": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+  "description": "A practical roadmap for introducing store technology in stages: current-state mapping, POS and payments, booking, customer communication, accounting, and staff adoption.",
+  "lead": "Store DX is not a project to accumulate software. It is a controlled redesign of how sales, bookings, customers, settlements, and accounting data move through the business.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Start the free Store DX assessment",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AirREGI — Features",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES Reservations — Feature List",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE Official Account — Service Overview",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee Accounting — Official Service Page",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "Money Forward Cloud Accounting — POS Integration",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Map the current workflow before choosing products",
+      "body": [
+        "Document opening tasks, customer service, checkout, closing, settlement reconciliation, and monthly accounting. Record who enters each value, where it is copied, and which reports are trusted.",
+        "Measure closing time, cash differences, missed bookings, telephone workload, repeat-visit rate, and other baseline indicators. Without a baseline, the implementation cannot be evaluated objectively."
+      ]
+    },
+    {
+      "heading": "Stage one: align POS and payment records",
+      "body": [
+        "Create one rule for prices, discounts, cancellations, payment methods, and cash differences. Where supported, transferring the amount from POS to the payment terminal can reduce duplicate entry.",
+        "Evaluate the complete first-year cost, including tablets, printers, drawers, payment hardware, connectivity, installation, and support rather than treating the POS application price as the entire cost."
+      ]
+    },
+    {
+      "heading": "Stage two: improve booking or ordering intake",
+      "body": [
+        "Salons and classes should structure staff, resources, duration, intervals, cancellation deadlines, and customer history. Restaurants should separate table ordering, takeaway, reservations, kitchen flow, and delivery needs.",
+        "Faster intake does not improve the customer journey when production or treatment remains the bottleneck. Measure the entire path from request to completion."
+      ]
+    },
+    {
+      "heading": "Stage three: design LINE and retention communication",
+      "body": [
+        "Define customer value before asking for contacts. Useful purposes include booking confirmation, availability alerts, follow-up, offers, and one-to-one support. Make consent and opt-out methods clear.",
+        "Broadcast volume grows with audience size and frequency. Segment messages by visit timing, service, or product rather than sending every message to every contact."
+      ]
+    },
+    {
+      "heading": "Stage four: connect accounting, attendance, and payroll",
+      "body": [
+        "Connect POS sales, settlement deposits, and bank records to accounting, then reconcile unsettled amounts, fees, and cash differences. Verify data detail, timing, and exception handling.",
+        "For multiple locations, standardize location and department codes so revenue, labor, rent, and marketing can be compared consistently. Select one source for each sales record to avoid duplicate accounting entries."
+      ]
+    },
+    {
+      "heading": "Use a thirty-day adoption cycle",
+      "body": [
+        "Use the first week for configuration, the second for controlled staff testing, the third for exceptions, and the fourth for results. Avoid switching several critical systems on the same day.",
+        "Review usage, time saved, errors, sales, data export, cancellation terms, and handover requirements. Remove unused functions when complexity exceeds operational value."
+      ]
+    },
+    {
+      "heading": "Prepare a concise consultation brief",
+      "body": [
+        "Summarize industry, locations, monthly transactions, bookings, current POS, payments, booking, accounting, pain points, target timing, and budget ceiling.",
+        "A problem statement produces better recommendations than selecting a product before the workflow is understood."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which Store DX system should be introduced first?",
+      "answer": "Prioritize POS and payments when sales and payment totals do not reconcile. Prioritize booking when missed calls, schedule conflicts, or manual changes are the largest recurring burden."
+    },
+    {
+      "question": "Should every system come from one provider?",
+      "answer": "A single suite can simplify integration and support, but may add unused functions or switching constraints. Compare exports, contract units, and cancellation terms."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Store DX stack comparison",
+      "url": "/en/store-dx/store-dx-stack-comparison/",
+      "description": "Compare combinations of POS, payments, booking, LINE, and accounting."
+    },
+    {
+      "label": "Free Store DX assessment",
+      "url": "/en/store-dx-assessment/",
+      "description": "Generate a phased roadmap from industry, locations, and pain points."
+    },
+    {
+      "label": "POS versus cashless payment services",
+      "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "description": "Clarify roles, costs, and integration requirements."
+    }
+  ]
+}

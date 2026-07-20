@@ -1,0 +1,220 @@
+{
+  "id": "pos-register-vs-cashless-payment-ja",
+  "translationKey": "pos-register-vs-cashless-payment",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "pos-register-vs-cashless-payment",
+  "category": "cashless-payments",
+  "topic": "pos-payment-integration",
+  "badge": "公式情報比較",
+  "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+  "metaTitle": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+  "description": "POSレジと決済サービスの役割、費用、連携、二度打ち、売上管理を整理し、導入順序を判断できるように解説します。",
+  "lead": "POSレジとキャッシュレス決済は同じものではありません。POSは商品・税・在庫・顧客・売上を記録し、決済サービスはカード・電子マネー・QRの承認と入金を担います。店舗によっては両方を連携して初めて会計が完成します。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "Airレジの公式条件を確認",
+      "officialUrl": "https://airregi.jp/",
+      "affiliateKey": "air-regi-official"
+    },
+    {
+      "label": "Airペイの公式条件を確認",
+      "officialUrl": "https://airpayment.jp/",
+      "affiliateKey": "airpay-official"
+    },
+    {
+      "label": "Squareの公式条件を確認",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "affiliateKey": "square-pos-official"
+    },
+    {
+      "label": "PayCAS Mobileの公式条件を確認",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "affiliateKey": "paycas-mobile-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 費用・料金",
+      "url": "https://airregi.jp/jp/cost/"
+    },
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "Airペイ — 決済手数料・振込手数料",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/218985588-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E6%8C%AF%E8%BE%BC%E6%89%8B%E6%95%B0%E6%96%99"
+    },
+    {
+      "label": "Airペイ — 決済手数料ディスカウントプログラム",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/39897820982553-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    },
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "PayCAS — PayCAS Mobile",
+      "url": "https://www.paycas.jp/paycas-mobile"
+    },
+    {
+      "label": "PayCAS — 料金",
+      "url": "https://www.paycas.jp/price"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：多くの店舗は両方が必要",
+      "body": [
+        "現金だけで営業し、簡易な売上記録で足りる場合を除き、POSと決済の役割は別です。商品別売上や在庫を管理しながらキャッシュレスを受け付ける店舗は、両方を組み合わせます。",
+        "Squareのように同一事業者がPOSと決済を提供する場合も、費用と契約上はPOS機能と決済機能を分けて理解してください。"
+      ]
+    },
+    {
+      "heading": "POSレジが管理するもの",
+      "body": [
+        "商品、価格、税率、値引き、返品、担当者、在庫、顧客、売上分析、レジ締めなどを管理します。",
+        "飲食店では席、注文、キッチン、モバイルオーダーもPOS周辺機能に含まれる場合があります。"
+      ],
+      "table": {
+        "headers": [
+          "比較項目",
+          "POSレジ",
+          "キャッシュレス決済"
+        ],
+        "rows": [
+          [
+            "主目的",
+            "商品・税・会計・売上データ管理",
+            "カード・電子マネー・QRの決済処理"
+          ],
+          [
+            "主な費用",
+            "アプリ、端末、プリンター、ドロア、追加機能",
+            "決済手数料、端末、月額、通信、トランザクション"
+          ],
+          [
+            "審査",
+            "通常はアカウント登録中心",
+            "加盟店・ブランド審査が必要"
+          ],
+          [
+            "入金",
+            "現金を含む売上記録",
+            "キャッシュレス売上を手数料控除後に入金"
+          ],
+          [
+            "連携効果",
+            "会計金額を決済へ渡す",
+            "決済結果をPOSへ戻す"
+          ],
+          [
+            "代表例",
+            "Airレジ、Square POS、funfo、かんたん注文",
+            "Airペイ、Square決済、PayCAS Mobile"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "決済サービスが管理するもの",
+      "body": [
+        "カード、電子マネー、QRの読み取り、本人確認、承認、取消、決済手数料、加盟店審査、売上入金を担います。",
+        "ブランド別料率、入金サイクル、振込手数料、端末、通信、チャージバック対応を確認します。"
+      ]
+    },
+    {
+      "heading": "連携しない場合の問題",
+      "body": [
+        "POSで表示された金額を決済端末へ手入力すると、入力間違い、取消漏れ、POSと決済の売上差異が起きやすくなります。",
+        "金額連携や決済結果連携があれば、二度打ちと照合作業を減らせます。ただし、正式な対応機種・バージョンを確認します。"
+      ]
+    },
+    {
+      "heading": "導入順序",
+      "body": [
+        "先に業務要件を決め、POS候補を絞り、そのPOSと正式連携できる決済サービスを確認する方法が安全です。",
+        "決済端末を先に導入する場合は、将来使うPOSとの連携可否、違約金、端末契約期間を確認してください。"
+      ],
+      "affiliateMaterialKey": "kantan-chumon-short",
+      "affiliateNote": "広告リンクです。POSや決済の導入条件は、各公式サイトと見積書で最終確認してください。"
+    },
+    {
+      "heading": "比較表を作る",
+      "body": [
+        "POS費用と決済費用を別の列にし、最後に初年度・3年間総額へ統合します。"
+      ],
+      "bullets": [
+        "POSアプリと追加機能",
+        "iPad・専用端末・プリンター・ドロア",
+        "決済手数料と月額・通信",
+        "入金サイクルと振込手数料",
+        "金額・売上データ連携",
+        "故障・解約・データ移行"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "手数料が最も安いサービスを選べばよいですか？",
+      "answer": "いいえ。適用条件、決済構成、端末、月額、入金、連携を含む実効コストで判断します。"
+    },
+    {
+      "question": "POSと決済は同じ会社に揃えるべきですか？",
+      "answer": "金額連携とサポート窓口は簡単になりますが、機能・料率・移行性も確認し、同一会社であることだけを理由に決めないでください。"
+    },
+    {
+      "question": "比較時に必要な売上データは何ですか？",
+      "answer": "カードブランド、電子マネー、QR、現金、対面・オンライン別の金額と件数を少なくとも3か月分用意します。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+      "url": "/ja/cashless-payments/air-regi-review/",
+      "description": "Airレジの無料範囲、必要機器、在庫・顧客・売上管理、Airペイ連携、導入時の注意点を整理します。"
+    },
+    {
+      "label": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+      "url": "/ja/cashless-payments/airpay-review/",
+      "description": "Airペイの通常手数料、2.48%プログラム、対応ブランド、月3回・6回の入金、Airレジ連携を公式情報で確認します。"
+    },
+    {
+      "label": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+      "url": "/ja/cashless-payments/square-pos-review/",
+      "description": "Square POSレジの無料範囲、端末価格、対面決済手数料、在庫・顧客管理、オンライン連携を公式情報で整理します。"
+    },
+    {
+      "label": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+      "url": "/ja/cashless-payments/paycas-mobile-review/",
+      "description": "PayCAS Mobileのプリンター・SIM内蔵端末、対応決済、個別見積もり、月2回入金、POS連携の確認事項を解説します。"
+    },
+    {
+      "label": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "description": "AirペイとSquareを、対面決済手数料、固定費、端末、入金、POS連携、オンライン決済から比較します。"
+    },
+    {
+      "label": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "description": "注文、会計、キッチン、決済、サポート、総費用を同じ要件表で比較する実務ガイドです。"
+    },
+    {
+      "label": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "description": "飲食店向けPOSとモバイルオーダーの料金・多言語・決済連携を確認します。"
+    }
+  ]
+}

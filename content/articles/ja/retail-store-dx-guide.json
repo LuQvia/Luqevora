@@ -1,0 +1,128 @@
+{
+  "id": "retail-store-dx-guide-ja",
+  "translationKey": "retail-store-dx-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "retail-store-dx-guide",
+  "category": "store-dx",
+  "topic": "store-backoffice-integration",
+  "badge": "小売店DXガイド",
+  "title": "小売店の店舗DXガイド｜POS・在庫・決済・会計を一元化する",
+  "metaTitle": "小売店の店舗DXガイド｜POS・在庫・決済・会計を一元化する",
+  "description": "小売店のPOS、商品マスタ、在庫、バーコード、決済、会計をつなぎ、棚卸し差異と重複入力を減らす導入手順です。",
+  "lead": "小売店DXの中心は商品と在庫です。会計を速くするだけでなく、入荷、販売、返品、取り置き、棚卸しまで同じ商品コードで追える状態を作ります。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "小売店向け店舗DX無料診断",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES 予約 — 機能一覧",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE公式アカウント — サービス概要",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee会計 — 公式サービスページ",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "マネーフォワード クラウド会計 — POSレジ連携",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "商品マスタを先に整える",
+      "body": [
+        "商品コード、名称、カテゴリ、税区分、仕入価格、販売価格、バーコード、在庫単位を統一します。同じ商品が複数名で登録されている状態を解消します。",
+        "セット商品、量り売り、色・サイズ、委託販売など特殊な販売形態がある場合は、POSが対応できるか事前にテストします。"
+      ]
+    },
+    {
+      "heading": "在庫が動く場面を定義する",
+      "body": [
+        "入荷、販売、返品、交換、廃棄、取り置き、店舗移動、棚卸しのどの操作で在庫数が変わるかを決めます。",
+        "現場が後からまとめて入力すると在庫差異が増えます。バーコードやモバイル端末を使い、作業場所で記録できる流れを検討します。"
+      ]
+    },
+    {
+      "heading": "POSと決済を連携する",
+      "body": [
+        "POSから決済へ金額を渡せると二度打ちを減らせます。取消、返品、一部返金、複数支払の操作も確認します。",
+        "決済手数料だけでなく端末、入金周期、振込手数料、通信、故障時の代替手段を比較します。"
+      ]
+    },
+    {
+      "heading": "複数店舗とECの在庫を考える",
+      "body": [
+        "店舗間移動、店舗別価格、権限、本部集計、在庫引当が必要かを確認します。ECを併用する場合はどの在庫を正として更新するか決めます。",
+        "リアルタイム連携がなくても、更新頻度と売り越し防止ルールを明確にすれば運用できる場合があります。"
+      ]
+    },
+    {
+      "heading": "会計へ売上と入金をつなぐ",
+      "body": [
+        "日次売上、支払方法、返品、値引き、決済手数料、入金を会計で確認できるようにします。POSと決済の両方から同じ売上を送らないようにします。",
+        "店舗別損益を見る場合は部門コードを統一し、家賃、人件費、広告費の配賦方法も決めます。"
+      ]
+    },
+    {
+      "heading": "棚卸しと差異分析",
+      "body": [
+        "棚卸し差異を数量だけでなく金額でも確認し、入力漏れ、返品処理、破損、盗難、商品コード重複の原因を分類します。",
+        "差異率を毎月確認し、特定カテゴリや時間帯に偏りがないかを見ます。"
+      ]
+    },
+    {
+      "heading": "導入前テストのチェック項目",
+      "body": [
+        "通常販売、値引き、返品、交換、取り置き、複数支払、通信断、プリンター停止、締め処理を実際のスタッフでテストします。",
+        "旧システムから移す商品・在庫・顧客データの項目、移行日、差分入力、バックアップを決めます。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "小売店で無料POSを使っても問題ありませんか？",
+      "answer": "商品数、在庫、複数店舗、権限、周辺機器、データ出力が要件を満たせば候補になります。無料部分と別料金の機器・決済を分けて確認してください。"
+    },
+    {
+      "question": "在庫はリアルタイム連携が必須ですか？",
+      "answer": "販売量やEC併用状況によります。更新頻度が低くても、売り越し防止と差分処理のルールが明確なら運用できる場合があります。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "店舗DX無料診断",
+      "url": "/ja/store-dx-assessment/",
+      "description": "小売店を選択してPOS・在庫・決済の優先順位を整理します。"
+    },
+    {
+      "label": "AirレジとSquare POSレジを比較",
+      "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+      "description": "無料POSの費用と運用を比較します。"
+    },
+    {
+      "label": "店舗DX導入ロードマップ",
+      "url": "/ja/store-dx/store-dx-implementation-roadmap/",
+      "description": "段階的な導入手順を確認します。"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "square-vs-paycas-mobile-en",
+  "translationKey": "square-vs-paycas-mobile",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "square-vs-paycas-mobile",
+  "category": "cashless-payments",
+  "topic": "cashless-payment-services",
+  "badge": "Official-source comparison",
+  "title": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+  "metaTitle": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+  "description": "Compare Square and PayCAS Mobile across hardware, pricing visibility, settlement, mobility, receipt printing, and POS operations.",
+  "lead": "Square and PayCAS Mobile differ substantially in hardware architecture and pricing visibility. Square offers published reader, stand, and terminal options with a path into POS and online commerce. PayCAS Mobile provides a quoted all-in-one terminal with integrated SIM and printer.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check current Square terms",
+      "officialUrl": "https://squareup.com/jp/ja/payments",
+      "affiliateKey": "square-pos-official-en"
+    },
+    {
+      "label": "Check current PayCAS Mobile terms",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "affiliateKey": "paycas-mobile-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "Square — 決済手数料",
+      "url": "https://squareup.com/jp/ja/payments/our-fees"
+    },
+    {
+      "label": "PayCAS — PayCAS Mobile",
+      "url": "https://www.paycas.jp/paycas-mobile"
+    },
+    {
+      "label": "PayCAS — 料金",
+      "url": "https://www.paycas.jp/price"
+    },
+    {
+      "label": "PayCAS — サービス概要",
+      "url": "https://www.paycas.jp/service"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: pricing transparency or all-in-one mobility",
+      "body": [
+        "Square fits a business that wants to build its own initial budget and operate POS and online commerce under one account.",
+        "PayCAS Mobile fits table-side or field operations that want mobile connectivity and receipt printing in one terminal."
+      ]
+    },
+    {
+      "heading": "How to compare pricing",
+      "body": [
+        "Square publishes its standard POS price, device prices, and major processing rates. PayCAS Mobile quotes setup, monthly, terminal, processing, and transaction charges for each merchant.",
+        "Convert both options into a three-year total covering device count, connectivity, paper, applications, replacement, cancellation, and settlement."
+      ],
+      "table": {
+        "headers": [
+          "Criterion",
+          "Square",
+          "PayCAS Mobile"
+        ],
+        "rows": [
+          [
+            "Pricing visibility",
+            "Published hardware and major rates",
+            "Quoted setup, monthly, terminal, and processing terms"
+          ],
+          [
+            "Terminal",
+            "Reader, Stand, Terminal, and other options",
+            "Integrated SIM, printer, and payment readers"
+          ],
+          [
+            "Connectivity",
+            "Configured around store network and selected device",
+            "Built-in SoftBank SIM"
+          ],
+          [
+            "Receipts",
+            "Depends on terminal or printer configuration",
+            "Printer integrated into the terminal"
+          ],
+          [
+            "Settlement",
+            "Next business day for selected banks or weekly",
+            "Twice monthly"
+          ],
+          [
+            "Expansion",
+            "POS, ecommerce, invoices, appointments",
+            "Applications through PayCAS DX Store and external integrations"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Mobility and connectivity",
+      "body": [
+        "Square Terminal is portable, while a small reader requires a compatible phone or tablet. Verify the network and charging configuration for the selected hardware.",
+        "PayCAS Mobile integrates a SoftBank SIM and printer and is designed to operate without local wired LAN or Wi-Fi. Test coverage and establish a fallback device process."
+      ]
+    },
+    {
+      "heading": "Settlement and working capital",
+      "body": [
+        "Square settles next business day for selected banks or weekly for other supported banks. PayCAS uses a twice-monthly cycle.",
+        "Fewer deposits create a larger outstanding balance. Businesses with frequent supplier payments should model working-capital cost alongside processing fees."
+      ]
+    },
+    {
+      "heading": "POS and business functions",
+      "body": [
+        "Square expands into POS, inventory, customers, online selling, invoices, and appointments.",
+        "PayCAS Mobile is payment-terminal centered and adds functions through PayCAS DX Store applications or external POS integration. Confirm formal support for the required POS."
+      ]
+    },
+    {
+      "heading": "Hardware test plan",
+      "body": [
+        "Test payment, cancellation, reprinting, daily totals, charging, and portability in the same location and network environment.",
+        "Compare both options with an identical transaction scenario and a full-year cost model. Include device purchase or rental, monthly connectivity, processing by payment mix, receipt supplies, settlement timing, replacement support, and cancellation conditions. A lower visible fee may not be the better choice when the required counter hardware or reconciliation workflow adds recurring labor."
+      ],
+      "bullets": [
+        "Number of steps to complete a payment",
+        "Behavior during unstable connectivity",
+        "Paper replacement and battery life",
+        "Replacement time and cost after failure",
+        "Amount and sales-data transfer to POS"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I simply choose the lowest processing rate?",
+      "answer": "No. Compare the effective cost including eligibility, payment mix, hardware, subscriptions, settlement, and integration."
+    },
+    {
+      "question": "Should POS and payments come from one provider?",
+      "answer": "One provider can simplify amount transfer and support, but also compare functionality, rates, and portability."
+    },
+    {
+      "question": "Which sales data is needed for a comparison?",
+      "answer": "Prepare at least three months of value and transaction count by card brand, e-money, QR, cash, and in-person or online channel."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    }
+  ]
+}

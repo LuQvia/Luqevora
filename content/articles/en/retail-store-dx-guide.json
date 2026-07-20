@@ -1,0 +1,136 @@
+{
+  "id": "retail-store-dx-guide-en",
+  "translationKey": "retail-store-dx-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "retail-store-dx-guide",
+  "category": "store-dx",
+  "topic": "store-backoffice-integration",
+  "badge": "Retail Store DX guide",
+  "title": "Retail Store DX Guide: Unify POS, Inventory, Payments, and Accounting",
+  "metaTitle": "Retail Store DX Guide: Unify POS, Inventory, Payments, and Accounting",
+  "description": "A practical guide to product master data, inventory movement, barcodes, returns, cashless payments, multi-location reporting, and accounting integration.",
+  "lead": "Retail DX begins with products and stock. Checkout speed is only one outcome; purchases, sales, returns, transfers, reservations, and stock counts must use consistent identifiers.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Run the free retail Store DX assessment",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AirREGI — Features",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES Reservations — Feature List",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE Official Account — Service Overview",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee Accounting — Official Service Page",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "Money Forward Cloud Accounting — POS Integration",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Standardize product master data first",
+      "body": [
+        "Define product code, name, category, tax treatment, cost, selling price, barcode, and stock unit. Remove duplicate records and inconsistent naming.",
+        "Test variants, sets, weighted goods, consignment, and other special sales models before selecting the POS."
+      ]
+    },
+    {
+      "heading": "Define every inventory movement",
+      "body": [
+        "Specify how receipts, sales, returns, exchanges, disposal, holds, location transfers, and stock counts change inventory.",
+        "Delayed batch entry increases discrepancies. Consider barcode or mobile workflows that record movement at the point of work."
+      ]
+    },
+    {
+      "heading": "Connect POS and payment acceptance",
+      "body": [
+        "Amount transfer from POS can reduce duplicate entry. Test cancellation, partial refund, returns, split payments, and receipt handling.",
+        "Compare processing rates together with hardware, settlement timing, transfer fees, connectivity, replacement, and outage alternatives."
+      ]
+    },
+    {
+      "heading": "Plan multi-location and ecommerce inventory",
+      "body": [
+        "Confirm location transfers, location pricing, permissions, central reporting, and allocation rules. When ecommerce shares stock, define the source of truth and update frequency.",
+        "Real-time integration is not always essential, but overselling prevention and discrepancy handling must be explicit."
+      ]
+    },
+    {
+      "heading": "Connect sales and settlements to accounting",
+      "body": [
+        "Map daily sales, payment methods, returns, discounts, processing fees, and deposits. Do not import the same sale from both POS and payment connectors.",
+        "Use consistent department codes for location profit reporting and define allocation rules for rent, labor, and marketing."
+      ]
+    },
+    {
+      "heading": "Analyze stock-count differences",
+      "body": [
+        "Review discrepancies by quantity and value, then classify missing entry, return processing, breakage, theft, or duplicate product records.",
+        "Monitor discrepancy rates monthly and look for concentration by product category, location, or time period."
+      ]
+    },
+    {
+      "heading": "Test realistic exceptions before launch",
+      "body": [
+        "Test standard sales, discounts, returns, exchanges, holds, split payments, offline operation, printer failure, and closing procedures with actual staff.",
+        "Define migration fields, cutover date, incremental updates, validation, and backup for products, stock, and customer data."
+      ]
+    },
+    {
+      "heading": "Establish governance after rollout",
+      "body": [
+        "Assign an owner for product master changes, stock corrections, refund approval, payment reconciliation, user access, and vendor contact. Document who may change prices or tax settings and how emergency changes are reviewed. A monthly operating meeting should compare sales, gross margin, inventory variance, payment deposits, support incidents, and unresolved data errors.",
+        "Keep an export schedule and test restoration or migration samples periodically. When adding a new location, device, sales channel, or payment method, repeat the same acceptance tests used at launch instead of assuming the existing configuration will scale without adjustment.",
+        "Maintain a change log for tax rates, category mappings, receipt settings, stock adjustments, and integration credentials. Review it with closing and accounting records so configuration changes can be distinguished from sales or inventory errors."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a free POS appropriate for retail?",
+      "answer": "It can be, when product volume, stock functions, locations, permissions, hardware, and export requirements are satisfied. Separate free software from hardware and payment costs."
+    },
+    {
+      "question": "Is real-time inventory integration mandatory?",
+      "answer": "It depends on sales volume and ecommerce use. A slower update can work when overselling prevention and discrepancy procedures are reliable."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Free Store DX assessment",
+      "url": "/en/store-dx-assessment/",
+      "description": "Select retail and prioritize POS, inventory, payments, and accounting."
+    },
+    {
+      "label": "AirREGI versus Square POS",
+      "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+      "description": "Compare free POS structures and operating requirements."
+    },
+    {
+      "label": "Store DX implementation roadmap",
+      "url": "/en/store-dx/store-dx-implementation-roadmap/",
+      "description": "Plan a controlled implementation sequence."
+    }
+  ]
+}

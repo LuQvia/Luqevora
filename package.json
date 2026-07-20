@@ -1,6 +1,6 @@
 {
   "name": "luqevora-static-platform",
-  "version": "3.3.0",
+  "version": "4.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,11 +13,16 @@
     "release:manifest": "node scripts/generate-release-manifest.mjs",
     "release:diff": "node scripts/prepare-release.mjs --baseline-url https://luqevora.com/release-manifest.json",
     "validate": "node scripts/validate.mjs",
-    "check": "npm run catalog && npm run operations && npm run revenue && npm run audit:content && npm run generate:seo-images && npm run build && npm run release:manifest && npm run validate",
+    "check": "npm run catalog && npm run operations && npm run revenue && npm run audit:content && npm run generate:seo-images && npm run build && npm run release:manifest && npm run validate && npm run qa:v4 && npm run qa:v41 && npm run qa:v42 && npm run qa:v43",
     "submit:indexnow": "node scripts/submit-indexnow.mjs",
     "catalog": "node scripts/generate-product-catalog.mjs",
     "operations": "node scripts/generate-operations-dashboard.mjs",
-    "revenue": "node scripts/generate-revenue-dashboard.mjs"
+    "revenue": "node scripts/generate-revenue-dashboard.mjs",
+    "add:xserver": "node scripts/add-xserver-v340.mjs",
+    "qa:v4": "node scripts/qa-v4-cashless.mjs",
+    "qa:v41": "node scripts/qa-v41-store-dx-platform.mjs",
+    "qa:v42": "node scripts/qa-v42-luqvia-website-production.mjs",
+    "qa:v43": "node scripts/qa-v43-business-saas.mjs"
   },
   "engines": {
     "node": ">=20"

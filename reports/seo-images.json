@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-19T07:58:03.046Z",
+  "generatedAt": "2026-07-20T13:22:48.933Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 364,
+  "imageCount": 470,
   "generatedCount": 0,
-  "reusedCount": 364,
+  "reusedCount": 470,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -87,9 +87,21 @@
       "status": "reused"
     },
     {
+      "route": "/en/business-software/crm-comparison-small-business-japan/",
+      "image": "source-assets/images/articles/en/business-software/crm-comparison-small-business-japan.jpg",
+      "fingerprint": "3fe04e6cb346d7aa26bb62f4c89631a9cf3e023091142c63923eee337a4c7987",
+      "status": "reused"
+    },
+    {
       "route": "/en/business-software/custom-domain-email-guide/",
       "image": "source-assets/images/articles/en/business-software/custom-domain-email-guide.jpg",
       "fingerprint": "902b6040f384acfd202df672b5edb0a859ce28831aa82f95ed48b9bfd16cff38",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/gmail-vs-google-workspace-business-email/",
+      "image": "source-assets/images/articles/en/business-software/gmail-vs-google-workspace-business-email.jpg",
+      "fingerprint": "bd45fc721c75e22308fecd0aa8e774c30a68df42e47a38a3e903c0b126e1aa19",
       "status": "reused"
     },
     {
@@ -117,9 +129,45 @@
       "status": "reused"
     },
     {
+      "route": "/en/business-software/google-workspace-domain-email-setup/",
+      "image": "source-assets/images/articles/en/business-software/google-workspace-domain-email-setup.jpg",
+      "fingerprint": "fee76d6368574d0ab21252b5d9dd7568e2cf649597e9c0aceea89396873102f0",
+      "status": "reused"
+    },
+    {
       "route": "/en/business-software/google-workspace-guide/",
       "image": "source-assets/images/articles/en/business-software/google-workspace-guide.jpg",
       "fingerprint": "46cd7d74795a7563dac750b96125e987dcd5b3f352e585d340f47492eaf8ae81",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-workspace-pricing-small-business/",
+      "image": "source-assets/images/articles/en/business-software/google-workspace-pricing-small-business.jpg",
+      "fingerprint": "e39275144377414231f2c2281dc1168c2120f933fb6caad4cf1d89fb3201016d",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "image": "source-assets/images/articles/en/business-software/google-workspace-vs-microsoft-365-small-business.jpg",
+      "fingerprint": "ac864a36a6351058fcfc4f26158ded42ef7b41b6399b71292523e9c461470e72",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/hubspot-free-crm-review-small-business/",
+      "image": "source-assets/images/articles/en/business-software/hubspot-free-crm-review-small-business.jpg",
+      "fingerprint": "cf04bfd23cb0b74520d66b19a7f553659cbd0cd5b2184e0ee920dcf2bc1c83af",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/hubspot-free-vs-starter/",
+      "image": "source-assets/images/articles/en/business-software/hubspot-free-vs-starter.jpg",
+      "fingerprint": "777673658345666047f34830c8fbacdfefa7a747d93997ac375c05060973ed10",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/hubspot-vs-salesforce-small-business/",
+      "image": "source-assets/images/articles/en/business-software/hubspot-vs-salesforce-small-business.jpg",
+      "fingerprint": "e7ebc47c8394f28576e9a9bdc0a9f0e5d53a642ce943c2e466e544bbbb7d0fa9",
       "status": "reused"
     },
     {
@@ -129,9 +177,21 @@
       "status": "reused"
     },
     {
+      "route": "/en/business-software/monday-crm-vs-hubspot-crm/",
+      "image": "source-assets/images/articles/en/business-software/monday-crm-vs-hubspot-crm.jpg",
+      "fingerprint": "f1c5cc72d89cd4ac96e94bd6a829abc80e1bd99c619e6c7ac14eae816af4390e",
+      "status": "reused"
+    },
+    {
       "route": "/en/business-software/monday-for-small-business/",
       "image": "source-assets/images/articles/en/business-software/monday-for-small-business.jpg",
       "fingerprint": "624dc25327494d1528b0118f552f8454c7ce925646663da7c794ff4f2d78a06a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-implementation-checklist/",
+      "image": "source-assets/images/articles/en/business-software/monday-implementation-checklist.jpg",
+      "fingerprint": "ccc34a3729afa4b50d37efa03fd66e231dd2220b5bc97e3fa09cc5a8d7066c66",
       "status": "reused"
     },
     {
@@ -144,6 +204,18 @@
       "route": "/en/business-software/monday-review/",
       "image": "source-assets/images/articles/en/business-software/monday-review.jpg",
       "fingerprint": "b0c308c89ef1add0020b2f30b28ae8a2e4301ccf5b4bf09698a20231623a9ac6",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-web-production-project-management/",
+      "image": "source-assets/images/articles/en/business-software/monday-web-production-project-management.jpg",
+      "fingerprint": "cd686dd4bad910d1f23c6bf107f2e57f4220e0da1423c773700c3291eca58fdb",
+      "status": "reused"
+    },
+    {
+      "route": "/en/business-software/monday-work-management-plans-comparison/",
+      "image": "source-assets/images/articles/en/business-software/monday-work-management-plans-comparison.jpg",
+      "fingerprint": "5acbdb6ed404d75f9cc580d5c10330e8b6ee40a88e6cd8cfd19b1acca2445a19",
       "status": "reused"
     },
     {
@@ -180,6 +252,54 @@
       "route": "/en/business-software/trello-review/",
       "image": "source-assets/images/articles/en/business-software/trello-review.jpg",
       "fingerprint": "38ee274c7a9c9e2d5d04506b01774b5338cc28550d773ca6ef09f854fad5c751",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/air-regi-review/",
+      "image": "source-assets/images/articles/en/cashless-payments/air-regi-review.jpg",
+      "fingerprint": "a7bf5c5b83f86bd362064b9726bbd2b133177ee451d876f278e09b0d496d19ea",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/air-regi-vs-square-pos/",
+      "image": "source-assets/images/articles/en/cashless-payments/air-regi-vs-square-pos.jpg",
+      "fingerprint": "90feb9b57595a7e110f19bc3fbb20426ce5181781b0abaac7e0c7db94a7210b5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/airpay-review/",
+      "image": "source-assets/images/articles/en/cashless-payments/airpay-review.jpg",
+      "fingerprint": "6dc66e1fa6e9cbfeb293cfc224b72584100f7405c3485c4edfe73ecdea8a2425",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/airpay-vs-square/",
+      "image": "source-assets/images/articles/en/cashless-payments/airpay-vs-square.jpg",
+      "fingerprint": "a8b50a6051ab3bfbd206cdc16f5958e793141f32b870935484392ce10b1707af",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/paycas-mobile-review/",
+      "image": "source-assets/images/articles/en/cashless-payments/paycas-mobile-review.jpg",
+      "fingerprint": "267da16293a8b36f35e704beca430ef76a1b02c24ce113610ca9d17f6c5bfbe8",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "image": "source-assets/images/articles/en/cashless-payments/pos-register-vs-cashless-payment.jpg",
+      "fingerprint": "814897ffccbe642d2ca276c4c6224304d0f9238f1ebb259cab8e767991c8b795",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/square-pos-review/",
+      "image": "source-assets/images/articles/en/cashless-payments/square-pos-review.jpg",
+      "fingerprint": "99896d02a959e6b5e70eafe0e82c0a4acf07b904096431bd357bb10254546c67",
+      "status": "reused"
+    },
+    {
+      "route": "/en/cashless-payments/square-vs-paycas-mobile/",
+      "image": "source-assets/images/articles/en/cashless-payments/square-vs-paycas-mobile.jpg",
+      "fingerprint": "9263314ec26c4b1087e4f785449e70bab597311c25dfebbfd21a3782d3b0e9d1",
       "status": "reused"
     },
     {
@@ -303,9 +423,21 @@
       "status": "reused"
     },
     {
+      "route": "/en/hosting-security/hostinger-overseas-website-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-overseas-website-guide.jpg",
+      "fingerprint": "4628e0c575c1b5d74db00cd34aeeb251108a09d4b2f65382774c47a9891d63e6",
+      "status": "reused"
+    },
+    {
       "route": "/en/hosting-security/hostinger-pricing-guide/",
       "image": "source-assets/images/articles/en/hosting-security/hostinger-pricing-guide.jpg",
       "fingerprint": "de99ae89bc3d6e2220c9494933f7d0acecb0254ae8c934358ccd8271c57838e7",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-pricing-renewal-cost-japan/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-pricing-renewal-cost-japan.jpg",
+      "fingerprint": "ad011e69518738e337db06285fab009e2c97807c5d3a4a8011433255f11d89f7",
       "status": "reused"
     },
     {
@@ -342,6 +474,12 @@
       "route": "/en/hosting-security/hostinger-vs-xserver/",
       "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-xserver.jpg",
       "fingerprint": "5723e09d607f782e1b745285535eb41d0f964778268804f80c89f096c71260cf",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/hostinger-vs-xserver-small-business/",
+      "image": "source-assets/images/articles/en/hosting-security/hostinger-vs-xserver-small-business.jpg",
+      "fingerprint": "96cee664a4d3150525d7cafa5d84fbeb795951b4b2686c03cc2e29a9e062ce68",
       "status": "reused"
     },
     {
@@ -597,6 +735,18 @@
       "status": "reused"
     },
     {
+      "route": "/en/hosting-security/xserver-business-review/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-business-review.jpg",
+      "fingerprint": "fcc5b7937fee54859772f10515a0f483b62327000fb44d0dc62f3d9ed2bd20fe",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-company-website-email-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-company-website-email-guide.jpg",
+      "fingerprint": "05574ca8b164449c849a1a7a8dd3914cd322a5b4f0e1dcc3cb6fa2b815aa301b",
+      "status": "reused"
+    },
+    {
       "route": "/en/hosting-security/xserver-for-wordpress-review/",
       "image": "source-assets/images/articles/en/hosting-security/xserver-for-wordpress-review.jpg",
       "fingerprint": "8bb48fa6177acb63dc842c6d4f138fbf4e2c575633de5d791252185296dbcc3f",
@@ -615,9 +765,51 @@
       "status": "reused"
     },
     {
+      "route": "/en/hosting-security/xserver-multiple-domain-site-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-multiple-domain-site-guide.jpg",
+      "fingerprint": "d0b15d6996a482c432bad6cc1ae986bfed7773ae6d41281fbe80d7780b3a3d67",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-rental-server-pricing/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-rental-server-pricing.jpg",
+      "fingerprint": "d938ae9e921e6614a5fef5d1c9c8c0c34696228ca87248e791913200a432e13a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-rental-server-pros-cons/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-rental-server-pros-cons.jpg",
+      "fingerprint": "ce903c6bbc4e07afb136c16ca39a6358b9253b0d5c85709b2550245030a98ed3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-rental-server-review/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-rental-server-review.jpg",
+      "fingerprint": "c81aee3213b115c62e487fb62da7a074fc5c5fa533f0a5803893b5079dce6251",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-vs-conoha-wing/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-vs-conoha-wing.jpg",
+      "fingerprint": "4d554e50be1182f257c0c614780bb70b63eb97a35f68f8bc0ff113af452e37f4",
+      "status": "reused"
+    },
+    {
       "route": "/en/hosting-security/xserver-vs-lolipop/",
       "image": "source-assets/images/articles/en/hosting-security/xserver-vs-lolipop.jpg",
       "fingerprint": "8fcfbff85517a8d0afee914cd434c8763571a8642e9bd7e23ced0bdfe13387d5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-vs-xserver-business/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-vs-xserver-business.jpg",
+      "fingerprint": "dbf450407e99833995e9106f958692dcf67a37eb340386b15f759f0aa454e0d1",
+      "status": "reused"
+    },
+    {
+      "route": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+      "image": "source-assets/images/articles/en/hosting-security/xserver-wordpress-quick-start-guide.jpg",
+      "fingerprint": "4649367944cbf18349edeb54fb46aed57f7aa5496af3ab0fc7f8ea3f5d5c8833",
       "status": "reused"
     },
     {
@@ -825,6 +1017,108 @@
       "status": "reused"
     },
     {
+      "route": "/en/store-dx/emeao-pos-review/",
+      "image": "source-assets/images/articles/en/store-dx/emeao-pos-review.jpg",
+      "fingerprint": "06462c62083e8b75e7befb1b6dda12fa8a76f19e87cee986799a77d4a6a5a2b3",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/funfo-review/",
+      "image": "source-assets/images/articles/en/store-dx/funfo-review.jpg",
+      "fingerprint": "22c7f95aec6595f976a9ac38f0f402adb43f84b2505c337ce27507ba61b09bec",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/funfo-vs-kantan-chumon/",
+      "image": "source-assets/images/articles/en/store-dx/funfo-vs-kantan-chumon.jpg",
+      "fingerprint": "51f60b3e81bbb4d8cf5c1821563e6ff0ce41a8fcda090f6ae3bc79af14ecf5e0",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/kantan-chumon-review/",
+      "image": "source-assets/images/articles/en/store-dx/kantan-chumon-review.jpg",
+      "fingerprint": "92699105fa35a695cb097b4a13a9febf1c3b680cd7b26baf38c12183dec3fb0b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/mobile-order-system-guide/",
+      "image": "source-assets/images/articles/en/store-dx/mobile-order-system-guide.jpg",
+      "fingerprint": "dac43c9315074e4a0f5e8621efa63e01b39e56b2aa48246e69df15cebd219471",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/monday-multiple-store-operations/",
+      "image": "source-assets/images/articles/en/store-dx/monday-multiple-store-operations.jpg",
+      "fingerprint": "b4b58d42638b0df1bedd1ba3cfa1096cde442b4bb17899f0428f5e47da4d5448",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/pos-subsidy-2026-guide/",
+      "image": "source-assets/images/articles/en/store-dx/pos-subsidy-2026-guide.jpg",
+      "fingerprint": "fda87b1724046686684142d5be82f92528efe17eaccc009be2dac3525ed75a87",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/restaurant-inbound-order-guide/",
+      "image": "source-assets/images/articles/en/store-dx/restaurant-inbound-order-guide.jpg",
+      "fingerprint": "7107b1942b911aaae461ad1849b82bb480f55f2f0a143d82f5c44c874323d093",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/restaurant-pos-selection-guide/",
+      "image": "source-assets/images/articles/en/store-dx/restaurant-pos-selection-guide.jpg",
+      "fingerprint": "7da1d4793947689dba241c2616b952053e21a6158af76784ac31127bb6713dac",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "image": "source-assets/images/articles/en/store-dx/restaurant-pos-three-way-comparison.jpg",
+      "fingerprint": "d6279ebff80dde1b7cc9c85e240f4a958fe9388acbc119b7f2151e423221f45f",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "image": "source-assets/images/articles/en/store-dx/restaurant-pos-vs-mobile-order.jpg",
+      "fingerprint": "5d0bd7dfb278d9c81899c4545be812c8823ae79207361191aee8c9419c97c52a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "image": "source-assets/images/articles/en/store-dx/restaurant-sales-analysis-guide.jpg",
+      "fingerprint": "641efd7e81e6e530e76068a24e1cbbd67094d9ab046c1a05ff9b601ef38a3d02",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/retail-store-dx-guide/",
+      "image": "source-assets/images/articles/en/store-dx/retail-store-dx-guide.jpg",
+      "fingerprint": "e7e4dcd84485b1c973c505a952e1e8cedc60e8df8cce93c2d6e34c65fb14ec21",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/salon-store-dx-guide/",
+      "image": "source-assets/images/articles/en/store-dx/salon-store-dx-guide.jpg",
+      "fingerprint": "04eb8b31f319c2ff460dd862adf86b2a5b65ffd610ba5f7169e948c29730612a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/small-restaurant-dx-guide/",
+      "image": "source-assets/images/articles/en/store-dx/small-restaurant-dx-guide.jpg",
+      "fingerprint": "2d0ec145217abe61f376a27534c32ab141f26756cfd142c952ee01fa14e143ec",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/store-dx-implementation-roadmap/",
+      "image": "source-assets/images/articles/en/store-dx/store-dx-implementation-roadmap.jpg",
+      "fingerprint": "07f6b589fcf9ad5669abacd2f30cf22a1372e2e7d01d4c12235ce05c65efd2d4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/store-dx/store-dx-stack-comparison/",
+      "image": "source-assets/images/articles/en/store-dx/store-dx-stack-comparison.jpg",
+      "fingerprint": "d3dfaa87599625b5646b701f893b4b9d4123f71a4e4a3d548e261bc0c1dc2ec5",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/beauty-salon-website-builder-comparison/",
       "image": "source-assets/images/articles/en/website-builders/beauty-salon-website-builder-comparison.jpg",
       "fingerprint": "93d419f055f75ee6a8fd333a9deb25b218c67041b67bddcfb8d7414bd93bfe30",
@@ -1017,9 +1311,21 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/shopify-launch-checklist-small-store/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-launch-checklist-small-store.jpg",
+      "fingerprint": "803e2c7273237d7ff260441496d1806b7a1aa67c59b9349308b45a5f8ab4b881",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/shopify-pricing-guide/",
       "image": "source-assets/images/articles/en/website-builders/shopify-pricing-guide.jpg",
       "fingerprint": "4e082074a2d34dcd48b145920774e086ae442f6c618a49ccc591872096e74fa4",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-pricing-total-cost-japan/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-pricing-total-cost-japan.jpg",
+      "fingerprint": "f55466f0ba9d45b9b94fe868b65b26b026f67499f67a0ddb22294878d88d3698",
       "status": "reused"
     },
     {
@@ -1029,9 +1335,21 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/shopify-vs-base-small-business/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-vs-base-small-business.jpg",
+      "fingerprint": "2e0810d3402929a6005449c7908405e3c4a216cd8e83bc83bba3802aa1caeb00",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/shopify-vs-hostinger-website-builder/",
       "image": "source-assets/images/articles/en/website-builders/shopify-vs-hostinger-website-builder.jpg",
       "fingerprint": "182a40525b17eefaa3d20c66760a829ceb34b46fe498656bd841ec7c6da23a1b",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/shopify-vs-stores-small-business/",
+      "image": "source-assets/images/articles/en/website-builders/shopify-vs-stores-small-business.jpg",
+      "fingerprint": "ac0b760722cb03ca2855014d2d580b9b2de45976ae18ec06ef05ffa94e8e79cc",
       "status": "reused"
     },
     {
@@ -1179,9 +1497,21 @@
       "status": "reused"
     },
     {
+      "route": "/ja/business-software/crm-comparison-small-business-japan/",
+      "image": "source-assets/images/articles/ja/business-software/crm-comparison-small-business-japan.jpg",
+      "fingerprint": "b0d918cbbdfef9dc5fce80d67c50907ca9df21af1853785be36a016a3936118d",
+      "status": "reused"
+    },
+    {
       "route": "/ja/business-software/custom-domain-email-guide/",
       "image": "source-assets/images/articles/ja/business-software/custom-domain-email-guide.jpg",
       "fingerprint": "8381db345ee7f1f521df8106df2d18838eb6f9dffa016628780b49c4f8b541a3",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+      "image": "source-assets/images/articles/ja/business-software/gmail-vs-google-workspace-business-email.jpg",
+      "fingerprint": "ac2ddd41a32d487ba636153719f66777556fcab119b41ecf0f906d7bed8fb044",
       "status": "reused"
     },
     {
@@ -1209,9 +1539,45 @@
       "status": "reused"
     },
     {
+      "route": "/ja/business-software/google-workspace-domain-email-setup/",
+      "image": "source-assets/images/articles/ja/business-software/google-workspace-domain-email-setup.jpg",
+      "fingerprint": "46c8010df6c0a935d7bd34d7edee0ef141517c06958f9be737d3b4bf114ba518",
+      "status": "reused"
+    },
+    {
       "route": "/ja/business-software/google-workspace-guide/",
       "image": "source-assets/images/articles/ja/business-software/google-workspace-guide.jpg",
       "fingerprint": "d4dce6fba4b836135721fea3e416c9936a3474dd58d5519cd67b76b04575c294",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-workspace-pricing-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/google-workspace-pricing-small-business.jpg",
+      "fingerprint": "1496e03aa12c9897a9ddc66b67b40f22e95e7891f0ced69a51b0f1f5340e76fc",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/google-workspace-vs-microsoft-365-small-business.jpg",
+      "fingerprint": "4df48fc3cf5cdbe960d07ec9f4e871f81e705f7b17b30d9d52be93c3679c815d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/hubspot-free-crm-review-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/hubspot-free-crm-review-small-business.jpg",
+      "fingerprint": "3cb7bb49c8821cd80044f7d35d113aec6917965a0c67b95f4c690ecac62c6eed",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/hubspot-free-vs-starter/",
+      "image": "source-assets/images/articles/ja/business-software/hubspot-free-vs-starter.jpg",
+      "fingerprint": "2a05e454ebb2457b892757a0aa7d179056370a2346d8a7998b31b44d8d2b5902",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/hubspot-vs-salesforce-small-business/",
+      "image": "source-assets/images/articles/ja/business-software/hubspot-vs-salesforce-small-business.jpg",
+      "fingerprint": "cde10198bad24ad85b3349ef79b2f9dd13fb22c111dbfd96a6bba847abcc5df1",
       "status": "reused"
     },
     {
@@ -1221,9 +1587,21 @@
       "status": "reused"
     },
     {
+      "route": "/ja/business-software/monday-crm-vs-hubspot-crm/",
+      "image": "source-assets/images/articles/ja/business-software/monday-crm-vs-hubspot-crm.jpg",
+      "fingerprint": "6b17bc89f5d00017f3a4320647c8fcda1d63ebcfcae9363fef4c64229058326b",
+      "status": "reused"
+    },
+    {
       "route": "/ja/business-software/monday-for-small-business/",
       "image": "source-assets/images/articles/ja/business-software/monday-for-small-business.jpg",
       "fingerprint": "18b4fd02d4520bcb62496c0665591d9916b407f304a7f010ffe30accc542c010",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-implementation-checklist/",
+      "image": "source-assets/images/articles/ja/business-software/monday-implementation-checklist.jpg",
+      "fingerprint": "1f245575dd6a7e262e854559f89cb764193bb6284d387b3c3d36b7593b96ada1",
       "status": "reused"
     },
     {
@@ -1236,6 +1614,18 @@
       "route": "/ja/business-software/monday-review/",
       "image": "source-assets/images/articles/ja/business-software/monday-review.jpg",
       "fingerprint": "92b55ce5d6b288f687185b0e15af5d37222cad8af20463b1633f5314601c736b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-web-production-project-management/",
+      "image": "source-assets/images/articles/ja/business-software/monday-web-production-project-management.jpg",
+      "fingerprint": "ec94f5b453f6f5f27cefead92c415d841475308d45aa0cb2593771aef261ccfb",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/business-software/monday-work-management-plans-comparison/",
+      "image": "source-assets/images/articles/ja/business-software/monday-work-management-plans-comparison.jpg",
+      "fingerprint": "c209e6b8482801e2b2e64e9ad49dfcecb4a18849e69ce015b4d14ec8fd6625df",
       "status": "reused"
     },
     {
@@ -1272,6 +1662,54 @@
       "route": "/ja/business-software/trello-review/",
       "image": "source-assets/images/articles/ja/business-software/trello-review.jpg",
       "fingerprint": "c56a373e3edf1d663bb971b1274ad2851cc9ebda9ab95f7a538478377a157691",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/air-regi-review/",
+      "image": "source-assets/images/articles/ja/cashless-payments/air-regi-review.jpg",
+      "fingerprint": "fb9469d536fa752da56f4ee7c0453144c049c825f3ec4ae465de8fadc0b7b821",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/air-regi-vs-square-pos/",
+      "image": "source-assets/images/articles/ja/cashless-payments/air-regi-vs-square-pos.jpg",
+      "fingerprint": "cae301c60935bb6bd475f4e9583fc57d89254305978b1f50fac13874bef0cde6",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/airpay-review/",
+      "image": "source-assets/images/articles/ja/cashless-payments/airpay-review.jpg",
+      "fingerprint": "21eec3eacf5c3e76426bdb5b3494585ca1b5c357a7f4012d0dedc6513824c1c4",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/airpay-vs-square/",
+      "image": "source-assets/images/articles/ja/cashless-payments/airpay-vs-square.jpg",
+      "fingerprint": "eb56af16895e92dc694b4571446f9f7ffce7e44b611c4cf556710cf81d5da579",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/paycas-mobile-review/",
+      "image": "source-assets/images/articles/ja/cashless-payments/paycas-mobile-review.jpg",
+      "fingerprint": "9d15ffaa9e2cb9c7016d3513fa06601f4f967053d7428f591d7714b62d48c898",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "image": "source-assets/images/articles/ja/cashless-payments/pos-register-vs-cashless-payment.jpg",
+      "fingerprint": "53683d72920ca9a9ae21e84b5579c60c8292142b8293a37e113b140576f0531a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/square-pos-review/",
+      "image": "source-assets/images/articles/ja/cashless-payments/square-pos-review.jpg",
+      "fingerprint": "2c1a60eddfe33b69f109aec9bf5d8446c62d256fe33a7082ffabe82d305653c1",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/cashless-payments/square-vs-paycas-mobile/",
+      "image": "source-assets/images/articles/ja/cashless-payments/square-vs-paycas-mobile.jpg",
+      "fingerprint": "62279c8c51529091f8759f11e4a18417b227505f2ebd5e1bf7f0ed05975af580",
       "status": "reused"
     },
     {
@@ -1395,9 +1833,21 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/hostinger-overseas-website-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-overseas-website-guide.jpg",
+      "fingerprint": "964ffd06df634db1605cebf6036dcf06385750c430eb2b44ec1d198b61c11ec5",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/hostinger-pricing-guide/",
       "image": "source-assets/images/articles/ja/hosting-security/hostinger-pricing-guide.jpg",
       "fingerprint": "be02b12cf2965138d1222da9ec99a90c4182e4f4473f65eec5a80a9924be803e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-pricing-renewal-cost-japan/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-pricing-renewal-cost-japan.jpg",
+      "fingerprint": "00b3644206f13beb64d72be1028c278784dde984ced251d3a6362e3807fc718a",
       "status": "reused"
     },
     {
@@ -1434,6 +1884,12 @@
       "route": "/ja/hosting-security/hostinger-vs-xserver/",
       "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-xserver.jpg",
       "fingerprint": "583d19e0a9af4dfda10c333e16d382415077e83b7371b62e9acc3074d8054234",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/hostinger-vs-xserver-small-business.jpg",
+      "fingerprint": "51d24c1113e5e3584a789b811e9468ff412f7d4d4d3a88de5d10c72da55f2438",
       "status": "reused"
     },
     {
@@ -1689,6 +2145,18 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/xserver-business-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-business-review.jpg",
+      "fingerprint": "be5732fb42dc216fb80da26201e08892167baa86d1fa13430ae7f5dccb114266",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-company-website-email-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-company-website-email-guide.jpg",
+      "fingerprint": "e12c13debc6a2f74c8fbef2c89eb487faab232faa2c717fb0fd037dd2fd51dae",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/xserver-for-wordpress-review/",
       "image": "source-assets/images/articles/ja/hosting-security/xserver-for-wordpress-review.jpg",
       "fingerprint": "e5f9c3694a3325f670e2177b41279a9d2c641f91616ccaf6b7aa7a6e30cb8317",
@@ -1707,9 +2175,51 @@
       "status": "reused"
     },
     {
+      "route": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-multiple-domain-site-guide.jpg",
+      "fingerprint": "960695eddb9ec74c2b67f380673e9bdf462406bd26bf11cf4ee1b95bb274130b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-rental-server-pricing.jpg",
+      "fingerprint": "20aaffcacabdf4ed2335febd5ab9cd2a150d37b4022fd23a6ec2c80a5e827757",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-rental-server-pros-cons.jpg",
+      "fingerprint": "603100d7f15ed736529ce961e27977eed7aba6af851a9a81fb9949ed39691236",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-rental-server-review/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-rental-server-review.jpg",
+      "fingerprint": "12965521ed20969cff3b2e882bd915ba7798bc6af383256b2e958a0739a085c7",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-vs-conoha-wing/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-vs-conoha-wing.jpg",
+      "fingerprint": "8a1f1d5d224d2dac60e957032d6337f2d42a4f884e8549e92b162dbf7694f284",
+      "status": "reused"
+    },
+    {
       "route": "/ja/hosting-security/xserver-vs-lolipop/",
       "image": "source-assets/images/articles/ja/hosting-security/xserver-vs-lolipop.jpg",
       "fingerprint": "59c94ab6a36e9e2a539347ad78229d647a53217c088093327809064d0017522d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-vs-xserver-business/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-vs-xserver-business.jpg",
+      "fingerprint": "234a2510720a19c5117c66a40f972f8e6767e7e263ca8c329254fc6a2ba1f79e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+      "image": "source-assets/images/articles/ja/hosting-security/xserver-wordpress-quick-start-guide.jpg",
+      "fingerprint": "660ea794a1849cceaa955b101d8e641f9f9fea8de0b221fdcff2c80eb25644a6",
       "status": "reused"
     },
     {
@@ -1917,6 +2427,108 @@
       "status": "reused"
     },
     {
+      "route": "/ja/store-dx/emeao-pos-review/",
+      "image": "source-assets/images/articles/ja/store-dx/emeao-pos-review.jpg",
+      "fingerprint": "ecbc921910dd4d01b1e1b685c99ad75d20235dabeec043636d374f56a4077263",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/funfo-review/",
+      "image": "source-assets/images/articles/ja/store-dx/funfo-review.jpg",
+      "fingerprint": "30d4a8095690c96ccb655bff6a31ddd0f031abd053222d8b3c78610cadddb64d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/funfo-vs-kantan-chumon/",
+      "image": "source-assets/images/articles/ja/store-dx/funfo-vs-kantan-chumon.jpg",
+      "fingerprint": "06c3629931a34c4064bab21a32fb991172744eb6cca9a3475d2421b2ac0c53fd",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/kantan-chumon-review/",
+      "image": "source-assets/images/articles/ja/store-dx/kantan-chumon-review.jpg",
+      "fingerprint": "96e204211636091184e071fd766dc82ba5f2203c2e58bf1e926d7b1c06cb551f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/mobile-order-system-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/mobile-order-system-guide.jpg",
+      "fingerprint": "b4f17c74b45a5ed6a565e6bcc15c9db5270d94616c62e81fcd648f16f2a9630d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/monday-multiple-store-operations/",
+      "image": "source-assets/images/articles/ja/store-dx/monday-multiple-store-operations.jpg",
+      "fingerprint": "2f393f780d532a5b54cf8b4c3a4582431b523878f9d63693d7cea4f5c558dde9",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/pos-subsidy-2026-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/pos-subsidy-2026-guide.jpg",
+      "fingerprint": "eb83e2c42f9dea67525a0afb355262b7ee1670e5f0d59cb368645ebb827842f1",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/restaurant-inbound-order-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/restaurant-inbound-order-guide.jpg",
+      "fingerprint": "c78f343e4db743ecdbd06fa390282ebdb9f25f44dcb63263520c65d280d56e5f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/restaurant-pos-selection-guide.jpg",
+      "fingerprint": "3b82ea9ea53d29b924cb6ebf18c54f37ca56740082aadbb61b28c6cdf2bbcd3b",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "image": "source-assets/images/articles/ja/store-dx/restaurant-pos-three-way-comparison.jpg",
+      "fingerprint": "991752972f31f66693b53c1bb4b3ef1fc2e2db1114d419cc8e5d0ea9e43a9489",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+      "image": "source-assets/images/articles/ja/store-dx/restaurant-pos-vs-mobile-order.jpg",
+      "fingerprint": "21bea751dcb6b5ea54aa02bc6649992a2fd99ef3535922f0419abb9d1e949e84",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/restaurant-sales-analysis-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/restaurant-sales-analysis-guide.jpg",
+      "fingerprint": "bc87af086c578c5dba16e12f841cbf8c6cc49228af9aab0279a3af6369243193",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/retail-store-dx-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/retail-store-dx-guide.jpg",
+      "fingerprint": "2cf318db4402245f2adbc6fd4e4c550d2d6739d90d420b0ae21e3b9b25d47e0a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/salon-store-dx-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/salon-store-dx-guide.jpg",
+      "fingerprint": "58061128094ffc5f4f991f2fd27975bb611803dd5cbbf5ece832a414800e8785",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/small-restaurant-dx-guide/",
+      "image": "source-assets/images/articles/ja/store-dx/small-restaurant-dx-guide.jpg",
+      "fingerprint": "1a1c08f00015be2814d6ba918d42440b829cd7b76f688aea63b36f4e13cdd0e0",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/store-dx-implementation-roadmap/",
+      "image": "source-assets/images/articles/ja/store-dx/store-dx-implementation-roadmap.jpg",
+      "fingerprint": "0fd7f8ba9ba01e0296618d1332881663aa4d2e823860b11acbe0e1b46946c28f",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/store-dx/store-dx-stack-comparison/",
+      "image": "source-assets/images/articles/ja/store-dx/store-dx-stack-comparison.jpg",
+      "fingerprint": "cf28244b769dae2b5c197a0cc3917a65ef09fdaaefa1218b388830a830d75707",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/beauty-salon-website-builder-comparison/",
       "image": "source-assets/images/articles/ja/website-builders/beauty-salon-website-builder-comparison.jpg",
       "fingerprint": "8d68e5b8037f7d311e1ccccd7b52f01a556e00bc7fe8399bf38dc059aa6da089",
@@ -2109,9 +2721,21 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/shopify-launch-checklist-small-store/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-launch-checklist-small-store.jpg",
+      "fingerprint": "0e0a7e9f834baa71fd12b57ced8d25edc4498e8590b859d72737536aabcc03ad",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/shopify-pricing-guide/",
       "image": "source-assets/images/articles/ja/website-builders/shopify-pricing-guide.jpg",
       "fingerprint": "cf25f2c4fba82bc0f59c62c2e41af0d7ab1cb5a9c4851c0bdd60e97deb0ae098",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-pricing-total-cost-japan/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-pricing-total-cost-japan.jpg",
+      "fingerprint": "464339547a4e07b50cf832274e5caaa119ae87e819ca57ab94c17818858da89c",
       "status": "reused"
     },
     {
@@ -2121,9 +2745,21 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/shopify-vs-base-small-business/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-vs-base-small-business.jpg",
+      "fingerprint": "647d3d98e315ff666d61d7921f32b65c8f31415131e2cae46761225c74e11788",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/shopify-vs-hostinger-website-builder/",
       "image": "source-assets/images/articles/ja/website-builders/shopify-vs-hostinger-website-builder.jpg",
       "fingerprint": "f7c365278da81cc07e1f71322ea626edb7a6a12e30c2dac25af1c54e03a6d583",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/shopify-vs-stores-small-business/",
+      "image": "source-assets/images/articles/ja/website-builders/shopify-vs-stores-small-business.jpg",
+      "fingerprint": "48d55825f17a229ed35c46e2f35d667ec1e61de3c304a09ec4f87f41a0b471db",
       "status": "reused"
     },
     {

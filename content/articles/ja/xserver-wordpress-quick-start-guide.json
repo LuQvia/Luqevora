@@ -1,0 +1,209 @@
+{
+  "id": "xserver-wordpress-quick-start-guide-ja",
+  "translationKey": "xserver-wordpress-quick-start-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "xserver-wordpress-quick-start-guide",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "広告掲載・公式情報検証",
+  "title": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+  "metaTitle": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+  "description": "エックスサーバーでWordPressを始める手順を解説。クイックスタート、簡単インストール、簡単移行、SSL、DNS、公開前確認を整理します。",
+  "lead": "新規サイトは申込み時のクイックスタートまたは契約後の簡単インストール、既存サイトはWordPress簡単移行を利用できます。自動化できる範囲と、DNS切替、メール、外部サービス、バックアップを手作業で確認する範囲を分けることが重要です。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "公式のWordPress開始手順を確認",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "affiliateKey": "xserver-wordpress-guide"
+    }
+  ],
+  "sources": [
+    {
+      "label": "エックスサーバー公式サイト",
+      "url": "https://www.xserver.ne.jp/"
+    },
+    {
+      "label": "エックスサーバー料金プラン",
+      "url": "https://www.xserver.ne.jp/price/index.php"
+    },
+    {
+      "label": "エックスサーバー機能一覧",
+      "url": "https://www.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "エックスサーバー特長",
+      "url": "https://www.xserver.ne.jp/feature/"
+    },
+    {
+      "label": "独自ドメイン永久無料特典",
+      "url": "https://www.xserver.ne.jp/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "自動バックアップ機能",
+      "url": "https://www.xserver.ne.jp/functions/service_backup.php"
+    },
+    {
+      "label": "WordPress簡単インストール",
+      "url": "https://www.xserver.ne.jp/manual/man_install_auto_word.php"
+    },
+    {
+      "label": "WordPress簡単移行",
+      "url": "https://www.xserver.ne.jp/manual/man_install_transfer_wp.php"
+    },
+    {
+      "label": "エックスサーバーサポート",
+      "url": "https://www.xserver.ne.jp/support/"
+    },
+    {
+      "label": "法人向けレンタルサーバー選び方ガイド",
+      "url": "https://www.xserver.ne.jp/comparison/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "新規サイトの2つの始め方",
+      "body": [
+        "申込み時にドメイン取得、SSL、WordPress設置をまとめるクイックスタートと、通常契約後にサーバーパネルから簡単インストールする方法があります。試用したい場合は通常申込み、最短で公開準備したい場合はクイックスタートを比較します。",
+        "管理者名、メールアドレス、パスワードは公開情報や他サービスと使い回さず、二段階認証、バックアップ、更新担当を設定します。"
+      ]
+    },
+    {
+      "heading": "既存WordPressの移行",
+      "body": [
+        "簡単移行では移行元URLとWordPressログイン情報を使いますが、特殊構成、容量、認証、セキュリティプラグイン等で失敗する場合があります。移行前に元サーバーのファイル・DBを取得し、テストURLで表示と管理画面を確認します。",
+        "DNS切替後も旧サーバーを一定期間残し、フォーム、メール、決済、予約、アクセス解析、キャッシュ、cronを確認してから解約します。"
+      ]
+    },
+    {
+      "heading": "基本仕様と料金の読み方",
+      "body": [
+        "通常の36か月契約時の月額換算はスタンダード990円、プレミアム1,980円、ビジネス3,960円です。初期費用は無料で、容量は500GB、600GB、700GBのNVMeです。表示額は契約期間分を月割りした金額なので、申込み時の支払総額を確認します。",
+        "キャンペーンのキャッシュバックや実質月額は期限と条件があります。長期運用の判断では通常更新料金、自動更新、ドメイン維持条件、移行費、外部バックアップ費を基準にします。"
+      ],
+      "table": {
+        "headers": [
+          "プラン",
+          "36か月の通常月額換算",
+          "容量",
+          "主な差分"
+        ],
+        "rows": [
+          [
+            "スタンダード",
+            "990円",
+            "500GB NVMe",
+            "基本機能、条件付きで独自ドメイン最大2つ"
+          ],
+          [
+            "プレミアム",
+            "1,980円",
+            "600GB NVMe",
+            "対象ドメイン拡大、Xwrite無料特典"
+          ],
+          [
+            "ビジネス",
+            "3,960円",
+            "700GB NVMe",
+            "法人向け管理・改ざん検知・無料代行枠"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "WordPress・バックアップ・セキュリティ",
+      "body": [
+        "WordPress簡単インストール、簡単移行、サイトコピー、リカバリー、無料SSL、WAFなどが提供されています。自動バックアップはWeb・メールとMySQLを過去14日分保持すると案内されています。",
+        "バックアップがあることと、必要時間内に復元できることは別です。テーマ更新、プラグイン変更、移行前には自分でもファイルとデータベースを取得し、DNS、外部ストレージ、SaaS設定も別に保全します。"
+      ]
+    },
+    {
+      "heading": "複数サイト・メール運用",
+      "body": [
+        "マルチドメイン、サブドメイン、メールアカウント、FTPアカウントは無制限と案内されています。多数のサイトを置く場合は、容量だけでなくCPU・メモリ、同時処理、障害影響、権限、請求の集中を確認します。",
+        "メールではDKIM、DMARC、迷惑メール対策、転送、Webメールが利用できます。業務メールを運用する場合は、SPF/DKIM/DMARC、退職者アカウント、共有パスワード、配送ログ、Google Workspace等との併用を設計します。"
+      ]
+    },
+    {
+      "heading": "契約前チェック",
+      "body": [
+        "10日間の無料お試しで管理画面や通常申込みを確認できますが、WordPressクイックスタートなど申込み方法によって試用条件が異なる場合があります。広告成果は6か月以上の契約が条件でも、読者には利用目的に合う期間を案内します。"
+      ],
+      "bullets": [
+        "通常更新料金と支払総額を確認する",
+        "ドメイン特典の契約期間・自動更新条件を確認する",
+        "試用とクイックスタートの違いを確認する",
+        "バックアップからの復元手順を試す",
+        "電話は平日、メールは24時間受付など窓口時間を分けて確認する"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "エックスサーバーの通常料金はいくらですか？",
+      "answer": "公式機能一覧では36か月契約時の月額換算がスタンダード990円、プレミアム1,980円、ビジネス3,960円です。契約期間分の支払総額と最新キャンペーンを申込画面で確認してください。"
+    },
+    {
+      "question": "10日間無料お試しはありますか？",
+      "answer": "通常のサーバー申込みには10日間無料のお試しが案内されています。WordPressクイックスタートなど申込み方法により条件が異なるため確認が必要です。"
+    },
+    {
+      "question": "バックアップは何日分ですか？",
+      "answer": "公式機能一覧ではWeb・メールデータとMySQLデータベースを過去14日分保持します。外部サービスやDNSを含む独立バックアップも用意してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
+    },
+    {
+      "label": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+      "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "エックスサーバーの長所と注意点を、WordPress、料金、バックアップ、複数サイト、メール、サポート、契約条件から整理します。"
+    },
+    {
+      "label": "エックスサーバーで複数サイトを運営する方法｜ドメイン・メール管理",
+      "url": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+      "description": "エックスサーバーで複数ドメイン、サブドメイン、WordPress、メール、FTPを管理する方法と、権限・バックアップ・費用の注意点を解説します。"
+    },
+    {
+      "label": "会社ホームページと独自ドメインメールをエックスサーバーで準備する方法",
+      "url": "/ja/hosting-security/xserver-company-website-email-guide/",
+      "description": "会社ホームページ、独自ドメイン、メール、SSL、WordPress、担当者権限、バックアップをエックスサーバーで準備する手順を整理します。"
+    },
+    {
+      "label": "エックスサーバーとConoHa WINGを比較｜料金・契約・WordPressの違い",
+      "url": "/ja/hosting-security/xserver-vs-conoha-wing/",
+      "description": "エックスサーバーとConoHa WINGを、通常料金、長期契約、短期利用、容量、WordPress、ドメイン、バックアップ、サポートから比較します。"
+    },
+    {
+      "label": "エックスサーバーとロリポップ！を比較｜初心者向けの選び方",
+      "url": "/ja/hosting-security/xserver-vs-lolipop/",
+      "description": "エックスサーバーとロリポップ！を、料金、容量、WordPress、バックアップ、電話サポート、複数サイト運用から比較します。"
+    },
+    {
+      "label": "XServerビジネスレビュー｜共有・仮想・物理専用サーバーの選び方",
+      "url": "/ja/hosting-security/xserver-business-review/",
+      "description": "XServerビジネスを公式情報で検証。共有サーバー、仮想・物理マネージド専用サーバー、料金、SLA、管理機能、サポートを解説します。"
+    },
+    {
+      "label": "エックスサーバーとXServerビジネスの違い｜法人はどちらを選ぶべきか",
+      "url": "/ja/hosting-security/xserver-vs-xserver-business/",
+      "description": "一般向けエックスサーバーとXServerビジネスを、料金、初期費用、管理権限、設定代行、セキュリティ、専用環境、サポートから比較します。"
+    }
+  ]
+}

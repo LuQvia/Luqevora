@@ -1,0 +1,128 @@
+{
+  "id": "store-dx-stack-comparison-ja",
+  "translationKey": "store-dx-stack-comparison",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "store-dx-stack-comparison",
+  "category": "store-dx",
+  "topic": "store-backoffice-integration",
+  "badge": "店舗DX構成比較",
+  "title": "店舗DXツール構成比較｜POS・決済・予約・LINE・会計の組み合わせ方",
+  "metaTitle": "店舗DXツール構成比較｜POS・決済・予約・LINE・会計の組み合わせ方",
+  "description": "店舗DXのツール構成を、飲食店、美容サロン、小売店、サービス店舗別に比較し、連携・データ・総費用の確認方法を整理します。",
+  "lead": "単体製品の機能だけでは、店舗全体の運用は判断できません。重要なのは、会計、予約、顧客接点、入金、会計ソフトへデータがどのようにつながるかです。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "店舗DX無料診断で構成を整理する",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES 予約 — 機能一覧",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE公式アカウント — サービス概要",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee会計 — 公式サービスページ",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "マネーフォワード クラウド会計 — POSレジ連携",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "比較するのは製品ではなく業務の接続",
+      "body": [
+        "POS、決済、予約、LINE、会計を個別に安く契約しても、重複入力やデータ不一致が残れば店舗DXの効果は限定的です。",
+        "各サービスについて、入力元、連携先、同期頻度、エラー時の修正担当、CSV出力、解約後のデータ保持を一覧にします。"
+      ]
+    },
+    {
+      "heading": "飲食店の基本構成",
+      "body": [
+        "会計と注文が中心になるため、POS、決済、注文管理、売上分析を優先します。店内モバイルオーダーは注文受付の負担を減らせますが、厨房・提供工程も同時に確認します。",
+        "候補例としてAirレジとAirペイの一体運用、Square POSとSquare決済、飲食店向けのfunfoやかんたん注文、複数業者の比較相談があります。"
+      ]
+    },
+    {
+      "heading": "美容サロンの基本構成",
+      "body": [
+        "予約枠、スタッフ、メニュー、顧客カルテ、来店履歴、事前決済、再来店案内のつながりを重視します。POSより予約管理の優先度が高い店舗もあります。",
+        "STORES 予約などの予約基盤、LINE公式アカウント、POS・決済、会計を段階的につなぎます。顧客情報を複数システムに重複保存する場合は更新ルールを決めます。"
+      ]
+    },
+    {
+      "heading": "小売店の基本構成",
+      "body": [
+        "商品マスタ、在庫、バーコード、返品、値引き、複数店舗、決済、会計の順に確認します。在庫数が合わない場合は、オンライン販売や取り置きも含めた在庫更新ルールが必要です。",
+        "無料POSを選ぶ場合でも、在庫上限、棚卸し、複数店舗、権限、周辺機器、EC連携が必要かを先に確認します。"
+      ]
+    },
+    {
+      "heading": "会計連携で確認する項目",
+      "body": [
+        "POS売上が日次合計か明細単位か、支払方法がどの勘定・口座へ連携されるか、決済手数料と入金差額をどう処理するかを確認します。",
+        "Airレジとfreee会計のような公式連携や、マネーフォワード クラウド会計のPOS連携一覧を参照し、同じ売上の二重登録を避けます。"
+      ]
+    },
+    {
+      "heading": "総費用を同じ期間で比較する",
+      "body": [
+        "初期費用、端末、月額、決済手数料、予約決済手数料、オプション、通信、保守、設定支援を12か月または36か月で比較します。",
+        "無料プランは検証に有効ですが、予約件数、配信通数、スタッフ数、店舗数などの上限を超えたときの費用も計算します。"
+      ]
+    },
+    {
+      "heading": "構成を決める判断基準",
+      "body": [
+        "最優先課題が一つ解消され、現場が毎日使え、数字が月次で一致し、データを取り出せることを基準にします。",
+        "機能数の多さより、スタッフ教育、障害時の代替手順、問い合わせ窓口、契約変更のしやすさを含めて選びます。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "POSと決済は同じ会社にそろえるべきですか？",
+      "answer": "金額連携や問い合わせは簡単になりやすい一方、決済ブランドや料金の選択肢が狭くなる場合があります。連携精度と総費用を比較してください。"
+    },
+    {
+      "question": "予約とLINEは連携必須ですか？",
+      "answer": "必須ではありません。予約確認やリマインドをLINEで行う場合は有効ですが、顧客同意、配信通数、更新元を明確にしてください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "店舗DX導入ロードマップ",
+      "url": "/ja/store-dx/store-dx-implementation-roadmap/",
+      "description": "導入順序と30日ごとの確認方法を整理します。"
+    },
+    {
+      "label": "美容サロンの店舗DXガイド",
+      "url": "/ja/store-dx/salon-store-dx-guide/",
+      "description": "予約と顧客管理を中心に構成します。"
+    },
+    {
+      "label": "小売店の店舗DXガイド",
+      "url": "/ja/store-dx/retail-store-dx-guide/",
+      "description": "POS、在庫、決済、会計のつながりを整理します。"
+    }
+  ]
+}

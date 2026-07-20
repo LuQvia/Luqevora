@@ -1,0 +1,162 @@
+{
+  "id": "restaurant-pos-selection-guide-en",
+  "translationKey": "restaurant-pos-selection-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "restaurant-pos-selection-guide",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Implementation guide",
+  "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+  "metaTitle": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+  "description": "A practical restaurant POS checklist covering ordering, checkout, kitchen workflows, analytics, support, and total cost.",
+  "lead": "A restaurant POS should be selected around the complete workflow from ordering to checkout, closing, and analysis. Comparing feature counts or headline monthly prices alone often creates an expensive system that staff avoid.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Review restaurant POS consultation options",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "affiliateKey": "kantan-chumon-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wiz — Kantan Chumon official page",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    },
+    {
+      "label": "EMEAO! POS vendor selection guide",
+      "url": "https://emeao.jp/guide/pos/"
+    },
+    {
+      "label": "EMEAO! POS vendor directory",
+      "url": "https://emeao.jp/search-pos/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Define the operating problem first",
+      "body": [
+        "Quantify order delays, checkout queues, entry mistakes, closing time, cost visibility, and multi-store reporting before reviewing products.",
+        "Separate requirements for floor staff, managers, accounting, and owners into daily, occasional, and unnecessary functions."
+      ]
+    },
+    {
+      "heading": "Twelve criteria to compare",
+      "body": [
+        "Compare ordering, tables, split bills, kitchen output, payments, menu setup, permissions, analytics, accounting, multi-store support, incident response, and exports.",
+        "Model a three-year total including devices, printers, installation, setup, training, payment fees, support, and cancellation."
+      ],
+      "bullets": [
+        "Steps from order to payment",
+        "Peak-period handling",
+        "Required peripherals",
+        "Data portability"
+      ]
+    },
+    {
+      "heading": "When mobile ordering matters",
+      "body": [
+        "It is more valuable for repeated-order formats, staffing shortages, and large dining rooms. It is less essential for fixed-course or recommendation-led service.",
+        "Test sold-out items, allergens, additional orders, split payment, and age-restricted items instead of only the happy path."
+      ]
+    },
+    {
+      "heading": "Analytics must lead to action",
+      "body": [
+        "Time, day, item, and basket analysis only matters when someone reviews it and changes pricing, staffing, or the menu.",
+        "Partner material for Kantan Chumon describes detailed analysis. Confirm exports, date filters, store comparisons, permissions, and accounting integration."
+      ]
+    },
+    {
+      "heading": "Common selection failures",
+      "body": [
+        "A low entry price can become expensive after necessary options are added. A feature-heavy plan can also fail when staff return to paper.",
+        "Subsidy deadlines can push restaurants into premature purchases or ineligible spending. Do not buy unnecessary functions merely because funding may be available."
+      ]
+    },
+    {
+      "heading": "Final selection process",
+      "body": [
+        "Shortlist three products and use the same store scenario, question list, and quotation format. Include the staff who will enter orders and complete checkout.",
+        "Agree on KPIs, training, parallel operation, incident contacts, migration, and export procedures before signing."
+      ]
+    },
+    {
+      "heading": "Use a scored demonstration instead of a generic sales presentation",
+      "body": [
+        "Give every shortlisted vendor the same operating script. It should include opening, item registration, modifiers, course or set menus, sold-out handling, table transfer, split bills, discounts, refunds, cash and cashless payment, kitchen routing, closing, data export, staff permissions, and network failure. Score whether each task is standard, optional, externally integrated, manually handled, or unavailable. Record the number of steps and the training required for temporary staff.",
+        "Commercial comparison should cover implementation, devices, printers, payment terminals, monthly fees, transaction charges, support, maintenance, replacement equipment, contract period, cancellation, migration, and data ownership. Ask for a written configuration and quotation that matches the demonstration. A low monthly fee is not automatically the lowest total cost when required hardware, additional accounts, payment processing, and support are excluded.",
+        "Require a short written response for every failed demonstration item. The vendor should state whether the gap can be solved by configuration, development, another product, or a manual process, together with cost, delivery time, and the party responsible for support."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a restaurant start with a free POS?",
+      "answer": "Yes, especially at small scale, but ordering, peripherals, support, and exports may require paid options. Compare the three-year total."
+    },
+    {
+      "question": "How many vendors should be compared?",
+      "answer": "Three qualified vendors usually provide enough contrast without making the evaluation unmanageable."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review Kantan Chumon for Japanese restaurants, including mobile ordering, multilingual menus, subsidy considerations, and implementation checks."
+    },
+    {
+      "label": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "description": "Plan in-store mobile ordering across menu design, staff operations, failure handling, training, and measurable outcomes."
+    },
+    {
+      "label": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+      "url": "/en/store-dx/small-restaurant-dx-guide/",
+      "description": "Prioritize POS, mobile ordering, reservations, payments, and accounting for a small restaurant based on operating impact."
+    },
+    {
+      "label": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+      "url": "/en/store-dx/restaurant-inbound-order-guide/",
+      "description": "Plan multilingual restaurant ordering across English and Chinese screens, allergens, payments, and staff exception handling."
+    },
+    {
+      "label": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+      "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "description": "Use restaurant POS data to improve hourly sales, item mix, average order value, additional orders, and table turnover."
+    },
+    {
+      "label": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+      "url": "/en/store-dx/pos-subsidy-2026-guide/",
+      "description": "Understand Japan’s 2026 Digitalization and AI Implementation Subsidy when evaluating a restaurant POS purchase."
+    },
+    {
+      "label": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "description": "Compare the roles, integration, cost, and best use cases of restaurant POS and mobile ordering systems."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "restaurant-pos-selection-guide-ja",
+  "translationKey": "restaurant-pos-selection-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "restaurant-pos-selection-guide",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "広告掲載・実践ガイド",
+  "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+  "metaTitle": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+  "description": "飲食店向けPOSレジを、注文方式、会計、キッチン連携、売上分析、サポート、総費用から選ぶ実務チェックリストです。",
+  "lead": "飲食店向けPOSレジは、月額の安さよりも、注文から会計、締め作業、分析までの一連の流れが店舗に合うかで選ぶべきです。機能数だけで比較すると、現場で使われない高価なシステムになります。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "飲食店向けPOSの相談条件を確認する",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "affiliateKey": "kantan-chumon-analysis"
+    },
+    {
+      "label": "funfoを無料プランから確認する",
+      "officialUrl": "https://www.funfo.jp/",
+      "affiliateKey": "funfo-short"
+    },
+    {
+      "label": "EMEAO!で複数のPOSレジ業者候補を比較する",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "affiliateKey": "emeao-pos-company"
+    }
+  ],
+  "sources": [
+    {
+      "label": "株式会社Wiz「かんたん注文」公式ページ",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    },
+    {
+      "label": "EMEAO!「POSレジ・システム」業者選定ガイド",
+      "url": "https://emeao.jp/guide/pos/"
+    },
+    {
+      "label": "EMEAO!「POSレジ／システム業者を検索」",
+      "url": "https://emeao.jp/search-pos/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "最初に決めるのはレジではなく業務課題",
+      "body": [
+        "注文待ち、会計行列、入力ミス、締め作業、原価把握、複数店舗管理のうち、何を改善するかを一つずつ数値化します。課題が曖昧なままデモを見ると、目立つ機能に判断が引っ張られます。",
+        "現場スタッフ、店長、経理、経営者で必要機能が異なるため、利用者別に「毎日使う」「月に一度使う」「不要」を分けます。"
+      ],
+      "affiliateMaterialKey": "kantan-chumon-analysis",
+      "affiliateNote": "広告リンクです。料金・対象機能・補助金条件は申込前に公式画面で確認してください。"
+    },
+    {
+      "heading": "比較すべき12項目",
+      "body": [
+        "注文方式、テーブル管理、個別会計、キッチン出力、決済連携、商品登録、権限、売上分析、会計連携、複数店舗、障害対応、データ出力を同じ表で比較します。",
+        "料金は初期費用と月額だけでなく、端末、プリンター、工事、設定、研修、決済手数料、保守、解約費用まで含めた3年間総額で確認します。"
+      ],
+      "bullets": [
+        "注文から会計までの操作数",
+        "ピーク時の処理速度",
+        "必要な周辺機器",
+        "データの持ち出し可否"
+      ],
+      "affiliateMaterialKey": "funfo-short",
+      "affiliateNote": "funfoの広告リンクです。無料版の範囲、有料プラン、周辺機器費用は公式料金ページで確認してください。"
+    },
+    {
+      "heading": "モバイルオーダーの必要性",
+      "body": [
+        "注文回数が多い業態、人手不足、広い客席では効果が出やすい一方、コース中心や接客提案が重要な店舗では必須ではありません。セルフ注文率を100%前提にせず、スタッフ注文と併用できるか確認します。",
+        "注文画面の見やすさ、売り切れ反映、アレルギー表示、追加注文、会計分割、年齢確認など、実際の例外処理をデモで試します。"
+      ]
+    },
+    {
+      "heading": "売上分析は項目より行動につながるか",
+      "body": [
+        "時間帯別、曜日別、商品別、客単価、組み合わせ分析があっても、誰がいつ確認し、何を変更するか決まっていなければ価値は出ません。毎週見る指標を3つに絞ります。",
+        "かんたん注文の広告主資料では細かな分析機能が案内されています。導入前に、CSV出力、期間指定、店舗比較、権限、会計ソフト連携を確認してください。"
+      ]
+    },
+    {
+      "heading": "よくある失敗",
+      "body": [
+        "最安プランで契約して必要機能を追加し、結果的に高くなる失敗があります。逆に多機能プランを選び、現場が従来の紙運用へ戻る例もあります。",
+        "補助金を理由に導入を急ぎ、交付決定前の発注や対象外経費で計画が崩れることもあります。制度に合わせて不要な機能を買うのは本末転倒です。"
+      ]
+    },
+    {
+      "heading": "最終選定の進め方",
+      "body": [
+        "候補を3社に絞り、同じ店舗条件と質問票でデモと見積を依頼します。店長だけでなく、実際に注文と会計を行うスタッフに操作してもらいます。",
+        "導入前後のKPI、教育日程、旧レジとの並行期間、障害時の連絡先、データ移行、解約時の出力方法まで決めてから契約します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "無料POSから始めてもよいですか？",
+      "answer": "小規模店舗では有効ですが、注文管理、周辺機器、サポート、データ出力まで必要になると有料機能が増えます。3年間総額で比較してください。"
+    },
+    {
+      "question": "何社比較すべきですか？",
+      "answer": "条件を揃えて3社程度を比較すると、確認負担と選択肢のバランスが取りやすくなります。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+      "url": "/ja/store-dx/emeao-pos-review/",
+      "description": "POSレジ・システム業者紹介サービスEMEAO!を、仕組み、無料の範囲、最大紹介社数、ヒアリング、メリット、注意点から公式情報で検証します。"
+    },
+    {
+      "label": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+      "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "飲食店向けPOSのfunfo、かんたん注文、業者紹介サービスEMEAO!を、無料試用、個別提案、複数社比較、料金、導入方法から比較します。"
+    },
+    {
+      "label": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "description": "飲食店向けタブレット型POSレジ「かんたん注文」を、モバイルオーダー、多言語対応、補助金、導入前の確認事項から検証します。"
+    },
+    {
+      "label": "飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点",
+      "url": "/ja/store-dx/mobile-order-system-guide/",
+      "description": "店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。"
+    },
+    {
+      "label": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+      "url": "/ja/store-dx/small-restaurant-dx-guide/",
+      "description": "小規模飲食店がPOS、モバイルオーダー、予約、決済、会計をどの順番で導入すべきか、費用対効果から整理します。"
+    },
+    {
+      "label": "飲食店のインバウンド対応｜多言語モバイルオーダー導入チェックリスト",
+      "url": "/ja/store-dx/restaurant-inbound-order-guide/",
+      "description": "英語・中国語の注文画面、アレルギー、決済、スタッフ対応を含む、飲食店の多言語モバイルオーダー導入手順です。"
+    },
+    {
+      "label": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+      "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+      "description": "飲食店がPOSデータから時間帯、曜日、商品、客単価、追加注文、回転率を改善するための分析手順を解説します。"
+    },
+    {
+      "label": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+      "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+      "description": "デジタル化・AI導入補助金2026を使ってPOSレジを導入する際の対象確認、申請、交付決定、契約時期の注意点を整理します。"
+    },
+    {
+      "label": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+      "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+      "description": "POSレジとモバイルオーダーの役割、連携、費用、向いている店舗を比較し、導入順序を判断できるように解説します。"
+    },
+    {
+      "label": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+      "url": "/ja/store-dx/funfo-review/",
+      "description": "飲食店向けPOSレジ・モバイルオーダーアプリfunfoを、無料プラン、有料料金、LINE連携、多言語、導入設備、注意点から公式情報で検証します。"
+    }
+  ]
+}

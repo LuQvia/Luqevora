@@ -203,6 +203,26 @@
       "label": "WordPress hosting in Japan",
       "url": "/en/hosting-security/best-wordpress-hosting-japan/",
       "description": "Compare five Japan-focused services"
+    },
+    {
+      "label": "XServer Review: Pricing, Features, and Contract Limits",
+      "url": "/en/hosting-security/xserver-rental-server-review/",
+      "description": "An official-source XServer review covering pricing, storage, WordPress, domains, backups, email, support, and contract constraints."
+    },
+    {
+      "label": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+      "url": "/en/hosting-security/xserver-rental-server-pricing/",
+      "description": "Compare XServer Standard, Premium, and Business by normal pricing, storage, domain benefits, Xwrite, business controls, and prepaid terms."
+    },
+    {
+      "label": "XServer Pros and Cons: What to Check Before Contracting",
+      "url": "/en/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "Assess XServer advantages and limits across WordPress, pricing, backups, multiple sites, email, support, and contract conditions."
+    },
+    {
+      "label": "Starting WordPress on XServer: Quick Start, Installation, and Migration",
+      "url": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+      "description": "A practical XServer WordPress guide covering Quick Start, installation, migration, SSL, DNS, backups, and pre-launch checks."
     }
   ]
 }

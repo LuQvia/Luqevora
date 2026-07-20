@@ -1,0 +1,801 @@
+{
+  "generatedAt": "2026-07-20T13:23:07.419Z",
+  "scope": "Luqevora v4.0 cashless payments",
+  "routes": 16,
+  "checks": 158,
+  "passed": 158,
+  "failed": 0,
+  "failures": [],
+  "checksDetail": [
+    {
+      "name": "ja category page",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja topic cashless-payment-services",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja topic pos-payment-integration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-review/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-review/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-pos-review/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/paycas-mobile-review/ internal related links",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/airpay-vs-square/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/square-vs-paycas-mobile/ internal related links",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/air-regi-vs-square-pos/ internal related links",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/ja/cashless-payments/pos-register-vs-cashless-payment/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "en category page",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en topic cashless-payment-services",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en topic pos-payment-integration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-review/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-review/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-pos-review/ internal related links",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/paycas-mobile-review/ internal related links",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/airpay-vs-square/ internal related links",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/square-vs-paycas-mobile/ internal related links",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/air-regi-vs-square-pos/ internal related links",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ file",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ sitemap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ RSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ search",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ Article schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ FAQ schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "/en/cashless-payments/pos-register-vs-cashless-payment/ internal related links",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "catalog air-regi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog category air-regi",
+      "pass": true,
+      "detail": "cashless-payments"
+    },
+    {
+      "name": "catalog sources air-regi",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "catalog airpay",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog category airpay",
+      "pass": true,
+      "detail": "cashless-payments"
+    },
+    {
+      "name": "catalog sources airpay",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "name": "catalog square-pos",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog category square-pos",
+      "pass": true,
+      "detail": "cashless-payments"
+    },
+    {
+      "name": "catalog sources square-pos",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "catalog paycas-mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog category paycas-mobile",
+      "pass": true,
+      "detail": "cashless-payments"
+    },
+    {
+      "name": "catalog sources paycas-mobile",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "ja/air-regi-vs-square-pos A8 key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/air-regi-vs-square-pos A8 click URL",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/air-regi-vs-square-pos A8 pixel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/air-regi-vs-square-pos first-view disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/pos-register-vs-cashless-payment A8 key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/pos-register-vs-cashless-payment A8 click URL",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/pos-register-vs-cashless-payment A8 pixel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/pos-register-vs-cashless-payment first-view disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/air-regi-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/air-regi-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/airpay-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/airpay-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/square-pos-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/square-pos-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/paycas-mobile-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja/paycas-mobile-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/air-regi-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/air-regi-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/airpay-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/airpay-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/square-pos-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/square-pos-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/paycas-mobile-review official CTA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en/paycas-mobile-review no fabricated A8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "site validation errors",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "site validation warnings",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "content audit errors",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "content audit warnings",
+      "pass": true,
+      "detail": "0"
+    }
+  ]
+}

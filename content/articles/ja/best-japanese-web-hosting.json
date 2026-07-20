@@ -295,6 +295,26 @@
       "label": "シンレンタルサーバーとmixhost",
       "url": "/ja/hosting-security/shin-rental-server-vs-mixhost/",
       "description": "更新料金とWordPress機能を比較"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
+    },
+    {
+      "label": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+      "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "エックスサーバーの長所と注意点を、WordPress、料金、バックアップ、複数サイト、メール、サポート、契約条件から整理します。"
+    },
+    {
+      "label": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+      "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+      "description": "エックスサーバーでWordPressを始める手順を解説。クイックスタート、簡単インストール、簡単移行、SSL、DNS、公開前確認を整理します。"
     }
   ]
 }

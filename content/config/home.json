@@ -1,17 +1,17 @@
 {
   "featuredComparisons": [
-    "ochanoko-saisai-vs-goope",
-    "shin-rental-server-vs-xserver",
-    "color-me-shop-vs-shopify",
-    "jimdo-vs-wix",
-    "xserver-shop-vs-shopify"
+    "airpay-vs-square",
+    "air-regi-vs-square-pos",
+    "pos-register-vs-cashless-payment",
+    "restaurant-pos-three-way-comparison",
+    "xserver-vs-conoha-wing"
   ],
   "featuredReviews": [
-    "ochanoko-saisai-review",
-    "jimdo-review",
-    "shin-rental-server-review",
-    "color-me-shop-review",
-    "goope-review",
-    "chatgpt-review"
+    "air-regi-review",
+    "airpay-review",
+    "square-pos-review",
+    "paycas-mobile-review",
+    "kantan-chumon-review",
+    "xserver-rental-server-review"
   ]
 }

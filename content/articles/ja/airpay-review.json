@@ -1,0 +1,147 @@
+{
+  "id": "airpay-review-ja",
+  "translationKey": "airpay-review",
+  "language": "ja",
+  "type": "review",
+  "status": "published",
+  "slug": "airpay-review",
+  "category": "cashless-payments",
+  "topic": "cashless-payment-services",
+  "badge": "公式情報レビュー",
+  "title": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+  "metaTitle": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+  "description": "Airペイの通常手数料、2.48%プログラム、対応ブランド、月3回・6回の入金、Airレジ連携を公式情報で確認します。",
+  "lead": "Airペイは、カード、電子マネー、QRコード決済を店舗で受け付けるサービスです。月額固定費と振込手数料は0円ですが、決済方法ごとの料率、2.48%ディスカウントの適用条件、端末環境、入金サイクルを分けて確認する必要があります。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Airペイの申込条件と最新手数料を確認",
+      "officialUrl": "https://airpayment.jp/",
+      "affiliateKey": "airpay-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airペイ — 決済手数料・振込手数料",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/218985588-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E6%8C%AF%E8%BE%BC%E6%89%8B%E6%95%B0%E6%96%99"
+    },
+    {
+      "label": "Airペイ — 決済手数料ディスカウントプログラム",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/39897820982553-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    },
+    {
+      "label": "Airペイ — 入金サイクル",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/219379377-%E5%85%A5%E9%87%91-%E6%8C%AF%E8%BE%BC-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%81%A8%E6%8C%AF%E8%BE%BC%E9%87%91%E9%A1%8D%E3%81%AE%E7%A2%BA%E8%AA%8D%E6%96%B9%E6%B3%95"
+    },
+    {
+      "label": "Airペイ — 対応している決済の種類",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/212207478-%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E6%B1%BA%E6%B8%88%E3%81%AE%E7%A8%AE%E9%A1%9E"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：Airレジ連携と幅広い決済を重視する店舗向け",
+      "body": [
+        "Airレジと会計金額を連携しながら、主要カード、交通系電子マネー、iD、QUICPay、QRコード決済をまとめたい店舗に適しています。固定費0円で始めやすい点も強みです。",
+        "ただし、すべての取引が同じ料率ではありません。決済ブランド、課税区分、ディスカウント審査、金融機関、利用アプリによって実効コストと入金日が変わります。"
+      ]
+    },
+    {
+      "heading": "決済手数料を正しく読む",
+      "body": [
+        "通常のVisa、Mastercard、American Express、JCB、Diners Club、Discover、iD、QUICPay、銀聯は3.24%と案内されています。交通系電子マネーと楽天Edyは2.95%税別、COIN+は0.99%税別、多くのQR決済は2.95%税別です。",
+        "主要カードの2.48%はディスカウントプログラムの審査と適用条件があります。広告上の最小料率ではなく、自店のカード・電子マネー・QR比率を使って加重平均を計算してください。"
+      ]
+    },
+    {
+      "heading": "入金と資金繰り",
+      "body": [
+        "Airペイ・Airペイ タッチは、みずほ銀行、三菱UFJ銀行、三井住友銀行では月6回、その他の金融機関では月3回が案内されています。振込手数料は無料です。",
+        "オンライン決済やAirペイ QRなどは別の入金サイクルになる場合があります。店舗の資金繰り表には、決済機能ごとの締日・入金日を分けて登録します。"
+      ]
+    },
+    {
+      "heading": "対応決済と機器",
+      "body": [
+        "カードリーダーを使うカード決済、交通系電子マネー、iD、QUICPay、各種QRに対応します。ブランドごとに審査完了時期が異なるため、開店日に全ブランドが揃うとは限りません。",
+        "iPadまたはiPhone、対応カードリーダー、必要に応じてプリンターを準備します。Airレジ連携を使う場合は、対応端末とアカウント設定を事前に確認します。"
+      ]
+    },
+    {
+      "heading": "メリットと注意点",
+      "body": [
+        "固定費と振込手数料が0円で、Airレジと金額連携できる点は、小規模店舗の二度打ち対策として有効です。国内で利用される決済手段を広くカバーしやすい構成です。",
+        "一方、料率表は税込・税別が混在し、ディスカウントは自動適用ではありません。審査、キャンペーン、カードリーダー貸与条件が変更される可能性もあるため、申込画面を保存します。"
+      ]
+    },
+    {
+      "heading": "導入前チェックリスト",
+      "body": [
+        "直近3か月の売上をカード、電子マネー、QR、現金に分け、通常料率と割引料率の両方で手数料を試算します。開店や端末切替に期限がある場合は、ブランド別審査の余裕を確保してください。"
+      ],
+      "bullets": [
+        "2.48%のブランド別適用可否",
+        "課税・非課税を含む実効手数料",
+        "利用金融機関別の入金回数",
+        "端末・OS・プリンターの対応",
+        "取消・返金・通信障害時の手順"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Airペイは無料で使えますか？",
+      "answer": "月額固定費と振込手数料は0円ですが、決済ごとに手数料が発生し、端末環境も必要です。"
+    },
+    {
+      "question": "導入前に何を試すべきですか？",
+      "answer": "実際の商品、金額、返品、締め、通信障害、スタッフ権限、データ出力を使い、1日の営業を再現してください。"
+    },
+    {
+      "question": "比較時に最も重要な費用は何ですか？",
+      "answer": "決済手数料だけでなく、端末、月額、通信、周辺機器、入金、サポートを含む3年間総額で比較します。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+      "url": "/ja/cashless-payments/air-regi-review/",
+      "description": "Airレジの無料範囲、必要機器、在庫・顧客・売上管理、Airペイ連携、導入時の注意点を整理します。"
+    },
+    {
+      "label": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+      "url": "/ja/cashless-payments/square-pos-review/",
+      "description": "Square POSレジの無料範囲、端末価格、対面決済手数料、在庫・顧客管理、オンライン連携を公式情報で整理します。"
+    },
+    {
+      "label": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+      "url": "/ja/cashless-payments/paycas-mobile-review/",
+      "description": "PayCAS Mobileのプリンター・SIM内蔵端末、対応決済、個別見積もり、月2回入金、POS連携の確認事項を解説します。"
+    },
+    {
+      "label": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "description": "AirペイとSquareを、対面決済手数料、固定費、端末、入金、POS連携、オンライン決済から比較します。"
+    },
+    {
+      "label": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "description": "注文、会計、キッチン、決済、サポート、総費用を同じ要件表で比較する実務ガイドです。"
+    },
+    {
+      "label": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "description": "飲食店向けPOSとモバイルオーダーの料金・多言語・決済連携を確認します。"
+    },
+    {
+      "label": "funfoの評判・料金・機能を検証｜無料POSレジの注意点",
+      "url": "/ja/store-dx/funfo-review/",
+      "description": "無料から試せる飲食店向けPOS・モバイルオーダーを確認します。"
+    }
+  ]
+}

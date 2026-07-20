@@ -441,6 +441,321 @@
       "language": "en",
       "destination": "https://www.ocnk.me/",
       "url": "https://www.ocnk.me/"
+    },
+    "kantan-chumon-subsidy": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XSA36\" rel=\"nofollow\">かんたんで便利なPOSレジを補助金でお得に導入【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XSA36\" alt=\"\">"
+    },
+    "kantan-chumon-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XSHSY\" rel=\"nofollow\">かんたん注文【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XSHSY\" alt=\"\">"
+    },
+    "kantan-chumon-sales": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XSX8I\" rel=\"nofollow\">売上、顧客単価UPをサポートするPOSレジ【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XSX8I\" alt=\"\">"
+    },
+    "kantan-chumon-mobile-order": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XT4YA\" rel=\"nofollow\">モバイルオーダーで業務削減できるPOSレジ【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XT4YA\" alt=\"\">"
+    },
+    "kantan-chumon-inbound": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XTCO2\" rel=\"nofollow\">インバウンド対応にも使えるPOSレジ【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XTCO2\" alt=\"\">"
+    },
+    "kantan-chumon-analysis": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XX7K2\" rel=\"nofollow\">細かい項目も分析できるPOSレジ【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XX7K2\" alt=\"\">"
+    },
+    "kantan-chumon-recommendation": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000017718048",
+      "language": "ja",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XXF9U\" rel=\"nofollow\">レコメンド機能で客単価を上げるPOSレジ【かんたん注文】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XXF9U\" alt=\"\">"
+    },
+    "kantan-chumon-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    },
+    "funfo-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000026887001",
+      "language": "ja",
+      "destination": "https://www.funfo.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+EC6V16+5RGM+5YJRM\" rel=\"nofollow\">funfo</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B84X2+EC6V16+5RGM+5YJRM\" alt=\"\">"
+    },
+    "funfo-bracket": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000026887001",
+      "language": "ja",
+      "destination": "https://www.funfo.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+EC6V16+5RGM+5YRHE\" rel=\"nofollow\">【funfo】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B84X2+EC6V16+5RGM+5YRHE\" alt=\"\">"
+    },
+    "funfo-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.funfo.jp/",
+      "url": "https://www.funfo.jp/"
+    },
+    "emeao-pos-fit": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012115003",
+      "language": "ja",
+      "destination": "https://emeao.jp/pos-lp2/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+EFRGNU+2LHA+HVFKY\" rel=\"nofollow\">あなたにぴったりのPOSレジ・システム会社がわずか1分でさがせる！</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www14.a8.net/0.gif?a8mat=4B84X2+EFRGNU+2LHA+HVFKY\" alt=\"\">"
+    },
+    "emeao-pos-quality": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012115003",
+      "language": "ja",
+      "destination": "https://emeao.jp/pos-lp2/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+EFRGNU+2LHA+HVNAQ\" rel=\"nofollow\">POSレジ・システムの業者探しは【簡単・無料・厳選優良業者】のEMEAO!</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www12.a8.net/0.gif?a8mat=4B84X2+EFRGNU+2LHA+HVNAQ\" alt=\"\">"
+    },
+    "emeao-pos-free": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012115003",
+      "language": "ja",
+      "destination": "https://emeao.jp/pos-lp2/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+EFRGNU+2LHA+HVV0I\" rel=\"nofollow\">POSレジ・システム業者を完全無料でご紹介します！【EMEAO!】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B84X2+EFRGNU+2LHA+HVV0I\" alt=\"\">"
+    },
+    "emeao-pos-company": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000012115003",
+      "language": "ja",
+      "destination": "https://emeao.jp/pos-lp2/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+EFRGNU+2LHA+I35CY\" rel=\"nofollow\">【POSレジ・システム業者探しならEMEAO!】ご希望にあった優良企業を無料で紹介します</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B84X2+EFRGNU+2LHA+I35CY\" alt=\"\">"
+    },
+    "emeao-pos-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://emeao.jp/pos-lp2/",
+      "url": "https://emeao.jp/pos-lp2/"
+    },
+    "xserver-main": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://www.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+61JSI\" rel=\"nofollow\">レンタルサーバー エックスサーバー</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+61JSI\" alt=\"\">"
+    },
+    "xserver-price": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://www.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+60OXE\" rel=\"nofollow\">初期費用無料、月額990円から、高速・多機能・高安定レンタルサーバー『エックスサーバー』</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www15.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+60OXE\" alt=\"\">"
+    },
+    "xserver-domain": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://www.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+61C2Q\" rel=\"nofollow\">あなたのお持ちの独自ドメイン、全て利用できます！</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+61C2Q\" alt=\"\">"
+    },
+    "xserver-wordpress-guide": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://www.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+6QEUQ\" rel=\"nofollow\">【初心者でも安心】たった10分で出来るWordPressブログの始め方</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www10.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+6QEUQ\" alt=\"\">"
+    },
+    "xserver-company-email": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://www.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+6SCAQ\" rel=\"nofollow\">【初心者でも簡単】会社メールアドレスとホームページの準備方法を丁寧に解説</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www11.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+6SCAQ\" alt=\"\">"
+    },
+    "xserver-business-main": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://business.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+6LP3M\" rel=\"nofollow\">XServerビジネス</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+6LP3M\" alt=\"\">"
+    },
+    "xserver-business-guide": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000001642001",
+      "language": "ja",
+      "destination": "https://business.xserver.ne.jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B84X2+CO22XM+CO4+6SK0I\" rel=\"nofollow\">ビジネス用途・法人様向け レンタルサーバー選び方ガイド</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B84X2+CO22XM+CO4+6SK0I\" alt=\"\">"
+    },
+    "xserver-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.xserver.ne.jp/",
+      "url": "https://www.xserver.ne.jp/"
+    },
+    "xserver-business-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://business.xserver.ne.jp/",
+      "url": "https://business.xserver.ne.jp/"
+    },
+    "air-regi-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://airregi.jp/"
+    },
+    "airpay-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://airpayment.jp/"
+    },
+    "square-pos-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://squareup.com/jp/ja/point-of-sale"
+    },
+    "paycas-mobile-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://www.paycas.jp/paycas-mobile"
+    },
+    "air-regi-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://airregi.jp/"
+    },
+    "airpay-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://airpayment.jp/"
+    },
+    "square-pos-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://squareup.com/jp/en/point-of-sale"
+    },
+    "paycas-mobile-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.paycas.jp/paycas-mobile"
+    },
+    "stores-reservation-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://stores.fun/reserve"
+    },
+    "line-official-account-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    "freee-accounting-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://www.freee.co.jp/accounting/"
+    },
+    "moneyforward-accounting-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "ja",
+      "destination": "https://biz.moneyforward.com/accounting/"
+    },
+    "stores-reservation-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://stores.fun/reserve"
+    },
+    "line-official-account-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    "freee-accounting-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.freee.co.jp/accounting/"
+    },
+    "moneyforward-accounting-official-en": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://biz.moneyforward.com/accounting/"
+    },
+    "luqevora-store-dx-diagnosis": {
+      "type": "official",
+      "network": "Luqevora",
+      "language": "ja",
+      "destination": "https://luqevora.com/ja/store-dx-assessment/"
+    },
+    "luqevora-store-dx-diagnosis-en": {
+      "type": "official",
+      "network": "Luqevora",
+      "language": "en",
+      "destination": "https://luqevora.com/en/store-dx-assessment/"
+    },
+    "luqvia-store-dx-line": {
+      "type": "official",
+      "network": "LuQvia",
+      "language": "ja",
+      "destination": "https://lin.ee/nTfIJLT"
+    },
+    "luqvia-store-dx-website": {
+      "type": "official",
+      "network": "LuQvia",
+      "language": "ja",
+      "destination": "https://www.luqvia.com/"
     }
   },
   "rules": {

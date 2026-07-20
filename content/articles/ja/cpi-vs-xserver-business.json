@@ -13,8 +13,8 @@
   "description": "CPIとXServerビジネスを、料金、容量、バックアップ、SLA、メール、サポート、移行支援から公式情報で比較します。",
   "lead": "CPIはSmartRelease、ドメインごとの独立環境、法人メール運用が判断材料です。XServerビジネスは容量、14日分の遠隔地バックアップ、無料の設定・移転支援、法人向け管理機能を重視する場合に比較しやすい候補です。",
   "publishedAt": "2026-07-19",
-  "updatedAt": "2026-07-19",
-  "verifiedAt": "2026-07-19",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
   "author": "Luqevora編集部",
   "featured": false,
   "affiliateDisclosure": true,
@@ -27,7 +27,7 @@
     {
       "label": "XServerビジネスの公式料金を確認",
       "officialUrl": "https://business.xserver.ne.jp/price/",
-      "affiliateKey": "xserver-business-official"
+      "affiliateKey": "xserver-business-main"
     }
   ],
   "sources": [
@@ -234,6 +234,16 @@
       "label": "JETBOYレビュー",
       "url": "/ja/hosting-security/jetboy-review/",
       "description": "料金、LiteSpeed、cPanel、注意点を確認"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
     }
   ]
 }

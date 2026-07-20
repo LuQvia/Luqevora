@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {root, readJson, writeFile, walk, render, esc, urlPath} from './lib.mjs';
 import {loadArticleEntries} from './load-articles.mjs';
+import {generateStoreDxPlatform} from './store-dx-platform-lib.mjs';
 import {
   articleImagePath,
   buildIndexDecisions,
@@ -15,6 +16,7 @@ const site = await readJson(path.join(root, 'content/config/site.json'));
 const categories = await readJson(path.join(root, 'content/config/categories.json'));
 const navigation = await readJson(path.join(root, 'content/config/navigation.json'));
 const affiliates = await readJson(path.join(root, 'content/config/affiliates.json'));
+const luqviaService = await readJson(path.join(root, 'content/config/luqvia-service.json'));
 const homeConfig = await readJson(path.join(root, 'content/config/home.json'));
 const productCatalog = await readJson(path.join(root, 'content/products/catalog.json'));
 const seoConfig = await readJson(path.join(root, 'content/config/seo.json'));
@@ -104,6 +106,29 @@ function formatDate(date, language) {
 
 function currentLabel(language, japanese, english) {
   return language === 'ja' ? japanese : english;
+}
+
+const luqviaTargetSet = new Set((luqviaService.targetArticles || []).map(item => `${item.category}/${item.slug}`));
+
+function hasLuqviaServicePanel(article) {
+  return Boolean(luqviaService.enabled && article.language === luqviaService.language && article.type === 'comparison' && luqviaTargetSet.has(`${article.category}/${article.slug}`));
+}
+
+function luqviaTrackedWebsiteUrl(article) {
+  const url = new URL(luqviaService.urls.website);
+  url.searchParams.set('utm_source', 'luqevora');
+  url.searchParams.set('utm_medium', 'owned_media');
+  url.searchParams.set('utm_campaign', 'website_production');
+  url.searchParams.set('utm_content', article.slug);
+  return url.toString();
+}
+
+function renderLuqviaServicePanel(article) {
+  if (!hasLuqviaServicePanel(article)) return '';
+  const p = luqviaService.pricing;
+  const serviceItems = (luqviaService.services || []).map(item => `<li>${esc(item)}</li>`).join('');
+  const website = luqviaTrackedWebsiteUrl(article);
+  return `<section class="luqvia-service-panel" id="luqvia-service" data-operator-service="LuQvia"><div class="luqvia-service-heading"><span class="eyebrow">運営者サービスのご案内</span><h2>${esc(luqviaService.headline)}</h2><p class="luqvia-relationship"><strong>関係性の明示：</strong> ${esc(luqviaService.operatorRelationship)}</p><p>${esc(luqviaService.description)}</p></div><div class="luqvia-pricing-grid"><article><span>${esc(p.productionLabel)}</span><strong>${esc(p.productionValue)}</strong></article><article><span>${esc(p.monthlyLabel)}</span><strong>${esc(p.monthlyValue)}</strong></article><article><span>事前相談</span><strong>無料ホームページ診断</strong></article></div><div class="luqvia-service-content"><div><h3>主な対応内容</h3><ul class="fact-list">${serviceItems}</ul></div><div class="luqvia-service-actions"><a class="btn btn-primary" data-track-event="luqvia_website_open" data-source-article="${esc(article.slug)}" href="${esc(website)}" rel="noopener noreferrer" target="_blank">サービス・料金を見る</a><a class="btn btn-secondary" data-track-event="luqvia_diagnosis_open" data-source-article="${esc(article.slug)}" href="${esc(luqviaService.urls.diagnosis)}" rel="noopener noreferrer" target="_blank">無料診断を申し込む</a><a class="text-link" data-track-event="luqvia_line_open" data-source-article="${esc(article.slug)}" href="${esc(luqviaService.urls.line)}" rel="noopener noreferrer" target="_blank">公式LINEで相談する →</a><a class="text-link" href="mailto:${esc(luqviaService.urls.email)}">メールで相談する →</a></div></div><p class="luqvia-service-note">${esc(p.monthlyNote)} 最終料金と対応範囲は、無料診断または見積もり時の案内を優先してください。</p></section>`;
 }
 
 function topicForArticle(article) {
@@ -245,6 +270,17 @@ function articleStructuredData(article, category, canonical, imageUrl, topic) {
       ]
     }
   ];
+  if (hasLuqviaServicePanel(article)) {
+    graph.push({
+      '@type': 'Service',
+      '@id': `${canonical}#luqvia-website-production`,
+      name: luqviaService.serviceName,
+      serviceType: 'ホームページ制作・継続改善サポート',
+      provider: {'@type': 'Organization', name: 'LuQvia', url: luqviaService.urls.website},
+      areaServed: {'@type': 'Country', name: '日本'},
+      url: luqviaService.urls.website
+    });
+  }
   if ((article.faqs || []).length) {
     graph.push({
       '@type': 'FAQPage',
@@ -573,6 +609,12 @@ for (const article of articles) {
   const imagePath = decision.indexable ? articleImagePath(article, seoConfig) : '/assets/images/og-default.png';
   const imageUrl = `${site.baseUrl}${imagePath}`;
   const articleCtas = renderArticleCtas(article);
+  const luqviaServicePanel = renderLuqviaServicePanel(article);
+  const sectionHasAffiliate = (article.sections || []).some(section => {
+    const entry = configuredAffiliateEntry(section.affiliateMaterialKey || '', article.language);
+    return entry?.type === 'rawHtml';
+  });
+  const hasAnyAffiliate = articleCtas.hasAffiliate || sectionHasAffiliate;
   const faqHtml = (article.faqs || []).length
     ? `<section id="faq"><h2>${currentLabel(article.language, 'よくある質問', 'Frequently asked questions')}</h2><div class="faq-list">${article.faqs.map(item => `<div class="faq-item"><h3>${esc(item.question)}</h3><p>${esc(item.answer)}</p></div>`).join('')}</div></section>`
     : '';
@@ -586,7 +628,7 @@ for (const article of articles) {
   const productHubHtml = linkedProducts.length ? `<div class="article-product-hubs"><h3>${currentLabel(article.language, '製品データも確認', 'Check product data')}</h3>${linkedProducts.map(product => `<a class="related-article-card" data-track-event="article_product_hub" data-link-position="article-related-product" data-product-id="${esc(product.id)}" href="/${article.language}/products/${product.id}/"><strong>${esc(product.name)}</strong><span>${esc(product.pricing?.[article.language] || product.positioning?.[article.language] || '')}</span></a>`).join('')}</div>` : '';
   const relatedHtml = `<section aria-labelledby="related-heading" class="related-articles-block"><div class="related-articles-heading"><h2 id="related-heading">${currentLabel(article.language, '次に読む記事', 'What to read next')}</h2><a href="${topicUrl}">${currentLabel(article.language, '目的別ガイドへ →', 'Topic guide →')}</a></div>${productHubHtml}${relatedGroups.map(group => `<div class="related-role-group"><h3>${esc(contentTypeLabel(group.type, article.language))}</h3><div class="related-articles-grid">${group.items.map(item => `<a class="related-article-card" href="${urlPath(item.language, item.category, item.slug)}"><strong>${esc(item.title)}</strong><span>${esc(seoDescription(item, seoConfig))}</span></a>`).join('')}</div></div>`).join('')}</section>`;
   const formattedVerified = formatDate(article.verifiedAt, article.language);
-  const disclosure = article.affiliateDisclosure || articleCtas.hasAffiliate
+  const disclosure = article.affiliateDisclosure || hasAnyAffiliate
     ? `<div class="editorial-note disclosure-note"><p><strong>${currentLabel(article.language, '広告開示：', 'Affiliate disclosure:')}</strong> ${esc(affiliates.rules.sponsoredLabel[article.language])}</p></div>`
     : `<div class="editorial-note disclosure-note"><p><strong>${currentLabel(article.language, '広告開示：', 'Affiliate disclosure:')}</strong> ${currentLabel(article.language, '公開時点でアフィリエイトリンクを含みません。追加時はリンク付近と', 'No affiliate links are included as of publication. If added, they will be disclosed near the link and in our ')}<a href="/${article.language}/affiliate-disclosure/">${currentLabel(article.language, '広告掲載方針', 'Affiliate Disclosure')}</a>${currentLabel(article.language, 'で明示します。', ' page.')}</p></div>`;
   const editorialNote = `<div class="editorial-note"><p><strong>${currentLabel(article.language, '調査方針：', 'Research policy:')}</strong> ${currentLabel(article.language, `${article.title}について、記事末尾に示す提供元の公式情報を優先して確認しました。料金・機能・条件は契約前に公式画面で再確認してください。`, `For ${article.title}, we prioritized the provider-owned sources listed below. Recheck prices, features, and terms on the official site before purchase.`)}</p><p><strong>${currentLabel(article.language, '料金表記：', 'Pricing:')}</strong> ${currentLabel(article.language, '公式に円価格がある場合は円で掲載します。円価格がない場合は公式通貨を記載し、独自の為替換算は行いません。', 'We use the provider’s official currency and do not publish independent exchange-rate conversions.')}</p></div>`;
@@ -595,6 +637,7 @@ for (const article of articles) {
   tocItems.push(`<li><a href="#pros-cautions">${currentLabel(article.language, '利点と注意点', 'Advantages and cautions')}</a></li>`);
   tocItems.push(`<li><a href="#fit">${currentLabel(article.language, '向いている人', 'Best fit')}</a></li>`);
   tocItems.push(...(article.sections || []).map((section, index) => `<li><a href="#section-${index + 1}">${esc(section.heading)}</a></li>`));
+  if (luqviaServicePanel) tocItems.push('<li><a href="#luqvia-service">LuQviaのHP制作</a></li>');
   if ((article.faqs || []).length) tocItems.push(`<li><a href="#faq">${currentLabel(article.language, 'よくある質問', 'FAQ')}</a></li>`);
   tocItems.push(`<li><a href="#evidence">${currentLabel(article.language, '調査範囲', 'Evidence record')}</a></li>`);
   if ((article.sources || []).length) tocItems.push(`<li><a href="#sources">${currentLabel(article.language, '公式情報', 'Official sources')}</a></li>`);
@@ -622,7 +665,7 @@ for (const article of articles) {
     publishedLabel: currentLabel(article.language, `公式情報確認：${formattedVerified}`, `Official information checked: ${formattedVerified}`),
     articleDates: renderArticleDates(article),
     authorLabel: currentLabel(article.language, `執筆：${article.author || site.organization.name}`, `By ${article.author || site.organization.name}`),
-    heroAffiliateDisclosure: articleCtas.hasAffiliate ? `<p class="hero-affiliate-disclosure"><strong>${currentLabel(article.language, '広告', 'Advertisement')}</strong> ${esc(affiliates.rules.sponsoredLabel[article.language])}</p>` : '',
+    heroAffiliateDisclosure: hasAnyAffiliate ? `<p class="hero-affiliate-disclosure"><strong>${currentLabel(article.language, '広告', 'Advertisement')}</strong> ${esc(affiliates.rules.sponsoredLabel[article.language])}</p>` : '',
     featuredImage: decision.indexable ? `<figure class="article-featured-image"><img alt="${esc(article.title)}" decoding="async" fetchpriority="high" height="${seoConfig.images.height}" src="${imagePath}" width="${seoConfig.images.width}"><figcaption>${esc(currentLabel(article.language, `${article.title}の判断ポイントを示すオリジナル画像`, `Original visual for ${article.title}`))}</figcaption></figure>` : '',
     threePointSummary: renderThreePointSummary(article),
     decisionSummary: decisionSummary(article),
@@ -633,6 +676,7 @@ for (const article of articles) {
     affiliateDisclosure: disclosure,
     articleCtas: articleCtas.html,
     body: (article.sections || []).map((section, index) => renderSection(section, index, article.language)).join(''),
+    luqviaServicePanel,
     faq: faqHtml,
     evidencePanel: evidencePanel(article, topic),
     sources: sourceHtml,
@@ -1203,6 +1247,8 @@ for (const language of site.languages) {
 }
 
 await writeFile(path.join(outputRoot, 'product-catalog.json'), `${JSON.stringify(productCatalog, null, 2)}\n`);
+
+await generateStoreDxPlatform({root, outputRoot, site, productCatalog, articleRecords, renderDirectoryCard, header, footer, currentLabel, esc, writeFile});
 
 await normalizePublicChrome();
 

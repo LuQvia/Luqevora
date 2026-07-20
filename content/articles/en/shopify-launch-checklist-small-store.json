@@ -1,0 +1,143 @@
+{
+  "id": "shopify-launch-checklist-small-store-en",
+  "translationKey": "shopify-launch-checklist-small-store",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "shopify-launch-checklist-small-store",
+  "category": "website-builders",
+  "topic": "ecommerce-platform",
+  "badge": "Official-source guide",
+  "title": "Shopify Launch Checklist for a Small Store",
+  "metaTitle": "Shopify Launch Checklist for a Small Store",
+  "description": "A pre-launch checklist for catalog, payments, shipping, tax, returns, domain, legal pages, analytics, and test orders.",
+  "lead": "Do not treat design completion as launch readiness. Run a full test order through refund and verify customer-facing shipping, delivery, contact, and return terms.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Shopify pricing and features",
+      "officialUrl": "https://www.shopify.com/pricing",
+      "affiliateKey": "shopify"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Shopify Japan pricing",
+      "url": "https://www.shopify.com/jp/pricing"
+    },
+    {
+      "label": "Shopify plan features",
+      "url": "https://help.shopify.com/ja/manual/intro-to-shopify/pricing-plans/plans-features"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line",
+      "body": [
+        "Do not treat design completion as launch readiness. Run a full test order through refund and verify customer-facing shipping, delivery, contact, and return terms.",
+        "Do not decide on brand recognition or headline price alone. Compare real users, daily workflows, administrator effort, migration, and exit or export requirements under the same conditions."
+      ],
+      "callout": "Terms can change. Recheck the official pricing page and agreement immediately before purchase."
+    },
+    {
+      "heading": "Pricing and contract terms",
+      "body": [
+        "Include payments, domain, theme, apps, product photography, catalog work, packaging, and maintenance in the first-year budget.",
+        "When introductory pricing applies, separate the promotional period from normal pricing and record the actual invoiced total. Track apps, integrations, migration, implementation, and maintenance as separate cost lines."
+      ],
+      "table": {
+        "headers": [
+          "Area",
+          "Pre-launch check"
+        ],
+        "rows": [
+          [
+            "Catalog",
+            "Price, inventory, images, descriptions, variants"
+          ],
+          [
+            "Payments",
+            "Methods, test order, refund"
+          ],
+          [
+            "Shipping",
+            "Rates, regions, delivery times, tracking"
+          ],
+          [
+            "Legal",
+            "Operator, returns, privacy"
+          ],
+          [
+            "Acquisition",
+            "SEO, analytics, social, email"
+          ],
+          [
+            "Operations",
+            "Order owner, support, incident response"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How to test with real work",
+      "body": [
+        "Divide launch readiness into catalog, orders, shipping, legal, acquisition, and operations, with an owner and verification date for each item.",
+        "Do more than view sample screens. Complete the full path from input through completion, revision, approval, and export. Test as both an end user and administrator and record confusion points and setup time."
+      ],
+      "bullets": [
+        "Use the same user and data volume for every candidate",
+        "Separate mandatory from optional capabilities",
+        "Configure notifications, permissions, and automation",
+        "Test CSV or other export and cancellation procedures",
+        "Record annual total cost and staff effort"
+      ]
+    },
+    {
+      "heading": "Best fit",
+      "body": [
+        "First-time online sellers and businesses that need repeatable operations after staff changes.",
+        "A feature-rich service can fail when the underlying process is undefined. Map the current workflow and ownership on one page before configuring the product."
+      ]
+    },
+    {
+      "heading": "Cautions and failure prevention",
+      "body": [
+        "Legal disclosures, privacy, returns, tax, and display obligations vary by business and jurisdiction. Obtain professional advice where needed.",
+        "When customer or personal data is involved, include access control, multifactor authentication, offboarding, retention, deletion, and backup in the operating policy. Document design decisions and review dates so the system survives staff changes."
+      ]
+    },
+    {
+      "heading": "Implementation sequence",
+      "body": [
+        "Define the target workflow, users, owner, and success criteria first. Build a small pilot, run it for two to four weeks, remove unnecessary fields, and only then migrate production data.",
+        "After launch, review usage, missing data, duplicated work, excessive notifications, and cost after 30 days. Repeat at least 60 days before renewal to decide whether to continue, change tier, or migrate."
+      ],
+      "bullets": [
+        "Limit the initial objective and workflow",
+        "Define required data and permissions",
+        "Pilot with a small group",
+        "Record cost, effort, and outcome",
+        "Review regularly after production launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can this article be published before affiliate approval?",
+      "answer": "Yes. The page uses a normal official link until approval. After approval, the verified affiliate URL can be added to the central configuration without claiming a relationship beforehand."
+    },
+    {
+      "question": "Can I decide using the price shown in the article?",
+      "answer": "No. Pricing, promotions, features, billing terms, tax, and regional availability change. Verify the official pricing and checkout pages immediately before purchase."
+    },
+    {
+      "question": "What matters most during implementation?",
+      "answer": "Define the workflow, data owner, completion criteria, permissions, and review process, then reproduce them in a small pilot instead of choosing by feature count."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "funfo-review-en",
+  "translationKey": "funfo-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "funfo-review",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Official-source review",
+  "title": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+  "metaTitle": "funfo Review: Free POS, Mobile Ordering, Pricing, and Limits (2026)",
+  "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats.",
+  "lead": "funfo combines an iPad restaurant POS with dine-in and off-premise mobile ordering. The free tier is a strong way to test the workflow, but restaurants should still budget for hardware, payment fees, device limits, support, and advanced customer-management functions.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "sources": [
+    {
+      "label": "funfo official website",
+      "url": "https://www.funfo.jp/"
+    },
+    {
+      "label": "funfo pricing",
+      "url": "https://www.funfo.jp/index.php/pricing/"
+    },
+    {
+      "label": "funfo FAQ",
+      "url": "https://www.funfo.jp/index.php/qa/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: a strong option for restaurants that want to test before paying",
+      "body": [
+        "funfo offers POS, dine-in mobile ordering, off-premise ordering, product management, and LINE integration in a zero-monthly-fee Free tier. This makes it practical for a small restaurant to test menus, table QR codes, and staff workflows before committing to a paid plan.",
+        "Free does not mean every operating cost is zero. An iPad, printers, cash drawer, payment processing, implementation help, and other peripherals may still be required. Test the complete order-to-kitchen-to-payment flow during a busy service period."
+      ]
+    },
+    {
+      "heading": "Plans and published pricing",
+      "body": [
+        "The official pricing page lists a Free tier and three paid tiers. Some displayed amounts are monthly equivalents for annual billing, so compare the annual commitment with monthly billing."
+      ],
+      "table": {
+        "headers": [
+          "Plan",
+          "Published price",
+          "Concurrent devices",
+          "Positioning"
+        ],
+        "rows": [
+          [
+            "Free",
+            "JPY 0",
+            "Up to 1",
+            "Test POS and mobile ordering"
+          ],
+          [
+            "Lite",
+            "JPY 4,950 monthly equivalent annually / JPY 5,550 monthly",
+            "Up to 3",
+            "Small restaurants"
+          ],
+          [
+            "Business",
+            "JPY 9,900 annually / JPY 11,000 monthly",
+            "Up to 10",
+            "Mid-sized restaurants"
+          ],
+          [
+            "Business Plus",
+            "JPY 14,850 annually / JPY 16,500 monthly",
+            "Up to 10",
+            "Advanced LINE customer management"
+          ]
+        ]
+      },
+      "callout": "The official site also lists mobile-order payment processing fees of 3.35% to 3.95%. Confirm peripherals, onboarding, and support in the total cost."
+    },
+    {
+      "heading": "Core capabilities",
+      "body": [
+        "funfo combines an iPad POS, customer QR ordering, off-premise ordering, payment, product management, smartphone handheld operation, LINE integration, and sales analytics.",
+        "The provider also describes multilingual translation, video menus, set and course functions, all-you-can-eat workflows, and item-level statistics. Verify which tier includes each function."
+      ],
+      "bullets": [
+        "iPad restaurant POS",
+        "Dine-in and off-premise mobile ordering",
+        "iPhone handheld workflow",
+        "LINE acquisition and customer functions",
+        "Sales and item analytics",
+        "Multilingual menus and mobile payment"
+      ]
+    },
+    {
+      "heading": "Advantages",
+      "body": [
+        "Restaurants can test real menus and smartphone ordering before buying a paid plan. This reduces the risk of discovering basic usability or kitchen-routing issues only after a contract.",
+        "The combination of ordering, POS, and LINE can connect operational efficiency with repeat-customer activity rather than treating the POS as a checkout-only tool."
+      ]
+    },
+    {
+      "heading": "Caveats",
+      "body": [
+        "The store-side app requires an iPad. Confirm printer, cash drawer, and payment-terminal compatibility by exact model number.",
+        "The official FAQ says LINE mini-app implementation may take two to three weeks and online payment approval may take one to two months. Keep a fallback ordering and payment procedure for outages."
+      ],
+      "bullets": [
+        "iPad required",
+        "Free-tier device and feature limits",
+        "Hardware and processing fees may apply",
+        "Some integrations require lead time",
+        "Fallback workflow needed"
+      ]
+    },
+    {
+      "heading": "Implementation checklist",
+      "body": [
+        "Test the system against the restaurant’s real service pattern."
+      ],
+      "bullets": [
+        "Peak concurrent orders",
+        "Number of iPads and handheld phones",
+        "Kitchen and receipt printers",
+        "Cash, card, and QR payment flow",
+        "Modifiers, courses, and all-you-can-eat rules",
+        "LINE opt-in design",
+        "Outage and manual-order procedure",
+        "Annual cost at the required paid tier"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is funfo really free?",
+      "answer": "The Free tier has a JPY 0 monthly fee and includes POS and mobile-order functions. Hardware, payment processing, support, and advanced functions may still add cost."
+    },
+    {
+      "question": "Can the store use an Android tablet?",
+      "answer": "The official FAQ describes funfo as an iPad app for the store side."
+    },
+    {
+      "question": "Can a restaurant launch all functions immediately?",
+      "answer": "Basic app testing can start quickly, but LINE and online-payment integrations may require setup and approval time."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "funfo vs Kantan Chumon: Free Self-Testing or Consultation-Led Restaurant POS?",
+      "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+      "description": "Compare funfo and Kantan Chumon by published pricing, free testing, POS and mobile ordering, multilingual service, customer marketing, subsidies, and implementation model."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review the quotation-led restaurant POS and ordering option."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, analytics, support, and total cost."
+    },
+    {
+      "label": "Restaurant Mobile Ordering Implementation Guide",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "description": "Plan QR ordering, staff workflows, fallback procedures, and KPIs."
+    },
+    {
+      "label": "Restaurant POS vs Mobile Ordering: Which Comes First?",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "description": "Understand the roles, integration, and implementation sequence."
+    }
+  ]
+}

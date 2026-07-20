@@ -1,0 +1,209 @@
+{
+  "id": "xserver-company-website-email-guide-en",
+  "translationKey": "xserver-company-website-email-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "xserver-company-website-email-guide",
+  "category": "hosting-security",
+  "topic": "web-hosting",
+  "badge": "Official-source verification",
+  "title": "Preparing a Company Website and Domain Email on XServer",
+  "metaTitle": "Preparing a Company Website and Domain Email on XServer",
+  "description": "Plan a company website, domain email, SSL, WordPress, account ownership, backups, and support on XServer.",
+  "lead": "For a company website, contract ownership, domain control, email deliverability, staff handover, and recovery matter more than merely publishing pages. When using XServer, establish company-owned accounts and documented access rules before production.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the company website and email guide",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "affiliateKey": "xserver-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "XServer公式サイト",
+      "url": "https://www.xserver.ne.jp/"
+    },
+    {
+      "label": "XServerpricing plans",
+      "url": "https://www.xserver.ne.jp/price/index.php"
+    },
+    {
+      "label": "XServerfeature list",
+      "url": "https://www.xserver.ne.jp/functions/"
+    },
+    {
+      "label": "XServerservice features",
+      "url": "https://www.xserver.ne.jp/feature/"
+    },
+    {
+      "label": "permanent domain benefit",
+      "url": "https://www.xserver.ne.jp/manual/man_order_present_domain.php"
+    },
+    {
+      "label": "automatic backup",
+      "url": "https://www.xserver.ne.jp/functions/service_backup.php"
+    },
+    {
+      "label": "WordPress installation",
+      "url": "https://www.xserver.ne.jp/manual/man_install_auto_word.php"
+    },
+    {
+      "label": "WordPress migration",
+      "url": "https://www.xserver.ne.jp/manual/man_install_transfer_wp.php"
+    },
+    {
+      "label": "XServersupport",
+      "url": "https://www.xserver.ne.jp/support/"
+    },
+    {
+      "label": "business hosting selection guide",
+      "url": "https://www.xserver.ne.jp/comparison/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Use company-owned accounts",
+      "body": [
+        "Hosting, domains, SSL, mail, Search Console, Analytics, and recovery methods should be controlled by the company. Accounts owned only by an agency or individual employee create continuity risk at staff or vendor changes.",
+        "Maintain multiple authorized contacts, recovery methods, and least-privilege access."
+      ]
+    },
+    {
+      "heading": "Domain email design",
+      "body": [
+        "Creating mailboxes is only the first step. Plan SPF, DKIM, DMARC, spam controls, forwarding, mailbox capacity, shared addresses, and leaver handling. Separate bulk marketing delivery from normal company mail.",
+        "When website and mail share DNS, test how a hosting move or DNS change affects delivery before production cutover."
+      ]
+    },
+    {
+      "heading": "Reading pricing and specifications",
+      "body": [
+        "Normal thirty-six-month monthly equivalents are JPY 990 for Standard, JPY 1,980 for Premium, and JPY 3,960 for Business. Setup is free, and NVMe storage is 500 GB, 600 GB, and 700 GB. The displayed monthly figure is a division of the prepaid contract amount, so review the actual checkout total.",
+        "Cashback and effective monthly prices have dates and conditions. Long-term evaluation should use normal renewal pricing, automatic-renewal settings, domain-benefit conditions, migration work, and independent backup cost."
+      ],
+      "table": {
+        "headers": [
+          "Plan",
+          "Normal 36-month equivalent",
+          "Storage",
+          "Primary distinction"
+        ],
+        "rows": [
+          [
+            "Standard",
+            "JPY 990",
+            "500 GB NVMe",
+            "Core features and up to two qualifying domains under conditions"
+          ],
+          [
+            "Premium",
+            "JPY 1,980",
+            "600 GB NVMe",
+            "Broader domain choices and Xwrite benefit"
+          ],
+          [
+            "Business",
+            "JPY 3,960",
+            "700 GB NVMe",
+            "Business controls, tamper detection, and included assistance"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "WordPress, backup, and security",
+      "body": [
+        "XServer provides WordPress installation, migration, site copying, recovery tools, SSL, and WAF controls. Official specifications state that Web and mail data plus MySQL backups are retained for the previous fourteen days.",
+        "A retained backup is not proof that the site can be restored within the required time. Take independent file and database backups before migrations and updates, and separately protect DNS, external storage, and SaaS configuration."
+      ]
+    },
+    {
+      "heading": "Multiple sites and email",
+      "body": [
+        "The service lists unlimited domains, subdomains, email accounts, and FTP accounts. For many sites, also evaluate CPU and memory contention, incident blast radius, permissions, and concentration of billing and ownership.",
+        "Mail functions include DKIM, DMARC, spam controls, forwarding, and webmail. Business mail requires explicit SPF/DKIM/DMARC design, leaver procedures, password controls, delivery logging, and any Google Workspace or Microsoft 365 split."
+      ]
+    },
+    {
+      "heading": "Pre-contract checklist",
+      "body": [
+        "A ten-day trial is available for regular applications, while signup paths such as WordPress Quick Start can have different trial conditions. The affiliate program pays only on contracts of six months or longer, but the article should recommend the term that fits the reader."
+      ],
+      "bullets": [
+        "Check normal renewal and checkout total",
+        "Confirm domain-benefit term and auto-renewal conditions",
+        "Distinguish trial and Quick Start paths",
+        "Test backup restoration",
+        "Separate weekday telephone hours from round-the-clock email intake"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the normal XServer prices?",
+      "answer": "Official specifications list thirty-six-month monthly equivalents of JPY 990 for Standard, JPY 1,980 for Premium, and JPY 3,960 for Business. Confirm the full prepaid amount and current offers at checkout."
+    },
+    {
+      "question": "Is there a ten-day trial?",
+      "answer": "A ten-day trial is advertised for regular server applications. Conditions differ for signup paths such as WordPress Quick Start."
+    },
+    {
+      "question": "How many days of backup are retained?",
+      "answer": "Official specifications state fourteen days for Web and mail data and fourteen days for MySQL. Maintain independent backups for DNS and external services."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "XServer Review: Pricing, Features, and Contract Limits",
+      "url": "/en/hosting-security/xserver-rental-server-review/",
+      "description": "An official-source XServer review covering pricing, storage, WordPress, domains, backups, email, support, and contract constraints."
+    },
+    {
+      "label": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+      "url": "/en/hosting-security/xserver-rental-server-pricing/",
+      "description": "Compare XServer Standard, Premium, and Business by normal pricing, storage, domain benefits, Xwrite, business controls, and prepaid terms."
+    },
+    {
+      "label": "XServer Pros and Cons: What to Check Before Contracting",
+      "url": "/en/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "Assess XServer advantages and limits across WordPress, pricing, backups, multiple sites, email, support, and contract conditions."
+    },
+    {
+      "label": "Starting WordPress on XServer: Quick Start, Installation, and Migration",
+      "url": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+      "description": "A practical XServer WordPress guide covering Quick Start, installation, migration, SSL, DNS, backups, and pre-launch checks."
+    },
+    {
+      "label": "Running Multiple Sites on XServer: Domains, Email, FTP, and Governance",
+      "url": "/en/hosting-security/xserver-multiple-domain-site-guide/",
+      "description": "Plan multiple domains, WordPress sites, email accounts, FTP access, backups, ownership, and operating controls on XServer."
+    },
+    {
+      "label": "XServer vs ConoHa WING: Pricing, Contracts, and WordPress Workflows",
+      "url": "/en/hosting-security/xserver-vs-conoha-wing/",
+      "description": "Compare XServer and ConoHa WING by normal pricing, long and short terms, storage, WordPress, domains, backups, and support."
+    },
+    {
+      "label": "XServer vs Lolipop: A Beginner-Focused Hosting Comparison",
+      "url": "/en/hosting-security/xserver-vs-lolipop/",
+      "description": "Compare XServer and Lolipop by pricing, storage, WordPress, backups, telephone support, and multi-site operations."
+    },
+    {
+      "label": "XServer Business Review: Shared, Virtual, and Physical Managed Servers",
+      "url": "/en/hosting-security/xserver-business-review/",
+      "description": "Review XServer Business shared hosting and managed virtual and physical dedicated servers by pricing, SLA, controls, and support."
+    },
+    {
+      "label": "XServer vs XServer Business: Which Service Fits a Company?",
+      "url": "/en/hosting-security/xserver-vs-xserver-business/",
+      "description": "Compare XServer and XServer Business by pricing, setup fees, permissions, assisted setup, security, isolation, and support."
+    }
+  ]
+}

@@ -251,6 +251,16 @@
       "label": "JETBOYとXServer for WordPressの比較",
       "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
       "description": "運用方式とサポートを比較"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
     }
   ]
 }

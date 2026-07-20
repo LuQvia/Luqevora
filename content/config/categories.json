@@ -52,6 +52,32 @@
     }
   },
   {
+    "id": "store-dx",
+    "order": 45,
+    "path": "store-dx",
+    "name": {
+      "ja": "店舗DX",
+      "en": "Store & Restaurant DX"
+    },
+    "description": {
+      "ja": "飲食店・小売店・美容サロンなどのPOSレジ、モバイルオーダー、決済、予約、顧客管理、売上分析を、導入目的・運用負担・公式条件から比較します。",
+      "en": "Compare POS systems, mobile ordering, payments, reservations, customer management, and sales analytics for restaurants and local businesses."
+    }
+  },
+  {
+    "id": "cashless-payments",
+    "order": 47,
+    "path": "cashless-payments",
+    "name": {
+      "ja": "キャッシュレス決済",
+      "en": "Cashless Payments"
+    },
+    "description": {
+      "ja": "カード・電子マネー・QR決済、決済端末、入金サイクル、POS連携を、手数料だけでなく固定費・審査・運用負担まで含めて比較します。",
+      "en": "Compare card, e-money, QR payment services, terminals, settlement cycles, and POS integration across fees, fixed costs, underwriting, and daily operations."
+    }
+  },
+  {
     "id": "hosting-security",
     "order": 50,
     "path": "hosting-security",
@@ -60,8 +86,8 @@
       "en": "Hosting & Security"
     },
     "description": {
-      "ja": "レンタルサーバー、WordPressホスティング、クラウド、ドメイン、セキュリティを、通常料金・更新・容量・バックアップ・移行・サポート条件から比較します。",
-      "en": "Compare web hosting, WordPress hosting, cloud, domains, and security by normal pricing, renewals, storage, backups, migration, and support conditions."
+      "ja": "エックスサーバー、シンレンタルサーバー、ConoHa WING、ロリポップ！などを、通常料金・更新・WordPress・容量・バックアップ・移行・法人運用から比較します。",
+      "en": "Compare XServer, Shin Rental Server, ConoHa WING, Lolipop, and other hosting services by normal pricing, WordPress, storage, backups, migration, and business operations."
     }
   }
 ]

@@ -1,0 +1,128 @@
+{
+  "id": "salon-store-dx-guide-ja",
+  "translationKey": "salon-store-dx-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "salon-store-dx-guide",
+  "category": "store-dx",
+  "topic": "store-reservations-crm",
+  "badge": "美容サロンDXガイド",
+  "title": "美容サロンの店舗DXガイド｜予約・顧客カルテ・LINE・会計をつなぐ",
+  "metaTitle": "美容サロンの店舗DXガイド｜予約・顧客カルテ・LINE・会計をつなぐ",
+  "description": "美容サロンの予約、顧客カルテ、事前決済、LINE、POS、会計をつなぎ、電話対応・予約ミス・再入力を減らす導入手順です。",
+  "lead": "美容サロンでは会計より前に予約とスタッフ枠が業務の中心になることがあります。予約、来店、施術、会計、再来店までを一つの流れとして設計します。",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora編集部",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "美容サロン向け店舗DX無料診断",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES 予約 — 機能一覧",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE公式アカウント — サービス概要",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee会計 — 公式サービスページ",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "マネーフォワード クラウド会計 — POSレジ連携",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "予約経路を一つの台帳へ集める",
+      "body": [
+        "電話、Web、SNS、店頭の予約を一つの台帳で確認し、スタッフ、設備、施術時間、インターバルを重複なく管理します。",
+        "予約受付、変更、キャンセル期限を設定し、お客様が自分で確認・変更できる範囲を明確にすると電話対応を減らせます。"
+      ]
+    },
+    {
+      "heading": "顧客カルテは必要最小限にする",
+      "body": [
+        "来店履歴、施術メニュー、注意事項、次回来店目安など、サービス提供に必要な項目を定義します。目的がない情報は集めません。",
+        "予約システムとPOSで顧客情報を別々に持つ場合は、氏名や電話番号の表記ルール、更新元、退会時の処理を決めます。"
+      ]
+    },
+    {
+      "heading": "事前決済とキャンセル対応",
+      "body": [
+        "事前決済や回数券は無断キャンセル対策や会計時間短縮に役立つ場合がありますが、決済手数料、返金、期限、会計計上を確認します。",
+        "キャンセルポリシーを予約画面と確認通知に表示し、例外対応をスタッフ全員で統一します。"
+      ]
+    },
+    {
+      "heading": "LINEは予約と再来店の補助に使う",
+      "body": [
+        "予約確認、空き枠案内、来店後フォロー、問い合わせをLINEへつなぎます。友だち追加だけをKPIにせず、予約完了率や再来店率を確認します。",
+        "配信は来店時期やメニューで対象を分け、不要な一斉配信を減らします。個別チャットと一斉配信の担当ルールも決めます。"
+      ]
+    },
+    {
+      "heading": "POS・決済・会計をつなぐ",
+      "body": [
+        "施術、物販、値引き、回数券消化、支払方法を区別し、売上と入金を月次で一致させます。予約時決済と店頭決済が混在する場合は二重計上に注意します。",
+        "会計ソフト連携では店舗・部門、税区分、決済手数料、未入金の処理を税理士等と確認します。"
+      ]
+    },
+    {
+      "heading": "スタッフ教育と権限管理",
+      "body": [
+        "予約変更、顧客情報閲覧、値引き、取消、返金、売上確認を役割ごとに分けます。退職者のアカウント停止も手順化します。",
+        "画面操作だけでなく、通信障害、端末故障、予約重複、決済失敗時の代替手順を練習します。"
+      ]
+    },
+    {
+      "heading": "毎月確認する指標",
+      "body": [
+        "予約経路別件数、キャンセル率、次回予約率、再来店率、客単価、施術時間、物販売上、締め時間を確認します。",
+        "数字が改善しない場合は、機能追加より予約枠、メニュー時間、案内文、スタッフ配置を見直します。"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "美容サロンはPOSと予約のどちらを先に導入しますか？",
+      "answer": "予約ミスや電話対応が最大課題なら予約管理を優先します。売上・支払方法・物販在庫が合わない場合はPOSを先に整えます。"
+    },
+    {
+      "question": "顧客カルテをLINEだけで管理してよいですか？",
+      "answer": "LINEは連絡手段として便利ですが、施術記録や同意情報の保管要件を確認し、検索・権限・バックアップに適した管理方法を選んでください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "店舗DX無料診断",
+      "url": "/ja/store-dx-assessment/",
+      "description": "美容サロンを選択して優先課題を整理します。"
+    },
+    {
+      "label": "店舗DXツール構成比較",
+      "url": "/ja/store-dx/store-dx-stack-comparison/",
+      "description": "予約、LINE、POS、会計の組み合わせを比較します。"
+    },
+    {
+      "label": "店舗向けサイト作成サービス比較",
+      "url": "/ja/website-builders/store-website-builder-comparison/",
+      "description": "予約導線を含む店舗サイトを比較します。"
+    }
+  ]
+}

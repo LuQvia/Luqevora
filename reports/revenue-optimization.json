@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0.0",
   "summary": {
-    "generatedAt": "2026-07-19T07:58:01.305Z",
-    "referenceDate": "2026-07-19",
-    "publishedArticles": 598,
-    "articlesWithCommercialCta": 575,
-    "configuredAffiliateArticles": 106,
-    "totalTrackedPlacements": 1099,
-    "configuredPlacements": 193,
-    "unconfiguredPlacements": 906,
-    "affiliatePrograms": 51,
+    "generatedAt": "2026-07-20T13:22:47.259Z",
+    "referenceDate": "2026-07-20",
+    "publishedArticles": 704,
+    "articlesWithCommercialCta": 679,
+    "configuredAffiliateArticles": 175,
+    "totalTrackedPlacements": 1243,
+    "configuredPlacements": 305,
+    "unconfiguredPlacements": 938,
+    "affiliatePrograms": 86,
     "measurementStatus": "instrumented-no-performance-import"
   },
   "eventSchema": {
@@ -71,6 +71,38 @@
   },
   "programs": [
     {
+      "affiliateKey": "monday-com",
+      "configured": false,
+      "product": "monday.com",
+      "placements": 36,
+      "articles": 36,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "comparison": 22,
+        "review": 4,
+        "guide": 10
+      }
+    },
+    {
+      "affiliateKey": "shopify",
+      "configured": false,
+      "product": "Shopify",
+      "placements": 32,
+      "articles": 32,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "comparison": 24,
+        "review": 2,
+        "guide": 6
+      }
+    },
+    {
       "affiliateKey": "clickup",
       "configured": false,
       "product": "ClickUp",
@@ -84,6 +116,22 @@
         "comparison": 22,
         "review": 4,
         "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "hostinger",
+      "configured": false,
+      "product": "Hostinger",
+      "placements": 28,
+      "articles": 28,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "comparison": 20,
+        "review": 2,
+        "guide": 6
       }
     },
     {
@@ -119,22 +167,6 @@
       }
     },
     {
-      "affiliateKey": "monday-com",
-      "configured": false,
-      "product": "monday.com",
-      "placements": 26,
-      "articles": 26,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "types": {
-        "comparison": 20,
-        "review": 4,
-        "guide": 2
-      }
-    },
-    {
       "affiliateKey": "hubspot-marketing",
       "configured": false,
       "product": "HubSpot Marketing Hub",
@@ -163,22 +195,6 @@
       "types": {
         "comparison": 18,
         "review": 4,
-        "guide": 2
-      }
-    },
-    {
-      "affiliateKey": "shopify",
-      "configured": false,
-      "product": "Shopify",
-      "placements": 24,
-      "articles": 24,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "types": {
-        "comparison": 20,
-        "review": 2,
         "guide": 2
       }
     },
@@ -224,22 +240,6 @@
       "types": {
         "comparison": 16,
         "review": 4,
-        "guide": 2
-      }
-    },
-    {
-      "affiliateKey": "hostinger",
-      "configured": false,
-      "product": "Hostinger",
-      "placements": 22,
-      "articles": 22,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "types": {
-        "comparison": 18,
-        "review": 2,
         "guide": 2
       }
     },
@@ -573,6 +573,21 @@
       }
     },
     {
+      "affiliateKey": "google-workspace",
+      "configured": false,
+      "product": "Google Workspace",
+      "placements": 13,
+      "articles": 13,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "comparison": 5,
+        "guide": 8
+      }
+    },
+    {
       "affiliateKey": "bigcommerce",
       "configured": false,
       "product": "BigCommerce",
@@ -659,6 +674,21 @@
       ],
       "types": {
         "comparison": 10
+      }
+    },
+    {
+      "affiliateKey": "hubspot-crm",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "placements": 10,
+      "articles": 10,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "review": 2,
+        "comparison": 8
       }
     },
     {
@@ -749,6 +779,21 @@
         "review": 1,
         "comparison": 9,
         "guide": 3
+      }
+    },
+    {
+      "affiliateKey": "kantan-chumon-official",
+      "configured": true,
+      "product": "",
+      "placements": 9,
+      "articles": 9,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 2,
+        "guide": 6
       }
     },
     {
@@ -868,6 +913,21 @@
       }
     },
     {
+      "affiliateKey": "xserver-official",
+      "configured": true,
+      "product": "",
+      "placements": 8,
+      "articles": 8,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 2,
+        "comparison": 2,
+        "guide": 4
+      }
+    },
+    {
       "affiliateKey": "1password",
       "configured": false,
       "product": "1Password",
@@ -969,20 +1029,6 @@
       }
     },
     {
-      "affiliateKey": "xserver-business-official",
-      "configured": false,
-      "product": "",
-      "placements": 6,
-      "articles": 6,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "types": {
-        "comparison": 6
-      }
-    },
-    {
       "affiliateKey": "color-me-shop-official",
       "configured": true,
       "product": "",
@@ -994,20 +1040,6 @@
       "types": {
         "review": 2,
         "comparison": 3
-      }
-    },
-    {
-      "affiliateKey": "google-workspace",
-      "configured": false,
-      "product": "",
-      "placements": 5,
-      "articles": 5,
-      "languages": [
-        "en"
-      ],
-      "types": {
-        "comparison": 1,
-        "guide": 4
       }
     },
     {
@@ -1083,6 +1115,79 @@
       }
     },
     {
+      "affiliateKey": "kantan-chumon-short",
+      "configured": true,
+      "product": "かんたん注文",
+      "placements": 7,
+      "articles": 5,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 2,
+        "comparison": 4,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "square-pos-official",
+      "configured": true,
+      "product": "Square POSレジ",
+      "placements": 5,
+      "articles": 5,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 3,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "square-pos-official-en",
+      "configured": true,
+      "product": "",
+      "placements": 5,
+      "articles": 5,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 3,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "xserver-business-official",
+      "configured": true,
+      "product": "",
+      "placements": 5,
+      "articles": 5,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 4
+      }
+    },
+    {
+      "affiliateKey": "xserver-main",
+      "configured": true,
+      "product": "XServer",
+      "placements": 5,
+      "articles": 5,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 2,
+        "comparison": 3
+      }
+    },
+    {
       "affiliateKey": "xserver-wp-official",
       "configured": false,
       "product": "",
@@ -1154,17 +1259,46 @@
       }
     },
     {
-      "affiliateKey": "lolipop",
-      "configured": false,
+      "affiliateKey": "funfo-short",
+      "configured": true,
+      "product": "funfo",
+      "placements": 7,
+      "articles": 4,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 2,
+        "comparison": 1,
+        "guide": 4
+      }
+    },
+    {
+      "affiliateKey": "luqevora-store-dx-diagnosis",
+      "configured": true,
       "product": "",
       "placements": 4,
       "articles": 4,
       "languages": [
-        "en",
         "ja"
       ],
       "types": {
-        "comparison": 4
+        "comparison": 1,
+        "guide": 3
+      }
+    },
+    {
+      "affiliateKey": "luqevora-store-dx-diagnosis-en",
+      "configured": true,
+      "product": "",
+      "placements": 4,
+      "articles": 4,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "comparison": 1,
+        "guide": 3
       }
     },
     {
@@ -1211,17 +1345,17 @@
       }
     },
     {
-      "affiliateKey": "xserver",
-      "configured": false,
-      "product": "",
+      "affiliateKey": "xserver-business-main",
+      "configured": true,
+      "product": "XServer Business",
       "placements": 4,
       "articles": 4,
       "languages": [
-        "en",
         "ja"
       ],
       "types": {
-        "comparison": 4
+        "review": 1,
+        "comparison": 3
       }
     },
     {
@@ -1251,6 +1385,79 @@
       "types": {
         "review": 2,
         "comparison": 2
+      }
+    },
+    {
+      "affiliateKey": "air-regi-official",
+      "configured": true,
+      "product": "Airレジ",
+      "placements": 3,
+      "articles": 3,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "air-regi-official-en",
+      "configured": true,
+      "product": "",
+      "placements": 3,
+      "articles": 3,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "airpay-official",
+      "configured": true,
+      "product": "Airペイ",
+      "placements": 3,
+      "articles": 3,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "airpay-official-en",
+      "configured": true,
+      "product": "",
+      "placements": 3,
+      "articles": 3,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "emeao-pos-free",
+      "configured": true,
+      "product": "",
+      "placements": 4,
+      "articles": 3,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "comparison": 4
       }
     },
     {
@@ -1336,6 +1543,36 @@
       "types": {
         "comparison": 2,
         "guide": 4
+      }
+    },
+    {
+      "affiliateKey": "paycas-mobile-official",
+      "configured": true,
+      "product": "PayCAS Mobile",
+      "placements": 3,
+      "articles": 3,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1,
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "paycas-mobile-official-en",
+      "configured": true,
+      "product": "",
+      "placements": 3,
+      "articles": 3,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1,
+        "guide": 1
       }
     },
     {
@@ -1465,6 +1702,34 @@
       }
     },
     {
+      "affiliateKey": "emeao-pos-official",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 2,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "review": 1,
+        "comparison": 1
+      }
+    },
+    {
+      "affiliateKey": "funfo-bracket",
+      "configured": true,
+      "product": "",
+      "placements": 3,
+      "articles": 2,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "comparison": 2,
+        "guide": 1
+      }
+    },
+    {
       "affiliateKey": "iclusta-sla",
       "configured": true,
       "product": "",
@@ -1489,6 +1754,20 @@
       ],
       "types": {
         "review": 1,
+        "comparison": 2
+      }
+    },
+    {
+      "affiliateKey": "lolipop",
+      "configured": false,
+      "product": "",
+      "placements": 2,
+      "articles": 2,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
         "comparison": 2
       }
     },
@@ -1546,6 +1825,20 @@
       ],
       "types": {
         "review": 2
+      }
+    },
+    {
+      "affiliateKey": "xserver",
+      "configured": false,
+      "product": "",
+      "placements": 2,
+      "articles": 2,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "comparison": 2
       }
     },
     {
@@ -1697,6 +1990,58 @@
       }
     },
     {
+      "affiliateKey": "emeao-pos-company",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "emeao-pos-fit",
+      "configured": true,
+      "product": "EMEAO! POSレジ・システム業者紹介",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 2
+      }
+    },
+    {
+      "affiliateKey": "emeao-pos-quality",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "review": 1
+      }
+    },
+    {
+      "affiliateKey": "funfo-official",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "comparison": 1
+      }
+    },
+    {
       "affiliateKey": "goope-beauty",
       "configured": true,
       "product": "",
@@ -1814,6 +2159,84 @@
       }
     },
     {
+      "affiliateKey": "kantan-chumon-analysis",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "kantan-chumon-inbound",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "kantan-chumon-mobile-order",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "kantan-chumon-recommendation",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "kantan-chumon-sales",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "kantan-chumon-subsidy",
+      "configured": true,
+      "product": "",
+      "placements": 2,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 2
+      }
+    },
+    {
       "affiliateKey": "ochanoko-saisai-long",
       "configured": true,
       "product": "",
@@ -1837,6 +2260,71 @@
       ],
       "types": {
         "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "xserver-business-guide",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "comparison": 1
+      }
+    },
+    {
+      "affiliateKey": "xserver-company-email",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "xserver-domain",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "xserver-price",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 1
+      }
+    },
+    {
+      "affiliateKey": "xserver-wordpress-guide",
+      "configured": true,
+      "product": "",
+      "placements": 1,
+      "articles": 1,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "guide": 1
       }
     },
     {
@@ -1938,6 +2426,21 @@
       "priority": 83
     },
     {
+      "articleId": "emeao-pos-review-ja",
+      "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/emeao-pos-review/",
+      "placements": 3,
+      "configuredPlacements": 3,
+      "affiliateKeys": [
+        "emeao-pos-fit",
+        "emeao-pos-quality"
+      ],
+      "priority": 83
+    },
+    {
       "articleId": "jetboy-review-ja",
       "title": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
       "language": "ja",
@@ -1983,6 +2486,34 @@
       "priority": 83
     },
     {
+      "articleId": "funfo-review-ja",
+      "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-review/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "funfo-short"
+      ],
+      "priority": 83
+    },
+    {
+      "articleId": "kantan-chumon-review-ja",
+      "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "kantan-chumon-short"
+      ],
+      "priority": 83
+    },
+    {
       "articleId": "shin-rental-server-pros-cons-ja",
       "title": "シンレンタルサーバーのメリット・デメリット｜契約前の確認事項",
       "language": "ja",
@@ -2009,6 +2540,38 @@
         "shin-server-long"
       ],
       "priority": 83
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-ja",
+      "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "placements": 4,
+      "configuredPlacements": 4,
+      "affiliateKeys": [
+        "emeao-pos-free",
+        "funfo-short",
+        "kantan-chumon-short"
+      ],
+      "priority": 78
+    },
+    {
+      "articleId": "funfo-vs-kantan-chumon-ja",
+      "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+      "placements": 4,
+      "configuredPlacements": 4,
+      "affiliateKeys": [
+        "funfo-bracket",
+        "kantan-chumon-short",
+        "emeao-pos-free"
+      ],
+      "priority": 78
     },
     {
       "articleId": "xserver-shop-vs-shopify-ja",
@@ -2076,6 +2639,22 @@
       "priority": 78
     },
     {
+      "articleId": "air-regi-vs-square-pos-ja",
+      "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+      "placements": 3,
+      "configuredPlacements": 3,
+      "affiliateKeys": [
+        "emeao-pos-free",
+        "air-regi-official",
+        "square-pos-official"
+      ],
+      "priority": 78
+    },
+    {
       "articleId": "jimdo-ai-builder-vs-creator-ja",
       "title": "Jimdo AIビルダーとクリエイターの違い｜選び方を比較",
       "language": "ja",
@@ -2118,6 +2697,21 @@
       "affiliateKeys": [
         "jimdo-easy",
         "jimdo-software"
+      ],
+      "priority": 78
+    },
+    {
+      "articleId": "shin-rental-server-vs-xserver-ja",
+      "title": "シンレンタルサーバーとエックスサーバーを比較｜違いと選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+      "placements": 3,
+      "configuredPlacements": 3,
+      "affiliateKeys": [
+        "shin-server-long",
+        "xserver-main"
       ],
       "priority": 78
     },
@@ -2265,6 +2859,20 @@
       "priority": 78
     },
     {
+      "articleId": "restaurant-pos-vs-mobile-order-ja",
+      "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "kantan-chumon-short"
+      ],
+      "priority": 78
+    },
+    {
       "articleId": "best-wordpress-hosting-japan-ja",
       "title": "WordPress向け国内レンタルサーバー比較｜5社の選び方【2026年】",
       "language": "ja",
@@ -2365,20 +2973,6 @@
       "priority": 78
     },
     {
-      "articleId": "shin-rental-server-vs-xserver-ja",
-      "title": "シンレンタルサーバーとエックスサーバーを比較｜違いと選び方",
-      "language": "ja",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
-      "placements": 2,
-      "configuredPlacements": 2,
-      "affiliateKeys": [
-        "shin-server-long"
-      ],
-      "priority": 78
-    },
-    {
       "articleId": "shin-rental-server-vs-lolipop-ja",
       "title": "シンレンタルサーバーとロリポップ！を比較｜初心者向けの選び方",
       "language": "ja",
@@ -2436,6 +3030,62 @@
       "priority": 75
     },
     {
+      "articleId": "airpay-review-en",
+      "title": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/airpay-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "airpay-official-en"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "air-regi-review-en",
+      "title": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "air-regi-official-en"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "airpay-review-ja",
+      "title": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/airpay-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "airpay-official"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "air-regi-review-ja",
+      "title": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/air-regi-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "air-regi-official"
+      ],
+      "priority": 75
+    },
+    {
       "articleId": "color-me-shop-review-en",
       "title": "Color Me Shop Review: Pricing, Features, and SEO Limits",
       "language": "en",
@@ -2474,6 +3124,20 @@
       "configuredPlacements": 1,
       "affiliateKeys": [
         "cpi"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "emeao-pos-review-en",
+      "title": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "emeao-pos-official"
       ],
       "priority": 75
     },
@@ -2520,6 +3184,20 @@
       "priority": 75
     },
     {
+      "articleId": "kantan-chumon-review-en",
+      "title": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 75
+    },
+    {
       "articleId": "ochanoko-saisai-review-en",
       "title": "Ochanoko Saisai Review: Pricing, Store Features, and Limits",
       "language": "en",
@@ -2530,6 +3208,34 @@
       "configuredPlacements": 1,
       "affiliateKeys": [
         "ochanoko-saisai-official"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "paycas-mobile-review-en",
+      "title": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "paycas-mobile-official-en"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "paycas-mobile-review-ja",
+      "title": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/paycas-mobile-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "paycas-mobile-official"
       ],
       "priority": 75
     },
@@ -2562,6 +3268,90 @@
       "priority": 75
     },
     {
+      "articleId": "square-pos-review-en",
+      "title": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "square-pos-official-en"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "square-pos-review-ja",
+      "title": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/square-pos-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "square-pos-official"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-business-review-en",
+      "title": "XServer Business Review: Shared, Virtual, and Physical Managed Servers",
+      "language": "en",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-business-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-business-official"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-rental-server-review-en",
+      "title": "XServer Review: Pricing, Features, and Contract Limits (2026)",
+      "language": "en",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-rental-server-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-business-review-ja",
+      "title": "XServerビジネスレビュー｜共有・仮想・物理専用サーバーの選び方",
+      "language": "ja",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-business-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-business-main"
+      ],
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-rental-server-review-ja",
+      "title": "エックスサーバーレビュー｜料金・機能・注意点【2026年】",
+      "language": "ja",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-main"
+      ],
+      "priority": 75
+    },
+    {
       "articleId": "color-me-shop-seo-guide-ja",
       "title": "カラーミーショップSEO設定ガイド｜カテゴリ・商品・サイトマップ",
       "language": "ja",
@@ -2574,6 +3364,114 @@
         "color-me-shop-seo-guide"
       ],
       "priority": 75
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-en",
+      "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "placements": 3,
+      "configuredPlacements": 3,
+      "affiliateKeys": [
+        "funfo-official",
+        "kantan-chumon-official",
+        "emeao-pos-official"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "business-web-hosting-comparison-ja",
+      "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "placements": 4,
+      "configuredPlacements": 3,
+      "affiliateKeys": [
+        "cpi",
+        "xserver-wp",
+        "xserver-business-main",
+        "conoha-wing-business-official"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "airpay-vs-square-en",
+      "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "airpay-official-en",
+        "square-pos-official-en"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "air-regi-vs-square-pos-en",
+      "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "air-regi-official-en",
+        "square-pos-official-en"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "airpay-vs-square-ja",
+      "title": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "airpay-official",
+        "square-pos-official"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "square-vs-paycas-mobile-en",
+      "title": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/square-vs-paycas-mobile/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "square-pos-official-en",
+        "paycas-mobile-official-en"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "square-vs-paycas-mobile-ja",
+      "title": "SquareとPayCAS Mobileを比較｜小型端末かSIM・プリンター内蔵か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/square-vs-paycas-mobile/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "square-pos-official",
+        "paycas-mobile-official"
+      ],
+      "priority": 70
     },
     {
       "articleId": "xserver-for-wordpress-vs-cpi-ja",
@@ -2591,19 +3489,17 @@
       "priority": 70
     },
     {
-      "articleId": "business-web-hosting-comparison-ja",
-      "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+      "articleId": "xserver-for-wordpress-vs-xserver-business-ja",
+      "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
       "language": "ja",
       "type": "comparison",
       "category": "hosting-security",
-      "url": "/ja/hosting-security/business-web-hosting-comparison/",
-      "placements": 4,
+      "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "placements": 2,
       "configuredPlacements": 2,
       "affiliateKeys": [
-        "cpi",
-        "xserver-wp",
-        "xserver-business-official",
-        "conoha-wing-business-official"
+        "xserver-wp-setup",
+        "xserver-business-main"
       ],
       "priority": 70
     },
@@ -2646,6 +3542,23 @@
       "configuredPlacements": 1,
       "affiliateKeys": [
         "shin-server-official"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "business-web-hosting-comparison-en",
+      "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "placements": 4,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-business-official",
+        "cpi-official",
+        "xserver-wp-official",
+        "conoha-wing-business-official"
       ],
       "priority": 70
     },
@@ -2902,6 +3815,20 @@
       "priority": 70
     },
     {
+      "articleId": "restaurant-pos-vs-mobile-order-en",
+      "title": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 70
+    },
+    {
       "articleId": "shin-rental-server-vs-conoha-wing-en",
       "title": "Shin Rental Server vs ConoHa WING: Pricing and Contract Differences",
       "language": "en",
@@ -2958,17 +3885,31 @@
       "priority": 70
     },
     {
-      "articleId": "xserver-for-wordpress-vs-xserver-business-ja",
-      "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
-      "language": "ja",
+      "articleId": "store-dx-stack-comparison-en",
+      "title": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/store-dx-stack-comparison/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis-en"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "xserver-for-wordpress-vs-xserver-business-en",
+      "title": "XServer for WordPress vs XServer Business",
+      "language": "en",
       "type": "comparison",
       "category": "hosting-security",
-      "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
       "placements": 2,
       "configuredPlacements": 1,
       "affiliateKeys": [
-        "xserver-wp-setup",
-        "xserver-business-official"
+        "xserver-business-official",
+        "xserver-wp-official"
       ],
       "priority": 70
     },
@@ -3015,6 +3956,20 @@
       "priority": 70
     },
     {
+      "articleId": "store-dx-stack-comparison-ja",
+      "title": "店舗DXツール構成比較｜POS・決済・予約・LINE・会計の組み合わせ方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/store-dx-stack-comparison/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis"
+      ],
+      "priority": 70
+    },
+    {
       "articleId": "business-wordpress-hosting-comparison-ja",
       "title": "法人向けWordPressホスティング3社比較｜XServer・Kinsta・WP Engine",
       "language": "ja",
@@ -3044,6 +3999,24 @@
         "xserver-shop-trial"
       ],
       "priority": 63
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-ja",
+      "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+      "language": "ja",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "placements": 5,
+      "configuredPlacements": 5,
+      "affiliateKeys": [
+        "kantan-chumon-short",
+        "air-regi-official",
+        "airpay-official",
+        "square-pos-official",
+        "paycas-mobile-official"
+      ],
+      "priority": 60
     },
     {
       "articleId": "jimdo-small-business-guide-ja",
@@ -3218,6 +4191,34 @@
       "priority": 60
     },
     {
+      "articleId": "xserver-rental-server-pros-cons-en",
+      "title": "XServer Pros and Cons: What to Check Before Contracting",
+      "language": "en",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-rental-server-pros-cons/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 60
+    },
+    {
+      "articleId": "xserver-rental-server-pros-cons-ja",
+      "title": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+      "language": "ja",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-main"
+      ],
+      "priority": 60
+    },
+    {
       "articleId": "cpi-vs-xserver-business-ja",
       "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
       "language": "ja",
@@ -3225,12 +4226,128 @@
       "category": "hosting-security",
       "url": "/ja/hosting-security/cpi-vs-xserver-business/",
       "placements": 2,
-      "configuredPlacements": 1,
+      "configuredPlacements": 2,
       "affiliateKeys": [
         "cpi",
+        "xserver-business-main"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "cpi-vs-xserver-business-en",
+      "title": "CPI vs XServer Business for Organizations in Japan",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/cpi-vs-xserver-business/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-business-official",
+        "cpi-official"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-conoha-wing-en",
+      "title": "XServer vs ConoHa WING: Pricing, Contracts, and WordPress Workflows",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-vs-conoha-wing/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-lolipop-en",
+      "title": "XServer vs Lolipop: A Beginner-Focused Hosting Comparison (2026)",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-vs-lolipop/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-xserver-business-en",
+      "title": "XServer vs XServer Business: Which Service Fits a Company?",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-vs-xserver-business/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
         "xserver-business-official"
       ],
       "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-conoha-wing-ja",
+      "title": "エックスサーバーとConoHa WINGを比較｜料金・契約・WordPressの違い",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-vs-conoha-wing/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-main"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-xserver-business-ja",
+      "title": "エックスサーバーとXServerビジネスの違い｜法人はどちらを選ぶべきか",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-vs-xserver-business/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-business-guide"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-lolipop-ja",
+      "title": "エックスサーバーとロリポップ！を比較｜初心者向けの選び方【2026年】",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-vs-lolipop/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-main"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-en",
+      "title": "POS vs Payment Service: What Does a Store Actually Need?",
+      "language": "en",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "placements": 4,
+      "configuredPlacements": 4,
+      "affiliateKeys": [
+        "air-regi-official-en",
+        "airpay-official-en",
+        "square-pos-official-en",
+        "paycas-mobile-official-en"
+      ],
+      "priority": 52
     },
     {
       "articleId": "ochanoko-saisai-restaurant-guide-en",
@@ -3387,6 +4504,20 @@
       "priority": 52
     },
     {
+      "articleId": "store-dx-implementation-roadmap-en",
+      "title": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/store-dx-implementation-roadmap/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis-en"
+      ],
+      "priority": 52
+    },
+    {
       "articleId": "shin-rental-server-wordpress-en",
       "title": "Using Shin Rental Server for WordPress: Setup and Migration Guide",
       "language": "en",
@@ -3399,6 +4530,136 @@
         "shin-server-official"
       ],
       "priority": 52
+    },
+    {
+      "articleId": "xserver-rental-server-pricing-en",
+      "title": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-rental-server-pricing/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 52
+    },
+    {
+      "articleId": "xserver-rental-server-pricing-ja",
+      "title": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-price"
+      ],
+      "priority": 52
+    },
+    {
+      "articleId": "store-dx-implementation-roadmap-ja",
+      "title": "店舗DX導入ロードマップ｜POS・決済・予約・LINE・会計を順番に整える",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/store-dx-implementation-roadmap/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis"
+      ],
+      "priority": 52
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-ja",
+      "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "placements": 5,
+      "configuredPlacements": 5,
+      "affiliateKeys": [
+        "kantan-chumon-analysis",
+        "funfo-short",
+        "emeao-pos-company"
+      ],
+      "priority": 45
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-ja",
+      "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/small-restaurant-dx-guide/",
+      "placements": 4,
+      "configuredPlacements": 4,
+      "affiliateKeys": [
+        "kantan-chumon-sales",
+        "funfo-short"
+      ],
+      "priority": 45
+    },
+    {
+      "articleId": "mobile-order-system-guide-ja",
+      "title": "飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/mobile-order-system-guide/",
+      "placements": 3,
+      "configuredPlacements": 3,
+      "affiliateKeys": [
+        "kantan-chumon-mobile-order",
+        "funfo-bracket"
+      ],
+      "priority": 45
+    },
+    {
+      "articleId": "restaurant-sales-analysis-guide-ja",
+      "title": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "kantan-chumon-recommendation"
+      ],
+      "priority": 45
+    },
+    {
+      "articleId": "pos-subsidy-2026-guide-ja",
+      "title": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "kantan-chumon-subsidy"
+      ],
+      "priority": 45
+    },
+    {
+      "articleId": "restaurant-inbound-order-guide-ja",
+      "title": "飲食店のインバウンド対応｜多言語モバイルオーダー導入チェックリスト",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-inbound-order-guide/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "kantan-chumon-inbound"
+      ],
+      "priority": 45
     },
     {
       "articleId": "cpi-rental-server-review-en",
@@ -3457,6 +4718,230 @@
       "priority": 40
     },
     {
+      "articleId": "pos-subsidy-2026-guide-en",
+      "title": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/pos-subsidy-2026-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-en",
+      "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-inbound-order-guide-en",
+      "title": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-inbound-order-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-company-website-email-guide-en",
+      "title": "Preparing a Company Website and Domain Email on XServer",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-company-website-email-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "mobile-order-system-guide-en",
+      "title": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-sales-analysis-guide-en",
+      "title": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "retail-store-dx-guide-en",
+      "title": "Retail Store DX Guide: Unify POS, Inventory, Payments, and Accounting",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/retail-store-dx-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis-en"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-multiple-domain-site-guide-en",
+      "title": "Running Multiple Sites on XServer: Domains, Email, FTP, and Governance",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-multiple-domain-site-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "salon-store-dx-guide-en",
+      "title": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/salon-store-dx-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis-en"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-en",
+      "title": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/small-restaurant-dx-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-wordpress-quick-start-guide-en",
+      "title": "Starting WordPress on XServer: Quick Start, Installation, and Migration",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-wordpress-quick-start-guide-ja",
+      "title": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-wordpress-guide"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-multiple-domain-site-guide-ja",
+      "title": "エックスサーバーで複数サイトを運営する方法｜ドメイン・メール管理",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-domain"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-company-website-email-guide-ja",
+      "title": "会社ホームページと独自ドメインメールをエックスサーバーで準備する方法",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-company-website-email-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "xserver-company-email"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "retail-store-dx-guide-ja",
+      "title": "小売店の店舗DXガイド｜POS・在庫・決済・会計を一元化する",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/retail-store-dx-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "salon-store-dx-guide-ja",
+      "title": "美容サロンの店舗DXガイド｜予約・顧客カルテ・LINE・会計をつなぐ",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/salon-store-dx-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "luqevora-store-dx-diagnosis"
+      ],
+      "priority": 37
+    },
+    {
       "articleId": "1password-vs-bitwarden-en",
       "title": "1Password vs Bitwarden: Free, Family, and Business Use Compared",
       "language": "en",
@@ -3513,23 +4998,6 @@
       "affiliateKeys": [
         "ahrefs",
         "mangools"
-      ],
-      "priority": 35
-    },
-    {
-      "articleId": "business-web-hosting-comparison-en",
-      "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/business-web-hosting-comparison/",
-      "placements": 4,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "cpi-official",
-        "xserver-wp-official",
-        "xserver-business-official",
-        "conoha-wing-business-official"
       ],
       "priority": 35
     },
@@ -4220,21 +5688,6 @@
       "priority": 35
     },
     {
-      "articleId": "xserver-for-wordpress-vs-xserver-business-en",
-      "title": "XServer for WordPress vs XServer Business",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "xserver-wp-official",
-        "xserver-business-official"
-      ],
-      "priority": 35
-    },
-    {
       "articleId": "xserver-shop-vs-shopify-en",
       "title": "XServer Shop vs Shopify: Fees, Control and Operations",
       "language": "en",
@@ -4691,6 +6144,20 @@
       "priority": 25
     },
     {
+      "articleId": "hubspot-free-crm-review-small-business-en",
+      "title": "HubSpot Free CRM Review for Small Businesses",
+      "language": "en",
+      "type": "review",
+      "category": "business-software",
+      "url": "/en/business-software/hubspot-free-crm-review-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hubspot-crm"
+      ],
+      "priority": 25
+    },
+    {
       "articleId": "hubspot-marketing-review-en",
       "title": "HubSpot Marketing Hub Review: Pricing, Features, Best-Fit Uses, and Limitations",
       "language": "en",
@@ -4731,6 +6198,20 @@
       "configuredPlacements": 0,
       "affiliateKeys": [
         "hubspot-marketing"
+      ],
+      "priority": 25
+    },
+    {
+      "articleId": "hubspot-free-crm-review-small-business-ja",
+      "title": "HubSpot無料CRMの評判・機能｜小規模企業で使える範囲",
+      "language": "ja",
+      "type": "review",
+      "category": "business-software",
+      "url": "/ja/business-software/hubspot-free-crm-review-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hubspot-crm"
       ],
       "priority": 25
     },
@@ -6497,17 +7978,16 @@
       "priority": 20
     },
     {
-      "articleId": "cpi-vs-xserver-business-en",
-      "title": "CPI vs XServer Business for Organizations in Japan",
+      "articleId": "crm-comparison-small-business-japan-en",
+      "title": "CRM Comparison for Small Businesses: HubSpot, monday CRM, and Salesforce",
       "language": "en",
       "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/cpi-vs-xserver-business/",
-      "placements": 2,
+      "category": "business-software",
+      "url": "/en/business-software/crm-comparison-small-business-japan/",
+      "placements": 1,
       "configuredPlacements": 0,
       "affiliateKeys": [
-        "cpi-official",
-        "xserver-business-official"
+        "hubspot-crm"
       ],
       "priority": 20
     },
@@ -6812,6 +8292,20 @@
       "priority": 20
     },
     {
+      "articleId": "gmail-vs-google-workspace-business-email-en",
+      "title": "Free Gmail vs Google Workspace for Business Email",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 20
+    },
+    {
       "articleId": "gemini-vs-microsoft-copilot-en",
       "title": "Gemini vs Microsoft Copilot: Google or Microsoft AI Integration?",
       "language": "en",
@@ -6966,6 +8460,34 @@
       "priority": 20
     },
     {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-en",
+      "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
+      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 20
+    },
+    {
       "articleId": "hostinger-alternatives-en",
       "title": "Hostinger Alternatives: Compare Pricing, Workflows, and Migration",
       "language": "en",
@@ -7054,6 +8576,20 @@
       "affiliateKeys": [
         "hostinger",
         "wp-engine"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "hostinger-vs-xserver-small-business-en",
+      "title": "Hostinger vs XServer for a Small Business Website",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/hostinger-vs-xserver-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hostinger"
       ],
       "priority": 20
     },
@@ -7223,6 +8759,20 @@
       "priority": 20
     },
     {
+      "articleId": "hostinger-vs-xserver-small-business-ja",
+      "title": "Hostingerとエックスサーバーを比較｜小規模事業のサーバー選び",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hostinger"
+      ],
+      "priority": 20
+    },
+    {
       "articleId": "hostinger-vs-lolipop-ja",
       "title": "Hostingerとロリポップ！を比較｜初心者にはどっちがおすすめ？",
       "language": "ja",
@@ -7251,6 +8801,20 @@
         "siteground",
         "cloudways",
         "kinsta"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-free-vs-starter-en",
+      "title": "HubSpot Free vs Starter: When Is It Time to Upgrade?",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/hubspot-free-vs-starter/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hubspot-crm"
       ],
       "priority": 20
     },
@@ -7345,6 +8909,48 @@
         "activecampaign",
         "mailchimp",
         "brevo"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-vs-salesforce-small-business-en",
+      "title": "HubSpot vs Salesforce for Small Businesses",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/hubspot-vs-salesforce-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hubspot-crm"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-vs-salesforce-small-business-ja",
+      "title": "HubSpotとSalesforceを比較｜小規模企業のCRM選び",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/hubspot-vs-salesforce-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hubspot-crm"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-free-vs-starter-ja",
+      "title": "HubSpot無料版とStarterを比較｜有料化するタイミング",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/hubspot-free-vs-starter/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hubspot-crm"
       ],
       "priority": 20
     },
@@ -7919,6 +9525,36 @@
       "affiliateKeys": [
         "mangools",
         "ubersuggest"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "monday-crm-vs-hubspot-crm-en",
+      "title": "monday CRM vs HubSpot CRM: Pipeline Flexibility or Customer Platform?",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/monday-crm-vs-hubspot-crm/",
+      "placements": 2,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com",
+        "hubspot-crm"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "monday-crm-vs-hubspot-crm-ja",
+      "title": "monday CRMとHubSpot CRMを比較｜案件管理か顧客基盤か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-crm-vs-hubspot-crm/",
+      "placements": 2,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com",
+        "hubspot-crm"
       ],
       "priority": 20
     },
@@ -8625,6 +10261,20 @@
       "priority": 20
     },
     {
+      "articleId": "shopify-vs-base-small-business-en",
+      "title": "Shopify vs BASE for a Small Online Store",
+      "language": "en",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-vs-base-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
+      ],
+      "priority": 20
+    },
+    {
       "articleId": "shopify-vs-duda-en",
       "title": "Shopify vs Duda: Merchant Ecommerce or Multi-Client Agency Operations?",
       "language": "en",
@@ -8670,6 +10320,20 @@
       "priority": 20
     },
     {
+      "articleId": "shopify-vs-stores-small-business-en",
+      "title": "Shopify vs STORES: Ecommerce Scale or Japanese Store Operations?",
+      "language": "en",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-vs-stores-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
+      ],
+      "priority": 20
+    },
+    {
       "articleId": "shopify-vs-wix-en",
       "title": "Shopify vs Wix: Ecommerce Operations or an All-Purpose Business Site?",
       "language": "en",
@@ -8696,6 +10360,20 @@
       "affiliateKeys": [
         "shopify",
         "wordpress-com"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "shopify-vs-base-small-business-ja",
+      "title": "ShopifyとBASEを比較｜小規模ネットショップはどちら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-vs-base-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
       ],
       "priority": 20
     },
@@ -8741,6 +10419,20 @@
       "affiliateKeys": [
         "shopify",
         "hostinger-website-builder"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "shopify-vs-stores-small-business-ja",
+      "title": "ShopifyとSTORESを比較｜ECと店舗連携で選ぶ",
+      "language": "ja",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-vs-stores-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
       ],
       "priority": 20
     },
@@ -9832,21 +11524,6 @@
       "priority": 20
     },
     {
-      "articleId": "xserver-vs-lolipop-en",
-      "title": "XServer vs Lolipop: Japanese WordPress Hosting for Beginners",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/xserver-vs-lolipop/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "xserver",
-        "lolipop"
-      ],
-      "priority": 20
-    },
-    {
       "articleId": "zoom-vs-microsoft-teams-en",
       "title": "Zoom Workplace vs Microsoft Teams: External Meetings or Microsoft 365 Collaboration?",
       "language": "en",
@@ -9877,17 +11554,30 @@
       "priority": 20
     },
     {
-      "articleId": "xserver-vs-lolipop-ja",
-      "title": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
+      "articleId": "crm-comparison-small-business-japan-ja",
+      "title": "中小企業向けCRM比較｜HubSpot・monday CRM・Salesforceの選び方",
       "language": "ja",
       "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/xserver-vs-lolipop/",
-      "placements": 2,
+      "category": "business-software",
+      "url": "/ja/business-software/crm-comparison-small-business-japan/",
+      "placements": 1,
       "configuredPlacements": 0,
       "affiliateKeys": [
-        "xserver",
-        "lolipop"
+        "hubspot-crm"
+      ],
+      "priority": 20
+    },
+    {
+      "articleId": "gmail-vs-google-workspace-business-email-ja",
+      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
       ],
       "priority": 20
     },
@@ -9990,6 +11680,62 @@
       "priority": 2
     },
     {
+      "articleId": "google-workspace-pricing-small-business-en",
+      "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-pricing-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-ja",
+      "title": "Google Workspaceで独自ドメインメールを設定する手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-domain-email-setup/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "google-workspace-pricing-small-business-ja",
+      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-pricing-small-business/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "hostinger-pricing-renewal-cost-japan-en",
+      "title": "Hostinger Pricing and Renewal Cost: Calculate the Full Commitment",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/hostinger-pricing-renewal-cost-japan/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hostinger"
+      ],
+      "priority": 2
+    },
+    {
       "articleId": "hostinger-pricing-guide-en",
       "title": "Hostinger Pricing Guide: Plans, Limits, and Total Cost",
       "language": "en",
@@ -10018,12 +11764,54 @@
       "priority": 2
     },
     {
+      "articleId": "hostinger-pricing-renewal-cost-japan-ja",
+      "title": "Hostingerの料金と更新費用｜長期契約の総額を確認",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/hostinger-pricing-renewal-cost-japan/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hostinger"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-web-production-project-management-en",
+      "title": "How to Manage Website Production Projects in monday.com",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/monday-web-production-project-management/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
+      ],
+      "priority": 2
+    },
+    {
       "articleId": "custom-domain-email-guide-en",
       "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
       "language": "en",
       "type": "guide",
       "category": "business-software",
       "url": "/en/business-software/custom-domain-email-guide/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-en",
+      "title": "How to Set Up Custom-Domain Email with Google Workspace",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-domain-email-setup/",
       "placements": 1,
       "configuredPlacements": 0,
       "affiliateKeys": [
@@ -10057,6 +11845,20 @@
       "configuredPlacements": 0,
       "affiliateKeys": [
         "a8net"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-multiple-store-operations-en",
+      "title": "How to Use monday.com for Multi-Location Store Operations",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/monday-multiple-store-operations/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
       ],
       "priority": 2
     },
@@ -10131,6 +11933,34 @@
       "priority": 2
     },
     {
+      "articleId": "monday-implementation-checklist-en",
+      "title": "monday.com Implementation Checklist: 15 Decisions Before Rollout",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/monday-implementation-checklist/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-work-management-plans-comparison-en",
+      "title": "monday.com Plan Comparison: Free, Basic, Standard, and Pro",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/monday-work-management-plans-comparison/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
+      ],
+      "priority": 2
+    },
+    {
       "articleId": "monday-pricing-guide-en",
       "title": "monday.com Pricing Guide: Plans, Limits, and Total Cost",
       "language": "en",
@@ -10151,6 +11981,34 @@
       "type": "guide",
       "category": "business-software",
       "url": "/ja/business-software/monday-pricing-guide/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-work-management-plans-comparison-ja",
+      "title": "monday.comの料金プラン比較｜Free・Basic・Standard・Proの選び方",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-work-management-plans-comparison/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-implementation-checklist-ja",
+      "title": "monday.com導入チェックリスト｜初期設定で決める15項目",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-implementation-checklist/",
       "placements": 1,
       "configuredPlacements": 0,
       "affiliateKeys": [
@@ -10215,6 +12073,20 @@
       "priority": 2
     },
     {
+      "articleId": "shopify-launch-checklist-small-store-en",
+      "title": "Shopify Launch Checklist for a Small Store",
+      "language": "en",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-launch-checklist-small-store/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
+      ],
+      "priority": 2
+    },
+    {
       "articleId": "shopify-pricing-guide-en",
       "title": "Shopify Pricing Guide: Plans, Limits, and Total Cost",
       "language": "en",
@@ -10229,12 +12101,40 @@
       "priority": 2
     },
     {
+      "articleId": "shopify-pricing-total-cost-japan-en",
+      "title": "Shopify Total Cost: Plans, Payments, Apps, and Themes",
+      "language": "en",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-pricing-total-cost-japan/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
+      ],
+      "priority": 2
+    },
+    {
       "articleId": "shopify-pricing-guide-ja",
       "title": "Shopifyの料金・プラン選び方｜契約前に確認したい費用と上限",
       "language": "ja",
       "type": "guide",
       "category": "website-builders",
       "url": "/ja/website-builders/shopify-pricing-guide/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "shopify-pricing-total-cost-japan-ja",
+      "title": "Shopifyの料金総額｜月額・決済・アプリ・テーマを計算",
+      "language": "ja",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-pricing-total-cost-japan/",
       "placements": 1,
       "configuredPlacements": 0,
       "affiliateKeys": [
@@ -10267,6 +12167,34 @@
       "configuredPlacements": 0,
       "affiliateKeys": [
         "surfshark"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "hostinger-overseas-website-guide-en",
+      "title": "Using Hostinger for an International Website: Decision Guide",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/hostinger-overseas-website-guide/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hostinger"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-web-production-project-management-ja",
+      "title": "Web制作案件をmonday.comで管理する方法｜要件・素材・公開を一元化",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-web-production-project-management/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
       ],
       "priority": 2
     },
@@ -10396,9 +12324,93 @@
         "moshimo-affiliate"
       ],
       "priority": 2
+    },
+    {
+      "articleId": "shopify-launch-checklist-small-store-ja",
+      "title": "小規模店舗のShopify開設チェックリスト｜公開前に確認する項目",
+      "language": "ja",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-launch-checklist-small-store/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "shopify"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "hostinger-overseas-website-guide-ja",
+      "title": "海外向けWebサイトにHostingerを使う判断ポイント",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/hostinger-overseas-website-guide/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "hostinger"
+      ],
+      "priority": 2
+    },
+    {
+      "articleId": "monday-multiple-store-operations-ja",
+      "title": "複数店舗の業務管理にmonday.comを使う方法｜本部と店舗を可視化",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/monday-multiple-store-operations/",
+      "placements": 1,
+      "configuredPlacements": 0,
+      "affiliateKeys": [
+        "monday-com"
+      ],
+      "priority": 2
     }
   ],
   "placements": [
+    {
+      "articleId": "emeao-pos-review-ja",
+      "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/emeao-pos-review/",
+      "affiliateKey": "emeao-pos-fit",
+      "placement": "section-1",
+      "configured": true,
+      "product": "EMEAO! POSレジ・システム業者紹介",
+      "officialUrl": "",
+      "priority": 83
+    },
+    {
+      "articleId": "emeao-pos-review-ja",
+      "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/emeao-pos-review/",
+      "affiliateKey": "emeao-pos-quality",
+      "placement": "section-6",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 83
+    },
+    {
+      "articleId": "funfo-review-ja",
+      "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-review/",
+      "affiliateKey": "funfo-short",
+      "placement": "section-1",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "",
+      "priority": 83
+    },
     {
       "articleId": "iclusta-review-ja",
       "title": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
@@ -10652,6 +12664,20 @@
       "priority": 83
     },
     {
+      "articleId": "kantan-chumon-review-ja",
+      "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "section-1",
+      "configured": true,
+      "product": "かんたん注文",
+      "officialUrl": "",
+      "priority": 83
+    },
+    {
       "articleId": "goope-review-ja",
       "title": "グーペの料金・機能・注意点｜店舗向けホームページ作成を検証",
       "language": "ja",
@@ -10736,6 +12762,20 @@
       "priority": 83
     },
     {
+      "articleId": "air-regi-vs-square-pos-ja",
+      "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+      "affiliateKey": "emeao-pos-free",
+      "placement": "section-5",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 78
+    },
+    {
       "articleId": "cpanel-hosting-comparison-ja",
       "title": "cPanel対応レンタルサーバー比較【2026年】",
       "language": "ja",
@@ -10744,6 +12784,34 @@
       "url": "/ja/hosting-security/cpanel-hosting-comparison/",
       "affiliateKey": "jetboy",
       "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 78
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-ja",
+      "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "emeao-pos-free",
+      "placement": "section-3",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 78
+    },
+    {
+      "articleId": "funfo-vs-kantan-chumon-ja",
+      "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+      "affiliateKey": "funfo-bracket",
+      "placement": "section-3",
       "configured": true,
       "product": "",
       "officialUrl": "",
@@ -10914,6 +12982,20 @@
       "placement": "section-1",
       "configured": true,
       "product": "",
+      "officialUrl": "",
+      "priority": 78
+    },
+    {
+      "articleId": "restaurant-pos-vs-mobile-order-ja",
+      "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "section-1",
+      "configured": true,
+      "product": "かんたん注文",
       "officialUrl": "",
       "priority": 78
     },
@@ -11324,6 +13406,62 @@
       "priority": 78
     },
     {
+      "articleId": "airpay-review-en",
+      "title": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/airpay-review/",
+      "affiliateKey": "airpay-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://airpayment.jp/",
+      "priority": 75
+    },
+    {
+      "articleId": "air-regi-review-en",
+      "title": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "affiliateKey": "air-regi-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://airregi.jp/",
+      "priority": 75
+    },
+    {
+      "articleId": "airpay-review-ja",
+      "title": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/airpay-review/",
+      "affiliateKey": "airpay-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Airペイ",
+      "officialUrl": "https://airpayment.jp/",
+      "priority": 75
+    },
+    {
+      "articleId": "air-regi-review-ja",
+      "title": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/air-regi-review/",
+      "affiliateKey": "air-regi-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Airレジ",
+      "officialUrl": "https://airregi.jp/",
+      "priority": 75
+    },
+    {
       "articleId": "color-me-shop-review-en",
       "title": "Color Me Shop Review: Pricing, Features, and SEO Limits",
       "language": "en",
@@ -11363,6 +13501,48 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://www.cpi.ad.jp/shared/bs/",
+      "priority": 75
+    },
+    {
+      "articleId": "emeao-pos-review-en",
+      "title": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "affiliateKey": "emeao-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "priority": 75
+    },
+    {
+      "articleId": "emeao-pos-review-ja",
+      "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/emeao-pos-review/",
+      "affiliateKey": "emeao-pos-fit",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "EMEAO! POSレジ・システム業者紹介",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "priority": 75
+    },
+    {
+      "articleId": "funfo-review-ja",
+      "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-review/",
+      "affiliateKey": "funfo-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "https://www.funfo.jp/",
       "priority": 75
     },
     {
@@ -11450,6 +13630,20 @@
       "priority": 75
     },
     {
+      "articleId": "kantan-chumon-review-en",
+      "title": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 75
+    },
+    {
       "articleId": "ochanoko-saisai-review-en",
       "title": "Ochanoko Saisai Review: Pricing, Store Features, and Limits",
       "language": "en",
@@ -11461,6 +13655,34 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://www.ocnk.me/",
+      "priority": 75
+    },
+    {
+      "articleId": "paycas-mobile-review-en",
+      "title": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "affiliateKey": "paycas-mobile-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "priority": 75
+    },
+    {
+      "articleId": "paycas-mobile-review-ja",
+      "title": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/paycas-mobile-review/",
+      "affiliateKey": "paycas-mobile-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "PayCAS Mobile",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
       "priority": 75
     },
     {
@@ -11492,6 +13714,48 @@
       "priority": 75
     },
     {
+      "articleId": "square-pos-review-en",
+      "title": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "language": "en",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "affiliateKey": "square-pos-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "priority": 75
+    },
+    {
+      "articleId": "square-pos-review-ja",
+      "title": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+      "language": "ja",
+      "type": "review",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/square-pos-review/",
+      "affiliateKey": "square-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Square POSレジ",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-business-review-en",
+      "title": "XServer Business Review: Shared, Virtual, and Physical Managed Servers",
+      "language": "en",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-business-review/",
+      "affiliateKey": "xserver-business-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "priority": 75
+    },
+    {
       "articleId": "xserver-for-wordpress-review-ja",
       "title": "XServer for WordPressレビュー｜法人向け料金・機能・注意点",
       "language": "ja",
@@ -11506,6 +13770,20 @@
       "priority": 75
     },
     {
+      "articleId": "xserver-rental-server-review-en",
+      "title": "XServer Review: Pricing, Features, and Contract Limits (2026)",
+      "language": "en",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-rental-server-review/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 75
+    },
+    {
       "articleId": "xserver-shop-review-ja",
       "title": "XServerショップレビュー｜料金・手数料・EC-CUBEの注意点",
       "language": "ja",
@@ -11517,6 +13795,34 @@
       "configured": true,
       "product": "XServer Shop",
       "officialUrl": "https://shop.xserver.ne.jp/",
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-business-review-ja",
+      "title": "XServerビジネスレビュー｜共有・仮想・物理専用サーバーの選び方",
+      "language": "ja",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-business-review/",
+      "affiliateKey": "xserver-business-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer Business",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "priority": 75
+    },
+    {
+      "articleId": "xserver-rental-server-review-ja",
+      "title": "エックスサーバーレビュー｜料金・機能・注意点【2026年】",
+      "language": "ja",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "affiliateKey": "xserver-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer",
+      "officialUrl": "https://www.xserver.ne.jp/",
       "priority": 75
     },
     {
@@ -11576,6 +13882,20 @@
       "priority": 75
     },
     {
+      "articleId": "kantan-chumon-review-ja",
+      "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "language": "ja",
+      "type": "review",
+      "category": "store-dx",
+      "url": "/ja/store-dx/kantan-chumon-review/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "かんたん注文",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 75
+    },
+    {
       "articleId": "goope-review-ja",
       "title": "グーペの料金・機能・注意点｜店舗向けホームページ作成を検証",
       "language": "ja",
@@ -11618,6 +13938,118 @@
       "priority": 75
     },
     {
+      "articleId": "airpay-vs-square-en",
+      "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "affiliateKey": "airpay-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://airpayment.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "airpay-vs-square-en",
+      "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "affiliateKey": "square-pos-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://squareup.com/jp/ja/payments",
+      "priority": 70
+    },
+    {
+      "articleId": "air-regi-vs-square-pos-en",
+      "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+      "affiliateKey": "air-regi-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://airregi.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "air-regi-vs-square-pos-en",
+      "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+      "affiliateKey": "square-pos-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "priority": 70
+    },
+    {
+      "articleId": "airpay-vs-square-ja",
+      "title": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "affiliateKey": "airpay-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Airペイ",
+      "officialUrl": "https://airpayment.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "airpay-vs-square-ja",
+      "title": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/airpay-vs-square/",
+      "affiliateKey": "square-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Square POSレジ",
+      "officialUrl": "https://squareup.com/jp/ja/payments",
+      "priority": 70
+    },
+    {
+      "articleId": "air-regi-vs-square-pos-ja",
+      "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+      "affiliateKey": "air-regi-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Airレジ",
+      "officialUrl": "https://airregi.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "air-regi-vs-square-pos-ja",
+      "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+      "affiliateKey": "square-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Square POSレジ",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "priority": 70
+    },
+    {
       "articleId": "best-japanese-web-hosting-en",
       "title": "Best Japanese Web Hosting: Selection by Use Case (2026)",
       "language": "en",
@@ -11657,6 +14089,20 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://www.shin-server.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "business-web-hosting-comparison-en",
+      "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/business-web-hosting-comparison/",
+      "affiliateKey": "xserver-business-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://business.xserver.ne.jp/",
       "priority": 70
     },
     {
@@ -11727,6 +14173,132 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://www.jetboy.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-en",
+      "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "funfo-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.funfo.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-en",
+      "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-en",
+      "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "emeao-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-ja",
+      "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "funfo-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "https://www.funfo.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-ja",
+      "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "かんたん注文",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-three-way-comparison-ja",
+      "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+      "affiliateKey": "emeao-pos-free",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "priority": 70
+    },
+    {
+      "articleId": "funfo-vs-kantan-chumon-ja",
+      "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+      "affiliateKey": "funfo-bracket",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.funfo.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "funfo-vs-kantan-chumon-ja",
+      "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "かんたん注文",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 70
+    },
+    {
+      "articleId": "funfo-vs-kantan-chumon-ja",
+      "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+      "affiliateKey": "emeao-pos-free",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
       "priority": 70
     },
     {
@@ -12052,6 +14624,34 @@
       "priority": 70
     },
     {
+      "articleId": "restaurant-pos-vs-mobile-order-ja",
+      "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "かんたん注文",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 70
+    },
+    {
+      "articleId": "restaurant-pos-vs-mobile-order-en",
+      "title": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 70
+    },
+    {
       "articleId": "shin-rental-server-vs-conoha-wing-en",
       "title": "Shin Rental Server vs ConoHa WING: Pricing and Contract Differences",
       "language": "en",
@@ -12108,6 +14708,76 @@
       "priority": 70
     },
     {
+      "articleId": "square-vs-paycas-mobile-en",
+      "title": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/square-vs-paycas-mobile/",
+      "affiliateKey": "square-pos-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://squareup.com/jp/ja/payments",
+      "priority": 70
+    },
+    {
+      "articleId": "square-vs-paycas-mobile-en",
+      "title": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+      "language": "en",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/square-vs-paycas-mobile/",
+      "affiliateKey": "paycas-mobile-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "priority": 70
+    },
+    {
+      "articleId": "square-vs-paycas-mobile-ja",
+      "title": "SquareとPayCAS Mobileを比較｜小型端末かSIM・プリンター内蔵か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/square-vs-paycas-mobile/",
+      "affiliateKey": "square-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Square POSレジ",
+      "officialUrl": "https://squareup.com/jp/ja/payments",
+      "priority": 70
+    },
+    {
+      "articleId": "square-vs-paycas-mobile-ja",
+      "title": "SquareとPayCAS Mobileを比較｜小型端末かSIM・プリンター内蔵か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/square-vs-paycas-mobile/",
+      "affiliateKey": "paycas-mobile-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "PayCAS Mobile",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "priority": 70
+    },
+    {
+      "articleId": "store-dx-stack-comparison-en",
+      "title": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+      "language": "en",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/en/store-dx/store-dx-stack-comparison/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "priority": 70
+    },
+    {
       "articleId": "best-wordpress-hosting-japan-ja",
       "title": "WordPress向け国内レンタルサーバー比較｜5社の選び方【2026年】",
       "language": "ja",
@@ -12119,6 +14789,20 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://www.shin-server.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "xserver-for-wordpress-vs-xserver-business-en",
+      "title": "XServer for WordPress vs XServer Business",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "affiliateKey": "xserver-business-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://business.xserver.ne.jp/",
       "priority": 70
     },
     {
@@ -12161,6 +14845,20 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://wp.xserver.ne.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "xserver-for-wordpress-vs-xserver-business-ja",
+      "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+      "affiliateKey": "xserver-business-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer Business",
+      "officialUrl": "https://business.xserver.ne.jp/",
       "priority": 70
     },
     {
@@ -12318,6 +15016,20 @@
       "priority": 70
     },
     {
+      "articleId": "shin-rental-server-vs-xserver-ja",
+      "title": "シンレンタルサーバーとエックスサーバーを比較｜違いと選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+      "affiliateKey": "xserver-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 70
+    },
+    {
       "articleId": "shin-rental-server-vs-lolipop-ja",
       "title": "シンレンタルサーバーとロリポップ！を比較｜初心者向けの選び方",
       "language": "ja",
@@ -12388,6 +15100,20 @@
       "priority": 70
     },
     {
+      "articleId": "store-dx-stack-comparison-ja",
+      "title": "店舗DXツール構成比較｜POS・決済・予約・LINE・会計の組み合わせ方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "store-dx",
+      "url": "/ja/store-dx/store-dx-stack-comparison/",
+      "affiliateKey": "luqevora-store-dx-diagnosis",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "priority": 70
+    },
+    {
       "articleId": "store-website-builder-comparison-ja",
       "title": "店舗向けホームページ作成サービス比較｜おちゃのこさいさい・グーペなど5選",
       "language": "ja",
@@ -12455,6 +15181,20 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://wp.xserver.ne.jp/",
+      "priority": 70
+    },
+    {
+      "articleId": "business-web-hosting-comparison-ja",
+      "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/business-web-hosting-comparison/",
+      "affiliateKey": "xserver-business-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer Business",
+      "officialUrl": "https://business.xserver.ne.jp/",
       "priority": 70
     },
     {
@@ -12640,6 +15380,48 @@
       "priority": 60
     },
     {
+      "articleId": "pos-register-vs-cashless-payment-ja",
+      "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+      "language": "ja",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "kantan-chumon-short",
+      "placement": "section-5",
+      "configured": true,
+      "product": "かんたん注文",
+      "officialUrl": "",
+      "priority": 60
+    },
+    {
+      "articleId": "xserver-rental-server-pros-cons-en",
+      "title": "XServer Pros and Cons: What to Check Before Contracting",
+      "language": "en",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-rental-server-pros-cons/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 60
+    },
+    {
+      "articleId": "xserver-rental-server-pros-cons-ja",
+      "title": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+      "language": "ja",
+      "type": "review",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "affiliateKey": "xserver-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 60
+    },
+    {
       "articleId": "ochanoko-saisai-seo-guide-ja",
       "title": "おちゃのこさいさいSEO設定ガイド｜店舗検索で確認する項目",
       "language": "ja",
@@ -12738,6 +15520,20 @@
       "priority": 60
     },
     {
+      "articleId": "cpi-vs-xserver-business-en",
+      "title": "CPI vs XServer Business for Organizations in Japan",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/cpi-vs-xserver-business/",
+      "affiliateKey": "xserver-business-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://business.xserver.ne.jp/price/",
+      "priority": 55
+    },
+    {
       "articleId": "cpi-vs-xserver-business-ja",
       "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
       "language": "ja",
@@ -12752,6 +15548,62 @@
       "priority": 55
     },
     {
+      "articleId": "cpi-vs-xserver-business-ja",
+      "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+      "affiliateKey": "xserver-business-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer Business",
+      "officialUrl": "https://business.xserver.ne.jp/price/",
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-conoha-wing-en",
+      "title": "XServer vs ConoHa WING: Pricing, Contracts, and WordPress Workflows",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-vs-conoha-wing/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-lolipop-en",
+      "title": "XServer vs Lolipop: A Beginner-Focused Hosting Comparison (2026)",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-vs-lolipop/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-xserver-business-en",
+      "title": "XServer vs XServer Business: Which Service Fits a Company?",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-vs-xserver-business/",
+      "affiliateKey": "xserver-business-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
       "articleId": "xserver-shop-vs-woocommerce-ja",
       "title": "XServerショップとWooCommerceを比較｜EC-CUBE型とWordPress型",
       "language": "ja",
@@ -12763,6 +15615,48 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://shop.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-conoha-wing-ja",
+      "title": "エックスサーバーとConoHa WINGを比較｜料金・契約・WordPressの違い",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-vs-conoha-wing/",
+      "affiliateKey": "xserver-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-xserver-business-ja",
+      "title": "エックスサーバーとXServerビジネスの違い｜法人はどちらを選ぶべきか",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-vs-xserver-business/",
+      "affiliateKey": "xserver-business-guide",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://business.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
+      "articleId": "xserver-vs-lolipop-ja",
+      "title": "エックスサーバーとロリポップ！を比較｜初心者向けの選び方【2026年】",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-vs-lolipop/",
+      "affiliateKey": "xserver-main",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "XServer",
+      "officialUrl": "https://www.xserver.ne.jp/",
       "priority": 55
     },
     {
@@ -12976,6 +15870,118 @@
       "priority": 52
     },
     {
+      "articleId": "pos-register-vs-cashless-payment-en",
+      "title": "POS vs Payment Service: What Does a Store Actually Need?",
+      "language": "en",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "air-regi-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://airregi.jp/",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-en",
+      "title": "POS vs Payment Service: What Does a Store Actually Need?",
+      "language": "en",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "airpay-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://airpayment.jp/",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-en",
+      "title": "POS vs Payment Service: What Does a Store Actually Need?",
+      "language": "en",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "square-pos-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-en",
+      "title": "POS vs Payment Service: What Does a Store Actually Need?",
+      "language": "en",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "paycas-mobile-official-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-ja",
+      "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+      "language": "ja",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "air-regi-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Airレジ",
+      "officialUrl": "https://airregi.jp/",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-ja",
+      "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+      "language": "ja",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "airpay-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Airペイ",
+      "officialUrl": "https://airpayment.jp/",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-ja",
+      "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+      "language": "ja",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "square-pos-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Square POSレジ",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "priority": 52
+    },
+    {
+      "articleId": "pos-register-vs-cashless-payment-ja",
+      "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+      "language": "ja",
+      "type": "guide",
+      "category": "cashless-payments",
+      "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+      "affiliateKey": "paycas-mobile-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "PayCAS Mobile",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "priority": 52
+    },
+    {
       "articleId": "shin-rental-server-pricing-en",
       "title": "Shin Rental Server Pricing: Standard and Business Plans Compared",
       "language": "en",
@@ -12990,6 +15996,20 @@
       "priority": 52
     },
     {
+      "articleId": "store-dx-implementation-roadmap-en",
+      "title": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/store-dx-implementation-roadmap/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "priority": 52
+    },
+    {
       "articleId": "shin-rental-server-wordpress-en",
       "title": "Using Shin Rental Server for WordPress: Setup and Migration Guide",
       "language": "en",
@@ -13001,6 +16021,34 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://www.shin-server.jp/",
+      "priority": 52
+    },
+    {
+      "articleId": "xserver-rental-server-pricing-en",
+      "title": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-rental-server-pricing/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 52
+    },
+    {
+      "articleId": "xserver-rental-server-pricing-ja",
+      "title": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "affiliateKey": "xserver-price",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
       "priority": 52
     },
     {
@@ -13088,6 +16136,20 @@
       "priority": 52
     },
     {
+      "articleId": "store-dx-implementation-roadmap-ja",
+      "title": "店舗DX導入ロードマップ｜POS・決済・予約・LINE・会計を順番に整える",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/store-dx-implementation-roadmap/",
+      "affiliateKey": "luqevora-store-dx-diagnosis",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "priority": 52
+    },
+    {
       "articleId": "store-website-coupon-calendar-guide-ja",
       "title": "店舗ホームページのクーポン・カレンダー活用ガイド",
       "language": "ja",
@@ -13100,6 +16162,118 @@
       "product": "",
       "officialUrl": "https://www.ocnk.me/",
       "priority": 52
+    },
+    {
+      "articleId": "restaurant-sales-analysis-guide-ja",
+      "title": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+      "affiliateKey": "kantan-chumon-recommendation",
+      "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "pos-subsidy-2026-guide-ja",
+      "title": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+      "affiliateKey": "kantan-chumon-subsidy",
+      "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-ja",
+      "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/small-restaurant-dx-guide/",
+      "affiliateKey": "kantan-chumon-sales",
+      "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-ja",
+      "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/small-restaurant-dx-guide/",
+      "affiliateKey": "funfo-short",
+      "placement": "section-5",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "restaurant-inbound-order-guide-ja",
+      "title": "飲食店のインバウンド対応｜多言語モバイルオーダー導入チェックリスト",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-inbound-order-guide/",
+      "affiliateKey": "kantan-chumon-inbound",
+      "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "mobile-order-system-guide-ja",
+      "title": "飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/mobile-order-system-guide/",
+      "affiliateKey": "kantan-chumon-mobile-order",
+      "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-ja",
+      "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "affiliateKey": "kantan-chumon-analysis",
+      "placement": "section-1",
+      "configured": true,
+      "product": "",
+      "officialUrl": "",
+      "priority": 45
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-ja",
+      "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "affiliateKey": "funfo-short",
+      "placement": "section-2",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "",
+      "priority": 45
     },
     {
       "articleId": "cpi-rental-server-review-en",
@@ -13158,6 +16332,370 @@
       "priority": 40
     },
     {
+      "articleId": "pos-subsidy-2026-guide-en",
+      "title": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/pos-subsidy-2026-guide/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-en",
+      "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-inbound-order-guide-en",
+      "title": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-inbound-order-guide/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-sales-analysis-guide-ja",
+      "title": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+      "affiliateKey": "kantan-chumon-recommendation",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "pos-subsidy-2026-guide-ja",
+      "title": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+      "affiliateKey": "kantan-chumon-subsidy",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-company-website-email-guide-en",
+      "title": "Preparing a Company Website and Domain Email on XServer",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-company-website-email-guide/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "mobile-order-system-guide-en",
+      "title": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-sales-analysis-guide-en",
+      "title": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "retail-store-dx-guide-en",
+      "title": "Retail Store DX Guide: Unify POS, Inventory, Payments, and Accounting",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/retail-store-dx-guide/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-multiple-domain-site-guide-en",
+      "title": "Running Multiple Sites on XServer: Domains, Email, FTP, and Governance",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-multiple-domain-site-guide/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "salon-store-dx-guide-en",
+      "title": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/salon-store-dx-guide/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "priority": 37
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-en",
+      "title": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/small-restaurant-dx-guide/",
+      "affiliateKey": "kantan-chumon-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-wordpress-quick-start-guide-en",
+      "title": "Starting WordPress on XServer: Quick Start, Installation, and Migration",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+      "affiliateKey": "xserver-official",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-wordpress-quick-start-guide-ja",
+      "title": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+      "affiliateKey": "xserver-wordpress-guide",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-multiple-domain-site-guide-ja",
+      "title": "エックスサーバーで複数サイトを運営する方法｜ドメイン・メール管理",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+      "affiliateKey": "xserver-domain",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "xserver-company-website-email-guide-ja",
+      "title": "会社ホームページと独自ドメインメールをエックスサーバーで準備する方法",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/xserver-company-website-email-guide/",
+      "affiliateKey": "xserver-company-email",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "retail-store-dx-guide-ja",
+      "title": "小売店の店舗DXガイド｜POS・在庫・決済・会計を一元化する",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/retail-store-dx-guide/",
+      "affiliateKey": "luqevora-store-dx-diagnosis",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "priority": 37
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-ja",
+      "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/small-restaurant-dx-guide/",
+      "affiliateKey": "kantan-chumon-sales",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "small-restaurant-dx-guide-ja",
+      "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/small-restaurant-dx-guide/",
+      "affiliateKey": "funfo-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "https://www.funfo.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "salon-store-dx-guide-ja",
+      "title": "美容サロンの店舗DXガイド｜予約・顧客カルテ・LINE・会計をつなぐ",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/salon-store-dx-guide/",
+      "affiliateKey": "luqevora-store-dx-diagnosis",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://luqevora.com/ja/store-dx-assessment/",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-inbound-order-guide-ja",
+      "title": "飲食店のインバウンド対応｜多言語モバイルオーダー導入チェックリスト",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-inbound-order-guide/",
+      "affiliateKey": "kantan-chumon-inbound",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "mobile-order-system-guide-ja",
+      "title": "飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/mobile-order-system-guide/",
+      "affiliateKey": "kantan-chumon-mobile-order",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "mobile-order-system-guide-ja",
+      "title": "飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/mobile-order-system-guide/",
+      "affiliateKey": "funfo-bracket",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://www.funfo.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-ja",
+      "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "affiliateKey": "kantan-chumon-analysis",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-ja",
+      "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "affiliateKey": "funfo-short",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "funfo",
+      "officialUrl": "https://www.funfo.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "restaurant-pos-selection-guide-ja",
+      "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+      "affiliateKey": "emeao-pos-company",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://emeao.jp/pos-lp2/",
+      "priority": 37
+    },
+    {
       "articleId": "1password-vs-bitwarden-en",
       "title": "1Password vs Bitwarden: Free, Family, and Business Use Compared",
       "language": "en",
@@ -13295,20 +16833,6 @@
       "configured": false,
       "product": "",
       "officialUrl": "https://wp.xserver.ne.jp/",
-      "priority": 35
-    },
-    {
-      "articleId": "business-web-hosting-comparison-en",
-      "title": "Business Hosting in Japan: CPI, XServer, XServer for WordPress and ConoHa",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/business-web-hosting-comparison/",
-      "affiliateKey": "xserver-business-official",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://business.xserver.ne.jp/",
       "priority": 35
     },
     {
@@ -14572,34 +18096,6 @@
       "priority": 35
     },
     {
-      "articleId": "xserver-for-wordpress-vs-xserver-business-en",
-      "title": "XServer for WordPress vs XServer Business",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/xserver-for-wordpress-vs-xserver-business/",
-      "affiliateKey": "xserver-business-official",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://business.xserver.ne.jp/",
-      "priority": 35
-    },
-    {
-      "articleId": "xserver-for-wordpress-vs-xserver-business-ja",
-      "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
-      "language": "ja",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
-      "affiliateKey": "xserver-business-official",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://business.xserver.ne.jp/",
-      "priority": 35
-    },
-    {
       "articleId": "xserver-shop-vs-shopify-en",
       "title": "XServer Shop vs Shopify: Fees, Control and Operations",
       "language": "en",
@@ -14639,20 +18135,6 @@
       "configured": false,
       "product": "WP Engine",
       "officialUrl": "https://wpengine.com/plans/",
-      "priority": 35
-    },
-    {
-      "articleId": "business-web-hosting-comparison-ja",
-      "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
-      "language": "ja",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/business-web-hosting-comparison/",
-      "affiliateKey": "xserver-business-official",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://business.xserver.ne.jp/",
       "priority": 35
     },
     {
@@ -15216,6 +18698,20 @@
       "priority": 25
     },
     {
+      "articleId": "hubspot-free-crm-review-small-business-en",
+      "title": "HubSpot Free CRM Review for Small Businesses",
+      "language": "en",
+      "type": "review",
+      "category": "business-software",
+      "url": "/en/business-software/hubspot-free-crm-review-small-business/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.com/products/crm?software=crm",
+      "priority": 25
+    },
+    {
       "articleId": "hubspot-marketing-review-en",
       "title": "HubSpot Marketing Hub Review: Pricing, Features, Best-Fit Uses, and Limitations",
       "language": "en",
@@ -15283,6 +18779,20 @@
       "configured": false,
       "product": "HubSpot Marketing Hub",
       "officialUrl": "https://www.hubspot.com/pricing/marketing",
+      "priority": 25
+    },
+    {
+      "articleId": "hubspot-free-crm-review-small-business-ja",
+      "title": "HubSpot無料CRMの評判・機能｜小規模企業で使える範囲",
+      "language": "ja",
+      "type": "review",
+      "category": "business-software",
+      "url": "/ja/business-software/hubspot-free-crm-review-small-business/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.jp/products/crm",
       "priority": 25
     },
     {
@@ -18492,31 +22002,17 @@
       "priority": 20
     },
     {
-      "articleId": "cpi-vs-xserver-business-en",
-      "title": "CPI vs XServer Business for Organizations in Japan",
+      "articleId": "crm-comparison-small-business-japan-en",
+      "title": "CRM Comparison for Small Businesses: HubSpot, monday CRM, and Salesforce",
       "language": "en",
       "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/cpi-vs-xserver-business/",
-      "affiliateKey": "xserver-business-official",
+      "category": "business-software",
+      "url": "/en/business-software/crm-comparison-small-business-japan/",
+      "affiliateKey": "hubspot-crm",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
-      "officialUrl": "https://business.xserver.ne.jp/price/",
-      "priority": 20
-    },
-    {
-      "articleId": "cpi-vs-xserver-business-ja",
-      "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
-      "language": "ja",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/cpi-vs-xserver-business/",
-      "affiliateKey": "xserver-business-official",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://business.xserver.ne.jp/price/",
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.com/products/crm?software=crm",
       "priority": 20
     },
     {
@@ -19080,6 +22576,20 @@
       "priority": 20
     },
     {
+      "articleId": "gmail-vs-google-workspace-business-email-en",
+      "title": "Free Gmail vs Google Workspace for Business Email",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "priority": 20
+    },
+    {
       "articleId": "gemini-vs-microsoft-copilot-en",
       "title": "Gemini vs Microsoft Copilot: Google or Microsoft AI Integration?",
       "language": "en",
@@ -19416,6 +22926,34 @@
       "priority": 20
     },
     {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-en",
+      "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "priority": 20
+    },
+    {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
+      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
+      "priority": 20
+    },
+    {
       "articleId": "hostinger-alternatives-en",
       "title": "Hostinger Alternatives: Compare Pricing, Workflows, and Migration",
       "language": "en",
@@ -19609,6 +23147,20 @@
       "configured": false,
       "product": "WP Engine",
       "officialUrl": "https://wpengine.com/plans/",
+      "priority": 20
+    },
+    {
+      "articleId": "hostinger-vs-xserver-small-business-en",
+      "title": "Hostinger vs XServer for a Small Business Website",
+      "language": "en",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/hostinger-vs-xserver-small-business/",
+      "affiliateKey": "hostinger",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Hostinger",
+      "officialUrl": "https://www.hostinger.com/pricing",
       "priority": 20
     },
     {
@@ -19920,6 +23472,20 @@
       "priority": 20
     },
     {
+      "articleId": "hostinger-vs-xserver-small-business-ja",
+      "title": "Hostingerとエックスサーバーを比較｜小規模事業のサーバー選び",
+      "language": "ja",
+      "type": "comparison",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+      "affiliateKey": "hostinger",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Hostinger",
+      "officialUrl": "https://www.hostinger.com/jp/pricing",
+      "priority": 20
+    },
+    {
       "articleId": "hostinger-vs-lolipop-ja",
       "title": "Hostingerとロリポップ！を比較｜初心者にはどっちがおすすめ？",
       "language": "ja",
@@ -20004,6 +23570,20 @@
       "priority": 20
     },
     {
+      "articleId": "hubspot-free-vs-starter-en",
+      "title": "HubSpot Free vs Starter: When Is It Time to Upgrade?",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/hubspot-free-vs-starter/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.com/products/crm?software=crm",
+      "priority": 20
+    },
+    {
       "articleId": "hubspot-marketing-alternatives-en",
       "title": "HubSpot Marketing Hub Alternatives: Compare Pricing, Workflows, and Migration",
       "language": "en",
@@ -20225,6 +23805,48 @@
       "configured": false,
       "product": "Brevo",
       "officialUrl": "https://www.brevo.com/pricing/",
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-vs-salesforce-small-business-en",
+      "title": "HubSpot vs Salesforce for Small Businesses",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/hubspot-vs-salesforce-small-business/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.com/products/crm?software=crm",
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-vs-salesforce-small-business-ja",
+      "title": "HubSpotとSalesforceを比較｜小規模企業のCRM選び",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/hubspot-vs-salesforce-small-business/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.jp/products/crm",
+      "priority": 20
+    },
+    {
+      "articleId": "hubspot-free-vs-starter-ja",
+      "title": "HubSpot無料版とStarterを比較｜有料化するタイミング",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/hubspot-free-vs-starter/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.jp/products/crm",
       "priority": 20
     },
     {
@@ -21345,6 +24967,62 @@
       "configured": false,
       "product": "Ubersuggest",
       "officialUrl": "https://neilpatel.com/ubersuggest/",
+      "priority": 20
+    },
+    {
+      "articleId": "monday-crm-vs-hubspot-crm-en",
+      "title": "monday CRM vs HubSpot CRM: Pipeline Flexibility or Customer Platform?",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/monday-crm-vs-hubspot-crm/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/pricing",
+      "priority": 20
+    },
+    {
+      "articleId": "monday-crm-vs-hubspot-crm-en",
+      "title": "monday CRM vs HubSpot CRM: Pipeline Flexibility or Customer Platform?",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/monday-crm-vs-hubspot-crm/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.com/products/crm?software=crm",
+      "priority": 20
+    },
+    {
+      "articleId": "monday-crm-vs-hubspot-crm-ja",
+      "title": "monday CRMとHubSpot CRMを比較｜案件管理か顧客基盤か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-crm-vs-hubspot-crm/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/lang/ja/work-management/pricing",
+      "priority": 20
+    },
+    {
+      "articleId": "monday-crm-vs-hubspot-crm-ja",
+      "title": "monday CRMとHubSpot CRMを比較｜案件管理か顧客基盤か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-crm-vs-hubspot-crm/",
+      "affiliateKey": "hubspot-crm",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.jp/products/crm",
       "priority": 20
     },
     {
@@ -22804,6 +26482,20 @@
       "priority": 20
     },
     {
+      "articleId": "shopify-vs-base-small-business-en",
+      "title": "Shopify vs BASE for a Small Online Store",
+      "language": "en",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-vs-base-small-business/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/pricing",
+      "priority": 20
+    },
+    {
       "articleId": "shopify-vs-duda-en",
       "title": "Shopify vs Duda: Merchant Ecommerce or Multi-Client Agency Operations?",
       "language": "en",
@@ -22885,6 +26577,20 @@
       "configured": false,
       "product": "Hostinger Website Builder",
       "officialUrl": "https://www.hostinger.com/website-builder",
+      "priority": 20
+    },
+    {
+      "articleId": "shopify-vs-stores-small-business-en",
+      "title": "Shopify vs STORES: Ecommerce Scale or Japanese Store Operations?",
+      "language": "en",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-vs-stores-small-business/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/pricing",
       "priority": 20
     },
     {
@@ -22944,6 +26650,20 @@
       "priority": 20
     },
     {
+      "articleId": "shopify-vs-base-small-business-ja",
+      "title": "ShopifyとBASEを比較｜小規模ネットショップはどちら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-vs-base-small-business/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/jp/pricing",
+      "priority": 20
+    },
+    {
       "articleId": "shopify-vs-duda-ja",
       "title": "ShopifyとDudaを比較｜EC事業者の販売運用か、制作会社の複数顧客サイト管理か",
       "language": "ja",
@@ -23025,6 +26745,20 @@
       "configured": false,
       "product": "Hostinger Website Builder",
       "officialUrl": "https://www.hostinger.com/website-builder",
+      "priority": 20
+    },
+    {
+      "articleId": "shopify-vs-stores-small-business-ja",
+      "title": "ShopifyとSTORESを比較｜ECと店舗連携で選ぶ",
+      "language": "ja",
+      "type": "comparison",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-vs-stores-small-business/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/jp/pricing",
       "priority": 20
     },
     {
@@ -23247,7 +26981,7 @@
       "affiliateKey": "google-workspace",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
+      "product": "Google Workspace",
       "officialUrl": "https://workspace.google.com/pricing.html",
       "priority": 20
     },
@@ -25142,34 +28876,6 @@
       "priority": 20
     },
     {
-      "articleId": "xserver-vs-lolipop-en",
-      "title": "XServer vs Lolipop: Japanese WordPress Hosting for Beginners",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/xserver-vs-lolipop/",
-      "affiliateKey": "xserver",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://www.xserver.ne.jp/",
-      "priority": 20
-    },
-    {
-      "articleId": "xserver-vs-lolipop-en",
-      "title": "XServer vs Lolipop: Japanese WordPress Hosting for Beginners",
-      "language": "en",
-      "type": "comparison",
-      "category": "hosting-security",
-      "url": "/en/hosting-security/xserver-vs-lolipop/",
-      "affiliateKey": "lolipop",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "",
-      "officialUrl": "https://lolipop.jp/",
-      "priority": 20
-    },
-    {
       "articleId": "zoom-vs-microsoft-teams-en",
       "title": "Zoom Workplace vs Microsoft Teams: External Meetings or Microsoft 365 Collaboration?",
       "language": "en",
@@ -25226,31 +28932,31 @@
       "priority": 20
     },
     {
-      "articleId": "xserver-vs-lolipop-ja",
-      "title": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
+      "articleId": "crm-comparison-small-business-japan-ja",
+      "title": "中小企業向けCRM比較｜HubSpot・monday CRM・Salesforceの選び方",
       "language": "ja",
       "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/xserver-vs-lolipop/",
-      "affiliateKey": "xserver",
+      "category": "business-software",
+      "url": "/ja/business-software/crm-comparison-small-business-japan/",
+      "affiliateKey": "hubspot-crm",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
-      "officialUrl": "https://www.xserver.ne.jp/",
+      "product": "HubSpot CRM",
+      "officialUrl": "https://www.hubspot.jp/products/crm",
       "priority": 20
     },
     {
-      "articleId": "xserver-vs-lolipop-ja",
-      "title": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
+      "articleId": "gmail-vs-google-workspace-business-email-ja",
+      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
       "language": "ja",
       "type": "comparison",
-      "category": "hosting-security",
-      "url": "/ja/hosting-security/xserver-vs-lolipop/",
-      "affiliateKey": "lolipop",
+      "category": "business-software",
+      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+      "affiliateKey": "google-workspace",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
-      "officialUrl": "https://lolipop.jp/",
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
       "priority": 20
     },
     {
@@ -25352,6 +29058,62 @@
       "priority": 2
     },
     {
+      "articleId": "google-workspace-pricing-small-business-en",
+      "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-pricing-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-ja",
+      "title": "Google Workspaceで独自ドメインメールを設定する手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-domain-email-setup/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
+      "priority": 2
+    },
+    {
+      "articleId": "google-workspace-pricing-small-business-ja",
+      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-pricing-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
+      "priority": 2
+    },
+    {
+      "articleId": "hostinger-pricing-renewal-cost-japan-en",
+      "title": "Hostinger Pricing and Renewal Cost: Calculate the Full Commitment",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/hostinger-pricing-renewal-cost-japan/",
+      "affiliateKey": "hostinger",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Hostinger",
+      "officialUrl": "https://www.hostinger.com/pricing",
+      "priority": 2
+    },
+    {
       "articleId": "hostinger-pricing-guide-en",
       "title": "Hostinger Pricing Guide: Plans, Limits, and Total Cost",
       "language": "en",
@@ -25380,6 +29142,34 @@
       "priority": 2
     },
     {
+      "articleId": "hostinger-pricing-renewal-cost-japan-ja",
+      "title": "Hostingerの料金と更新費用｜長期契約の総額を確認",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/hostinger-pricing-renewal-cost-japan/",
+      "affiliateKey": "hostinger",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Hostinger",
+      "officialUrl": "https://www.hostinger.com/jp/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-web-production-project-management-en",
+      "title": "How to Manage Website Production Projects in monday.com",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/monday-web-production-project-management/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/pricing",
+      "priority": 2
+    },
+    {
       "articleId": "custom-domain-email-guide-en",
       "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
       "language": "en",
@@ -25389,8 +29179,22 @@
       "affiliateKey": "google-workspace",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
+      "product": "Google Workspace",
       "officialUrl": "https://workspace.google.com/pricing.html",
+      "priority": 2
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-en",
+      "title": "How to Set Up Custom-Domain Email with Google Workspace",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-domain-email-setup/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
       "priority": 2
     },
     {
@@ -25433,6 +29237,20 @@
       "configured": false,
       "product": "",
       "officialUrl": "https://www.a8.net/",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-multiple-store-operations-en",
+      "title": "How to Use monday.com for Multi-Location Store Operations",
+      "language": "en",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/en/store-dx/monday-multiple-store-operations/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/pricing",
       "priority": 2
     },
     {
@@ -25506,6 +29324,34 @@
       "priority": 2
     },
     {
+      "articleId": "monday-implementation-checklist-en",
+      "title": "monday.com Implementation Checklist: 15 Decisions Before Rollout",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/monday-implementation-checklist/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-work-management-plans-comparison-en",
+      "title": "monday.com Plan Comparison: Free, Basic, Standard, and Pro",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/monday-work-management-plans-comparison/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/pricing",
+      "priority": 2
+    },
+    {
       "articleId": "monday-pricing-guide-en",
       "title": "monday.com Pricing Guide: Plans, Limits, and Total Cost",
       "language": "en",
@@ -25531,6 +29377,34 @@
       "configured": false,
       "product": "monday.com",
       "officialUrl": "https://monday.com/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-work-management-plans-comparison-ja",
+      "title": "monday.comの料金プラン比較｜Free・Basic・Standard・Proの選び方",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-work-management-plans-comparison/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/lang/ja/work-management/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-implementation-checklist-ja",
+      "title": "monday.com導入チェックリスト｜初期設定で決める15項目",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-implementation-checklist/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/lang/ja/work-management/pricing",
       "priority": 2
     },
     {
@@ -25590,12 +29464,40 @@
       "priority": 2
     },
     {
+      "articleId": "shopify-launch-checklist-small-store-en",
+      "title": "Shopify Launch Checklist for a Small Store",
+      "language": "en",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-launch-checklist-small-store/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/pricing",
+      "priority": 2
+    },
+    {
       "articleId": "shopify-pricing-guide-en",
       "title": "Shopify Pricing Guide: Plans, Limits, and Total Cost",
       "language": "en",
       "type": "guide",
       "category": "website-builders",
       "url": "/en/website-builders/shopify-pricing-guide/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "shopify-pricing-total-cost-japan-en",
+      "title": "Shopify Total Cost: Plans, Payments, Apps, and Themes",
+      "language": "en",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/en/website-builders/shopify-pricing-total-cost-japan/",
       "affiliateKey": "shopify",
       "placement": "article-cta",
       "configured": false,
@@ -25615,6 +29517,20 @@
       "configured": false,
       "product": "Shopify",
       "officialUrl": "https://www.shopify.com/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "shopify-pricing-total-cost-japan-ja",
+      "title": "Shopifyの料金総額｜月額・決済・アプリ・テーマを計算",
+      "language": "ja",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-pricing-total-cost-japan/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/jp/pricing",
       "priority": 2
     },
     {
@@ -25646,6 +29562,34 @@
       "priority": 2
     },
     {
+      "articleId": "hostinger-overseas-website-guide-en",
+      "title": "Using Hostinger for an International Website: Decision Guide",
+      "language": "en",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/en/hosting-security/hostinger-overseas-website-guide/",
+      "affiliateKey": "hostinger",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Hostinger",
+      "officialUrl": "https://www.hostinger.com/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-web-production-project-management-ja",
+      "title": "Web制作案件をmonday.comで管理する方法｜要件・素材・公開を一元化",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/monday-web-production-project-management/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/lang/ja/work-management/pricing",
+      "priority": 2
+    },
+    {
       "articleId": "asana-guide-en",
       "title": "What Is Asana? Features, Pricing, and a Practical Setup Guide",
       "language": "en",
@@ -25669,7 +29613,7 @@
       "affiliateKey": "google-workspace",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
+      "product": "Google Workspace",
       "officialUrl": "https://workspace.google.com/pricing.html",
       "priority": 2
     },
@@ -25683,7 +29627,7 @@
       "affiliateKey": "google-workspace",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
+      "product": "Google Workspace",
       "officialUrl": "https://workspace.google.com/pricing.html",
       "priority": 2
     },
@@ -25697,7 +29641,7 @@
       "affiliateKey": "google-workspace",
       "placement": "article-cta",
       "configured": false,
-      "product": "",
+      "product": "Google Workspace",
       "officialUrl": "https://workspace.google.com/pricing.html",
       "priority": 2
     },
@@ -25783,6 +29727,48 @@
       "configured": false,
       "product": "",
       "officialUrl": "https://af.moshimo.com/",
+      "priority": 2
+    },
+    {
+      "articleId": "shopify-launch-checklist-small-store-ja",
+      "title": "小規模店舗のShopify開設チェックリスト｜公開前に確認する項目",
+      "language": "ja",
+      "type": "guide",
+      "category": "website-builders",
+      "url": "/ja/website-builders/shopify-launch-checklist-small-store/",
+      "affiliateKey": "shopify",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Shopify",
+      "officialUrl": "https://www.shopify.com/jp/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "hostinger-overseas-website-guide-ja",
+      "title": "海外向けWebサイトにHostingerを使う判断ポイント",
+      "language": "ja",
+      "type": "guide",
+      "category": "hosting-security",
+      "url": "/ja/hosting-security/hostinger-overseas-website-guide/",
+      "affiliateKey": "hostinger",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "Hostinger",
+      "officialUrl": "https://www.hostinger.com/jp/pricing",
+      "priority": 2
+    },
+    {
+      "articleId": "monday-multiple-store-operations-ja",
+      "title": "複数店舗の業務管理にmonday.comを使う方法｜本部と店舗を可視化",
+      "language": "ja",
+      "type": "guide",
+      "category": "store-dx",
+      "url": "/ja/store-dx/monday-multiple-store-operations/",
+      "affiliateKey": "monday-com",
+      "placement": "article-cta",
+      "configured": false,
+      "product": "monday.com",
+      "officialUrl": "https://monday.com/lang/ja/work-management/pricing",
       "priority": 2
     }
   ]

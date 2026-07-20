@@ -1,0 +1,203 @@
+{
+  "id": "airpay-vs-square-en",
+  "translationKey": "airpay-vs-square",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "airpay-vs-square",
+  "category": "cashless-payments",
+  "topic": "cashless-payment-services",
+  "badge": "Official-source comparison",
+  "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+  "metaTitle": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+  "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion.",
+  "lead": "AirPAY and Square both allow Japanese merchants to begin cashless acceptance with limited fixed software cost, but their strengths differ. AirPAY emphasizes broad local payment coverage and AirREGI integration, while Square emphasizes published hardware, unified POS, and expansion into online commerce.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check current Airペイ terms",
+      "officialUrl": "https://airpayment.jp/",
+      "affiliateKey": "airpay-official-en"
+    },
+    {
+      "label": "Check current Square terms",
+      "officialUrl": "https://squareup.com/jp/ja/payments",
+      "affiliateKey": "square-pos-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airペイ — 決済手数料・振込手数料",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/218985588-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E6%8C%AF%E8%BE%BC%E6%89%8B%E6%95%B0%E6%96%99"
+    },
+    {
+      "label": "Airペイ — 決済手数料ディスカウントプログラム",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/39897820982553-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    },
+    {
+      "label": "Airペイ — 入金サイクル",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/219379377-%E5%85%A5%E9%87%91-%E6%8C%AF%E8%BE%BC-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%81%A8%E6%8C%AF%E8%BE%BC%E9%87%91%E9%A1%8D%E3%81%AE%E7%A2%BA%E8%AA%8D%E6%96%B9%E6%B3%95"
+    },
+    {
+      "label": "Airペイ — 対応している決済の種類",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/212207478-%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E6%B1%BA%E6%B8%88%E3%81%AE%E7%A8%AE%E9%A1%9E"
+    },
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "Square — 決済手数料",
+      "url": "https://squareup.com/jp/ja/payments/our-fees"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: choose around the existing workflow and future channels",
+      "body": [
+        "AirPAY is a natural fit for an AirREGI store that values Japanese e-money and QR coverage and can operate with three or six settlements monthly.",
+        "Square is easier to understand when the business wants POS and payments from one provider and expects to add online selling, invoices, or appointments."
+      ]
+    },
+    {
+      "heading": "Fee comparison: do not decide from the minimum headline",
+      "body": [
+        "AirPAY's 2.48% and Square's 2.5% rates each have eligibility conditions. Other brands, e-money, QR, online, and manually entered transactions can use different rates, so a weighted sales model is required.",
+        "A zero monthly fee does not eliminate iPad, reader, terminal, printer, connectivity, or industry-software cost. Compare a three-year total."
+      ],
+      "table": {
+        "headers": [
+          "Criterion",
+          "AirPAY",
+          "Square"
+        ],
+        "rows": [
+          [
+            "Monthly fee",
+            "JPY 0",
+            "Standard payment and POS software at JPY 0"
+          ],
+          [
+            "Major in-person cards",
+            "3.24% standard; 2.48% with conditions and approval",
+            "2.5% for eligible merchants and brands; 3.25% or higher otherwise"
+          ],
+          [
+            "Hardware",
+            "Compatible iPad or iPhone plus reader and peripherals",
+            "Reader, Stand, Terminal, and other published hardware options"
+          ],
+          [
+            "Settlement",
+            "Three or six deposits monthly depending on bank",
+            "Next business day for two named banks; weekly for other supported banks"
+          ],
+          [
+            "POS integration",
+            "Centered on AirREGI",
+            "Square POS in the same ecosystem"
+          ],
+          [
+            "Online expansion",
+            "Separate online function and settlement rules",
+            "Online store, invoices, and payment links under one account"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Settlement and working capital",
+      "body": [
+        "AirPAY deposits six times monthly for selected major banks and three times monthly for other supported banks. Square documents next-business-day deposits for two named banks and weekly Friday deposits for other supported banks.",
+        "A business with short supplier or payroll cycles may value settlement speed more than a small processing-rate difference. Model the maximum outstanding balance."
+      ]
+    },
+    {
+      "heading": "Hardware and counter design",
+      "body": [
+        "AirPAY combines a compatible Apple device and reader and can transfer the amount from AirREGI, helping unify checkout for an AirREGI user.",
+        "Square offers a small reader, a stand, and a printer-equipped terminal, with published prices that simplify the initial hardware budget."
+      ]
+    },
+    {
+      "heading": "Best-fit stores",
+      "body": [
+        "AirPAY fits AirREGI users, stores emphasizing domestic e-money and QR methods, and Apple-device operations.",
+        "Square fits businesses that want to integrate POS, payments, ecommerce, and invoices over time or select dedicated hardware with published pricing."
+      ]
+    },
+    {
+      "heading": "Build a comparable model",
+      "body": [
+        "Segment the last three months of sales by payment method, apply the relevant rate, and add devices, tablets, printers, subscriptions, paid features, and the cash-flow effect of settlement timing."
+      ],
+      "bullets": [
+        "Card, e-money, and QR mix",
+        "Eligibility for discounted rates",
+        "Required hardware and peripherals",
+        "Settlement bank and frequency",
+        "Refund, outage, and support procedures"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I simply choose the lowest processing rate?",
+      "answer": "No. Compare the effective cost including eligibility, payment mix, hardware, subscriptions, settlement, and integration."
+    },
+    {
+      "question": "Should POS and payments come from one provider?",
+      "answer": "One provider can simplify amount transfer and support, but also compare functionality, rates, and portability."
+    },
+    {
+      "question": "Which sales data is needed for a comparison?",
+      "answer": "Prepare at least three months of value and transaction count by card brand, e-money, QR, cash, and in-person or online channel."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+      "url": "/en/cashless-payments/square-vs-paycas-mobile/",
+      "description": "Compare Square and PayCAS Mobile across hardware, pricing visibility, settlement, mobility, receipt printing, and POS operations."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    }
+  ]
+}

@@ -1,3 +1,31 @@
+## Business SaaS Affiliate Expansion v4.3.0
+
+v4.3.0 adds 20 high-intent bilingual article pairs for monday.com, Google Workspace, Shopify, HubSpot CRM, and Hostinger. All pages publish with official links before approval and can switch to verified affiliate URLs through the central affiliate configuration. The release also adds Google Workspace and HubSpot CRM product profiles, an application-status registry, explicit indexing, LuQvia integration on relevant comparison pages, and release-specific QA. See `docs/BUSINESS_SAAS_AFFILIATE_V4.3.md`.
+
+## LuQvia Website Production Integration v4.2.0
+
+v4.2.0 adds a transparent LuQvia website-production and ongoing-support panel to 20 high-intent Japanese comparison articles. Service facts are centrally managed, operator ownership is disclosed, links are separated from affiliate advertising, and source-page attribution is added for website, free-diagnosis, LINE, and email routes. See `docs/LUQVIA_WEBSITE_PRODUCTION_V4.2.md` and `docs/QA_V4.2_LUQVIA_WEBSITE_PRODUCTION.md`.
+
+## Store DX Platform Edition v4.1.0
+
+v4.1.0 turns the Store DX content cluster into a bilingual guided platform. It adds `/ja/store-dx-assessment/` and `/en/store-dx-assessment/`, browser-only diagnosis logic, cross-category recommendations for POS, payments, reservations, LINE/customer retention, and accounting, four new product profiles, four new bilingual article pairs, and LuQvia consultation routes. The full pipeline passes with 0 content-audit errors/warnings, 0 public-validation warnings, v4.0 regression QA 158/158, and v4.1 QA 86/86. See `docs/STORE_DX_PLATFORM_V4.1.md` and `docs/QA_V4.1_STORE_DX_PLATFORM.md`.
+
+## Integrated Cashless Payments Edition v4.0.0
+
+v4.0.0 adds the bilingual Cashless Payments category, AirREGI, AirPAY, Square POS, and PayCAS Mobile product profiles, four individual review pairs, four comparison/implementation pairs, official CTA separation, approved A8.net placements, product-database updates, and release-specific QA. The final build passes the content audit and public validation with zero errors and zero warnings. See `docs/INTEGRATED_RELEASE_V4.0.md`, `docs/QA_V4.0_CASHLESS_PAYMENTS.md`, and `docs/A8_CTA_MAP_V4.0.md`.
+
+## Integrated Revenue Edition v3.7.0
+
+The Store DX v3.6.0 branch and the uploaded XServer affiliate v3.4.0 branch are integrated in this release. It retains all POS and restaurant-DX content while adding the complete XServer / XServer Business article and A8.net cluster. Content audit and public validation pass with zero errors and zero warnings. See `docs/INTEGRATED_RELEASE_V3.7.md`, `docs/QA_V3.7_INTEGRATED.md`, and `docs/A8_URL_SUBMISSION_V3.7.md`.
+
+## Store DX v3.6.0
+
+EMEAO! POS vendor-matching content and monetization routes added. See `docs/STORE_DX_EMEAO_V3.6.md`.
+
+## Store DX v3.4.0
+
+Restaurant POS and mobile-order content cluster added. See `docs/STORE_DX_V3.4.md`.
+
 # Luqevora Static Platform
 
 Luqevoraを、静的サイトの速度と安全性を維持したまま、記事データから自動生成する基盤です。

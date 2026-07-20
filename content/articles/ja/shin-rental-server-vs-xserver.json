@@ -13,8 +13,8 @@
   "description": "シンレンタルサーバーとエックスサーバーを、通常料金、容量、WordPress、無料お試し、バックアップ、ドメイン、運用実績から比較します。",
   "lead": "両サービスは同じエックスサーバー株式会社が提供し、WordPress簡単移行や14日分の自動バックアップなど共通点があります。価格差だけでなく、サービスの位置づけ、プラン構成、検証重視か実績重視かで選びます。",
   "publishedAt": "2026-07-19",
-  "updatedAt": "2026-07-19",
-  "verifiedAt": "2026-07-19",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
   "author": "Luqevora編集部",
   "featured": true,
   "affiliateDisclosure": true,
@@ -23,6 +23,11 @@
       "label": "シンレンタルサーバーの公式条件を確認",
       "officialUrl": "https://www.shin-server.jp/",
       "affiliateKey": "shin-server-long"
+    },
+    {
+      "label": "エックスサーバーの公式条件を確認",
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "affiliateKey": "xserver-main"
     }
   ],
   "sources": [
@@ -253,6 +258,26 @@
       "label": "WordPress向け国内サーバー比較",
       "url": "/ja/hosting-security/best-wordpress-hosting-japan/",
       "description": "国内5サービスを横断比較"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
+    },
+    {
+      "label": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+      "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "エックスサーバーの長所と注意点を、WordPress、料金、バックアップ、複数サイト、メール、サポート、契約条件から整理します。"
+    },
+    {
+      "label": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+      "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+      "description": "エックスサーバーでWordPressを始める手順を解説。クイックスタート、簡単インストール、簡単移行、SSL、DNS、公開前確認を整理します。"
     }
   ]
 }

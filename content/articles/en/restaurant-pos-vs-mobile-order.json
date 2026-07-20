@@ -1,0 +1,157 @@
+{
+  "id": "restaurant-pos-vs-mobile-order-en",
+  "translationKey": "restaurant-pos-vs-mobile-order",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "restaurant-pos-vs-mobile-order",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Comparison guide",
+  "title": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+  "metaTitle": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+  "description": "Compare the roles, integration, cost, and best use cases of restaurant POS and mobile ordering systems.",
+  "lead": "A POS is the system of record for sales and checkout. Mobile ordering reduces order-entry workload. They are complementary layers, not direct substitutes.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Review an integrated POS and mobile-order option",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "affiliateKey": "kantan-chumon-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wiz — Kantan Chumon official page",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    },
+    {
+      "label": "EMEAO! — POS register and POS system differences",
+      "url": "https://emeao.jp/guide/pos/pos-knowlege/post-25185/"
+    },
+    {
+      "label": "funfo official site",
+      "url": "https://www.funfo.jp/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Different roles",
+      "body": [
+        "A POS records items, sales, payment methods, voids, and closing. Mobile ordering lets customers enter orders and sends them to the kitchen or POS.",
+        "Ordering efficiency does not fix manual accounting, while a POS alone does not reduce order waiting."
+      ]
+    },
+    {
+      "heading": "When POS should come first",
+      "body": [
+        "Prioritize POS when sales do not reconcile, cash differences are frequent, item data is unavailable, or checkout is slow.",
+        "Reliable sales data makes later order-flow improvements easier to measure."
+      ]
+    },
+    {
+      "heading": "When mobile ordering can lead",
+      "body": [
+        "When a POS already exists and the main issues are waiting, limited floor staff, large dining areas, or missed repeat orders, mobile ordering may lead.",
+        "Confirm existing POS integration, duplicate entry, menu synchronization, and sold-out updates."
+      ]
+    },
+    {
+      "heading": "Benefits of an integrated system",
+      "body": [
+        "Kantan Chumon is presented as a tablet POS with mobile ordering. Integration can connect ordering, checkout, and analysis.",
+        "The trade-offs include vendor dependence, peripheral compatibility, payment choices, migration, and export at cancellation."
+      ]
+    },
+    {
+      "heading": "Cost comparison",
+      "body": [
+        "Compare setup, subscription, devices, printers, payments, configuration, and support for POS-only, ordering-only, and integrated options.",
+        "Include existing hardware reuse, additional-store pricing, and minimum contract periods in a three-year model."
+      ]
+    },
+    {
+      "heading": "Decision flow",
+      "body": [
+        "Choose POS first when sales data is unreliable, mobile ordering first when order waiting dominates, and compare integrated systems when both are new.",
+        "Run a demonstration that reproduces peak conditions and includes both staff and customer actions."
+      ]
+    },
+    {
+      "heading": "Decide from the transaction record, not from the customer screen",
+      "body": [
+        "The key architectural question is where the authoritative transaction is created. A POS system normally manages sales records, taxes, payment, closing, and reporting. Mobile ordering captures the customer request and should pass item, quantity, modifiers, table, timing, and status into the operating system without duplicate entry. When the two products are separate, confirm which system controls menu availability, price changes, cancellations, refunds, and final sales data.",
+        "A restaurant can introduce either component first, but the migration path must be explicit. POS-first is generally easier when accounting, cash management, or existing order operations are the immediate problem. Mobile-order-first can be tested when order-taking workload is the priority, provided the resulting data can be reconciled. Before rollout, test offline behavior, duplicate prevention, kitchen routing, payment failure, and end-of-day totals across every connected system.",
+        "Document reconciliation rules before launch. Staff should know how to identify an order that appears in one system but not the other, which record takes precedence, and how the correction is reflected in payment settlement, inventory, and daily reporting.",
+        "Use the same test order set during every software update or integration change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a restaurant implement mobile ordering without replacing its POS?",
+      "answer": "Some services allow it, but integration, duplicate entry, and checkout workflows must be checked."
+    },
+    {
+      "question": "What is the main risk of an integrated system?",
+      "answer": "Migration, peripheral compatibility, and dependency on one vendor can become more significant."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review Kantan Chumon for Japanese restaurants, including mobile ordering, multilingual menus, subsidy considerations, and implementation checks."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "A practical restaurant POS checklist covering ordering, checkout, kitchen workflows, analytics, support, and total cost."
+    },
+    {
+      "label": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "description": "Plan in-store mobile ordering across menu design, staff operations, failure handling, training, and measurable outcomes."
+    },
+    {
+      "label": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+      "url": "/en/store-dx/small-restaurant-dx-guide/",
+      "description": "Prioritize POS, mobile ordering, reservations, payments, and accounting for a small restaurant based on operating impact."
+    },
+    {
+      "label": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+      "url": "/en/store-dx/restaurant-inbound-order-guide/",
+      "description": "Plan multilingual restaurant ordering across English and Chinese screens, allergens, payments, and staff exception handling."
+    },
+    {
+      "label": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+      "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "description": "Use restaurant POS data to improve hourly sales, item mix, average order value, additional orders, and table turnover."
+    },
+    {
+      "label": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+      "url": "/en/store-dx/pos-subsidy-2026-guide/",
+      "description": "Understand Japan’s 2026 Digitalization and AI Implementation Subsidy when evaluating a restaurant POS purchase."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "version": "4.3.0",
+  "verifiedAt": "2026-07-20",
+  "enabled": true,
+  "language": "ja",
+  "operatorRelationship": "Luqevoraを運営するLuQviaが提供するサービスです。記事内の比較評価とは区別して掲載します。",
+  "serviceName": "LuQvia ホームページ制作・継続改善サポート",
+  "headline": "自作ではなく、設計・公開・更新まで任せたい場合の選択肢",
+  "description": "小規模事業者・店舗向けに、ホームページ制作、スマートフォン対応、問い合わせ導線、公式LINE・フォーム連携、公開後の更新までまとめて支援します。",
+  "pricing": {
+    "productionLabel": "制作基本料金の目安",
+    "productionValue": "1ページ 11,000円 × ページ数",
+    "monthlyLabel": "公開後の保守・更新",
+    "monthlyValue": "月額 11,000円",
+    "monthlyNote": "月1回の変更対応を基本とします。制作内容、画像差替え、追加機能等は事前見積もりで確定します。"
+  },
+  "services": [
+    "目的・顧客導線を整理したホームページ制作",
+    "スマートフォン表示と問い合わせ導線の整備",
+    "公式LINE・Googleフォーム等への接続",
+    "公開後の更新・改善サポート"
+  ],
+  "urls": {
+    "website": "https://www.luqvia.com/",
+    "diagnosis": "https://forms.gle/LFzrDn36osnjPEd6A",
+    "line": "https://lin.ee/nTfIJLT",
+    "email": "info@luqvia.com"
+  },
+  "targetArticles": [
+    {
+      "category": "website-builders",
+      "slug": "store-website-builder-comparison"
+    },
+    {
+      "category": "website-builders",
+      "slug": "beauty-salon-website-builder-comparison"
+    },
+    {
+      "category": "website-builders",
+      "slug": "reservation-website-builder-comparison"
+    },
+    {
+      "category": "website-builders",
+      "slug": "best-website-builders-for-beginners"
+    },
+    {
+      "category": "website-builders",
+      "slug": "goope-vs-wix"
+    },
+    {
+      "category": "website-builders",
+      "slug": "jimdo-vs-studio"
+    },
+    {
+      "category": "website-builders",
+      "slug": "jimdo-vs-wix"
+    },
+    {
+      "category": "website-builders",
+      "slug": "jimdo-vs-wordpress"
+    },
+    {
+      "category": "website-builders",
+      "slug": "ochanoko-saisai-vs-goope"
+    },
+    {
+      "category": "website-builders",
+      "slug": "ochanoko-saisai-vs-jimdo"
+    },
+    {
+      "category": "website-builders",
+      "slug": "ochanoko-saisai-vs-studio"
+    },
+    {
+      "category": "website-builders",
+      "slug": "wix-vs-squarespace"
+    },
+    {
+      "category": "website-builders",
+      "slug": "shopify-vs-wix"
+    },
+    {
+      "category": "website-builders",
+      "slug": "color-me-shop-vs-shopify"
+    },
+    {
+      "category": "website-builders",
+      "slug": "color-me-shop-vs-xserver-shop"
+    },
+    {
+      "category": "website-builders",
+      "slug": "fixed-fee-ecommerce-platform-comparison"
+    },
+    {
+      "category": "website-builders",
+      "slug": "xserver-shop-vs-shopify"
+    },
+    {
+      "category": "website-builders",
+      "slug": "xserver-shop-vs-woocommerce"
+    },
+    {
+      "category": "store-dx",
+      "slug": "store-dx-stack-comparison"
+    },
+    {
+      "category": "hosting-security",
+      "slug": "best-wordpress-hosting-japan"
+    },
+    {
+      "category": "business-software",
+      "slug": "monday-crm-vs-hubspot-crm"
+    },
+    {
+      "category": "business-software",
+      "slug": "google-workspace-vs-microsoft-365-small-business"
+    },
+    {
+      "category": "business-software",
+      "slug": "gmail-vs-google-workspace-business-email"
+    },
+    {
+      "category": "website-builders",
+      "slug": "shopify-vs-base-small-business"
+    },
+    {
+      "category": "website-builders",
+      "slug": "shopify-vs-stores-small-business"
+    },
+    {
+      "category": "business-software",
+      "slug": "hubspot-free-vs-starter"
+    },
+    {
+      "category": "business-software",
+      "slug": "hubspot-vs-salesforce-small-business"
+    },
+    {
+      "category": "business-software",
+      "slug": "crm-comparison-small-business-japan"
+    },
+    {
+      "category": "hosting-security",
+      "slug": "hostinger-vs-xserver-small-business"
+    }
+  ]
+}

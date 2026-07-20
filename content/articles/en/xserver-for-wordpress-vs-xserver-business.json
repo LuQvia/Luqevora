@@ -229,6 +229,16 @@
       "label": "cPanel hosting comparison",
       "url": "/en/hosting-security/cpanel-hosting-comparison/",
       "description": "Compare control panels and portability"
+    },
+    {
+      "label": "XServer Review: Pricing, Features, and Contract Limits",
+      "url": "/en/hosting-security/xserver-rental-server-review/",
+      "description": "An official-source XServer review covering pricing, storage, WordPress, domains, backups, email, support, and contract constraints."
+    },
+    {
+      "label": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+      "url": "/en/hosting-security/xserver-rental-server-pricing/",
+      "description": "Compare XServer Standard, Premium, and Business by normal pricing, storage, domain benefits, Xwrite, business controls, and prepaid terms."
     }
   ]
 }

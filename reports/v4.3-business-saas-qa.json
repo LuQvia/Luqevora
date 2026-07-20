@@ -1,0 +1,1849 @@
+{
+  "version": "4.3.0",
+  "generatedAt": "2026-07-20T13:23:09.023Z",
+  "total": 368,
+  "passed": 368,
+  "failed": 0,
+  "results": [
+    {
+      "name": "release has 20 article pairs",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "name": "five prospect programs configured",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "name": "unapproved tracking URL absent: monday-com",
+      "pass": true,
+      "detail": "null"
+    },
+    {
+      "name": "unapproved tracking URL absent: google-workspace",
+      "pass": true,
+      "detail": "null"
+    },
+    {
+      "name": "unapproved tracking URL absent: shopify",
+      "pass": true,
+      "detail": "null"
+    },
+    {
+      "name": "unapproved tracking URL absent: hubspot-crm",
+      "pass": true,
+      "detail": "null"
+    },
+    {
+      "name": "unapproved tracking URL absent: hostinger",
+      "pass": true,
+      "detail": "null"
+    },
+    {
+      "name": "source indexed: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": "monday-work-management-plans-comparison"
+    },
+    {
+      "name": "official disclosure before approval: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": "monday-work-management-plans-comparison"
+    },
+    {
+      "name": "official disclosure before approval: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/monday-work-management-plans-comparison",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": "monday-crm-vs-hubspot-crm"
+    },
+    {
+      "name": "official disclosure before approval: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": "monday-crm-vs-hubspot-crm"
+    },
+    {
+      "name": "official disclosure before approval: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/monday-crm-vs-hubspot-crm",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": "monday-multiple-store-operations"
+    },
+    {
+      "name": "official disclosure before approval: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": "monday-multiple-store-operations"
+    },
+    {
+      "name": "official disclosure before approval: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/monday-multiple-store-operations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": "monday-web-production-project-management"
+    },
+    {
+      "name": "official disclosure before approval: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": "monday-web-production-project-management"
+    },
+    {
+      "name": "official disclosure before approval: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/monday-web-production-project-management",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": "monday-implementation-checklist"
+    },
+    {
+      "name": "official disclosure before approval: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": "monday-implementation-checklist"
+    },
+    {
+      "name": "official disclosure before approval: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/monday-implementation-checklist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "google-workspace-pricing-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "google-workspace-pricing-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "google-workspace-vs-microsoft-365-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "google-workspace-vs-microsoft-365-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "gmail-vs-google-workspace-business-email"
+    },
+    {
+      "name": "official disclosure before approval: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "gmail-vs-google-workspace-business-email"
+    },
+    {
+      "name": "official disclosure before approval: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "google-workspace-domain-email-setup"
+    },
+    {
+      "name": "official disclosure before approval: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "google-workspace-domain-email-setup"
+    },
+    {
+      "name": "official disclosure before approval: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": "shopify-pricing-total-cost-japan"
+    },
+    {
+      "name": "official disclosure before approval: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": "shopify-pricing-total-cost-japan"
+    },
+    {
+      "name": "official disclosure before approval: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/shopify-pricing-total-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": "shopify-vs-base-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": "shopify-vs-base-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/shopify-vs-base-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": "shopify-vs-stores-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": "shopify-vs-stores-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/shopify-vs-stores-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": "shopify-launch-checklist-small-store"
+    },
+    {
+      "name": "official disclosure before approval: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": "shopify-launch-checklist-small-store"
+    },
+    {
+      "name": "official disclosure before approval: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/shopify-launch-checklist-small-store",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": "hubspot-free-crm-review-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": "hubspot-free-crm-review-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/hubspot-free-crm-review-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": "hubspot-free-vs-starter"
+    },
+    {
+      "name": "official disclosure before approval: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": "hubspot-free-vs-starter"
+    },
+    {
+      "name": "official disclosure before approval: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/hubspot-free-vs-starter",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": "hubspot-vs-salesforce-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": "hubspot-vs-salesforce-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/hubspot-vs-salesforce-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": "crm-comparison-small-business-japan"
+    },
+    {
+      "name": "official disclosure before approval: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": "crm-comparison-small-business-japan"
+    },
+    {
+      "name": "official disclosure before approval: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/crm-comparison-small-business-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": "hostinger-pricing-renewal-cost-japan"
+    },
+    {
+      "name": "official disclosure before approval: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": "hostinger-pricing-renewal-cost-japan"
+    },
+    {
+      "name": "official disclosure before approval: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/hostinger-pricing-renewal-cost-japan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": "hostinger-vs-xserver-small-business"
+    },
+    {
+      "name": "official disclosure before approval: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": "hostinger-vs-xserver-small-business"
+    },
+    {
+      "name": "official disclosure before approval: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/hostinger-vs-xserver-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": "hostinger-overseas-website-guide"
+    },
+    {
+      "name": "official disclosure before approval: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: ja/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source indexed: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "translation key: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": "hostinger-overseas-website-guide"
+    },
+    {
+      "name": "official disclosure before approval: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official CTA only: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article JSON-LD: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ JSON-LD: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "canonical route: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "search data: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "article sitemap: en/hostinger-overseas-website-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sitemap index exists",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

@@ -13,8 +13,8 @@
   "description": "XServer for WordPressとXServerビジネスを、用途、WordPress管理、メール、容量、SLA、移転支援、料金から比較します。",
   "lead": "同じエックスサーバー系でも、XServer for WordPressはWordPress専用運用、XServerビジネスはWeb・メール・サーバー設定を広く扱う法人向けレンタルサーバーです。WordPressだけを専門化するか、企業インフラをまとめるかで選びます。",
   "publishedAt": "2026-07-19",
-  "updatedAt": "2026-07-19",
-  "verifiedAt": "2026-07-19",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
   "author": "Luqevora編集部",
   "featured": true,
   "affiliateDisclosure": true,
@@ -27,7 +27,7 @@
     {
       "label": "XServerビジネスを確認",
       "officialUrl": "https://business.xserver.ne.jp/",
-      "affiliateKey": "xserver-business-official"
+      "affiliateKey": "xserver-business-main"
     }
   ],
   "sources": [
@@ -230,6 +230,16 @@
       "label": "cPanel対応サーバー比較",
       "url": "/ja/hosting-security/cpanel-hosting-comparison/",
       "description": "管理画面と移行性を比較"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
     }
   ]
 }

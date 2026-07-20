@@ -15,8 +15,8 @@
     "name": "Luqevora",
     "url": "https://luqevora.com"
   },
-  "assetVersion": "5.4.0",
-  "defaultVerifiedAt": "2026-07-19",
+  "assetVersion": "6.3.0",
+  "defaultVerifiedAt": "2026-07-20",
   "minimumArticlesPerLanguage": 280,
   "minimumIndexableArticlesPerLanguage": 100,
   "requireArticleTranslationParity": true,

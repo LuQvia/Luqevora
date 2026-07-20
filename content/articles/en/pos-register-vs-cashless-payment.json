@@ -1,0 +1,219 @@
+{
+  "id": "pos-register-vs-cashless-payment-en",
+  "translationKey": "pos-register-vs-cashless-payment",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "pos-register-vs-cashless-payment",
+  "category": "cashless-payments",
+  "topic": "pos-payment-integration",
+  "badge": "Official-source comparison",
+  "title": "POS vs Payment Service: What Does a Store Actually Need?",
+  "metaTitle": "POS vs Payment Service: What Does a Store Actually Need?",
+  "description": "Understand the different roles, costs, integration points, duplicate-entry risks, and implementation order for POS and payment services.",
+  "lead": "A POS system and a cashless payment service are not the same product. POS manages products, tax, inventory, customers, and sales records. A payment service authorizes cards, e-money, and QR transactions and settles funds. Many stores need both systems connected.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check current Airレジ terms",
+      "officialUrl": "https://airregi.jp/",
+      "affiliateKey": "air-regi-official-en"
+    },
+    {
+      "label": "Check current Airペイ terms",
+      "officialUrl": "https://airpayment.jp/",
+      "affiliateKey": "airpay-official-en"
+    },
+    {
+      "label": "Check current Square terms",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "affiliateKey": "square-pos-official-en"
+    },
+    {
+      "label": "Check current PayCAS Mobile terms",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "affiliateKey": "paycas-mobile-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 費用・料金",
+      "url": "https://airregi.jp/jp/cost/"
+    },
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "Airペイ — 決済手数料・振込手数料",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/218985588-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E6%8C%AF%E8%BE%BC%E6%89%8B%E6%95%B0%E6%96%99"
+    },
+    {
+      "label": "Airペイ — 決済手数料ディスカウントプログラム",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/39897820982553-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    },
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "PayCAS — PayCAS Mobile",
+      "url": "https://www.paycas.jp/paycas-mobile"
+    },
+    {
+      "label": "PayCAS — 料金",
+      "url": "https://www.paycas.jp/price"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: most modern stores need both roles",
+      "body": [
+        "Unless a store is cash-only and needs only very simple records, POS and payment functions remain distinct. A store managing product sales or inventory while accepting cashless methods usually combines both.",
+        "Even when one provider offers both roles, as Square does, understand the POS software and payment contract as separate cost and operational components."
+      ]
+    },
+    {
+      "heading": "What the POS manages",
+      "body": [
+        "A POS manages catalog, prices, tax, discounts, returns, staff, inventory, customers, sales reporting, and register closing.",
+        "Restaurant systems can add tables, ordering, kitchen flow, and mobile ordering around the POS record."
+      ],
+      "table": {
+        "headers": [
+          "Criterion",
+          "POS system",
+          "Cashless payment service"
+        ],
+        "rows": [
+          [
+            "Primary purpose",
+            "Products, tax, checkout, and sales data",
+            "Card, e-money, and QR processing"
+          ],
+          [
+            "Typical costs",
+            "Software, devices, printers, cash hardware, modules",
+            "Processing, terminal, monthly, connectivity, transactions"
+          ],
+          [
+            "Underwriting",
+            "Usually account setup",
+            "Merchant and payment-brand approval"
+          ],
+          [
+            "Funds",
+            "Records cash and cashless sales",
+            "Deposits cashless proceeds after fees"
+          ],
+          [
+            "Integration value",
+            "Transfers amount to payment terminal",
+            "Returns payment result to POS"
+          ],
+          [
+            "Examples",
+            "AirREGI, Square POS, funfo, Kantan Chumon",
+            "AirPAY, Square payments, PayCAS Mobile"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What the payment service manages",
+      "body": [
+        "A payment service handles reading, customer verification, authorization, cancellation, processing fees, merchant underwriting, and settlement.",
+        "Compare brand-level rates, deposit cadence, bank transfer fees, terminals, connectivity, and chargeback operations."
+      ]
+    },
+    {
+      "heading": "Problems without integration",
+      "body": [
+        "Manually entering the POS amount into a payment terminal increases input errors, missed cancellations, and differences between POS and payment totals.",
+        "Amount transfer and payment-result integration can reduce duplicate entry and reconciliation, but the exact supported model and software version must be confirmed."
+      ]
+    },
+    {
+      "heading": "Implementation order",
+      "body": [
+        "Define the operating requirements, shortlist POS systems, and confirm formally supported payment services before contracting. This sequence reduces integration surprises.",
+        "When the payment terminal is selected first, verify future POS compatibility, cancellation charges, and minimum terminal term."
+      ]
+    },
+    {
+      "heading": "Build a complete cost sheet",
+      "body": [
+        "Keep POS and payment costs in separate columns and then consolidate them into first-year and three-year totals.",
+        "Treat the POS and payment service as two connected controls. Define which system is the sales record, how amounts are transferred, how partial refunds and cancellations are reconciled, and who resolves mismatches. During a pilot, test duplicate entry, offline operation, receipt reprints, tax corrections, and end-of-day totals rather than evaluating only a successful standard payment."
+      ],
+      "bullets": [
+        "POS application and modules",
+        "Tablets, dedicated terminals, printers, and cash hardware",
+        "Processing, monthly, connectivity, and transaction fees",
+        "Settlement cadence and bank charges",
+        "Amount and sales-data integration",
+        "Failure, cancellation, and data migration"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I simply choose the lowest processing rate?",
+      "answer": "No. Compare the effective cost including eligibility, payment mix, hardware, subscriptions, settlement, and integration."
+    },
+    {
+      "question": "Should POS and payments come from one provider?",
+      "answer": "One provider can simplify amount transfer and support, but also compare functionality, rates, and portability."
+    },
+    {
+      "question": "Which sales data is needed for a comparison?",
+      "answer": "Prepare at least three months of value and transaction count by card brand, e-money, QR, cash, and in-person or online channel."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    }
+  ]
+}

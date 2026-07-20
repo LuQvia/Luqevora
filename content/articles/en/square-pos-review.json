@@ -1,0 +1,144 @@
+{
+  "id": "square-pos-review-en",
+  "translationKey": "square-pos-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "square-pos-review",
+  "category": "cashless-payments",
+  "topic": "pos-payment-integration",
+  "badge": "Official-source review",
+  "title": "Square POS Review: Pricing, Hardware, Features, and Limits",
+  "metaTitle": "Square POS Review: Pricing, Hardware, Features, and Limits",
+  "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits.",
+  "lead": "Square POS combines a free standard POS application with Square payment hardware, inventory and customer management, reporting, invoices, and online selling. Published pricing improves initial modeling, but the business must include hardware and any industry-specific paid software.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Square POS current account terms",
+      "officialUrl": "https://squareup.com/jp/ja/point-of-sale",
+      "affiliateKey": "square-pos-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Square — POSレジ料金",
+      "url": "https://squareup.com/jp/ja/point-of-sale/pricing"
+    },
+    {
+      "label": "Square — POSレジ機能",
+      "url": "https://squareup.com/jp/ja/point-of-sale/features"
+    },
+    {
+      "label": "Square — 決済手数料",
+      "url": "https://squareup.com/jp/ja/payments/our-fees"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: a clear option for unified POS and payments",
+      "body": [
+        "Square fits small businesses that want POS, payments, hardware, online selling, and invoices under one account. Published hardware prices and major processing rates make an initial budget easier to build.",
+        "Advanced restaurant, retail, staff, and kitchen functions may require paid plans. Test whether the free standard POS reproduces the required workflow before adding modules."
+      ]
+    },
+    {
+      "heading": "Software pricing and hardware",
+      "body": [
+        "The standard Square POS application has no registration or monthly fee. Official pricing lists Square Reader at JPY 4,980, Square Stand at JPY 29,980, and Square Terminal at JPY 39,980.",
+        "Initial cost differs between a configuration using existing phones or tablets and one using dedicated Square hardware. Include receipt printing, customer display, portability, battery life, and counter space."
+      ]
+    },
+    {
+      "heading": "Processing fees",
+      "body": [
+        "Eligible Japanese small businesses with annual cashless volume below JPY 30 million can receive 2.5% processing for named major in-person card brands. Other transactions use 3.25% or higher rates or a custom arrangement.",
+        "Online payments are listed at 3.6%, card-not-present entry at 3.75%, and invoices at 3.25% in relevant workflows. Model in-person and remote revenue separately."
+      ]
+    },
+    {
+      "heading": "Core functions and expansion",
+      "body": [
+        "Square combines catalog, inventory, customers, reports, staff access, payments, and refunds. It can expand into Square Online, invoices, appointments, and industry-specific POS products.",
+        "A business that wants store and online catalog, customer, and payment data in one ecosystem may benefit. Existing ecommerce and accounting systems require a clear source-of-truth design."
+      ]
+    },
+    {
+      "heading": "Advantages and cautions",
+      "body": [
+        "A business can test the free POS and choose hardware without a software subscription. Settlement is documented as next-business-day for two named banks and weekly Friday deposits for other supported banks.",
+        "The 2.5% rate is conditional and not universal across every merchant or method. Advanced restaurant and retail functions can create additional software cost."
+      ]
+    },
+    {
+      "heading": "Pre-launch checklist",
+      "body": [
+        "Test catalog setup, checkout, returns, inventory, customers, and reports in a free account, then select hardware. If online selling or invoices are required, confirm channel-specific fees, settlement, and accounting integration.",
+        "Select hardware only after mapping the counter layout, mobility needs, receipt workflow, network conditions, and peak transaction volume. Run a pilot with refunds, discounts, split payments, offline contingencies, inventory adjustments, and report exports. The standard POS may have no monthly software fee, but the complete operating design includes hardware, processing, accessories, and staff procedures."
+      ],
+      "bullets": [
+        "Eligibility and brands for 2.5%",
+        "Hardware and receipt configuration",
+        "Need for industry-specific paid plans",
+        "Settlement bank and timing",
+        "Data flow to ecommerce and accounting systems"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Square POSレジ be used for free?",
+      "answer": "The standard POS application is free, while payment processing, hardware, and advanced industry software are separate."
+    },
+    {
+      "question": "What should be tested before launch?",
+      "answer": "Reproduce a full trading day with real products, checkout, refunds, closing, connectivity loss, staff permissions, and data export."
+    },
+    {
+      "question": "Which cost matters most in a comparison?",
+      "answer": "Compare a three-year total covering processing, devices, subscriptions, connectivity, peripherals, settlement, and support."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review a restaurant POS and mobile ordering service that can be tested from a free plan."
+    }
+  ]
+}

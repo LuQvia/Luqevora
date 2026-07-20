@@ -1,0 +1,135 @@
+{
+  "id": "google-workspace-pricing-small-business-en",
+  "translationKey": "google-workspace-pricing-small-business",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "google-workspace-pricing-small-business",
+  "category": "business-software",
+  "topic": "google-workspace",
+  "badge": "Official-source guide",
+  "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+  "metaTitle": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+  "description": "Compare Google Workspace Starter, Standard, and Plus by storage, Meet, administration, security, and annual commitment.",
+  "lead": "Starter fits basic domain email and collaboration; Standard fits higher storage and meeting needs; Plus is for stronger retention and administration requirements.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Google Workspace pricing and features",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "affiliateKey": "google-workspace"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Google Workspace pricing",
+      "url": "https://workspace.google.com/pricing?hl=ja"
+    },
+    {
+      "label": "Google Workspace for business",
+      "url": "https://workspace.google.com/intl/ja/business/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Bottom line",
+      "body": [
+        "Starter fits basic domain email and collaboration; Standard fits higher storage and meeting needs; Plus is for stronger retention and administration requirements.",
+        "Do not decide on brand recognition or headline price alone. Compare real users, daily workflows, administrator effort, migration, and exit or export requirements under the same conditions."
+      ],
+      "callout": "Terms can change. Recheck the official pricing page and agreement immediately before purchase."
+    },
+    {
+      "heading": "Pricing and contract terms",
+      "body": [
+        "Official pricing shows annual and flexible billing. Estimate not only monthly user fees but also leavers, shared identities, additional storage, and migration work.",
+        "When introductory pricing applies, separate the promotional period from normal pricing and record the actual invoiced total. Track apps, integrations, migration, implementation, and maintenance as separate cost lines."
+      ],
+      "table": {
+        "headers": [
+          "Plan",
+          "Primary decision"
+        ],
+        "rows": [
+          [
+            "Starter",
+            "Domain email and core collaboration"
+          ],
+          [
+            "Standard",
+            "More storage, meetings, and shared operations"
+          ],
+          [
+            "Plus",
+            "Retention, security, and stronger administration"
+          ],
+          [
+            "Enterprise",
+            "Large-scale governance and negotiated requirements"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How to test with real work",
+      "body": [
+        "List required mailboxes, Drive capacity, meeting size, recording, retention, and device controls, then select the lowest tier covering every mandatory requirement.",
+        "Do more than view sample screens. Complete the full path from input through completion, revision, approval, and export. Test as both an end user and administrator and record confusion points and setup time."
+      ],
+      "bullets": [
+        "Use the same user and data volume for every candidate",
+        "Separate mandatory from optional capabilities",
+        "Configure notifications, permissions, and automation",
+        "Test CSV or other export and cancellation procedures",
+        "Record annual total cost and staff effort"
+      ]
+    },
+    {
+      "heading": "Best fit",
+      "body": [
+        "Small businesses that want domain Gmail, Drive, Meet, Calendar, and documents under one administration console.",
+        "A feature-rich service can fail when the underlying process is undefined. Map the current workflow and ownership on one page before configuring the product."
+      ]
+    },
+    {
+      "heading": "Cautions and failure prevention",
+      "body": [
+        "Multiple addresses for one person may be users, aliases, or groups, with different cost and administration implications.",
+        "When customer or personal data is involved, include access control, multifactor authentication, offboarding, retention, deletion, and backup in the operating policy. Document design decisions and review dates so the system survives staff changes."
+      ]
+    },
+    {
+      "heading": "Implementation sequence",
+      "body": [
+        "Define the target workflow, users, owner, and success criteria first. Build a small pilot, run it for two to four weeks, remove unnecessary fields, and only then migrate production data.",
+        "After launch, review usage, missing data, duplicated work, excessive notifications, and cost after 30 days. Repeat at least 60 days before renewal to decide whether to continue, change tier, or migrate."
+      ],
+      "bullets": [
+        "Limit the initial objective and workflow",
+        "Define required data and permissions",
+        "Pilot with a small group",
+        "Record cost, effort, and outcome",
+        "Review regularly after production launch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can this article be published before affiliate approval?",
+      "answer": "Yes. The page uses a normal official link until approval. After approval, the verified affiliate URL can be added to the central configuration without claiming a relationship beforehand."
+    },
+    {
+      "question": "Can I decide using the price shown in the article?",
+      "answer": "No. Pricing, promotions, features, billing terms, tax, and regional availability change. Verify the official pricing and checkout pages immediately before purchase."
+    },
+    {
+      "question": "What matters most during implementation?",
+      "answer": "Define the workflow, data owner, completion criteria, permissions, and review process, then reproduce them in a small pilot instead of choosing by feature count."
+    }
+  ]
+}

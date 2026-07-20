@@ -1,0 +1,2110 @@
+{
+  "version": "4.2.0",
+  "generatedAt": "2026-07-20T13:23:08.506Z",
+  "targetArticles": 29,
+  "total": 420,
+  "passed": 420,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "package version supports LuQvia v4.2+",
+      "ok": true,
+      "detail": "4.3.0"
+    },
+    {
+      "name": "LuQvia service config version supports v4.2+",
+      "ok": true,
+      "detail": "4.3.0"
+    },
+    {
+      "name": "LuQvia service integration enabled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "at least twenty conversion-focused comparison articles configured",
+      "ok": true,
+      "detail": "29"
+    },
+    {
+      "name": "production price retained",
+      "ok": true,
+      "detail": "1ページ 11,000円 × ページ数"
+    },
+    {
+      "name": "monthly price retained",
+      "ok": true,
+      "detail": "月額 11,000円"
+    },
+    {
+      "name": "official website configured",
+      "ok": true,
+      "detail": "https://www.luqvia.com/"
+    },
+    {
+      "name": "free diagnosis configured",
+      "ok": true,
+      "detail": "https://forms.gle/LFzrDn36osnjPEd6A"
+    },
+    {
+      "name": "official LINE configured",
+      "ok": true,
+      "detail": "https://lin.ee/nTfIJLT"
+    },
+    {
+      "name": "source exists: store-website-builder-comparison",
+      "ok": true,
+      "detail": "content/articles/ja/store-website-builder-comparison.json"
+    },
+    {
+      "name": "source is intended comparison: store-website-builder-comparison",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: store-website-builder-comparison",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: store-website-builder-comparison",
+      "ok": true,
+      "detail": "public/ja/website-builders/store-website-builder-comparison/index.html"
+    },
+    {
+      "name": "single LuQvia panel: store-website-builder-comparison",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: store-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": "content/articles/ja/beauty-salon-website-builder-comparison.json"
+    },
+    {
+      "name": "source is intended comparison: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": "public/ja/website-builders/beauty-salon-website-builder-comparison/index.html"
+    },
+    {
+      "name": "single LuQvia panel: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: beauty-salon-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": "content/articles/ja/reservation-website-builder-comparison.json"
+    },
+    {
+      "name": "source is intended comparison: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": "public/ja/website-builders/reservation-website-builder-comparison/index.html"
+    },
+    {
+      "name": "single LuQvia panel: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: reservation-website-builder-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": "content/articles/ja/best-website-builders-for-beginners.json"
+    },
+    {
+      "name": "source is intended comparison: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": "public/ja/website-builders/best-website-builders-for-beginners/index.html"
+    },
+    {
+      "name": "single LuQvia panel: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: best-website-builders-for-beginners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: goope-vs-wix",
+      "ok": true,
+      "detail": "content/articles/ja/goope-vs-wix.json"
+    },
+    {
+      "name": "source is intended comparison: goope-vs-wix",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: goope-vs-wix",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: goope-vs-wix",
+      "ok": true,
+      "detail": "public/ja/website-builders/goope-vs-wix/index.html"
+    },
+    {
+      "name": "single LuQvia panel: goope-vs-wix",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: goope-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: jimdo-vs-studio",
+      "ok": true,
+      "detail": "content/articles/ja/jimdo-vs-studio.json"
+    },
+    {
+      "name": "source is intended comparison: jimdo-vs-studio",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: jimdo-vs-studio",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: jimdo-vs-studio",
+      "ok": true,
+      "detail": "public/ja/website-builders/jimdo-vs-studio/index.html"
+    },
+    {
+      "name": "single LuQvia panel: jimdo-vs-studio",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: jimdo-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: jimdo-vs-wix",
+      "ok": true,
+      "detail": "content/articles/ja/jimdo-vs-wix.json"
+    },
+    {
+      "name": "source is intended comparison: jimdo-vs-wix",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: jimdo-vs-wix",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: jimdo-vs-wix",
+      "ok": true,
+      "detail": "public/ja/website-builders/jimdo-vs-wix/index.html"
+    },
+    {
+      "name": "single LuQvia panel: jimdo-vs-wix",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: jimdo-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": "content/articles/ja/jimdo-vs-wordpress.json"
+    },
+    {
+      "name": "source is intended comparison: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": "public/ja/website-builders/jimdo-vs-wordpress/index.html"
+    },
+    {
+      "name": "single LuQvia panel: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: jimdo-vs-wordpress",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": "content/articles/ja/ochanoko-saisai-vs-goope.json"
+    },
+    {
+      "name": "source is intended comparison: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": "public/ja/website-builders/ochanoko-saisai-vs-goope/index.html"
+    },
+    {
+      "name": "single LuQvia panel: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: ochanoko-saisai-vs-goope",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": "content/articles/ja/ochanoko-saisai-vs-jimdo.json"
+    },
+    {
+      "name": "source is intended comparison: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": "public/ja/website-builders/ochanoko-saisai-vs-jimdo/index.html"
+    },
+    {
+      "name": "single LuQvia panel: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: ochanoko-saisai-vs-jimdo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": "content/articles/ja/ochanoko-saisai-vs-studio.json"
+    },
+    {
+      "name": "source is intended comparison: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": "public/ja/website-builders/ochanoko-saisai-vs-studio/index.html"
+    },
+    {
+      "name": "single LuQvia panel: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: ochanoko-saisai-vs-studio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: wix-vs-squarespace",
+      "ok": true,
+      "detail": "content/articles/ja/wix-vs-squarespace.json"
+    },
+    {
+      "name": "source is intended comparison: wix-vs-squarespace",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: wix-vs-squarespace",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: wix-vs-squarespace",
+      "ok": true,
+      "detail": "public/ja/website-builders/wix-vs-squarespace/index.html"
+    },
+    {
+      "name": "single LuQvia panel: wix-vs-squarespace",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: wix-vs-squarespace",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: shopify-vs-wix",
+      "ok": true,
+      "detail": "content/articles/ja/shopify-vs-wix.json"
+    },
+    {
+      "name": "source is intended comparison: shopify-vs-wix",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: shopify-vs-wix",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: shopify-vs-wix",
+      "ok": true,
+      "detail": "public/ja/website-builders/shopify-vs-wix/index.html"
+    },
+    {
+      "name": "single LuQvia panel: shopify-vs-wix",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: shopify-vs-wix",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": "content/articles/ja/color-me-shop-vs-shopify.json"
+    },
+    {
+      "name": "source is intended comparison: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": "public/ja/website-builders/color-me-shop-vs-shopify/index.html"
+    },
+    {
+      "name": "single LuQvia panel: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: color-me-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": "content/articles/ja/color-me-shop-vs-xserver-shop.json"
+    },
+    {
+      "name": "source is intended comparison: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": "public/ja/website-builders/color-me-shop-vs-xserver-shop/index.html"
+    },
+    {
+      "name": "single LuQvia panel: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: color-me-shop-vs-xserver-shop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": "content/articles/ja/fixed-fee-ecommerce-platform-comparison.json"
+    },
+    {
+      "name": "source is intended comparison: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": "public/ja/website-builders/fixed-fee-ecommerce-platform-comparison/index.html"
+    },
+    {
+      "name": "single LuQvia panel: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: fixed-fee-ecommerce-platform-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": "content/articles/ja/xserver-shop-vs-shopify.json"
+    },
+    {
+      "name": "source is intended comparison: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": "public/ja/website-builders/xserver-shop-vs-shopify/index.html"
+    },
+    {
+      "name": "single LuQvia panel: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: xserver-shop-vs-shopify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": "content/articles/ja/xserver-shop-vs-woocommerce.json"
+    },
+    {
+      "name": "source is intended comparison: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": "public/ja/website-builders/xserver-shop-vs-woocommerce/index.html"
+    },
+    {
+      "name": "single LuQvia panel: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: xserver-shop-vs-woocommerce",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: store-dx-stack-comparison",
+      "ok": true,
+      "detail": "content/articles/ja/store-dx-stack-comparison.json"
+    },
+    {
+      "name": "source is intended comparison: store-dx-stack-comparison",
+      "ok": true,
+      "detail": "ja/comparison/store-dx"
+    },
+    {
+      "name": "source updated date: store-dx-stack-comparison",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: store-dx-stack-comparison",
+      "ok": true,
+      "detail": "public/ja/store-dx/store-dx-stack-comparison/index.html"
+    },
+    {
+      "name": "single LuQvia panel: store-dx-stack-comparison",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: store-dx-stack-comparison",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": "content/articles/ja/best-wordpress-hosting-japan.json"
+    },
+    {
+      "name": "source is intended comparison: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": "ja/comparison/hosting-security"
+    },
+    {
+      "name": "source updated date: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": "public/ja/hosting-security/best-wordpress-hosting-japan/index.html"
+    },
+    {
+      "name": "single LuQvia panel: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: best-wordpress-hosting-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": "content/articles/ja/monday-crm-vs-hubspot-crm.json"
+    },
+    {
+      "name": "source is intended comparison: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": "ja/comparison/business-software"
+    },
+    {
+      "name": "source updated date: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": "public/ja/business-software/monday-crm-vs-hubspot-crm/index.html"
+    },
+    {
+      "name": "single LuQvia panel: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: monday-crm-vs-hubspot-crm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": "content/articles/ja/google-workspace-vs-microsoft-365-small-business.json"
+    },
+    {
+      "name": "source is intended comparison: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": "ja/comparison/business-software"
+    },
+    {
+      "name": "source updated date: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": "public/ja/business-software/google-workspace-vs-microsoft-365-small-business/index.html"
+    },
+    {
+      "name": "single LuQvia panel: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: google-workspace-vs-microsoft-365-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": "content/articles/ja/gmail-vs-google-workspace-business-email.json"
+    },
+    {
+      "name": "source is intended comparison: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": "ja/comparison/business-software"
+    },
+    {
+      "name": "source updated date: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": "public/ja/business-software/gmail-vs-google-workspace-business-email/index.html"
+    },
+    {
+      "name": "single LuQvia panel: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: gmail-vs-google-workspace-business-email",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": "content/articles/ja/shopify-vs-base-small-business.json"
+    },
+    {
+      "name": "source is intended comparison: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": "public/ja/website-builders/shopify-vs-base-small-business/index.html"
+    },
+    {
+      "name": "single LuQvia panel: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: shopify-vs-base-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": "content/articles/ja/shopify-vs-stores-small-business.json"
+    },
+    {
+      "name": "source is intended comparison: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": "ja/comparison/website-builders"
+    },
+    {
+      "name": "source updated date: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": "public/ja/website-builders/shopify-vs-stores-small-business/index.html"
+    },
+    {
+      "name": "single LuQvia panel: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: shopify-vs-stores-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": "content/articles/ja/hubspot-free-vs-starter.json"
+    },
+    {
+      "name": "source is intended comparison: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": "ja/comparison/business-software"
+    },
+    {
+      "name": "source updated date: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": "public/ja/business-software/hubspot-free-vs-starter/index.html"
+    },
+    {
+      "name": "single LuQvia panel: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: hubspot-free-vs-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": "content/articles/ja/hubspot-vs-salesforce-small-business.json"
+    },
+    {
+      "name": "source is intended comparison: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": "ja/comparison/business-software"
+    },
+    {
+      "name": "source updated date: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": "public/ja/business-software/hubspot-vs-salesforce-small-business/index.html"
+    },
+    {
+      "name": "single LuQvia panel: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: hubspot-vs-salesforce-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": "content/articles/ja/crm-comparison-small-business-japan.json"
+    },
+    {
+      "name": "source is intended comparison: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": "ja/comparison/business-software"
+    },
+    {
+      "name": "source updated date: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": "public/ja/business-software/crm-comparison-small-business-japan/index.html"
+    },
+    {
+      "name": "single LuQvia panel: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: crm-comparison-small-business-japan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "source exists: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": "content/articles/ja/hostinger-vs-xserver-small-business.json"
+    },
+    {
+      "name": "source is intended comparison: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": "ja/comparison/hosting-security"
+    },
+    {
+      "name": "source updated date: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": "2026-07-20"
+    },
+    {
+      "name": "public page exists: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": "public/ja/hosting-security/hostinger-vs-xserver-small-business/index.html"
+    },
+    {
+      "name": "single LuQvia panel: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "operator relationship disclosed: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "production pricing visible: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "monthly pricing visible: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "website CTA with source attribution: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "diagnosis CTA: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "LINE CTA: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "operator panel is not affiliate marked: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "table of contents link: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Service structured data: hostinger-vs-xserver-small-business",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "unrelated comparison does not show LuQvia panel",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "public validation errors are zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "public validation warnings are zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "content audit errors are zero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "content audit warnings are zero",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

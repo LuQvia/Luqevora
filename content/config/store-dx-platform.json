@@ -1,0 +1,54 @@
+{
+  "version": "4.1.0",
+  "verifiedAt": "2026-07-20",
+  "consultation": {
+    "operator": "LuQvia",
+    "website": "https://www.luqvia.com/",
+    "email": "info@luqvia.com",
+    "line": "https://lin.ee/nTfIJLT",
+    "websiteFlowDiagnosis": "https://forms.gle/LFzrDn36osnjPEd6A"
+  },
+  "productGroups": {
+    "pos": [
+      "air-regi",
+      "square-pos",
+      "funfo",
+      "kantan-chumon",
+      "emeao-pos"
+    ],
+    "payments": [
+      "airpay",
+      "square-pos",
+      "paycas-mobile"
+    ],
+    "reservations": [
+      "stores-reservation",
+      "square-pos"
+    ],
+    "retention": [
+      "line-official-account",
+      "funfo",
+      "stores-reservation"
+    ],
+    "accounting": [
+      "freee-accounting",
+      "moneyforward-cloud-accounting",
+      "air-regi",
+      "square-pos"
+    ]
+  },
+  "articleRoutes": {
+    "ja": {
+      "roadmap": "/ja/store-dx/store-dx-implementation-roadmap/",
+      "stack": "/ja/store-dx/store-dx-stack-comparison/",
+      "salon": "/ja/store-dx/salon-store-dx-guide/",
+      "retail": "/ja/store-dx/retail-store-dx-guide/"
+    },
+    "en": {
+      "roadmap": "/en/store-dx/store-dx-implementation-roadmap/",
+      "stack": "/en/store-dx/store-dx-stack-comparison/",
+      "salon": "/en/store-dx/salon-store-dx-guide/",
+      "retail": "/en/store-dx/retail-store-dx-guide/"
+    }
+  }
+}

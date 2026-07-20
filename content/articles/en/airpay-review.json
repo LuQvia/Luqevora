@@ -1,0 +1,148 @@
+{
+  "id": "airpay-review-en",
+  "translationKey": "airpay-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "airpay-review",
+  "category": "cashless-payments",
+  "topic": "cashless-payment-services",
+  "badge": "Official-source review",
+  "title": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+  "metaTitle": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+  "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats.",
+  "lead": "AirPAY accepts cards, e-money, and QR payments for Japanese merchants. It has no monthly or bank transfer fee, but the effective cost depends on payment method, tax treatment, eligibility for the 2.48% discount program, device requirements, and settlement schedule.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check AirPAY's current application and fee terms",
+      "officialUrl": "https://airpayment.jp/",
+      "affiliateKey": "airpay-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airペイ — 決済手数料・振込手数料",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/218985588-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E6%8C%AF%E8%BE%BC%E6%89%8B%E6%95%B0%E6%96%99"
+    },
+    {
+      "label": "Airペイ — 決済手数料ディスカウントプログラム",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/39897820982553-%E6%B1%BA%E6%B8%88%E6%89%8B%E6%95%B0%E6%96%99-%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    },
+    {
+      "label": "Airペイ — 入金サイクル",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/219379377-%E5%85%A5%E9%87%91-%E6%8C%AF%E8%BE%BC-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%81%A8%E6%8C%AF%E8%BE%BC%E9%87%91%E9%A1%8D%E3%81%AE%E7%A2%BA%E8%AA%8D%E6%96%B9%E6%B3%95"
+    },
+    {
+      "label": "Airペイ — 対応している決済の種類",
+      "url": "https://faq.airpayment.jp/hc/ja/articles/212207478-%E5%AF%BE%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E6%B1%BA%E6%B8%88%E3%81%AE%E7%A8%AE%E9%A1%9E"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: best considered with AirREGI and broad local acceptance",
+      "body": [
+        "AirPAY fits stores that want amount transfer from AirREGI and broad support for major cards, transit e-money, iD, QUICPay, and Japanese QR methods without a monthly fee.",
+        "Not every transaction uses one rate. Payment brand, tax treatment, discount underwriting, bank, and the application used can change cost and settlement timing."
+      ]
+    },
+    {
+      "heading": "How to read the fee table",
+      "body": [
+        "The standard rate is listed as 3.24% for major cards, iD, QUICPay, and UnionPay. Transit e-money and Rakuten Edy are 2.95% before tax, COIN+ is 0.99% before tax, and many QR methods are 2.95% before tax.",
+        "The 2.48% major-card rate requires application, eligibility, and brand-level approval. Calculate a weighted effective rate from the store's actual card, e-money, and QR mix instead of relying on the lowest advertised rate."
+      ]
+    },
+    {
+      "heading": "Settlement and cash flow",
+      "body": [
+        "AirPAY and AirPAY Tap settle six times monthly for accounts at three named major banks and three times monthly for other supported banks. Bank transfer fees are free.",
+        "Online payments and some QR workflows can follow different settlement calendars. Maintain separate closing and deposit dates for each payment function in the cash-flow forecast."
+      ]
+    },
+    {
+      "heading": "Payment coverage and hardware",
+      "body": [
+        "The service supports card-reader transactions, transit e-money, iD, QUICPay, and multiple QR methods. Underwriting completes separately by brand, so every method may not be active on opening day.",
+        "A compatible iPad or iPhone and reader are required, with optional printing equipment. Stores using AirREGI integration should verify the supported device and account configuration before launch."
+      ]
+    },
+    {
+      "heading": "Advantages and cautions",
+      "body": [
+        "No monthly fee, no bank transfer fee, and amount transfer from AirREGI can reduce duplicate entry for a small store. The acceptance mix is designed for payment methods commonly used in Japan.",
+        "Rates are displayed with mixed tax treatment and the discount is not automatic. Underwriting, campaigns, and reader conditions can change, so save the current application terms."
+      ]
+    },
+    {
+      "heading": "Pre-launch checklist",
+      "body": [
+        "Segment recent sales into card, e-money, QR, and cash. Model processing cost under both standard and discounted rates, and leave enough time for brand-level underwriting before a fixed opening date.",
+        "The effective cost is not only the advertised processing percentage. Model each payment method by expected sales mix, tax treatment of fees, settlement timing, refund handling, device requirements, and accounting workload. Confirm which methods are approved for the specific merchant category and keep cash or another fallback available until all required brands are active."
+      ],
+      "bullets": [
+        "Brand-level eligibility for 2.48%",
+        "Effective fees including tax treatment",
+        "Settlement frequency for the selected bank",
+        "Device, operating system, and printer support",
+        "Refund and connectivity-failure procedures"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Airペイ be used for free?",
+      "answer": "There is no monthly or bank transfer fee, but processing fees and a compatible device environment are required."
+    },
+    {
+      "question": "What should be tested before launch?",
+      "answer": "Reproduce a full trading day with real products, checkout, refunds, closing, connectivity loss, staff permissions, and data export."
+    },
+    {
+      "question": "Which cost matters most in a comparison?",
+      "answer": "Compare a three-year total covering processing, devices, subscriptions, connectivity, peripherals, settlement, and support."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review a restaurant POS and mobile ordering service that can be tested from a free plan."
+    }
+  ]
+}

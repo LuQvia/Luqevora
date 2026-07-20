@@ -21,6 +21,14 @@
       "url": "/ja/business-software/"
     },
     {
+      "label": "店舗DX",
+      "url": "/ja/store-dx/"
+    },
+    {
+      "label": "キャッシュレス決済",
+      "url": "/ja/cashless-payments/"
+    },
+    {
       "label": "サーバー・セキュリティ",
       "url": "/ja/hosting-security/"
     },
@@ -53,6 +61,14 @@
     {
       "label": "Business Software",
       "url": "/en/business-software/"
+    },
+    {
+      "label": "Store DX",
+      "url": "/en/store-dx/"
+    },
+    {
+      "label": "Cashless Payments",
+      "url": "/en/cashless-payments/"
     },
     {
       "label": "Hosting & Security",

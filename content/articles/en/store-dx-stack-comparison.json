@@ -1,0 +1,135 @@
+{
+  "id": "store-dx-stack-comparison-en",
+  "translationKey": "store-dx-stack-comparison",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "store-dx-stack-comparison",
+  "category": "store-dx",
+  "topic": "store-backoffice-integration",
+  "badge": "Store DX stack comparison",
+  "title": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+  "metaTitle": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+  "description": "Compare practical Store DX stacks for restaurants, salons, retail, and service businesses, focusing on integration, data ownership, support, and total cost.",
+  "lead": "Individual feature lists do not explain whether a store will run smoothly. The decisive question is how checkout, booking, customer communication, settlement, and accounting connect.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Build a shortlist with the free assessment",
+      "officialUrl": "https://luqevora.com/en/store-dx-assessment/",
+      "affiliateKey": "luqevora-store-dx-diagnosis-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AirREGI — Features",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "STORES Reservations — Feature List",
+      "url": "https://stores.fun/reserve/functions"
+    },
+    {
+      "label": "LINE Official Account — Service Overview",
+      "url": "https://www.lycbiz.com/jp/service/line-official-account/"
+    },
+    {
+      "label": "freee Accounting — Official Service Page",
+      "url": "https://www.freee.co.jp/accounting/"
+    },
+    {
+      "label": "Money Forward Cloud Accounting — POS Integration",
+      "url": "https://biz.moneyforward.com/accounting/smb/function/cash-register/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Compare workflow connections, not isolated products",
+      "body": [
+        "A low-cost set of disconnected products may preserve duplicate entry and reconciliation work. For every service, identify the source, destination, sync timing, error owner, export format, and data availability after cancellation.",
+        "Give greater weight to daily adoption and exception handling than to the number of functions on a sales page."
+      ]
+    },
+    {
+      "heading": "Restaurant stack",
+      "body": [
+        "Restaurants normally prioritize POS, payment acceptance, ordering, kitchen flow, and sales analysis. Mobile ordering can reduce front-of-house intake work, but kitchen capacity and service timing must be evaluated at the same time.",
+        "Possible starting points include AirREGI with AirPAY, Square POS with Square payments, restaurant-specific products such as funfo or Kantan Chumon, and a supplier-comparison service when requirements are complex."
+      ]
+    },
+    {
+      "heading": "Salon stack",
+      "body": [
+        "Salons prioritize staff schedules, services, duration, customer records, reminders, prepayment, and retention. Booking may be a higher priority than POS in a business with frequent telephone changes.",
+        "A stack can combine STORES Reservations, LINE Official Account, POS and payments, and accounting. Define which system owns the customer record and how changes are synchronized."
+      ]
+    },
+    {
+      "heading": "Retail stack",
+      "body": [
+        "Retail requirements include product master data, barcodes, inventory, returns, discounts, multiple locations, payments, and accounting. Stores using ecommerce also need a clear source of truth for inventory.",
+        "A free POS can be appropriate when product limits, stock operations, permissions, hardware, and exports satisfy the operating model."
+      ]
+    },
+    {
+      "heading": "Accounting integration checklist",
+      "body": [
+        "Confirm whether accounting receives daily totals or transaction detail, how payment methods map to accounts, and how settlement fees and timing differences are reconciled.",
+        "Use official integration documentation, including AirREGI and freee Accounting or the Money Forward Cloud POS list, and avoid sending the same sale through two connectors."
+      ]
+    },
+    {
+      "heading": "Normalize total cost",
+      "body": [
+        "Compare setup, hardware, monthly subscriptions, payment processing, booking prepayment fees, options, connectivity, maintenance, and implementation support over twelve or thirty-six months.",
+        "Free plans are valuable for testing, but calculate the cost after booking, message, staff, product, or location limits are exceeded."
+      ]
+    },
+    {
+      "heading": "Selection criteria",
+      "body": [
+        "A viable stack solves the highest-priority problem, is used every day, reconciles monthly, and permits data export.",
+        "Consider staff training, outage procedures, support ownership, contract changes, and exit planning alongside features and price."
+      ]
+    },
+    {
+      "heading": "Use a scored proof of concept",
+      "body": [
+        "Before signing a long contract, run a limited proof of concept with representative staff, products, services, payment methods, and exception cases. Score each candidate on task completion time, error rate, reconciliation effort, training burden, support response, export quality, and the number of manual handoffs that remain. Keep the same scenarios and weighting for every vendor so the result is comparable.",
+        "Record assumptions separately from verified behavior. A feature shown in a demonstration should not be treated as operationally confirmed until it works with the selected device, plan, integration, permissions, and store workflow. Use the result to define a phased rollout, acceptance criteria, and a clear stop condition."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should POS and payments use the same provider?",
+      "answer": "The same provider may simplify amount transfer and support, while separate providers may offer different brands or economics. Compare integration quality and total cost."
+    },
+    {
+      "question": "Is booking integration with LINE mandatory?",
+      "answer": "No. It can improve reminders and repeat visits, but consent, message volume, ownership of customer data, and fallback communication must be defined."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Store DX implementation roadmap",
+      "url": "/en/store-dx/store-dx-implementation-roadmap/",
+      "description": "Plan the sequence and thirty-day adoption cycle."
+    },
+    {
+      "label": "Salon Store DX guide",
+      "url": "/en/store-dx/salon-store-dx-guide/",
+      "description": "Design booking, customer records, LINE, payments, and accounting."
+    },
+    {
+      "label": "Retail Store DX guide",
+      "url": "/en/store-dx/retail-store-dx-guide/",
+      "description": "Connect POS, inventory, payments, and accounting."
+    }
+  ]
+}

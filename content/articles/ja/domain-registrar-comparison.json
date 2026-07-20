@@ -106,6 +106,36 @@
       "label": "シンレンタルサーバーとConoHa WING",
       "url": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
       "description": "料金体系と運用方法を比較"
+    },
+    {
+      "label": "エックスサーバーレビュー｜料金・機能・注意点",
+      "url": "/ja/hosting-security/xserver-rental-server-review/",
+      "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。"
+    },
+    {
+      "label": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+      "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+      "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。"
+    },
+    {
+      "label": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+      "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+      "description": "エックスサーバーの長所と注意点を、WordPress、料金、バックアップ、複数サイト、メール、サポート、契約条件から整理します。"
+    },
+    {
+      "label": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+      "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+      "description": "エックスサーバーでWordPressを始める手順を解説。クイックスタート、簡単インストール、簡単移行、SSL、DNS、公開前確認を整理します。"
+    },
+    {
+      "label": "エックスサーバーで複数サイトを運営する方法｜ドメイン・メール管理",
+      "url": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+      "description": "エックスサーバーで複数ドメイン、サブドメイン、WordPress、メール、FTPを管理する方法と、権限・バックアップ・費用の注意点を解説します。"
+    },
+    {
+      "label": "会社ホームページと独自ドメインメールをエックスサーバーで準備する方法",
+      "url": "/ja/hosting-security/xserver-company-website-email-guide/",
+      "description": "会社ホームページ、独自ドメイン、メール、SSL、WordPress、担当者権限、バックアップをエックスサーバーで準備する手順を整理します。"
     }
   ]
 }

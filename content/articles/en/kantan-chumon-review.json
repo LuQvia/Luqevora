@@ -1,0 +1,169 @@
+{
+  "id": "kantan-chumon-review-en",
+  "translationKey": "kantan-chumon-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "kantan-chumon-review",
+  "category": "store-dx",
+  "topic": "restaurant-pos-orders",
+  "badge": "Official-source review",
+  "title": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+  "metaTitle": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+  "description": "Review Kantan Chumon using official information on published pricing, POS and mobile ordering, multilingual operation, payment integration, subsidies, and implementation caveats.",
+  "lead": "Kantan Chumon is a restaurant platform with selectable POS-only, POS-and-handheld, mobile-order, LINE-order, and tablet-order configurations. Monthly prices are published, but hardware, payment processing, installation, and contract-specific total cost still require deployment-level confirmation.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Kantan Chumon implementation details",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "affiliateKey": "kantan-chumon-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wiz — Kantan Chumon official page",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    },
+    {
+      "label": "Kantan Chumon — restaurant POS features",
+      "url": "https://www.kantan-order.com/pos_reji/"
+    },
+    {
+      "label": "Kantan Chumon — pricing plans",
+      "url": "https://www.kantan-order.com/pricing_details/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: best considered for order-taking efficiency",
+      "body": [
+        "The clearest use case is reducing the number of trips staff make solely to take orders. This can free employees for food delivery, checkout, and customer support during busy periods.",
+        "Published monthly prices including tax are JPY 2,980 for POS only, JPY 8,980 for POS plus handheld, JPY 8,980 for web mobile ordering, JPY 12,980 for LINE mobile ordering, and JPY 15,980 for TTO ordering. Confirm devices, peripherals, processing fees, installation, configuration, and contract conditions in the final quotation."
+      ]
+    },
+    {
+      "heading": "Features supported by the public page",
+      "body": [
+        "Official pages describe POS, handheld, web and LINE mobile ordering, tablet ordering, sales analytics, printer and payment-terminal integration, and accounting integrations. The pricing page lists Japanese, Chinese, English, and Korean support.",
+        "Partner materials also describe sales analysis and recommendation-oriented functions. Confirm the exact screens, plan availability, and configuration in a live demonstration before relying on them."
+      ]
+    },
+    {
+      "heading": "Advantages",
+      "body": [
+        "Self-ordering can reduce waiting time and order-entry mistakes when the menu and table workflow are configured correctly. Multilingual display can also reduce reliance on separate printed menus.",
+        "When order and sales data are connected, managers can review performance by time, day, and item rather than treating the system as a basic cash register."
+      ],
+      "bullets": [
+        "Published monthly prices by deployment type",
+        "Japanese, Chinese, English, and Korean support",
+        "A connected ordering, checkout, and sales-management workflow"
+      ]
+    },
+    {
+      "heading": "Caveats",
+      "body": [
+        "Published subscription prices do not represent the complete deployment cost. Budget separately for devices, printers, cash drawers, payment terminals, installation, configuration, extra devices, and optional support. Subsidy-supported procurement may also require application and approval before contracting or payment.",
+        "Restaurants still need a fallback for customers who cannot or do not want to use a smartphone, as well as procedures for network or device failures."
+      ],
+      "bullets": [
+        "Separate published subscription price from total deployment cost",
+        "Subsidy eligibility and approval are not guaranteed",
+        "Maintain fallback procedures for network outages"
+      ]
+    },
+    {
+      "heading": "Best-fit restaurants",
+      "body": [
+        "The product is most relevant to restaurants with repeated ordering, busy service peaks, limited floor staff, or a meaningful inbound customer mix.",
+        "It may be less important for fixed-course formats, premium service models where staff recommendations are central, or sites with unreliable connectivity."
+      ]
+    },
+    {
+      "heading": "Questions to ask before implementation",
+      "body": [
+        "Ask about device count, kitchen printing, table management, payment integration, menu setup, training, support hours, exports, and cancellation. For subsidy use, verify the registered tool and current application year.",
+        "Define baseline metrics such as order wait time, staff movement, order errors, average order value, and table turnover before launch."
+      ]
+    },
+    {
+      "heading": "A practical evaluation before requesting a proposal",
+      "body": [
+        "Before submitting an inquiry, document the restaurant format, number of registers and handheld devices, peak-hour order volume, table count, kitchen printer or display requirements, payment methods, and the languages that must be supported. Ask the provider to map each requirement to a standard feature, a paid option, an external integration, or a manual process. This prevents a successful sales demonstration from being mistaken for a complete operating design.",
+        "The final comparison should use the normal implementation cost, monthly fees, required hardware, payment processing, support coverage, contract term, cancellation rules, data export, and failure procedures. Subsidies should be treated as a possible reduction after eligibility is confirmed, not as the baseline price. Run a test scenario covering ordering, sold-out items, order corrections, split payment, closing, refunds, network failure, and next-day reporting before approving rollout."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the published monthly prices?",
+      "answer": "The official page lists monthly prices including tax of JPY 2,980 for POS only, JPY 8,980 for POS plus handheld, JPY 8,980 for web mobile ordering, JPY 12,980 for LINE mobile ordering, and JPY 15,980 for TTO ordering. Hardware, processing, and implementation may add cost."
+    },
+    {
+      "question": "Does it support multiple languages?",
+      "answer": "The official pricing page lists Japanese, Chinese, English, and Korean support. Confirm the exact translated screens and content-management workflow in a demonstration."
+    },
+    {
+      "question": "Does a subsidy guarantee a lower price?",
+      "answer": "No. Subsidies have eligibility, deadlines, review, and grant-decision requirements. Evaluate the investment at normal pricing as well."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "A practical restaurant POS checklist covering ordering, checkout, kitchen workflows, analytics, support, and total cost."
+    },
+    {
+      "label": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "description": "Plan in-store mobile ordering across menu design, staff operations, failure handling, training, and measurable outcomes."
+    },
+    {
+      "label": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+      "url": "/en/store-dx/small-restaurant-dx-guide/",
+      "description": "Prioritize POS, mobile ordering, reservations, payments, and accounting for a small restaurant based on operating impact."
+    },
+    {
+      "label": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+      "url": "/en/store-dx/restaurant-inbound-order-guide/",
+      "description": "Plan multilingual restaurant ordering across Japanese, Chinese, English, and Korean screens, allergens, payments, and staff exception handling."
+    },
+    {
+      "label": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+      "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "description": "Use restaurant POS data to improve hourly sales, item mix, average order value, additional orders, and table turnover."
+    },
+    {
+      "label": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+      "url": "/en/store-dx/pos-subsidy-2026-guide/",
+      "description": "Understand Japan’s 2026 Digitalization and AI Implementation Subsidy when evaluating a restaurant POS purchase."
+    },
+    {
+      "label": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "description": "Compare the roles, integration, cost, and best use cases of restaurant POS and mobile ordering systems."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats."
+    }
+  ]
+}

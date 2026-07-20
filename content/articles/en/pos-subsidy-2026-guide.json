@@ -1,0 +1,163 @@
+{
+  "id": "pos-subsidy-2026-guide-en",
+  "translationKey": "pos-subsidy-2026-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "pos-subsidy-2026-guide",
+  "category": "store-dx",
+  "topic": "digital-subsidies",
+  "badge": "Implementation guide",
+  "title": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+  "metaTitle": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+  "description": "Understand Japan’s 2026 Digitalization and AI Implementation Subsidy when evaluating a restaurant POS purchase.",
+  "lead": "Japan is operating the Digitalization and AI Implementation Subsidy 2026. A POS purchase is not automatically eligible: the applicant, registered tool, expense category, timing, and application track all matter.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": false,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Review Kantan Chumon consultation and subsidy information",
+      "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "affiliateKey": "kantan-chumon-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wiz — Kantan Chumon official page",
+      "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+    },
+    {
+      "label": "Digitalization and AI Implementation Subsidy 2026 — Normal Track",
+      "url": "https://it-shien.smrj.go.jp/applicant/subsidy/normal"
+    },
+    {
+      "label": "Digitalization and AI Implementation Subsidy 2026 — Application Flow",
+      "url": "https://it-shien.smrj.go.jp/applicant/flow/"
+    },
+    {
+      "label": "Digitalization and AI Implementation Subsidy 2026 — Schedule",
+      "url": "https://it-shien.smrj.go.jp/schedule/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Purpose of the 2026 program",
+      "body": [
+        "The Small and Medium Enterprise Agency presents the 2026 program as support for productivity-improving digital and AI tools.",
+        "Program names, tracks, deadlines, and rates change by year. Use the current 2026 official pages rather than older promotional material."
+      ]
+    },
+    {
+      "heading": "Normal-track subsidy rates",
+      "body": [
+        "The official 2026 normal-track page states a rate within one-half, or within two-thirds when specified wage conditions are met.",
+        "The provider page describes a scenario in which purchase cost may be reduced to one quarter. The applicable program, rate, eligible expenses, and approval must be confirmed individually."
+      ]
+    },
+    {
+      "heading": "Joint application workflow",
+      "body": [
+        "Official procedures require coordination between the applicant and a registered implementation support provider, with final submission by the applicant.",
+        "Verify the registered provider, registered tool, application track, and exact quotation rather than relying on a general subsidy claim."
+      ]
+    },
+    {
+      "heading": "Do not contract too early",
+      "body": [
+        "An application is not an approval. Contracts, orders, or payments before the grant decision may be ineligible depending on the rules.",
+        "Compare a normal implementation timeline when opening dates or existing POS contract deadlines cannot wait."
+      ]
+    },
+    {
+      "heading": "Eligible cost and cash planning",
+      "body": [
+        "Treatment of software, cloud use, implementation, and hardware varies by track. Confirm each quotation line and any tax or construction costs.",
+        "Even after approval, the business must fund its own share, excluded costs, and ongoing subscription. Reimbursement timing also affects cash flow."
+      ]
+    },
+    {
+      "heading": "Current schedule checks",
+      "body": [
+        "The official schedule assigns deadlines and planned grant decisions to each round. Recheck it immediately before application.",
+        "Complete business identification, documents, plans, wage-condition checks, and account setup early rather than on the deadline."
+      ]
+    },
+    {
+      "heading": "Build the project so it also works without the subsidy",
+      "body": [
+        "A subsidy application should not be the only reason for selecting a POS system. First define the operational problem, required functions, implementation schedule, internal owner, staff training, data migration, and the total cost over the expected contract period. Then confirm whether the chosen vendor, tool, expense category, contract timing, and payment method satisfy the current program rules. Purchasing or signing too early can make an otherwise useful project ineligible.",
+        "Prepare a non-subsidized scenario before applying. Compare the cash requirement, tax treatment, reimbursement timing, rejected-cost risk, and the cost of delaying implementation. Keep quotations, specifications, screenshots, contracts, invoices, payment evidence, and completion records in a controlled folder. When a supplier advertises a percentage discount through a subsidy, verify the actual program, applicable rate, upper limit, minimum project amount, wage requirements, and whether the statement refers to a specific application category."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does the subsidy always reduce the price by 75 percent?",
+      "answer": "No. The official 2026 normal track states one-half, or two-thirds under specified conditions. Confirm the actual track and eligibility."
+    },
+    {
+      "question": "Can a restaurant sign immediately after applying?",
+      "answer": "Contracts or payments before the grant decision may be ineligible. Follow the current official rules and provider instructions."
+    },
+    {
+      "question": "What happens if the application is rejected?",
+      "answer": "No subsidy is paid. Confirm whether the restaurant will proceed at normal cost or can cancel without charge."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+      "url": "/en/store-dx/emeao-pos-review/",
+      "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats."
+    },
+    {
+      "label": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+      "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+      "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan."
+    },
+    {
+      "label": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review Kantan Chumon for Japanese restaurants, including mobile ordering, multilingual menus, subsidy considerations, and implementation checks."
+    },
+    {
+      "label": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "A practical restaurant POS checklist covering ordering, checkout, kitchen workflows, analytics, support, and total cost."
+    },
+    {
+      "label": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+      "url": "/en/store-dx/mobile-order-system-guide/",
+      "description": "Plan in-store mobile ordering across menu design, staff operations, failure handling, training, and measurable outcomes."
+    },
+    {
+      "label": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+      "url": "/en/store-dx/small-restaurant-dx-guide/",
+      "description": "Prioritize POS, mobile ordering, reservations, payments, and accounting for a small restaurant based on operating impact."
+    },
+    {
+      "label": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+      "url": "/en/store-dx/restaurant-inbound-order-guide/",
+      "description": "Plan multilingual restaurant ordering across English and Chinese screens, allergens, payments, and staff exception handling."
+    },
+    {
+      "label": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+      "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+      "description": "Use restaurant POS data to improve hourly sales, item mix, average order value, additional orders, and table turnover."
+    },
+    {
+      "label": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+      "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+      "description": "Compare the roles, integration, cost, and best use cases of restaurant POS and mobile ordering systems."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats."
+    }
+  ]
+}

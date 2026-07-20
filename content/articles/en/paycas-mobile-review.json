@@ -1,0 +1,144 @@
+{
+  "id": "paycas-mobile-review-en",
+  "translationKey": "paycas-mobile-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "paycas-mobile-review",
+  "category": "cashless-payments",
+  "topic": "cashless-payment-services",
+  "badge": "Official-source review",
+  "title": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+  "metaTitle": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+  "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks.",
+  "lead": "PayCAS Mobile combines card, e-money, and QR acceptance with an integrated printer and SoftBank SIM in one portable terminal. It can simplify table-side and field payments, but pricing is quoted, so every contract component must be separated.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check PayCAS Mobile quotation terms",
+      "officialUrl": "https://www.paycas.jp/paycas-mobile",
+      "affiliateKey": "paycas-mobile-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "PayCAS — PayCAS Mobile",
+      "url": "https://www.paycas.jp/paycas-mobile"
+    },
+    {
+      "label": "PayCAS — 料金",
+      "url": "https://www.paycas.jp/price"
+    },
+    {
+      "label": "PayCAS — サービス概要",
+      "url": "https://www.paycas.jp/service"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: designed for integrated connectivity and receipt printing",
+      "body": [
+        "PayCAS Mobile fits businesses that need mobile connectivity and on-device receipt printing without relying on local Wi-Fi or several peripherals. Table service, events, field service, and mobile sales are natural use cases.",
+        "The product prioritizes all-in-one operations rather than public self-service pricing. Request separate figures for setup, monthly service, terminal, connectivity, processing, transaction charges, and applications."
+      ]
+    },
+    {
+      "heading": "Terminal design",
+      "body": [
+        "The device integrates a printer, card and e-money readers, QR capability, a large touch display, and a SoftBank SIM. Staff can carry one device and reduce equipment around the counter.",
+        "Its Android-based environment can add business applications through PayCAS DX Store. Verify application price, provider, data sharing, and support ownership."
+      ]
+    },
+    {
+      "heading": "Pricing and settlement",
+      "body": [
+        "The official pricing page states that processing, setup, monthly, terminal, and transaction charges are proposed for each merchant. A public flat-price comparison is therefore incomplete.",
+        "Sales through the fifteenth are deposited at month end, and sales through month end are deposited on the fifteenth of the next month. Bank transfer fees are free, but the standard cadence is twice monthly."
+      ]
+    },
+    {
+      "heading": "Payment coverage and daily operation",
+      "body": [
+        "One terminal accepts credit cards, e-money, and QR payments, including contactless and PIN workflows. Brand underwriting and activation timing should be confirmed during contracting.",
+        "Charging, mobile coverage, paper supply, device failure, and loss need fallback procedures. Confirm spare-terminal and replacement terms together with support hours."
+      ]
+    },
+    {
+      "heading": "Advantages and cautions",
+      "body": [
+        "Integrated terminal, connectivity, and printing can improve portability and reduce switching between payment devices. Consolidated contracting and settlement can also simplify administration.",
+        "The total cost is not visible without a quotation, and twice-monthly settlement may be slower than alternatives for cash-sensitive businesses. POS amount transfer and data integration depend on the selected system and applications."
+      ]
+    },
+    {
+      "heading": "Quotation checklist",
+      "body": [
+        "Send every vendor the same sales mix and terminal count and compare a three-year total. Price device failure, loss, cancellation, minimum term, connectivity fallback, and optional applications.",
+        "Request a quotation that separates terminal, SIM connectivity, monthly service, processing, transaction, optional support, replacement, and cancellation costs. Then test receipt printing, reprints, refunds, network recovery, battery operation, daily reconciliation, and settlement reports. A consolidated device is valuable only when these exception workflows remain manageable for frontline staff."
+      ],
+      "bullets": [
+        "Terminal, monthly, and connectivity breakdown",
+        "Brand-level rates and tax treatment",
+        "Transaction charges",
+        "Cash-flow impact of twice-monthly settlement",
+        "POS and business-application integration"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can PayCAS Mobile be used for free?",
+      "answer": "The official site uses merchant-specific quotations rather than a free plan. Request setup, monthly, terminal, connectivity, processing, and transaction charges."
+    },
+    {
+      "question": "What should be tested before launch?",
+      "answer": "Reproduce a full trading day with real products, checkout, refunds, closing, connectivity loss, staff permissions, and data export."
+    },
+    {
+      "question": "Which cost matters most in a comparison?",
+      "answer": "Compare a three-year total covering processing, devices, subscriptions, connectivity, peripherals, settlement, and support."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirREGI Review: Free POS Features, Costs, and Limitations",
+      "url": "/en/cashless-payments/air-regi-review/",
+      "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats."
+    },
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review a restaurant POS and mobile ordering service that can be tested from a free plan."
+    }
+  ]
+}

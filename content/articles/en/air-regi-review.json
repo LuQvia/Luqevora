@@ -1,0 +1,149 @@
+{
+  "id": "air-regi-review-en",
+  "translationKey": "air-regi-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "air-regi-review",
+  "category": "cashless-payments",
+  "topic": "pos-payment-integration",
+  "badge": "Official-source review",
+  "title": "AirREGI Review: Free POS Features, Costs, and Limitations",
+  "metaTitle": "AirREGI Review: Free POS Features, Costs, and Limitations",
+  "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats.",
+  "lead": "AirREGI is a free POS application for iPad and iPhone. Core order entry, checkout, catalog, inventory, customer, and sales analysis functions have no software subscription fee. A production setup still requires a deliberate hardware, payment, printing, cash, and ordering design.",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check AirREGI's current free account terms",
+      "officialUrl": "https://airregi.jp/",
+      "affiliateKey": "air-regi-official-en"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Airレジ — 費用・料金",
+      "url": "https://airregi.jp/jp/cost/"
+    },
+    {
+      "label": "Airレジ — 機能・できること",
+      "url": "https://airregi.jp/jp/function/"
+    },
+    {
+      "label": "Airレジ — 機能一覧",
+      "url": "https://airregi.jp/jp/function/list/"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: a strong starting point for lowering POS software cost",
+      "body": [
+        "AirREGI is attractive when a retailer, restaurant, or service business wants core checkout and sales management without an initial or recurring POS software charge.",
+        "The free software label is not the total cost. The business must model iPad or iPhone hardware, receipt printing, cash drawers, scanners, payment acceptance, and any AirREGI Order modules."
+      ]
+    },
+    {
+      "heading": "Pricing: the POS application is the free component",
+      "body": [
+        "Official information states that AirREGI's initial fee, monthly fee, core functions, and standard support are free without a qualifying usage restriction.",
+        "Implementation cost depends on existing equipment and operating requirements. Decide whether the store needs printed receipts, cash storage, barcodes, customer displays, cash recycling, and additional ordering devices."
+      ],
+      "bullets": [
+        "Provide a compatible iPad or iPhone",
+        "Add printers and cash hardware when required",
+        "AirPAY and AirREGI Order are separate services"
+      ]
+    },
+    {
+      "heading": "Core functions and operational coverage",
+      "body": [
+        "The documented feature set includes order entry, checkout, returns, product setup, cost fields, inventory, stocktaking, customer records, sales analysis, CSV exports, and multi-store management.",
+        "Connections to accounting software, AirPAY, reservation tools, and AirREGI Order allow the system to expand beyond a standalone register."
+      ]
+    },
+    {
+      "heading": "Advantages",
+      "body": [
+        "A store can test product setup, staff training, checkout, and reporting before committing to a software subscription. Product images, barcodes, split checkout, and sales reports cover many everyday workflows.",
+        "AirPAY integration can transfer the transaction amount and reduce duplicate entry. Accounting connections can also reduce manual sales posting."
+      ]
+    },
+    {
+      "heading": "Limitations and risks",
+      "body": [
+        "The environment is centered on compatible Apple devices, so an Android-only hardware plan will not work. Peripheral compatibility, printing, cash control, and synchronization after connectivity loss require testing.",
+        "Restaurants that need handheld ordering, kitchen workflows, or mobile ordering must price AirREGI Order separately instead of treating every ordering function as part of the free POS application."
+      ]
+    },
+    {
+      "heading": "Pre-launch checklist",
+      "body": [
+        "Run a realistic test covering product setup, discounts, returns, split checkout, closing, inventory adjustments, staff permissions, and data export. Verify every required accounting or payment integration and its synchronization timing.",
+        "Before rollout, document who owns menu maintenance, tax settings, discounts, refunds, closing procedures, device updates, and staff training. A free application can reduce software cost, but operational quality still depends on hardware readiness, clear permissions, and a tested fallback when the tablet, printer, network, or connected payment service is unavailable."
+      ],
+      "bullets": [
+        "First-year and renewal total cost",
+        "Required number of tablets, printers, and cash drawers",
+        "AirPAY underwriting and activation dates",
+        "Offline checkout and synchronization procedure",
+        "Export and retention after cancellation"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Airレジ be used for free?",
+      "answer": "The core AirREGI POS application and standard support are free, while hardware, payments, and ordering modules are separate."
+    },
+    {
+      "question": "What should be tested before launch?",
+      "answer": "Reproduce a full trading day with real products, checkout, refunds, closing, connectivity loss, staff permissions, and data export."
+    },
+    {
+      "question": "Which cost matters most in a comparison?",
+      "answer": "Compare a three-year total covering processing, devices, subscriptions, connectivity, peripherals, settlement, and support."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+      "url": "/en/cashless-payments/airpay-review/",
+      "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats."
+    },
+    {
+      "label": "Square POS Review: Pricing, Hardware, Features, and Limits",
+      "url": "/en/cashless-payments/square-pos-review/",
+      "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits."
+    },
+    {
+      "label": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+      "url": "/en/cashless-payments/paycas-mobile-review/",
+      "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks."
+    },
+    {
+      "label": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+      "url": "/en/cashless-payments/airpay-vs-square/",
+      "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion."
+    },
+    {
+      "label": "Restaurant POS Selection Guide: Requirements and Failure Modes",
+      "url": "/en/store-dx/restaurant-pos-selection-guide/",
+      "description": "Compare ordering, checkout, kitchen flow, payments, support, and total cost with one requirements sheet."
+    },
+    {
+      "label": "Kantan Chumon Review: Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/kantan-chumon-review/",
+      "description": "Review restaurant POS, mobile ordering, multilingual support, and payment integration."
+    },
+    {
+      "label": "funfo Review: Free Restaurant POS and Mobile Ordering",
+      "url": "/en/store-dx/funfo-review/",
+      "description": "Review a restaurant POS and mobile ordering service that can be tested from a free plan."
+    }
+  ]
+}

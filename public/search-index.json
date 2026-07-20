@@ -104,9 +104,57 @@
     "topic": "project-management"
   },
   {
+    "title": "CRM Comparison for Small Businesses: HubSpot, monday CRM, and Salesforce",
+    "description": "Compare small-business CRM options by free entry, pipeline management, marketing, customization, implementation capacity, and cost.",
+    "url": "/en/business-software/crm-comparison-small-business-japan/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "Free Gmail vs Google Workspace for Business Email",
+    "description": "Compare free Gmail and Google Workspace by custom domain, administration, offboarding, sharing, security, and cost.",
+    "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
+    "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+    "description": "Compare Google Workspace Starter, Standard, and Plus by storage, Meet, administration, security, and annual commitment.",
+    "url": "/en/business-software/google-workspace-pricing-small-business/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
+    "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+    "description": "Compare Google Workspace and Microsoft 365 across email, collaboration, desktop apps, meetings, storage, and administration.",
+    "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
+    "title": "How to Manage Website Production Projects in monday.com",
+    "description": "Manage requirements, asset collection, design approval, implementation, launch, and maintenance handoff in monday.com.",
+    "url": "/en/business-software/monday-web-production-project-management/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
     "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
     "description": "Learn the options for custom-domain email, DNS and MX records, Gmail workflows, SPF, DKIM, DMARC, migration, and ongoing administration.",
     "url": "/en/business-software/custom-domain-email-guide/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
+    "title": "How to Set Up Custom-Domain Email with Google Workspace",
+    "description": "A deployment sequence for signup, domain verification, MX, SPF, DKIM, DMARC, users, migration, and testing.",
+    "url": "/en/business-software/google-workspace-domain-email-setup/",
     "language": "en",
     "category": "business-software",
     "topic": "team-collaboration"
@@ -118,6 +166,30 @@
     "language": "en",
     "category": "business-software",
     "topic": "team-collaboration"
+  },
+  {
+    "title": "HubSpot Free CRM Review for Small Businesses",
+    "description": "Review HubSpot Free CRM for contacts, companies, deals, tasks, email, meetings, forms, reporting, and upgrade decisions.",
+    "url": "/en/business-software/hubspot-free-crm-review-small-business/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "HubSpot Free vs Starter: When Is It Time to Upgrade?",
+    "description": "Compare HubSpot Free and Starter by branding, permissions, currencies, required fields, support, and cost.",
+    "url": "/en/business-software/hubspot-free-vs-starter/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "HubSpot vs Salesforce for Small Businesses",
+    "description": "Compare HubSpot and Salesforce by implementation effort, free entry, sales management, marketing, customization, and operating model.",
+    "url": "/en/business-software/hubspot-vs-salesforce-small-business/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
   },
   {
     "title": "Is ClickUp Right for Small Businesses Consolidating Work Tools? Cost, Features, and Fit",
@@ -136,9 +208,33 @@
     "topic": "project-management"
   },
   {
+    "title": "monday CRM vs HubSpot CRM: Pipeline Flexibility or Customer Platform?",
+    "description": "Compare monday CRM and HubSpot CRM across free access, pipelines, email, marketing, permissions, and expansion paths.",
+    "url": "/en/business-software/monday-crm-vs-hubspot-crm/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
     "title": "monday.com Alternatives: Compare Pricing, Workflows, and Migration",
     "description": "Compare monday.com with ClickUp, Asana, Wrike using official information on fit, pricing, strengths, constraints, and migration checks.",
     "url": "/en/business-software/monday-alternatives/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "monday.com Implementation Checklist: 15 Decisions Before Rollout",
+    "description": "A rollout checklist for administrators, board architecture, naming, permissions, automation, notifications, retention, and offboarding.",
+    "url": "/en/business-software/monday-implementation-checklist/",
+    "language": "en",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "monday.com Plan Comparison: Free, Basic, Standard, and Pro",
+    "description": "Compare monday.com Work Management plans by billing term, seat rules, views, automations, integrations, and small-business fit.",
+    "url": "/en/business-software/monday-work-management-plans-comparison/",
     "language": "en",
     "category": "business-software",
     "topic": "project-management"
@@ -230,6 +326,70 @@
     "language": "en",
     "category": "business-software",
     "topic": "team-collaboration"
+  },
+  {
+    "title": "AirPAY Review: Fees, Settlement, Payment Methods, and Caveats",
+    "description": "Review AirPAY's standard fees, 2.48% discount program, supported methods, settlement frequency, AirREGI integration, and caveats.",
+    "url": "/en/cashless-payments/airpay-review/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
+  },
+  {
+    "title": "AirPAY vs Square: Fees, Hardware, Settlement, and POS Fit",
+    "description": "Compare AirPAY and Square across in-person fees, fixed costs, hardware, settlement, POS integration, and online payment expansion.",
+    "url": "/en/cashless-payments/airpay-vs-square/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
+  },
+  {
+    "title": "AirREGI Review: Free POS Features, Costs, and Limitations",
+    "description": "Review AirREGI's free POS scope, required hardware, inventory, customer and sales functions, AirPAY integration, and implementation caveats.",
+    "url": "/en/cashless-payments/air-regi-review/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "AirREGI vs Square POS: Which Free POS Fits Your Store?",
+    "description": "Compare AirREGI and Square POS across free features, hardware, payments, inventory, customer management, and expansion options.",
+    "url": "/en/cashless-payments/air-regi-vs-square-pos/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "PayCAS Mobile Review: Features, Pricing, and Operational Caveats",
+    "description": "Review PayCAS Mobile's built-in printer and SIM, payment coverage, quoted pricing, twice-monthly settlement, and POS integration checks.",
+    "url": "/en/cashless-payments/paycas-mobile-review/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
+  },
+  {
+    "title": "POS vs Payment Service: What Does a Store Actually Need?",
+    "description": "Understand the different roles, costs, integration points, duplicate-entry risks, and implementation order for POS and payment services.",
+    "url": "/en/cashless-payments/pos-register-vs-cashless-payment/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "Square POS Review: Pricing, Hardware, Features, and Limits",
+    "description": "Review Square POS pricing, hardware, payment fees, inventory and customer tools, online integration, and implementation limits.",
+    "url": "/en/cashless-payments/square-pos-review/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "Square vs PayCAS Mobile: Transparent Pricing or All-in-One Mobility",
+    "description": "Compare Square and PayCAS Mobile across hardware, pricing visibility, settlement, mobility, receipt printing, and POS operations.",
+    "url": "/en/cashless-payments/square-vs-paycas-mobile/",
+    "language": "en",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
   },
   {
     "title": ".com vs .jp Domains: Registration, Brand, SEO, and International Use",
@@ -400,6 +560,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "Hostinger Pricing and Renewal Cost: Calculate the Full Commitment",
+    "description": "Review Hostinger introductory discounts, multi-year prepayment, renewal prices, sites, storage, backups, domain, and email.",
+    "url": "/en/hosting-security/hostinger-pricing-renewal-cost-japan/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Hostinger Pricing Guide: Plans, Limits, and Total Cost",
     "description": "Understand Hostinger pricing, plan limits, renewal cost, add-ons, and the checks needed to identify the lowest tier that supports a real workflow.",
     "url": "/en/hosting-security/hostinger-pricing-guide/",
@@ -443,6 +611,14 @@
     "title": "Hostinger vs WP Engine: Lower-Cost General Hosting or Managed WordPress Operations?",
     "description": "Compare Hostinger and WP Engine using official sources for pricing, free access, features, limits, integrations, and data handling",
     "url": "/en/hosting-security/hostinger-vs-wp-engine/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Hostinger vs XServer for a Small Business Website",
+    "description": "Compare Hostinger and XServer by introductory and renewal pricing, control panel, Japanese support, WordPress, backups, and international delivery.",
+    "url": "/en/hosting-security/hostinger-vs-xserver-small-business/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -656,6 +832,22 @@
     "topic": "vpn-security"
   },
   {
+    "title": "Preparing a Company Website and Domain Email on XServer",
+    "description": "Plan a company website, domain email, SSL, WordPress, account ownership, backups, and support on XServer.",
+    "url": "/en/hosting-security/xserver-company-website-email-guide/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Running Multiple Sites on XServer: Domains, Email, FTP, and Governance",
+    "description": "Plan multiple domains, WordPress sites, email accounts, FTP access, backups, ownership, and operating controls on XServer.",
+    "url": "/en/hosting-security/xserver-multiple-domain-site-guide/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Shin Rental Server Pricing: Standard and Business Plans Compared",
     "description": "Compare Shin Rental Server standard and business plans by monthly equivalent, prepayment, renewal cost, storage, CPU, memory, and operational fit.",
     "url": "/en/hosting-security/shin-rental-server-pricing/",
@@ -720,6 +912,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "Starting WordPress on XServer: Quick Start, Installation, and Migration",
+    "description": "A practical XServer WordPress guide covering Quick Start, installation, migration, SSL, DNS, backups, and pre-launch checks.",
+    "url": "/en/hosting-security/xserver-wordpress-quick-start-guide/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Surfshark Alternatives: Compare Pricing, Workflows, and Migration",
     "description": "Compare Surfshark with NordVPN, Proton VPN using official information on fit, pricing, strengths, constraints, and migration checks.",
     "url": "/en/hosting-security/surfshark-alternatives/",
@@ -742,6 +942,14 @@
     "language": "en",
     "category": "hosting-security",
     "topic": "vpn-security"
+  },
+  {
+    "title": "Using Hostinger for an International Website: Decision Guide",
+    "description": "Evaluate Hostinger for an international site by data center, CDN, language, domain, email, backups, and support.",
+    "url": "/en/hosting-security/hostinger-overseas-website-guide/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
   },
   {
     "title": "Using Shin Rental Server for WordPress: Setup and Migration Guide",
@@ -784,6 +992,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "XServer Business Review: Shared, Virtual, and Physical Managed Servers",
+    "description": "Review XServer Business shared hosting and managed virtual and physical dedicated servers by pricing, SLA, controls, and support.",
+    "url": "/en/hosting-security/xserver-business-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "XServer for WordPress Review for Japanese Businesses",
     "description": "Review XServer for WordPress using official information on plans, staging, subaccounts, SLA, domains, support, trials, and the lack of mailbox hosting.",
     "url": "/en/hosting-security/xserver-for-wordpress-review/",
@@ -808,9 +1024,49 @@
     "topic": "web-hosting"
   },
   {
-    "title": "XServer vs Lolipop: Japanese WordPress Hosting for Beginners",
-    "description": "Compare XServer and Lolipop across pricing, WordPress, performance, backups, support, and domain benefits.",
+    "title": "XServer Pricing: Standard, Premium, and Business Plans Compared",
+    "description": "Compare XServer Standard, Premium, and Business by normal pricing, storage, domain benefits, Xwrite, business controls, and prepaid terms.",
+    "url": "/en/hosting-security/xserver-rental-server-pricing/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer Pros and Cons: What to Check Before Contracting",
+    "description": "Assess XServer advantages and limits across WordPress, pricing, backups, multiple sites, email, support, and contract conditions.",
+    "url": "/en/hosting-security/xserver-rental-server-pros-cons/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer Review: Pricing, Features, and Contract Limits (2026)",
+    "description": "An official-source XServer review covering pricing, storage, WordPress, domains, backups, email, support, and contract constraints.",
+    "url": "/en/hosting-security/xserver-rental-server-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer vs ConoHa WING: Pricing, Contracts, and WordPress Workflows",
+    "description": "Compare XServer and ConoHa WING by normal pricing, long and short terms, storage, WordPress, domains, backups, and support.",
+    "url": "/en/hosting-security/xserver-vs-conoha-wing/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer vs Lolipop: A Beginner-Focused Hosting Comparison (2026)",
+    "description": "Compare XServer and Lolipop by pricing, storage, WordPress, backups, telephone support, and multi-site operations.",
     "url": "/en/hosting-security/xserver-vs-lolipop/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "XServer vs XServer Business: Which Service Fits a Company?",
+    "description": "Compare XServer and XServer Business by pricing, setup fees, permissions, assisted setup, security, isolation, and support.",
+    "url": "/en/hosting-security/xserver-vs-xserver-business/",
     "language": "en",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -1088,6 +1344,142 @@
     "topic": "seo-tools"
   },
   {
+    "title": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
+    "description": "Understand Japan’s 2026 Digitalization and AI Implementation Subsidy when evaluating a restaurant POS purchase.",
+    "url": "/en/store-dx/pos-subsidy-2026-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "digital-subsidies"
+  },
+  {
+    "title": "EMEAO! POS Vendor Matching Review: Process, Benefits, and Caveats",
+    "description": "Review EMEAO!, a Japan-focused POS vendor matching service, including its concierge workflow, free referral model, vendor proposals, comparison benefits, and caveats.",
+    "url": "/en/store-dx/emeao-pos-review/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "funfo Review: Free Restaurant POS, Mobile Ordering, Pricing, and Caveats",
+    "description": "Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats.",
+    "url": "/en/store-dx/funfo-review/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "funfo vs Kantan Chumon vs EMEAO!: Three Ways to Source a Restaurant POS",
+    "description": "Compare self-service testing with funfo, provider consultation with Kantan Chumon, and multi-vendor matching through EMEAO! for restaurant POS sourcing in Japan.",
+    "url": "/en/store-dx/restaurant-pos-three-way-comparison/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "funfo vs Kantan Chumon: Free POS Testing vs Published Modular Pricing",
+    "description": "Compare funfo and Kantan Chumon by published pricing, free testing, POS and mobile ordering, multilingual service, customer marketing, subsidies",
+    "url": "/en/store-dx/funfo-vs-kantan-chumon/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
+    "description": "A practical restaurant POS checklist covering ordering, checkout, kitchen workflows, analytics, support, and total cost.",
+    "url": "/en/store-dx/restaurant-pos-selection-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "How to Use monday.com for Multi-Location Store Operations",
+    "description": "Design monday.com boards for store openings, equipment checks, campaigns, operational tasks, and incident reporting across locations.",
+    "url": "/en/store-dx/monday-multiple-store-operations/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "Inbound Restaurant Ordering: Multilingual Mobile Order Checklist",
+    "description": "Plan multilingual restaurant ordering across English and Chinese screens, allergens, payments, and staff exception handling.",
+    "url": "/en/store-dx/restaurant-inbound-order-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "Kantan Chumon Review: Mobile Ordering, Restaurant POS Features, and Caveats",
+    "description": "Review Kantan Chumon using official information on published pricing, POS and mobile ordering, multilingual operation, payment integration, subsidies",
+    "url": "/en/store-dx/kantan-chumon-review/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "Restaurant Mobile Ordering Guide: Workflow Design for Staffing Efficiency",
+    "description": "Plan in-store mobile ordering across menu design, staff operations, failure handling, training, and measurable outcomes.",
+    "url": "/en/store-dx/mobile-order-system-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "Restaurant POS Sales Analysis: Seven Metrics to Review Every Week",
+    "description": "Use restaurant POS data to improve hourly sales, item mix, average order value, additional orders, and table turnover.",
+    "url": "/en/store-dx/restaurant-sales-analysis-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "Restaurant POS vs Mobile Ordering: Which Should Be Implemented First?",
+    "description": "Compare the roles, integration, cost, and best use cases of restaurant POS and mobile ordering systems.",
+    "url": "/en/store-dx/restaurant-pos-vs-mobile-order/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "Retail Store DX Guide: Unify POS, Inventory, Payments, and Accounting",
+    "description": "A practical guide to product master data, inventory movement, barcodes, returns, cashless payments, multi-location reporting, and accounting integration.",
+    "url": "/en/store-dx/retail-store-dx-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "store-backoffice-integration"
+  },
+  {
+    "title": "Salon Store DX Guide: Connect Booking, Customer Records, LINE, Payments, and Accounting",
+    "description": "A phased plan for salons to reduce telephone work, booking errors, duplicate customer records, payment reconciliation, and manual accounting entry.",
+    "url": "/en/store-dx/salon-store-dx-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "store-reservations-crm"
+  },
+  {
+    "title": "Small Restaurant DX Guide: Five Systems to Prioritize with a Lean Team",
+    "description": "Prioritize POS, mobile ordering, reservations, payments, and accounting for a small restaurant based on operating impact.",
+    "url": "/en/store-dx/small-restaurant-dx-guide/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "Store DX Implementation Roadmap: Sequence POS, Payments, Booking, LINE, and Accounting",
+    "description": "A practical roadmap for introducing store technology in stages: current-state mapping, POS and payments, booking, customer communication, accounting, and staff adoption.",
+    "url": "/en/store-dx/store-dx-implementation-roadmap/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "store-backoffice-integration"
+  },
+  {
+    "title": "Store DX Stack Comparison: Combining POS, Payments, Booking, LINE, and Accounting",
+    "description": "Compare practical Store DX stacks for restaurants, salons, retail, and service businesses, focusing on integration, data ownership, support, and total cost.",
+    "url": "/en/store-dx/store-dx-stack-comparison/",
+    "language": "en",
+    "category": "store-dx",
+    "topic": "store-backoffice-integration"
+  },
+  {
     "title": "5 Website Builders for Small Businesses Compared: Free Options, Domains and Ecommerce",
     "description": "An official-source comparison of Wix, Squarespace, WordPress.com, Webflow and Shopify covering free access, custom domains, publishing, ecommerce and SSL.",
     "url": "/en/website-builders/small-business-website-builders/",
@@ -1352,6 +1744,14 @@
     "topic": "ecommerce-platforms"
   },
   {
+    "title": "Shopify Launch Checklist for a Small Store",
+    "description": "A pre-launch checklist for catalog, payments, shipping, tax, returns, domain, legal pages, analytics, and test orders.",
+    "url": "/en/website-builders/shopify-launch-checklist-small-store/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "Shopify Pricing Guide: Plans, Limits, and Total Cost",
     "description": "Understand Shopify pricing, plan limits, renewal cost, add-ons, and the checks needed to identify the lowest tier that supports a real workflow.",
     "url": "/en/website-builders/shopify-pricing-guide/",
@@ -1368,9 +1768,33 @@
     "topic": "website-builders"
   },
   {
+    "title": "Shopify Total Cost: Plans, Payments, Apps, and Themes",
+    "description": "Estimate Shopify total cost across plan fees, annual billing, card rates, third-party transaction fees, apps, themes, and POS.",
+    "url": "/en/website-builders/shopify-pricing-total-cost-japan/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Shopify vs BASE for a Small Online Store",
+    "description": "Compare Shopify and BASE by startup cost, subscription, sales fees, payments, design, extensibility, and international selling.",
+    "url": "/en/website-builders/shopify-vs-base-small-business/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "Shopify vs Hostinger Website Builder: Scaling Ecommerce or a Lower-Cost Starter Store?",
     "description": "Compare Shopify and Hostinger Website Builder using official sources for pricing, free access, features, limits, integrations, and data handling",
     "url": "/en/website-builders/shopify-vs-hostinger-website-builder/",
+    "language": "en",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Shopify vs STORES: Ecommerce Scale or Japanese Store Operations?",
+    "description": "Compare Shopify and STORES across ecommerce, payments, POS, reservations, Japanese operations, and extensibility.",
+    "url": "/en/website-builders/shopify-vs-stores-small-business/",
     "language": "en",
     "category": "website-builders",
     "topic": "ecommerce-platforms"
@@ -1576,9 +2000,33 @@
     "topic": "team-collaboration"
   },
   {
+    "title": "Google Workspaceで独自ドメインメールを設定する手順",
+    "description": "Google Workspace申込み、ドメイン所有権確認、MX、SPF、DKIM、DMARC、ユーザー作成、移行、テストの順序を解説します。",
+    "url": "/ja/business-software/google-workspace-domain-email-setup/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
+    "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+    "description": "Google WorkspaceとMicrosoft 365を、メール、共同編集、デスクトップアプリ、会議、ストレージ、管理から比較します。",
+    "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
     "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
     "description": "Google WorkspaceのGmail、Drive、Meet、カレンダー、Chat、管理機能、導入手順を解説します。",
     "url": "/ja/business-software/google-workspace-guide/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
+    "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+    "description": "Google WorkspaceのStarter、Standard、Plusを、ストレージ、Meet、管理、セキュリティ、年間契約から比較します。",
+    "url": "/ja/business-software/google-workspace-pricing-small-business/",
     "language": "ja",
     "category": "business-software",
     "topic": "team-collaboration"
@@ -1590,6 +2038,38 @@
     "language": "ja",
     "category": "business-software",
     "topic": "team-collaboration"
+  },
+  {
+    "title": "HubSpotとSalesforceを比較｜小規模企業のCRM選び",
+    "description": "HubSpotとSalesforceを、導入難易度、無料利用、営業管理、マーケティング、カスタマイズ、運用体制から比較します。",
+    "url": "/ja/business-software/hubspot-vs-salesforce-small-business/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "HubSpot無料CRMの評判・機能｜小規模企業で使える範囲",
+    "description": "HubSpot無料CRMの顧客、会社、取引、タスク、メール、会議、フォーム、レポートと有料化判断を解説します。",
+    "url": "/ja/business-software/hubspot-free-crm-review-small-business/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "HubSpot無料版とStarterを比較｜有料化するタイミング",
+    "description": "HubSpot無料CRMとStarter Customer Platformを、ブランド表示、権限、複数通貨、必須項目、サポート、費用から比較します。",
+    "url": "/ja/business-software/hubspot-free-vs-starter/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "monday CRMとHubSpot CRMを比較｜案件管理か顧客基盤か",
+    "description": "monday CRMとHubSpot CRMを、無料利用、案件パイプライン、メール、マーケティング、権限、拡張性から比較します。",
+    "url": "/ja/business-software/monday-crm-vs-hubspot-crm/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
   },
   {
     "title": "monday.comの代替サービス3選｜用途・料金・移行条件を比較",
@@ -1608,6 +2088,14 @@
     "topic": "project-management"
   },
   {
+    "title": "monday.comの料金プラン比較｜Free・Basic・Standard・Proの選び方",
+    "description": "monday.com Work Managementの料金体系、年間契約、席数、ビュー、自動化、連携上限を整理し、小規模事業者向けの選び方を解説します。",
+    "url": "/ja/business-software/monday-work-management-plans-comparison/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
     "title": "monday.comは部門横断で働く小規模チームに向く？料金・機能・導入条件を確認",
     "description": "monday.comが部門横断で働く小規模チームの「案件・担当・期限を可視化し、定型作業を自動化すること」に向くかを公式情報で検証。料金、機能、制約、代替候補、導入前チェックを整理します。",
     "url": "/ja/business-software/monday-for-small-business/",
@@ -1619,6 +2107,14 @@
     "title": "monday.comレビュー｜Free・Basic・Standard・Pro、料金、権限を公式情報で確認",
     "description": "monday work managementの無料・Basic・Standard・Pro・Enterprise、料金、最小購入席数、ビュー、自動化、ゲスト、権限、SSO・SCIMを公式情報で整理します。",
     "url": "/ja/business-software/monday-review/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
+    "title": "monday.com導入チェックリスト｜初期設定で決める15項目",
+    "description": "monday.com導入前に決める管理者、ボード構成、命名、権限、自動化、通知、保存、退職者対応をチェックリスト化します。",
+    "url": "/ja/business-software/monday-implementation-checklist/",
     "language": "ja",
     "category": "business-software",
     "topic": "project-management"
@@ -1656,6 +2152,14 @@
     "topic": "project-management"
   },
   {
+    "title": "Web制作案件をmonday.comで管理する方法｜要件・素材・公開を一元化",
+    "description": "Web制作の要件整理、素材回収、デザイン確認、実装、公開、保守引継ぎをmonday.comで管理する方法を整理します。",
+    "url": "/ja/business-software/monday-web-production-project-management/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
     "title": "タスク管理ツールおすすめ比較｜Asana・Trello・Notion・Backlog・Todoist",
     "description": "タスク管理ツールを無料プラン、カンバン、ガント、文書管理、自動化、チーム規模で比較します。",
     "url": "/ja/business-software/task-management-tools-comparison/",
@@ -1672,6 +2176,14 @@
     "topic": "team-collaboration"
   },
   {
+    "title": "中小企業向けCRM比較｜HubSpot・monday CRM・Salesforceの選び方",
+    "description": "中小企業向けCRMを、無料入口、案件管理、マーケティング、カスタマイズ、導入体制、費用から比較します。",
+    "url": "/ja/business-software/crm-comparison-small-business-japan/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "project-management"
+  },
+  {
     "title": "中小企業向けタスク・プロジェクト管理ツール5選｜無料プラン・料金・権限管理を公式情報で比較",
     "description": "Notion、Asana、ClickUp、monday.com、Trelloを、無料プラン、料金体系、タスク・プロジェクト機能、ゲスト、権限管理の公式情報で比較します。",
     "url": "/ja/business-software/project-management-tools-small-business/",
@@ -1680,12 +2192,84 @@
     "topic": "project-management"
   },
   {
+    "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
+    "description": "無料GmailとGoogle Workspaceを、独自ドメイン、管理者、退職者対応、共有、セキュリティ、費用から比較します。",
+    "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+    "language": "ja",
+    "category": "business-software",
+    "topic": "team-collaboration"
+  },
+  {
     "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
     "description": "独自ドメインメールの作成方法、レンタルサーバー、Google Workspace、MX、SPF、DKIM、DMARCを解説します。",
     "url": "/ja/business-software/custom-domain-email-guide/",
     "language": "ja",
     "category": "business-software",
     "topic": "team-collaboration"
+  },
+  {
+    "title": "AirペイとSquareを比較｜手数料・端末・入金で選ぶなら？",
+    "description": "AirペイとSquareを、対面決済手数料、固定費、端末、入金、POS連携、オンライン決済から比較します。",
+    "url": "/ja/cashless-payments/airpay-vs-square/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
+  },
+  {
+    "title": "Airペイの手数料・入金・対応決済を検証｜店舗導入の注意点",
+    "description": "Airペイの通常手数料、2.48%プログラム、対応ブランド、月3回・6回の入金、Airレジ連携を公式情報で確認します。",
+    "url": "/ja/cashless-payments/airpay-review/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
+  },
+  {
+    "title": "AirレジとSquare POSレジを比較｜無料POSはどちらを選ぶ？",
+    "description": "AirレジとSquare POSレジを、無料範囲、必要機器、決済、在庫、顧客管理、拡張性から比較します。",
+    "url": "/ja/cashless-payments/air-regi-vs-square-pos/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "Airレジの評判・料金・機能｜無料POSの注意点を公式情報で検証",
+    "description": "Airレジの無料範囲、必要機器、在庫・顧客・売上管理、Airペイ連携、導入時の注意点を整理します。",
+    "url": "/ja/cashless-payments/air-regi-review/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "PayCAS Mobileの料金・機能・注意点｜持ち運べる決済端末を検証",
+    "description": "PayCAS Mobileのプリンター・SIM内蔵端末、対応決済、個別見積もり、月2回入金、POS連携の確認事項を解説します。",
+    "url": "/ja/cashless-payments/paycas-mobile-review/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
+  },
+  {
+    "title": "POSレジとキャッシュレス決済の違い｜店舗に必要なのはどちら？",
+    "description": "POSレジと決済サービスの役割、費用、連携、二度打ち、売上管理を整理し、導入順序を判断できるように解説します。",
+    "url": "/ja/cashless-payments/pos-register-vs-cashless-payment/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "Square POSレジの料金・機能・端末を検証｜無料範囲と注意点",
+    "description": "Square POSレジの無料範囲、端末価格、対面決済手数料、在庫・顧客管理、オンライン連携を公式情報で整理します。",
+    "url": "/ja/cashless-payments/square-pos-review/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "pos-payment-integration"
+  },
+  {
+    "title": "SquareとPayCAS Mobileを比較｜小型端末かSIM・プリンター内蔵か",
+    "description": "SquareとPayCAS Mobileを、端末構成、固定費、料金公開、入金、持ち運び、POS運用から比較します。",
+    "url": "/ja/cashless-payments/square-vs-paycas-mobile/",
+    "language": "ja",
+    "category": "cashless-payments",
+    "topic": "cashless-payment-services"
   },
   {
     "title": "「.com」と「.jp」の違いを比較｜独自ドメインはどっち？",
@@ -1816,6 +2400,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "Hostingerとエックスサーバーを比較｜小規模事業のサーバー選び",
+    "description": "Hostingerとエックスサーバーを、初回・更新料金、管理画面、国内サポート、WordPress、バックアップ、海外配信から比較します。",
+    "url": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Hostingerとロリポップ！を比較｜初心者にはどっちがおすすめ？",
     "description": "Hostingerとロリポップ！を料金、WordPress、表示速度、サポート、バックアップ、AI機能で比較します。",
     "url": "/ja/hosting-security/hostinger-vs-lolipop/",
@@ -1835,6 +2427,14 @@
     "title": "Hostingerの料金・プラン選び方｜契約前に確認したい費用と上限",
     "description": "Hostingerの料金体系、プラン上限、更新費用、追加料金を公式情報で整理。必要機能を満たす最小プランと契約前に試す項目を解説します。",
     "url": "/ja/hosting-security/hostinger-pricing-guide/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "Hostingerの料金と更新費用｜長期契約の総額を確認",
+    "description": "Hostingerの初回割引、48か月前払い、更新価格、サイト数、容量、バックアップ、ドメイン、メールを整理します。",
+    "url": "/ja/hosting-security/hostinger-pricing-renewal-cost-japan/",
     "language": "ja",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -2144,6 +2744,14 @@
     "topic": "web-hosting"
   },
   {
+    "title": "XServerビジネスレビュー｜共有・仮想・物理専用サーバーの選び方",
+    "description": "XServerビジネスを公式情報で検証。共有サーバー、仮想・物理マネージド専用サーバー、料金、SLA、管理機能、サポートを解説します。",
+    "url": "/ja/hosting-security/xserver-business-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "Zoho Vaultレビュー｜Free・Standard・Professional・Enterpriseの共有・管理機能を確認",
     "description": "Zoho VaultのFree、Standard、Professional、Enterpriseを、共有、管理者権限、緊急アクセス、SSO、SIEM、試用条件で公式情報から整理します。",
     "url": "/ja/hosting-security/zoho-vault-review/",
@@ -2152,9 +2760,65 @@
     "topic": "password-managers"
   },
   {
-    "title": "エックスサーバーとロリポップ！を比較｜WordPress初心者にはどっち？",
-    "description": "エックスサーバーとロリポップ！を料金、WordPress、速度、バックアップ、サポート、ドメイン特典で比較します。",
+    "title": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
+    "description": "エックスサーバーでWordPressを始める手順を解説。クイックスタート、簡単インストール、簡単移行、SSL、DNS、公開前確認を整理します。",
+    "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバーで複数サイトを運営する方法｜ドメイン・メール管理",
+    "description": "エックスサーバーで複数ドメイン、サブドメイン、WordPress、メール、FTPを管理する方法と、権限・バックアップ・費用の注意点を解説します。",
+    "url": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバーとConoHa WINGを比較｜料金・契約・WordPressの違い",
+    "description": "エックスサーバーとConoHa WINGを、通常料金、長期契約、短期利用、容量、WordPress、ドメイン、バックアップ、サポートから比較します。",
+    "url": "/ja/hosting-security/xserver-vs-conoha-wing/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバーとXServerビジネスの違い｜法人はどちらを選ぶべきか",
+    "description": "一般向けエックスサーバーとXServerビジネスを、料金、初期費用、管理権限、設定代行、セキュリティ、専用環境、サポートから比較します。",
+    "url": "/ja/hosting-security/xserver-vs-xserver-business/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバーとロリポップ！を比較｜初心者向けの選び方【2026年】",
+    "description": "エックスサーバーとロリポップ！を、料金、容量、WordPress、バックアップ、電話サポート、複数サイト運用から比較します。",
     "url": "/ja/hosting-security/xserver-vs-lolipop/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバーのメリット・デメリット｜契約前の確認事項",
+    "description": "エックスサーバーの長所と注意点を、WordPress、料金、バックアップ、複数サイト、メール、サポート、契約条件から整理します。",
+    "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバーレビュー｜料金・機能・注意点【2026年】",
+    "description": "エックスサーバーを公式情報で検証。料金、容量、WordPress、独自ドメイン、バックアップ、メール、サポート、契約時の注意点を解説します。",
+    "url": "/ja/hosting-security/xserver-rental-server-review/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "エックスサーバー料金・プラン比較｜スタンダード・プレミアム・ビジネス",
+    "description": "エックスサーバー3プランの通常料金、容量、ドメイン特典、Xwrite、法人機能、契約期間と支払総額を比較します。",
+    "url": "/ja/hosting-security/xserver-rental-server-pricing/",
     "language": "ja",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -2240,6 +2904,14 @@
     "topic": "password-managers"
   },
   {
+    "title": "会社ホームページと独自ドメインメールをエックスサーバーで準備する方法",
+    "description": "会社ホームページ、独自ドメイン、メール、SSL、WordPress、担当者権限、バックアップをエックスサーバーで準備する手順を整理します。",
+    "url": "/ja/hosting-security/xserver-company-website-email-guide/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
     "title": "国内レンタルサーバーおすすめ比較｜用途別に選ぶ基準【2026年】",
     "description": "ブログ、法人サイト、複数サイト、短期検証、LiteSpeed利用など用途別に、国内レンタルサーバーの比較基準とおすすめ候補を整理します。",
     "url": "/ja/hosting-security/best-japanese-web-hosting/",
@@ -2267,6 +2939,14 @@
     "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
     "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
     "url": "/ja/hosting-security/business-web-hosting-comparison/",
+    "language": "ja",
+    "category": "hosting-security",
+    "topic": "web-hosting"
+  },
+  {
+    "title": "海外向けWebサイトにHostingerを使う判断ポイント",
+    "description": "海外向けサイトでHostingerを選ぶ際のデータセンター、CDN、言語、ドメイン、メール、バックアップ、サポートを解説します。",
+    "url": "/ja/hosting-security/hostinger-overseas-website-guide/",
     "language": "ja",
     "category": "hosting-security",
     "topic": "web-hosting"
@@ -2544,6 +3224,142 @@
     "topic": "email-marketing"
   },
   {
+    "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+    "description": "POSレジ・システム業者紹介サービスEMEAO!を、仕組み、無料の範囲、最大紹介社数、ヒアリング、メリット、注意点から公式情報で検証します。",
+    "url": "/ja/store-dx/emeao-pos-review/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+    "description": "飲食店向けPOSのfunfo、かんたん注文、業者紹介サービスEMEAO!を、無料試用、個別提案、複数社比較、料金、導入方法から比較します。",
+    "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+    "description": "飲食店向けPOS・モバイルオーダーのfunfoとかんたん注文を、料金公開、無料試用、導入方法、LINE、多言語、補助金、向く店舗から比較します。",
+    "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+    "description": "飲食店向けPOSレジ・モバイルオーダーアプリfunfoを、無料プラン、有料料金、LINE連携、多言語、導入設備、注意点から公式情報で検証します。",
+    "url": "/ja/store-dx/funfo-review/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+    "description": "POSレジとモバイルオーダーの役割、連携、費用、向いている店舗を比較し、導入順序を判断できるように解説します。",
+    "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "POSレジの売上分析入門｜飲食店が毎週見るべき7指標",
+    "description": "飲食店がPOSデータから時間帯、曜日、商品、客単価、追加注文、回転率を改善するための分析手順を解説します。",
+    "url": "/ja/store-dx/restaurant-sales-analysis-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "POSレジ導入で使える補助金2026｜申請前に確認すべき条件と手順",
+    "description": "デジタル化・AI導入補助金2026を使ってPOSレジを導入する際の対象確認、申請、交付決定、契約時期の注意点を整理します。",
+    "url": "/ja/store-dx/pos-subsidy-2026-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "digital-subsidies"
+  },
+  {
+    "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+    "description": "飲食店向け「かんたん注文」を、公開料金、POS・モバイルオーダー、多言語、決済連携、補助金、導入時の注意点から公式情報で検証します。",
+    "url": "/ja/store-dx/kantan-chumon-review/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "小売店の店舗DXガイド｜POS・在庫・決済・会計を一元化する",
+    "description": "小売店のPOS、商品マスタ、在庫、バーコード、決済、会計をつなぎ、棚卸し差異と重複入力を減らす導入手順です。",
+    "url": "/ja/store-dx/retail-store-dx-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "store-backoffice-integration"
+  },
+  {
+    "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+    "description": "小規模飲食店がPOS、モバイルオーダー、予約、決済、会計をどの順番で導入すべきか、費用対効果から整理します。",
+    "url": "/ja/store-dx/small-restaurant-dx-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "店舗DXツール構成比較｜POS・決済・予約・LINE・会計の組み合わせ方",
+    "description": "店舗DXのツール構成を、飲食店、美容サロン、小売店、サービス店舗別に比較し、連携・データ・総費用の確認方法を整理します。",
+    "url": "/ja/store-dx/store-dx-stack-comparison/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "store-backoffice-integration"
+  },
+  {
+    "title": "店舗DX導入ロードマップ｜POS・決済・予約・LINE・会計を順番に整える",
+    "description": "店舗DXを一度に導入せず、現状把握、POS・決済、予約、顧客接点、会計・勤怠連携の順に進める実務ロードマップです。",
+    "url": "/ja/store-dx/store-dx-implementation-roadmap/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "store-backoffice-integration"
+  },
+  {
+    "title": "美容サロンの店舗DXガイド｜予約・顧客カルテ・LINE・会計をつなぐ",
+    "description": "美容サロンの予約、顧客カルテ、事前決済、LINE、POS、会計をつなぎ、電話対応・予約ミス・再入力を減らす導入手順です。",
+    "url": "/ja/store-dx/salon-store-dx-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "store-reservations-crm"
+  },
+  {
+    "title": "複数店舗の業務管理にmonday.comを使う方法｜本部と店舗を可視化",
+    "description": "複数店舗の開店準備、設備点検、販促、シフト外タスク、障害報告をmonday.comで管理する設計例を解説します。",
+    "url": "/ja/store-dx/monday-multiple-store-operations/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "飲食店のインバウンド対応｜多言語モバイルオーダー導入チェックリスト",
+    "description": "英語・中国語の注文画面、アレルギー、決済、スタッフ対応を含む、飲食店の多言語モバイルオーダー導入手順です。",
+    "url": "/ja/store-dx/restaurant-inbound-order-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-dx-operations"
+  },
+  {
+    "title": "飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点",
+    "description": "店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。",
+    "url": "/ja/store-dx/mobile-order-system-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
+    "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+    "description": "飲食店向けPOSレジを、注文方式、会計、キッチン連携、売上分析、サポート、総費用から選ぶ実務チェックリストです。",
+    "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+    "language": "ja",
+    "category": "store-dx",
+    "topic": "restaurant-pos-orders"
+  },
+  {
     "title": "Hostinger Website Builderレビュー｜料金・機能・向いている用途を公式情報で確認",
     "description": "Hostinger Website Builderの料金体系、主な機能、強み、制約、向いている用途を公式情報で整理。導入前に確認したい利用上限、データ管理、書き出し条件も解説します。",
     "url": "/ja/website-builders/hostinger-website-builder-review/",
@@ -2624,9 +3440,25 @@
     "topic": "website-builders"
   },
   {
+    "title": "ShopifyとBASEを比較｜小規模ネットショップはどちら？",
+    "description": "ShopifyとBASEを、初期費用、月額、販売手数料、決済、デザイン、拡張、海外販売から比較します。",
+    "url": "/ja/website-builders/shopify-vs-base-small-business/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
     "title": "ShopifyとHostinger Website Builderを比較｜成長するEC運用か、低コストの簡易ストアか",
     "description": "ShopifyとHostinger Website Builderの料金、無料利用、機能、利用上限、連携、データ管理を公式情報で比較します。判断軸は販売機能・アプリ・チャネルの拡張とホスティング一体型の小規模販売です。",
     "url": "/ja/website-builders/shopify-vs-hostinger-website-builder/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "ShopifyとSTORESを比較｜ECと店舗連携で選ぶ",
+    "description": "ShopifyとSTORESを、ネットショップ、決済、POS、予約、国内運用、拡張性から比較します。",
+    "url": "/ja/website-builders/shopify-vs-stores-small-business/",
     "language": "ja",
     "category": "website-builders",
     "topic": "ecommerce-platforms"
@@ -2643,6 +3475,14 @@
     "title": "Shopifyの料金・プラン選び方｜契約前に確認したい費用と上限",
     "description": "Shopifyの料金体系、プラン上限、更新費用、追加料金を公式情報で整理。必要機能を満たす最小プランと契約前に試す項目を解説します。",
     "url": "/ja/website-builders/shopify-pricing-guide/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "Shopifyの料金総額｜月額・決済・アプリ・テーマを計算",
+    "description": "Shopifyの月額、年払い、カード料率、外部決済手数料、アプリ、テーマ、POSを含む運用総額の考え方を解説します。",
+    "url": "/ja/website-builders/shopify-pricing-total-cost-japan/",
     "language": "ja",
     "category": "website-builders",
     "topic": "ecommerce-platforms"
@@ -2875,6 +3715,14 @@
     "title": "国産ネットショップ作成サービスSEO比較｜確認すべき10項目",
     "description": "国産ECサービスをSEO観点で比較するための実務チェックリスト。カテゴリ、商品、サイトマップ、構造化データ、速度、運用権限を確認します。",
     "url": "/ja/website-builders/japanese-ecommerce-platform-seo-comparison/",
+    "language": "ja",
+    "category": "website-builders",
+    "topic": "ecommerce-platforms"
+  },
+  {
+    "title": "小規模店舗のShopify開設チェックリスト｜公開前に確認する項目",
+    "description": "Shopify公開前に必要な商品、決済、配送、税、返品、ドメイン、法定表示、計測、テスト注文を整理します。",
+    "url": "/ja/website-builders/shopify-launch-checklist-small-store/",
     "language": "ja",
     "category": "website-builders",
     "topic": "ecommerce-platforms"
