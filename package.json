@@ -1,6 +1,6 @@
 {
   "name": "luqevora-static-platform",
-  "version": "1.17.0",
+  "version": "3.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,8 +13,11 @@
     "release:manifest": "node scripts/generate-release-manifest.mjs",
     "release:diff": "node scripts/prepare-release.mjs --baseline-url https://luqevora.com/release-manifest.json",
     "validate": "node scripts/validate.mjs",
-    "check": "npm run audit:content && npm run generate:seo-images && npm run build && npm run release:manifest && npm run validate",
-    "submit:indexnow": "node scripts/submit-indexnow.mjs"
+    "check": "npm run catalog && npm run operations && npm run revenue && npm run audit:content && npm run generate:seo-images && npm run build && npm run release:manifest && npm run validate",
+    "submit:indexnow": "node scripts/submit-indexnow.mjs",
+    "catalog": "node scripts/generate-product-catalog.mjs",
+    "operations": "node scripts/generate-operations-dashboard.mjs",
+    "revenue": "node scripts/generate-revenue-dashboard.mjs"
   },
   "engines": {
     "node": ">=20"

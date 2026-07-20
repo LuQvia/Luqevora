@@ -1,0 +1,179 @@
+{
+  "id": "jimdo-salon-website-guide-en",
+  "translationKey": "jimdo-salon-website-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "jimdo-salon-website-guide",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Building a Salon Website with Jimdo: Structure and Checks",
+  "metaTitle": "Building a Salon Website with Jimdo: Structure and Checks",
+  "description": "Plan a salon website in Jimdo with pages, booking routes, pricing, photography, local SEO, disclosures, and operating checks.",
+  "lead": "A salon website must make services, prices, duration, booking, access, cancellation rules, and frequently asked questions easy to find. Jimdo can support a maintainable structure when the design is aligned with the staff responsible for updates.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Jimdo Japan official plans",
+      "officialUrl": "https://www.jimdo.com/jp/",
+      "affiliateKey": "jimdo-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Jimdo Japan official site",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    {
+      "label": "Jimdo Japan pricing",
+      "url": "https://www.jimdo.com/jp/pricing/"
+    },
+    {
+      "label": "2026 pricing revision",
+      "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+    },
+    {
+      "label": "Commercial transaction pricing disclosure",
+      "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+    },
+    {
+      "label": "AI Builder and Creator comparison",
+      "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+    },
+    {
+      "label": "Jimdo online store overview",
+      "url": "https://www.jimdo.com/jp/website/online-store/"
+    },
+    {
+      "label": "Jimdo Creator SEO help",
+      "url": "https://help.jimdo.com/hc/en-us/categories/115001247063-SEO"
+    },
+    {
+      "label": "Jimdo Creator domain options",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The seven essential pages",
+      "body": [
+        "Start with home, services and pricing, work examples, staff, location and access, booking or enquiry, and FAQs with cancellation rules. Clear pre-visit information is more important than a large page count.",
+        "Avoid unsupported treatment claims, guaranteed outcomes, misleading rankings, and improperly edited reviews. Confirm photo permission, privacy obligations, and ecommerce legal disclosures where relevant."
+      ]
+    },
+    {
+      "heading": "Selecting AI Builder or Creator",
+      "body": [
+        "AI Builder is a candidate when the site is primarily photographs and basic information without sustained blogging or commerce. Creator is stronger when the salon publishes cases, blogs, products, or custom code.",
+        "Because the two systems are not compatible, test Creator early if future editorial or online sales work is likely."
+      ]
+    },
+    {
+      "heading": "Booking route design",
+      "body": [
+        "Place the booking call to action consistently and define the roles of phone, messaging, an external booking marketplace, and forms. Keep availability and booking changes in a single operational system to avoid duplicates.",
+        "Do not assume Jimdo alone will manage complex scheduling. Test external booking links or embeds on mobile and confirm that the destination preserves the salon and service context."
+      ]
+    },
+    {
+      "heading": "Photography, pricing, and access",
+      "body": [
+        "Prepare exterior, entrance, treatment space, staff, and result images for specific purposes. Compress files, avoid excessive retouching, and add useful alternative text.",
+        "Present tax-inclusive prices, duration, optional charges, and eligibility together. Access information should include the address, map, station, parking, entrance, hours, and late-arrival rules."
+      ]
+    },
+    {
+      "heading": "Local SEO and maintenance",
+      "body": [
+        "Keep the business name, address, telephone, and hours consistent with the Google Business Profile. Add genuine local context, service pages, staff, cases, and FAQs rather than mass-producing city-name variants.",
+        "Review prices, staff, hours, policies, and booking links monthly. Update closures or relocations across the site, social profiles, and map listings together."
+      ]
+    },
+    {
+      "heading": "Checks before a paid contract",
+      "body": [
+        "Use the free tier to place real copy, images, navigation, and an enquiry route, then test mobile rendering and routine updates. Before upgrading, document whether the domain remains with an external registrar, the billing term, renewal date, payment owner, and cancellation process.",
+        "A proprietary builder layout rarely transfers intact to another platform. Keep the original copy, images, product information, URL inventory, and legal text outside the builder, then test enquiries and analytics after every major release."
+      ],
+      "bullets": [
+        "Test editing and mobile output on the free tier",
+        "Compare renewal and full-term cost, not only introductory pricing",
+        "Record domain ownership and DNS access",
+        "Keep copy and media outside the platform",
+        "Test forms and measurement after publishing"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Jimdo be used for free?",
+      "answer": "Jimdo provides free plans for testing and basic publishing. A custom domain and business-oriented functions require an appropriate paid plan."
+    },
+    {
+      "question": "Can a site move from AI Builder to Creator?",
+      "answer": "The products are separate and content cannot be directly copied or transferred between them. Select the system after reviewing future requirements."
+    },
+    {
+      "question": "Is Jimdo billed monthly?",
+      "answer": "Available terms include monthly, one-year, and two-year options depending on the product and plan. The selected term is billed according to the current checkout conditions."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Jimdo review",
+      "url": "/en/website-builders/jimdo-review/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo pricing",
+      "url": "/en/website-builders/jimdo-pricing/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "AI Builder vs Creator",
+      "url": "/en/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs Wix",
+      "url": "/en/website-builders/jimdo-vs-wix/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs Studio",
+      "url": "/en/website-builders/jimdo-vs-studio/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs WordPress",
+      "url": "/en/website-builders/jimdo-vs-wordpress/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo for small business",
+      "url": "/en/website-builders/jimdo-small-business-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo SEO guide",
+      "url": "/en/website-builders/jimdo-seo-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Ochanoko Saisai Review",
+      "url": "/en/website-builders/ochanoko-saisai-review/",
+      "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details"
+    },
+    {
+      "label": "Ochanoko Saisai Pricing",
+      "url": "/en/website-builders/ochanoko-saisai-pricing/",
+      "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial"
+    }
+  ]
+}

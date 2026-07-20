@@ -170,6 +170,26 @@
       "label": "Fixed-fee ecommerce comparison",
       "url": "/en/website-builders/fixed-fee-ecommerce-platform-comparison/",
       "description": "Compare total cost by revenue level"
+    },
+    {
+      "label": "Jimdo review",
+      "url": "/en/website-builders/jimdo-review/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo pricing",
+      "url": "/en/website-builders/jimdo-pricing/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "AI Builder vs Creator",
+      "url": "/en/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs Wix",
+      "url": "/en/website-builders/jimdo-vs-wix/",
+      "description": "Related official-source comparison and implementation guide"
     }
   ]
 }

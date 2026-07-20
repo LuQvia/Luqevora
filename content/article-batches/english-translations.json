@@ -42,7 +42,7 @@
         "description": "Learn how Asana handles tasks, projects, timelines, automation, portfolios, pricing, strengths, limitations, and implementation.",
         "lead": "Use Asana to standardize owners, due dates, dependencies, and status without creating unnecessary process.",
         "verdict": "Asana fits teams that need consistent responsibility, deadlines, dependencies, and cross-project visibility. It is less compelling when the primary requirement is a free-form wiki or a simple personal checklist.",
-        "context": "Begin with one workflow and a small field set before rolling out portfolios, rules, goals, and dashboards.",
+        "context": "Begin with one workflow and a small field set before rolling out portfolios, rules, goals, and dashboards. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Teams create projects and tasks, assign one owner, set dates and dependencies, and select list, board, calendar, timeline, or portfolio views for the audience.",
         "capabilities": [
           "Tasks with owners, dates, dependencies, and custom fields",
@@ -115,7 +115,7 @@
         "description": "Compare major business chat services across pricing, history, integrations, meetings, files, external collaboration, and administration.",
         "lead": "Choose from the organization's existing identity, office suite, external collaboration, and retention requirements—not chat appearance alone.",
         "verdict": "Slack fits integration-heavy channel work, Google Chat fits Google Workspace, Microsoft Teams fits Microsoft 365 and meetings, while Chatwork and LINE WORKS can suit Japan-focused operational and frontline communication patterns.",
-        "context": "Availability, language support, regional plans, and data-location requirements should be verified for each organization.",
+        "context": "Availability, language support, regional plans, and data-location requirements should be verified for each organization. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "A business chat decision covers message structure, history and search, file ownership, meetings, guests, identity, retention, export, and employee offboarding.",
         "capabilities": [
           "Channels, rooms, spaces, groups, direct messages, and threads",
@@ -306,7 +306,7 @@
         "description": "Learn the options for custom-domain email, DNS and MX records, Gmail workflows, SPF, DKIM, DMARC, migration, and ongoing administration.",
         "lead": "Choose who owns the domain, DNS, mailbox, and recovery process before changing mail records.",
         "verdict": "A business should use a managed mailbox provider or a well-supported hosting email service and configure SPF, DKIM, and DMARC. Forwarding alone is not a complete sending and authentication design.",
-        "context": "DNS changes can interrupt mail. Inventory every address, alias, group, application sender, and recovery account before migration.",
+        "context": "DNS changes can interrupt mail. Inventory every address, alias, group, application sender, and recovery account before migration. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Register or control the domain, choose a mailbox provider, verify the domain, change MX records, configure authentication, create users and aliases, migrate mail, and monitor delivery.",
         "capabilities": [
           "Mailboxes and aliases on the company domain",
@@ -341,6 +341,10 @@
       {
         "label": "Google Calendar Help",
         "url": "https://support.google.com/calendar/"
+      },
+      {
+        "label": "Official website",
+        "url": "https://support.google.com/"
       }
     ],
     "ctas": [],
@@ -363,7 +367,7 @@
         "description": "Learn Google Calendar event creation, sharing, recurring schedules, notifications, Google Meet links, and multiple-calendar administration.",
         "lead": "A useful calendar system separates personal focus, team availability, shared resources, and public schedules.",
         "verdict": "Google Calendar is a practical default for people using Google accounts and Workspace. Its value comes from consistent sharing permissions, naming, time-zone settings, and calendar ownership—not event creation alone.",
-        "context": "Avoid placing sensitive details in events shared more broadly than intended, and review access when a person changes role or leaves.",
+        "context": "Avoid placing sensitive details in events shared more broadly than intended, and review access when a person changes role or leaves. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Users create events, invite participants, add locations or Meet links, configure recurrence and reminders, and organize different responsibilities into separate calendars.",
         "capabilities": [
           "Events, guests, recurrence, notifications, and time zones",
@@ -432,7 +436,7 @@
         "description": "Learn Google Chat direct messages, Spaces, Drive and Meet integration, tasks, Google Workspace plans, and how it differs from Slack.",
         "lead": "Google Chat is most valuable when a team already works in Gmail, Drive, Meet, and Workspace identity.",
         "verdict": "Google Chat is a sensible collaboration layer for Google Workspace teams that need direct messages and Spaces without adding another vendor. Slack may fit better when the app ecosystem and channel-centric external collaboration are primary.",
-        "context": "Define when a conversation belongs in Chat, a document comment, email, a meeting, or a task system.",
+        "context": "Define when a conversation belongs in Chat, a document comment, email, a meeting, or a task system. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Direct messages and Spaces organize conversation around teams or topics and connect with Drive files, Meet, tasks, and Workspace administration.",
         "capabilities": [
           "Direct messages, group conversations, and Spaces",
@@ -493,7 +497,7 @@
         "description": "Learn Google Drive storage, sharing, permissions, desktop sync, Google One, Workspace, Shared drives, and safe team administration.",
         "lead": "Drive works well when file ownership, sharing scope, folder structure, and offboarding are defined before growth.",
         "verdict": "Google Drive is a strong default for Google users and collaborative documents. Businesses should use organizational ownership such as Shared drives where appropriate instead of relying on personal accounts for critical files.",
-        "context": "A link can be more permissive than intended. Test viewer, commenter, editor, download, and external-sharing behavior.",
+        "context": "A link can be more permissive than intended. Test viewer, commenter, editor, download, and external-sharing behavior. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Drive stores files in the cloud, synchronizes selected content, shares items with permissions, and integrates with Docs, Sheets, Slides, Gmail, Meet, and other services.",
         "capabilities": [
           "Cloud storage and desktop synchronization",
@@ -562,7 +566,7 @@
         "description": "Learn how to create and join Google Meet calls, present a screen, use captions and recording, and compare consumer and Workspace access.",
         "lead": "Meeting quality depends as much on calendar, permissions, audio, and recording policy as on the call interface.",
         "verdict": "Google Meet is a natural choice for Gmail and Workspace users because scheduling and joining are closely connected to Calendar. Recording, attendance, duration, participant, and administrative features vary by edition.",
-        "context": "Test the planned account type and region rather than assuming every feature in a help article is available on the selected plan.",
+        "context": "Test the planned account type and region rather than assuming every feature in a help article is available on the selected plan. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Hosts schedule or start a meeting, invite participants, manage entry, present tabs or screens, use captions, and apply plan-specific recording and moderation tools.",
         "capabilities": [
           "Browser and mobile meeting participation",
@@ -597,6 +601,10 @@
       {
         "label": "Google Workspace — Pricing",
         "url": "https://workspace.google.com/pricing.html"
+      },
+      {
+        "label": "Official website",
+        "url": "https://workspace.google.com/"
       }
     ],
     "ctas": [
@@ -627,7 +635,7 @@
         "description": "Learn Google Workspace Gmail, Drive, Meet, Calendar, Chat, administration, pricing logic, setup, migration, and security planning.",
         "lead": "Workspace is an identity and information system, not only a collection of office apps.",
         "verdict": "Google Workspace fits organizations that want business Gmail, collaborative files, calendars, meetings, chat, and central identity in one cloud suite. The right edition depends on storage, meetings, retention, security, and administration—not app access alone.",
-        "context": "Plan domain control, DNS, data migration, groups, device access, recovery, and offboarding before switching mail.",
+        "context": "Plan domain control, DNS, data migration, groups, device access, recovery, and offboarding before switching mail. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "The suite connects Gmail, Calendar, Drive, Docs, Sheets, Slides, Meet, Chat, Forms, and an Admin console under organization-managed accounts.",
         "capabilities": [
           "Custom-domain Gmail and centralized accounts",
@@ -770,6 +778,10 @@
       {
         "label": "Slack — Pricing",
         "url": "https://slack.com/pricing"
+      },
+      {
+        "label": "Official website",
+        "url": "https://slack.com/"
       }
     ],
     "ctas": [
@@ -800,7 +812,7 @@
         "description": "Learn Slack channels, DMs, threads, huddles, Slack Connect, app integrations, plans, and practical operating rules.",
         "lead": "Slack succeeds when channel purpose, notification expectations, file ownership, and decision records are clear.",
         "verdict": "Slack fits teams that organize conversation in channels and connect many work apps. It should complement—not replace—a defined document, task, and decision system.",
-        "context": "The Free plan's history and app limits can affect whether the workspace remains a reliable record.",
+        "context": "The Free plan's history and app limits can affect whether the workspace remains a reliable record. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. The final decision should also account for renewal pricing, administrative ownership, recovery procedures, and the effort required to move data or workloads to another provider. Record the selected plan and review date so future changes can be evaluated consistently.",
         "overview": "Teams create channels for work streams, use threads for focused replies, hold huddles, connect apps, and collaborate externally through eligible features.",
         "capabilities": [
           "Channels, direct messages, threads, search, and canvases",
@@ -886,7 +898,7 @@
         "description": "Compare Slack and Google Chat across pricing, history, channels and Spaces, file sharing, meetings, integrations, and administration.",
         "lead": "Slack is an independent communication hub; Google Chat is most compelling as part of Workspace.",
         "verdict": "Choose Slack for a broad integration ecosystem, channel workflows, and external organization collaboration. Choose Google Chat when Gmail, Drive, Meet, and Workspace administration already define the work environment.",
-        "context": "Calculate the incremental cost: Google Chat may already be bundled, while Slack may replace or improve several communication workflows.",
+        "context": "Calculate the incremental cost: Google Chat may already be bundled, while Slack may replace or improve several communication workflows. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Both support direct and group conversation, threaded work, files, meetings, apps, and administration, but their ecosystems and information ownership differ.",
         "capabilities": [
           "Slack: channels, app ecosystem, Slack Connect, huddles, and workflow tools",
@@ -969,7 +981,7 @@
         "description": "Compare task-management tools across free plans, Kanban, timelines, Gantt, documents, automation, issue tracking, and team scale.",
         "lead": "Choose the smallest system that reliably records one owner, the next action, a deadline, and completion evidence.",
         "verdict": "Trello fits simple Kanban, Asana fits structured cross-project work, Notion fits knowledge and flexible databases, Backlog fits project and issue workflows, and Todoist fits lightweight personal and team task lists.",
-        "context": "The best tool is the one the team updates consistently; unused advanced features have no operational value.",
+        "context": "The best tool is the one the team updates consistently; unused advanced features have no operational value. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Compare intake, task structure, owners, dates, dependencies, views, comments, files, recurring work, automation, reporting, and permission administration.",
         "capabilities": [
           "Trello: simple boards and cards",
@@ -1028,6 +1040,14 @@
       {
         "label": "Cloudways",
         "url": "https://www.cloudways.com/"
+      },
+      {
+        "label": "Official website",
+        "url": "https://www.cloudways.com/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://www.cloudways.com/en/pricing.php"
       }
     ],
     "ctas": [
@@ -1058,7 +1078,7 @@
         "description": "Review Cloudways cloud infrastructure choices, pricing model, WordPress, backups, staging, SSH, Git, strengths, and operational trade-offs.",
         "lead": "Cloudways sits between unmanaged cloud infrastructure and a more opinionated managed WordPress host.",
         "verdict": "Cloudways fits developers and agencies that want to select cloud capacity while delegating part of server management. A simpler shared host fits better when domains, email, and site setup should all be bundled.",
-        "context": "The operator still needs to understand servers, applications, DNS, caching, backups, and scaling decisions.",
+        "context": "The operator still needs to understand servers, applications, DNS, caching, backups, and scaling decisions. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Customers select infrastructure and a server size, deploy applications, and manage staging, backups, caching, SSH, Git, monitoring, and team access through the platform.",
         "capabilities": [
           "Choice of supported cloud infrastructure and server size",
@@ -1093,6 +1113,10 @@
       {
         "label": "JPRS — About .jp domains",
         "url": "https://jprs.jp/about/jp-dom/"
+      },
+      {
+        "label": "Official website",
+        "url": "https://jprs.jp/"
       }
     ],
     "ctas": [],
@@ -1115,7 +1139,7 @@
         "description": "Compare .com and .jp domains across registration eligibility, price, brand signals, search, international expansion, and operating requirements.",
         "lead": "The choice is mainly about audience, brand, eligibility, and long-term administration—not a guaranteed ranking advantage.",
         "verdict": "Choose .com for a broadly international or market-neutral brand. Choose .jp when a clear Japan connection is valuable and the registrant meets the relevant eligibility rules. Some organizations defensively register both.",
-        "context": "Specific .jp categories can have different eligibility. Confirm rules through JPRS and the chosen registrar.",
+        "context": "Specific .jp categories can have different eligibility. Confirm rules through JPRS and the chosen registrar. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": ".com is a generic top-level domain used globally, while .jp is Japan's country-code domain with policies and categories administered for the Japanese namespace.",
         "capabilities": [
           ".com: broad global recognition and registrar choice",
@@ -1202,7 +1226,7 @@
         "description": "Learn how to compare domain registrars using renewal price, transfers, privacy, DNS, security, auto-renewal, support, and expiration recovery.",
         "lead": "A registrar is a long-term asset custodian, so renewal, access security, and transfer control matter more than a one-year coupon.",
         "verdict": "Choose a registrar with transparent renewal pricing, strong account security, reliable DNS or clean delegation, easy transfer controls, and support that fits the domain's importance. Hosting bundles are convenient but increase migration coupling.",
-        "context": "Country-code domains and specific TLDs can have registry-level eligibility or contact rules that no registrar can override.",
+        "context": "Country-code domains and specific TLDs can have registry-level eligibility or contact rules that no registrar can override. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "A registrar registers and renews the domain, maintains registrant data, provides transfer authorization and nameserver settings, and may add DNS, privacy, email, SSL, or hosting.",
         "capabilities": [
           "Registration, renewal, transfer, and contact management",
@@ -1462,7 +1486,7 @@
         "description": "Compare Kinsta and WP Engine across starting price, sites, visits, storage, backups, migration, staging, support, and workflow.",
         "lead": "Both are premium managed WordPress services, so limits, developer workflow, and support fit matter more than a generic hosting checklist.",
         "verdict": "Kinsta is compelling for a clear MyKinsta workflow, migration, analytics, and focused WordPress operations. WP Engine is compelling for teams that value its WordPress product ecosystem, development workflow, and agency-oriented options.",
-        "context": "Plan structures change, so match the current tier by sites, visits, storage, bandwidth, environments, backups, and support.",
+        "context": "Plan structures change, so match the current tier by sites, visits, storage, bandwidth, environments, backups, and support. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Both manage infrastructure, caching, security, backups, staging, monitoring, and support around WordPress while excluding some adjacent services such as mailbox hosting.",
         "capabilities": [
           "Managed WordPress updates, performance, and security layers",

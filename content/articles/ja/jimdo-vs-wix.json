@@ -1,0 +1,197 @@
+{
+  "id": "jimdo-vs-wix-ja",
+  "translationKey": "jimdo-vs-wix",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "jimdo-vs-wix",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "広告掲載・公式情報検証",
+  "title": "JimdoとWixを比較｜初心者・店舗サイトに向くのはどちら？",
+  "metaTitle": "JimdoとWixを比較｜初心者・店舗サイトに向くのはどちら？",
+  "description": "JimdoとWixを、作成の簡単さ、デザイン、アプリ、SEO、独自ドメイン、ブログ、予約・EC、運用負担から比較します。",
+  "lead": "Jimdoは機能を絞った作成フロー、Wixはテンプレート、アプリ、CMS、予約・ECなどの拡張性が特徴です。初心者向けという同じ分類でも、必要な機能を少なく保つか、後から増やすかで適性が変わります。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "Jimdoの公式プランを確認",
+      "officialUrl": "https://www.jimdo.com/jp/",
+      "affiliateKey": "jimdo-software"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ジンドゥー公式サイト",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    {
+      "label": "ジンドゥー料金プラン",
+      "url": "https://www.jimdo.com/jp/pricing/"
+    },
+    {
+      "label": "2026年 有料プラン価格改定",
+      "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+    },
+    {
+      "label": "特定商取引法に基づく料金表",
+      "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+    },
+    {
+      "label": "AIビルダーとクリエイターの違い",
+      "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+    },
+    {
+      "label": "ジンドゥーのネットショップ",
+      "url": "https://www.jimdo.com/jp/website/online-store/"
+    },
+    {
+      "label": "ジンドゥークリエイター SEOサポート",
+      "url": "https://help.jimdo.com/hc/ja/categories/115001247063-SEO"
+    },
+    {
+      "label": "独自ドメインの導入",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+    },
+    {
+      "label": "外部ドメイン接続とDNS",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005533983-%E5%A4%96%E9%83%A8%E3%81%A7%E7%AE%A1%E7%90%86%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E6%8E%A5%E7%B6%9A%E3%81%A8%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-DNS-%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    },
+    {
+      "label": "Wix premium plan guidance",
+      "url": "https://support.wix.com/ja/article/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%99%E3%82%8B"
+    },
+    {
+      "label": "Wix domain and plan billing",
+      "url": "https://support.wix.com/ja/article/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E8%B3%BC%E5%85%A5-vs-%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3%E3%81%AE%E8%B3%BC%E5%85%A5"
+    },
+    {
+      "label": "Wix SEO support",
+      "url": "https://support.wix.com/ja/seo"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：機能を絞るならJimdo、拡張するならWix",
+      "body": [
+        "JimdoはAIビルダーとクリエイターの2系統で、初心者が迷いにくい作成フローを提供します。Wixはテンプレート、アプリ、CMS、予約、ネットショップ、マーケティングなどを幅広く組み合わせられます。",
+        "小規模な会社案内や店舗案内を早く公開するならJimdoが扱いやすく、多機能な予約・会員・データベース・ECを一つの環境で増やすならWixを比較します。"
+      ],
+      "affiliateMaterialKey": "jimdo-easy"
+    },
+    {
+      "heading": "デザインと編集",
+      "body": [
+        "Jimdo AIビルダーはブロックを選び、クリエイターは見たまま編集とHTML・CSSで調整します。自由度を制限することで、更新担当者が崩しにくい点が利点です。",
+        "Wixは配置やアプリの選択肢が多く、要件に合わせた画面を作りやすい反面、設定項目と運用ルールが増えます。複数人で編集する場合は、テンプレート化と権限管理を確認します。"
+      ]
+    },
+    {
+      "heading": "SEO・ドメイン・計測",
+      "body": [
+        "Jimdoクリエイターはページタイトル、概要、URL、サイトマップ、Search Console等を扱えます。WixはSEOダッシュボード、チェックリスト、動的ページのSEO設定などを提供しています。",
+        "両サービスとも独自ドメイン利用には有料プランが必要です。ドメイン購入とサイトプランが別契約になる場合、更新日と請求元を一覧化します。SEOは機能数だけでなく、更新可能なコンテンツ設計で比較します。"
+      ],
+      "affiliateMaterialKey": "jimdo-software"
+    },
+    {
+      "heading": "予約・EC・外部連携",
+      "body": [
+        "Jimdoクリエイターにはショップ機能がありますが、複雑な予約や会員管理は外部サービスとの組み合わせを確認します。WixはWix Bookings、Wix Stores等のアプリを含む拡張環境を持ちます。",
+        "必要機能が少ない場合は多機能な環境がかえって運用負担になります。予約枠、事前決済、顧客台帳、商品数、配送、メール配信の要件を先に定義し、追加料金も含めて比較します。"
+      ]
+    },
+    {
+      "heading": "移行と長期運用",
+      "body": [
+        "どちらも専用ビルダーで作ったレイアウトを別サービスへ完全移行することは難しいため、原稿、画像、商品、顧客、URL一覧を外部保管します。",
+        "サイトを将来制作会社へ引き継ぐ場合、編集権限、ドメイン所有者、請求アカウント、二要素認証、バックアップ方法を明確にします。"
+      ]
+    },
+    {
+      "heading": "契約前に確認すること",
+      "body": [
+        "無料版では実際の文章、画像、メニュー、問い合わせ導線を入れ、スマートフォン表示と更新作業を確認します。有料化する前に、独自ドメインをJimdoで管理するか外部事業者に残すか、契約期間、更新日、支払い担当者、解約手順を記録してください。",
+        "ホームページ作成サービスを変更するときは、ページURL、画像、ブログ、フォーム回答、商品、SEO設定がそのまま移行できるとは限りません。原稿と画像の元データを別に保管し、公開後も定期的にページ一覧と問い合わせ動作を点検します。"
+      ],
+      "bullets": [
+        "無料版で編集とスマホ表示を試す",
+        "初回だけでなく更新時の総額を確認する",
+        "ドメインの管理元とDNS変更権限を記録する",
+        "原稿・画像・商品データを別に保管する",
+        "問い合わせと計測タグを公開後にテストする"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Jimdoは無料で使い続けられますか？",
+      "answer": "無料プランがあります。独自ドメインや事業利用に必要な機能を使う場合は有料プランを比較してください。"
+    },
+    {
+      "question": "AIビルダーからクリエイターへサイトを移せますか？",
+      "answer": "両サービスは別システムで互換性がなく、サイト内コンテンツをそのまま移動・複製できません。作成前に必要機能を確認してください。"
+    },
+    {
+      "question": "Jimdoの料金は毎月払いですか？",
+      "answer": "有料プランは1か月、1年、2年などの契約期間があり、選択した期間分が請求されます。クリエイターの提供期間はプランにより異なるため申込画面を確認してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Jimdoレビュー",
+      "url": "/ja/website-builders/jimdo-review/",
+      "description": "料金・機能・契約条件を確認"
+    },
+    {
+      "label": "Jimdo料金プラン比較",
+      "url": "/ja/website-builders/jimdo-pricing/",
+      "description": "2026年改定後の総額を比較"
+    },
+    {
+      "label": "AIビルダーとクリエイターの違い",
+      "url": "/ja/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "互換性と機能差を確認"
+    },
+    {
+      "label": "JimdoとStudioの比較",
+      "url": "/ja/website-builders/jimdo-vs-studio/",
+      "description": "作成速度とデザインを比較"
+    },
+    {
+      "label": "JimdoとWordPressの比較",
+      "url": "/ja/website-builders/jimdo-vs-wordpress/",
+      "description": "保守負担と拡張性を比較"
+    },
+    {
+      "label": "美容サロン向けJimdoガイド",
+      "url": "/ja/website-builders/jimdo-salon-website-guide/",
+      "description": "予約・料金・店舗情報を設計"
+    },
+    {
+      "label": "小規模事業向けJimdoガイド",
+      "url": "/ja/website-builders/jimdo-small-business-guide/",
+      "description": "公開から更新まで確認"
+    },
+    {
+      "label": "Jimdo SEO設定ガイド",
+      "url": "/ja/website-builders/jimdo-seo-guide/",
+      "description": "検索設定と改善手順を確認"
+    },
+    {
+      "label": "おちゃのこさいさいの評判・料金・注意点",
+      "url": "/ja/website-builders/ochanoko-saisai-review/",
+      "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します"
+    },
+    {
+      "label": "おちゃのこさいさい料金比較",
+      "url": "/ja/website-builders/ochanoko-saisai-pricing/",
+      "description": "ベーシックとアドバンスドの月額、契約期間、独自ドメイン設定費、ドメイン更新費、無料試用を整理します"
+    }
+  ]
+}

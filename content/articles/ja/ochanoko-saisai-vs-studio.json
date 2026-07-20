@@ -1,0 +1,197 @@
+{
+  "id": "ochanoko-saisai-vs-studio-ja",
+  "translationKey": "ochanoko-saisai-vs-studio",
+  "language": "ja",
+  "type": "comparison",
+  "status": "published",
+  "slug": "ochanoko-saisai-vs-studio",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "広告掲載・公式情報検証",
+  "title": "おちゃのこさいさいとStudioを比較｜店舗運用とデザイン自由度",
+  "metaTitle": "おちゃのこさいさいとStudioを比較｜店舗運用とデザイン自由度",
+  "description": "テンプレート、デザイン、CMS、店舗機能、料金、独自ドメイン、SEO、共同編集、運用負担から比較します。",
+  "lead": "おちゃのこさいさいは店舗情報を定型機能で早く運用するサービス、StudioはレイアウトとCMSをノーコードで設計するサービスです。更新担当者のスキルと、デザインをどこまで独自化するかが分岐点です。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "おちゃのこさいさいの公式プランを確認",
+      "officialUrl": "https://www.ocnk.me/",
+      "affiliateKey": "ochanoko-saisai-service"
+    }
+  ],
+  "sources": [
+    {
+      "label": "おちゃのこさいさい公式サイト",
+      "url": "https://www.ocnk.me/"
+    },
+    {
+      "label": "おちゃのこさいさい利用料金",
+      "url": "https://www.ocnk.me/pricing"
+    },
+    {
+      "label": "おちゃのこさいさい機能一覧",
+      "url": "https://www.ocnk.me/feature"
+    },
+    {
+      "label": "おちゃのこさいさい ご利用の流れ",
+      "url": "https://www.ocnk.me/step"
+    },
+    {
+      "label": "おちゃのこさいさい新規登録",
+      "url": "https://www.ocnk.me/entry"
+    },
+    {
+      "label": "2024年料金改定のお知らせ",
+      "url": "https://www.ocnk.me/news?note=20240618"
+    },
+    {
+      "label": "Studio料金プラン",
+      "url": "https://studio.design/ja/pricing"
+    },
+    {
+      "label": "Studio FAQ",
+      "url": "https://studio.design/ja/faq"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "結論：定型店舗サイトはおちゃのこ、独自デザインとCMSはStudio",
+      "body": [
+        "店舗情報、クーポン、カレンダーを決まった管理項目で運用するならおちゃのこさいさいが短時間です。ブランド表現、レイアウト、CMSコレクション、チーム制作を重視するならStudioが候補です。",
+        "完成イメージだけでなく、公開後に誰がどの画面で更新するかを比較します。"
+      ],
+      "affiliateMaterialKey": "ochanoko-saisai-service"
+    },
+    {
+      "heading": "設計思想の違い",
+      "body": [
+        "おちゃのこさいさいは店舗サイトに必要な機能をあらかじめ用意し、非制作者でも情報を追加しやすくしています。Studioはキャンバス上でデザインし、CMSモデルやフォームを設計するため、自由度が高い分、初期設計の知識が必要です。",
+        "Studioのプランはページ数、CMSモデル・アイテム、フォーム回答、バージョン管理等に上限があります。おちゃのこさいさいはプラン別の容量・ページ・メール上限を確認します。"
+      ],
+      "table": {
+        "headers": [
+          "比較項目",
+          "おちゃのこさいさい",
+          "Studio"
+        ],
+        "rows": [
+          [
+            "向く用途",
+            "小規模店舗の定型情報",
+            "ブランドサイト・CMS"
+          ],
+          [
+            "デザイン",
+            "テンプレート中心",
+            "ノーコードで高い自由度"
+          ],
+          [
+            "店舗機能",
+            "クーポン・カレンダー等",
+            "CMSや外部サービスで設計"
+          ],
+          [
+            "共同制作",
+            "小規模運用向け",
+            "複数ユーザー・権限対応"
+          ],
+          [
+            "料金単位",
+            "アカウント／サイト",
+            "プロジェクト単位"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "SEOと保守",
+      "body": [
+        "どちらもタイトル、説明、独自ドメイン、アクセス解析など基本要件を扱えます。Studioはリダイレクトやカスタムコード等がプランによって異なり、おちゃのこさいさいはページ別メタタグと外部解析を使います。",
+        "制作会社がStudioで作り、店舗が日常更新する場合は権限とCMS入力画面を設計します。おちゃのこさいさいは定型項目が多いため、少人数運用では教育コストを抑えやすい構成です。"
+      ]
+    },
+    {
+      "heading": "費用を比べる方法",
+      "body": [
+        "おちゃのこさいさいは月額、独自ドメイン設定費、ドメイン年間費を合計します。Studioはサイトプランと、必要に応じてワークスペース、制作費、CMS設計、保守費を合計します。",
+        "店舗の売上に直結する更新が毎週あるなら、安いプランよりも更新担当者が短時間で作業できる仕組みを優先します。"
+      ]
+    },
+    {
+      "heading": "契約前と公開後の確認",
+      "body": [
+        "30日間の無料試用では、実際の文章、写真、メニュー、店舗情報、問い合わせ導線を入れ、スマートフォン表示と管理画面の更新作業を確認します。無料期間終了後に継続する場合は、管理画面から契約と支払いを完了します。",
+        "専用サービスから別のCMSへ移る場合、デザインや機能をそのまま移行できるとは限りません。原稿、画像、料金表、スタッフ情報、URL一覧を外部にも保管し、公開後は電話、フォーム、地図、計測タグを定期的にテストしてください。"
+      ],
+      "bullets": [
+        "無料試用で実際のページを作る",
+        "契約期間と更新総額を確認する",
+        "ドメインとDNSの管理者を記録する",
+        "原稿・画像を別に保管する",
+        "問い合わせと計測を定期テストする"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "おちゃのこさいさいはネットショップを作れますか？",
+      "answer": "公式登録ページではショッピングカート機能はないと案内されています。商品販売が必要な場合は別のECサービスを比較してください。"
+    },
+    {
+      "question": "無料で試せますか？",
+      "answer": "本登録後30日間の無料試用が案内されています。継続する場合は試用期間中に管理画面から契約と支払いを行います。"
+    },
+    {
+      "question": "独自ドメインを使えますか？",
+      "answer": "アドバンスドプランで利用できます。初期設定費用と、取得方法に応じた年間ドメイン費用を確認してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "おちゃのこさいさいの評判・料金・注意点",
+      "url": "/ja/website-builders/ochanoko-saisai-review/",
+      "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します"
+    },
+    {
+      "label": "おちゃのこさいさい料金比較",
+      "url": "/ja/website-builders/ochanoko-saisai-pricing/",
+      "description": "ベーシックとアドバンスドの月額、契約期間、独自ドメイン設定費、ドメイン更新費、無料試用を整理します"
+    },
+    {
+      "label": "おちゃのこさいさい ベーシックとアドバンスドの違いを比較",
+      "url": "/ja/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "description": "共用ドメイン、独自ドメイン、容量、フリーページ、メール、広告表示、初期費用から2プランを比較します"
+    },
+    {
+      "label": "おちゃのこさいさいとJimdoを比較",
+      "url": "/ja/website-builders/ochanoko-saisai-vs-jimdo/",
+      "description": "店舗向け機能、料金、独自ドメイン、ブログ、ショップ、デザイン、SEO、スマホ更新から比較します"
+    },
+    {
+      "label": "おちゃのこさいさいとグーペを比較",
+      "url": "/ja/website-builders/ochanoko-saisai-vs-goope/",
+      "description": "店舗情報、予約、クーポン、カレンダー、料金、独自ドメイン、メール、サポートの違いを比較します"
+    },
+    {
+      "label": "おちゃのこさいさいで美容室・エステのサイトを作る方法",
+      "url": "/ja/website-builders/ochanoko-saisai-salon-guide/",
+      "description": "美容室、眉毛サロン、エステ向けに、メニュー、スタッフ、クーポン、カレンダー、予約導線、写真、FAQを設計します"
+    },
+    {
+      "label": "おちゃのこさいさいで飲食店ホームページを作る方法",
+      "url": "/ja/website-builders/ochanoko-saisai-restaurant-guide/",
+      "description": "飲食店向けにメニュー、営業時間、定休日、地図、写真、クーポン、予約・電話導線、アレルギー情報を設計します"
+    },
+    {
+      "label": "店舗ホームページのクーポン・カレンダー活用ガイド",
+      "url": "/ja/website-builders/store-website-coupon-calendar-guide/",
+      "description": "クーポン、定休日、イベント、キャンペーンをホームページで運用する設計、更新ルール、計測、注意点を解説します"
+    }
+  ]
+}

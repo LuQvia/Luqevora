@@ -56,3 +56,26 @@ npm run check
 検索対象のルールは `content/config/seo.json` で管理します。`indexing.mode` を `all` に変えると全記事を検索対象へ切り替えられますが、先に独自検証・固有画像・内部リンク・検索意図の重複を確認してください。
 
 検証では、各言語280記事以上、検索対象100記事以上、日英ルートと検索対象の完全一致、固有画像、トピック件数、分割サイトマップ、`x-default`、構造化データ、内部リンクを確認します。品質監査では本文量、公式情報源数、日付、翻訳ペア、タイトル・description重複も検査し、`reports/content-audit.json` とCSVへ出力します。
+
+## v3.0 Comparison Database
+
+`npm run catalog` generates `content/products/catalog.json`, the canonical comparison dataset used by `/ja/compare/`, `/en/compare/`, and `/product-catalog.json`. Pricing summaries, best-fit use cases, strengths, constraints, official sources, and related articles are managed with a shared schema.
+
+## v3.2.0 operations management
+
+Run `npm run operations` to regenerate the internal editorial dashboard:
+
+- `reports/operations-dashboard.html`
+- `reports/operations-dashboard.json`
+
+The dashboard tracks verification deadlines, affiliate configuration, source coverage, and product-catalog review dates. It is not published under `public/`.
+
+## v3.3 revenue optimization
+
+Run `npm run revenue` to generate the private CTA inventory and monetization improvement queue:
+
+- `reports/revenue-optimization.html`
+- `reports/revenue-optimization.json`
+- `reports/revenue-optimization.csv`
+
+The report intentionally excludes estimated performance. Import real GA4 and affiliate-network exports before calculating CTR, CVR, EPC, or revenue.

@@ -1,0 +1,231 @@
+{
+  "id": "jimdo-pricing-ja",
+  "translationKey": "jimdo-pricing",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "jimdo-pricing",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "広告掲載・公式情報検証",
+  "title": "Jimdo料金プラン比較｜2026年改定後の総額と選び方",
+  "metaTitle": "Jimdo料金プラン比較｜2026年改定後の総額と選び方",
+  "description": "2026年改定後のJimdo AIビルダーとクリエイターの料金、契約期間、更新時ドメイン費用、無料版との違いを整理します。",
+  "lead": "Jimdoは2026年に新規契約向け料金を改定しました。初回料金だけでなく、契約期間分の一括請求、更新時のドメイン利用枠、必要なSEO・ショップ機能まで含めて総額を判断します。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "Jimdoの公式プランを確認",
+      "officialUrl": "https://www.jimdo.com/jp/",
+      "affiliateKey": "jimdo-short"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ジンドゥー公式サイト",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    {
+      "label": "ジンドゥー料金プラン",
+      "url": "https://www.jimdo.com/jp/pricing/"
+    },
+    {
+      "label": "2026年 有料プラン価格改定",
+      "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+    },
+    {
+      "label": "特定商取引法に基づく料金表",
+      "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+    },
+    {
+      "label": "AIビルダーとクリエイターの違い",
+      "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+    },
+    {
+      "label": "ジンドゥーのネットショップ",
+      "url": "https://www.jimdo.com/jp/website/online-store/"
+    },
+    {
+      "label": "ジンドゥークリエイター SEOサポート",
+      "url": "https://help.jimdo.com/hc/ja/categories/115001247063-SEO"
+    },
+    {
+      "label": "独自ドメインの導入",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+    },
+    {
+      "label": "外部ドメイン接続とDNS",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005533983-%E5%A4%96%E9%83%A8%E3%81%A7%E7%AE%A1%E7%90%86%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E6%8E%A5%E7%B6%9A%E3%81%A8%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-DNS-%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "料金比較の結論",
+      "body": [
+        "最安プランではなく、必要な機能を満たす最小プランで比較します。短期間だけ使うならAIビルダーの月契約は柔軟ですが、年間総額は高くなります。長期契約では1回の支払額と途中解約時の扱いを確認します。",
+        "事業サイトでは独自ドメイン、広告非表示、アクセス計測、SEO設定、問い合わせ、ブログやショップの有無を確認します。ドメイン利用枠や更新時の追加費用を含めて2年間の総額を出すと判断しやすくなります。"
+      ],
+      "affiliateMaterialKey": "jimdo-short"
+    },
+    {
+      "heading": "AIビルダーの料金",
+      "body": [
+        "Startは1か月1,720円、1年15,480円、2年27,600円、Growは1か月2,720円、1年24,840円、2年44,640円です。価格は初回契約時の税込表示で、更新時はドメイン利用枠が加算されます。",
+        "月契約は試しやすい一方、A8.netの本プログラムでは1か月契約が成果対象外です。利用者は広告成果ではなく、自身の利用期間と必要機能を優先して契約方式を選んでください。"
+      ]
+    },
+    {
+      "heading": "クリエイターの料金",
+      "body": [
+        "2026年改定後はProが1年18,720円、Businessが40,560円、SEO PLUSが66,300円、Platinumが83,100円です。2年契約ではそれぞれ31,200円、71,760円、123,240円、154,200円です。",
+        "クリエイターは上位プランほどSEOや運用支援の選択肢が増えますが、名称だけで判断せず、実際に必要なページ数、ショップ、統計、サポート、コード、ロボット制御を機能表で確認します。"
+      ],
+      "table": {
+        "headers": [
+          "サービス",
+          "プラン",
+          "1年契約",
+          "2年契約"
+        ],
+        "rows": [
+          [
+            "AIビルダー",
+            "Start",
+            "15,480円",
+            "27,600円"
+          ],
+          [
+            "AIビルダー",
+            "Grow",
+            "24,840円",
+            "44,640円"
+          ],
+          [
+            "クリエイター",
+            "Pro",
+            "18,720円",
+            "31,200円"
+          ],
+          [
+            "クリエイター",
+            "Business",
+            "40,560円",
+            "71,760円"
+          ],
+          [
+            "クリエイター",
+            "SEO PLUS",
+            "66,300円",
+            "123,240円"
+          ],
+          [
+            "クリエイター",
+            "Platinum",
+            "83,100円",
+            "154,200円"
+          ]
+        ]
+      },
+      "affiliateMaterialKey": "jimdo-software"
+    },
+    {
+      "heading": "無料版と有料版の境界",
+      "body": [
+        "無料版は編集操作、テンプレート、文章量、画像比率、スマホ表示を確認する用途に適しています。独自ドメインを接続し、ブランドサイトとして公開するには有料化が必要です。",
+        "無料登録だけではA8.netの成果条件を満たしませんが、無料版を試さずに長期契約へ進む必要もありません。公開予定のページを仮作成し、制限と編集負担を確認してから選びます。"
+      ]
+    },
+    {
+      "heading": "ドメインと更新費用",
+      "body": [
+        "初回契約時にドメイン特典があっても、次回更新時から費用が発生する場合があります。クリエイターでは基本ドメイン費用が更新時に自動加算される条件があるため、利用しない場合の解約期限も確認します。",
+        "ドメインを外部管理に残すと、サービス変更時に移行しやすい一方、DNSと請求が分かれます。Jimdo側で管理すると設定は簡単ですが、DNSを個別編集できないケースがあります。将来のメールや外部サービス接続を含めて決めます。"
+      ]
+    },
+    {
+      "heading": "契約前に確認すること",
+      "body": [
+        "無料版では実際の文章、画像、メニュー、問い合わせ導線を入れ、スマートフォン表示と更新作業を確認します。有料化する前に、独自ドメインをJimdoで管理するか外部事業者に残すか、契約期間、更新日、支払い担当者、解約手順を記録してください。",
+        "ホームページ作成サービスを変更するときは、ページURL、画像、ブログ、フォーム回答、商品、SEO設定がそのまま移行できるとは限りません。原稿と画像の元データを別に保管し、公開後も定期的にページ一覧と問い合わせ動作を点検します。"
+      ],
+      "bullets": [
+        "無料版で編集とスマホ表示を試す",
+        "初回だけでなく更新時の総額を確認する",
+        "ドメインの管理元とDNS変更権限を記録する",
+        "原稿・画像・商品データを別に保管する",
+        "問い合わせと計測タグを公開後にテストする"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Jimdoは無料で使い続けられますか？",
+      "answer": "無料プランがあります。独自ドメインや事業利用に必要な機能を使う場合は有料プランを比較してください。"
+    },
+    {
+      "question": "AIビルダーからクリエイターへサイトを移せますか？",
+      "answer": "両サービスは別システムで互換性がなく、サイト内コンテンツをそのまま移動・複製できません。作成前に必要機能を確認してください。"
+    },
+    {
+      "question": "Jimdoの料金は毎月払いですか？",
+      "answer": "有料プランは1か月、1年、2年などの契約期間があり、選択した期間分が請求されます。クリエイターの提供期間はプランにより異なるため申込画面を確認してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Jimdoレビュー",
+      "url": "/ja/website-builders/jimdo-review/",
+      "description": "料金・機能・契約条件を確認"
+    },
+    {
+      "label": "AIビルダーとクリエイターの違い",
+      "url": "/ja/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "互換性と機能差を確認"
+    },
+    {
+      "label": "JimdoとWixの比較",
+      "url": "/ja/website-builders/jimdo-vs-wix/",
+      "description": "簡単さと拡張性を比較"
+    },
+    {
+      "label": "JimdoとStudioの比較",
+      "url": "/ja/website-builders/jimdo-vs-studio/",
+      "description": "作成速度とデザインを比較"
+    },
+    {
+      "label": "JimdoとWordPressの比較",
+      "url": "/ja/website-builders/jimdo-vs-wordpress/",
+      "description": "保守負担と拡張性を比較"
+    },
+    {
+      "label": "美容サロン向けJimdoガイド",
+      "url": "/ja/website-builders/jimdo-salon-website-guide/",
+      "description": "予約・料金・店舗情報を設計"
+    },
+    {
+      "label": "小規模事業向けJimdoガイド",
+      "url": "/ja/website-builders/jimdo-small-business-guide/",
+      "description": "公開から更新まで確認"
+    },
+    {
+      "label": "Jimdo SEO設定ガイド",
+      "url": "/ja/website-builders/jimdo-seo-guide/",
+      "description": "検索設定と改善手順を確認"
+    },
+    {
+      "label": "おちゃのこさいさいの評判・料金・注意点",
+      "url": "/ja/website-builders/ochanoko-saisai-review/",
+      "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します"
+    },
+    {
+      "label": "おちゃのこさいさい料金比較",
+      "url": "/ja/website-builders/ochanoko-saisai-pricing/",
+      "description": "ベーシックとアドバンスドの月額、契約期間、独自ドメイン設定費、ドメイン更新費、無料試用を整理します"
+    }
+  ]
+}

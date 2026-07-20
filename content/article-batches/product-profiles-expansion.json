@@ -1624,5 +1624,173 @@
         "Provider-defined performance tests"
       ]
     }
+  },
+  "jimdo": {
+    "name": "Jimdo",
+    "affiliateKey": "jimdo-short",
+    "sources": [
+      {
+        "label": "ジンドゥー公式サイト",
+        "url": "https://www.jimdo.com/jp/"
+      },
+      {
+        "label": "ジンドゥー料金プラン",
+        "url": "https://www.jimdo.com/jp/pricing/"
+      },
+      {
+        "label": "2026年 有料プラン価格改定",
+        "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+      },
+      {
+        "label": "特定商取引法に基づく料金表",
+        "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+      },
+      {
+        "label": "AIビルダーとクリエイターの違い",
+        "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+      },
+      {
+        "label": "ジンドゥーのネットショップ",
+        "url": "https://www.jimdo.com/jp/website/online-store/"
+      },
+      {
+        "label": "ジンドゥークリエイター SEOサポート",
+        "url": "https://help.jimdo.com/hc/ja/categories/115001247063-SEO"
+      },
+      {
+        "label": "独自ドメインの導入",
+        "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+      },
+      {
+        "label": "外部ドメイン接続とDNS",
+        "url": "https://help.jimdo.com/hc/ja/articles/115005533983-%E5%A4%96%E9%83%A8%E3%81%A7%E7%AE%A1%E7%90%86%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E6%8E%A5%E7%B6%9A%E3%81%A8%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-DNS-%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+      }
+    ],
+    "positioning": {
+      "ja": "AIビルダーとクリエイターを選べる、個人・小規模事業向けクラウド型ホームページ作成サービス",
+      "en": "A cloud website builder for individuals and small businesses with separate AI Builder and Creator products"
+    },
+    "pricing": {
+      "ja": "AIビルダーStartは1年15,480円、Creator Proは1年18,720円から。2026年改定後の更新条件を確認",
+      "en": "AI Builder Start is JPY 15,480 yearly and Creator Pro is JPY 18,720 yearly; verify 2026 renewal terms"
+    },
+    "pricingDetail": {
+      "ja": "契約期間分の請求、更新時ドメイン費用、必要なSEO・ショップ・コード機能を含めて比較します。",
+      "en": "Compare full-term billing, renewal domain cost, and the tier required for SEO, commerce, and code."
+    },
+    "workflow": {
+      "ja": "AIビルダーは質問とブロックで作成し、クリエイターは見たまま編集、ブログ、ショップ、HTML・CSSを使います。",
+      "en": "AI Builder uses guided questions and blocks; Creator adds visual editing, blogging, stores, and HTML or CSS."
+    },
+    "bestFor": {
+      "ja": "サーバー保守をせず、自分で小規模な会社・店舗・ポートフォリオサイトを更新したい利用者",
+      "en": "Users who want to maintain a smaller company, local-business, or portfolio site without server administration"
+    },
+    "strengths": {
+      "ja": [
+        "無料版で試作",
+        "作成方法を2系統から選択",
+        "ホスティング一体型",
+        "独自ドメイン・SEO・ショップ対応"
+      ],
+      "en": [
+        "Free prototyping",
+        "Two distinct building workflows",
+        "Managed hosting",
+        "Domains, SEO, and store support"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "AIビルダーとクリエイターは互換性なし",
+        "更新時ドメイン費用を確認",
+        "高度機能はプラン差",
+        "専用レイアウトの外部移行は限定的"
+      ],
+      "en": [
+        "No AI Builder-Creator compatibility",
+        "Renewal domain cost",
+        "Advanced features vary by plan",
+        "Limited layout portability"
+      ]
+    }
+  },
+  "ochanoko-saisai": {
+    "name": "おちゃのこさいさい",
+    "affiliateKey": "ochanoko-saisai-short",
+    "sources": [
+      {
+        "label": "おちゃのこさいさい公式サイト",
+        "url": "https://www.ocnk.me/"
+      },
+      {
+        "label": "おちゃのこさいさい利用料金",
+        "url": "https://www.ocnk.me/pricing"
+      },
+      {
+        "label": "おちゃのこさいさい機能一覧",
+        "url": "https://www.ocnk.me/feature"
+      },
+      {
+        "label": "おちゃのこさいさい ご利用の流れ",
+        "url": "https://www.ocnk.me/step"
+      },
+      {
+        "label": "おちゃのこさいさい新規登録",
+        "url": "https://www.ocnk.me/entry"
+      },
+      {
+        "label": "2024年料金改定のお知らせ",
+        "url": "https://www.ocnk.me/news?note=20240618"
+      }
+    ],
+    "positioning": {
+      "ja": "クーポン、カレンダー、店舗情報、スタッフ、ブログをまとめて更新できる店舗向けホームページ作成サービス",
+      "en": "A local-business website builder combining coupons, calendars, store information, staff pages, and blogging"
+    },
+    "pricing": {
+      "ja": "ベーシックは12か月契約で月額換算1,100円、アドバンスドは1,980円。独自ドメイン設定費は別途",
+      "en": "Basic is JPY 1,100 and Advanced JPY 1,980 monthly equivalent on 12-month terms; custom-domain setup is extra"
+    },
+    "pricingDetail": {
+      "ja": "契約期間、独自ドメイン設定費、年間ドメイン費、広告表示、ページ・容量・メール上限を合わせて比較します。",
+      "en": "Compare term length, domain setup and renewal, advertising, storage, page, and email limits."
+    },
+    "workflow": {
+      "ja": "店舗向けテンプレートと定型機能を管理画面から更新し、スマートフォン・タブレットでも運用します。",
+      "en": "Update store-oriented templates and predefined functions from a mobile-compatible administration screen."
+    },
+    "bestFor": {
+      "ja": "飲食店、美容室、エステ、教室等で、店舗情報とキャンペーンを少人数で更新したい事業者",
+      "en": "Restaurants, salons, schools, and other small local businesses managing information and campaigns with a small team"
+    },
+    "strengths": {
+      "ja": [
+        "30日間無料試用",
+        "クーポン・カレンダー",
+        "スマホ管理",
+        "店舗・スタッフ・ブログ機能"
+      ],
+      "en": [
+        "30-day trial",
+        "Coupons and calendars",
+        "Mobile administration",
+        "Store, staff, and blog functions"
+      ]
+    },
+    "limits": {
+      "ja": [
+        "ショッピングカートなし",
+        "独自ドメイン設定費",
+        "ベーシックは広告表示",
+        "専用レイアウトの移行は限定的"
+      ],
+      "en": [
+        "No shopping cart",
+        "Custom-domain setup fee",
+        "Advertising on Basic",
+        "Limited layout portability"
+      ]
+    }
   }
 }

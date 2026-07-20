@@ -30,9 +30,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/style.css?v=4.7.0">
+  <link rel="stylesheet" href="/assets/css/style.css?v=5.0.0">
   <script type="application/ld+json">{{structuredData}}</script>
-  <script defer src="/assets/js/analytics-v4.7.0.js"></script>
+  <script defer src="/assets/js/analytics-v4.8.0.js"></script>
   <script defer src="/assets/js/main-v4.7.0.js"></script>
 </head>
 <body>
@@ -50,11 +50,16 @@
   <section class="content-section category-content">
     <div class="container">
       <div class="section-heading"><div><span class="eyebrow">{{evaluationEyebrow}}</span><h2>{{evaluationTitle}}</h2></div></div>
+      {{categoryMix}}
       <div class="grid feature-grid">
         <div class="feature"><span class="number">01</span><h3>{{pointOneTitle}}</h3><p>{{pointOneText}}</p></div>
         <div class="feature"><span class="number">02</span><h3>{{pointTwoTitle}}</h3><p>{{pointTwoText}}</p></div>
         <div class="feature"><span class="number">03</span><h3>{{pointThreeTitle}}</h3><p>{{pointThreeText}}</p></div>
       </div>
+      <section class="category-article-group category-featured-group">
+        <div class="section-heading compact-heading"><div><span class="eyebrow">START HERE</span><h2>{{featuredTitle}}</h2></div><p>{{featuredLead}}</p></div>
+        <div class="grid article-directory-grid">{{featuredCards}}</div>
+      </section>
       <section class="category-article-group">
         <div class="section-heading compact-heading"><div><span class="eyebrow">{{articlesEyebrow}}</span><h2>{{articlesTitle}}</h2></div><p>{{articlesLead}}</p></div>
         <div class="grid article-directory-grid">{{articleCards}}</div>

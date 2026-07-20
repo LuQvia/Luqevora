@@ -1,0 +1,225 @@
+{
+  "id": "jimdo-review-en",
+  "translationKey": "jimdo-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "jimdo-review",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Jimdo Review: Pricing, AI Builder, Creator, and Limits",
+  "metaTitle": "Jimdo Review: Pricing, AI Builder, Creator, and Limits",
+  "description": "An official-source Jimdo review covering pricing, AI Builder, Creator, domains, SEO, ecommerce, renewals, and portability.",
+  "lead": "Jimdo provides two separate website-building systems: AI Builder for guided, fast setup and Creator for deeper editing, blogging, store features, and code customization. Because the two systems are not interchangeable, product selection matters before content is built.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Jimdo Japan official plans",
+      "officialUrl": "https://www.jimdo.com/jp/",
+      "affiliateKey": "jimdo-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Jimdo Japan official site",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    {
+      "label": "Jimdo Japan pricing",
+      "url": "https://www.jimdo.com/jp/pricing/"
+    },
+    {
+      "label": "2026 pricing revision",
+      "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+    },
+    {
+      "label": "Commercial transaction pricing disclosure",
+      "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+    },
+    {
+      "label": "AI Builder and Creator comparison",
+      "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+    },
+    {
+      "label": "Jimdo online store overview",
+      "url": "https://www.jimdo.com/jp/website/online-store/"
+    },
+    {
+      "label": "Jimdo Creator SEO help",
+      "url": "https://help.jimdo.com/hc/en-us/categories/115001247063-SEO"
+    },
+    {
+      "label": "Jimdo Creator domain options",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: a practical option for fast, smaller sites",
+      "body": [
+        "Jimdo removes separate hosting and CMS installation and allows a free prototype. AI Builder suits users who want guided structure, while Creator suits users who need blogging, store tools, HTML or CSS, and more detailed SEO operations.",
+        "The principal constraint is that AI Builder and Creator are separate systems and content cannot be transferred directly between them. Complex booking, membership, databases, or large ecommerce requirements should trigger a comparison with Wix, Studio, WordPress, or specialist software."
+      ]
+    },
+    {
+      "heading": "Two products with different workflows",
+      "body": [
+        "AI Builder uses guided questions and block editing to reduce decisions and accelerate publishing. It fits smaller operators that edit from a phone or do not have a fixed design concept.",
+        "Creator supports visual editing, blogging, store functions, and HTML or CSS adjustments. Because the systems are not compatible, future content, commerce, and code requirements should be decided before production begins."
+      ]
+    },
+    {
+      "heading": "Pricing after the 2026 revision",
+      "body": [
+        "Jimdo bills the selected term in advance. AI Builder also has monthly contracts, while Creator uses feature-based tiers from Pro through Platinum. The relevant comparison includes the renewal domain allowance and the tier required for SEO or commerce.",
+        "A free site is useful for editor testing, but a business domain and removal of platform branding normally require a paid plan. Confirm the current checkout because prices, renewal conditions, and domain charges can change."
+      ],
+      "table": {
+        "headers": [
+          "Product",
+          "Plan",
+          "One year",
+          "Two years"
+        ],
+        "rows": [
+          [
+            "AI Builder",
+            "Start",
+            "JPY 15,480",
+            "JPY 27,600"
+          ],
+          [
+            "AI Builder",
+            "Grow",
+            "JPY 24,840",
+            "JPY 44,640"
+          ],
+          [
+            "Creator",
+            "Pro",
+            "JPY 18,720",
+            "JPY 31,200"
+          ],
+          [
+            "Creator",
+            "Business",
+            "JPY 40,560",
+            "JPY 71,760"
+          ],
+          [
+            "Creator",
+            "SEO PLUS",
+            "JPY 66,300",
+            "JPY 123,240"
+          ],
+          [
+            "Creator",
+            "Platinum",
+            "JPY 83,100",
+            "JPY 154,200"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Domains and search visibility",
+      "body": [
+        "Paid plans can use a Jimdo-managed domain, a transferred domain, or a domain kept at an external registrar. If external mail must remain active, a CNAME connection may be preferable to changing nameservers, depending on the DNS design.",
+        "Creator help covers page titles, descriptions, URLs, images, sitemaps, and Search Console. Search performance still depends on useful pages, local business consistency, internal links, performance, and maintenance rather than the builder name."
+      ]
+    },
+    {
+      "heading": "Commerce and external systems",
+      "body": [
+        "Creator includes store functionality and can present payment methods such as PayPal, Stripe, bank transfer, and cash on delivery. Provider transaction fees may be absent, but payment processing, shipping, returns, inventory, tax, and legal disclosures remain operational responsibilities.",
+        "For booking, membership, customer records, or complex inventory, test an external service and confirm whether important data can be exported before committing."
+      ]
+    },
+    {
+      "heading": "Checks before a paid contract",
+      "body": [
+        "Use the free tier to place real copy, images, navigation, and an enquiry route, then test mobile rendering and routine updates. Before upgrading, document whether the domain remains with an external registrar, the billing term, renewal date, payment owner, and cancellation process.",
+        "A proprietary builder layout rarely transfers intact to another platform. Keep the original copy, images, product information, URL inventory, and legal text outside the builder, then test enquiries and analytics after every major release."
+      ],
+      "bullets": [
+        "Test editing and mobile output on the free tier",
+        "Compare renewal and full-term cost, not only introductory pricing",
+        "Record domain ownership and DNS access",
+        "Keep copy and media outside the platform",
+        "Test forms and measurement after publishing"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Jimdo be used for free?",
+      "answer": "Jimdo provides free plans for testing and basic publishing. A custom domain and business-oriented functions require an appropriate paid plan."
+    },
+    {
+      "question": "Can a site move from AI Builder to Creator?",
+      "answer": "The products are separate and content cannot be directly copied or transferred between them. Select the system after reviewing future requirements."
+    },
+    {
+      "question": "Is Jimdo billed monthly?",
+      "answer": "Available terms include monthly, one-year, and two-year options depending on the product and plan. The selected term is billed according to the current checkout conditions."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Jimdo pricing",
+      "url": "/en/website-builders/jimdo-pricing/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "AI Builder vs Creator",
+      "url": "/en/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs Wix",
+      "url": "/en/website-builders/jimdo-vs-wix/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs Studio",
+      "url": "/en/website-builders/jimdo-vs-studio/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs WordPress",
+      "url": "/en/website-builders/jimdo-vs-wordpress/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo for salon websites",
+      "url": "/en/website-builders/jimdo-salon-website-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo for small business",
+      "url": "/en/website-builders/jimdo-small-business-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo SEO guide",
+      "url": "/en/website-builders/jimdo-seo-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Ochanoko Saisai Review",
+      "url": "/en/website-builders/ochanoko-saisai-review/",
+      "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details"
+    },
+    {
+      "label": "Ochanoko Saisai Pricing",
+      "url": "/en/website-builders/ochanoko-saisai-pricing/",
+      "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial"
+    }
+  ]
+}

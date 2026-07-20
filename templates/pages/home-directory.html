@@ -30,9 +30,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/style.css?v=4.7.0">
+  <link rel="stylesheet" href="/assets/css/style.css?v=5.0.0">
   <script type="application/ld+json">{{structuredData}}</script>
-  <script defer src="/assets/js/analytics-v4.7.0.js"></script>
+  <script defer src="/assets/js/analytics-v4.8.0.js"></script>
   <script defer src="/assets/js/main-v4.7.0.js"></script>
 </head>
 <body>
@@ -41,6 +41,7 @@
   <section class="hero"><div class="container hero-grid"><div><span class="eyebrow">{{homeEyebrow}}</span><h1>{{heroTitle}}</h1><p class="hero-copy">{{heroText}}</p><form action="/{{lang}}/articles/" aria-label="{{homeSearchAriaLabel}}" class="home-search" method="get" role="search"><label for="home-search-{{lang}}">{{homeSearchLabel}}</label><div><input id="home-search-{{lang}}" name="q" placeholder="{{homeSearchPlaceholder}}" type="search"><button class="btn btn-primary" type="submit">{{homeSearchButton}}</button></div></form><div class="actions"><a class="btn btn-secondary" href="/{{lang}}/articles/">{{browseLabel}}</a><a class="btn btn-secondary" href="/{{lang}}/editorial-policy/">{{methodLabel}}</a></div></div><aside class="hero-card"><img alt="" decoding="async" fetchpriority="high" height="512" src="/assets/images/social-icon.webp" width="512"><h2>{{heroCardTitle}}</h2><ul class="check-list">{{heroChecks}}</ul></aside></div></section>
   <section aria-label="{{coverageAriaLabel}}" class="trust-strip"><div class="container trust-grid site-stats"><div class="trust-item"><strong data-home-article-count>{{articleCount}}</strong><span>{{articleCountLabel}}</span></div><div class="trust-item"><strong>{{categoryCount}}</strong><span>{{categoryCountLabel}}</span></div><div class="trust-item"><strong>JA / EN</strong><span>{{languageLabel}}</span></div><div class="trust-item"><strong>{{officialBadge}}</strong><span>{{officialLabel}}</span></div></div></section>
   <section class="section" id="categories"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{categoriesEyebrow}}</span><h2>{{categoriesTitle}}</h2></div><p>{{categoriesLead}}</p></div><div class="grid category-grid category-grid-balanced">{{categoryCards}}</div></div></section>
+  <section class="section section-white persona-section" id="start"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{personaEyebrow}}</span><h2>{{personaTitle}}</h2></div><p>{{personaLead}}</p></div><div class="persona-grid">{{personaLinks}}</div></div></section>
   <section class="section section-white" id="topics"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{topicsEyebrow}}</span><h2>{{topicsTitle}}</h2></div><p>{{topicsLead}}</p></div><div class="topic-link-grid">{{topicLinks}}</div><div class="section-action"><a class="btn btn-secondary" href="/{{lang}}/topics/">{{allTopicsLabel}}</a></div></div></section>
   <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{comparisonsEyebrow}}</span><h2>{{comparisonsTitle}}</h2></div><p>{{comparisonsLead}}</p></div><div class="grid article-directory-grid home-featured-grid">{{comparisonCards}}</div><div class="section-action"><a class="btn btn-secondary" href="/{{lang}}/articles/?type=comparison">{{allComparisonsLabel}}</a></div></div></section>
   <section class="section"><div class="container"><div class="section-heading"><div><span class="eyebrow">{{reviewsEyebrow}}</span><h2>{{reviewsTitle}}</h2></div><p>{{reviewsLead}}</p></div><div class="grid article-directory-grid">{{reviewCards}}</div><div class="section-action"><a class="btn btn-secondary" href="/{{lang}}/articles/?type=review">{{allReviewsLabel}}</a></div></div></section>

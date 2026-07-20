@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Luqevora">
+  <meta property="og:title" content="{{metaTitle}}"><meta property="og:description" content="{{description}}"><meta property="og:url" content="{{canonical}}"><meta property="og:image" content="{{ogImage}}">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{metaTitle}}"><meta name="twitter:description" content="{{description}}"><meta name="twitter:image" content="{{ogImage}}">
+  <meta name="theme-color" content="#0B1F44"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/assets/css/style.css?v=5.2.0">
+  <script type="application/ld+json">{{structuredData}}</script>
+  <script defer src="/assets/js/analytics-v4.8.0.js"></script><script defer src="/assets/js/main-v4.7.0.js"></script><script defer src="/assets/js/product-compare-v3.0.0.js"></script>
+</head>
+<body>
+{{header}}
+<main id="main">
+  <section class="section compare-hero"><div class="container"><nav aria-label="{{breadcrumbAriaLabel}}" class="breadcrumb"><a href="/{{lang}}/">Luqevora</a><span aria-hidden="true">/</span><span>{{breadcrumbCurrent}}</span></nav><span class="eyebrow">{{eyebrow}}</span><h1>{{title}}</h1><p class="hero-copy">{{lead}}</p><div class="catalog-stats">{{stats}}</div></div></section>
+  <section class="section section-white"><div class="container"><div class="compare-controls" data-compare-controls><label>{{searchLabel}}<input type="search" data-product-search placeholder="{{searchPlaceholder}}"></label><label>{{categoryLabel}}<select data-product-category>{{categoryOptions}}</select></label><label>{{pricingLabel}}<select data-product-pricing>{{pricingOptions}}</select></label><button class="btn btn-secondary" type="button" data-product-reset>{{resetLabel}}</button></div><p class="compare-result" aria-live="polite"><strong data-product-count>{{productCount}}</strong> {{resultLabel}}</p><div class="comparison-database" data-product-grid>{{productCards}}</div><p class="compare-empty" data-product-empty hidden>{{emptyLabel}}</p></div></section>
+  <section class="section"><div class="container"><div class="transparency"><div><span class="eyebrow eyebrow-teal">{{methodEyebrow}}</span><h2>{{methodTitle}}</h2><p>{{methodText}}</p></div><ul class="check-list">{{methodChecks}}</ul></div></div></section>
+</main>
+{{footer}}
+</body></html>

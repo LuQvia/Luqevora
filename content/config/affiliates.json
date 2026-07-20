@@ -363,6 +363,84 @@
       "language": "en",
       "destination": "https://www.shin-server.jp/",
       "url": "https://www.shin-server.jp/"
+    },
+    "jimdo-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000003166005",
+      "language": "ja",
+      "destination": "https://www.jimdo.com/jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3HMI6Y+OFG+TRVYQ\" rel=\"nofollow\">ジンドゥー</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B8452+3HMI6Y+OFG+TRVYQ\" alt=\"\">"
+    },
+    "jimdo-software": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000003166005",
+      "language": "ja",
+      "destination": "https://www.jimdo.com/jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3HMI6Y+OFG+TWLPU\" rel=\"nofollow\">ホームページ作成ソフト【ジンドゥー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4B8452+3HMI6Y+OFG+TWLPU\" alt=\"\">"
+    },
+    "jimdo-easy": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000003166005",
+      "language": "ja",
+      "destination": "https://www.jimdo.com/jp/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3HMI6Y+OFG+TWTFM\" rel=\"nofollow\">ありえないほど簡単にホームページができる【ジンドゥー】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www13.a8.net/0.gif?a8mat=4B8452+3HMI6Y+OFG+TWTFM\" alt=\"\">"
+    },
+    "jimdo-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.jimdo.com/jp/",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    "ochanoko-saisai-short": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000015680002",
+      "language": "ja",
+      "destination": "https://www.ocnk.me/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3MDZ16+3CZK+BWVTE\" rel=\"nofollow\">【おちゃのこさいさい】</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B8452+3MDZ16+3CZK+BWVTE\" alt=\"\">"
+    },
+    "ochanoko-saisai-service": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000015680002",
+      "language": "ja",
+      "destination": "https://www.ocnk.me/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3MDZ16+3CZK+BX3J6\" rel=\"nofollow\">ホームページ作成サービス、おちゃのこさいさい</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B8452+3MDZ16+3CZK+BX3J6\" alt=\"\">"
+    },
+    "ochanoko-saisai-salon": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000015680002",
+      "language": "ja",
+      "destination": "https://www.ocnk.me/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3MDZ16+3CZK+BYT9E\" rel=\"nofollow\">おちゃのこさいさい</a>では、店舗・エステ・サロン向けのホームページをテンプレートから選ぶだけで作製できます\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www17.a8.net/0.gif?a8mat=4B8452+3MDZ16+3CZK+BYT9E\" alt=\"\">"
+    },
+    "ochanoko-saisai-coupon": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000015680002",
+      "language": "ja",
+      "destination": "https://www.ocnk.me/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3MDZ16+3CZK+BZ0Z6\" rel=\"nofollow\">おちゃのこさいさい</a>で、カレンダー・クーポン付きホームページを作製\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www19.a8.net/0.gif?a8mat=4B8452+3MDZ16+3CZK+BZ0Z6\" alt=\"\">"
+    },
+    "ochanoko-saisai-long": {
+      "type": "rawHtml",
+      "network": "A8.net",
+      "programId": "s00000015680002",
+      "language": "ja",
+      "destination": "https://www.ocnk.me/",
+      "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4B8452+3MDZ16+3CZK+BZO4I\" rel=\"nofollow\">おちゃのこさいさい</a>は、文字どおりに、おちゃのこさいさい的に<br>\nホームページを作製できます。<br>\nカレンダー・クーポン・商品紹介・スタッフ紹介など基本的な機能を<br>\n盛りだくさん用意しています。<br>\n無料試用期間もあります、是非お試しを！\n\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4B8452+3MDZ16+3CZK+BZO4I\" alt=\"\">"
+    },
+    "ochanoko-saisai-official": {
+      "type": "official",
+      "network": "Official",
+      "language": "en",
+      "destination": "https://www.ocnk.me/",
+      "url": "https://www.ocnk.me/"
     }
   },
   "rules": {

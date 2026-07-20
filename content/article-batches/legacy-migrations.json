@@ -9,6 +9,10 @@
       {
         "label": "ABLENET Rental Server",
         "url": "https://www.ablenet.jp/rentalserver/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://www.ablenet.jp/"
       }
     ],
     "ctas": [
@@ -96,7 +100,7 @@
         "description": "Review ABLENET Rental Server using official information on plans, WordPress, LiteSpeed, backups, SSL, strengths, and limitations.",
         "lead": "This guide explains the Japanese shared-hosting service in a format that helps buyers evaluate WordPress operations and contract terms.",
         "verdict": "ABLENET Rental Server is a candidate for Japan-focused WordPress or business sites whose owners do not want to administer a server. Choose a VPS instead when root access or custom operating-system control is required.",
-        "context": "Before purchase, verify backup restoration, renewal conditions, support channels, and the process for changing plans.",
+        "context": "Before purchase, verify backup restoration, renewal conditions, support channels, and the process for changing plans. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "The shared-hosting service packages the server environment, SSL, WordPress-related tools, security, and backups needed to publish a website.",
         "capabilities": [
           "WordPress installation and operation",
@@ -132,6 +136,10 @@
       {
         "label": "ABLENET VPS",
         "url": "https://www.ablenet.jp/vps/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://www.ablenet.jp/"
       }
     ],
     "ctas": [
@@ -195,7 +203,7 @@
         "description": "Review ABLENET VPS using official information on Linux and Windows plans, Docker, self-hosted AI, WordPress, trials, and administration.",
         "lead": "The service should be chosen with a clear understanding of both server freedom and the maintenance responsibility that comes with it.",
         "verdict": "ABLENET VPS is a candidate for users building Docker environments, development servers, WordPress, or self-hosted applications on Linux or Windows. A managed service is safer when no one can own patching, security, and monitoring.",
-        "context": "AI models and containers can consume substantial memory, CPU, and disk, so do not choose solely from the smallest plan.",
+        "context": "AI models and containers can consume substantial memory, CPU, and disk, so do not choose solely from the smallest plan. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "A VPS gives the customer administrative access to configure the operating system, middleware, containers, and applications for a specific workload.",
         "capabilities": [
           "Choice of Linux or Windows-oriented plans",
@@ -231,6 +239,14 @@
       {
         "label": "ColorfulBox",
         "url": "https://www.colorfulbox.jp/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://www.colorfulbox.jp/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://www.colorfulbox.jp/price/"
       }
     ],
     "ctas": [
@@ -318,7 +334,7 @@
         "description": "Review ColorfulBox using official information on LiteSpeed, WordPress setup, geographically distributed backups, pricing, strengths, and cautions.",
         "lead": "For a Japan-focused WordPress site, evaluate recovery and renewal cost alongside performance features.",
         "verdict": "ColorfulBox is a candidate for Japan-based sites that want LiteSpeed, WordPress setup, and backups in one service. For an important site, test restoration and storage location instead of relying on the existence of automatic backups alone.",
-        "context": "Check campaign price, commitment, renewal total, plan changes, and refund conditions at checkout.",
+        "context": "Check campaign price, commitment, renewal total, plan changes, and refund conditions at checkout. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. The final decision should also account for renewal pricing, administrative ownership, recovery procedures, and the effort required to move data or workloads to another provider. Record the selected plan and review date so future changes can be evaluated consistently.",
         "overview": "The shared host packages WordPress, SSL, email, security, and geographically distributed backup features.",
         "capabilities": [
           "LiteSpeed and WordPress setup",
@@ -354,6 +370,10 @@
       {
         "label": "ConoHa WING",
         "url": "https://www.conoha.jp/wing/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://www.conoha.jp/"
       }
     ],
     "ctas": [
@@ -441,7 +461,7 @@
         "description": "Review ConoHa WING using official information on simplified WordPress setup, backups, domain benefits, pricing, and limitations.",
         "lead": "Evaluate its easy WordPress launch together with the long-term contract and renewal cost.",
         "verdict": "ConoHa WING is a candidate for Japan-based users who want hosting, a domain, WordPress setup, and related services together. Existing-site migrations should also plan email, DNS, and potential downtime.",
-        "context": "Verify commitment length, regular and renewal pricing, auto-renewal, and conditions for retaining any domain benefit.",
+        "context": "Verify commitment length, regular and renewal pricing, auto-renewal, and conditions for retaining any domain benefit. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "The service combines simplified WordPress setup with hosting, custom domains, SSL, backups, and a unified control panel.",
         "capabilities": [
           "Guided WordPress setup",
@@ -591,7 +611,7 @@
         "description": "Compare Hostinger and ABLENET VPS across WordPress, Docker, self-hosted AI, administration, and support.",
         "lead": "Managed hosting and a configurable VPS cannot be judged by headline price alone; the ownership boundary is the deciding factor.",
         "verdict": "Choose Hostinger to publish WordPress and business sites with less administration. Choose ABLENET VPS when you need to build a Linux or Windows server for Docker, AI, or a custom application.",
-        "context": "For a VPS, include administrator time, backups, monitoring, security work, and incident response in the cost.",
+        "context": "For a VPS, include administrator time, backups, monitoring, security work, and incident response in the cost. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overviewHeading": "How the service models differ",
         "overview": "Hostinger packages website operations, while ABLENET provides a virtual server that the customer configures and maintains.",
         "capabilities": [
@@ -755,7 +775,7 @@
         "description": "Compare Hostinger and Japan's Lolipop hosting across pricing, WordPress, performance, support, backups, and site-building features.",
         "lead": "This comparison contrasts Hostinger's international all-in-one platform with a long-running Japanese shared-hosting provider.",
         "verdict": "Choose Hostinger for multi-year introductory pricing and integrated site-building tools. Choose Lolipop when Japanese service information, local support, and Japan-oriented contract options matter more.",
-        "context": "Compare the plans that actually include required backup, storage, site, and renewal conditions—not the lowest advertised monthly amount.",
+        "context": "Compare the plans that actually include required backup, storage, site, and renewal conditions—not the lowest advertised monthly amount. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Both simplify WordPress launch, but their commitments, dashboards, benefits, and support models differ.",
         "capabilities": [
           "Guided WordPress setup and SSL",
@@ -918,7 +938,7 @@
         "description": "Compare Hostinger and Japan's XServer across pricing, renewals, WordPress, backups, support, and domestic or international operation.",
         "lead": "Hostinger emphasizes multi-year introductory value and integrated tools; XServer is a long-running Japan-focused WordPress host.",
         "verdict": "Choose Hostinger for introductory multi-year cost and integrated site-building features. Choose XServer when Japan-focused WordPress operations, Japanese support, and a domestic provider are primary requirements.",
-        "context": "Model several years of renewal, restoration, and domain benefits rather than the first payment alone.",
+        "context": "Model several years of renewal, restoration, and domain benefits rather than the first payment alone. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Both provide WordPress, SSL, and backups, but pricing presentation, administration, infrastructure location, and support differ.",
         "capabilities": [
           "Guided WordPress launch",
@@ -968,6 +988,14 @@
       {
         "label": "mixhost",
         "url": "https://mixhost.jp/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://mixhost.jp/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://help.mixhost.jp/sections/115000432171"
       }
     ],
     "ctas": [
@@ -1055,7 +1083,7 @@
         "description": "Review Japan's mixhost using official information on WordPress, LiteSpeed, cPanel, backups, SSL, renewals, and support.",
         "lead": "Evaluate WordPress performance, cPanel administration, and the full renewal cycle together.",
         "verdict": "mixhost is a candidate for users operating WordPress sites with LiteSpeed and cPanel. Confirm the gap between introductory and renewal pricing, restoration, and resource allowances.",
-        "context": "Test caching and restoration with your real theme and plugin pattern rather than relying on speed claims alone.",
+        "context": "Test caching and restoration with your real theme and plugin pattern rather than relying on speed claims alone. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. The final decision should also account for renewal pricing, administrative ownership, recovery procedures, and the effort required to move data or workloads to another provider. Record the selected plan and review date so future changes can be evaluated consistently.",
         "overview": "The shared host combines WordPress, LiteSpeed, cPanel, SSL, email, and backups.",
         "capabilities": [
           "LiteSpeed web stack",
@@ -1091,6 +1119,14 @@
       {
         "label": "Namecheap",
         "url": "https://www.namecheap.com/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://www.namecheap.com/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://www.namecheap.com/hosting/shared/"
       }
     ],
     "ctas": [
@@ -1154,7 +1190,7 @@
         "description": "Review Namecheap using official information on domains, Whois privacy, hosting, WordPress, VPS, pricing, and limitations.",
         "lead": "Evaluate the registrar through renewal, transfers, DNS, and related hosting rather than the first-year domain price alone.",
         "verdict": "Namecheap is a candidate for buyers who want many TLDs plus DNS and hosting in one international account. A local registrar may fit better when local-language support, domestic billing, or country-domain rules are critical.",
-        "context": "Long-run domain cost is driven by renewal, transfer, privacy, and expiration recovery more than first-year registration.",
+        "context": "Long-run domain cost is driven by renewal, transfer, privacy, and expiration recovery more than first-year registration. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "The registrar offers a broad TLD catalog plus DNS, privacy, shared hosting, WordPress, VPS, email, and SSL products.",
         "capabilities": [
           "Registration and transfer across many TLDs",
@@ -1190,6 +1226,14 @@
       {
         "label": "wpX Speed",
         "url": "https://wpx.jp/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://wpx.jp/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://wpx.jp/service/functions.php"
       }
     ],
     "ctas": [
@@ -1253,7 +1297,7 @@
         "description": "Review wpX Speed using official information on its WordPress-only design, pricing model, NVMe, autoscaling, backups, and limitations.",
         "lead": "Evaluate this WordPress-specific host through traffic variability, billing, and recovery conditions.",
         "verdict": "wpX Speed is a candidate for Japan-focused sites that value a WordPress-specific environment and traffic-spike handling. Verify billing units, autoscaling, backups, and migration—not only monthly price.",
-        "context": "For expected traffic spikes, review load behavior and the official rule when a capacity boundary is reached.",
+        "context": "For expected traffic spikes, review load behavior and the official rule when a capacity boundary is reached. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. The final decision should also account for renewal pricing, administrative ownership, recovery procedures, and the effort required to move data or workloads to another provider. Record the selected plan and review date so future changes can be evaluated consistently.",
         "overview": "The WordPress-only environment includes NVMe-oriented infrastructure, caching, autoscaling, SSL, and backup features.",
         "capabilities": [
           "WordPress-specific hosting",
@@ -1402,7 +1446,7 @@
         "description": "Compare XServer and Lolipop across pricing, WordPress, performance, backups, support, and domain benefits.",
         "lead": "Compare these two Japanese hosts at the plan level that meets required features, not by their lowest advertised price.",
         "verdict": "Choose XServer when longer-term WordPress performance, multiple sites, and support justify the plan. Choose Lolipop when the priority is starting smaller at a lower cost with several plan steps.",
-        "context": "Align compared tiers with site scale, restoration, and required phone, chat, or other support channels.",
+        "context": "Align compared tiers with site scale, restoration, and required phone, chat, or other support channels. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Both package WordPress, SSL, email, and backups, but resource levels, price steps, and support scope differ.",
         "capabilities": [
           "Guided WordPress setup",
@@ -1452,6 +1496,14 @@
       {
         "label": "A8.net",
         "url": "https://www.a8.net/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://www.a8.net/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://www.a8.net/faq/"
       }
     ],
     "ctas": [
@@ -1515,7 +1567,7 @@
         "description": "A practical English guide to the Japan-focused A8.net affiliate network, including profile setup, program search, approval, links, reports, and self-purchase offers.",
         "lead": "Before adding more offers, establish accurate site information, program compliance, disclosure, and conversion tracking.",
         "verdict": "A8.net is a major candidate for publishers targeting Japanese affiliate programs. Start with offers that directly match a reader problem and comply with each advertiser's media, language, and conversion rules.",
-        "context": "Eligibility, prohibited claims, conversion events, rejection rules, and geographic scope differ by program and may be Japanese-only.",
+        "context": "Eligibility, prohibited claims, conversion events, rejection rules, and geographic scope differ by program and may be Japanese-only. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Publishers register a site, search programs, request partnerships, obtain approved creative or links, publish them with disclosure, and review conversions and approval reports.",
         "capabilities": [
           "Program search and partnership applications",
@@ -1626,7 +1678,7 @@
         "description": "Learn the affiliate model, network registration, offer selection, approval, content design, disclosure, link placement, and performance review.",
         "lead": "Build the system in the order of reader problem, primary sources, evaluation criteria, disclosure, and measurement before adding more offers.",
         "verdict": "A safe starting point is one audience problem and two or three programs, supported by official-source comparisons and individual reviews. Avoid mass-producing thin pages or hiding the advertising relationship.",
-        "context": "Income is not guaranteed. Review network and advertiser rules, disclosure, endorsement, privacy, and consumer-protection requirements in every target region.",
+        "context": "Income is not guaranteed. Review network and advertiser rules, disclosure, endorsement, privacy, and consumer-protection requirements in every target region. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Choose a focused topic, prepare the site, join networks, select and apply to programs, then publish decision-helping content with disclosed affiliate links and measurement.",
         "capabilities": [
           "Audience problem and search-intent definition",
@@ -1662,6 +1714,10 @@
       {
         "label": "Google Search Central — Creating helpful content",
         "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://developers.google.com/"
       }
     ],
     "ctas": [],
@@ -1716,7 +1772,7 @@
         "description": "Learn blog monetization models, niche selection, discovery and conversion content, SEO, internal links, and improvement metrics.",
         "lead": "Build around a specific reader problem and useful next action rather than article count or rankings alone.",
         "verdict": "Sustainable monetization combines focused expertise, primary research, discovery content, comparisons and reviews, clear navigation, and ongoing maintenance. Fast income and search traffic are never guaranteed.",
-        "context": "Use Google's people-first content guidance and avoid publishing large volumes designed only to attract search engines.",
+        "context": "Use Google's people-first content guidance and avoid publishing large volumes designed only to attract search engines. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Define an audience and problem, connect educational content to comparison and decision pages through internal links, then monetize through disclosed advertising, products, or services.",
         "capabilities": [
           "Focused subject and audience-problem design",
@@ -1752,6 +1808,14 @@
       {
         "label": "Moshimo Affiliate",
         "url": "https://af.moshimo.com/"
+      },
+      {
+        "label": "公式サイト",
+        "url": "https://af.moshimo.com/"
+      },
+      {
+        "label": "Official pricing / help",
+        "url": "https://af.moshimo.com/af/www/merchant/help"
       }
     ],
     "ctas": [
@@ -1815,7 +1879,7 @@
         "description": "An English guide to Japan-focused Moshimo Affiliate registration, program search, approval, ad links, Easy Link features, and reporting.",
         "lead": "Move from program selection through disclosure and reporting without sacrificing reader trust.",
         "verdict": "Moshimo is a candidate for publishers promoting Japanese retail and service programs. Convenience features do not replace checking advertiser eligibility, products, conversion rules, and prohibited claims.",
-        "context": "Advertiser and platform terms change, so recheck the dashboard when creating a link and during every material article update.",
+        "context": "Advertiser and platform terms change, so recheck the dashboard when creating a link and during every material article update. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Publishers register a property, search and apply to programs, then use approved link-creation features and monitor conversions and approvals.",
         "capabilities": [
           "Program discovery and partnership applications",
@@ -1969,7 +2033,7 @@
         "description": "A beginner guide to starting self-hosted WordPress, including hosting, domains, installation, SSL, settings, themes, plugins, backups, and maintenance.",
         "lead": "Before choosing a host and domain, define the publishing goal, maintenance owner, backup process, and security responsibility.",
         "verdict": "WordPress.org is a flexible publishing platform, but the owner or hosting provider must handle hosting, updates, backups, and security. Start with a maintained theme and the fewest necessary plugins.",
-        "context": "This self-hosted model has a different responsibility boundary from the managed WordPress.com service.",
+        "context": "This self-hosted model has a different responsibility boundary from the managed WordPress.com service. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase. Before adoption, separate essential requirements from optional features and verify user limits, billing terms, add-on costs, permissions, data export, migration procedures, and support scope. Use any free plan or trial to reproduce a realistic workflow with the actual administrators and users, including the ongoing governance burden. Recheck the provider’s current official terms immediately before purchase.",
         "overview": "Define the site, purchase hosting and a domain, install WordPress, then configure SSL, URLs, users, theme, backups, and updates before publishing.",
         "capabilities": [
           "Publishing through posts and pages",

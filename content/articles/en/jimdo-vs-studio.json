@@ -1,0 +1,191 @@
+{
+  "id": "jimdo-vs-studio-en",
+  "translationKey": "jimdo-vs-studio",
+  "language": "en",
+  "type": "comparison",
+  "status": "published",
+  "slug": "jimdo-vs-studio",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Jimdo vs Studio: Guided Setup or Design Flexibility?",
+  "metaTitle": "Jimdo vs Studio: Guided Setup or Design Flexibility?",
+  "description": "Compare Jimdo and Studio by pricing, design control, CMS, domains, collaboration, SEO, page limits, and workflow.",
+  "lead": "Jimdo is suited to small operators who want to enter information and publish quickly, while Studio is oriented toward no-code layout and CMS design. Selection becomes clearer after defining who builds, who updates, and how many pages or collections the site requires.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check Jimdo Japan official plans",
+      "officialUrl": "https://www.jimdo.com/jp/",
+      "affiliateKey": "jimdo-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Jimdo Japan official site",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    {
+      "label": "Jimdo Japan pricing",
+      "url": "https://www.jimdo.com/jp/pricing/"
+    },
+    {
+      "label": "2026 pricing revision",
+      "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+    },
+    {
+      "label": "Commercial transaction pricing disclosure",
+      "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+    },
+    {
+      "label": "AI Builder and Creator comparison",
+      "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+    },
+    {
+      "label": "Jimdo online store overview",
+      "url": "https://www.jimdo.com/jp/website/online-store/"
+    },
+    {
+      "label": "Jimdo Creator SEO help",
+      "url": "https://help.jimdo.com/hc/en-us/categories/115001247063-SEO"
+    },
+    {
+      "label": "Jimdo Creator domain options",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+    },
+    {
+      "label": "Studio pricing",
+      "url": "https://studio.design/ja/pricing"
+    },
+    {
+      "label": "Studio FAQ",
+      "url": "https://studio.design/ja/faq"
+    },
+    {
+      "label": "Studio project billing",
+      "url": "https://help.studio.design/ja/articles/9139530-studio%E3%81%AE%E3%83%97%E3%83%A9%E3%83%B3%E6%96%99%E9%87%91%E6%94%AF%E6%89%95%E3%81%84%E3%81%AF-%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E5%8D%98%E4%BD%8D%E3%81%A7%E3%81%99%E3%81%8B-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E5%8D%98%E4%BD%8D%E3%81%A7%E3%81%99%E3%81%8B"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: guided self-service or designed no-code production",
+      "body": [
+        "Jimdo is well suited to operators who want to publish and maintain a smaller site themselves. Studio is oriented toward designed layouts, CMS models, collaboration, and plan-based page or form limits.",
+        "Jimdo fits a fast local-business presence. Studio should be considered for brand, recruitment, or editorial sites designed by specialists and maintained through structured CMS fields."
+      ]
+    },
+    {
+      "heading": "Pricing structure",
+      "body": [
+        "Jimdo separates AI Builder and Creator plans and bills the selected term. Studio charges by website project and offers Free, Mini, Personal, Business, Business Plus, and Enterprise options.",
+        "Studio annual monthly equivalents begin at JPY 590 for Mini, JPY 1,190 for Personal, JPY 3,980 for Business, and JPY 9,980 for Business Plus. Compare page, CMS, form, and version-history limits rather than price alone."
+      ]
+    },
+    {
+      "heading": "Design, CMS, and editors",
+      "body": [
+        "Jimdo templates and blocks support maintainability for non-designers. Creator can use HTML or CSS, but custom code is managed by the site owner.",
+        "Studio offers flexible no-code layout and CMS design. When production and editorial responsibilities are separate, define fields, permissions, publication steps, and version recovery."
+      ]
+    },
+    {
+      "heading": "Domains, SEO, and migration",
+      "body": [
+        "Custom domains generally require paid plans in both products. Jimdo Creator supports several domain connection approaches, while Studio enables custom domains and analytics integrations from eligible plans.",
+        "Compare titles, descriptions, URLs, redirects, noindex controls, sitemaps, and CMS outputs. Plan migration as a content and URL rebuild rather than an export of the visual layout."
+      ]
+    },
+    {
+      "heading": "Selection rule",
+      "body": [
+        "Jimdo fits a five-to-ten-page site maintained by the business owner. Studio fits a designed site with structured case studies, articles, or team production.",
+        "Build the same small page in each free environment and compare production time, mobile adjustments, editorial permissions, and page growth."
+      ]
+    },
+    {
+      "heading": "Checks before a paid contract",
+      "body": [
+        "Use the free tier to place real copy, images, navigation, and an enquiry route, then test mobile rendering and routine updates. Before upgrading, document whether the domain remains with an external registrar, the billing term, renewal date, payment owner, and cancellation process.",
+        "A proprietary builder layout rarely transfers intact to another platform. Keep the original copy, images, product information, URL inventory, and legal text outside the builder, then test enquiries and analytics after every major release."
+      ],
+      "bullets": [
+        "Test editing and mobile output on the free tier",
+        "Compare renewal and full-term cost, not only introductory pricing",
+        "Record domain ownership and DNS access",
+        "Keep copy and media outside the platform",
+        "Test forms and measurement after publishing"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Jimdo be used for free?",
+      "answer": "Jimdo provides free plans for testing and basic publishing. A custom domain and business-oriented functions require an appropriate paid plan."
+    },
+    {
+      "question": "Can a site move from AI Builder to Creator?",
+      "answer": "The products are separate and content cannot be directly copied or transferred between them. Select the system after reviewing future requirements."
+    },
+    {
+      "question": "Is Jimdo billed monthly?",
+      "answer": "Available terms include monthly, one-year, and two-year options depending on the product and plan. The selected term is billed according to the current checkout conditions."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Jimdo review",
+      "url": "/en/website-builders/jimdo-review/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo pricing",
+      "url": "/en/website-builders/jimdo-pricing/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "AI Builder vs Creator",
+      "url": "/en/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs Wix",
+      "url": "/en/website-builders/jimdo-vs-wix/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo vs WordPress",
+      "url": "/en/website-builders/jimdo-vs-wordpress/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo for salon websites",
+      "url": "/en/website-builders/jimdo-salon-website-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo for small business",
+      "url": "/en/website-builders/jimdo-small-business-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Jimdo SEO guide",
+      "url": "/en/website-builders/jimdo-seo-guide/",
+      "description": "Related official-source comparison and implementation guide"
+    },
+    {
+      "label": "Ochanoko Saisai Review",
+      "url": "/en/website-builders/ochanoko-saisai-review/",
+      "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details"
+    },
+    {
+      "label": "Ochanoko Saisai Pricing",
+      "url": "/en/website-builders/ochanoko-saisai-pricing/",
+      "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial"
+    }
+  ]
+}

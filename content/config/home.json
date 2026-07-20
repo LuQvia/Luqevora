@@ -1,17 +1,17 @@
 {
   "featuredComparisons": [
+    "ochanoko-saisai-vs-goope",
     "shin-rental-server-vs-xserver",
-    "shin-rental-server-vs-conoha-wing",
-    "best-wordpress-hosting-japan",
     "color-me-shop-vs-shopify",
-    "color-me-shop-vs-xserver-shop"
+    "jimdo-vs-wix",
+    "xserver-shop-vs-shopify"
   ],
   "featuredReviews": [
+    "ochanoko-saisai-review",
+    "jimdo-review",
     "shin-rental-server-review",
-    "shin-rental-server-pricing",
-    "shin-rental-server-wordpress",
     "color-me-shop-review",
-    "xserver-shop-review",
-    "jetboy-review"
+    "goope-review",
+    "chatgpt-review"
   ]
 }

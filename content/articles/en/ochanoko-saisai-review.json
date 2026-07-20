@@ -1,0 +1,222 @@
+{
+  "id": "ochanoko-saisai-review-en",
+  "translationKey": "ochanoko-saisai-review",
+  "language": "en",
+  "type": "review",
+  "status": "published",
+  "slug": "ochanoko-saisai-review",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Ochanoko Saisai Review: Pricing, Store Features, and Limits",
+  "metaTitle": "Ochanoko Saisai Review: Pricing, Store Features, and Limits",
+  "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details.",
+  "lead": "Ochanoko Saisai is a Japanese website builder for restaurants, salons, schools, and other local businesses. It combines store information, coupons, calendars, staff pages, blogging, and mobile administration, but it does not provide an ecommerce shopping cart.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the official Ochanoko Saisai plans",
+      "officialUrl": "https://www.ocnk.me/",
+      "affiliateKey": "ochanoko-saisai-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ochanoko Saisai official site",
+      "url": "https://www.ocnk.me/"
+    },
+    {
+      "label": "Ochanoko Saisai pricing",
+      "url": "https://www.ocnk.me/pricing"
+    },
+    {
+      "label": "Ochanoko Saisai feature list",
+      "url": "https://www.ocnk.me/feature"
+    },
+    {
+      "label": "Ochanoko Saisai setup flow",
+      "url": "https://www.ocnk.me/step"
+    },
+    {
+      "label": "Ochanoko Saisai registration page",
+      "url": "https://www.ocnk.me/entry"
+    },
+    {
+      "label": "2024 price revision notice",
+      "url": "https://www.ocnk.me/news?note=20240618"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: a focused builder for local-business information",
+      "body": [
+        "Ochanoko Saisai is a practical option when a small business wants to manage services, staff, coupons, a calendar, news, and blogging without installing a CMS. Basic uses a shared domain; Advanced adds a custom domain, removes platform advertising, and expands limits.",
+        "It is not designed as a full booking or ecommerce system. Complex scheduling may require an external booking service, and product sales require a separate ecommerce platform."
+      ]
+    },
+    {
+      "heading": "Core functions and best-fit use cases",
+      "body": [
+        "The official feature list includes coupons, HTML newsletters, calendars, news, service pages, staff profiles, photo albums, free pages, surveys, blogging, business information, and Google Maps. The administration interface supports smartphones and tablets.",
+        "The product fits smaller local businesses that want stable business information and regular announcements in one interface. It is not an ecommerce platform: the official registration page states that no shopping-cart function is included."
+      ]
+    },
+    {
+      "heading": "Pricing and custom-domain cost",
+      "body": [
+        "Basic costs JPY 1,100 per month on a 12-month equivalent, while Advanced costs JPY 1,980. Shorter contracts have higher monthly equivalents, so the operating period should be defined after the trial.",
+        "Advanced has a JPY 7,920 custom-domain setup fee. If the provider registers the domain, published annual fees include JPY 3,960 for common generic domains, JPY 6,600 for .jp, and JPY 7,920 for .shop. Existing external domains require DNS planning."
+      ],
+      "table": {
+        "headers": [
+          "Plan",
+          "1 month",
+          "6-month monthly equivalent",
+          "12-month monthly equivalent"
+        ],
+        "rows": [
+          [
+            "Basic",
+            "JPY 1,320",
+            "JPY 1,210",
+            "JPY 1,100"
+          ],
+          [
+            "Advanced",
+            "JPY 2,200",
+            "JPY 2,090",
+            "JPY 1,980"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Basic and Advanced",
+      "body": [
+        "Basic includes a shared domain, 1 GB of storage, 20 free pages, 10 email accounts, and platform advertising. It is suitable for a compact or temporary information site.",
+        "Advanced provides a custom domain, no platform advertising, and unlimited storage, free pages, and email accounts. The custom-domain setup and annual registration cost must be added to the total."
+      ],
+      "table": {
+        "headers": [
+          "Item",
+          "Basic",
+          "Advanced"
+        ],
+        "rows": [
+          [
+            "Public URL",
+            "Shared domain",
+            "Custom domain"
+          ],
+          [
+            "Storage",
+            "1 GB",
+            "Unlimited"
+          ],
+          [
+            "Free pages",
+            "20",
+            "Unlimited"
+          ],
+          [
+            "Email accounts",
+            "10",
+            "Unlimited"
+          ],
+          [
+            "Platform advertising",
+            "Displayed",
+            "Removed"
+          ],
+          [
+            "Custom-domain setup",
+            "Not applicable",
+            "JPY 7,920"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "SEO, analytics, and portability",
+      "body": [
+        "Page-level metadata and headers can be configured, and Google Maps plus external analytics tools can be used. Search performance still requires specific services, prices, processes, examples, frequently asked questions, and location information.",
+        "The dedicated templates and administration reduce update work but do not guarantee direct migration to another CMS. Keep the domain, copy, images, and analytics accounts under the business owner’s control."
+      ]
+    },
+    {
+      "heading": "Checks before contracting and after launch",
+      "body": [
+        "During the 30-day trial, place real copy, photographs, menus, store information, and enquiry routes, then test both mobile output and routine administration. Continued use requires completing the contract and payment process from the administration screen.",
+        "A proprietary builder rarely transfers its design and functions directly to another CMS. Keep original copy, images, price tables, staff data, and a URL inventory outside the platform, then retest phone links, forms, maps, and analytics after major changes."
+      ],
+      "bullets": [
+        "Build realistic pages during the trial",
+        "Confirm the term and renewal total",
+        "Record domain and DNS ownership",
+        "Keep original content outside the builder",
+        "Retest enquiries and analytics"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Ochanoko Saisai build an online store?",
+      "answer": "The official registration page states that the service does not include a shopping cart. Compare a separate ecommerce platform when products must be sold online."
+    },
+    {
+      "question": "Is there a free trial?",
+      "answer": "The provider offers a 30-day trial after full registration. Continued use requires completing the contract and payment process."
+    },
+    {
+      "question": "Can it use a custom domain?",
+      "answer": "The Advanced plan supports a custom domain. Include the setup charge and any annual registration fee in the total cost."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Ochanoko Saisai Pricing",
+      "url": "/en/website-builders/ochanoko-saisai-pricing/",
+      "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial"
+    },
+    {
+      "label": "Ochanoko Saisai Basic vs Advanced",
+      "url": "/en/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "description": "Compare shared and custom domains, storage, free pages, email accounts, platform advertising, setup fees, and operating fit"
+    },
+    {
+      "label": "Ochanoko Saisai vs Jimdo",
+      "url": "/en/website-builders/ochanoko-saisai-vs-jimdo/",
+      "description": "Compare store-oriented features, pricing, domains, blogging, ecommerce, design, SEO, and mobile administration"
+    },
+    {
+      "label": "Ochanoko Saisai vs Goope",
+      "url": "/en/website-builders/ochanoko-saisai-vs-goope/",
+      "description": "Compare store information, bookings, coupons, calendars, pricing, domains, email, and support between two Japanese builders"
+    },
+    {
+      "label": "Ochanoko Saisai vs Studio",
+      "url": "/en/website-builders/ochanoko-saisai-vs-studio/",
+      "description": "Compare templates, design control, CMS, store functions, pricing, domains, SEO, collaboration, and operating effort"
+    },
+    {
+      "label": "Building a Salon or Esthetic Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-salon-guide/",
+      "description": "Plan services, staff pages, coupons, calendars, booking routes, photography, policies, and FAQs for a salon website"
+    },
+    {
+      "label": "Building a Restaurant Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-restaurant-guide/",
+      "description": "Plan menus, hours, closures, maps, photography, coupons, phone or booking routes, and allergy information for a restaurant site"
+    },
+    {
+      "label": "Coupon and Calendar Guide for Local-Business Websites",
+      "url": "/en/website-builders/store-website-coupon-calendar-guide/",
+      "description": "Design and operate website coupons, closing-day calendars, events, campaigns, measurement, and maintenance rules"
+    }
+  ]
+}

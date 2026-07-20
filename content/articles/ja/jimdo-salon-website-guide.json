@@ -1,0 +1,185 @@
+{
+  "id": "jimdo-salon-website-guide-ja",
+  "translationKey": "jimdo-salon-website-guide",
+  "language": "ja",
+  "type": "guide",
+  "status": "published",
+  "slug": "jimdo-salon-website-guide",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "広告掲載・公式情報検証",
+  "title": "Jimdoで美容サロンのホームページを作る方法｜構成と注意点",
+  "metaTitle": "Jimdoで美容サロンのホームページを作る方法｜構成と注意点",
+  "description": "Jimdoで美容室・眉毛サロン・エステのサイトを作る際のページ構成、予約導線、料金表示、写真、SEO、法的表示を解説します。",
+  "lead": "美容サロンのホームページは、見た目だけでなく、メニュー、価格、施術時間、予約、アクセス、キャンセル、FAQを迷わず確認できることが重要です。Jimdoの簡単な編集環境を使い、更新担当者が維持できる構成にします。",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora編集部",
+  "featured": true,
+  "affiliateDisclosure": true,
+  "ctas": [
+    {
+      "label": "Jimdoの公式プランを確認",
+      "officialUrl": "https://www.jimdo.com/jp/",
+      "affiliateKey": "jimdo-easy"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ジンドゥー公式サイト",
+      "url": "https://www.jimdo.com/jp/"
+    },
+    {
+      "label": "ジンドゥー料金プラン",
+      "url": "https://www.jimdo.com/jp/pricing/"
+    },
+    {
+      "label": "2026年 有料プラン価格改定",
+      "url": "https://www.jimdo.com/jp/2026/03/18/%E6%9C%89%E6%96%99%E3%83%97%E3%83%A9%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-%E6%96%B0%E8%A6%8F%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E5%90%91%E3%81%91/"
+    },
+    {
+      "label": "特定商取引法に基づく料金表",
+      "url": "https://www.jimdo.com/jp/info/%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E8%A8%98/"
+    },
+    {
+      "label": "AIビルダーとクリエイターの違い",
+      "url": "https://www.jimdo.com/jp/blog-hp-2types-jimdo-kaisetsu/"
+    },
+    {
+      "label": "ジンドゥーのネットショップ",
+      "url": "https://www.jimdo.com/jp/website/online-store/"
+    },
+    {
+      "label": "ジンドゥークリエイター SEOサポート",
+      "url": "https://help.jimdo.com/hc/ja/categories/115001247063-SEO"
+    },
+    {
+      "label": "独自ドメインの導入",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005537906-%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E6%96%B9%E6%B3%95%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99"
+    },
+    {
+      "label": "外部ドメイン接続とDNS",
+      "url": "https://help.jimdo.com/hc/ja/articles/115005533983-%E5%A4%96%E9%83%A8%E3%81%A7%E7%AE%A1%E7%90%86%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E6%8E%A5%E7%B6%9A%E3%81%A8%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-DNS-%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "最初に作る7ページ",
+      "body": [
+        "トップ、メニュー・料金、施術事例、スタッフ、店舗情報・アクセス、予約・問い合わせ、FAQ・キャンセルポリシーを基本にします。ページ数を増やすより、来店前の疑問を短い導線で解消することが重要です。",
+        "医療行為と誤認させる表現、効果保証、根拠のないNo.1、口コミの不適切な加工を避けます。写真の使用許諾、個人情報、特定商取引法表示が必要な販売を行う場合の表示も確認します。"
+      ],
+      "affiliateMaterialKey": "jimdo-easy"
+    },
+    {
+      "heading": "AIビルダーとクリエイターの選択",
+      "body": [
+        "写真と基本情報を早く公開し、ブログやショップを使わない場合はAIビルダーが候補です。施術事例やブログを継続更新し、HTML・CSSやショップ機能を使う場合はクリエイターを比較します。",
+        "両サービスは互換性がないため、将来ブログやオンライン販売を行う可能性があるなら、初期段階でクリエイターを試す価値があります。"
+      ]
+    },
+    {
+      "heading": "予約導線を設計する",
+      "body": [
+        "予約ボタンは各ページの同じ位置に置き、電話、LINE、予約サイト、フォームの役割を整理します。複数導線がある場合は、空き状況と予約変更の管理元を一本化し、二重予約を防ぎます。",
+        "Jimdoだけで複雑な予約管理を完結させる前提にせず、外部予約サービスへのリンクや埋め込みをテストします。スマートフォンでタップしやすいか、遷移後も店舗名とメニューが分かるかを確認します。"
+      ],
+      "affiliateMaterialKey": "jimdo-short"
+    },
+    {
+      "heading": "写真・料金・アクセス",
+      "body": [
+        "写真は外観、入口、施術スペース、スタッフ、仕上がり例を用途別に用意し、過度な加工を避けます。画像を圧縮し、代替テキストを設定します。",
+        "料金は税込表示、所要時間、追加料金、対象条件を同じ画面にまとめます。アクセスには住所、地図、最寄駅、駐車場、建物入口、営業時間、遅刻時の扱いを掲載します。"
+      ]
+    },
+    {
+      "heading": "ローカルSEOと更新",
+      "body": [
+        "店舗名、地域、サービスをページタイトルと見出しに自然に含め、Googleビジネスプロフィールの名称、住所、電話番号と一致させます。地域名だけを大量に並べるページは作らず、実際の店舗情報と事例を増やします。",
+        "月1回は料金、スタッフ、営業時間、キャンセル規定、予約リンクを点検します。閉店・移転・臨時休業の情報はサイト、SNS、地図サービスで同時に更新します。"
+      ]
+    },
+    {
+      "heading": "契約前に確認すること",
+      "body": [
+        "無料版では実際の文章、画像、メニュー、問い合わせ導線を入れ、スマートフォン表示と更新作業を確認します。有料化する前に、独自ドメインをJimdoで管理するか外部事業者に残すか、契約期間、更新日、支払い担当者、解約手順を記録してください。",
+        "ホームページ作成サービスを変更するときは、ページURL、画像、ブログ、フォーム回答、商品、SEO設定がそのまま移行できるとは限りません。原稿と画像の元データを別に保管し、公開後も定期的にページ一覧と問い合わせ動作を点検します。"
+      ],
+      "bullets": [
+        "無料版で編集とスマホ表示を試す",
+        "初回だけでなく更新時の総額を確認する",
+        "ドメインの管理元とDNS変更権限を記録する",
+        "原稿・画像・商品データを別に保管する",
+        "問い合わせと計測タグを公開後にテストする"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Jimdoは無料で使い続けられますか？",
+      "answer": "無料プランがあります。独自ドメインや事業利用に必要な機能を使う場合は有料プランを比較してください。"
+    },
+    {
+      "question": "AIビルダーからクリエイターへサイトを移せますか？",
+      "answer": "両サービスは別システムで互換性がなく、サイト内コンテンツをそのまま移動・複製できません。作成前に必要機能を確認してください。"
+    },
+    {
+      "question": "Jimdoの料金は毎月払いですか？",
+      "answer": "有料プランは1か月、1年、2年などの契約期間があり、選択した期間分が請求されます。クリエイターの提供期間はプランにより異なるため申込画面を確認してください。"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Jimdoレビュー",
+      "url": "/ja/website-builders/jimdo-review/",
+      "description": "料金・機能・契約条件を確認"
+    },
+    {
+      "label": "Jimdo料金プラン比較",
+      "url": "/ja/website-builders/jimdo-pricing/",
+      "description": "2026年改定後の総額を比較"
+    },
+    {
+      "label": "AIビルダーとクリエイターの違い",
+      "url": "/ja/website-builders/jimdo-ai-builder-vs-creator/",
+      "description": "互換性と機能差を確認"
+    },
+    {
+      "label": "JimdoとWixの比較",
+      "url": "/ja/website-builders/jimdo-vs-wix/",
+      "description": "簡単さと拡張性を比較"
+    },
+    {
+      "label": "JimdoとStudioの比較",
+      "url": "/ja/website-builders/jimdo-vs-studio/",
+      "description": "作成速度とデザインを比較"
+    },
+    {
+      "label": "JimdoとWordPressの比較",
+      "url": "/ja/website-builders/jimdo-vs-wordpress/",
+      "description": "保守負担と拡張性を比較"
+    },
+    {
+      "label": "小規模事業向けJimdoガイド",
+      "url": "/ja/website-builders/jimdo-small-business-guide/",
+      "description": "公開から更新まで確認"
+    },
+    {
+      "label": "Jimdo SEO設定ガイド",
+      "url": "/ja/website-builders/jimdo-seo-guide/",
+      "description": "検索設定と改善手順を確認"
+    },
+    {
+      "label": "おちゃのこさいさいの評判・料金・注意点",
+      "url": "/ja/website-builders/ochanoko-saisai-review/",
+      "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します"
+    },
+    {
+      "label": "おちゃのこさいさい料金比較",
+      "url": "/ja/website-builders/ochanoko-saisai-pricing/",
+      "description": "ベーシックとアドバンスドの月額、契約期間、独自ドメイン設定費、ドメイン更新費、無料試用を整理します"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-19T04:13:53.328Z",
+  "generatedAt": "2026-07-19T07:58:03.046Z",
   "generatorVersion": 2,
   "dimensions": "1200x675",
   "format": "jpg",
   "quality": 86,
-  "imageCount": 324,
+  "imageCount": 364,
   "generatedCount": 0,
-  "reusedCount": 324,
+  "reusedCount": 364,
   "images": [
     {
       "route": "/en/ai-tools/ai-meeting-notes-tools/",
@@ -831,6 +831,12 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/best-website-builders-for-beginners/",
+      "image": "source-assets/images/articles/en/website-builders/best-website-builders-for-beginners.jpg",
+      "fingerprint": "9aa075890701b2c576612d9e5b71689223330eb3206d282cca758371eb20dc76",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/color-me-shop-review/",
       "image": "source-assets/images/articles/en/website-builders/color-me-shop-review.jpg",
       "fingerprint": "c16b75342bba06c5d0379bc8b3a596458092935b8daf5957ba66ed01b3ae5f5e",
@@ -885,6 +891,114 @@
       "status": "reused"
     },
     {
+      "route": "/en/website-builders/jimdo-ai-builder-vs-creator/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-ai-builder-vs-creator.jpg",
+      "fingerprint": "2b814405abbcbcc46250f5f8fe0e83a36de0a17e668e789d0500a45ed65761b2",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-pricing/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-pricing.jpg",
+      "fingerprint": "83f937ae1e51c7fcc381eb6f050d734a152bebdaee2153c8a95cabbd0b8ffb8a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-review/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-review.jpg",
+      "fingerprint": "a8787a79be31ddfd3e20caf24812f05e28464216cc0841cc458c69afdee217ba",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-salon-website-guide/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-salon-website-guide.jpg",
+      "fingerprint": "edfe145f4253492edf44e91dd50071d099f3444a96c4b206c69f60ee63cf83de",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-seo-guide/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-seo-guide.jpg",
+      "fingerprint": "03427e4466fb9904f71d68ce9742338bbb45c54ad794a8388eb8312502f5539e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-small-business-guide/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-small-business-guide.jpg",
+      "fingerprint": "289c042fdfefd40e7f2af7a68b22891098cab563266d4f72d94ed36fb8033f46",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-vs-studio/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-vs-studio.jpg",
+      "fingerprint": "63affc9ac0c9bb4f70e32ae16e619d245945cb08e188b85c55ccd1ed7d6ad477",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-vs-wix/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-vs-wix.jpg",
+      "fingerprint": "70baa68c0f07ba818025d3b8f8237c434ff1495f794323fa79ce3d29790c7643",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/jimdo-vs-wordpress/",
+      "image": "source-assets/images/articles/en/website-builders/jimdo-vs-wordpress.jpg",
+      "fingerprint": "9f8e79a8aa5697f367a075be19a7ba25c753ad84cb0e8075ba228ddcb653a7f5",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-basic-vs-advanced.jpg",
+      "fingerprint": "5772e0d9c93289571c801f948f7d458e389706c613d14253e88a7254f57b160e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-pricing/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-pricing.jpg",
+      "fingerprint": "594f30a874659458c4885f1ba55f2285c43191ad0d8386bab6bd8c4e74d7efff",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-restaurant-guide/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-restaurant-guide.jpg",
+      "fingerprint": "dfb41bf10a3798e12a410cdb0d13b58f8eed6be3968047acfb7b4410a7abdb7e",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-review/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-review.jpg",
+      "fingerprint": "70f2e606f0b8a9fd5f0b0e29e7c0c01dd23a0e25d40c23a382fe1a17a6b6635a",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-salon-guide/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-salon-guide.jpg",
+      "fingerprint": "74db8f38d90679ccd4b6e46bb16f0c90aa136a8a350e4774d0a0b7d304117601",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-seo-guide/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-seo-guide.jpg",
+      "fingerprint": "c01d57aebaacaea08a7ff78ac5b66811efac04b6613f7def08f0b2f4b6846c3c",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-vs-goope/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-vs-goope.jpg",
+      "fingerprint": "168135f30baca579140ccbf29b187b818a633ec02791853a3d4be4fdc42d4e17",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-vs-jimdo/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-vs-jimdo.jpg",
+      "fingerprint": "7b814b3bea8d035e0e31853b047d7e7697e13b07a190ab6fa4197e025de95507",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/ochanoko-saisai-vs-studio/",
+      "image": "source-assets/images/articles/en/website-builders/ochanoko-saisai-vs-studio.jpg",
+      "fingerprint": "ff101411bcc28a02f60ea7d126106edaa489b3f6a7d32e02e3ab907d2c2c5061",
+      "status": "reused"
+    },
+    {
       "route": "/en/website-builders/reservation-website-builder-comparison/",
       "image": "source-assets/images/articles/en/website-builders/reservation-website-builder-comparison.jpg",
       "fingerprint": "443770a653806fa4bf5e925be1b3423ab60ee9d50f8dee6142d894ea0058df27",
@@ -936,6 +1050,12 @@
       "route": "/en/website-builders/store-website-builder-comparison/",
       "image": "source-assets/images/articles/en/website-builders/store-website-builder-comparison.jpg",
       "fingerprint": "6b6708bfdc942a024fbc6dc6f8638e48abe17ca2967c8bd988bbb9d85eb63ef9",
+      "status": "reused"
+    },
+    {
+      "route": "/en/website-builders/store-website-coupon-calendar-guide/",
+      "image": "source-assets/images/articles/en/website-builders/store-website-coupon-calendar-guide.jpg",
+      "fingerprint": "8e4200865324118bbd0a22dd7d74b3494403b9766e00ded2e7bb180a02254755",
       "status": "reused"
     },
     {
@@ -1803,6 +1923,12 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/best-website-builders-for-beginners/",
+      "image": "source-assets/images/articles/ja/website-builders/best-website-builders-for-beginners.jpg",
+      "fingerprint": "e76b427f284db41c49df91b3316b40fedfc165b029c01a3cc4e5e98567f24d53",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/color-me-shop-review/",
       "image": "source-assets/images/articles/ja/website-builders/color-me-shop-review.jpg",
       "fingerprint": "caf2af1469a1d548d6bf5729b8620665d50f28161a255b8bce6ed3c3523585b7",
@@ -1857,6 +1983,114 @@
       "status": "reused"
     },
     {
+      "route": "/ja/website-builders/jimdo-ai-builder-vs-creator/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-ai-builder-vs-creator.jpg",
+      "fingerprint": "ac96e53bad28037b93abb8c0cbb5f3b4f01f8dbbc5fea6db0737f1e2dd1d63ed",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-pricing/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-pricing.jpg",
+      "fingerprint": "bc3787ad3251bb398c0df93aeedfcc9ed772930764294d899982d15a9f497c2d",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-review/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-review.jpg",
+      "fingerprint": "86824d3a576ef293b783ca7c5b0e7a68b13d774a6984c1f2ee7360e0a3259cf9",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-salon-website-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-salon-website-guide.jpg",
+      "fingerprint": "1f21a3948472c556c58247d7b1a49375e1684073ef863da3135a080ca3efe2db",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-seo-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-seo-guide.jpg",
+      "fingerprint": "e58e1f89da0e5dcba2e12373578104a1245ea670898c20e50e95299920e88263",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-small-business-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-small-business-guide.jpg",
+      "fingerprint": "dfc3bbe24850cc3b40dc308b60c7c8f853906eb597e90d0d3768c5b0d4c19c20",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-vs-studio/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-vs-studio.jpg",
+      "fingerprint": "7556e01009543bf980d64990d1d6233c2d457344ffe750217cbd35926a0a4460",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-vs-wix/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-vs-wix.jpg",
+      "fingerprint": "a39cf85626e41c1ef36c98922bcd72c980adcb6c33902166452ddf6fda4a51bc",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/jimdo-vs-wordpress/",
+      "image": "source-assets/images/articles/ja/website-builders/jimdo-vs-wordpress.jpg",
+      "fingerprint": "979c47775f20a7db0c8db08fd002317587c2eef91644825132138d663f2cb390",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-basic-vs-advanced.jpg",
+      "fingerprint": "b0be58873763efd2e1b6cc8eea15ab7a60c68fe57ef13078f4518ed918d83d55",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-pricing/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-pricing.jpg",
+      "fingerprint": "a3a5f1c7cfe06e8f0740d6e4dda1a34e50bd0e4c20a7cbc79770fde67a4e919a",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-restaurant-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-restaurant-guide.jpg",
+      "fingerprint": "ce9d08e4d702a127ff6606a433e1e873858d5a1a654b72434a9d0bd926770164",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-review/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-review.jpg",
+      "fingerprint": "49108278db219e3e85501d17693a13ccfcbba3a30f4a6ed932492ea5b24ee67e",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-salon-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-salon-guide.jpg",
+      "fingerprint": "83cfb23b1848fff4925511e9f4f81fe924aea6d4aa9376736cc5ea51267ff946",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-seo-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-seo-guide.jpg",
+      "fingerprint": "b609a9eb00c2a9dca448dfaff59857032a630b2da4ea3382df902d591b74c048",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-vs-goope/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-vs-goope.jpg",
+      "fingerprint": "de8ad5980f903579d741e4900b69377949abfc3790bb8bbae7c86eea70dab2e1",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-vs-jimdo/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-vs-jimdo.jpg",
+      "fingerprint": "bdd92b0c7fa6ead40d0043dbc33a0c022a7099da95a1f885a45ab03b62d29477",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/ochanoko-saisai-vs-studio/",
+      "image": "source-assets/images/articles/ja/website-builders/ochanoko-saisai-vs-studio.jpg",
+      "fingerprint": "b4e7ac87a71c42f0af5b76e8e16f00579e3c13aeca2f913e5013d254efb5e445",
+      "status": "reused"
+    },
+    {
       "route": "/ja/website-builders/reservation-website-builder-comparison/",
       "image": "source-assets/images/articles/ja/website-builders/reservation-website-builder-comparison.jpg",
       "fingerprint": "3cbc561e8b6adbf6edfb63e06c5fcd4d85c91d2eb7594b92a6c55515b12db9b4",
@@ -1908,6 +2142,12 @@
       "route": "/ja/website-builders/store-website-builder-comparison/",
       "image": "source-assets/images/articles/ja/website-builders/store-website-builder-comparison.jpg",
       "fingerprint": "0a4ba60e505822ac0ce17272c4dbc3641048d7c12202b0e3cc1956fdee929594",
+      "status": "reused"
+    },
+    {
+      "route": "/ja/website-builders/store-website-coupon-calendar-guide/",
+      "image": "source-assets/images/articles/ja/website-builders/store-website-coupon-calendar-guide.jpg",
+      "fingerprint": "5d4176423f83ad527ac65a946e304a93130969fe67e84a3db6b4a26c949c3963",
       "status": "reused"
     },
     {

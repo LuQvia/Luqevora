@@ -16,6 +16,7 @@ const categories = await readJson(path.join(root, 'content/config/categories.jso
 const navigation = await readJson(path.join(root, 'content/config/navigation.json'));
 const affiliates = await readJson(path.join(root, 'content/config/affiliates.json'));
 const homeConfig = await readJson(path.join(root, 'content/config/home.json'));
+const productCatalog = await readJson(path.join(root, 'content/products/catalog.json'));
 const seoConfig = await readJson(path.join(root, 'content/config/seo.json'));
 const topics = await readJson(path.join(root, 'content/config/topics.json'));
 const legacyManifest = await readJson(path.join(root, 'content/legacy-manifest.json'));
@@ -28,6 +29,9 @@ const templates = {
   articles: await fs.readFile(path.join(root, 'templates/pages/articles.html'), 'utf8'),
   categoryDirectory: await fs.readFile(path.join(root, 'templates/pages/category-directory.html'), 'utf8'),
   homeDirectory: await fs.readFile(path.join(root, 'templates/pages/home-directory.html'), 'utf8'),
+  compare: await fs.readFile(path.join(root, 'templates/pages/compare.html'), 'utf8'),
+  product: await fs.readFile(path.join(root, 'templates/pages/product.html'), 'utf8'),
+  diagnosis: await fs.readFile(path.join(root, 'templates/pages/diagnosis.html'), 'utf8'),
   topics: await fs.readFile(path.join(root, 'templates/pages/topics.html'), 'utf8'),
   topic: await fs.readFile(path.join(root, 'templates/pages/topic.html'), 'utf8'),
   header: await fs.readFile(path.join(root, 'templates/partials/header.html'), 'utf8'),
@@ -160,11 +164,11 @@ function footer(language) {
   const categoryLinks = categories.map(category => `<a href="/${language}/${category.path}/">${esc(category.name[language])}</a>`).join('');
   const info = language === 'ja'
     ? [
-        ['目的別ガイド', 'topics'], ['記事一覧', 'articles'], ['運営者情報', 'about'], ['編集方針', 'editorial-policy'],
+        ['製品比較DB', 'compare'], ['目的別ガイド', 'topics'], ['記事一覧', 'articles'], ['運営者情報', 'about'], ['編集方針', 'editorial-policy'],
         ['広告掲載方針', 'affiliate-disclosure'], ['プライバシーポリシー', 'privacy'], ['利用規約', 'terms'], ['お問い合わせ', 'contact']
       ]
     : [
-        ['Topic Guides', 'topics'], ['Articles', 'articles'], ['About', 'about'], ['Editorial Policy', 'editorial-policy'],
+        ['Product Database', 'compare'], ['Topic Guides', 'topics'], ['Articles', 'articles'], ['About', 'about'], ['Editorial Policy', 'editorial-policy'],
         ['Affiliate Disclosure', 'affiliate-disclosure'], ['Privacy', 'privacy'], ['Terms', 'terms'], ['Contact', 'contact']
       ];
   return render(templates.footer, {
@@ -305,16 +309,73 @@ function renderArticleCtas(article) {
     hasAffiliate ||= isAffiliate;
     const href = affiliateUrl || cta.officialUrl;
     const rel = isAffiliate ? affiliates.rules.defaultRel : 'noopener noreferrer';
-    const attributes = isAffiliate ? `data-affiliate-key="${esc(cta.affiliateKey)}" data-affiliate-link="true"` : 'data-official-link="true"';
+    const attributes = isAffiliate ? `data-affiliate-key="${esc(cta.affiliateKey)}" data-affiliate-link="true" data-affiliate-product="${esc(cta.affiliateKey)}"` : 'data-official-link="true"';
     return `<a class="article-cta-link" data-link-position="article-cta" href="${esc(href)}" rel="${esc(rel)}" target="${esc(affiliates.rules.externalTarget || '_blank')}" ${attributes}>${esc(cta.label)}<span aria-hidden="true"> →</span></a>`;
   }).join('');
   if (!links) return {html: '', hasAffiliate};
   const title = currentLabel(article.language, '公式ページで最新条件を確認', 'Check current terms on the official site');
   const note = currentLabel(article.language, '料金、割引、対象機能、契約期間は変更されるため、申込画面の表示を優先してください。', 'Prices, discounts, included features, and billing terms can change. Rely on the checkout page before purchase.');
   return {
-    html: `<aside aria-label="${esc(title)}" class="article-cta-panel"><strong>${esc(title)}</strong><div class="article-cta-links">${links}</div><p>${esc(note)}</p></aside>`,
+    html: `<aside id="offer" aria-label="${esc(title)}" class="article-cta-panel"><strong>${esc(title)}</strong><div class="article-cta-links">${links}</div><p>${esc(note)}</p></aside>`,
     hasAffiliate
   };
+}
+
+
+function sentenceSnippet(value = '') {
+  const text = plainText(value);
+  if (!text) return '';
+  const pieces = text.split(/(?<=[。！？.!?])\s*/).filter(Boolean);
+  return (pieces[0] || text).slice(0, 180);
+}
+
+function renderThreePointSummary(article) {
+  const candidates = [
+    article.lead,
+    ...(article.sections || []).flatMap(section => [section.body?.[0], ...(section.bullets || [])])
+  ].filter(Boolean).map(sentenceSnippet);
+  const points = [...new Set(candidates)].filter(Boolean).slice(0, 3);
+  if (!points.length) return '';
+  const title = currentLabel(article.language, '3点でわかる要約', 'Three-point summary');
+  return `<section class="three-point-summary" id="three-point-summary"><span class="eyebrow">${esc(currentLabel(article.language, 'まず確認', 'At a glance'))}</span><h2>${esc(title)}</h2><ol>${points.map(point => `<li>${esc(point)}</li>`).join('')}</ol></section>`;
+}
+
+function renderProsCautions(article) {
+  const sections = article.sections || [];
+  const positivePattern = /メリット|強み|利点|特徴|おすすめ|benefit|advantage|strength|best/i;
+  const cautionPattern = /デメリット|注意|弱点|制約|欠点|対象外|確認|caveat|constraint|limit|drawback|watch/i;
+  const positive = sections.filter(section => positivePattern.test(section.heading || '')).flatMap(section => section.bullets || section.body || []);
+  const caution = sections.filter(section => cautionPattern.test(section.heading || '')).flatMap(section => section.bullets || section.body || []);
+  const negativeSignal = /ではありません|できません|非対応|対象外|注意|制約|弱点|not |cannot|does not|unsupported|excluded|caveat|constraint/i;
+  const fallbackPositive = sections
+    .filter(section => !cautionPattern.test(section.heading || ''))
+    .flatMap(section => [...(section.bullets || []), ...(section.body || [])])
+    .filter(item => !negativeSignal.test(plainText(item)))
+    .slice(0, 6);
+  const fallbackCaution = article.language === 'ja'
+    ? ['最新料金と契約期間を公式画面で再確認する', '解約・移行・データ保持条件を契約前に確認する', '必要な機能が対象プランに含まれるか確認する']
+    : ['Recheck current pricing and billing terms on the official site', 'Confirm cancellation, migration, and data-retention conditions', 'Verify that required features are included in the selected plan'];
+  const pros = [...new Set((positive.length ? positive : fallbackPositive).map(sentenceSnippet))].filter(Boolean).slice(0, 3);
+  const cautions = [...new Set((caution.length ? caution : fallbackCaution).map(sentenceSnippet))].filter(Boolean).slice(0, 3);
+  return `<section class="pros-cautions" id="pros-cautions"><div class="pros-panel"><span class="fit-label">${esc(currentLabel(article.language, '確認できる利点', 'Supported advantages'))}</span><ul>${pros.map(item => `<li>${esc(item)}</li>`).join('')}</ul></div><div class="cautions-panel"><span class="fit-label">${esc(currentLabel(article.language, '契約前の注意点', 'Pre-purchase checks'))}</span><ul>${cautions.map(item => `<li>${esc(item)}</li>`).join('')}</ul></div></section>`;
+}
+
+function renderArticleDates(article) {
+  const published = formatDate(article.publishedAt, article.language);
+  const updated = formatDate(article.updatedAt, article.language);
+  const verified = formatDate(article.verifiedAt, article.language);
+  const labels = article.language === 'ja'
+    ? [['公開日', published], ['更新日', updated], ['公式情報確認日', verified]]
+    : [['Published', published], ['Updated', updated], ['Official information checked', verified]];
+  return `<dl class="article-date-grid">${labels.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>`;
+}
+
+function renderClosingDecision(article, hasOffer) {
+  const title = currentLabel(article.language, '次の行動', 'Next action');
+  const text = hasOffer
+    ? currentLabel(article.language, '申込前に料金・対象機能・契約期間を公式画面で確認してください。広告リンクは上部の案内欄にまとめています。', 'Before signing up, verify pricing, included features, and billing terms on the official page. The relevant link is grouped in the offer panel above.')
+    : currentLabel(article.language, '公式情報と比較条件を再確認し、要件に合う候補だけを残してください。', 'Recheck the official information and comparison criteria, then shortlist only the options that meet your requirements.');
+  return `<section class="closing-decision"><h2>${esc(title)}</h2><p>${esc(text)}</p>${hasOffer ? `<a class="closing-decision-link" href="#offer">${esc(currentLabel(article.language, '公式条件の確認欄へ戻る', 'Return to the official-offer panel'))} ↑</a>` : ''}</section>`;
 }
 
 function decisionSummary(article) {
@@ -323,6 +384,53 @@ function decisionSummary(article) {
   const title = currentLabel(article.language, '先に結論', 'Decision summary');
   const list = points.length ? `<ul>${points.map(point => `<li>${esc(point)}</li>`).join('')}</ul>` : '';
   return `<section class="decision-summary" id="decision-summary"><span class="eyebrow">${esc(currentLabel(article.language, '判断の要点', 'Key decision'))}</span><h2>${esc(title)}</h2><p>${esc(conclusion)}</p>${list}</section>`;
+}
+
+
+function editorialEvaluation(article) {
+  const sections = article.sections || [];
+  const sourceCount = (article.sources || []).length;
+  const tableCount = sections.filter(section => section.table).length;
+  const bulletCount = sections.flatMap(section => section.bullets || []).length;
+  const faqCount = (article.faqs || []).length;
+  const text = sections.flatMap(section => [section.heading, ...(section.body || []), ...(section.bullets || [])]).join(' ').toLowerCase();
+  const pricingSignals = (text.match(/料金|価格|費用|月額|年額|price|pricing|cost|billing/g) || []).length;
+  const constraintSignals = (text.match(/注意|制約|弱点|対象外|解約|移行|上限|条件|caveat|constraint|limit|cancel|migration/g) || []).length;
+  const scores = [
+    Math.min(96, 66 + Math.min(sourceCount, 10) * 3),
+    Math.min(96, 68 + Math.min(pricingSignals, 8) * 3 + Math.min(tableCount, 2) * 2),
+    Math.min(96, 68 + Math.min(constraintSignals, 8) * 3),
+    Math.min(96, 70 + Math.min(sections.length, 8) * 2 + Math.min(bulletCount, 6)),
+    Math.min(96, 72 + Math.min(faqCount, 5) * 3 + (article.verifiedAt ? 5 : 0))
+  ];
+  const overall = Math.round(scores.reduce((sum, value) => sum + value, 0) / scores.length);
+  return {overall, scores};
+}
+
+function renderEditorialScorecard(article) {
+  if (article.type !== 'review') return '';
+  const evaluation = editorialEvaluation(article);
+  const labels = article.language === 'ja'
+    ? ['公式情報網羅度', '料金条件の明確さ', '制約・注意点', '判断支援の充実度', '更新・検証管理']
+    : ['Official-source coverage', 'Pricing clarity', 'Constraints and caveats', 'Decision support', 'Update and verification'];
+  const rows = labels.map((label, index) => `<div class="score-row"><span>${esc(label)}</span><div class="score-track" aria-hidden="true"><i style="width:${evaluation.scores[index]}%"></i></div><strong>${evaluation.scores[index]}</strong></div>`).join('');
+  const note = currentLabel(article.language,
+    '記事内の公式出典、料金情報、制約説明、比較材料、確認日の充実度を共通ルールで採点した「記事の検証品質」です。サービス自体の性能や利用者満足度を示す点数ではありません。',
+    'This is an evidence-quality score based on official sources, pricing detail, caveat coverage, decision support, and verification records. It does not measure product performance or customer satisfaction.');
+  return `<section class="editorial-scorecard" id="editorial-score"><div class="score-overall"><span>${esc(currentLabel(article.language, '記事検証スコア', 'Evidence quality score'))}</span><strong>${evaluation.overall}<small>/100</small></strong></div><div class="score-details">${rows}</div><p>${esc(note)}</p></section>`;
+}
+
+function renderFitPanel(article) {
+  const bullets = [...new Set((article.sections || []).flatMap(section => section.bullets || []))];
+  const recommend = bullets.slice(0, 3);
+  const fallbackRecommend = article.language === 'ja'
+    ? ['公式情報を確認しながら比較したい人', '料金だけでなく運用条件も重視する人', '契約前に制約を整理したい人']
+    : ['Readers comparing provider-owned information', 'Teams evaluating operating conditions as well as price', 'Buyers who want constraints clear before purchase'];
+  const avoid = article.language === 'ja'
+    ? ['要件を整理せず最安価格だけで決めたい人', '移行・解約・データ保持条件を確認しない人', '記事確認日以降の変更を公式画面で再確認できない人']
+    : ['Buyers choosing only the lowest headline price', 'Teams that will not check migration, cancellation, or data-retention terms', 'Readers unable to recheck changes after the verification date'];
+  const recommendedItems = (recommend.length ? recommend : fallbackRecommend).map(item => `<li>${esc(item)}</li>`).join('');
+  return `<section class="fit-panel" id="fit"><div class="fit-column fit-positive"><span class="fit-label">${esc(currentLabel(article.language, '向いている人', 'Best suited for'))}</span><ul>${recommendedItems}</ul></div><div class="fit-column fit-caution"><span class="fit-label">${esc(currentLabel(article.language, '慎重に検討したい人', 'Consider alternatives if'))}</span><ul>${avoid.map(item => `<li>${esc(item)}</li>`).join('')}</ul></div></section>`;
 }
 
 function evidencePanel(article, topic) {
@@ -391,7 +499,7 @@ async function normalizePublicChrome() {
     if (!site.languages.includes(language)) continue;
     const currentCategory = categories.some(category => category.id === parts[1])
       ? parts[1]
-      : parts[1] === 'articles' ? 'articles' : parts[1] === 'topics' ? 'topics' : '';
+      : parts[1] === 'articles' ? 'articles' : parts[1] === 'topics' ? 'topics' : parts[1] === 'compare' ? 'compare' : '';
     const alternateLanguage = language === 'ja' ? 'en' : 'ja';
     const tail = parts.slice(1, -1);
     const alternateUrl = `/${alternateLanguage}/${tail.length ? `${tail.join('/')}/` : ''}`;
@@ -406,7 +514,7 @@ async function normalizePublicChrome() {
     if (cookieOnly) html = html.replace(/<section\b[^>]*class=["'][^"']*\bcookie-banner\b[^"']*["'][^>]*>[\s\S]*?<\/section>/i, cookieOnly);
     html = html.replaceAll('レビューレビュー', 'レビュー').replaceAll('ガイドガイド', 'ガイド').replaceAll('比較比較', '比較');
     html = html.replace(/\/assets\/css\/style\.css(?:\?v=[^"']+)?/g, `/assets/css/style.css?v=${site.assetVersion}`);
-    html = html.replace(/\/assets\/js\/analytics-v4\.\d+\.\d+\.js/g, '/assets/js/analytics-v4.7.0.js');
+    html = html.replace(/\/assets\/js\/analytics-v4\.\d+\.\d+\.js/g, '/assets/js/analytics-v4.8.0.js');
     html = html.replace(/\/assets\/js\/main-v4\.\d+\.\d+\.js/g, '/assets/js/main-v4.7.0.js');
     html = html.replace(/\/assets\/js\/article-directory-v4\.\d+\.\d+\.js/g, '/assets/js/article-directory-v4.7.0.js');
     html = replaceOrInsertXDefault(html, defaultUrl);
@@ -473,13 +581,19 @@ for (const article of articles) {
     : '';
   const related = semanticRelated(article);
   const topicUrl = topic ? `/${article.language}/topics/${topic.id}/` : `/${article.language}/articles/`;
-  const relatedHtml = `<section aria-labelledby="related-heading" class="related-articles-block"><div class="related-articles-heading"><h2 id="related-heading">${currentLabel(article.language, '次に読む比較・レビュー', 'What to read next')}</h2><a href="${topicUrl}">${currentLabel(article.language, '目的別ガイドへ →', 'Topic guide →')}</a></div>${related.length ? `<div class="related-articles-grid">${related.map(item => `<a class="related-article-card" href="${urlPath(item.language, item.category, item.slug)}"><strong>${esc(item.title)}</strong><span>${esc(seoDescription(item, seoConfig))}</span></a>`).join('')}</div>` : ''}</section>`;
+  const relatedGroups = ['comparison', 'review', 'guide'].map(type => ({type, items: related.filter(item => item.type === type)})).filter(group => group.items.length);
+  const linkedProducts = (productCatalog.products || []).filter(product => (product.relatedArticles || []).some(item => item.language === article.language && item.url === urlPath(article.language, article.category, article.slug))).slice(0, 3);
+  const productHubHtml = linkedProducts.length ? `<div class="article-product-hubs"><h3>${currentLabel(article.language, '製品データも確認', 'Check product data')}</h3>${linkedProducts.map(product => `<a class="related-article-card" data-track-event="article_product_hub" data-link-position="article-related-product" data-product-id="${esc(product.id)}" href="/${article.language}/products/${product.id}/"><strong>${esc(product.name)}</strong><span>${esc(product.pricing?.[article.language] || product.positioning?.[article.language] || '')}</span></a>`).join('')}</div>` : '';
+  const relatedHtml = `<section aria-labelledby="related-heading" class="related-articles-block"><div class="related-articles-heading"><h2 id="related-heading">${currentLabel(article.language, '次に読む記事', 'What to read next')}</h2><a href="${topicUrl}">${currentLabel(article.language, '目的別ガイドへ →', 'Topic guide →')}</a></div>${productHubHtml}${relatedGroups.map(group => `<div class="related-role-group"><h3>${esc(contentTypeLabel(group.type, article.language))}</h3><div class="related-articles-grid">${group.items.map(item => `<a class="related-article-card" href="${urlPath(item.language, item.category, item.slug)}"><strong>${esc(item.title)}</strong><span>${esc(seoDescription(item, seoConfig))}</span></a>`).join('')}</div></div>`).join('')}</section>`;
   const formattedVerified = formatDate(article.verifiedAt, article.language);
   const disclosure = article.affiliateDisclosure || articleCtas.hasAffiliate
     ? `<div class="editorial-note disclosure-note"><p><strong>${currentLabel(article.language, '広告開示：', 'Affiliate disclosure:')}</strong> ${esc(affiliates.rules.sponsoredLabel[article.language])}</p></div>`
     : `<div class="editorial-note disclosure-note"><p><strong>${currentLabel(article.language, '広告開示：', 'Affiliate disclosure:')}</strong> ${currentLabel(article.language, '公開時点でアフィリエイトリンクを含みません。追加時はリンク付近と', 'No affiliate links are included as of publication. If added, they will be disclosed near the link and in our ')}<a href="/${article.language}/affiliate-disclosure/">${currentLabel(article.language, '広告掲載方針', 'Affiliate Disclosure')}</a>${currentLabel(article.language, 'で明示します。', ' page.')}</p></div>`;
   const editorialNote = `<div class="editorial-note"><p><strong>${currentLabel(article.language, '調査方針：', 'Research policy:')}</strong> ${currentLabel(article.language, `${article.title}について、記事末尾に示す提供元の公式情報を優先して確認しました。料金・機能・条件は契約前に公式画面で再確認してください。`, `For ${article.title}, we prioritized the provider-owned sources listed below. Recheck prices, features, and terms on the official site before purchase.`)}</p><p><strong>${currentLabel(article.language, '料金表記：', 'Pricing:')}</strong> ${currentLabel(article.language, '公式に円価格がある場合は円で掲載します。円価格がない場合は公式通貨を記載し、独自の為替換算は行いません。', 'We use the provider’s official currency and do not publish independent exchange-rate conversions.')}</p></div>`;
-  const tocItems = [`<li><a href="#decision-summary">${currentLabel(article.language, '先に結論', 'Decision summary')}</a></li>`];
+  const tocItems = [`<li><a href="#three-point-summary">${currentLabel(article.language, '3点要約', 'Three-point summary')}</a></li>`, `<li><a href="#decision-summary">${currentLabel(article.language, '先に結論', 'Decision summary')}</a></li>`];
+  if (article.type === 'review') tocItems.push(`<li><a href="#editorial-score">${currentLabel(article.language, '編集評価', 'Editorial score')}</a></li>`);
+  tocItems.push(`<li><a href="#pros-cautions">${currentLabel(article.language, '利点と注意点', 'Advantages and cautions')}</a></li>`);
+  tocItems.push(`<li><a href="#fit">${currentLabel(article.language, '向いている人', 'Best fit')}</a></li>`);
   tocItems.push(...(article.sections || []).map((section, index) => `<li><a href="#section-${index + 1}">${esc(section.heading)}</a></li>`));
   if ((article.faqs || []).length) tocItems.push(`<li><a href="#faq">${currentLabel(article.language, 'よくある質問', 'FAQ')}</a></li>`);
   tocItems.push(`<li><a href="#evidence">${currentLabel(article.language, '調査範囲', 'Evidence record')}</a></li>`);
@@ -505,11 +619,16 @@ for (const article of articles) {
     badge: esc(article.badge || currentLabel(article.language, '記事', 'Article')),
     title: esc(article.title),
     lead: esc(article.lead || article.description),
-    publishedLabel: currentLabel(article.language, `公開・最終確認：${formattedVerified}`, `Published / verified: ${formattedVerified}`),
+    publishedLabel: currentLabel(article.language, `公式情報確認：${formattedVerified}`, `Official information checked: ${formattedVerified}`),
+    articleDates: renderArticleDates(article),
     authorLabel: currentLabel(article.language, `執筆：${article.author || site.organization.name}`, `By ${article.author || site.organization.name}`),
     heroAffiliateDisclosure: articleCtas.hasAffiliate ? `<p class="hero-affiliate-disclosure"><strong>${currentLabel(article.language, '広告', 'Advertisement')}</strong> ${esc(affiliates.rules.sponsoredLabel[article.language])}</p>` : '',
     featuredImage: decision.indexable ? `<figure class="article-featured-image"><img alt="${esc(article.title)}" decoding="async" fetchpriority="high" height="${seoConfig.images.height}" src="${imagePath}" width="${seoConfig.images.width}"><figcaption>${esc(currentLabel(article.language, `${article.title}の判断ポイントを示すオリジナル画像`, `Original visual for ${article.title}`))}</figcaption></figure>` : '',
+    threePointSummary: renderThreePointSummary(article),
     decisionSummary: decisionSummary(article),
+    editorialScorecard: renderEditorialScorecard(article),
+    prosCautions: renderProsCautions(article),
+    fitPanel: renderFitPanel(article),
     editorialNote,
     affiliateDisclosure: disclosure,
     articleCtas: articleCtas.html,
@@ -517,6 +636,7 @@ for (const article of articles) {
     faq: faqHtml,
     evidencePanel: evidencePanel(article, topic),
     sources: sourceHtml,
+    closingDecision: renderClosingDecision(article, Boolean(articleCtas.html)),
     relatedArticles: relatedHtml,
     updateNote: currentLabel(article.language, `情報確認日：${formattedVerified}。料金、機能、条件の変更を確認した場合に更新します。`, `Information verified ${formattedVerified}. We update this page when prices, features, or terms change.`),
     tocAriaLabel: currentLabel(article.language, '目次', 'Table of contents'),
@@ -725,6 +845,11 @@ for (const language of site.languages) {
         itemListElement: records.map((record, index) => ({'@type': 'ListItem', position: index + 1, url: `${site.baseUrl}${record.url}`, name: record.title}))
       }
     };
+    const comparisonRecords = records.filter(record => record.type === 'comparison');
+    const reviewRecords = records.filter(record => record.type === 'review');
+    const guideRecords = records.filter(record => record.type === 'guide');
+    const categoryMix = `<div class="category-mix-grid"><a href="/${language}/articles/?category=${esc(category.id)}&type=comparison"><strong>${comparisonRecords.length}</strong><span>${currentLabel(language, '比較記事', 'Comparisons')}</span></a><a href="/${language}/articles/?category=${esc(category.id)}&type=review"><strong>${reviewRecords.length}</strong><span>${currentLabel(language, '個別レビュー', 'Reviews')}</span></a><a href="/${language}/articles/?category=${esc(category.id)}&type=guide"><strong>${guideRecords.length}</strong><span>${currentLabel(language, '実践ガイド', 'Guides')}</span></a></div>`;
+    const featuredCategoryRecords = [...comparisonRecords.slice(0, 3), ...reviewRecords.slice(0, 3)].slice(0, 6);
     const relatedCategories = categories.filter(candidate => candidate.id !== category.id).map(candidate => {
       const count = articleRecords.filter(record => record.language === language && record.category === candidate.id).length;
       return `<a class="related-category-link" href="/${language}/${candidate.path}/"><span>${esc(candidate.id.split('-').map(part => part[0]).join('').toUpperCase())}</span><strong>${esc(candidate.name[language])}</strong><small>${count} ${currentLabel(language, '件', 'articles')}</small></a>`;
@@ -753,7 +878,11 @@ for (const language of site.languages) {
       pointThreeText: currentLabel(language, '向いている用途と、契約前に確認すべき制約を明示します。', 'Identify the best-fit use cases and the constraints to verify before purchase.'),
       articlesEyebrow: currentLabel(language, '記事', 'Articles'),
       articlesTitle: currentLabel(language, 'このカテゴリの記事', 'Articles in this category'),
-      articlesLead: currentLabel(language, '検索対象として優先した比較・レビュー・ガイドを、新しい確認日順に表示します。', 'Priority comparisons, reviews, and guides are listed by latest verification date.'),
+      articlesLead: currentLabel(language, '公開中の比較・レビュー・ガイドを、新しい確認日順に表示します。', 'Published comparisons, reviews, and guides are listed by latest verification date.'),
+      categoryMix,
+      featuredTitle: currentLabel(language, 'まず読むべき比較・レビュー', 'Start with these comparisons and reviews'),
+      featuredLead: currentLabel(language, '選択肢を絞り込むために、比較記事と主要レビューを先に確認できます。', 'Use these comparisons and core reviews to narrow your shortlist.'),
+      featuredCards: featuredCategoryRecords.map(record => renderDirectoryCard(record, language).replace('article-directory-card', 'category-featured-card')).join(''),
       articleCards: records.map(record => renderDirectoryCard(record, language)).join(''),
       topicsEyebrow: currentLabel(language, '目的別', 'Topics'),
       topicsTitle: currentLabel(language, '目的から記事を探す', 'Browse this category by goal'),
@@ -772,7 +901,7 @@ for (const language of site.languages) {
   const availableTopics = topics.filter(topic => records.some(record => record.topic === topic.id));
   const canonical = `${site.baseUrl}/${language}/`;
   const pageTitle = currentLabel(language, 'AI・SaaS・Webサービス比較 | Luqevora', 'AI, SaaS & Web Service Comparisons | Luqevora');
-  const description = currentLabel(language, `優先度の高い${records.length}件のAI・SaaS・Webサービス比較、レビュー、ガイドを公式情報で整理。料金・機能・制約から選べます。`, `Explore ${records.length} priority comparisons, reviews, and guides for AI, SaaS, and web services using provider-owned pricing, feature, and policy sources.`);
+  const description = currentLabel(language, `AI・SaaS・Webサービスの比較、レビュー、ガイドを${records.length}件掲載。公式情報を基に料金・機能・制約を整理します。`, `Explore ${records.length} AI, SaaS, and web-service comparisons, reviews, and guides based on provider-owned pricing, feature, and policy sources.`);
   const comparisons = configuredHomeRecords(records, 'comparison', homeConfig.featuredComparisons, 5);
   const reviews = configuredHomeRecords(records, 'review', homeConfig.featuredReviews, 6);
   const categoryIcons = {'ai-tools': 'AI', 'website-builders': 'WEB', 'seo-marketing': 'SEO', 'business-software': 'OPS', 'hosting-security': 'SEC'};
@@ -780,6 +909,12 @@ for (const language of site.languages) {
     const count = records.filter(record => record.category === category.id).length;
     return `<a class="card category-summary-card" data-category-count="${count}" data-category-id="${esc(category.id)}" href="/${language}/${category.path}/"><span class="arrow" aria-hidden="true">↗</span><span class="card-icon">${esc(categoryIcons[category.id] || category.id.slice(0, 3).toUpperCase())}</span><h3>${esc(category.name[language])}</h3><p>${esc(category.description?.[language] || '')}</p><span class="category-count">${esc(currentLabel(language, `${count} 件`, `${count} articles`))}</span></a>`;
   }).join('');
+  const personaLinks = [
+    {label: currentLabel(language, 'はじめて導入する', 'First-time buyer'), text: currentLabel(language, '使いやすさと初期費用から選ぶ', 'Prioritize ease of use and setup cost'), url: `/${language}/topics/website-builders/`},
+    {label: currentLabel(language, '法人・チームで使う', 'Business and teams'), text: currentLabel(language, '権限、管理、サポートを確認', 'Check administration, permissions, and support'), url: `/${language}/business-software/`},
+    {label: currentLabel(language, '店舗・ECを作る', 'Storefront and ecommerce'), text: currentLabel(language, '予約、決済、運用負荷を比較', 'Compare booking, payments, and operating effort'), url: `/${language}/topics/ecommerce-platforms/`},
+    {label: currentLabel(language, '集客を強化する', 'Grow acquisition'), text: currentLabel(language, 'SEO、メール、分析ツールを探す', 'Explore SEO, email, and analytics tools'), url: `/${language}/seo-marketing/`}
+  ].map(item => `<a class="persona-card" href="${item.url}"><strong>${esc(item.label)}</strong><span>${esc(item.text)}</span><i aria-hidden="true">→</i></a>`).join('');
   const graph = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -814,7 +949,7 @@ for (const language of site.languages) {
     heroCardTitle: currentLabel(language, '判断に必要な情報だけを明確に', 'Clear information for better decisions'),
     heroChecks: currentLabel(language, '<li>公式ページを優先して確認</li><li>向いている人と制約を明示</li><li>情報確認日と出典を掲載</li>', '<li>Official sources prioritized</li><li>Best-fit users and constraints stated</li><li>Verification dates and sources included</li>'),
     articleCount: records.length,
-    articleCountLabel: currentLabel(language, '検索対象の記事', 'search-ready articles'),
+    articleCountLabel: currentLabel(language, '公開中の記事', 'published articles'),
     categoryCount: categories.length,
     categoryCountLabel: currentLabel(language, '主要カテゴリ', 'core categories'),
     languageLabel: currentLabel(language, '日本語・英語', 'Japanese and English'),
@@ -825,6 +960,10 @@ for (const language of site.languages) {
     categoriesTitle: currentLabel(language, '製品カテゴリから探す', 'Browse by product category'),
     categoriesLead: currentLabel(language, '製品分野ごとに、比較記事・個別レビュー・実践ガイドをまとめています。', 'Find comparisons, individual reviews, and practical guides grouped by product area.'),
     categoryCards,
+    personaEyebrow: currentLabel(language, '利用目的', 'Your goal'),
+    personaTitle: currentLabel(language, '自分に近い入口から選ぶ', 'Choose the path that matches your situation'),
+    personaLead: currentLabel(language, '製品名が決まっていなくても、導入目的から比較記事へ進めます。', 'You can start from your goal even when you have not chosen a product.'),
+    personaLinks,
     topicsEyebrow: currentLabel(language, '目的別ガイド', 'Topic guides'),
     topicsTitle: currentLabel(language, '解決したいことから探す', 'Browse by the decision you need to make'),
     topicsLead: currentLabel(language, 'カテゴリをまたいで、購入・導入・運用の目的に近い記事へ移動できます。', 'Move directly to comparisons and reviews aligned with your buying, setup, or operating goal.'),
@@ -853,7 +992,7 @@ for (const language of site.languages) {
   const records = articleRecords.filter(record => record.language === language);
   const canonical = `${site.baseUrl}/${language}/articles/`;
   const pageTitle = currentLabel(language, '記事一覧・ツールレビュー検索 | Luqevora', 'All Comparisons and Tool Reviews | Luqevora');
-  const description = currentLabel(language, `検索対象として優先した${records.length}件の比較記事・個別レビュー・ガイドを、カテゴリ・記事種別・キーワードで探せます。`, `Search ${records.length} priority Luqevora comparisons, product reviews, and guides by category, content type, topic, or keyword.`);
+  const description = currentLabel(language, `公開中の${records.length}件の比較記事・個別レビュー・ガイドを、カテゴリ・記事種別・キーワードで探せます。`, `Search ${records.length} published Luqevora comparisons, product reviews, and guides by category, content type, topic, or keyword.`);
   const graph = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -903,6 +1042,167 @@ for (const language of site.languages) {
   });
   await writeFile(path.join(outputRoot, language, 'articles', 'index.html'), directory);
 }
+
+
+function productCategoryLabel(product, language) {
+  return product.categoryName?.[language] || product.category;
+}
+
+function productFlagBadges(product, language) {
+  const labels = {
+    freeOption: currentLabel(language, '無料枠あり', 'Free option'),
+    business: currentLabel(language, '法人・チーム', 'Business / team'),
+    ecommerce: currentLabel(language, 'EC対応', 'Ecommerce'),
+    wordpress: 'WordPress',
+    seo: 'SEO',
+    integrations: currentLabel(language, '外部連携', 'Integrations'),
+    mobile: currentLabel(language, 'モバイル対応', 'Mobile')
+  };
+  return Object.entries(product.flags || {}).filter(([, enabled]) => enabled).slice(0, 5).map(([key]) => `<span>${esc(labels[key])}</span>`).join('');
+}
+
+function renderProductCard(product, language) {
+  const related = (product.relatedArticles || []).filter(item => item.language === language).slice(0, 3);
+  const official = (product.sources || []).slice(0, 2);
+  const search = [product.name, product.positioning?.[language], product.pricing?.[language], product.bestFor?.[language], ...(product.strengths?.[language] || []), ...(product.limits?.[language] || [])].filter(Boolean).join(' ');
+  const relatedLinks = related.map(item => `<a href="${esc(item.url)}">${esc(item.title)}</a>`).join('');
+  const officialLinks = official.map(item => `<a href="${esc(item.url)}" rel="noopener noreferrer">${esc(item.label)}</a>`).join('');
+  return `<article id="${esc(product.id)}" class="product-data-card" data-product-card data-category="${esc(product.category)}" data-pricing="${esc(product.pricingModel)}" data-search="${esc(search)}"><div class="product-data-head"><div><span class="eyebrow">${esc(productCategoryLabel(product, language))}</span><h2>${esc(product.name)}</h2></div><div class="product-data-badges">${productFlagBadges(product, language)}</div></div><p>${esc(product.positioning?.[language] || '')}</p><dl class="product-data-list"><div><dt>${esc(currentLabel(language, '料金概要', 'Pricing'))}</dt><dd>${esc(product.pricing?.[language] || '')}</dd></div><div><dt>${esc(currentLabel(language, '向いている用途', 'Best for'))}</dt><dd>${esc(product.bestFor?.[language] || '')}</dd></div><div><dt>${esc(currentLabel(language, '主な強み', 'Strengths'))}</dt><dd>${esc((product.strengths?.[language] || []).join('・'))}</dd></div><div><dt>${esc(currentLabel(language, '確認事項', 'Caveats'))}</dt><dd>${esc((product.limits?.[language] || []).join('・'))}</dd></div></dl><div class="product-data-links">${relatedLinks}${officialLinks}</div><p class="product-source-note">${esc(currentLabel(language, `公式出典 ${product.sources?.length || 0}件・最終確認 ${product.lastVerified}`, `${product.sources?.length || 0} official sources · verified ${product.lastVerified}`))}</p></article>`;
+}
+
+for (const language of site.languages) {
+  const canonical = `${site.baseUrl}/${language}/compare/`;
+  const products = productCatalog.products || [];
+  const categoryOptions = [`<option value="">${esc(currentLabel(language, 'すべてのカテゴリ', 'All categories'))}</option>`, ...categories.map(category => `<option value="${esc(category.id)}">${esc(category.name[language])}</option>`)].join('');
+  const pricingOptions = language === 'ja'
+    ? '<option value="">すべての料金体系</option><option value="freemium">無料枠あり</option><option value="subscription">定額制</option><option value="usage">従量課金</option><option value="contact-or-variable">要確認・変動</option>'
+    : '<option value="">All pricing models</option><option value="freemium">Free option</option><option value="subscription">Subscription</option><option value="usage">Usage based</option><option value="contact-or-variable">Variable / contact</option>';
+  const graph = {'@context':'https://schema.org','@graph':[
+    {'@type':'CollectionPage','@id':`${canonical}#webpage`,url:canonical,name:currentLabel(language,'製品比較データベース','Product comparison database'),description:currentLabel(language,'AI・SaaS・Webサービスの料金、用途、制約、公式出典を共通項目で比較できます。','Compare pricing, use cases, constraints, and official sources for AI, SaaS, and web services.'),inLanguage:language,isPartOf:{'@id':`${site.baseUrl}/#website`}},
+    {'@type':'ItemList',numberOfItems:products.length,itemListElement:products.map((product,index)=>({'@type':'ListItem',position:index+1,name:product.name,url:canonical+`#${product.id}`}))},
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Luqevora',item:`${site.baseUrl}/${language}/`},{'@type':'ListItem',position:2,name:currentLabel(language,'製品比較DB','Product Database'),item:canonical}]}
+  ]};
+  const page = render(templates.compare, {
+    lang: language,
+    metaTitle: esc(currentLabel(language, '製品比較データベース｜料金・用途・制約を一覧比較 | Luqevora', 'Product Comparison Database: Pricing, Use Cases and Limits | Luqevora')),
+    description: esc(currentLabel(language, `${products.length}製品の料金概要、対象用途、強み、制約、公式出典を共通項目で比較できます。`, `Compare pricing, best-fit use cases, strengths, constraints, and official sources across ${products.length} products.`)),
+    canonical,
+    hreflang: localizedHreflang('compare'),
+    ogImage: `${site.baseUrl}/assets/images/og-default.png`,
+    structuredData: JSON.stringify(graph),
+    header: header(language, 'compare', `/${language === 'ja' ? 'en' : 'ja'}/compare/`),
+    breadcrumbAriaLabel: currentLabel(language, 'パンくずリスト', 'Breadcrumb'),
+    breadcrumbCurrent: currentLabel(language, '製品比較DB', 'Product Database'),
+    eyebrow: currentLabel(language, '共通データモデル v3.0', 'Shared data model v3.0'),
+    title: currentLabel(language, '製品比較データベース', 'Product comparison database'),
+    lead: currentLabel(language, '料金概要、利用目的、強み、制約、公式出典を同じ項目で確認できます。数値の性能評価ではなく、契約前の候補整理に使うデータベースです。', 'Review pricing summaries, use cases, strengths, constraints, and official sources using consistent fields. This database supports shortlisting rather than claiming performance scores.'),
+    stats: `<div class="catalog-stat"><strong>${products.length}</strong><span>${esc(currentLabel(language,'登録製品','products'))}</span></div><div class="catalog-stat"><strong>${categories.length}</strong><span>${esc(currentLabel(language,'カテゴリ','categories'))}</span></div><div class="catalog-stat"><strong>${products.reduce((sum,p)=>sum+(p.sources?.length||0),0)}</strong><span>${esc(currentLabel(language,'公式出典','official sources'))}</span></div>`,
+    searchLabel: currentLabel(language, '製品・用途・機能を検索', 'Search products, use cases, or features'),
+    searchPlaceholder: currentLabel(language, '例：WordPress、店舗、無料、AI', 'Example: WordPress, ecommerce, free, AI'),
+    categoryLabel: currentLabel(language, 'カテゴリ', 'Category'),
+    categoryOptions,
+    pricingLabel: currentLabel(language, '料金体系', 'Pricing model'),
+    pricingOptions,
+    resetLabel: currentLabel(language, '条件をリセット', 'Reset filters'),
+    productCount: products.length,
+    resultLabel: currentLabel(language, '件を表示', 'products shown'),
+    productCards: products.map(product => renderProductCard(product, language)).join(''),
+    emptyLabel: currentLabel(language, '条件に一致する製品がありません。', 'No products match these filters.'),
+    methodEyebrow: currentLabel(language, 'データの読み方', 'How to use the data'),
+    methodTitle: currentLabel(language, '公式情報の確認を前提に候補を絞る', 'Shortlist first, then verify official terms'),
+    methodText: currentLabel(language, '料金と機能は変更されるため、このページは比較軸を揃えるために使用し、契約直前には各公式ページで最新条件を確認してください。', 'Pricing and features change. Use this page to normalize comparison criteria, then confirm current terms on each official site before purchase.'),
+    methodChecks: [currentLabel(language,'料金概要は一元管理','Pricing summaries are centralized'),currentLabel(language,'強み・制約を同じ項目で表示','Strengths and caveats use shared fields'),currentLabel(language,'性能スコアや利用体験は捏造しない','No invented performance or experience scores')].map(item=>`<li>${esc(item)}</li>`).join(''),
+    footer: footer(language)
+  });
+  await writeFile(path.join(outputRoot, language, 'compare', 'index.html'), page);
+}
+
+
+const productById = new Map((productCatalog.products || []).map(product => [product.id, product]));
+const diagnosisGoalOptions = language => categories.map(category => `<label><input type="radio" name="goal" value="${esc(category.id)}">${esc(category.name[language])}</label>`).join('');
+const diagnosisBudgetOptions = language => [
+  ['any', currentLabel(language, '指定なし', 'Any')],
+  ['free', currentLabel(language, '無料から試したい', 'Start free')],
+  ['paid', currentLabel(language, '有料前提で比較', 'Paid options')]
+].map(([value,label]) => `<label><input type="radio" name="budget" value="${value}"${value==='any'?' checked':''}>${esc(label)}</label>`).join('');
+const diagnosisPriorityOptions = language => [
+  ['support', currentLabel(language, 'サポート', 'Support')],
+  ['easy', currentLabel(language, '使いやすさ', 'Ease of use')],
+  ['team', currentLabel(language, 'チーム運用', 'Team workflow')],
+  ['seo', 'SEO']
+].map(([value,label]) => `<label><input type="radio" name="priority" value="${value}">${esc(label)}</label>`).join('');
+const diagnosisSwitches = language => [
+  ['freeOption', currentLabel(language, '無料枠が必要', 'Free option required')],
+  ['wordpress', 'WordPress'], ['ecommerce', 'EC / Ecommerce'],
+  ['business', currentLabel(language, '法人・チーム向け', 'Business / team')],
+  ['integrations', currentLabel(language, '外部連携', 'Integrations')],
+  ['mobile', currentLabel(language, 'モバイル対応', 'Mobile support')]
+].map(([value,label]) => `<label><input type="checkbox" name="${value}" value="1">${esc(label)}</label>`).join('');
+
+for (const language of site.languages) {
+  const canonical = `${site.baseUrl}/${language}/diagnosis/`;
+  const title = currentLabel(language, 'サービス選び診断｜用途と条件から候補を絞る | Luqevora', 'Product Finder: Shortlist Services by Need | Luqevora');
+  const description = currentLabel(language, '用途、予算、必要機能からLuqevoraの製品データベースを絞り込み、候補と注意点を表示します。', 'Use goals, budget, and required features to shortlist products from the Luqevora database.');
+  const graph = {'@context':'https://schema.org','@type':'WebApplication',name:title,url:canonical,description,inLanguage:language,applicationCategory:'BusinessApplication',isAccessibleForFree:true};
+  const page = render(templates.diagnosis, {
+    lang:language, metaTitle:esc(title), description:esc(description), canonical,
+    hreflang:localizedHreflang('diagnosis'), ogImage:`${site.baseUrl}/assets/images/og-default.png`, structuredData:JSON.stringify(graph),
+    header:header(language,'diagnosis',`/${language==='ja'?'en':'ja'}/diagnosis/`), footer:footer(language),
+    eyebrow:currentLabel(language,'比較データベース連動 v3.1','Database-powered v3.1'),
+    title:currentLabel(language,'用途と条件からサービス候補を絞る','Find products that match your needs'),
+    lead:currentLabel(language,'結果は契約を保証するランキングではありません。共通データを基に候補を整理し、公式条件を確認するための診断です。','Results are a shortlist, not a guaranteed ranking. Verify current terms with each provider.'),
+    goalLabel:currentLabel(language,'主な目的・カテゴリ','Primary goal or category'), goalOptions:diagnosisGoalOptions(language),
+    budgetLabel:currentLabel(language,'予算の考え方','Budget preference'), budgetOptions:diagnosisBudgetOptions(language),
+    priorityLabel:currentLabel(language,'重視する要素','Main priority'), priorityOptions:diagnosisPriorityOptions(language), switches:diagnosisSwitches(language),
+    submitLabel:currentLabel(language,'候補を表示','Show recommendations'), resetLabel:currentLabel(language,'リセット','Reset'),
+    resultTitle:currentLabel(language,'条件に近い候補','Closest matches'), resultLead:currentLabel(language,'推奨理由と注意点を確認し、製品詳細と公式情報で最終判断してください。','Review the rationale and cautions, then verify details and official terms.'),
+    catalog:JSON.stringify(productCatalog).replace(/</g,'\\u003c')
+  });
+  await writeFile(path.join(outputRoot, language, 'diagnosis', 'index.html'), page);
+
+  for (const product of productCatalog.products || []) {
+    const pCanonical = `${site.baseUrl}/${language}/products/${product.id}/`;
+    const pTitle = `${product.name}${currentLabel(language,'の料金・用途・注意点',' pricing, use cases and cautions')} | Luqevora`;
+    const pDescription = `${product.positioning?.[language] || product.name}。${product.pricing?.[language] || ''}`;
+    const related = (product.relatedArticles || []).filter(article => article.language === language).slice(0,8);
+    const productGraph = {'@context':'https://schema.org','@graph':[
+      {'@type':'Product','@id':`${pCanonical}#product`,name:product.name,description:product.positioning?.[language],category:product.categoryName?.[language],url:pCanonical},
+      {'@type':'WebPage','@id':`${pCanonical}#webpage`,url:pCanonical,name:pTitle,description:pDescription,inLanguage:language,mainEntity:{'@id':`${pCanonical}#product`}},
+      {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Luqevora',item:`${site.baseUrl}/${language}/`},{'@type':'ListItem',position:2,name:currentLabel(language,'製品比較DB','Product Database'),item:`${site.baseUrl}/${language}/compare/`},{'@type':'ListItem',position:3,name:product.name,item:pCanonical}]}
+    ]};
+    const facts = `<dl class="product-facts"><div><dt>${currentLabel(language,'カテゴリ','Category')}</dt><dd>${esc(product.categoryName?.[language] || product.category)}</dd></div><div><dt>${currentLabel(language,'料金体系','Pricing model')}</dt><dd>${esc(product.pricingModel)}</dd></div><div><dt>${currentLabel(language,'最終確認','Last verified')}</dt><dd>${esc(product.lastVerified)}</dd></div><div><dt>${currentLabel(language,'公式出典','Official sources')}</dt><dd>${product.sources?.length || 0}</dd></div></dl>`;
+    const page = render(templates.product, {
+      lang:language,metaTitle:esc(pTitle),description:esc(pDescription),canonical:pCanonical,hreflang:localizedHreflang(`products/${product.id}`),ogImage:`${site.baseUrl}/assets/images/og-default.png`,structuredData:JSON.stringify(productGraph),
+      header:header(language,'compare',`/${language==='ja'?'en':'ja'}/products/${product.id}/`),footer:footer(language),databaseLabel:currentLabel(language,'製品比較DB','Product Database'),eyebrow:esc(product.categoryName?.[language] || product.category),name:esc(product.name),positioning:esc(product.positioning?.[language] || ''),
+      stats:`<div class="catalog-stat"><strong>${product.sources?.length || 0}</strong><span>${currentLabel(language,'公式出典','official sources')}</span></div><div class="catalog-stat"><strong>${related.length}</strong><span>${currentLabel(language,'関連記事','related articles')}</span></div>`,
+      overviewTitle:currentLabel(language,'製品概要','Overview'),workflow:esc(product.workflow?.[language] || ''),pricingTitle:currentLabel(language,'料金の確認ポイント','Pricing'),pricingDetail:esc(product.pricingDetail?.[language] || product.pricing?.[language] || ''),bestForTitle:currentLabel(language,'向いている用途','Best fit'),bestFor:esc(product.bestFor?.[language] || ''),strengthsTitle:currentLabel(language,'確認できる強み','Documented strengths'),limitsTitle:currentLabel(language,'契約前の注意点','Cautions before purchase'),strengths:(product.strengths?.[language]||[]).map(x=>`<li>${esc(x)}</li>`).join(''),limits:(product.limits?.[language]||[]).map(x=>`<li>${esc(x)}</li>`).join(''),factsTitle:currentLabel(language,'共通データ','Shared data'),facts,compareLabel:currentLabel(language,'比較データで確認','Open comparison data'),diagnosisLabel:currentLabel(language,'用途診断を使う','Use product finder'),id:esc(product.id),articlesTitle:currentLabel(language,'関連する比較・レビュー','Related comparisons and reviews'),articles:related.map(a=>`<a class="related-article-card" href="${esc(a.url)}"><strong>${esc(a.title)}</strong><span>${esc(contentTypeLabel(a.type,language))}</span></a>`).join('') || `<p>${currentLabel(language,'関連記事は準備中です。','Related articles are being prepared.')}</p>`,sourcesTitle:currentLabel(language,'公式情報','Official sources'),sources:(product.sources||[]).map(src=>`<li><a href="${esc(src.url)}" rel="noopener noreferrer" target="_blank">${esc(src.label)}</a></li>`).join('')
+    });
+    await writeFile(path.join(outputRoot, language, 'products', product.id, 'index.html'), page);
+  }
+}
+
+
+const comparisonLandings = [
+  {id:'free', test:p=>p.flags?.freeOption, ja:'無料から試せるWeb・SaaSサービス', en:'Web and SaaS products with free options'},
+  {id:'wordpress', test:p=>p.flags?.wordpress, ja:'WordPress対応サービス比較', en:'WordPress-compatible services'},
+  {id:'ecommerce', test:p=>p.flags?.ecommerce, ja:'EC・ネットショップ対応サービス比較', en:'Ecommerce-capable services'},
+  {id:'business', test:p=>p.flags?.business, ja:'法人・チーム向けサービス比較', en:'Business and team products'},
+  {id:'integrations', test:p=>p.flags?.integrations, ja:'外部連携に対応するサービス比較', en:'Products with integrations'},
+  {id:'mobile', test:p=>p.flags?.mobile, ja:'モバイル対応サービス比較', en:'Mobile-capable services'}
+];
+for (const language of site.languages) {
+  for (const landing of comparisonLandings) {
+    const products=(productCatalog.products||[]).filter(landing.test);
+    const canonical=`${site.baseUrl}/${language}/compare/${landing.id}/`;
+    const title=`${landing[language]} | Luqevora`;
+    const description=currentLabel(language,`${products.length}製品を共通データで比較。料金、用途、制約、公式出典を確認できます。`,`Compare ${products.length} products using shared fields for pricing, use cases, constraints, and official sources.`);
+    const graph={'@context':'https://schema.org','@type':'CollectionPage',url:canonical,name:title,description,inLanguage:language,mainEntity:{'@type':'ItemList',numberOfItems:products.length,itemListElement:products.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.name,url:`${site.baseUrl}/${language}/products/${p.id}/`}))}};
+    const page=render(templates.compare,{lang:language,metaTitle:esc(title),description:esc(description),canonical,hreflang:localizedHreflang(`compare/${landing.id}`),ogImage:`${site.baseUrl}/assets/images/og-default.png`,structuredData:JSON.stringify(graph),header:header(language,'compare',`/${language==='ja'?'en':'ja'}/compare/${landing.id}/`),breadcrumbAriaLabel:currentLabel(language,'パンくずリスト','Breadcrumb'),breadcrumbCurrent:esc(landing[language]),eyebrow:currentLabel(language,'条件別比較 v3.1','Curated comparison v3.1'),title:esc(landing[language]),lead:esc(description),stats:`<div class="catalog-stat"><strong>${products.length}</strong><span>${currentLabel(language,'対象製品','matching products')}</span></div>`,searchLabel:currentLabel(language,'製品・用途・機能を検索','Search products, use cases, or features'),searchPlaceholder:currentLabel(language,'製品名や用途','Product or use case'),categoryLabel:currentLabel(language,'カテゴリ','Category'),categoryOptions:`<option value="">${currentLabel(language,'すべてのカテゴリ','All categories')}</option>`,pricingLabel:currentLabel(language,'料金体系','Pricing model'),pricingOptions:`<option value="">${currentLabel(language,'すべての料金体系','All pricing models')}</option>`,resetLabel:currentLabel(language,'条件をリセット','Reset filters'),productCount:products.length,resultLabel:currentLabel(language,'件を表示','products shown'),productCards:products.map(product=>renderProductCard(product,language)).join(''),emptyLabel:currentLabel(language,'条件に一致する製品がありません。','No products match these filters.'),methodEyebrow:currentLabel(language,'確認方法','How to verify'),methodTitle:currentLabel(language,'公式条件で最終確認','Verify current official terms'),methodText:currentLabel(language,'掲載条件は共通データから抽出しています。契約前に公式料金・機能・利用条件を再確認してください。','These pages are generated from shared data. Recheck official pricing, features, and terms before purchase.'),methodChecks:[currentLabel(language,'共通項目で比較','Consistent fields'),currentLabel(language,'製品詳細へ接続','Links to product hubs'),currentLabel(language,'公式出典を明示','Official sources shown')].map(x=>`<li>${esc(x)}</li>`).join(''),footer:footer(language)});
+    await writeFile(path.join(outputRoot,language,'compare',landing.id,'index.html'),page);
+  }
+}
+
+await writeFile(path.join(outputRoot, 'product-catalog.json'), `${JSON.stringify(productCatalog, null, 2)}\n`);
 
 await normalizePublicChrome();
 
@@ -1002,6 +1302,8 @@ await writeFile(path.join(root, 'reports/build.json'), `${JSON.stringify({
   indexablePublicArticles: articleRecords.length,
   indexableArticlesByLanguage: Object.fromEntries(site.languages.map(language => [language, articleRecords.filter(record => record.language === language).length])),
   topicPages: htmlRecords.filter(record => record.type === 'topic').length,
+  productCatalogCount: productCatalog.productCount,
+  productCatalogSources: productCatalog.products.reduce((sum, product) => sum + (product.sources?.length || 0), 0),
   originalArticleImages: htmlRecords.filter(record => record.type === 'article' && record.image.includes('/assets/images/articles/')).length,
   relatedInboundMinimum: inboundValues.length ? Math.min(...inboundValues) : 0,
   relatedInboundMaximum: inboundValues.length ? Math.max(...inboundValues) : 0,

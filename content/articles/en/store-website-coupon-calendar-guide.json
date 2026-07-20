@@ -1,0 +1,168 @@
+{
+  "id": "store-website-coupon-calendar-guide-en",
+  "translationKey": "store-website-coupon-calendar-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "store-website-coupon-calendar-guide",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Coupon and Calendar Guide for Local-Business Websites",
+  "metaTitle": "Coupon and Calendar Guide for Local-Business Websites",
+  "description": "Design and operate website coupons, closing-day calendars, events, campaigns, measurement, and maintenance rules.",
+  "lead": "Coupons and calendars do not create value merely by existing. The site needs expiry rules, eligibility, ownership, measurement, and a maintenance process that prevents outdated information.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the official Ochanoko Saisai plans",
+      "officialUrl": "https://www.ocnk.me/",
+      "affiliateKey": "ochanoko-saisai-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ochanoko Saisai official site",
+      "url": "https://www.ocnk.me/"
+    },
+    {
+      "label": "Ochanoko Saisai pricing",
+      "url": "https://www.ocnk.me/pricing"
+    },
+    {
+      "label": "Ochanoko Saisai feature list",
+      "url": "https://www.ocnk.me/feature"
+    },
+    {
+      "label": "Ochanoko Saisai setup flow",
+      "url": "https://www.ocnk.me/step"
+    },
+    {
+      "label": "Ochanoko Saisai registration page",
+      "url": "https://www.ocnk.me/entry"
+    },
+    {
+      "label": "2024 price revision notice",
+      "url": "https://www.ocnk.me/news?note=20240618"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: define expiry, eligibility, and ownership first",
+      "body": [
+        "A coupon is a set of offer conditions, not merely a discount graphic. State expiry, eligible products, minimum spend, combination rules, presentation method, and usage frequency.",
+        "Separate regular closures, temporary closures, events, and booking availability in the calendar and use a consistent visual legend."
+      ]
+    },
+    {
+      "heading": "Coupon design",
+      "body": [
+        "Choose one purpose: new customers, inactive customers, weekday demand, or a selected service. Define both the audience and the desired next action, and use an identifiable code or screen.",
+        "When expiry automatically renews, review price, inventory, staffing, legal requirements, and advertising language before each period."
+      ]
+    },
+    {
+      "heading": "Calendar design",
+      "body": [
+        "Use distinct categories for regular closures, temporary changes, events, and campaigns. Select a single source of truth so the website and social posts do not conflict.",
+        "Do not present a manually updated calendar as real-time availability when it is not synchronized. Separate information calendars from actual booking inventory."
+      ]
+    },
+    {
+      "heading": "Measurement and maintenance",
+      "body": [
+        "Measure coupon views, phone taps, booking buttons, and completed forms, then connect those actions to visits and revenue. Clicks alone do not establish business value.",
+        "Run a monthly check for expired offers, incorrect prices, broken links, and ownership. Share administrator access and shutdown procedures."
+      ]
+    },
+    {
+      "heading": "Presentation and compliance",
+      "body": [
+        "Do not let an aggressive discount replace the normal price, conditions, and business information. Review sector-specific promotion and advertising rules.",
+        "Place conditions in accessible text as well as images so they can be read, searched, and updated reliably."
+      ]
+    },
+    {
+      "heading": "Ownership and contingency planning",
+      "body": [
+        "Assign a named owner and a backup owner for every campaign calendar. Store the normal price, approved wording, start and end dates, and shutdown procedure in a shared operating record.",
+        "Prepare a fallback message for closures, sold-out inventory, weather disruption, or booking-system failure. A fast, accurate update protects customers better than an attractive promotion that remains online after conditions change."
+      ]
+    },
+    {
+      "heading": "Checks before contracting and after launch",
+      "body": [
+        "During the 30-day trial, place real copy, photographs, menus, store information, and enquiry routes, then test both mobile output and routine administration. Continued use requires completing the contract and payment process from the administration screen.",
+        "A proprietary builder rarely transfers its design and functions directly to another CMS. Keep original copy, images, price tables, staff data, and a URL inventory outside the platform, then retest phone links, forms, maps, and analytics after major changes."
+      ],
+      "bullets": [
+        "Build realistic pages during the trial",
+        "Confirm the term and renewal total",
+        "Record domain and DNS ownership",
+        "Keep original content outside the builder",
+        "Retest enquiries and analytics"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can coupon expiry renew automatically?",
+      "answer": "The provider manual describes periodic automatic expiry updates. Review pricing and conditions before each renewal."
+    },
+    {
+      "question": "Can the calendar represent live booking inventory?",
+      "answer": "A calendar that is not synchronized should not be presented as real-time availability. Use a dedicated booking system for inventory."
+    },
+    {
+      "question": "Is there a free trial?",
+      "answer": "The provider offers a 30-day trial after full registration. Continued use requires completing the contract and payment process."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Ochanoko Saisai Review",
+      "url": "/en/website-builders/ochanoko-saisai-review/",
+      "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details"
+    },
+    {
+      "label": "Ochanoko Saisai Pricing",
+      "url": "/en/website-builders/ochanoko-saisai-pricing/",
+      "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial"
+    },
+    {
+      "label": "Ochanoko Saisai Basic vs Advanced",
+      "url": "/en/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "description": "Compare shared and custom domains, storage, free pages, email accounts, platform advertising, setup fees, and operating fit"
+    },
+    {
+      "label": "Ochanoko Saisai vs Jimdo",
+      "url": "/en/website-builders/ochanoko-saisai-vs-jimdo/",
+      "description": "Compare store-oriented features, pricing, domains, blogging, ecommerce, design, SEO, and mobile administration"
+    },
+    {
+      "label": "Ochanoko Saisai vs Goope",
+      "url": "/en/website-builders/ochanoko-saisai-vs-goope/",
+      "description": "Compare store information, bookings, coupons, calendars, pricing, domains, email, and support between two Japanese builders"
+    },
+    {
+      "label": "Ochanoko Saisai vs Studio",
+      "url": "/en/website-builders/ochanoko-saisai-vs-studio/",
+      "description": "Compare templates, design control, CMS, store functions, pricing, domains, SEO, collaboration, and operating effort"
+    },
+    {
+      "label": "Building a Salon or Esthetic Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-salon-guide/",
+      "description": "Plan services, staff pages, coupons, calendars, booking routes, photography, policies, and FAQs for a salon website"
+    },
+    {
+      "label": "Building a Restaurant Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-restaurant-guide/",
+      "description": "Plan menus, hours, closures, maps, photography, coupons, phone or booking routes, and allergy information for a restaurant site"
+    }
+  ]
+}

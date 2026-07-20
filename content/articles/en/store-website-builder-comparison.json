@@ -8,10 +8,10 @@
   "category": "website-builders",
   "topic": "website-builders",
   "badge": "Local-business comparison",
-  "title": "Website Builders for Local Businesses: Goope, Wix, Squarespace and WordPress.com",
-  "metaTitle": "Website Builders for Local Businesses Compared",
-  "description": "Compare local-business website builders by store information, booking, domains, email, updates, design, cost structure, and portability.",
-  "lead": "A local-business site must make hours, location, services, prices, photos, news, booking, and inquiries easy to maintain. This comparison evaluates Goope, Wix, Squarespace, and WordPress.com from an operating perspective rather than ranking them by template appearance alone.",
+  "title": "Website Builders for Local Businesses: Ochanoko Saisai, Goope and More",
+  "metaTitle": "Website Builders for Local Businesses: Ochanoko Saisai, Goope and More",
+  "description": "Compare Ochanoko Saisai, Goope, Wix, Squarespace, and WordPress.com by store information, bookings, domains, updates, cost, and portability.",
+  "lead": "A local-business site must make hours, location, services, prices, photos, news, coupons, booking, and enquiries easy to maintain. This comparison evaluates Ochanoko Saisai, Goope, Wix, Squarespace, and WordPress.com from an operating perspective rather than template appearance alone.",
   "publishedAt": "2026-07-19",
   "updatedAt": "2026-07-19",
   "verifiedAt": "2026-07-19",
@@ -96,6 +96,12 @@
           "Diligence"
         ],
         "rows": [
+          [
+            "Ochanoko Saisai",
+            "Store information, coupons, calendars",
+            "Predefined store features and mobile updates",
+            "No cart; domain setup cost"
+          ],
           [
             "Goope",
             "Japanese store information and booking",

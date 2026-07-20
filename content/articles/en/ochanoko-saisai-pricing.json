@@ -1,0 +1,183 @@
+{
+  "id": "ochanoko-saisai-pricing-en",
+  "translationKey": "ochanoko-saisai-pricing",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "ochanoko-saisai-pricing",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Ochanoko Saisai Pricing: Plans, Domains, and Total Cost",
+  "metaTitle": "Ochanoko Saisai Pricing: Plans, Domains, and Total Cost",
+  "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial.",
+  "lead": "Pricing varies by contract term. The Advanced plan can also require a domain setup charge and annual domain fee, so the useful comparison separates the first-year total from recurring cost.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the official Ochanoko Saisai plans",
+      "officialUrl": "https://www.ocnk.me/",
+      "affiliateKey": "ochanoko-saisai-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ochanoko Saisai official site",
+      "url": "https://www.ocnk.me/"
+    },
+    {
+      "label": "Ochanoko Saisai pricing",
+      "url": "https://www.ocnk.me/pricing"
+    },
+    {
+      "label": "Ochanoko Saisai feature list",
+      "url": "https://www.ocnk.me/feature"
+    },
+    {
+      "label": "Ochanoko Saisai setup flow",
+      "url": "https://www.ocnk.me/step"
+    },
+    {
+      "label": "Ochanoko Saisai registration page",
+      "url": "https://www.ocnk.me/entry"
+    },
+    {
+      "label": "2024 price revision notice",
+      "url": "https://www.ocnk.me/news?note=20240618"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: separate first-year and recurring totals",
+      "body": [
+        "The lowest displayed equivalent is JPY 1,100 per month for Basic on a 12-month contract. Advanced is JPY 1,980 per month equivalent, with a custom-domain setup fee and possible annual domain charge.",
+        "The free trial runs for 30 days after full registration. Use it to complete a realistic prototype and choose the term and domain arrangement before paying."
+      ]
+    },
+    {
+      "heading": "Pricing and custom-domain cost",
+      "body": [
+        "Basic costs JPY 1,100 per month on a 12-month equivalent, while Advanced costs JPY 1,980. Shorter contracts have higher monthly equivalents, so the operating period should be defined after the trial.",
+        "Advanced has a JPY 7,920 custom-domain setup fee. If the provider registers the domain, published annual fees include JPY 3,960 for common generic domains, JPY 6,600 for .jp, and JPY 7,920 for .shop. Existing external domains require DNS planning."
+      ],
+      "table": {
+        "headers": [
+          "Plan",
+          "1 month",
+          "6-month monthly equivalent",
+          "12-month monthly equivalent"
+        ],
+        "rows": [
+          [
+            "Basic",
+            "JPY 1,320",
+            "JPY 1,210",
+            "JPY 1,100"
+          ],
+          [
+            "Advanced",
+            "JPY 2,200",
+            "JPY 2,090",
+            "JPY 1,980"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Estimating first-year cost",
+      "body": [
+        "For Basic, multiply the selected monthly equivalent by the contract length. For Advanced, add JPY 7,920 for initial custom-domain setup and any annual domain registration fee to the plan total.",
+        "When an existing domain remains with another registrar, registration cost stays external. Confirm MX, SPF, DKIM, and other DNS records before changing settings if domain email is already active."
+      ]
+    },
+    {
+      "heading": "Short and long contracts",
+      "body": [
+        "A one-month term can fit a temporary campaign or uncertain project but has a higher monthly equivalent. Six- and twelve-month terms reduce the unit price when the site will continue.",
+        "Review refunds, termination, renewal, suspension charges, and payment methods, and document the account owner so the business can renew even when staff changes."
+      ]
+    },
+    {
+      "heading": "Avoid outdated price claims",
+      "body": [
+        "An older supplied advertising material states JPY 750 per month. That does not match the current official pricing and is intentionally excluded from this site.",
+        "A monthly equivalent may not mean monthly billing. Confirm the actual payment timing and add domain-related costs before comparing providers."
+      ]
+    },
+    {
+      "heading": "Checks before contracting and after launch",
+      "body": [
+        "During the 30-day trial, place real copy, photographs, menus, store information, and enquiry routes, then test both mobile output and routine administration. Continued use requires completing the contract and payment process from the administration screen.",
+        "A proprietary builder rarely transfers its design and functions directly to another CMS. Keep original copy, images, price tables, staff data, and a URL inventory outside the platform, then retest phone links, forms, maps, and analytics after major changes."
+      ],
+      "bullets": [
+        "Build realistic pages during the trial",
+        "Confirm the term and renewal total",
+        "Record domain and DNS ownership",
+        "Keep original content outside the builder",
+        "Retest enquiries and analytics"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Ochanoko Saisai build an online store?",
+      "answer": "The official registration page states that the service does not include a shopping cart. Compare a separate ecommerce platform when products must be sold online."
+    },
+    {
+      "question": "Is there a free trial?",
+      "answer": "The provider offers a 30-day trial after full registration. Continued use requires completing the contract and payment process."
+    },
+    {
+      "question": "Can it use a custom domain?",
+      "answer": "The Advanced plan supports a custom domain. Include the setup charge and any annual registration fee in the total cost."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Ochanoko Saisai Review",
+      "url": "/en/website-builders/ochanoko-saisai-review/",
+      "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details"
+    },
+    {
+      "label": "Ochanoko Saisai Basic vs Advanced",
+      "url": "/en/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "description": "Compare shared and custom domains, storage, free pages, email accounts, platform advertising, setup fees, and operating fit"
+    },
+    {
+      "label": "Ochanoko Saisai vs Jimdo",
+      "url": "/en/website-builders/ochanoko-saisai-vs-jimdo/",
+      "description": "Compare store-oriented features, pricing, domains, blogging, ecommerce, design, SEO, and mobile administration"
+    },
+    {
+      "label": "Ochanoko Saisai vs Goope",
+      "url": "/en/website-builders/ochanoko-saisai-vs-goope/",
+      "description": "Compare store information, bookings, coupons, calendars, pricing, domains, email, and support between two Japanese builders"
+    },
+    {
+      "label": "Ochanoko Saisai vs Studio",
+      "url": "/en/website-builders/ochanoko-saisai-vs-studio/",
+      "description": "Compare templates, design control, CMS, store functions, pricing, domains, SEO, collaboration, and operating effort"
+    },
+    {
+      "label": "Building a Salon or Esthetic Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-salon-guide/",
+      "description": "Plan services, staff pages, coupons, calendars, booking routes, photography, policies, and FAQs for a salon website"
+    },
+    {
+      "label": "Building a Restaurant Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-restaurant-guide/",
+      "description": "Plan menus, hours, closures, maps, photography, coupons, phone or booking routes, and allergy information for a restaurant site"
+    },
+    {
+      "label": "Coupon and Calendar Guide for Local-Business Websites",
+      "url": "/en/website-builders/store-website-coupon-calendar-guide/",
+      "description": "Design and operate website coupons, closing-day calendars, events, campaigns, measurement, and maintenance rules"
+    }
+  ]
+}

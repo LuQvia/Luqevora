@@ -1,0 +1,161 @@
+{
+  "id": "ochanoko-saisai-restaurant-guide-en",
+  "translationKey": "ochanoko-saisai-restaurant-guide",
+  "language": "en",
+  "type": "guide",
+  "status": "published",
+  "slug": "ochanoko-saisai-restaurant-guide",
+  "category": "website-builders",
+  "topic": "website-builders",
+  "badge": "Official sources reviewed",
+  "title": "Building a Restaurant Website with Ochanoko Saisai",
+  "metaTitle": "Building a Restaurant Website with Ochanoko Saisai",
+  "description": "Plan menus, hours, closures, maps, photography, coupons, phone or booking routes, and allergy information for a restaurant site.",
+  "lead": "A restaurant site should quickly answer whether the business is open, what it serves, where it is, and how to reserve. Calendars, coupons, and store information can provide stable details that social feeds alone do not.",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-19",
+  "verifiedAt": "2026-07-19",
+  "author": "Luqevora Editorial Team",
+  "featured": true,
+  "affiliateDisclosure": false,
+  "ctas": [
+    {
+      "label": "Check the official Ochanoko Saisai plans",
+      "officialUrl": "https://www.ocnk.me/",
+      "affiliateKey": "ochanoko-saisai-official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ochanoko Saisai official site",
+      "url": "https://www.ocnk.me/"
+    },
+    {
+      "label": "Ochanoko Saisai pricing",
+      "url": "https://www.ocnk.me/pricing"
+    },
+    {
+      "label": "Ochanoko Saisai feature list",
+      "url": "https://www.ocnk.me/feature"
+    },
+    {
+      "label": "Ochanoko Saisai setup flow",
+      "url": "https://www.ocnk.me/step"
+    },
+    {
+      "label": "Ochanoko Saisai registration page",
+      "url": "https://www.ocnk.me/entry"
+    },
+    {
+      "label": "2024 price revision notice",
+      "url": "https://www.ocnk.me/news?note=20240618"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Verdict: communicate opening status, menu, and location immediately",
+      "body": [
+        "The first screen should present current opening information, cuisine, representative prices, location, and phone or booking route. Keep closures aligned across the site and business listings.",
+        "Include seating, entrance, parking, payment methods, accessibility, and family information in addition to food photography."
+      ]
+    },
+    {
+      "heading": "Menu structure",
+      "body": [
+        "Organize category, item name, price, portion, and service period. Separate permanent and seasonal menus and define a process for removing outdated PDFs or price images.",
+        "Explain the allergy-information process and the limits of individual accommodation rather than making guarantees that operations cannot support."
+      ]
+    },
+    {
+      "heading": "Coupons and campaigns",
+      "body": [
+        "State expiry, eligibility, presentation method, combination rules, and reservation requirements. Design offers around a business objective such as weekday demand, first visits, or a selected menu.",
+        "Track redemptions through the point-of-sale or booking notes and evaluate visits, average transaction, and return rate rather than coupon views alone."
+      ]
+    },
+    {
+      "heading": "Booking and enquiry routes",
+      "body": [
+        "Clarify the roles of telephone, external booking services, and forms. Explain same-day bookings, group reservations, after-hours contact, and cancellation rules.",
+        "When sending users to an external service, verify the correct location and date context, a return route, and measurement of completed actions."
+      ]
+    },
+    {
+      "heading": "SEO, analytics, and portability",
+      "body": [
+        "Page-level metadata and headers can be configured, and Google Maps plus external analytics tools can be used. Search performance still requires specific services, prices, processes, examples, frequently asked questions, and location information.",
+        "The dedicated templates and administration reduce update work but do not guarantee direct migration to another CMS. Keep the domain, copy, images, and analytics accounts under the business owner’s control."
+      ]
+    },
+    {
+      "heading": "Checks before contracting and after launch",
+      "body": [
+        "During the 30-day trial, place real copy, photographs, menus, store information, and enquiry routes, then test both mobile output and routine administration. Continued use requires completing the contract and payment process from the administration screen.",
+        "A proprietary builder rarely transfers its design and functions directly to another CMS. Keep original copy, images, price tables, staff data, and a URL inventory outside the platform, then retest phone links, forms, maps, and analytics after major changes."
+      ],
+      "bullets": [
+        "Build realistic pages during the trial",
+        "Confirm the term and renewal total",
+        "Record domain and DNS ownership",
+        "Keep original content outside the builder",
+        "Retest enquiries and analytics"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can Ochanoko Saisai build an online store?",
+      "answer": "The official registration page states that the service does not include a shopping cart. Compare a separate ecommerce platform when products must be sold online."
+    },
+    {
+      "question": "Is there a free trial?",
+      "answer": "The provider offers a 30-day trial after full registration. Continued use requires completing the contract and payment process."
+    },
+    {
+      "question": "Can it use a custom domain?",
+      "answer": "The Advanced plan supports a custom domain. Include the setup charge and any annual registration fee in the total cost."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Ochanoko Saisai Review",
+      "url": "/en/website-builders/ochanoko-saisai-review/",
+      "description": "Review Ochanoko Saisai using official pricing, domains, coupons, calendars, mobile administration, SEO, email, and portability details"
+    },
+    {
+      "label": "Ochanoko Saisai Pricing",
+      "url": "/en/website-builders/ochanoko-saisai-pricing/",
+      "description": "Compare Basic and Advanced monthly pricing, contract terms, custom-domain setup charges, domain renewals, and the free trial"
+    },
+    {
+      "label": "Ochanoko Saisai Basic vs Advanced",
+      "url": "/en/website-builders/ochanoko-saisai-basic-vs-advanced/",
+      "description": "Compare shared and custom domains, storage, free pages, email accounts, platform advertising, setup fees, and operating fit"
+    },
+    {
+      "label": "Ochanoko Saisai vs Jimdo",
+      "url": "/en/website-builders/ochanoko-saisai-vs-jimdo/",
+      "description": "Compare store-oriented features, pricing, domains, blogging, ecommerce, design, SEO, and mobile administration"
+    },
+    {
+      "label": "Ochanoko Saisai vs Goope",
+      "url": "/en/website-builders/ochanoko-saisai-vs-goope/",
+      "description": "Compare store information, bookings, coupons, calendars, pricing, domains, email, and support between two Japanese builders"
+    },
+    {
+      "label": "Ochanoko Saisai vs Studio",
+      "url": "/en/website-builders/ochanoko-saisai-vs-studio/",
+      "description": "Compare templates, design control, CMS, store functions, pricing, domains, SEO, collaboration, and operating effort"
+    },
+    {
+      "label": "Building a Salon or Esthetic Website with Ochanoko Saisai",
+      "url": "/en/website-builders/ochanoko-saisai-salon-guide/",
+      "description": "Plan services, staff pages, coupons, calendars, booking routes, photography, policies, and FAQs for a salon website"
+    },
+    {
+      "label": "Coupon and Calendar Guide for Local-Business Websites",
+      "url": "/en/website-builders/store-website-coupon-calendar-guide/",
+      "description": "Design and operate website coupons, closing-day calendars, events, campaigns, measurement, and maintenance rules"
+    }
+  ]
+}

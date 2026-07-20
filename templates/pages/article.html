@@ -35,9 +35,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/style.css?v=4.7.0">
+  <link rel="stylesheet" href="/assets/css/style.css?v=5.1.0">
   <script type="application/ld+json">{{structuredData}}</script>
-  <script defer src="/assets/js/analytics-v4.7.0.js"></script>
+  <script defer src="/assets/js/analytics-v4.8.0.js"></script>
   <script defer src="/assets/js/main-v4.7.0.js"></script>
 </head>
 <body>
@@ -50,13 +50,18 @@
       <h1>{{title}}</h1>
       <p class="article-lead">{{lead}}</p>
       <div class="article-meta"><span>{{publishedLabel}}</span><span>{{authorLabel}}</span></div>
+      {{articleDates}}
       {{heroAffiliateDisclosure}}
     </div>
   </section>
   <div class="container article-layout">
     <article class="article-body">
       {{featuredImage}}
+      {{threePointSummary}}
       {{decisionSummary}}
+      {{editorialScorecard}}
+      {{prosCautions}}
+      {{fitPanel}}
       {{editorialNote}}
       {{affiliateDisclosure}}
       {{articleCtas}}
@@ -64,6 +69,7 @@
       {{faq}}
       {{evidencePanel}}
       {{sources}}
+      {{closingDecision}}
       {{relatedArticles}}
       <div class="article-update">{{updateNote}}</div>
     </article>
