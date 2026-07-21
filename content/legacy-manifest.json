@@ -2,7 +2,7 @@
   {
     "legacyFile": "404.html",
     "language": "en",
-    "title": "404 | Luqevora",
+    "title": "404 | Luqevora.com",
     "description": "Page not found.",
     "canonical": "https://luqevora.com/404.html",
     "h1": "Page not found",
@@ -11,17 +11,17 @@
   {
     "legacyFile": "en/about/index.html",
     "language": "en",
-    "title": "About Luqevora | Luqevora",
-    "description": "Learn about Luqevora, its purpose, operation, and relationship with LuQvia.",
+    "title": "About Luqevora.com | Luqevora.com",
+    "description": "Learn about Luqevora.com, its purpose, operation, and relationship with LuQvia.",
     "canonical": "https://luqevora.com/en/about/",
-    "h1": "About Luqevora",
+    "h1": "About Luqevora.com",
     "status": "needs-content-migration"
   },
   {
     "legacyFile": "en/affiliate-disclosure/index.html",
     "language": "en",
-    "title": "Affiliate Disclosure | Luqevora",
-    "description": "How Luqevora uses affiliate links and protects editorial independence.",
+    "title": "Affiliate Disclosure | Luqevora.com",
+    "description": "How Luqevora.com uses affiliate links and protects editorial independence.",
     "canonical": "https://luqevora.com/en/affiliate-disclosure/",
     "h1": "Affiliate Disclosure",
     "status": "needs-content-migration"
@@ -74,7 +74,7 @@
   {
     "legacyFile": "en/ai-tools/index.html",
     "language": "en",
-    "title": "AI Tools Comparisons and Reviews | Luqevora",
+    "title": "AI Tools Comparisons and Reviews | Luqevora.com",
     "description": "Compare AI tools for writing, meeting notes and business workflows by use case, pricing and data terms.",
     "canonical": "https://luqevora.com/en/ai-tools/",
     "h1": "AI Tools",
@@ -83,8 +83,8 @@
   {
     "legacyFile": "en/articles/index.html",
     "language": "en",
-    "title": "All Comparisons and Tool Reviews | Luqevora",
-    "description": "Search 41 Luqevora comparison guides and product reviews by category, content type or keyword.",
+    "title": "All Comparisons and Tool Reviews | Luqevora.com",
+    "description": "Search 41 Luqevora.com comparison guides and product reviews by category, content type or keyword.",
     "canonical": "https://luqevora.com/en/articles/",
     "h1": "Find comparisons and tool reviews",
     "status": "needs-content-migration"
@@ -110,7 +110,7 @@
   {
     "legacyFile": "en/business-software/index.html",
     "language": "en",
-    "title": "Business Software Comparisons and Reviews | Luqevora",
+    "title": "Business Software Comparisons and Reviews | Luqevora.com",
     "description": "Compare task and project management tools by free plans, permissions, guests and administration.",
     "canonical": "https://luqevora.com/en/business-software/",
     "h1": "Business Software",
@@ -155,8 +155,8 @@
   {
     "legacyFile": "en/contact/index.html",
     "language": "en",
-    "title": "Contact | Luqevora",
-    "description": "Contact Luqevora regarding general questions, corrections, product submissions, partnerships, website issues, privacy, legal matters, security, media, and other requests.",
+    "title": "Contact | Luqevora.com",
+    "description": "Contact Luqevora.com regarding general questions, corrections, product submissions, partnerships, website issues, privacy, legal matters, security, media, and other requests.",
     "canonical": "https://luqevora.com/en/contact/",
     "h1": "Contact",
     "status": "needs-content-migration"
@@ -164,7 +164,7 @@
   {
     "legacyFile": "en/editorial-policy/index.html",
     "language": "en",
-    "title": "Editorial Policy | Luqevora",
+    "title": "Editorial Policy | Luqevora.com",
     "description": "Our standards for research, evaluation, updates, corrections, and the use of AI.",
     "canonical": "https://luqevora.com/en/editorial-policy/",
     "h1": "Editorial Policy",
@@ -209,7 +209,7 @@
   {
     "legacyFile": "en/hosting-security/index.html",
     "language": "en",
-    "title": "Hosting & Security Comparisons and Reviews | Luqevora",
+    "title": "Hosting & Security Comparisons and Reviews | Luqevora.com",
     "description": "Compare web hosting and password managers by pricing, backups, sharing and administrative controls.",
     "canonical": "https://luqevora.com/en/hosting-security/",
     "h1": "Hosting & Security",
@@ -290,7 +290,7 @@
   {
     "legacyFile": "en/index.html",
     "language": "en",
-    "title": "Luqevora | AI, SaaS and Digital Tool Comparisons",
+    "title": "Luqevora.com | AI, SaaS and Digital Tool Comparisons",
     "description": "Compare AI, SaaS and web services using official information on pricing, features, limitations and suitability.",
     "canonical": "https://luqevora.com/en/",
     "h1": "Better tools. Clearer decisions.",
@@ -299,8 +299,8 @@
   {
     "legacyFile": "en/privacy/index.html",
     "language": "en",
-    "title": "Privacy Policy | Luqevora",
-    "description": "How Luqevora handles personal information, cookies, analytics, and external services.",
+    "title": "Privacy Policy | Luqevora.com",
+    "description": "How Luqevora.com handles personal information, cookies, analytics, and external services.",
     "canonical": "https://luqevora.com/en/privacy/",
     "h1": "Privacy Policy",
     "status": "needs-content-migration"
@@ -344,7 +344,7 @@
   {
     "legacyFile": "en/seo-marketing/index.html",
     "language": "en",
-    "title": "SEO & Marketing Comparisons and Reviews | Luqevora",
+    "title": "SEO & Marketing Comparisons and Reviews | Luqevora.com",
     "description": "Compare SEO and email marketing tools by free access, operating limits, automation and data coverage.",
     "canonical": "https://luqevora.com/en/seo-marketing/",
     "h1": "SEO & Marketing",
@@ -425,7 +425,7 @@
   {
     "legacyFile": "en/terms/index.html",
     "language": "en",
-    "title": "Terms of Use | Luqevora",
+    "title": "Terms of Use | Luqevora.com",
     "description": "Terms covering content use, disclaimers, intellectual property, and prohibited conduct.",
     "canonical": "https://luqevora.com/en/terms/",
     "h1": "Terms of Use",
@@ -434,7 +434,7 @@
   {
     "legacyFile": "en/website-builders/index.html",
     "language": "en",
-    "title": "Website Builders Comparisons and Reviews | Luqevora",
+    "title": "Website Builders Comparisons and Reviews | Luqevora.com",
     "description": "Compare website builders and commerce platforms by publishing model, domains, ecommerce and portability.",
     "canonical": "https://luqevora.com/en/website-builders/",
     "h1": "Website Builders",
@@ -497,17 +497,17 @@
   {
     "legacyFile": "index.html",
     "language": "en",
-    "title": "Luqevora | Better tools. Clearer decisions.",
-    "description": "Luqevora helps you compare and choose AI, SaaS, and digital tools.",
+    "title": "Luqevora.com | Better tools. Clearer decisions.",
+    "description": "Luqevora.com helps you compare and choose AI, SaaS, and digital tools.",
     "canonical": "https://luqevora.com/",
-    "h1": "Luqevora",
+    "h1": "Luqevora.com",
     "status": "needs-content-migration"
   },
   {
     "legacyFile": "ja/about/index.html",
     "language": "ja",
-    "title": "運営者情報 | Luqevora",
-    "description": "Luqevoraの目的、運営体制、LuQviaとの関係についてご案内します。",
+    "title": "運営者情報 | Luqevora.com",
+    "description": "Luqevora.comの目的、運営体制、LuQviaとの関係についてご案内します。",
     "canonical": "https://luqevora.com/ja/about/",
     "h1": "運営者情報",
     "status": "needs-content-migration"
@@ -515,8 +515,8 @@
   {
     "legacyFile": "ja/affiliate-disclosure/index.html",
     "language": "ja",
-    "title": "広告・アフィリエイト掲載方針 | Luqevora",
-    "description": "Luqevoraの広告収益、アフィリエイトリンク、ランキングへの影響について説明します。",
+    "title": "広告・アフィリエイト掲載方針 | Luqevora.com",
+    "description": "Luqevora.comの広告収益、アフィリエイトリンク、ランキングへの影響について説明します。",
     "canonical": "https://luqevora.com/ja/affiliate-disclosure/",
     "h1": "広告・アフィリエイト掲載方針",
     "status": "needs-content-migration"
@@ -569,7 +569,7 @@
   {
     "legacyFile": "ja/ai-tools/index.html",
     "language": "ja",
-    "title": "AIツールの比較記事・レビュー | Luqevora",
+    "title": "AIツールの比較記事・レビュー | Luqevora.com",
     "description": "生成AI、文章作成、会議記録などの業務向けAIツールを、用途・料金・データ条件から比較します。",
     "canonical": "https://luqevora.com/ja/ai-tools/",
     "h1": "AIツール",
@@ -578,8 +578,8 @@
   {
     "legacyFile": "ja/articles/index.html",
     "language": "ja",
-    "title": "記事一覧・ツールレビュー検索 | Luqevora",
-    "description": "Luqevoraが公開する41件の比較記事・個別レビューを、カテゴリ・記事種別・キーワードで検索できます。",
+    "title": "記事一覧・ツールレビュー検索 | Luqevora.com",
+    "description": "Luqevora.comが公開する41件の比較記事・個別レビューを、カテゴリ・記事種別・キーワードで検索できます。",
     "canonical": "https://luqevora.com/ja/articles/",
     "h1": "比較記事・レビューを探す",
     "status": "needs-content-migration"
@@ -677,7 +677,7 @@
   {
     "legacyFile": "ja/business-software/index.html",
     "language": "ja",
-    "title": "業務ソフトウェアの比較記事・レビュー | Luqevora",
+    "title": "業務ソフトウェアの比較記事・レビュー | Luqevora.com",
     "description": "タスク・プロジェクト管理ツールを、無料プラン・権限・ゲスト・管理機能から比較します。",
     "canonical": "https://luqevora.com/ja/business-software/",
     "h1": "業務ソフトウェア",
@@ -749,8 +749,8 @@
   {
     "legacyFile": "ja/contact/index.html",
     "language": "ja",
-    "title": "お問い合わせ | Luqevora",
-    "description": "Luqevoraへの一般連絡、記事訂正、製品掲載、広告・提携、サイト不具合、個人情報、法務、セキュリティ、取材等のお問い合わせ窓口です。",
+    "title": "お問い合わせ | Luqevora.com",
+    "description": "Luqevora.comへの一般連絡、記事訂正、製品掲載、広告・提携、サイト不具合、個人情報、法務、セキュリティ、取材等のお問い合わせ窓口です。",
     "canonical": "https://luqevora.com/ja/contact/",
     "h1": "お問い合わせ",
     "status": "needs-content-migration"
@@ -758,8 +758,8 @@
   {
     "legacyFile": "ja/editorial-policy/index.html",
     "language": "ja",
-    "title": "編集方針 | Luqevora",
-    "description": "Luqevoraの記事制作、評価基準、情報更新、AI利用に関する基本方針です。",
+    "title": "編集方針 | Luqevora.com",
+    "description": "Luqevora.comの記事制作、評価基準、情報更新、AI利用に関する基本方針です。",
     "canonical": "https://luqevora.com/ja/editorial-policy/",
     "h1": "編集方針",
     "status": "needs-content-migration"
@@ -893,7 +893,7 @@
   {
     "legacyFile": "ja/hosting-security/index.html",
     "language": "ja",
-    "title": "サーバー・セキュリティの比較記事・レビュー | Luqevora",
+    "title": "サーバー・セキュリティの比較記事・レビュー | Luqevora.com",
     "description": "Webホスティングとパスワード管理を、料金・バックアップ・共有・管理機能から比較します。",
     "canonical": "https://luqevora.com/ja/hosting-security/",
     "h1": "サーバー・セキュリティ",
@@ -1019,7 +1019,7 @@
   {
     "legacyFile": "ja/index.html",
     "language": "ja",
-    "title": "Luqevora｜AI・SaaS・デジタルツール比較",
+    "title": "Luqevora.com｜AI・SaaS・デジタルツール比較",
     "description": "AI・SaaS・Webサービスを公式情報を基準に比較し、料金・機能・制約・向いている利用者を分かりやすく整理します。",
     "canonical": "https://luqevora.com/ja/",
     "h1": "より良いツール選びを、 もっと分かりやすく。",
@@ -1028,8 +1028,8 @@
   {
     "legacyFile": "ja/privacy/index.html",
     "language": "ja",
-    "title": "プライバシーポリシー | Luqevora",
-    "description": "Luqevoraにおける個人情報、アクセス解析、Cookie、外部サービスの取扱いについて定めます。",
+    "title": "プライバシーポリシー | Luqevora.com",
+    "description": "Luqevora.comにおける個人情報、アクセス解析、Cookie、外部サービスの取扱いについて定めます。",
     "canonical": "https://luqevora.com/ja/privacy/",
     "h1": "プライバシーポリシー",
     "status": "needs-content-migration"
@@ -1100,7 +1100,7 @@
   {
     "legacyFile": "ja/seo-marketing/index.html",
     "language": "ja",
-    "title": "SEO・マーケティングの比較記事・レビュー | Luqevora",
+    "title": "SEO・マーケティングの比較記事・レビュー | Luqevora.com",
     "description": "SEO分析とメールマーケティングを、無料枠・運用上限・自動化・データ取得範囲から比較します。",
     "canonical": "https://luqevora.com/ja/seo-marketing/",
     "h1": "SEO・マーケティング",
@@ -1190,8 +1190,8 @@
   {
     "legacyFile": "ja/terms/index.html",
     "language": "ja",
-    "title": "利用規約 | Luqevora",
-    "description": "Luqevoraのコンテンツ利用、免責事項、知的財産権等に関する条件です。",
+    "title": "利用規約 | Luqevora.com",
+    "description": "Luqevora.comのコンテンツ利用、免責事項、知的財産権等に関する条件です。",
     "canonical": "https://luqevora.com/ja/terms/",
     "h1": "利用規約",
     "status": "needs-content-migration"
@@ -1199,7 +1199,7 @@
   {
     "legacyFile": "ja/website-builders/index.html",
     "language": "ja",
-    "title": "Webサイト制作の比較記事・レビュー | Luqevora",
+    "title": "Webサイト制作の比較記事・レビュー | Luqevora.com",
     "description": "Webサイト作成、EC、ホスティング一体型サービスを、公開方法・独自ドメイン・移行性から比較します。",
     "canonical": "https://luqevora.com/ja/website-builders/",
     "h1": "Webサイト制作",

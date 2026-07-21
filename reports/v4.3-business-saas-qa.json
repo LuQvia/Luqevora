@@ -1,6 +1,6 @@
 {
-  "version": "4.3.0",
-  "generatedAt": "2026-07-20T13:23:09.023Z",
+  "version": "4.3.1",
+  "generatedAt": "2026-07-21T03:07:15.527Z",
   "total": 368,
   "passed": 368,
   "failed": 0,
@@ -21,9 +21,9 @@
       "detail": "null"
     },
     {
-      "name": "unapproved tracking URL absent: google-workspace",
+      "name": "approved Google Workspace referral configured",
       "pass": true,
-      "detail": "null"
+      "detail": "{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"ja\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/ewLM\",\"verifiedAt\":\"2026-07-20\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"}"
     },
     {
       "name": "unapproved tracking URL absent: shopify",
@@ -501,12 +501,12 @@
       "detail": "google-workspace-pricing-small-business"
     },
     {
-      "name": "official disclosure before approval: ja/google-workspace-pricing-small-business",
+      "name": "approved referral disclosure: ja/google-workspace-pricing-small-business",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: ja/google-workspace-pricing-small-business",
+      "name": "approved referral CTA: ja/google-workspace-pricing-small-business",
       "pass": true,
       "detail": ""
     },
@@ -591,12 +591,12 @@
       "detail": "google-workspace-vs-microsoft-365-small-business"
     },
     {
-      "name": "official disclosure before approval: ja/google-workspace-vs-microsoft-365-small-business",
+      "name": "approved referral disclosure: ja/google-workspace-vs-microsoft-365-small-business",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: ja/google-workspace-vs-microsoft-365-small-business",
+      "name": "approved referral CTA: ja/google-workspace-vs-microsoft-365-small-business",
       "pass": true,
       "detail": ""
     },
@@ -681,12 +681,12 @@
       "detail": "gmail-vs-google-workspace-business-email"
     },
     {
-      "name": "official disclosure before approval: ja/gmail-vs-google-workspace-business-email",
+      "name": "approved referral disclosure: ja/gmail-vs-google-workspace-business-email",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: ja/gmail-vs-google-workspace-business-email",
+      "name": "approved referral CTA: ja/gmail-vs-google-workspace-business-email",
       "pass": true,
       "detail": ""
     },
@@ -771,12 +771,12 @@
       "detail": "google-workspace-domain-email-setup"
     },
     {
-      "name": "official disclosure before approval: ja/google-workspace-domain-email-setup",
+      "name": "approved referral disclosure: ja/google-workspace-domain-email-setup",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: ja/google-workspace-domain-email-setup",
+      "name": "approved referral CTA: ja/google-workspace-domain-email-setup",
       "pass": true,
       "detail": ""
     },

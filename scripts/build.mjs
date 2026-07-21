@@ -200,7 +200,7 @@ function footer(language) {
     lang: language,
     year: new Date().getUTCFullYear(),
     footerDescription: currentLabel(language, 'AI・SaaS・Webサービスを公式情報を基準に整理し、より明確な意思決定を支援します。', 'We organize AI, SaaS, and web-service information using official sources to support clearer decisions.'),
-    operatorLabel: currentLabel(language, '運営：LuQvia（個人事業）', 'Operated by LuQvia, an independent business in Japan'),
+    operatorLabel: currentLabel(language, '運営：LuQvia', 'Operated by LuQvia'),
     footerTagline: currentLabel(language, 'より良いツール選びを、もっと分かりやすく。', 'Better tools. Clearer decisions.'),
     categoryTitle: currentLabel(language, 'カテゴリ', 'Categories'),
     informationTitle: currentLabel(language, '記事・運営', 'Information'),
@@ -361,7 +361,7 @@ function renderArticleCtas(article) {
 function sentenceSnippet(value = '') {
   const text = plainText(value);
   if (!text) return '';
-  const pieces = text.split(/(?<=[。！？.!?])\s*/).filter(Boolean);
+  const pieces = text.split(/(?<=[。！？!?])\s*|(?<=\.)\s+/).filter(Boolean);
   return (pieces[0] || text).slice(0, 180);
 }
 
@@ -555,7 +555,7 @@ async function normalizePublicChrome() {
     html = html.replace(/\/assets\/js\/article-directory-v4\.\d+\.\d+\.js/g, '/assets/js/article-directory-v4.7.0.js');
     html = replaceOrInsertXDefault(html, defaultUrl);
     if (!/type=["']application\/rss\+xml["']/i.test(html)) {
-      html = html.replace('</head>', `  <link rel="alternate" type="application/rss+xml" title="Luqevora ${language}" href="/feed-${language}.xml">\n</head>`);
+      html = html.replace('</head>', `  <link rel="alternate" type="application/rss+xml" title="Luqevora.com ${language}" href="/feed-${language}.xml">\n</head>`);
     }
     const articleRoute = relative.match(/^(ja|en)\/([^/]+)\/([^/]+)\/index\.html$/);
     if (articleRoute && categories.some(category => category.id === articleRoute[2]) && !isNoIndex(html)) {
@@ -791,7 +791,7 @@ for (const language of site.languages) {
   const languageRecords = articleRecords.filter(record => record.language === language);
   const availableTopics = topics.filter(topic => languageRecords.some(record => record.topic === topic.id));
   const topicIndexCanonical = `${site.baseUrl}/${language}/topics/`;
-  const topicIndexTitle = currentLabel(language, '目的別ツール選びガイド | Luqevora', 'Tool Guides by Goal | Luqevora');
+  const topicIndexTitle = currentLabel(language, '目的別ツール選びガイド | Luqevora.com', 'Tool Guides by Goal | Luqevora.com');
   const topicIndexDescription = currentLabel(language, `${availableTopics.length}の目的別テーマから、比較・レビュー・導入ガイドを探せます。料金、機能、制約を公式情報で確認できます。`, `Browse comparisons, reviews, and implementation guides across ${availableTopics.length} decision topics, using provider-owned pricing, feature, and policy sources.`);
   const topicIndexGraph = {
     '@context': 'https://schema.org',
@@ -827,7 +827,7 @@ for (const language of site.languages) {
   for (const topic of availableTopics) {
     const records = languageRecords.filter(record => record.topic === topic.id);
     const canonical = `${site.baseUrl}/${language}/topics/${topic.id}/`;
-    const pageTitle = `${topic.name[language]} | Luqevora`;
+    const pageTitle = `${topic.name[language]} | Luqevora.com`;
     const category = categories.find(item => item.id === topic.category);
     const graph = {
       '@context': 'https://schema.org',
@@ -875,7 +875,7 @@ for (const language of site.languages) {
     const categoryTopics = topics.filter(topic => topic.category === category.id && records.some(record => record.topic === topic.id));
     const canonical = `${site.baseUrl}/${language}/${category.path}/`;
     const description = category.description?.[language] || currentLabel(language, `${category.name.ja}の記事一覧です。`, `${category.name.en} articles.`);
-    const pageTitle = `${category.name[language]} | Luqevora`;
+    const pageTitle = `${category.name[language]} | Luqevora.com`;
     const graph = {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
@@ -944,7 +944,7 @@ for (const language of site.languages) {
   const records = articleRecords.filter(record => record.language === language);
   const availableTopics = topics.filter(topic => records.some(record => record.topic === topic.id));
   const canonical = `${site.baseUrl}/${language}/`;
-  const pageTitle = currentLabel(language, 'AI・SaaS・Webサービス比較 | Luqevora', 'AI, SaaS & Web Service Comparisons | Luqevora');
+  const pageTitle = currentLabel(language, 'AI・SaaS・Webサービス比較 | Luqevora.com', 'AI, SaaS & Web Service Comparisons | Luqevora.com');
   const description = currentLabel(language, `AI・SaaS・Webサービスの比較、レビュー、ガイドを${records.length}件掲載。公式情報を基に料金・機能・制約を整理します。`, `Explore ${records.length} AI, SaaS, and web-service comparisons, reviews, and guides based on provider-owned pricing, feature, and policy sources.`);
   const comparisons = configuredHomeRecords(records, 'comparison', homeConfig.featuredComparisons, 5);
   const reviews = configuredHomeRecords(records, 'review', homeConfig.featuredReviews, 6);
@@ -1035,8 +1035,8 @@ for (const language of site.languages) {
 for (const language of site.languages) {
   const records = articleRecords.filter(record => record.language === language);
   const canonical = `${site.baseUrl}/${language}/articles/`;
-  const pageTitle = currentLabel(language, '記事一覧・ツールレビュー検索 | Luqevora', 'All Comparisons and Tool Reviews | Luqevora');
-  const description = currentLabel(language, `公開中の${records.length}件の比較記事・個別レビュー・ガイドを、カテゴリ・記事種別・キーワードで探せます。`, `Search ${records.length} published Luqevora comparisons, product reviews, and guides by category, content type, topic, or keyword.`);
+  const pageTitle = currentLabel(language, '記事一覧・ツールレビュー検索 | Luqevora.com', 'All Comparisons and Tool Reviews | Luqevora.com');
+  const description = currentLabel(language, `公開中の${records.length}件の比較記事・個別レビュー・ガイドを、カテゴリ・記事種別・キーワードで探せます。`, `Search ${records.length} published Luqevora.com comparisons, product reviews, and guides by category, content type, topic, or keyword.`);
   const graph = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -1124,11 +1124,11 @@ for (const language of site.languages) {
   const graph = {'@context':'https://schema.org','@graph':[
     {'@type':'CollectionPage','@id':`${canonical}#webpage`,url:canonical,name:currentLabel(language,'製品比較データベース','Product comparison database'),description:currentLabel(language,'AI・SaaS・Webサービスの料金、用途、制約、公式出典を共通項目で比較できます。','Compare pricing, use cases, constraints, and official sources for AI, SaaS, and web services.'),inLanguage:language,isPartOf:{'@id':`${site.baseUrl}/#website`}},
     {'@type':'ItemList',numberOfItems:products.length,itemListElement:products.map((product,index)=>({'@type':'ListItem',position:index+1,name:product.name,url:canonical+`#${product.id}`}))},
-    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Luqevora',item:`${site.baseUrl}/${language}/`},{'@type':'ListItem',position:2,name:currentLabel(language,'製品比較DB','Product Database'),item:canonical}]}
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Luqevora.com',item:`${site.baseUrl}/${language}/`},{'@type':'ListItem',position:2,name:currentLabel(language,'製品比較DB','Product Database'),item:canonical}]}
   ]};
   const page = render(templates.compare, {
     lang: language,
-    metaTitle: esc(currentLabel(language, '製品比較データベース｜料金・用途・制約を一覧比較 | Luqevora', 'Product Comparison Database: Pricing, Use Cases and Limits | Luqevora')),
+    metaTitle: esc(currentLabel(language, '製品比較データベース｜料金・用途・制約を一覧比較 | Luqevora.com', 'Product Comparison Database: Pricing, Use Cases and Limits | Luqevora.com')),
     description: esc(currentLabel(language, `${products.length}製品の料金概要、対象用途、強み、制約、公式出典を共通項目で比較できます。`, `Compare pricing, best-fit use cases, strengths, constraints, and official sources across ${products.length} products.`)),
     canonical,
     hreflang: localizedHreflang('compare'),
@@ -1185,8 +1185,8 @@ const diagnosisSwitches = language => [
 
 for (const language of site.languages) {
   const canonical = `${site.baseUrl}/${language}/diagnosis/`;
-  const title = currentLabel(language, 'サービス選び診断｜用途と条件から候補を絞る | Luqevora', 'Product Finder: Shortlist Services by Need | Luqevora');
-  const description = currentLabel(language, '用途、予算、必要機能からLuqevoraの製品データベースを絞り込み、候補と注意点を表示します。', 'Use goals, budget, and required features to shortlist products from the Luqevora database.');
+  const title = currentLabel(language, 'サービス選び診断｜用途と条件から候補を絞る | Luqevora.com', 'Product Finder: Shortlist Services by Need | Luqevora.com');
+  const description = currentLabel(language, '用途、予算、必要機能からLuqevora.comの製品データベースを絞り込み、候補と注意点を表示します。', 'Use goals, budget, and required features to shortlist products from the Luqevora.com database.');
   const graph = {'@context':'https://schema.org','@type':'WebApplication',name:title,url:canonical,description,inLanguage:language,applicationCategory:'BusinessApplication',isAccessibleForFree:true};
   const page = render(templates.diagnosis, {
     lang:language, metaTitle:esc(title), description:esc(description), canonical,
@@ -1206,13 +1206,13 @@ for (const language of site.languages) {
 
   for (const product of productCatalog.products || []) {
     const pCanonical = `${site.baseUrl}/${language}/products/${product.id}/`;
-    const pTitle = `${product.name}${currentLabel(language,'の料金・用途・注意点',' pricing, use cases and cautions')} | Luqevora`;
+    const pTitle = `${product.name}${currentLabel(language,'の料金・用途・注意点',' pricing, use cases and cautions')} | Luqevora.com`;
     const pDescription = `${product.positioning?.[language] || product.name}。${product.pricing?.[language] || ''}`;
     const related = (product.relatedArticles || []).filter(article => article.language === language).slice(0,8);
     const productGraph = {'@context':'https://schema.org','@graph':[
       {'@type':'Product','@id':`${pCanonical}#product`,name:product.name,description:product.positioning?.[language],category:product.categoryName?.[language],url:pCanonical},
       {'@type':'WebPage','@id':`${pCanonical}#webpage`,url:pCanonical,name:pTitle,description:pDescription,inLanguage:language,mainEntity:{'@id':`${pCanonical}#product`}},
-      {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Luqevora',item:`${site.baseUrl}/${language}/`},{'@type':'ListItem',position:2,name:currentLabel(language,'製品比較DB','Product Database'),item:`${site.baseUrl}/${language}/compare/`},{'@type':'ListItem',position:3,name:product.name,item:pCanonical}]}
+      {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Luqevora.com',item:`${site.baseUrl}/${language}/`},{'@type':'ListItem',position:2,name:currentLabel(language,'製品比較DB','Product Database'),item:`${site.baseUrl}/${language}/compare/`},{'@type':'ListItem',position:3,name:product.name,item:pCanonical}]}
     ]};
     const facts = `<dl class="product-facts"><div><dt>${currentLabel(language,'カテゴリ','Category')}</dt><dd>${esc(product.categoryName?.[language] || product.category)}</dd></div><div><dt>${currentLabel(language,'料金体系','Pricing model')}</dt><dd>${esc(product.pricingModel)}</dd></div><div><dt>${currentLabel(language,'最終確認','Last verified')}</dt><dd>${esc(product.lastVerified)}</dd></div><div><dt>${currentLabel(language,'公式出典','Official sources')}</dt><dd>${product.sources?.length || 0}</dd></div></dl>`;
     const page = render(templates.product, {
@@ -1238,7 +1238,7 @@ for (const language of site.languages) {
   for (const landing of comparisonLandings) {
     const products=(productCatalog.products||[]).filter(landing.test);
     const canonical=`${site.baseUrl}/${language}/compare/${landing.id}/`;
-    const title=`${landing[language]} | Luqevora`;
+    const title=`${landing[language]} | Luqevora.com`;
     const description=currentLabel(language,`${products.length}製品を共通データで比較。料金、用途、制約、公式出典を確認できます。`,`Compare ${products.length} products using shared fields for pricing, use cases, constraints, and official sources.`);
     const graph={'@context':'https://schema.org','@type':'CollectionPage',url:canonical,name:title,description,inLanguage:language,mainEntity:{'@type':'ItemList',numberOfItems:products.length,itemListElement:products.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.name,url:`${site.baseUrl}/${language}/products/${p.id}/`}))}};
     const page=render(templates.compare,{lang:language,metaTitle:esc(title),description:esc(description),canonical,hreflang:localizedHreflang(`compare/${landing.id}`),ogImage:`${site.baseUrl}/assets/images/og-default.png`,structuredData:JSON.stringify(graph),header:header(language,'compare',`/${language==='ja'?'en':'ja'}/compare/${landing.id}/`),breadcrumbAriaLabel:currentLabel(language,'パンくずリスト','Breadcrumb'),breadcrumbCurrent:esc(landing[language]),eyebrow:currentLabel(language,'条件別比較 v3.1','Curated comparison v3.1'),title:esc(landing[language]),lead:esc(description),stats:`<div class="catalog-stat"><strong>${products.length}</strong><span>${currentLabel(language,'対象製品','matching products')}</span></div>`,searchLabel:currentLabel(language,'製品・用途・機能を検索','Search products, use cases, or features'),searchPlaceholder:currentLabel(language,'製品名や用途','Product or use case'),categoryLabel:currentLabel(language,'カテゴリ','Category'),categoryOptions:`<option value="">${currentLabel(language,'すべてのカテゴリ','All categories')}</option>`,pricingLabel:currentLabel(language,'料金体系','Pricing model'),pricingOptions:`<option value="">${currentLabel(language,'すべての料金体系','All pricing models')}</option>`,resetLabel:currentLabel(language,'条件をリセット','Reset filters'),productCount:products.length,resultLabel:currentLabel(language,'件を表示','products shown'),productCards:products.map(product=>renderProductCard(product,language)).join(''),emptyLabel:currentLabel(language,'条件に一致する製品がありません。','No products match these filters.'),methodEyebrow:currentLabel(language,'確認方法','How to verify'),methodTitle:currentLabel(language,'公式条件で最終確認','Verify current official terms'),methodText:currentLabel(language,'掲載条件は共通データから抽出しています。契約前に公式料金・機能・利用条件を再確認してください。','These pages are generated from shared data. Recheck official pricing, features, and terms before purchase.'),methodChecks:[currentLabel(language,'共通項目で比較','Consistent fields'),currentLabel(language,'製品詳細へ接続','Links to product hubs'),currentLabel(language,'公式出典を明示','Official sources shown')].map(x=>`<li>${esc(x)}</li>`).join(''),footer:footer(language)});
@@ -1322,7 +1322,7 @@ await writeFile(path.join(outputRoot, `${indexNow.key}.txt`), `${indexNow.key}\n
 
 for (const language of site.languages) {
   const records = articleRecords.filter(record => record.language === language).slice(0, 50);
-  const title = currentLabel(language, 'Luqevora 最新記事', 'Luqevora Latest Articles');
+  const title = currentLabel(language, 'Luqevora.com 最新記事', 'Luqevora.com Latest Articles');
   const feed = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${xmlEscape(title)}</title><link>${site.baseUrl}/${language}/</link><description>${xmlEscape(currentLabel(language, 'AI・SaaS・Webサービスの比較・レビュー', 'AI, SaaS, and web-service comparisons and reviews'))}</description><language>${language}</language><lastBuildDate>${new Date(`${site.defaultVerifiedAt}T00:00:00Z`).toUTCString()}</lastBuildDate>${records.map(record => `<item><title>${xmlEscape(record.title)}</title><link>${site.baseUrl}${record.url}</link><guid isPermaLink="true">${site.baseUrl}${record.url}</guid><description>${xmlEscape(record.description)}</description><pubDate>${new Date(`${record.verifiedAt}T00:00:00Z`).toUTCString()}</pubDate></item>`).join('')}</channel></rss>\n`;
   await writeFile(path.join(outputRoot, `feed-${language}.xml`), feed);
 }

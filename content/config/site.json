@@ -1,5 +1,5 @@
 {
-  "siteName": "Luqevora",
+  "siteName": "Luqevora.com",
   "baseUrl": "https://luqevora.com",
   "defaultLanguage": "ja",
   "languages": [
@@ -12,10 +12,10 @@
     "en": "Better tools. Clearer decisions."
   },
   "organization": {
-    "name": "Luqevora",
-    "url": "https://luqevora.com"
+    "name": "LuQvia",
+    "url": "https://www.luqvia.com/"
   },
-  "assetVersion": "6.3.0",
+  "assetVersion": "6.3.1",
   "defaultVerifiedAt": "2026-07-20",
   "minimumArticlesPerLanguage": 280,
   "minimumIndexableArticlesPerLanguage": 100,

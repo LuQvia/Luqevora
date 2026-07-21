@@ -437,7 +437,7 @@ function makeArticle(route, lang) {
     publishedAt: date,
     updatedAt: date,
     verifiedAt: date,
-    author: ja ? 'Luqevora編集部' : 'Luqevora Editorial Team',
+    author: ja ? 'Luqevora.com編集部' : 'Luqevora.com Editorial Team',
     featured: true,
     affiliateDisclosure: ja,
     ctas: [{

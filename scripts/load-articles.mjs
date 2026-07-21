@@ -185,7 +185,7 @@ function comparisonArticle(record, profiles, language) {
     publishedAt: record.publishedAt || articleVerifiedAt,
     updatedAt: record.updatedAt || articleVerifiedAt,
     verifiedAt: articleVerifiedAt,
-    author: choose(language, 'Luqevora編集部', 'Luqevora Editorial Team'),
+    author: choose(language, 'Luqevora.com編集部', 'Luqevora.com Editorial Team'),
     featured: record.featured ?? true,
     affiliateDisclosure: false,
     ctas: [first, second].map(profile => ({
@@ -294,7 +294,7 @@ function profileReviewArticle(record, profiles, language) {
     publishedAt: record.publishedAt || articleVerifiedAt,
     updatedAt: record.updatedAt || articleVerifiedAt,
     verifiedAt: articleVerifiedAt,
-    author: choose(language, 'Luqevora編集部', 'Luqevora Editorial Team'),
+    author: choose(language, 'Luqevora.com編集部', 'Luqevora.com Editorial Team'),
     featured: false,
     affiliateDisclosure: false,
     ctas: [{
@@ -495,7 +495,7 @@ function profileIntentArticle(record, profiles, language) {
     publishedAt: record.publishedAt || articleVerifiedAt,
     updatedAt: record.updatedAt || articleVerifiedAt,
     verifiedAt: articleVerifiedAt,
-    author: choose(language, 'Luqevora編集部', 'Luqevora Editorial Team'),
+    author: choose(language, 'Luqevora.com編集部', 'Luqevora.com Editorial Team'),
     featured: false,
     affiliateDisclosure: false,
     ctas: candidateProfiles.map(item => ({
@@ -628,7 +628,7 @@ function templatedArticle(record, language) {
     publishedAt: record.publishedAt || articleVerifiedAt,
     updatedAt: record.updatedAt || articleVerifiedAt,
     verifiedAt: articleVerifiedAt,
-    author: choose(language, 'Luqevora編集部', 'Luqevora Editorial Team'),
+    author: choose(language, 'Luqevora.com編集部', 'Luqevora.com Editorial Team'),
     featured: false,
     affiliateDisclosure: false,
     ctas: (record.ctas || []).map(cta => ({

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "summary": {
-    "generatedAt": "2026-07-20T13:22:46.339Z",
+    "generatedAt": "2026-07-21T03:07:01.079Z",
     "referenceDate": "2026-07-20",
     "articles": 704,
     "products": 78,
@@ -9,9 +9,9 @@
     "dueSoonArticles": 0,
     "overdueProducts": 0,
     "dueSoonProducts": 0,
-    "articlesWithAffiliate": 175,
-    "nonAffiliateCtaReferences": 938,
-    "missingAffiliateConfigurations": 58,
+    "articlesWithAffiliate": 190,
+    "nonAffiliateCtaReferences": 925,
+    "missingAffiliateConfigurations": 57,
     "uniqueOfficialSources": 346,
     "invalidSourceUrls": 0,
     "highReuseSourceUrls": 213
@@ -7134,10 +7134,10 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -7346,10 +7346,10 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 3,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -7364,10 +7364,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 3,
-      "affiliateKeys": [],
-      "referenceKeys": [
-        "google-workspace"
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -9906,10 +9907,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
-        "slack",
+      "affiliateKeys": [
         "google-workspace"
+      ],
+      "referenceKeys": [
+        "slack"
       ],
       "priority": 10
     },
@@ -11329,10 +11331,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
-        "google-workspace"
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -11491,10 +11494,10 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -11509,10 +11512,30 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 3,
-      "affiliateKeys": [],
-      "referenceKeys": [
-        "google-workspace"
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
       ],
+      "referenceKeys": [],
+      "priority": 10
+    },
+    {
+      "id": "google-workspace-guide",
+      "language": "ja",
+      "type": "guide",
+      "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+      "url": "/ja/business-software/google-workspace-guide/",
+      "category": "business-software",
+      "verifiedAt": "2026-07-20",
+      "nextReview": "2026-10-18",
+      "daysRemaining": 90,
+      "status": "current",
+      "sourceCount": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -11527,10 +11550,11 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
-        "google-workspace"
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -11653,10 +11677,10 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -11671,10 +11695,10 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 3,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -12392,10 +12416,10 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -12410,10 +12434,10 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -12428,10 +12452,10 @@
       "daysRemaining": 90,
       "status": "current",
       "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [
+      "affiliateKeys": [
         "google-workspace"
       ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -12650,6 +12674,25 @@
       "referenceKeys": [
         "hostinger"
       ],
+      "priority": 10
+    },
+    {
+      "id": "custom-domain-email-guide",
+      "language": "ja",
+      "type": "guide",
+      "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+      "url": "/ja/business-software/custom-domain-email-guide/",
+      "category": "business-software",
+      "verifiedAt": "2026-07-20",
+      "nextReview": "2026-10-18",
+      "daysRemaining": 90,
+      "status": "current",
+      "sourceCount": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "referenceKeys": [],
       "priority": 10
     },
     {
@@ -12954,22 +12997,6 @@
       "priority": 0
     },
     {
-      "id": "google-workspace-guide",
-      "language": "ja",
-      "type": "guide",
-      "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
-      "url": "/ja/business-software/google-workspace-guide/",
-      "category": "business-software",
-      "verifiedAt": "2026-07-19",
-      "nextReview": "2026-10-17",
-      "daysRemaining": 89,
-      "status": "current",
-      "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [],
-      "priority": 0
-    },
-    {
       "id": "google-calendar-guide",
       "language": "ja",
       "type": "guide",
@@ -12991,22 +13018,6 @@
       "type": "guide",
       "title": "Slackとは？使い方・料金・Google Chatとの違いを解説",
       "url": "/ja/business-software/slack-guide/",
-      "category": "business-software",
-      "verifiedAt": "2026-07-19",
-      "nextReview": "2026-10-17",
-      "daysRemaining": 89,
-      "status": "current",
-      "sourceCount": 2,
-      "affiliateKeys": [],
-      "referenceKeys": [],
-      "priority": 0
-    },
-    {
-      "id": "custom-domain-email-guide",
-      "language": "ja",
-      "type": "guide",
-      "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
-      "url": "/ja/business-software/custom-domain-email-guide/",
       "category": "business-software",
       "verifiedAt": "2026-07-19",
       "nextReview": "2026-10-17",
@@ -13309,7 +13320,7 @@
       "sourceCount": 2,
       "relatedArticleCount": 12,
       "affiliateKey": "google-workspace",
-      "affiliateConfigured": false
+      "affiliateConfigured": true
     },
     {
       "id": "hubspot-crm",

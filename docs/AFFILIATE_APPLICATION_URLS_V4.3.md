@@ -2,7 +2,7 @@
 
 確認日：2026-07-20
 
-審査前はすべて公式サイトへの通常リンクです。提携済み、認定パートナー等の表現は使用していません。
+Google Workspaceは紹介プログラム登録済みで、専用紹介リンクを掲載しています。その他は審査前のため公式サイトへの通常リンクです。認定パートナー等の表現は使用していません。
 
 ## monday.com
 
@@ -19,6 +19,12 @@
 - https://luqevora.com/ja/business-software/monday-implementation-checklist/
 
 ## Google Workspace
+
+状態：紹介プログラム登録済み・専用リンク反映済み
+
+紹介リンク：<https://referworkspace.app.goo.gl/ewLM>
+
+プロモーションコード：公開禁止のため、公開リポジトリには保存せず個別配布
 
 申請先：<https://workspace.google.com/intl/ja/referral-program/>
 
@@ -64,7 +70,7 @@
 ## 承認後の変更
 
 1. 提携サービスの管理画面で正式な追跡URLを取得する。
-2. `content/config/affiliates.json` の `links` に該当キーを追加する。
+2. `content/config/affiliates.json` の `links` に該当キーを追加する（Google Workspaceは反映済み）。
 3. `npm run check` を実行する。
 4. 記事が広告開示、`rel="sponsored nofollow noopener"`、広告計測属性付きで生成されたことを確認する。
 5. 提携先から掲載URLの申告を求められた場合は、上記URLを登録する。

@@ -23,7 +23,11 @@ const check=(name,pass,detail='')=>results.push({name,pass:Boolean(pass),detail}
 check('release has 20 article pairs',slugs.length===20,slugs.length);
 check('five prospect programs configured',prospects.programs?.length===5,prospects.programs?.length);
 for(const program of prospects.programs){
-  check(`unapproved tracking URL absent: ${program.key}`,!affiliates.links?.[program.key],JSON.stringify(affiliates.links?.[program.key]||null));
+  if(program.key==='google-workspace'){
+    check('approved Google Workspace referral configured',affiliates.links?.[program.key]?.url==='https://referworkspace.app.goo.gl/ewLM',JSON.stringify(affiliates.links?.[program.key]||null));
+  }else{
+    check(`unapproved tracking URL absent: ${program.key}`,!affiliates.links?.[program.key],JSON.stringify(affiliates.links?.[program.key]||null));
+  }
 }
 const sitemap = await fs.readFile(path.join(root,'public/sitemap.xml'),'utf8');
 const searchData = JSON.parse(await fs.readFile(path.join(root,'public/search-index.json'),'utf8'));
@@ -37,8 +41,14 @@ for(const slug of slugs){
     const route=`/${lang}/${category}/${slug}/`;
     check(`source indexed: ${lang}/${slug}`,seo.indexing.includeSourceFiles.includes(source));
     check(`translation key: ${lang}/${slug}`,article.translationKey===slug,article.translationKey);
-    check(`official disclosure before approval: ${lang}/${slug}`,html.includes(lang==='ja'?'公開時点でアフィリエイトリンクを含みません':'No affiliate links are included as of publication'));
-    check(`official CTA only: ${lang}/${slug}`,html.includes('data-official-link="true"')&&!html.includes('data-affiliate-link="true"'));
+    const approvedWorkspace = slug.startsWith('google-workspace') || slug==='gmail-vs-google-workspace-business-email';
+    if(approvedWorkspace && lang==='ja'){
+      check(`approved referral disclosure: ${lang}/${slug}`,html.includes('広告・アフィリエイトを含みます'));
+      check(`approved referral CTA: ${lang}/${slug}`,html.includes('data-affiliate-link="true"')&&html.includes('https://referworkspace.app.goo.gl/ewLM'));
+    }else{
+      check(`official disclosure before approval: ${lang}/${slug}`,html.includes(lang==='ja'?'公開時点でアフィリエイトリンクを含みません':'No affiliate links are included as of publication'));
+      check(`official CTA only: ${lang}/${slug}`,html.includes('data-official-link="true"')&&!html.includes('data-affiliate-link="true"'));
+    }
     check(`article JSON-LD: ${lang}/${slug}`,html.includes('application/ld+json')&&(html.includes('"Article"')||html.includes('"BlogPosting"')));
     check(`FAQ JSON-LD: ${lang}/${slug}`,html.includes('FAQPage'));
     check(`canonical route: ${lang}/${slug}`,html.includes(`https://luqevora.com${route}`));
@@ -50,7 +60,7 @@ for(const slug of slugs){
 }
 check('sitemap index exists',sitemap.includes('/sitemaps/articles-ja.xml')&&sitemap.includes('/sitemaps/articles-en.xml'));
 const failed=results.filter(x=>!x.pass);
-const report={version:'4.3.0',generatedAt:new Date().toISOString(),total:results.length,passed:results.length-failed.length,failed:failed.length,results};
+const report={version:'4.3.1',generatedAt:new Date().toISOString(),total:results.length,passed:results.length-failed.length,failed:failed.length,results};
 await fs.writeFile(path.join(root,'reports/v4.3-business-saas-qa.json'),JSON.stringify(report,null,2)+'\n');
 console.log(`v4.3 QA: ${report.passed}/${report.total} passed`);
 if(failed.length){for(const item of failed.slice(0,30)) console.error(`FAIL ${item.name}: ${item.detail}`);process.exitCode=1;}

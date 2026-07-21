@@ -1,0 +1,144 @@
+{
+  "version": "4.3.2",
+  "generatedAt": "2026-07-21T03:07:16.017Z",
+  "total": 27,
+  "passed": 27,
+  "failed": 0,
+  "results": [
+    {
+      "name": "package version",
+      "pass": true,
+      "detail": "4.3.2"
+    },
+    {
+      "name": "site name",
+      "pass": true,
+      "detail": "Luqevora.com"
+    },
+    {
+      "name": "operator organization",
+      "pass": true,
+      "detail": "LuQvia"
+    },
+    {
+      "name": "brand displayed: public/ja/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/ja/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/en/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/en/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/ja/about/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/ja/about/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/en/about/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/en/about/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/ja/privacy/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/ja/privacy/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/en/privacy/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/en/privacy/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/ja/articles/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/ja/articles/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "brand displayed: public/en/articles/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operator status removed: public/en/articles/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese operator display",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English operator display",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese relationship wording",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English relationship wording",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "organization structured data",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "webmanifest name",
+      "pass": true,
+      "detail": "Luqevora.com"
+    },
+    {
+      "name": "webmanifest short name",
+      "pass": true,
+      "detail": "Luqevora.com"
+    },
+    {
+      "name": "dotted brand not truncated in summaries",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

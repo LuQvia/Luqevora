@@ -13,11 +13,11 @@
   "description": "独自ドメインメールの作成方法、レンタルサーバー、Google Workspace、MX、SPF、DKIM、DMARCを解説します。",
   "lead": "独自ドメインを使った業務用メールの作成と認証設定を整理します。",
   "publishedAt": "2026-07-17",
-  "updatedAt": "2026-07-19",
-  "verifiedAt": "2026-07-19",
-  "author": "Luqevora編集部",
+  "updatedAt": "2026-07-20",
+  "verifiedAt": "2026-07-20",
+  "author": "Luqevora.com編集部",
   "featured": false,
-  "affiliateDisclosure": false,
+  "affiliateDisclosure": true,
   "sources": [
     {
       "label": "Google Workspace",
@@ -34,6 +34,20 @@
       "body": [
         "少人数でWebサイトと一緒に管理するならレンタルサーバーのメール機能、Gmail画面と組織管理を重視するならGoogle Workspaceが候補です。"
       ]
+    },
+    {
+      "heading": "紹介リンクと初年度割引コードについて",
+      "body": [
+        "本記事のGoogle Workspace申込みCTAには、Luqevora.com運営者に発行されたGoogle Workspaceご紹介プログラムの専用リンクを使用しています。対象となる新規のお客様がこのリンクから試用を開始し、条件を満たした場合、運営者が紹介料を受け取ることがあります。",
+        "初年度の利用料金が割引になるプロモーションコードは、1コードにつき1件の紹介先だけが利用できるため公開していません。利用を具体的に検討している新規事業者には、在庫状況を確認したうえで公式LINEから個別に案内します。"
+      ],
+      "bullets": [
+        "紹介リンクから14日間の試用を開始する",
+        "Google Workspaceを初めて利用する新規のお客様が対象",
+        "割引コードは公開ページやSNSへ掲載しない",
+        "コードの利用可否と対象プランは申込み画面で確認する"
+      ],
+      "callout": "プロモーションコードには数と利用条件があります。コードの確保や割引適用を保証するものではありません。"
     },
     {
       "heading": "作成手順",
@@ -70,6 +84,10 @@
     {
       "question": "契約前に最低限確認すべき点は何ですか？",
       "answer": "必要機能、利用人数、契約期間を含む総額、無料枠の制限、データの出力・移行方法、サポート範囲を公式ページで確認してください。"
+    },
+    {
+      "question": "初年度割引のプロモーションコードはどこで確認できますか？",
+      "answer": "Googleのルールにより、1件だけ利用できる固有コードを公開ページには掲載していません。Google Workspaceを新規導入する予定が固まった段階で、LuQvia公式LINEから個別にお問い合わせください。コードの在庫、対象プラン、利用条件を確認して案内します。"
     }
   ],
   "relatedLinks": [
@@ -87,6 +105,18 @@
       "label": "法人向けSLA付きサーバー比較",
       "url": "/ja/hosting-security/business-hosting-sla-comparison/",
       "description": "保証対象と返金条件を比較"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Google Workspaceを紹介リンクから14日間試す",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "affiliateKey": "google-workspace"
+    },
+    {
+      "label": "割引コードを公式LINEで個別に確認する",
+      "officialUrl": "https://lin.ee/nTfIJLT",
+      "affiliateKey": "luqvia-store-dx-line"
     }
   ]
 }

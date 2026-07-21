@@ -1,7 +1,7 @@
 {
-  "version": "4.3.0",
+  "version": "4.3.1",
   "verifiedAt": "2026-07-20",
-  "policy": "Before approval, articles use official links. Add only network-issued tracking URLs after approval and retain the disclosure and sponsored rel attributes.",
+  "policy": "Approved referral or affiliate links are stored centrally. Single-use promotion codes must never be published or committed; distribute them individually and track them in a private register.",
   "programs": [
     {
       "key": "monday-com",
@@ -14,10 +14,15 @@
     {
       "key": "google-workspace",
       "name": "Google Workspace",
-      "status": "not-applied",
+      "status": "active-referral",
       "officialProgram": "https://workspace.google.com/intl/ja/referral-program/",
       "network": "Google referral program",
-      "articleCount": 4
+      "articleCount": 6,
+      "approvedAt": "2026-07-20",
+      "referralUrl": "https://referworkspace.app.goo.gl/ewLM",
+      "promotionCodeDiscount": "10% per user for the first year where eligible",
+      "promotionCodeDistribution": "private-one-to-one-only",
+      "publicPromotionCodesStored": false
     },
     {
       "key": "shopify",

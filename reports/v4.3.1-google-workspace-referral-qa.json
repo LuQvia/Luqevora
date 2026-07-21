@@ -1,0 +1,299 @@
+{
+  "version": "4.3.1",
+  "generatedAt": "2026-07-21T03:07:15.778Z",
+  "total": 58,
+  "passed": 58,
+  "failed": 0,
+  "results": [
+    {
+      "name": "package version",
+      "pass": true,
+      "detail": "4.3.2"
+    },
+    {
+      "name": "referral URL configured",
+      "pass": true,
+      "detail": "https://referworkspace.app.goo.gl/ewLM"
+    },
+    {
+      "name": "Japanese-only referral",
+      "pass": true,
+      "detail": "ja"
+    },
+    {
+      "name": "prospect active",
+      "pass": true,
+      "detail": "active-referral"
+    },
+    {
+      "name": "promo codes excluded from public config",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate disclosure source: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "referral CTA source: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "private code request CTA source: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "referral URL public: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsored rel: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate data attributes: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private distribution wording: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no known promo-code pattern in HTML: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate disclosure source: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "referral CTA source: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "private code request CTA source: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "referral URL public: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsored rel: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate data attributes: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private distribution wording: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no known promo-code pattern in HTML: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate disclosure source: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "referral CTA source: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "private code request CTA source: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "referral URL public: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsored rel: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate data attributes: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private distribution wording: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no known promo-code pattern in HTML: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate disclosure source: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "referral CTA source: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "private code request CTA source: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "referral URL public: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsored rel: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate data attributes: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private distribution wording: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no known promo-code pattern in HTML: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate disclosure source: google-workspace-guide",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "referral CTA source: google-workspace-guide",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "private code request CTA source: google-workspace-guide",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "referral URL public: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsored rel: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate data attributes: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private distribution wording: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no known promo-code pattern in HTML: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate disclosure source: custom-domain-email-guide",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "referral CTA source: custom-domain-email-guide",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "private code request CTA source: custom-domain-email-guide",
+      "pass": true,
+      "detail": "[{\"label\":\"Google Workspaceを紹介リンクから14日間試す\",\"officialUrl\":\"https://workspace.google.com/intl/ja/\",\"affiliateKey\":\"google-workspace\"},{\"label\":\"割引コードを公式LINEで個別に確認する\",\"officialUrl\":\"https://lin.ee/nTfIJLT\",\"affiliateKey\":\"luqvia-store-dx-line\"}]"
+    },
+    {
+      "name": "referral URL public: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sponsored rel: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "affiliate data attributes: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "private distribution wording: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no known promo-code pattern in HTML: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English remains official: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English remains official: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English remains official: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English remains official: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public policy documents state codes are private",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

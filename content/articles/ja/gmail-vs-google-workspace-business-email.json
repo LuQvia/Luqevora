@@ -15,14 +15,19 @@
   "publishedAt": "2026-07-20",
   "updatedAt": "2026-07-20",
   "verifiedAt": "2026-07-20",
-  "author": "Luqevora編集部",
+  "author": "Luqevora.com編集部",
   "featured": false,
-  "affiliateDisclosure": false,
+  "affiliateDisclosure": true,
   "ctas": [
     {
-      "label": "Google Workspaceの公式料金・機能を確認",
-      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
+      "label": "Google Workspaceを紹介リンクから14日間試す",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
       "affiliateKey": "google-workspace"
+    },
+    {
+      "label": "割引コードを公式LINEで個別に確認する",
+      "officialUrl": "https://lin.ee/nTfIJLT",
+      "affiliateKey": "luqvia-store-dx-line"
     }
   ],
   "sources": [
@@ -43,6 +48,20 @@
         "選定では知名度や表示価格だけでなく、実際の利用人数、日常業務、管理者の負担、データ移行、解約時の取り出しまで同じ条件で確認してください。"
       ],
       "callout": "公式条件は変更されるため、申込み直前に料金画面と利用規約を再確認してください。"
+    },
+    {
+      "heading": "紹介リンクと初年度割引コードについて",
+      "body": [
+        "本記事のGoogle Workspace申込みCTAには、Luqevora.com運営者に発行されたGoogle Workspaceご紹介プログラムの専用リンクを使用しています。対象となる新規のお客様がこのリンクから試用を開始し、条件を満たした場合、運営者が紹介料を受け取ることがあります。",
+        "初年度の利用料金が割引になるプロモーションコードは、1コードにつき1件の紹介先だけが利用できるため公開していません。利用を具体的に検討している新規事業者には、在庫状況を確認したうえで公式LINEから個別に案内します。"
+      ],
+      "bullets": [
+        "紹介リンクから14日間の試用を開始する",
+        "Google Workspaceを初めて利用する新規のお客様が対象",
+        "割引コードは公開ページやSNSへ掲載しない",
+        "コードの利用可否と対象プランは申込み画面で確認する"
+      ],
+      "callout": "プロモーションコードには数と利用条件があります。コードの確保や割引適用を保証するものではありません。"
     },
     {
       "heading": "料金と契約条件",
@@ -135,6 +154,10 @@
     {
       "question": "導入で最も重要なことは何ですか？",
       "answer": "ツールの機能数ではなく、対象業務、入力責任者、完了条件、権限、定期確認を明文化し、小さな試用で再現することです。"
+    },
+    {
+      "question": "初年度割引のプロモーションコードはどこで確認できますか？",
+      "answer": "Googleのルールにより、1件だけ利用できる固有コードを公開ページには掲載していません。Google Workspaceを新規導入する予定が固まった段階で、LuQvia公式LINEから個別にお問い合わせください。コードの在庫、対象プラン、利用条件を確認して案内します。"
     }
   ]
 }

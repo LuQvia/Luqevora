@@ -456,7 +456,7 @@ function makeArticle(route, lang) {
     publishedAt: date,
     updatedAt: date,
     verifiedAt: date,
-    author: ja ? 'Luqevora編集部' : 'Luqevora Editorial Team',
+    author: ja ? 'Luqevora.com編集部' : 'Luqevora.com Editorial Team',
     featured: true,
     affiliateDisclosure: ja,
     ctas: [{
@@ -530,7 +530,7 @@ build = build.replace('`優先度の高い${records.length}件のAI・SaaS・Web
 build = build.replace('`Explore ${records.length} priority comparisons, reviews, and guides for AI, SaaS, and web services using provider-owned pricing, feature, and policy sources.`', '`Explore ${records.length} AI, SaaS, and web-service comparisons, reviews, and guides based on provider-owned pricing, feature, and policy sources.`');
 build = build.replace("'検索対象の記事', 'search-ready articles'", "'公開中の記事', 'published articles'");
 build = build.replace('`検索対象として優先した${records.length}件の比較記事・個別レビュー・ガイドを、カテゴリ・記事種別・キーワードで探せます。`', '`公開中の${records.length}件の比較記事・個別レビュー・ガイドを、カテゴリ・記事種別・キーワードで探せます。`');
-build = build.replace('`Search ${records.length} priority Luqevora comparisons, product reviews, and guides by category, content type, topic, or keyword.`', '`Search ${records.length} published Luqevora comparisons, product reviews, and guides by category, content type, topic, or keyword.`');
+build = build.replace('`Search ${records.length} priority Luqevora.com comparisons, product reviews, and guides by category, content type, topic, or keyword.`', '`Search ${records.length} published Luqevora.com comparisons, product reviews, and guides by category, content type, topic, or keyword.`');
 fs.writeFileSync(buildPath, build);
 
 const categoryPath = path.join(root, 'content/config/categories.json');

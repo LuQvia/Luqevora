@@ -573,7 +573,7 @@ def make_article(record, lang):
         'publishedAt': DATE,
         'updatedAt': DATE,
         'verifiedAt': DATE,
-        'author': 'Luqevora編集部' if ja else 'Luqevora Editorial Team',
+        'author': 'Luqevora.com編集部' if ja else 'Luqevora.com Editorial Team',
         'featured': False,
         'affiliateDisclosure': False,
         'ctas': ctas,

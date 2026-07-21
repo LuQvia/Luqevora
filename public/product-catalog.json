@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-20T13:22:45.532Z",
+  "generatedAt": "2026-07-21T03:07:00.615Z",
   "lastVerified": "2026-07-20",
   "sourceFiles": [
     "content/article-batches/product-profiles.json",
@@ -10,7 +10,7 @@
   "fields": {
     "pricing": "Current pricing summary. Verify exact amounts on official sources before publication.",
     "flags": "Text-supported capability indicators, not performance scores.",
-    "relatedArticles": "Automatically matched published Luqevora articles."
+    "relatedArticles": "Automatically matched published Luqevora.com articles."
   },
   "products": [
     {

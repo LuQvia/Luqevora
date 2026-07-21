@@ -93,7 +93,7 @@ for (const legacyRoute of selectedRoutes) {
     publishedAt: meta(source, 'property', 'article:published_time'),
     updatedAt: meta(source, 'property', 'article:modified_time'),
     verifiedAt: meta(source, 'property', 'article:modified_time'),
-    author: articleMeta.match(/執筆：([^/]+)/)?.[1]?.trim() || 'Luqevora編集部',
+    author: articleMeta.match(/執筆：([^/]+)/)?.[1]?.trim() || 'Luqevora.com編集部',
     featured: false,
     affiliateDisclosure: false,
     sources: links(sourcesBlock),

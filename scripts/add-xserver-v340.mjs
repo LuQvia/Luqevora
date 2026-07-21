@@ -310,7 +310,7 @@ for(const route of routes){
   const article={
    id:`${route.slug}-${lang}`,translationKey:route.slug,language:lang,type:route.type,status:'published',slug:route.slug,category:'hosting-security',topic:'web-hosting',
    badge:ja?'広告掲載・公式情報検証':'Official-source verification',title:ja?route.jaTitle:route.enTitle,metaTitle:ja?route.jaTitle:route.enTitle,
-   description:ja?route.jaDescription:route.enDescription,lead:ja?route.jaLead:route.enLead,publishedAt:date,updatedAt:date,verifiedAt:date,author:ja?'Luqevora編集部':'Luqevora Editorial Team',featured:['xserver-rental-server-review','xserver-rental-server-pricing','xserver-business-review'].includes(route.slug),affiliateDisclosure:ja,
+   description:ja?route.jaDescription:route.enDescription,lead:ja?route.jaLead:route.enLead,publishedAt:date,updatedAt:date,verifiedAt:date,author:ja?'Luqevora.com編集部':'Luqevora.com Editorial Team',featured:['xserver-rental-server-review','xserver-rental-server-pricing','xserver-business-review'].includes(route.slug),affiliateDisclosure:ja,
    ctas:[{label:ctaLabels[route.slug]?.[lang] || (ja?(business?'XServerビジネスの公式条件を確認':'エックスサーバーの公式条件を確認'):(business?'Check official XServer Business terms':'Check official XServer terms')),officialUrl:business?businessOfficial:official,affiliateKey:ja?route.cta:(business?'xserver-business-official':'xserver-official')}],
    sources,sections:[...(ja?specificJa[route.slug]:specificEn[route.slug]),...(ja?commonJa(business):commonEn(business))],faqs:ja?faqJa(route):faqEn(route),
    relatedLinks:(ja?relatedJa:relatedEn).filter(l=>!l.url.endsWith(`/${route.slug}/`)).slice(0,9)

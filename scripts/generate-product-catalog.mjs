@@ -95,7 +95,7 @@ const output = {
   fields: {
     pricing: 'Current pricing summary. Verify exact amounts on official sources before publication.',
     flags: 'Text-supported capability indicators, not performance scores.',
-    relatedArticles: 'Automatically matched published Luqevora articles.'
+    relatedArticles: 'Automatically matched published Luqevora.com articles.'
   },
   products
 };

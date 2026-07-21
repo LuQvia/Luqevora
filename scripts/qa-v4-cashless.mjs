@@ -54,7 +54,7 @@ push('site validation warnings',validation.warningCount===0,`${validation.warnin
 push('content audit errors',audit.summary.errorCount===0,`${audit.summary.errorCount}`);
 push('content audit warnings',audit.summary.warningCount===0,`${audit.summary.warningCount}`);
 const failed=checks.filter(x=>!x.pass);
-const report={generatedAt:new Date().toISOString(),scope:'Luqevora v4.0 cashless payments',routes:routes.length*2,checks:checks.length,passed:checks.length-failed.length,failed:failed.length,failures:failed,checksDetail:checks};
+const report={generatedAt:new Date().toISOString(),scope:'Luqevora.com v4.0 cashless payments',routes:routes.length*2,checks:checks.length,passed:checks.length-failed.length,failed:failed.length,failures:failed,checksDetail:checks};
 fs.writeFileSync(path.join(root,'reports/v4-cashless-qa.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({checks:report.checks,passed:report.passed,failed:report.failed},null,2));
 if(failed.length) process.exit(1);

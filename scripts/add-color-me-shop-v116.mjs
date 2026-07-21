@@ -97,7 +97,7 @@ function makeArticle(lang, tuple) {
     category:'website-builders', topic:'ecommerce-platforms', badge:ja?'公式情報検証・EC SEO強化':'Official-source review and ecommerce SEO',
     title, metaTitle:title, description,
     lead: ja ? 'カラーミーショップの単体評価だけでなく、ECカテゴリ、商品詳細、比較記事、SEO設定、集客チャネルを一つの構造として評価します。' : 'This review evaluates Color Me Shop as part of a wider ecommerce architecture covering categories, products, comparisons, SEO controls, and acquisition channels.',
-    publishedAt:date, updatedAt:date, verifiedAt:date, author:ja?'Luqevora編集部':'Luqevora Editorial Team', featured:true, affiliateDisclosure:false,
+    publishedAt:date, updatedAt:date, verifiedAt:date, author:ja?'Luqevora.com編集部':'Luqevora.com Editorial Team', featured:true, affiliateDisclosure:false,
     ctas:[{label:ja?'カラーミーショップ公式情報を確認':'Check Color Me Shop official details',officialUrl:official}],
     sources: ja?sources:enSources,
     sections: ja?jaSections(slug):enSections(slug),

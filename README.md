@@ -1,3 +1,11 @@
+# Luqevora.com Static Platform v4.3.2
+
+v4.3.2 standardizes the public media/service name as **Luqevora.com** and the operator display as **LuQvia**, without publishing the operator's legal-form description. See `docs/BRAND_OPERATOR_UPDATE_V4.3.2.md`.
+
+## Google Workspace Referral Integration v4.3.1
+
+v4.3.1 activates the approved Google Workspace referral URL on six high-intent Japanese articles. The site discloses the referral relationship, outputs sponsored link attributes, and routes promotion-code requests to LuQvia for private one-to-one distribution. Single-use promotion codes are deliberately excluded from the repository and public ZIP. See `docs/GOOGLE_WORKSPACE_REFERRAL_V4.3.1.md`.
+
 ## Business SaaS Affiliate Expansion v4.3.0
 
 v4.3.0 adds 20 high-intent bilingual article pairs for monday.com, Google Workspace, Shopify, HubSpot CRM, and Hostinger. All pages publish with official links before approval and can switch to verified affiliate URLs through the central affiliate configuration. The release also adds Google Workspace and HubSpot CRM product profiles, an application-status registry, explicit indexing, LuQvia integration on relevant comparison pages, and release-specific QA. See `docs/BUSINESS_SAAS_AFFILIATE_V4.3.md`.

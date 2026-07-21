@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0.0",
   "summary": {
-    "generatedAt": "2026-07-20T13:22:47.259Z",
+    "generatedAt": "2026-07-21T03:07:01.550Z",
     "referenceDate": "2026-07-20",
     "publishedArticles": 704,
-    "articlesWithCommercialCta": 679,
-    "configuredAffiliateArticles": 175,
-    "totalTrackedPlacements": 1243,
-    "configuredPlacements": 305,
-    "unconfiguredPlacements": 938,
-    "affiliatePrograms": 86,
+    "articlesWithCommercialCta": 681,
+    "configuredAffiliateArticles": 190,
+    "totalTrackedPlacements": 1251,
+    "configuredPlacements": 326,
+    "unconfiguredPlacements": 925,
+    "affiliatePrograms": 88,
     "measurementStatus": "instrumented-no-performance-import"
   },
   "eventSchema": {
@@ -497,6 +497,21 @@
       }
     },
     {
+      "affiliateKey": "google-workspace",
+      "configured": true,
+      "product": "Google Workspace",
+      "placements": 15,
+      "articles": 15,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "comparison": 5,
+        "guide": 10
+      }
+    },
+    {
       "affiliateKey": "framer",
       "configured": false,
       "product": "Framer",
@@ -570,21 +585,6 @@
         "comparison": 10,
         "review": 2,
         "guide": 2
-      }
-    },
-    {
-      "affiliateKey": "google-workspace",
-      "configured": false,
-      "product": "Google Workspace",
-      "placements": 13,
-      "articles": 13,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "types": {
-        "comparison": 5,
-        "guide": 8
       }
     },
     {
@@ -981,6 +981,20 @@
       ],
       "types": {
         "comparison": 6
+      }
+    },
+    {
+      "affiliateKey": "luqvia-store-dx-line",
+      "configured": true,
+      "product": "",
+      "placements": 6,
+      "articles": 6,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "comparison": 2,
+        "guide": 4
       }
     },
     {
@@ -4234,6 +4248,36 @@
       "priority": 55
     },
     {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
+      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "gmail-vs-google-workspace-business-email-ja",
+      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "priority": 55
+    },
+    {
       "articleId": "cpi-vs-xserver-business-en",
       "title": "CPI vs XServer Business for Organizations in Japan",
       "language": "en",
@@ -4245,6 +4289,49 @@
       "affiliateKeys": [
         "xserver-business-official",
         "cpi-official"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "gmail-vs-google-workspace-business-email-en",
+      "title": "Free Gmail vs Google Workspace for Business Email",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-en",
+      "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "slack-vs-google-chat-en",
+      "title": "Slack vs Google Chat: Pricing, History, Files, and Integrations",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/slack-vs-google-chat/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace",
+        "slack"
       ],
       "priority": 55
     },
@@ -4718,6 +4805,66 @@
       "priority": 40
     },
     {
+      "articleId": "google-workspace-domain-email-setup-ja",
+      "title": "Google Workspaceで独自ドメインメールを設定する手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-domain-email-setup/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-guide",
+      "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-guide/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-pricing-small-business-ja",
+      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-pricing-small-business/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "custom-domain-email-guide",
+      "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/custom-domain-email-guide/",
+      "placements": 2,
+      "configuredPlacements": 2,
+      "affiliateKeys": [
+        "google-workspace",
+        "luqvia-store-dx-line"
+      ],
+      "priority": 37
+    },
+    {
       "articleId": "pos-subsidy-2026-guide-en",
       "title": "2026 POS Subsidy Guide in Japan: Eligibility, Application, and Timing",
       "language": "en",
@@ -4732,6 +4879,20 @@
       "priority": 37
     },
     {
+      "articleId": "google-workspace-pricing-small-business-en",
+      "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-pricing-small-business/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 37
+    },
+    {
       "articleId": "restaurant-pos-selection-guide-en",
       "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
       "language": "en",
@@ -4742,6 +4903,34 @@
       "configuredPlacements": 1,
       "affiliateKeys": [
         "kantan-chumon-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "custom-domain-email-guide-en",
+      "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/custom-domain-email-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-en",
+      "title": "How to Set Up Custom-Domain Email with Google Workspace",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-domain-email-setup/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
       ],
       "priority": 37
     },
@@ -4868,6 +5057,48 @@
       "configuredPlacements": 1,
       "affiliateKeys": [
         "xserver-official"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "google-chat-guide-en",
+      "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-chat-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "google-meet-guide-en",
+      "title": "What Is Google Meet? Joining, Presenting, Recording, and Pricing",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-meet-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
+      ],
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-guide-en",
+      "title": "What Is Google Workspace? Pricing, Apps, and Implementation",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-guide/",
+      "placements": 1,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "google-workspace"
       ],
       "priority": 37
     },
@@ -8292,20 +8523,6 @@
       "priority": 20
     },
     {
-      "articleId": "gmail-vs-google-workspace-business-email-en",
-      "title": "Free Gmail vs Google Workspace for Business Email",
-      "language": "en",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 20
-    },
-    {
       "articleId": "gemini-vs-microsoft-copilot-en",
       "title": "Gemini vs Microsoft Copilot: Google or Microsoft AI Integration?",
       "language": "en",
@@ -8456,34 +8673,6 @@
         "mailerlite",
         "activecampaign",
         "brevo"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "google-workspace-vs-microsoft-365-small-business-en",
-      "title": "Google Workspace vs Microsoft 365 for Small Businesses",
-      "language": "en",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
-      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
-      "language": "ja",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
       ],
       "priority": 20
     },
@@ -10529,21 +10718,6 @@
       "priority": 20
     },
     {
-      "articleId": "slack-vs-google-chat-en",
-      "title": "Slack vs Google Chat: Pricing, History, Files, and Integrations",
-      "language": "en",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/en/business-software/slack-vs-google-chat/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "slack",
-        "google-workspace"
-      ],
-      "priority": 20
-    },
-    {
       "articleId": "squarespace-vs-woocommerce-en",
       "title": "Squarespace vs WooCommerce: Polished Templates or WordPress Store Control?",
       "language": "en",
@@ -11568,20 +11742,6 @@
       "priority": 20
     },
     {
-      "articleId": "gmail-vs-google-workspace-business-email-ja",
-      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
-      "language": "ja",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 20
-    },
-    {
       "articleId": "a8net-guide-ja",
       "title": "A8.netの使い方｜案件検索・提携・広告掲載を初心者向けに解説",
       "language": "ja",
@@ -11680,48 +11840,6 @@
       "priority": 2
     },
     {
-      "articleId": "google-workspace-pricing-small-business-en",
-      "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-pricing-small-business/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-domain-email-setup-ja",
-      "title": "Google Workspaceで独自ドメインメールを設定する手順",
-      "language": "ja",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/ja/business-software/google-workspace-domain-email-setup/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-pricing-small-business-ja",
-      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
-      "language": "ja",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/ja/business-software/google-workspace-pricing-small-business/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 2
-    },
-    {
       "articleId": "hostinger-pricing-renewal-cost-japan-en",
       "title": "Hostinger Pricing and Renewal Cost: Calculate the Full Commitment",
       "language": "en",
@@ -11788,34 +11906,6 @@
       "configuredPlacements": 0,
       "affiliateKeys": [
         "monday-com"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "custom-domain-email-guide-en",
-      "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/custom-domain-email-guide/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-domain-email-setup-en",
-      "title": "How to Set Up Custom-Domain Email with Google Workspace",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-domain-email-setup/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
       ],
       "priority": 2
     },
@@ -12209,48 +12299,6 @@
       "configuredPlacements": 0,
       "affiliateKeys": [
         "asana"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "google-chat-guide-en",
-      "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-chat-guide/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "google-meet-guide-en",
-      "title": "What Is Google Meet? Joining, Presenting, Recording, and Pricing",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-meet-guide/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
-      ],
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-guide-en",
-      "title": "What Is Google Workspace? Pricing, Apps, and Implementation",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-guide/",
-      "placements": 1,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "google-workspace"
       ],
       "priority": 2
     },
@@ -15562,6 +15610,76 @@
       "priority": 55
     },
     {
+      "articleId": "gmail-vs-google-workspace-business-email-en",
+      "title": "Free Gmail vs Google Workspace for Business Email",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "priority": 55
+    },
+    {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-en",
+      "title": "Google Workspace vs Microsoft 365 for Small Businesses",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "priority": 55
+    },
+    {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
+      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "priority": 55
+    },
+    {
+      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
+      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
+      "affiliateKey": "luqvia-store-dx-line",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://lin.ee/nTfIJLT",
+      "priority": 55
+    },
+    {
+      "articleId": "slack-vs-google-chat-en",
+      "title": "Slack vs Google Chat: Pricing, History, Files, and Integrations",
+      "language": "en",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/en/business-software/slack-vs-google-chat/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing.html",
+      "priority": 55
+    },
+    {
       "articleId": "xserver-vs-conoha-wing-en",
       "title": "XServer vs ConoHa WING: Pricing, Contracts, and WordPress Workflows",
       "language": "en",
@@ -15657,6 +15775,34 @@
       "configured": true,
       "product": "XServer",
       "officialUrl": "https://www.xserver.ne.jp/",
+      "priority": 55
+    },
+    {
+      "articleId": "gmail-vs-google-workspace-business-email-ja",
+      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "priority": 55
+    },
+    {
+      "articleId": "gmail-vs-google-workspace-business-email-ja",
+      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
+      "language": "ja",
+      "type": "comparison",
+      "category": "business-software",
+      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
+      "affiliateKey": "luqvia-store-dx-line",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://lin.ee/nTfIJLT",
       "priority": 55
     },
     {
@@ -16346,6 +16492,104 @@
       "priority": 37
     },
     {
+      "articleId": "google-workspace-pricing-small-business-en",
+      "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-pricing-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-ja",
+      "title": "Google Workspaceで独自ドメインメールを設定する手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-domain-email-setup/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-ja",
+      "title": "Google Workspaceで独自ドメインメールを設定する手順",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-domain-email-setup/",
+      "affiliateKey": "luqvia-store-dx-line",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://lin.ee/nTfIJLT",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-guide",
+      "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-guide/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-guide",
+      "title": "Google Workspaceとは？料金・機能・導入方法を解説【2026年版】",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-guide/",
+      "affiliateKey": "luqvia-store-dx-line",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://lin.ee/nTfIJLT",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-pricing-small-business-ja",
+      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-pricing-small-business/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-pricing-small-business-ja",
+      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/google-workspace-pricing-small-business/",
+      "affiliateKey": "luqvia-store-dx-line",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://lin.ee/nTfIJLT",
+      "priority": 37
+    },
+    {
       "articleId": "restaurant-pos-selection-guide-en",
       "title": "How to Choose a Restaurant POS: 12 Comparison Criteria and Common Mistakes",
       "language": "en",
@@ -16357,6 +16601,34 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin",
+      "priority": 37
+    },
+    {
+      "articleId": "custom-domain-email-guide-en",
+      "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/custom-domain-email-guide/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing.html",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-domain-email-setup-en",
+      "title": "How to Set Up Custom-Domain Email with Google Workspace",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-domain-email-setup/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing",
       "priority": 37
     },
     {
@@ -16514,6 +16786,48 @@
       "priority": 37
     },
     {
+      "articleId": "google-chat-guide-en",
+      "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-chat-guide/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing.html",
+      "priority": 37
+    },
+    {
+      "articleId": "google-meet-guide-en",
+      "title": "What Is Google Meet? Joining, Presenting, Recording, and Pricing",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-meet-guide/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing.html",
+      "priority": 37
+    },
+    {
+      "articleId": "google-workspace-guide-en",
+      "title": "What Is Google Workspace? Pricing, Apps, and Implementation",
+      "language": "en",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/en/business-software/google-workspace-guide/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/pricing.html",
+      "priority": 37
+    },
+    {
       "articleId": "xserver-wordpress-quick-start-guide-ja",
       "title": "エックスサーバーでWordPressを始める方法｜クイックスタートと移行",
       "language": "ja",
@@ -16595,6 +16909,34 @@
       "configured": true,
       "product": "funfo",
       "officialUrl": "https://www.funfo.jp/",
+      "priority": 37
+    },
+    {
+      "articleId": "custom-domain-email-guide",
+      "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/custom-domain-email-guide/",
+      "affiliateKey": "google-workspace",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "Google Workspace",
+      "officialUrl": "https://workspace.google.com/intl/ja/",
+      "priority": 37
+    },
+    {
+      "articleId": "custom-domain-email-guide",
+      "title": "独自ドメインメールの作り方｜Gmailで送受信する方法も解説",
+      "language": "ja",
+      "type": "guide",
+      "category": "business-software",
+      "url": "/ja/business-software/custom-domain-email-guide/",
+      "affiliateKey": "luqvia-store-dx-line",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://lin.ee/nTfIJLT",
       "priority": 37
     },
     {
@@ -22576,20 +22918,6 @@
       "priority": 20
     },
     {
-      "articleId": "gmail-vs-google-workspace-business-email-en",
-      "title": "Free Gmail vs Google Workspace for Business Email",
-      "language": "en",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/en/business-software/gmail-vs-google-workspace-business-email/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing",
-      "priority": 20
-    },
-    {
       "articleId": "gemini-vs-microsoft-copilot-en",
       "title": "Gemini vs Microsoft Copilot: Google or Microsoft AI Integration?",
       "language": "en",
@@ -22923,34 +23251,6 @@
       "configured": false,
       "product": "Brevo",
       "officialUrl": "https://www.brevo.com/pricing/",
-      "priority": 20
-    },
-    {
-      "articleId": "google-workspace-vs-microsoft-365-small-business-en",
-      "title": "Google Workspace vs Microsoft 365 for Small Businesses",
-      "language": "en",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-vs-microsoft-365-small-business/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing",
-      "priority": 20
-    },
-    {
-      "articleId": "google-workspace-vs-microsoft-365-small-business-ja",
-      "title": "Google WorkspaceとMicrosoft 365を比較｜小規模企業の選び方",
-      "language": "ja",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/ja/business-software/google-workspace-vs-microsoft-365-small-business/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
       "priority": 20
     },
     {
@@ -26972,20 +27272,6 @@
       "priority": 20
     },
     {
-      "articleId": "slack-vs-google-chat-en",
-      "title": "Slack vs Google Chat: Pricing, History, Files, and Integrations",
-      "language": "en",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/en/business-software/slack-vs-google-chat/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing.html",
-      "priority": 20
-    },
-    {
       "articleId": "squarespace-vs-woocommerce-en",
       "title": "Squarespace vs WooCommerce: Polished Templates or WordPress Store Control?",
       "language": "en",
@@ -28946,20 +29232,6 @@
       "priority": 20
     },
     {
-      "articleId": "gmail-vs-google-workspace-business-email-ja",
-      "title": "無料GmailとGoogle Workspaceの違い｜会社メールはどちら？",
-      "language": "ja",
-      "type": "comparison",
-      "category": "business-software",
-      "url": "/ja/business-software/gmail-vs-google-workspace-business-email/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
-      "priority": 20
-    },
-    {
       "articleId": "a8net-guide-ja",
       "title": "A8.netの使い方｜案件検索・提携・広告掲載を初心者向けに解説",
       "language": "ja",
@@ -29058,48 +29330,6 @@
       "priority": 2
     },
     {
-      "articleId": "google-workspace-pricing-small-business-en",
-      "title": "Google Workspace Pricing for Small Businesses: Which Plan Fits?",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-pricing-small-business/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing",
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-domain-email-setup-ja",
-      "title": "Google Workspaceで独自ドメインメールを設定する手順",
-      "language": "ja",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/ja/business-software/google-workspace-domain-email-setup/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-pricing-small-business-ja",
-      "title": "Google Workspaceの料金比較｜小規模企業はどのプランを選ぶ？",
-      "language": "ja",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/ja/business-software/google-workspace-pricing-small-business/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing?hl=ja",
-      "priority": 2
-    },
-    {
       "articleId": "hostinger-pricing-renewal-cost-japan-en",
       "title": "Hostinger Pricing and Renewal Cost: Calculate the Full Commitment",
       "language": "en",
@@ -29167,34 +29397,6 @@
       "configured": false,
       "product": "monday.com",
       "officialUrl": "https://monday.com/pricing",
-      "priority": 2
-    },
-    {
-      "articleId": "custom-domain-email-guide-en",
-      "title": "How to Set Up Custom-Domain Email and Use It with Gmail",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/custom-domain-email-guide/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing.html",
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-domain-email-setup-en",
-      "title": "How to Set Up Custom-Domain Email with Google Workspace",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-domain-email-setup/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing",
       "priority": 2
     },
     {
@@ -29601,48 +29803,6 @@
       "configured": false,
       "product": "Asana",
       "officialUrl": "https://asana.com/pricing",
-      "priority": 2
-    },
-    {
-      "articleId": "google-chat-guide-en",
-      "title": "What Is Google Chat? Spaces, Pricing, and Slack Differences",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-chat-guide/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing.html",
-      "priority": 2
-    },
-    {
-      "articleId": "google-meet-guide-en",
-      "title": "What Is Google Meet? Joining, Presenting, Recording, and Pricing",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-meet-guide/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing.html",
-      "priority": 2
-    },
-    {
-      "articleId": "google-workspace-guide-en",
-      "title": "What Is Google Workspace? Pricing, Apps, and Implementation",
-      "language": "en",
-      "type": "guide",
-      "category": "business-software",
-      "url": "/en/business-software/google-workspace-guide/",
-      "affiliateKey": "google-workspace",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "Google Workspace",
-      "officialUrl": "https://workspace.google.com/pricing.html",
       "priority": 2
     },
     {

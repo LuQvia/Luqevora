@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path('/mnt/data/luqevora_v36/Luqevora-auto-platform-v3.5.0-funfo-Store-DX-github')
+ROOT = Path('/mnt/data/luqevora_v36/Luqevora.com-auto-platform-v3.5.0-funfo-Store-DX-github')
 DATE = '2026-07-20'
 POS_LP = 'https://emeao.jp/pos-lp2/'
 GUIDE = 'https://emeao.jp/guide/pos/'
@@ -85,7 +85,7 @@ ja_review = {
     'publishedAt': DATE,
     'updatedAt': DATE,
     'verifiedAt': DATE,
-    'author': 'Luqevora編集部',
+    'author': 'Luqevora.com編集部',
     'featured': True,
     'affiliateDisclosure': True,
     'ctas': [
@@ -209,7 +209,7 @@ ja_compare = {
     'publishedAt': DATE,
     'updatedAt': DATE,
     'verifiedAt': DATE,
-    'author': 'Luqevora編集部',
+    'author': 'Luqevora.com編集部',
     'featured': True,
     'affiliateDisclosure': True,
     'ctas': [
@@ -310,7 +310,7 @@ en_review = {
     'publishedAt': DATE,
     'updatedAt': DATE,
     'verifiedAt': DATE,
-    'author': 'Luqevora Editorial Team',
+    'author': 'Luqevora.com Editorial Team',
     'featured': True,
     'affiliateDisclosure': False,
     'ctas': [{'label': 'Check the official EMEAO! POS matching page', 'officialUrl': POS_LP, 'affiliateKey': 'emeao-pos-official'}],
@@ -373,7 +373,7 @@ en_compare = {
     'publishedAt': DATE,
     'updatedAt': DATE,
     'verifiedAt': DATE,
-    'author': 'Luqevora Editorial Team',
+    'author': 'Luqevora.com Editorial Team',
     'featured': True,
     'affiliateDisclosure': False,
     'ctas': [

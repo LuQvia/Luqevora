@@ -394,7 +394,7 @@ for (const spec of articleSpecs) {
       publishedAt: DATE,
       updatedAt: DATE,
       verifiedAt: DATE,
-      author: isJa ? 'Luqevora編集部' : 'Luqevora Editorial Team',
+      author: isJa ? 'Luqevora.com編集部' : 'Luqevora.com Editorial Team',
       featured: spec.slug === 'kantan-chumon-review' || spec.slug === 'restaurant-pos-vs-mobile-order',
       affiliateDisclosure: isJa,
       ctas: [{

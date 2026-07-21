@@ -1,7 +1,7 @@
 import json, os
 from pathlib import Path
 
-ROOT=Path('/mnt/data/luqevora_v35/Luqevora-auto-platform-v3.4.0-Store-DX-github')
+ROOT=Path('/mnt/data/luqevora_v35/Luqevora.com-auto-platform-v3.4.0-Store-DX-github')
 DATE='2026-07-20'
 OFFICIAL='https://www.funfo.jp/'
 PRICING='https://www.funfo.jp/index.php/pricing/'
@@ -42,7 +42,7 @@ ja_review={
   'metaTitle':'funfoの評判・料金・機能｜無料POS・モバイルオーダーを検証【2026年】',
   'description':'飲食店向けPOSレジ・モバイルオーダーアプリfunfoを、無料プラン、有料料金、LINE連携、多言語、導入設備、注意点から公式情報で検証します。',
   'lead':'funfoは、iPad向けPOSレジと店内・店外モバイルオーダーを一つのサービスで扱える飲食店向けアプリです。月額0円のFreeプランは強い入口ですが、本運用では同時ログイン台数、キッチンプリンター、分析、LINE顧客管理、決済手数料まで含めて判断する必要があります。',
-  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora編集部','featured':True,'affiliateDisclosure':True,
+  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora.com編集部','featured':True,'affiliateDisclosure':True,
   'ctas':[{'label':'funfoの資料・導入条件を確認する','officialUrl':OFFICIAL,'affiliateKey':'funfo-short'}],
   'sources':common_sources,
   'sections':[
@@ -93,7 +93,7 @@ ja_compare={
   'metaTitle':'funfoとかんたん注文を比較｜料金・POS・モバイルオーダーの違い【2026年】',
   'description':'飲食店向けPOS・モバイルオーダーのfunfoとかんたん注文を、料金公開、無料試用、導入方法、LINE、多言語、補助金、向く店舗から比較します。',
   'lead':'funfoは月額0円から自分で試せるアプリ型、かんたん注文は問い合わせと導入相談を前提にしたPOS・モバイルオーダー型です。どちらが上かではなく、無料検証を優先するか、補助金を含む個別提案を優先するかで選びます。',
-  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora編集部','featured':True,'affiliateDisclosure':True,
+  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora.com編集部','featured':True,'affiliateDisclosure':True,
   'ctas':[
     {'label':'funfoの資料・導入条件を確認','officialUrl':OFFICIAL,'affiliateKey':'funfo-bracket'},
     {'label':'かんたん注文の導入条件を確認','officialUrl':'https://f.012grp.co.jp/wiz_kantanchumon_hojyokin','affiliateKey':'kantan-chumon-short'}
@@ -148,7 +148,7 @@ en_review={
   'metaTitle':'funfo Review: Free POS, Mobile Ordering, Pricing, and Limits (2026)',
   'description':'Review funfo restaurant POS and mobile ordering, including the free plan, paid tiers, LINE integration, multilingual support, required hardware, and operational caveats.',
   'lead':'funfo combines an iPad restaurant POS with dine-in and off-premise mobile ordering. The free tier is a strong way to test the workflow, but restaurants should still budget for hardware, payment fees, device limits, support, and advanced customer-management functions.',
-  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora Editorial Team','featured':True,'affiliateDisclosure':False,
+  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora.com Editorial Team','featured':True,'affiliateDisclosure':False,
   'sources':[
     {'label':'funfo official website','url':OFFICIAL},{'label':'funfo pricing','url':PRICING},{'label':'funfo FAQ','url':QA}
   ],
@@ -177,7 +177,7 @@ en_compare={
   'metaTitle':'funfo vs Kantan Chumon: Restaurant POS and Mobile Ordering Compared (2026)',
   'description':'Compare funfo and Kantan Chumon by published pricing, free testing, POS and mobile ordering, multilingual service, customer marketing, subsidies, and implementation model.',
   'lead':'funfo is an app-led product with a published free tier, while Kantan Chumon uses a consultation and quotation-led implementation model. The choice depends on whether the restaurant prioritizes self-testing or guided procurement and subsidy discussion.',
-  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora Editorial Team','featured':True,'affiliateDisclosure':False,
+  'publishedAt':DATE,'updatedAt':DATE,'verifiedAt':DATE,'author':'Luqevora.com Editorial Team','featured':True,'affiliateDisclosure':False,
   'sources':[
     {'label':'funfo official website','url':OFFICIAL},{'label':'funfo pricing','url':PRICING},{'label':'funfo FAQ','url':QA},{'label':'Wiz — Kantan Chumon','url':'https://f.012grp.co.jp/wiz_kantanchumon_hojyokin'}
   ],

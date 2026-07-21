@@ -735,13 +735,13 @@
     },
     "luqevora-store-dx-diagnosis": {
       "type": "official",
-      "network": "Luqevora",
+      "network": "Luqevora.com",
       "language": "ja",
       "destination": "https://luqevora.com/ja/store-dx-assessment/"
     },
     "luqevora-store-dx-diagnosis-en": {
       "type": "official",
-      "network": "Luqevora",
+      "network": "Luqevora.com",
       "language": "en",
       "destination": "https://luqevora.com/en/store-dx-assessment/"
     },
@@ -756,6 +756,16 @@
       "network": "LuQvia",
       "language": "ja",
       "destination": "https://www.luqvia.com/"
+    },
+    "google-workspace": {
+      "type": "url",
+      "network": "Google Workspace Referral Program",
+      "programType": "referral",
+      "language": "ja",
+      "destination": "https://workspace.google.com/",
+      "url": "https://referworkspace.app.goo.gl/ewLM",
+      "verifiedAt": "2026-07-20",
+      "promotionCodePolicy": "single-use codes are distributed individually and are not stored in the public repository"
     }
   },
   "rules": {
