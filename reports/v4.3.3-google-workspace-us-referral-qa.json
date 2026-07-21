@@ -1,6 +1,6 @@
 {
   "version": "4.3.3",
-  "generatedAt": "2026-07-21T06:29:13.430Z",
+  "generatedAt": "2026-07-21T06:56:20.570Z",
   "total": 127,
   "passed": 127,
   "failed": 0,
@@ -8,7 +8,7 @@
     {
       "name": "package version",
       "pass": true,
-      "detail": "4.3.3"
+      "detail": "4.3.4"
     },
     {
       "name": "US referral configured",

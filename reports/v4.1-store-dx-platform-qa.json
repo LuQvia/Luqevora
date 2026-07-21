@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "generatedAt": "2026-07-21T06:29:11.491Z",
+  "generatedAt": "2026-07-21T06:56:18.446Z",
   "total": 86,
   "passed": 86,
   "failed": 0,
@@ -8,7 +8,7 @@
     {
       "name": "package version supports Store DX v4.1+",
       "ok": true,
-      "detail": "4.3.3"
+      "detail": "4.3.4"
     },
     {
       "name": "platform config version",

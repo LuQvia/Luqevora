@@ -1323,7 +1323,7 @@ await writeFile(path.join(outputRoot, 'robots.txt'), `User-agent: *\nAllow: /\nS
 await writeFile(path.join(outputRoot, `${indexNow.key}.txt`), `${indexNow.key}\n`);
 
 for (const language of site.languages) {
-  const records = articleRecords.filter(record => record.language === language).slice(0, 100);
+  const records = articleRecords.filter(record => record.language === language).slice(0, 120);
   const title = currentLabel(language, 'Luqevora.com 最新記事', 'Luqevora.com Latest Articles');
   const feed = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${xmlEscape(title)}</title><link>${site.baseUrl}/${language}/</link><description>${xmlEscape(currentLabel(language, 'AI・SaaS・Webサービスの比較・レビュー', 'AI, SaaS, and web-service comparisons and reviews'))}</description><language>${language}</language><lastBuildDate>${new Date(`${site.defaultVerifiedAt}T00:00:00Z`).toUTCString()}</lastBuildDate>${records.map(record => `<item><title>${xmlEscape(record.title)}</title><link>${site.baseUrl}${record.url}</link><guid isPermaLink="true">${site.baseUrl}${record.url}</guid><description>${xmlEscape(record.description)}</description><pubDate>${new Date(`${record.verifiedAt}T00:00:00Z`).toUTCString()}</pubDate></item>`).join('')}</channel></rss>\n`;
   await writeFile(path.join(outputRoot, `feed-${language}.xml`), feed);

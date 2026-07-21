@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T06:29:08.823Z",
+  "generatedAt": "2026-07-21T06:56:15.909Z",
   "site": "https://luqevora.com",
   "hashAlgorithm": "sha256(html+global-assets+page-image)",
   "assetFingerprint": "aff8be777d53bb49c3d392246b1cbf8454911312f97086733f57a5aebda0fe18",
@@ -92,7 +92,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "85f68f5429a730d845eab9440dfdbf6bf8c19ceeb7580a11e1497437ff803e54"
+      "hash": "dbddba3a7c88528e2f5de422ad402d1a111a60dbff732f535e8884f477b93df5"
     },
     {
       "url": "https://luqevora.com/en/business-software/",
@@ -532,7 +532,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "bf5bc78e48d49fbb698c80403b3815ef7330ef358bcd8f6927ad90287ab19c02"
+      "hash": "133dbfdefeac872388ed79b86652c8a8738c3aa5249433c3f934dfde49c173e3"
     },
     {
       "url": "https://luqevora.com/en/editorial-policy/",
@@ -1876,7 +1876,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "778d07db4614397ea423ec9d3144634c9da6d9ac229568f599e616bc00a7c2f3"
+      "hash": "372448f9c22bcbfec81d63cc94c0b6669be412b747fae428e5d3e4c174a73292"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/a8net-guide/",
@@ -2091,8 +2091,8 @@
       "path": "en/seo-marketing/se-ranking-review/index.html",
       "language": "en",
       "type": "article",
-      "lastmod": "2026-07-16",
-      "hash": "4032ee14d3be507bde1e59d97c7318293edac663a71434709bda2f3e8b24d800"
+      "lastmod": "2026-07-21",
+      "hash": "5ad5ee02120af1ab983de742d89501156b75300b5e36f8b3b6e52646628fe62e"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/semrush-alternatives/",
@@ -2131,8 +2131,8 @@
       "path": "en/seo-marketing/seo-tools-small-business/index.html",
       "language": "en",
       "type": "article",
-      "lastmod": "2026-07-16",
-      "hash": "c7a183ab879a3fc4b5d9003036bc5c357c3ed2255210a130c31f6779a4e3cd5b"
+      "lastmod": "2026-07-21",
+      "hash": "49aa84999dd182eab1e709a638abd01d0f7da23aa8470c8948d08ea52a6bb98a"
     },
     {
       "url": "https://luqevora.com/en/seo-marketing/ubersuggest-review/",
@@ -2412,7 +2412,7 @@
       "language": "en",
       "type": "topic",
       "lastmod": "2026-07-21",
-      "hash": "0281d529a2f6922a6e04fa5494d7dc3d26323da777bd15cde218da5232d6d938"
+      "hash": "df4223e0c29117ad9b19bb2f9481bc4723b75bedd8d9005c577779b07e6d45e9"
     },
     {
       "url": "https://luqevora.com/en/topics/store-backoffice-integration/",
@@ -2948,7 +2948,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "e6d412dbd7d2fbc7147d77eb1dab68c1cbef1c484862290ed340dc7ca964f53f"
+      "hash": "db9791619940c60dd2c828936d38572595dcb4cb9a74403a78ef4235eb9e23b1"
     },
     {
       "url": "https://luqevora.com/ja/business-software/",
@@ -3388,7 +3388,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "812ede78b74701e934b0ba1f8bc03981991873c76de6e4fd9489daa58f10d5d6"
+      "hash": "182169eb82e144d3904972a1d9bd0009fbf9398b7029aa83aa6e04f129ca3c0f"
     },
     {
       "url": "https://luqevora.com/ja/editorial-policy/",
@@ -4732,7 +4732,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "17115a28aa7a43c72b873b20a881436f02602aed83f0d2e997be9197e5a2a02a"
+      "hash": "f1cc77ab834dc5a7a88a5e62401ed1cb99e4af4eba09027ba901aa7ae0234335"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/a8net-guide/",
@@ -4947,8 +4947,8 @@
       "path": "ja/seo-marketing/se-ranking-review/index.html",
       "language": "ja",
       "type": "article",
-      "lastmod": "2026-07-16",
-      "hash": "e62c2a53ef98f8c350d1523322551400cfa8196f04a30f1e91edc24e542e4b4a"
+      "lastmod": "2026-07-21",
+      "hash": "7c0f6e5c1b96948ce1be8178a95a084dad90a5e5f11089beceb9fc62cd29daec"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/semrush-alternatives/",
@@ -4987,8 +4987,8 @@
       "path": "ja/seo-marketing/seo-tools-small-business/index.html",
       "language": "ja",
       "type": "article",
-      "lastmod": "2026-07-16",
-      "hash": "7c1bcbe3a88cfebd65bf1fbfb14c9ccef37a446f294a77392a8a6258a0c4bc3e"
+      "lastmod": "2026-07-21",
+      "hash": "55a2ac9edb9b90a2aff2ec46aca012277e6eb39217d9c8a14cf36fb42510ed9e"
     },
     {
       "url": "https://luqevora.com/ja/seo-marketing/ubersuggest-review/",
@@ -5268,7 +5268,7 @@
       "language": "ja",
       "type": "topic",
       "lastmod": "2026-07-21",
-      "hash": "a430e83a0e90f78848c85e9c9c365a8429c1c35705e203e3c2fddd8394614ea0"
+      "hash": "27b675a69364dea291174be0bc5887761dd2aac185cde03c9601728083c243f9"
     },
     {
       "url": "https://luqevora.com/ja/topics/store-backoffice-integration/",

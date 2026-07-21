@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "summary": {
-    "generatedAt": "2026-07-21T06:28:56.519Z",
+    "generatedAt": "2026-07-21T06:56:03.850Z",
     "referenceDate": "2026-07-21",
     "articles": 704,
     "products": 78,
@@ -9,8 +9,8 @@
     "dueSoonArticles": 0,
     "overdueProducts": 0,
     "dueSoonProducts": 0,
-    "articlesWithAffiliate": 190,
-    "nonAffiliateCtaReferences": 925,
+    "articlesWithAffiliate": 198,
+    "nonAffiliateCtaReferences": 917,
     "missingAffiliateConfigurations": 57,
     "uniqueOfficialSources": 348,
     "invalidSourceUrls": 0,
@@ -2850,10 +2850,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-en-pricing"
+      ],
       "referenceKeys": [
-        "semrush",
-        "se-ranking"
+        "semrush"
       ],
       "priority": 25
     },
@@ -2869,10 +2870,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-ja-pricing"
+      ],
       "referenceKeys": [
-        "semrush",
-        "se-ranking"
+        "semrush"
       ],
       "priority": 25
     },
@@ -6106,10 +6108,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-en-pricing"
+      ],
       "referenceKeys": [
-        "ahrefs",
-        "se-ranking"
+        "ahrefs"
       ],
       "priority": 10
     },
@@ -6144,10 +6147,11 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-ja-pricing"
+      ],
       "referenceKeys": [
-        "ahrefs",
-        "se-ranking"
+        "ahrefs"
       ],
       "priority": 10
     },
@@ -9589,9 +9593,10 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-en-pricing"
+      ],
       "referenceKeys": [
-        "se-ranking",
         "mangools"
       ],
       "priority": 10
@@ -9608,9 +9613,10 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-en-pricing"
+      ],
       "referenceKeys": [
-        "se-ranking",
         "ubersuggest"
       ],
       "priority": 10
@@ -9627,9 +9633,10 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-ja-pricing"
+      ],
       "referenceKeys": [
-        "se-ranking",
         "mangools"
       ],
       "priority": 10
@@ -9646,9 +9653,10 @@
       "daysRemaining": 45,
       "status": "current",
       "sourceCount": 4,
-      "affiliateKeys": [],
+      "affiliateKeys": [
+        "se-ranking-ja-pricing"
+      ],
       "referenceKeys": [
-        "se-ranking",
         "ubersuggest"
       ],
       "priority": 10

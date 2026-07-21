@@ -1,0 +1,444 @@
+{
+  "version": "4.3.4",
+  "generatedAt": "2026-07-21T06:56:21.349Z",
+  "summary": {
+    "passed": 86,
+    "failed": 0,
+    "total": 86,
+    "configuredLinks": 16,
+    "affiliateOccurrences": 18,
+    "affectedPages": 12
+  },
+  "assertions": [
+    {
+      "name": "affiliate:se-ranking-en-home:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-home:url",
+      "passed": true,
+      "details": "https://seranking.com/?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-home:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/\",\"url\":\"https://seranking.com/?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-pricing:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-pricing:url",
+      "passed": true,
+      "details": "https://seranking.com/subscription.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-pricing:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/subscription.html\",\"url\":\"https://seranking.com/subscription.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-features:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-features:url",
+      "passed": true,
+      "details": "https://seranking.com/features.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-features:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/features.html\",\"url\":\"https://seranking.com/features.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-competitor-research:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-competitor-research:url",
+      "passed": true,
+      "details": "https://seranking.com/competitor-traffic-research.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-competitor-research:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/competitor-traffic-research.html\",\"url\":\"https://seranking.com/competitor-traffic-research.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-position-tracking:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-position-tracking:url",
+      "passed": true,
+      "details": "https://seranking.com/position-tracking.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-position-tracking:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/position-tracking.html\",\"url\":\"https://seranking.com/position-tracking.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-keyword-research:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-keyword-research:url",
+      "passed": true,
+      "details": "https://seranking.com/keyword-suggestion-tool.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-keyword-research:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/keyword-suggestion-tool.html\",\"url\":\"https://seranking.com/keyword-suggestion-tool.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-registration:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-registration:url",
+      "passed": true,
+      "details": "https://seranking.com/sign-up.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-registration:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/sign-up.html\",\"url\":\"https://seranking.com/sign-up.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-on-page:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-on-page:url",
+      "passed": true,
+      "details": "https://seranking.com/on-page-checker.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-on-page:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/on-page-checker.html\",\"url\":\"https://seranking.com/on-page-checker.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-en-easy-to-use:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-en-easy-to-use:url",
+      "passed": true,
+      "details": "https://seranking.com/easy-to-use.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-en-easy-to-use:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"en\",\"destination\":\"https://seranking.com/easy-to-use.html\",\"url\":\"https://seranking.com/easy-to-use.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-pricing:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-pricing:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/subscription.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-pricing:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/subscription.html\",\"url\":\"https://seranking.com/jp/subscription.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-competitor-research:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-competitor-research:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/competitor-traffic-research.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-competitor-research:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/competitor-traffic-research.html\",\"url\":\"https://seranking.com/jp/competitor-traffic-research.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-website-audit:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-website-audit:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/website-audit.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-website-audit:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/website-audit.html\",\"url\":\"https://seranking.com/jp/website-audit.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-position-tracking:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-position-tracking:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/position-tracking.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-position-tracking:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/position-tracking.html\",\"url\":\"https://seranking.com/jp/position-tracking.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-home:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-home:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-home:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/\",\"url\":\"https://seranking.com/jp/?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-features:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-features:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/features.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-features:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/features.html\",\"url\":\"https://seranking.com/jp/features.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-backlink-checker:exists",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "affiliate:se-ranking-ja-backlink-checker:url",
+      "passed": true,
+      "details": "https://seranking.com/jp/backlink-checker.html?ga=5202722&source=link"
+    },
+    {
+      "name": "affiliate:se-ranking-ja-backlink-checker:program",
+      "passed": true,
+      "details": "{\"type\":\"url\",\"network\":\"SE Ranking Affiliate Program\",\"programType\":\"affiliate\",\"programId\":\"5202722\",\"language\":\"ja\",\"destination\":\"https://seranking.com/jp/backlink-checker.html\",\"url\":\"https://seranking.com/jp/backlink-checker.html?ga=5202722&source=link\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "profile:en-key",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "profile:ja-key",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-review:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-review:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-review:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-review:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-review:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-review:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-review:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-review:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-tools:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-tools:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-tools:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-tools:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-tools:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-tools:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-tools:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-tools:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-semrush-vs:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-semrush-vs:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-semrush-vs:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-semrush-vs:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-semrush-vs:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-semrush-vs:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-semrush-vs:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-semrush-vs:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-ahrefs-vs:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-ahrefs-vs:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-ahrefs-vs:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en-ahrefs-vs:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-ahrefs-vs:affiliate-id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-ahrefs-vs:sponsored-rel",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-ahrefs-vs:disclosure",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja-ahrefs-vs:no-duplicate-jp",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "site:affiliate-occurrences",
+      "passed": true,
+      "details": "18"
+    },
+    {
+      "name": "site:affected-pages",
+      "passed": true,
+      "details": "12"
+    },
+    {
+      "name": "site:no-jp-jp",
+      "passed": true,
+      "details": "0"
+    },
+    {
+      "name": "site:no-wrong-affiliate-id",
+      "passed": true,
+      "details": "0"
+    }
+  ]
+}

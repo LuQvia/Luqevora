@@ -1,6 +1,10 @@
-# Luqevora.com Static Platform v4.3.3
+# Luqevora.com Static Platform v4.3.4
 
 v4.3.2 standardizes the public media/service name as **Luqevora.com** and the operator display as **LuQvia**, without publishing the operator's legal-form description. See `docs/BRAND_OPERATOR_UPDATE_V4.3.2.md`.
+
+## SE Ranking Affiliate Integration v4.3.4
+
+v4.3.4 activates 16 approved SE Ranking affiliate destinations for identifier `5202722`, localizes English and Japanese pricing CTAs, and adds disclosed sponsored placements to the SE Ranking review, the small-business SEO-tool comparison, and generated comparison articles. Invalid `/jp/jp/` paths are excluded. See `docs/SE_RANKING_AFFILIATE_V4.3.4.md`.
 
 ## Google Workspace US Referral Integration v4.3.3
 

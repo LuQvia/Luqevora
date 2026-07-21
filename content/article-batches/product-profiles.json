@@ -693,6 +693,19 @@
         "Update frequency changes required capacity",
         "Data coverage needs trial validation"
       ]
+    },
+    "affiliateKeyByLanguage": {
+      "ja": "se-ranking-ja-pricing",
+      "en": "se-ranking-en-pricing"
+    },
+    "ctaUrlByLanguage": {
+      "ja": "https://seranking.com/jp/subscription.html",
+      "en": "https://seranking.com/subscription.html"
+    },
+    "affiliateProgram": {
+      "network": "SE Ranking Affiliate Program",
+      "programId": "5202722",
+      "verifiedAt": "2026-07-21"
     }
   },
   "ahrefs": {

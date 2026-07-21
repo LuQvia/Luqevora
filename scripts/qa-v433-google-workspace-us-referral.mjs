@@ -28,7 +28,7 @@ const batch = [
 ];
 const all = [...structured, ...batch];
 
-check('package version', pkg.version === '4.3.3', pkg.version);
+check('package version', /^4\.3\.[3-9]$/.test(pkg.version), pkg.version);
 check('US referral configured', affiliates.links?.['google-workspace-us']?.url === referral, JSON.stringify(affiliates.links?.['google-workspace-us'] || null));
 check('US referral English market', affiliates.links?.['google-workspace-us']?.language === 'en' && affiliates.links?.['google-workspace-us']?.market === 'United States', JSON.stringify(affiliates.links?.['google-workspace-us'] || null));
 check('promo request mailto configured', affiliates.links?.['google-workspace-us-promo-request']?.destination === mailto, JSON.stringify(affiliates.links?.['google-workspace-us-promo-request'] || null));

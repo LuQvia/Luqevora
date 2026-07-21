@@ -784,6 +784,166 @@
       "language": "en",
       "destination": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
       "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-home": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/",
+      "url": "https://seranking.com/?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-pricing": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/subscription.html",
+      "url": "https://seranking.com/subscription.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-features": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/features.html",
+      "url": "https://seranking.com/features.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-competitor-research": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/competitor-traffic-research.html",
+      "url": "https://seranking.com/competitor-traffic-research.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-position-tracking": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/position-tracking.html",
+      "url": "https://seranking.com/position-tracking.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-keyword-research": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/keyword-suggestion-tool.html",
+      "url": "https://seranking.com/keyword-suggestion-tool.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-registration": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/sign-up.html",
+      "url": "https://seranking.com/sign-up.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-on-page": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/on-page-checker.html",
+      "url": "https://seranking.com/on-page-checker.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-en-easy-to-use": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "en",
+      "destination": "https://seranking.com/easy-to-use.html",
+      "url": "https://seranking.com/easy-to-use.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-pricing": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/subscription.html",
+      "url": "https://seranking.com/jp/subscription.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-competitor-research": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/competitor-traffic-research.html",
+      "url": "https://seranking.com/jp/competitor-traffic-research.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-website-audit": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/website-audit.html",
+      "url": "https://seranking.com/jp/website-audit.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-position-tracking": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/position-tracking.html",
+      "url": "https://seranking.com/jp/position-tracking.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-home": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/",
+      "url": "https://seranking.com/jp/?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-features": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/features.html",
+      "url": "https://seranking.com/jp/features.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
+    },
+    "se-ranking-ja-backlink-checker": {
+      "type": "url",
+      "network": "SE Ranking Affiliate Program",
+      "programType": "affiliate",
+      "programId": "5202722",
+      "language": "ja",
+      "destination": "https://seranking.com/jp/backlink-checker.html",
+      "url": "https://seranking.com/jp/backlink-checker.html?ga=5202722&source=link",
+      "verifiedAt": "2026-07-21"
     }
   },
   "rules": {

@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0.0",
   "summary": {
-    "generatedAt": "2026-07-21T06:28:57.027Z",
+    "generatedAt": "2026-07-21T06:56:04.437Z",
     "referenceDate": "2026-07-21",
     "publishedArticles": 704,
     "articlesWithCommercialCta": 681,
-    "configuredAffiliateArticles": 190,
+    "configuredAffiliateArticles": 198,
     "totalTrackedPlacements": 1260,
-    "configuredPlacements": 335,
-    "unconfiguredPlacements": 925,
-    "affiliatePrograms": 90,
+    "configuredPlacements": 343,
+    "unconfiguredPlacements": 917,
+    "affiliatePrograms": 92,
     "measurementStatus": "instrumented-no-performance-import"
   },
   "eventSchema": {
@@ -606,21 +606,6 @@
       "affiliateKey": "mangools",
       "configured": false,
       "product": "Mangools",
-      "placements": 12,
-      "articles": 12,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "types": {
-        "comparison": 10,
-        "review": 2
-      }
-    },
-    {
-      "affiliateKey": "se-ranking",
-      "configured": false,
-      "product": "SE Ranking",
       "placements": 12,
       "articles": 12,
       "languages": [
@@ -1369,6 +1354,47 @@
         "review": 1,
         "comparison": 4,
         "guide": 2
+      }
+    },
+    {
+      "affiliateKey": "se-ranking",
+      "configured": false,
+      "product": "SE Ranking",
+      "placements": 4,
+      "articles": 4,
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "types": {
+        "review": 2,
+        "comparison": 2
+      }
+    },
+    {
+      "affiliateKey": "se-ranking-en-pricing",
+      "configured": true,
+      "product": "",
+      "placements": 4,
+      "articles": 4,
+      "languages": [
+        "en"
+      ],
+      "types": {
+        "comparison": 4
+      }
+    },
+    {
+      "affiliateKey": "se-ranking-ja-pricing",
+      "configured": true,
+      "product": "",
+      "placements": 4,
+      "articles": 4,
+      "languages": [
+        "ja"
+      ],
+      "types": {
+        "comparison": 4
       }
     },
     {
@@ -3870,6 +3896,36 @@
       "priority": 70
     },
     {
+      "articleId": "semrush-vs-se-ranking-en",
+      "title": "Semrush vs SE Ranking: SEO, Rank Tracking, and Agency Workflows Compared",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/semrush-vs-se-ranking/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-en-pricing",
+        "semrush"
+      ],
+      "priority": 70
+    },
+    {
+      "articleId": "semrush-vs-se-ranking-ja",
+      "title": "SemrushとSE Rankingを比較｜SEO・順位計測・代理店運用の違い",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/semrush-vs-se-ranking/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-ja-pricing",
+        "semrush"
+      ],
+      "priority": 70
+    },
+    {
       "articleId": "shin-rental-server-vs-conoha-wing-en",
       "title": "Shin Rental Server vs ConoHa WING: Pricing and Contract Differences",
       "language": "en",
@@ -4351,6 +4407,36 @@
       "priority": 55
     },
     {
+      "articleId": "ahrefs-vs-se-ranking-en",
+      "title": "Ahrefs vs SE Ranking: Research Depth or Operational Reporting?",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/ahrefs-vs-se-ranking/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-en-pricing",
+        "ahrefs"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "ahrefs-vs-se-ranking-ja",
+      "title": "AhrefsとSE Rankingを比較｜データ調査と運用レポートでSEOツールを比べる",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/ahrefs-vs-se-ranking/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-ja-pricing",
+        "ahrefs"
+      ],
+      "priority": 55
+    },
+    {
       "articleId": "cpi-vs-xserver-business-en",
       "title": "CPI vs XServer Business for Organizations in Japan",
       "language": "en",
@@ -4362,6 +4448,66 @@
       "affiliateKeys": [
         "xserver-business-official",
         "cpi-official"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-mangools-en",
+      "title": "SE Ranking vs Mangools: Multi-Project SEO Management or Lightweight Keyword Research?",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/se-ranking-vs-mangools/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-en-pricing",
+        "mangools"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-ubersuggest-en",
+      "title": "SE Ranking vs Ubersuggest: Agency Reporting or Beginner SEO?",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/se-ranking-vs-ubersuggest/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-en-pricing",
+        "ubersuggest"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-mangools-ja",
+      "title": "SE RankingとMangoolsを比較｜複数案件のSEO管理か、軽量なキーワード調査か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/se-ranking-vs-mangools/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-ja-pricing",
+        "mangools"
+      ],
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-ubersuggest-ja",
+      "title": "SE RankingとUbersuggestを比較｜代理店レポートと初心者向けSEOを比べる",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/se-ranking-vs-ubersuggest/",
+      "placements": 2,
+      "configuredPlacements": 1,
+      "affiliateKeys": [
+        "se-ranking-ja-pricing",
+        "ubersuggest"
       ],
       "priority": 55
     },
@@ -5658,21 +5804,6 @@
       "priority": 35
     },
     {
-      "articleId": "semrush-vs-se-ranking-en",
-      "title": "Semrush vs SE Ranking: SEO, Rank Tracking, and Agency Workflows Compared",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/semrush-vs-se-ranking/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "semrush",
-        "se-ranking"
-      ],
-      "priority": 35
-    },
-    {
       "articleId": "semrush-vs-ahrefs",
       "title": "SemrushとAhrefsを比較｜SEO・競合分析・AI検索計測の違い",
       "language": "ja",
@@ -5684,21 +5815,6 @@
       "affiliateKeys": [
         "semrush",
         "ahrefs"
-      ],
-      "priority": 35
-    },
-    {
-      "articleId": "semrush-vs-se-ranking-ja",
-      "title": "SemrushとSE Rankingを比較｜SEO・順位計測・代理店運用の違い",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/semrush-vs-se-ranking/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "semrush",
-        "se-ranking"
       ],
       "priority": 35
     },
@@ -7387,21 +7503,6 @@
       "priority": 20
     },
     {
-      "articleId": "ahrefs-vs-se-ranking-en",
-      "title": "Ahrefs vs SE Ranking: Research Depth or Operational Reporting?",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/ahrefs-vs-se-ranking/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "ahrefs",
-        "se-ranking"
-      ],
-      "priority": 20
-    },
-    {
       "articleId": "ahrefs-vs-ubersuggest-en",
       "title": "Ahrefs vs Ubersuggest: Deep Link Research or Accessible SEO Operations?",
       "language": "en",
@@ -7413,21 +7514,6 @@
       "affiliateKeys": [
         "ahrefs",
         "ubersuggest"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "ahrefs-vs-se-ranking-ja",
-      "title": "AhrefsとSE Rankingを比較｜データ調査と運用レポートでSEOツールを比べる",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/ahrefs-vs-se-ranking/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "ahrefs",
-        "se-ranking"
       ],
       "priority": 20
     },
@@ -10296,66 +10382,6 @@
       "affiliateKeys": [
         "proton-vpn",
         "surfshark"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-mangools-en",
-      "title": "SE Ranking vs Mangools: Multi-Project SEO Management or Lightweight Keyword Research?",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/se-ranking-vs-mangools/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "se-ranking",
-        "mangools"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-ubersuggest-en",
-      "title": "SE Ranking vs Ubersuggest: Agency Reporting or Beginner SEO?",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/se-ranking-vs-ubersuggest/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "se-ranking",
-        "ubersuggest"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-mangools-ja",
-      "title": "SE RankingとMangoolsを比較｜複数案件のSEO管理か、軽量なキーワード調査か",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/se-ranking-vs-mangools/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "se-ranking",
-        "mangools"
-      ],
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-ubersuggest-ja",
-      "title": "SE RankingとUbersuggestを比較｜代理店レポートと初心者向けSEOを比べる",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/se-ranking-vs-ubersuggest/",
-      "placements": 2,
-      "configuredPlacements": 0,
-      "affiliateKeys": [
-        "se-ranking",
-        "ubersuggest"
       ],
       "priority": 20
     },
@@ -14736,6 +14762,34 @@
       "priority": 70
     },
     {
+      "articleId": "semrush-vs-se-ranking-en",
+      "title": "Semrush vs SE Ranking: SEO, Rank Tracking, and Agency Workflows Compared",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/semrush-vs-se-ranking/",
+      "affiliateKey": "se-ranking-en-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/subscription.html",
+      "priority": 70
+    },
+    {
+      "articleId": "semrush-vs-se-ranking-ja",
+      "title": "SemrushとSE Rankingを比較｜SEO・順位計測・代理店運用の違い",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/semrush-vs-se-ranking/",
+      "affiliateKey": "se-ranking-ja-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/jp/subscription.html",
+      "priority": 70
+    },
+    {
       "articleId": "shin-rental-server-vs-conoha-wing-en",
       "title": "Shin Rental Server vs ConoHa WING: Pricing and Contract Differences",
       "language": "en",
@@ -15604,6 +15658,34 @@
       "priority": 60
     },
     {
+      "articleId": "ahrefs-vs-se-ranking-en",
+      "title": "Ahrefs vs SE Ranking: Research Depth or Operational Reporting?",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/ahrefs-vs-se-ranking/",
+      "affiliateKey": "se-ranking-en-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/subscription.html",
+      "priority": 55
+    },
+    {
+      "articleId": "ahrefs-vs-se-ranking-ja",
+      "title": "AhrefsとSE Rankingを比較｜データ調査と運用レポートでSEOツールを比べる",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/ahrefs-vs-se-ranking/",
+      "affiliateKey": "se-ranking-ja-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/jp/subscription.html",
+      "priority": 55
+    },
+    {
       "articleId": "cpi-vs-xserver-business-en",
       "title": "CPI vs XServer Business for Organizations in Japan",
       "language": "en",
@@ -15727,6 +15809,62 @@
       "configured": true,
       "product": "",
       "officialUrl": "https://lin.ee/nTfIJLT",
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-mangools-en",
+      "title": "SE Ranking vs Mangools: Multi-Project SEO Management or Lightweight Keyword Research?",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/se-ranking-vs-mangools/",
+      "affiliateKey": "se-ranking-en-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/subscription.html",
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-ubersuggest-en",
+      "title": "SE Ranking vs Ubersuggest: Agency Reporting or Beginner SEO?",
+      "language": "en",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/en/seo-marketing/se-ranking-vs-ubersuggest/",
+      "affiliateKey": "se-ranking-en-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/subscription.html",
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-mangools-ja",
+      "title": "SE RankingとMangoolsを比較｜複数案件のSEO管理か、軽量なキーワード調査か",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/se-ranking-vs-mangools/",
+      "affiliateKey": "se-ranking-ja-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/jp/subscription.html",
+      "priority": 55
+    },
+    {
+      "articleId": "se-ranking-vs-ubersuggest-ja",
+      "title": "SE RankingとUbersuggestを比較｜代理店レポートと初心者向けSEOを比べる",
+      "language": "ja",
+      "type": "comparison",
+      "category": "seo-marketing",
+      "url": "/ja/seo-marketing/se-ranking-vs-ubersuggest/",
+      "affiliateKey": "se-ranking-ja-pricing",
+      "placement": "article-cta",
+      "configured": true,
+      "product": "",
+      "officialUrl": "https://seranking.com/jp/subscription.html",
       "priority": 55
     },
     {
@@ -18082,20 +18220,6 @@
       "priority": 35
     },
     {
-      "articleId": "semrush-vs-se-ranking-en",
-      "title": "Semrush vs SE Ranking: SEO, Rank Tracking, and Agency Workflows Compared",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/semrush-vs-se-ranking/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
-      "priority": 35
-    },
-    {
       "articleId": "semrush-vs-ahrefs",
       "title": "SemrushとAhrefsを比較｜SEO・競合分析・AI検索計測の違い",
       "language": "ja",
@@ -18135,20 +18259,6 @@
       "configured": false,
       "product": "Semrush",
       "officialUrl": "https://www.semrush.com/pricing/",
-      "priority": 35
-    },
-    {
-      "articleId": "semrush-vs-se-ranking-ja",
-      "title": "SemrushとSE Rankingを比較｜SEO・順位計測・代理店運用の違い",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/semrush-vs-se-ranking/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
       "priority": 35
     },
     {
@@ -20868,20 +20978,6 @@
       "priority": 20
     },
     {
-      "articleId": "ahrefs-vs-se-ranking-en",
-      "title": "Ahrefs vs SE Ranking: Research Depth or Operational Reporting?",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/ahrefs-vs-se-ranking/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
-      "priority": 20
-    },
-    {
       "articleId": "ahrefs-vs-ubersuggest-en",
       "title": "Ahrefs vs Ubersuggest: Deep Link Research or Accessible SEO Operations?",
       "language": "en",
@@ -20921,20 +21017,6 @@
       "configured": false,
       "product": "Ahrefs",
       "officialUrl": "https://ahrefs.com/pricing",
-      "priority": 20
-    },
-    {
-      "articleId": "ahrefs-vs-se-ranking-ja",
-      "title": "AhrefsとSE Rankingを比較｜データ調査と運用レポートでSEOツールを比べる",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/ahrefs-vs-se-ranking/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
       "priority": 20
     },
     {
@@ -26530,39 +26612,11 @@
       "type": "comparison",
       "category": "seo-marketing",
       "url": "/en/seo-marketing/se-ranking-vs-mangools/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-mangools-en",
-      "title": "SE Ranking vs Mangools: Multi-Project SEO Management or Lightweight Keyword Research?",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/se-ranking-vs-mangools/",
       "affiliateKey": "mangools",
       "placement": "article-cta",
       "configured": false,
       "product": "Mangools",
       "officialUrl": "https://mangools.com/plans-and-pricing",
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-ubersuggest-en",
-      "title": "SE Ranking vs Ubersuggest: Agency Reporting or Beginner SEO?",
-      "language": "en",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/en/seo-marketing/se-ranking-vs-ubersuggest/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
       "priority": 20
     },
     {
@@ -26586,39 +26640,11 @@
       "type": "comparison",
       "category": "seo-marketing",
       "url": "/ja/seo-marketing/se-ranking-vs-mangools/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-mangools-ja",
-      "title": "SE RankingとMangoolsを比較｜複数案件のSEO管理か、軽量なキーワード調査か",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/se-ranking-vs-mangools/",
       "affiliateKey": "mangools",
       "placement": "article-cta",
       "configured": false,
       "product": "Mangools",
       "officialUrl": "https://mangools.com/plans-and-pricing",
-      "priority": 20
-    },
-    {
-      "articleId": "se-ranking-vs-ubersuggest-ja",
-      "title": "SE RankingとUbersuggestを比較｜代理店レポートと初心者向けSEOを比べる",
-      "language": "ja",
-      "type": "comparison",
-      "category": "seo-marketing",
-      "url": "/ja/seo-marketing/se-ranking-vs-ubersuggest/",
-      "affiliateKey": "se-ranking",
-      "placement": "article-cta",
-      "configured": false,
-      "product": "SE Ranking",
-      "officialUrl": "https://seranking.com/subscription.html",
       "priority": 20
     },
     {
