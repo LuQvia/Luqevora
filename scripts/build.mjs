@@ -344,9 +344,11 @@ function renderArticleCtas(article) {
     const isAffiliate = Boolean(affiliateUrl);
     hasAffiliate ||= isAffiliate;
     const href = affiliateUrl || cta.officialUrl;
+    const isMailto = /^mailto:/i.test(href);
     const rel = isAffiliate ? affiliates.rules.defaultRel : 'noopener noreferrer';
     const attributes = isAffiliate ? `data-affiliate-key="${esc(cta.affiliateKey)}" data-affiliate-link="true" data-affiliate-product="${esc(cta.affiliateKey)}"` : 'data-official-link="true"';
-    return `<a class="article-cta-link" data-link-position="article-cta" href="${esc(href)}" rel="${esc(rel)}" target="${esc(affiliates.rules.externalTarget || '_blank')}" ${attributes}>${esc(cta.label)}<span aria-hidden="true"> →</span></a>`;
+    const navigationAttributes = isMailto ? '' : ` rel="${esc(rel)}" target="${esc(affiliates.rules.externalTarget || '_blank')}"`;
+    return `<a class="article-cta-link" data-link-position="article-cta" href="${esc(href)}"${navigationAttributes} ${attributes}>${esc(cta.label)}<span aria-hidden="true"> →</span></a>`;
   }).join('');
   if (!links) return {html: '', hasAffiliate};
   const title = currentLabel(article.language, '公式ページで最新条件を確認', 'Check current terms on the official site');
@@ -1321,7 +1323,7 @@ await writeFile(path.join(outputRoot, 'robots.txt'), `User-agent: *\nAllow: /\nS
 await writeFile(path.join(outputRoot, `${indexNow.key}.txt`), `${indexNow.key}\n`);
 
 for (const language of site.languages) {
-  const records = articleRecords.filter(record => record.language === language).slice(0, 50);
+  const records = articleRecords.filter(record => record.language === language).slice(0, 100);
   const title = currentLabel(language, 'Luqevora.com 最新記事', 'Luqevora.com Latest Articles');
   const feed = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${xmlEscape(title)}</title><link>${site.baseUrl}/${language}/</link><description>${xmlEscape(currentLabel(language, 'AI・SaaS・Webサービスの比較・レビュー', 'AI, SaaS, and web-service comparisons and reviews'))}</description><language>${language}</language><lastBuildDate>${new Date(`${site.defaultVerifiedAt}T00:00:00Z`).toUTCString()}</lastBuildDate>${records.map(record => `<item><title>${xmlEscape(record.title)}</title><link>${site.baseUrl}${record.url}</link><guid isPermaLink="true">${site.baseUrl}${record.url}</guid><description>${xmlEscape(record.description)}</description><pubDate>${new Date(`${record.verifiedAt}T00:00:00Z`).toUTCString()}</pubDate></item>`).join('')}</channel></rss>\n`;
   await writeFile(path.join(outputRoot, `feed-${language}.xml`), feed);

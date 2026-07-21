@@ -15,8 +15,8 @@
     "name": "LuQvia",
     "url": "https://www.luqvia.com/"
   },
-  "assetVersion": "6.3.1",
-  "defaultVerifiedAt": "2026-07-20",
+  "assetVersion": "6.3.3",
+  "defaultVerifiedAt": "2026-07-21",
   "minimumArticlesPerLanguage": 280,
   "minimumIndexableArticlesPerLanguage": 100,
   "requireArticleTranslationParity": true,

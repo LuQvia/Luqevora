@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-21T03:07:00.615Z",
-  "lastVerified": "2026-07-20",
+  "generatedAt": "2026-07-21T06:28:56.018Z",
+  "lastVerified": "2026-07-21",
   "sourceFiles": [
     "content/article-batches/product-profiles.json",
     "content/article-batches/product-profiles-expansion.json"
@@ -153,7 +153,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "claude",
@@ -295,7 +295,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "fathom",
@@ -437,7 +437,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "fireflies",
@@ -579,7 +579,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "gemini",
@@ -721,7 +721,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "microsoft-copilot",
@@ -895,7 +895,7 @@
           "topic": "productivity-suite"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "otter",
@@ -1037,7 +1037,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "perplexity",
@@ -1195,7 +1195,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "tldv",
@@ -1337,7 +1337,7 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "airtable",
@@ -1511,7 +1511,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "asana",
@@ -1685,7 +1685,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "basecamp",
@@ -1859,7 +1859,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "clickup",
@@ -2033,7 +2033,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "google-workspace",
@@ -2207,7 +2207,7 @@
           "topic": "business-chat"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "hubspot-crm",
@@ -2381,7 +2381,7 @@
           "topic": "crm"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "jira",
@@ -2555,7 +2555,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "microsoft-teams",
@@ -2729,7 +2729,7 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "monday",
@@ -2903,7 +2903,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "notion",
@@ -3077,7 +3077,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "slack",
@@ -3251,7 +3251,7 @@
           "topic": "business-chat"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "todoist",
@@ -3425,7 +3425,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "trello",
@@ -3599,7 +3599,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "wrike",
@@ -3773,7 +3773,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "zoom",
@@ -3883,7 +3883,7 @@
           "topic": "video-meetings"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "airpay",
@@ -4017,7 +4017,7 @@
           "topic": "pos-payment-integration"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "air-regi",
@@ -4195,7 +4195,7 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "paycas-mobile",
@@ -4373,7 +4373,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "square-pos",
@@ -4551,7 +4551,7 @@
           "topic": "pos-payment-integration"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "1password",
@@ -4677,7 +4677,7 @@
           "topic": "password-managers"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "bitwarden",
@@ -4803,7 +4803,7 @@
           "topic": "password-managers"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "cloudways",
@@ -4977,7 +4977,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "hostinger",
@@ -5151,7 +5151,7 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "jetboy",
@@ -5319,7 +5319,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "keeper",
@@ -5445,7 +5445,7 @@
           "topic": "password-manager"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "kinsta",
@@ -5619,7 +5619,7 @@
           "topic": "managed-wordpress"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "nordpass",
@@ -5745,7 +5745,7 @@
           "topic": "password-manager"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "nordvpn",
@@ -5919,7 +5919,7 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "proton-vpn",
@@ -6093,7 +6093,7 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "shin-rental-server",
@@ -6299,7 +6299,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "siteground",
@@ -6473,7 +6473,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "surfshark",
@@ -6647,7 +6647,7 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "wordpress-com",
@@ -6821,7 +6821,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "wp-engine",
@@ -6995,7 +6995,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "xserver",
@@ -7205,7 +7205,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "xserver-business",
@@ -7399,7 +7399,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "activecampaign",
@@ -7573,7 +7573,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "ahrefs",
@@ -7731,7 +7731,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "brevo",
@@ -7905,7 +7905,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "getresponse",
@@ -8079,7 +8079,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "hubspot-marketing",
@@ -8253,7 +8253,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "kit",
@@ -8427,7 +8427,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "mailchimp",
@@ -8601,7 +8601,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "mailerlite",
@@ -8775,7 +8775,7 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "mangools",
@@ -8933,7 +8933,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "se-ranking",
@@ -9107,7 +9107,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "semrush",
@@ -9281,7 +9281,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "ubersuggest",
@@ -9423,7 +9423,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "emeao-pos",
@@ -9601,7 +9601,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "freee-accounting",
@@ -9719,7 +9719,7 @@
           "topic": "store-backoffice-integration"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "funfo",
@@ -9849,7 +9849,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "line-official-account",
@@ -10023,7 +10023,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "stores-reservation",
@@ -10149,7 +10149,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "kantan-chumon",
@@ -10281,7 +10281,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "moneyforward-cloud-accounting",
@@ -10455,7 +10455,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "bigcommerce",
@@ -10629,7 +10629,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "color-me-shop",
@@ -10807,7 +10807,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "duda",
@@ -10981,7 +10981,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "framer",
@@ -11155,7 +11155,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "goope",
@@ -11309,7 +11309,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "hostinger-website-builder",
@@ -11483,7 +11483,7 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "jimdo",
@@ -11689,7 +11689,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "shopify",
@@ -11863,7 +11863,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "squarespace",
@@ -12037,7 +12037,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "webflow",
@@ -12211,7 +12211,7 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "wix",
@@ -12385,7 +12385,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "woocommerce",
@@ -12559,7 +12559,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "xserver-shop",
@@ -12745,7 +12745,7 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     },
     {
       "id": "ochanoko-saisai",
@@ -12939,7 +12939,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-20"
+      "lastVerified": "2026-07-21"
     }
   ]
 }

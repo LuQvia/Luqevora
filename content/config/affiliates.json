@@ -766,6 +766,24 @@
       "url": "https://referworkspace.app.goo.gl/ewLM",
       "verifiedAt": "2026-07-20",
       "promotionCodePolicy": "single-use codes are distributed individually and are not stored in the public repository"
+    },
+    "google-workspace-us": {
+      "type": "url",
+      "network": "Google Workspace Referral Program",
+      "programType": "referral",
+      "language": "en",
+      "market": "United States",
+      "destination": "https://workspace.google.com/",
+      "url": "https://referworkspace.app.goo.gl/GNVm",
+      "verifiedAt": "2026-07-21",
+      "promotionCodePolicy": "single-use codes are distributed individually and are not stored in the public repository"
+    },
+    "google-workspace-us-promo-request": {
+      "type": "official",
+      "network": "LuQvia",
+      "language": "en",
+      "destination": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+      "verifiedAt": "2026-07-21"
     }
   },
   "rules": {

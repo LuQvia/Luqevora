@@ -1,6 +1,10 @@
-# Luqevora.com Static Platform v4.3.2
+# Luqevora.com Static Platform v4.3.3
 
 v4.3.2 standardizes the public media/service name as **Luqevora.com** and the operator display as **LuQvia**, without publishing the operator's legal-form description. See `docs/BRAND_OPERATOR_UPDATE_V4.3.2.md`.
+
+## Google Workspace US Referral Integration v4.3.3
+
+v4.3.3 adds the approved United States Google Workspace referral URL to nine English high-intent pages, keeps the existing Japanese referral URL separate, and adds a private one-to-one promotion-code request route. Single-use promotion codes are deliberately excluded from the repository and public ZIP. See `docs/GOOGLE_WORKSPACE_US_REFERRAL_V4.3.3.md`.
 
 ## Google Workspace Referral Integration v4.3.1
 

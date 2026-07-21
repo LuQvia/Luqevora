@@ -155,6 +155,14 @@ function expandCompactComparison(record, profiles) {
   };
 }
 
+function profileAffiliateKey(profile, language) {
+  return profile.affiliateKeyByLanguage?.[language] || profile.affiliateKey;
+}
+
+function profileCtaUrl(profile, language) {
+  return profile.ctaUrlByLanguage?.[language] || profile.ctaUrl || profile.sources[0].url;
+}
+
 function comparisonArticle(record, profiles, language) {
   const first = profiles[record.products[0]];
   const second = profiles[record.products[1]];
@@ -190,8 +198,8 @@ function comparisonArticle(record, profiles, language) {
     affiliateDisclosure: false,
     ctas: [first, second].map(profile => ({
       label: choose(language, `${profile.name}の公式プランを確認`, `Check ${profile.name} official plans`),
-      officialUrl: profile.ctaUrl || profile.sources[0].url,
-      affiliateKey: profile.affiliateKey
+      officialUrl: profileCtaUrl(profile, language),
+      affiliateKey: profileAffiliateKey(profile, language)
     })),
     sources: sourceList,
     sections: [
@@ -299,8 +307,8 @@ function profileReviewArticle(record, profiles, language) {
     affiliateDisclosure: false,
     ctas: [{
       label: choose(language, `${profile.name}の公式プランを確認`, `Check ${profile.name} official plans`),
-      officialUrl: profile.ctaUrl || profile.sources[0].url,
-      affiliateKey: profile.affiliateKey
+      officialUrl: profileCtaUrl(profile, language),
+      affiliateKey: profileAffiliateKey(profile, language)
     }],
     sources: sourceList,
     sections: [
@@ -643,6 +651,21 @@ function templatedArticle(record, language) {
         body: [copy.verdict, copy.context],
         callout: choose(language, '料金・機能・キャンペーンは変更されるため、契約直前に公式画面で再確認してください。', 'Pricing, features, and promotions can change; recheck the provider screen immediately before purchase.')
       },
+      ...(record.workspaceUsPromoOffer && language === 'en' ? [{
+        heading: 'US referral link and first-year promotion codes',
+        body: [
+          'The Google Workspace signup button on this page uses a United States referral link issued to the operator of Luqevora.com. If an eligible new customer starts a trial through the link and meets the program conditions, the operator may receive a referral reward.',
+          'A limited number of promotion codes may be available for eligible new United States customers. Each code can be used by one customer account only, so codes are not published on this website. Request a code before entering billing information and completing the 14-day trial signup.'
+        ],
+        bullets: [
+          'Use the United States referral link before starting the trial',
+          'Available only to eligible new Google Workspace customers',
+          'A promotion code can provide 10% off per user for the first year where eligible',
+          'United States customers must enter the code with billing information before completing trial signup',
+          'Code availability and successful application are not guaranteed'
+        ],
+        callout: 'Promotion codes are limited, region-specific, and single-use. Confirm the discount in the Google Workspace billing summary before completing signup.'
+      }] : []),
       {
         heading: copy.overviewHeading || choose(language, '主な機能と使い方', 'Core capabilities and workflow'),
         body: [copy.overview],
@@ -673,15 +696,21 @@ function templatedArticle(record, language) {
         bullets: [...setupChecks, ...(copy.checklist || [])]
       }
     ],
-    faqs: copy.faqs || [
-      {
-        question: choose(language, `${copy.subject}は無料で試せますか？`, `Can I try ${copy.subject} for free?`),
-        answer: choose(language, `${copy.subject}の無料プランや試用期間は地域・時期によって変わる場合があります。公式料金ページと申込画面で最新条件を確認してください。`, `Free-plan and trial availability for ${copy.subject} can vary by region and date. Check the current official pricing and checkout screens.`)
-      },
-      {
-        question: choose(language, '導入前に最も重要な確認項目は何ですか？', 'What is the most important pre-purchase check?'),
-        answer: choose(language, `${copy.subject}の試用環境で日常の主要作業を再現し、必要な権限、上限、書き出し、サポートが契約予定プランに含まれるか確認します。`, `Reproduce your most frequent ${copy.subject} workflow and confirm that the intended plan includes the required permissions, limits, export, and support.`)
-      }
+    faqs: [
+      ...(copy.faqs || [
+        {
+          question: choose(language, `${copy.subject}は無料で試せますか？`, `Can I try ${copy.subject} for free?`),
+          answer: choose(language, `${copy.subject}の無料プランや試用期間は地域・時期によって変わる場合があります。公式料金ページと申込画面で最新条件を確認してください。`, `Free-plan and trial availability for ${copy.subject} can vary by region and date. Check the current official pricing and checkout screens.`)
+        },
+        {
+          question: choose(language, '導入前に最も重要な確認項目は何ですか？', 'What is the most important pre-purchase check?'),
+          answer: choose(language, `${copy.subject}の試用環境で日常の主要作業を再現し、必要な権限、上限、書き出し、サポートが契約予定プランに含まれるか確認します。`, `Reproduce your most frequent ${copy.subject} workflow and confirm that the intended plan includes the required permissions, limits, export, and support.`)
+        }
+      ]),
+      ...(record.workspaceUsPromoOffer && language === 'en' ? [{
+        question: 'How can I request a Google Workspace promotion code for the United States?',
+        answer: 'Use the promotion-code request button before starting or completing signup. Codes are sent individually because each code can be redeemed by one eligible customer account only. Availability, plan eligibility, and successful application are not guaranteed; confirm the discount in the Google Workspace billing summary.'
+      }] : [])
     ],
     relatedLinks: relatedLinks(record.relatedRoutes, language)
   };

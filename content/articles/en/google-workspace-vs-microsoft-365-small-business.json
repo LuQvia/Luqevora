@@ -13,16 +13,21 @@
   "description": "Compare Google Workspace and Microsoft 365 across email, collaboration, desktop apps, meetings, storage, and administration.",
   "lead": "Google Workspace favors browser-first collaboration. Microsoft 365 favors desktop Office workflows and compatibility with existing Office assets.",
   "publishedAt": "2026-07-20",
-  "updatedAt": "2026-07-20",
-  "verifiedAt": "2026-07-20",
+  "updatedAt": "2026-07-21",
+  "verifiedAt": "2026-07-21",
   "author": "Luqevora.com Editorial Team",
   "featured": false,
-  "affiliateDisclosure": false,
+  "affiliateDisclosure": true,
   "ctas": [
     {
-      "label": "Check Google Workspace pricing and features",
-      "officialUrl": "https://workspace.google.com/pricing",
-      "affiliateKey": "google-workspace"
+      "label": "Start Google Workspace with our US referral link",
+      "officialUrl": "https://workspace.google.com/",
+      "affiliateKey": "google-workspace-us"
+    },
+    {
+      "label": "Request a 10% first-year promo code",
+      "officialUrl": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+      "affiliateKey": "google-workspace-us-promo-request"
     }
   ],
   "sources": [
@@ -37,6 +42,14 @@
     {
       "label": "Microsoft 365 business plan comparison",
       "url": "https://www.microsoft.com/ja-jp/microsoft-365/business/compare-all-microsoft-365-business-products"
+    },
+    {
+      "label": "Google Workspace Referral Program",
+      "url": "https://workspace.google.com/referral-program/"
+    },
+    {
+      "label": "Google Workspace Referral FAQ",
+      "url": "https://workspace.google.com/landing/partners/referral/faqs/"
     }
   ],
   "sections": [
@@ -47,6 +60,21 @@
         "Do not decide on brand recognition or headline price alone. Compare real users, daily workflows, administrator effort, migration, and exit or export requirements under the same conditions."
       ],
       "callout": "Terms can change. Recheck the official pricing page and agreement immediately before purchase."
+    },
+    {
+      "heading": "US referral link and first-year promotion codes",
+      "body": [
+        "The Google Workspace signup button on this page uses a United States referral link issued to the operator of Luqevora.com. If an eligible new customer starts a trial through the link and meets the program conditions, the operator may receive a referral reward.",
+        "A limited number of promotion codes may be available for eligible new United States customers. Each code can be used by one customer account only, so codes are not published on this website. Request a code before entering billing information and completing the 14-day trial signup."
+      ],
+      "bullets": [
+        "Use the United States referral link before starting the trial",
+        "Available only to eligible new Google Workspace customers",
+        "A promotion code can provide 10% off per user for the first year where eligible",
+        "United States customers must enter the code with billing information before completing trial signup",
+        "Code availability and successful application are not guaranteed"
+      ],
+      "callout": "Promotion codes are limited, region-specific, and single-use. Confirm the discount in the Google Workspace billing summary before completing signup."
     },
     {
       "heading": "Pricing and contract terms",
@@ -139,6 +167,10 @@
     {
       "question": "What matters most during implementation?",
       "answer": "Define the workflow, data owner, completion criteria, permissions, and review process, then reproduce them in a small pilot instead of choosing by feature count."
+    },
+    {
+      "question": "How can I request a Google Workspace promotion code for the United States?",
+      "answer": "Use the promotion-code request button before starting or completing signup. Codes are sent individually because each code can be redeemed by one eligible customer account only. Availability, plan eligibility, and successful application are not guaranteed; confirm the discount in the Google Workspace billing summary."
     }
   ]
 }

@@ -8,7 +8,7 @@ const results = [];
 const check = (name, pass, detail='') => results.push({name, pass:Boolean(pass), detail:String(detail||'')});
 const pkg = await json('package.json');
 const site = await json('content/config/site.json');
-check('package version', pkg.version === '4.3.2', pkg.version);
+check('package version', /^4\.3\.[2-9]$/.test(pkg.version), pkg.version);
 check('site name', site.siteName === 'Luqevora.com', site.siteName);
 check('operator organization', site.organization?.name === 'LuQvia', site.organization?.name);
 

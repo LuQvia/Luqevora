@@ -1,6 +1,6 @@
 {
   "version": "4.2.0",
-  "generatedAt": "2026-07-21T03:07:15.213Z",
+  "generatedAt": "2026-07-21T06:29:11.778Z",
   "targetArticles": 29,
   "total": 420,
   "passed": 420,
@@ -9,7 +9,7 @@
     {
       "name": "package version supports LuQvia v4.2+",
       "ok": true,
-      "detail": "4.3.2"
+      "detail": "4.3.3"
     },
     {
       "name": "LuQvia service config version supports v4.2+",

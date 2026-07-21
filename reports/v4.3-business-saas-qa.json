@@ -1,8 +1,8 @@
 {
-  "version": "4.3.1",
-  "generatedAt": "2026-07-21T03:07:15.527Z",
-  "total": 368,
-  "passed": 368,
+  "version": "4.3.3",
+  "generatedAt": "2026-07-21T06:29:12.116Z",
+  "total": 372,
+  "passed": 372,
   "failed": 0,
   "results": [
     {
@@ -21,9 +21,9 @@
       "detail": "null"
     },
     {
-      "name": "approved Google Workspace referral configured",
+      "name": "approved Google Workspace regional referrals configured",
       "pass": true,
-      "detail": "{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"ja\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/ewLM\",\"verifiedAt\":\"2026-07-20\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"}"
+      "detail": "{\"ja\":{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"ja\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/ewLM\",\"verifiedAt\":\"2026-07-20\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"},\"us\":{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"en\",\"market\":\"United States\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/GNVm\",\"verifiedAt\":\"2026-07-21\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"}}"
     },
     {
       "name": "unapproved tracking URL absent: shopify",
@@ -546,12 +546,17 @@
       "detail": "google-workspace-pricing-small-business"
     },
     {
-      "name": "official disclosure before approval: en/google-workspace-pricing-small-business",
+      "name": "approved US referral disclosure: en/google-workspace-pricing-small-business",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: en/google-workspace-pricing-small-business",
+      "name": "approved US referral CTA: en/google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "US promo request CTA: en/google-workspace-pricing-small-business",
       "pass": true,
       "detail": ""
     },
@@ -636,12 +641,17 @@
       "detail": "google-workspace-vs-microsoft-365-small-business"
     },
     {
-      "name": "official disclosure before approval: en/google-workspace-vs-microsoft-365-small-business",
+      "name": "approved US referral disclosure: en/google-workspace-vs-microsoft-365-small-business",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: en/google-workspace-vs-microsoft-365-small-business",
+      "name": "approved US referral CTA: en/google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "US promo request CTA: en/google-workspace-vs-microsoft-365-small-business",
       "pass": true,
       "detail": ""
     },
@@ -726,12 +736,17 @@
       "detail": "gmail-vs-google-workspace-business-email"
     },
     {
-      "name": "official disclosure before approval: en/gmail-vs-google-workspace-business-email",
+      "name": "approved US referral disclosure: en/gmail-vs-google-workspace-business-email",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: en/gmail-vs-google-workspace-business-email",
+      "name": "approved US referral CTA: en/gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "US promo request CTA: en/gmail-vs-google-workspace-business-email",
       "pass": true,
       "detail": ""
     },
@@ -816,12 +831,17 @@
       "detail": "google-workspace-domain-email-setup"
     },
     {
-      "name": "official disclosure before approval: en/google-workspace-domain-email-setup",
+      "name": "approved US referral disclosure: en/google-workspace-domain-email-setup",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "official CTA only: en/google-workspace-domain-email-setup",
+      "name": "approved US referral CTA: en/google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "US promo request CTA: en/google-workspace-domain-email-setup",
       "pass": true,
       "detail": ""
     },

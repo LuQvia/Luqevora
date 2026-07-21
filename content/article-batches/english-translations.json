@@ -276,15 +276,30 @@
       {
         "label": "Google Workspace Admin Help",
         "url": "https://support.google.com/a/"
+      },
+      {
+        "label": "Google Workspace Referral Program",
+        "url": "https://workspace.google.com/referral-program/"
+      },
+      {
+        "label": "Google Workspace Referral FAQ",
+        "url": "https://workspace.google.com/landing/partners/referral/faqs/"
       }
     ],
     "ctas": [
       {
         "label": {
-          "en": "Check Google Workspace official plans"
+          "en": "Start Google Workspace with our US referral link"
         },
-        "officialUrl": "https://workspace.google.com/pricing.html",
-        "affiliateKey": "google-workspace"
+        "officialUrl": "https://workspace.google.com/",
+        "affiliateKey": "google-workspace-us"
+      },
+      {
+        "label": {
+          "en": "Request a 10% first-year promo code"
+        },
+        "officialUrl": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+        "affiliateKey": "google-workspace-us-promo-request"
       }
     ],
     "relatedRoutes": [
@@ -330,7 +345,10 @@
           "Organizations improving sender authentication"
         ]
       }
-    }
+    },
+    "workspaceUsPromoOffer": true,
+    "updatedAt": "2026-07-21",
+    "verifiedAt": "2026-07-21"
   },
   {
     "slug": "google-calendar-guide",
@@ -406,15 +424,30 @@
       {
         "label": "Google Chat",
         "url": "https://workspace.google.com/products/chat/"
+      },
+      {
+        "label": "Google Workspace Referral Program",
+        "url": "https://workspace.google.com/referral-program/"
+      },
+      {
+        "label": "Google Workspace Referral FAQ",
+        "url": "https://workspace.google.com/landing/partners/referral/faqs/"
       }
     ],
     "ctas": [
       {
         "label": {
-          "en": "Check Google Workspace official plans"
+          "en": "Start Google Workspace with our US referral link"
         },
-        "officialUrl": "https://workspace.google.com/pricing.html",
-        "affiliateKey": "google-workspace"
+        "officialUrl": "https://workspace.google.com/",
+        "affiliateKey": "google-workspace-us"
+      },
+      {
+        "label": {
+          "en": "Request a 10% first-year promo code"
+        },
+        "officialUrl": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+        "affiliateKey": "google-workspace-us-promo-request"
       }
     ],
     "relatedRoutes": [
@@ -460,7 +493,10 @@
           "Small businesses consolidating vendors"
         ]
       }
-    }
+    },
+    "workspaceUsPromoOffer": true,
+    "updatedAt": "2026-07-21",
+    "verifiedAt": "2026-07-21"
   },
   {
     "slug": "google-drive-guide",
@@ -536,15 +572,30 @@
       {
         "label": "Google Workspace — Pricing",
         "url": "https://workspace.google.com/pricing.html"
+      },
+      {
+        "label": "Google Workspace Referral Program",
+        "url": "https://workspace.google.com/referral-program/"
+      },
+      {
+        "label": "Google Workspace Referral FAQ",
+        "url": "https://workspace.google.com/landing/partners/referral/faqs/"
       }
     ],
     "ctas": [
       {
         "label": {
-          "en": "Check Google Workspace official plans"
+          "en": "Start Google Workspace with our US referral link"
         },
-        "officialUrl": "https://workspace.google.com/pricing.html",
-        "affiliateKey": "google-workspace"
+        "officialUrl": "https://workspace.google.com/",
+        "affiliateKey": "google-workspace-us"
+      },
+      {
+        "label": {
+          "en": "Request a 10% first-year promo code"
+        },
+        "officialUrl": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+        "affiliateKey": "google-workspace-us-promo-request"
       }
     ],
     "relatedRoutes": [
@@ -590,7 +641,10 @@
           "Workspace organizations managing meetings centrally"
         ]
       }
-    }
+    },
+    "workspaceUsPromoOffer": true,
+    "updatedAt": "2026-07-21",
+    "verifiedAt": "2026-07-21"
   },
   {
     "slug": "google-workspace-guide",
@@ -605,15 +659,30 @@
       {
         "label": "Official website",
         "url": "https://workspace.google.com/"
+      },
+      {
+        "label": "Google Workspace Referral Program",
+        "url": "https://workspace.google.com/referral-program/"
+      },
+      {
+        "label": "Google Workspace Referral FAQ",
+        "url": "https://workspace.google.com/landing/partners/referral/faqs/"
       }
     ],
     "ctas": [
       {
         "label": {
-          "en": "Check Google Workspace official plans"
+          "en": "Start Google Workspace with our US referral link"
         },
-        "officialUrl": "https://workspace.google.com/pricing.html",
-        "affiliateKey": "google-workspace"
+        "officialUrl": "https://workspace.google.com/",
+        "affiliateKey": "google-workspace-us"
+      },
+      {
+        "label": {
+          "en": "Request a 10% first-year promo code"
+        },
+        "officialUrl": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+        "affiliateKey": "google-workspace-us-promo-request"
       }
     ],
     "relatedRoutes": [
@@ -659,7 +728,10 @@
           "Organizations replacing personal Google accounts"
         ]
       }
-    }
+    },
+    "workspaceUsPromoOffer": true,
+    "updatedAt": "2026-07-21",
+    "verifiedAt": "2026-07-21"
   },
   {
     "slug": "notion-vs-asana",
@@ -851,6 +923,14 @@
       {
         "label": "Google Chat",
         "url": "https://workspace.google.com/products/chat/"
+      },
+      {
+        "label": "Google Workspace Referral Program",
+        "url": "https://workspace.google.com/referral-program/"
+      },
+      {
+        "label": "Google Workspace Referral FAQ",
+        "url": "https://workspace.google.com/landing/partners/referral/faqs/"
       }
     ],
     "ctas": [
@@ -863,10 +943,17 @@
       },
       {
         "label": {
-          "en": "Check Google Workspace official plans"
+          "en": "Start Google Workspace with our US referral link"
         },
-        "officialUrl": "https://workspace.google.com/pricing.html",
-        "affiliateKey": "google-workspace"
+        "officialUrl": "https://workspace.google.com/",
+        "affiliateKey": "google-workspace-us"
+      },
+      {
+        "label": {
+          "en": "Request a 10% first-year promo code"
+        },
+        "officialUrl": "mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request",
+        "affiliateKey": "google-workspace-us-promo-request"
       }
     ],
     "relatedRoutes": [
@@ -936,7 +1023,10 @@
           "Organizations ready to govern conversation and files"
         ]
       }
-    }
+    },
+    "workspaceUsPromoOffer": true,
+    "updatedAt": "2026-07-21",
+    "verifiedAt": "2026-07-21"
   },
   {
     "slug": "task-management-tools-comparison",

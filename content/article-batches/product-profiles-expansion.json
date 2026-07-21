@@ -2711,6 +2711,14 @@
         "DNS and migration setup",
         "Offboarding and shared-data governance required"
       ]
+    },
+    "affiliateKeyByLanguage": {
+      "ja": "google-workspace",
+      "en": "google-workspace-us"
+    },
+    "ctaUrlByLanguage": {
+      "ja": "https://workspace.google.com/intl/ja/",
+      "en": "https://workspace.google.com/"
     }
   },
   "hubspot-crm": {

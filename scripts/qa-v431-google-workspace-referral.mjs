@@ -13,7 +13,7 @@ check('package version',/^4\.3\.[1-9]$/.test(pkg.version),pkg.version);
 check('referral URL configured',affiliates.links?.['google-workspace']?.url===referral,affiliates.links?.['google-workspace']?.url);
 check('Japanese-only referral',affiliates.links?.['google-workspace']?.language==='ja',affiliates.links?.['google-workspace']?.language);
 const prospect=prospects.programs?.find(p=>p.key==='google-workspace');
-check('prospect active',prospect?.status==='active-referral',prospect?.status);
+check('prospect active',['active-referral','active-referral-multi-region'].includes(prospect?.status),prospect?.status);
 check('promo codes excluded from public config',prospect?.publicPromotionCodesStored===false,prospect?.publicPromotionCodesStored);
 for(const slug of slugs){
   const source=await json(`content/articles/ja/${slug}.json`);
@@ -29,7 +29,7 @@ for(const slug of slugs){
 }
 for(const slug of ['google-workspace-pricing-small-business','google-workspace-vs-microsoft-365-small-business','gmail-vs-google-workspace-business-email','google-workspace-domain-email-setup']){
   const html=await read(`public/en/business-software/${slug}/index.html`);
-  check(`English remains official: ${slug}`,!html.includes(referral)&&!html.includes('data-affiliate-key="google-workspace"'));
+  check(`Japanese referral not used on English page: ${slug}`,!html.includes(referral)&&!html.includes('data-affiliate-key="google-workspace"'));
 }
 check('public policy documents state codes are private',(await read('docs/GOOGLE_WORKSPACE_REFERRAL_V4.3.1.md')).includes('公開ZIPへ保存しません'));
 const failures=results.filter(r=>!r.pass);

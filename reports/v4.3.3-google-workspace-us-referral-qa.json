@@ -1,0 +1,644 @@
+{
+  "version": "4.3.3",
+  "generatedAt": "2026-07-21T06:29:13.430Z",
+  "total": 127,
+  "passed": 127,
+  "failed": 0,
+  "results": [
+    {
+      "name": "package version",
+      "pass": true,
+      "detail": "4.3.3"
+    },
+    {
+      "name": "US referral configured",
+      "pass": true,
+      "detail": "{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"en\",\"market\":\"United States\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/GNVm\",\"verifiedAt\":\"2026-07-21\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"}"
+    },
+    {
+      "name": "US referral English market",
+      "pass": true,
+      "detail": "{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"en\",\"market\":\"United States\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/GNVm\",\"verifiedAt\":\"2026-07-21\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"}"
+    },
+    {
+      "name": "promo request mailto configured",
+      "pass": true,
+      "detail": "{\"type\":\"official\",\"network\":\"LuQvia\",\"language\":\"en\",\"destination\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"verifiedAt\":\"2026-07-21\"}"
+    },
+    {
+      "name": "Japan referral remains separate",
+      "pass": true,
+      "detail": "{\"type\":\"url\",\"network\":\"Google Workspace Referral Program\",\"programType\":\"referral\",\"language\":\"ja\",\"destination\":\"https://workspace.google.com/\",\"url\":\"https://referworkspace.app.goo.gl/ewLM\",\"verifiedAt\":\"2026-07-20\",\"promotionCodePolicy\":\"single-use codes are distributed individually and are not stored in the public repository\"}"
+    },
+    {
+      "name": "multi-region prospect active",
+      "pass": true,
+      "detail": "active-referral-multi-region"
+    },
+    {
+      "name": "regional keys registered",
+      "pass": true,
+      "detail": "[\"google-workspace\",\"google-workspace-us\"]"
+    },
+    {
+      "name": "promotion codes excluded from public config",
+      "pass": true,
+      "detail": "false"
+    },
+    {
+      "name": "structured source affiliate disclosure: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "structured source US referral CTA: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo request CTA: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo section: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": "Bottom line | US referral link and first-year promotion codes | Pricing and contract terms | How to test with real work | Best fit | Cautions and failure prevention | Implementation sequence"
+    },
+    {
+      "name": "structured source affiliate disclosure: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "structured source US referral CTA: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo request CTA: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo section: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": "Bottom line | US referral link and first-year promotion codes | Pricing and contract terms | How to test with real work | Best fit | Cautions and failure prevention | Implementation sequence"
+    },
+    {
+      "name": "structured source affiliate disclosure: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "structured source US referral CTA: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo request CTA: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo section: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": "Bottom line | US referral link and first-year promotion codes | Pricing and contract terms | How to test with real work | Best fit | Cautions and failure prevention | Implementation sequence"
+    },
+    {
+      "name": "structured source affiliate disclosure: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "structured source US referral CTA: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo request CTA: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "[{\"label\":\"Start Google Workspace with our US referral link\",\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":\"Request a 10% first-year promo code\",\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "structured source promo section: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": "Bottom line | US referral link and first-year promotion codes | Pricing and contract terms | How to test with real work | Best fit | Cautions and failure prevention | Implementation sequence"
+    },
+    {
+      "name": "batch record exists: custom-domain-email-guide",
+      "pass": true,
+      "detail": "custom-domain-email-guide"
+    },
+    {
+      "name": "batch US referral CTA: custom-domain-email-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo request CTA: custom-domain-email-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo content flag: custom-domain-email-guide",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "batch record exists: google-chat-guide",
+      "pass": true,
+      "detail": "google-chat-guide"
+    },
+    {
+      "name": "batch US referral CTA: google-chat-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo request CTA: google-chat-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo content flag: google-chat-guide",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "batch record exists: google-meet-guide",
+      "pass": true,
+      "detail": "google-meet-guide"
+    },
+    {
+      "name": "batch US referral CTA: google-meet-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo request CTA: google-meet-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo content flag: google-meet-guide",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "batch record exists: google-workspace-guide",
+      "pass": true,
+      "detail": "google-workspace-guide"
+    },
+    {
+      "name": "batch US referral CTA: google-workspace-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo request CTA: google-workspace-guide",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo content flag: google-workspace-guide",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "batch record exists: slack-vs-google-chat",
+      "pass": true,
+      "detail": "slack-vs-google-chat"
+    },
+    {
+      "name": "batch US referral CTA: slack-vs-google-chat",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Check Slack official plans\"},\"officialUrl\":\"https://slack.com/pricing\",\"affiliateKey\":\"slack\"},{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo request CTA: slack-vs-google-chat",
+      "pass": true,
+      "detail": "[{\"label\":{\"en\":\"Check Slack official plans\"},\"officialUrl\":\"https://slack.com/pricing\",\"affiliateKey\":\"slack\"},{\"label\":{\"en\":\"Start Google Workspace with our US referral link\"},\"officialUrl\":\"https://workspace.google.com/\",\"affiliateKey\":\"google-workspace-us\"},{\"label\":{\"en\":\"Request a 10% first-year promo code\"},\"officialUrl\":\"mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request\",\"affiliateKey\":\"google-workspace-us-promo-request\"}]"
+    },
+    {
+      "name": "batch promo content flag: slack-vs-google-chat",
+      "pass": true,
+      "detail": "true"
+    },
+    {
+      "name": "public US referral URL: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: google-workspace-pricing-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: google-workspace-vs-microsoft-365-small-business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: gmail-vs-google-workspace-business-email",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: google-workspace-domain-email-setup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: custom-domain-email-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: google-chat-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: google-meet-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: google-workspace-guide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US referral URL: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate key: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public sponsored rel: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public affiliate disclosure: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public promo request: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public private distribution wording: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public US billing timing: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no promotion-code-looking token in page: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese referral absent from English page: slack-vs-google-chat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no published promotion code assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "release document present",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

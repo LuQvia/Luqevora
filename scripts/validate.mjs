@@ -249,7 +249,8 @@ for (const entry of articleEntries) {
   for (const [index, cta] of (article.ctas || []).entries()) {
     try {
       const parsed = new URL(cta.officialUrl);
-      if (parsed.protocol !== 'https:' || !cta.label || !/^[a-z0-9][a-z0-9-]*$/.test(cta.affiliateKey || '')) throw new Error('CTA requires a label, HTTPS officialUrl, and lowercase affiliateKey');
+      const allowedProtocol = parsed.protocol === 'https:' || parsed.protocol === 'mailto:';
+      if (!allowedProtocol || !cta.label || !/^[a-z0-9][a-z0-9-]*$/.test(cta.affiliateKey || '')) throw new Error('CTA requires a label, HTTPS or mailto officialUrl, and lowercase affiliateKey');
     } catch (error) {
       addError(relative, `Invalid CTA at index ${index}: ${error.message}`);
     }
@@ -280,7 +281,8 @@ for (const [key, entry] of Object.entries(affiliates.links || {})) {
   const url = typeof entry === 'string' ? entry : entry?.url || entry?.destination;
   try {
     const parsed = new URL(url);
-    if (parsed.protocol !== 'https:' || !/^[a-z0-9][a-z0-9-]*$/.test(key)) throw new Error('Affiliate keys must be lowercase and URLs must use HTTPS');
+    const isOfficialMailto = typeof entry === 'object' && entry?.type === 'official' && parsed.protocol === 'mailto:';
+    if ((parsed.protocol !== 'https:' && !isOfficialMailto) || !/^[a-z0-9][a-z0-9-]*$/.test(key)) throw new Error('Affiliate keys must be lowercase; tracking URLs must use HTTPS and official contact entries may use mailto');
   } catch (error) {
     addError('content/config/affiliates.json', `Invalid affiliate entry ${key}: ${error.message}`);
   }

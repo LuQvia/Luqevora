@@ -1,7 +1,7 @@
 {
-  "version": "4.3.1",
-  "verifiedAt": "2026-07-20",
-  "policy": "Approved referral or affiliate links are stored centrally. Single-use promotion codes must never be published or committed; distribute them individually and track them in a private register.",
+  "version": "4.3.3",
+  "verifiedAt": "2026-07-21",
+  "policy": "Approved referral or affiliate links are stored centrally. Region-specific referral links must be used only on matching language/market pages. Single-use promotion codes must never be published or committed; distribute them individually and track them in a private register.",
   "programs": [
     {
       "key": "monday-com",
@@ -14,15 +14,23 @@
     {
       "key": "google-workspace",
       "name": "Google Workspace",
-      "status": "active-referral",
+      "status": "active-referral-multi-region",
       "officialProgram": "https://workspace.google.com/intl/ja/referral-program/",
       "network": "Google referral program",
-      "articleCount": 6,
+      "articleCount": 15,
       "approvedAt": "2026-07-20",
       "referralUrl": "https://referworkspace.app.goo.gl/ewLM",
       "promotionCodeDiscount": "10% per user for the first year where eligible",
       "promotionCodeDistribution": "private-one-to-one-only",
-      "publicPromotionCodesStored": false
+      "publicPromotionCodesStored": false,
+      "regionalReferralKeys": [
+        "google-workspace",
+        "google-workspace-us"
+      ],
+      "regionalReferralUrls": {
+        "ja": "https://referworkspace.app.goo.gl/ewLM",
+        "en-US": "https://referworkspace.app.goo.gl/GNVm"
+      }
     },
     {
       "key": "shopify",

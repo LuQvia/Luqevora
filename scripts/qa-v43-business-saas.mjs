@@ -24,7 +24,7 @@ check('release has 20 article pairs',slugs.length===20,slugs.length);
 check('five prospect programs configured',prospects.programs?.length===5,prospects.programs?.length);
 for(const program of prospects.programs){
   if(program.key==='google-workspace'){
-    check('approved Google Workspace referral configured',affiliates.links?.[program.key]?.url==='https://referworkspace.app.goo.gl/ewLM',JSON.stringify(affiliates.links?.[program.key]||null));
+    check('approved Google Workspace regional referrals configured',affiliates.links?.['google-workspace']?.url==='https://referworkspace.app.goo.gl/ewLM'&&affiliates.links?.['google-workspace-us']?.url==='https://referworkspace.app.goo.gl/GNVm',JSON.stringify({ja:affiliates.links?.['google-workspace'],us:affiliates.links?.['google-workspace-us']}));
   }else{
     check(`unapproved tracking URL absent: ${program.key}`,!affiliates.links?.[program.key],JSON.stringify(affiliates.links?.[program.key]||null));
   }
@@ -45,6 +45,10 @@ for(const slug of slugs){
     if(approvedWorkspace && lang==='ja'){
       check(`approved referral disclosure: ${lang}/${slug}`,html.includes('広告・アフィリエイトを含みます'));
       check(`approved referral CTA: ${lang}/${slug}`,html.includes('data-affiliate-link="true"')&&html.includes('https://referworkspace.app.goo.gl/ewLM'));
+    }else if(approvedWorkspace && lang==='en'){
+      check(`approved US referral disclosure: ${lang}/${slug}`,html.includes('Contains affiliate links'));
+      check(`approved US referral CTA: ${lang}/${slug}`,html.includes('data-affiliate-key="google-workspace-us"')&&html.includes('https://referworkspace.app.goo.gl/GNVm'));
+      check(`US promo request CTA: ${lang}/${slug}`,html.includes('mailto:info@luqvia.com?subject=Google%20Workspace%20US%20promo%20code%20request'));
     }else{
       check(`official disclosure before approval: ${lang}/${slug}`,html.includes(lang==='ja'?'公開時点でアフィリエイトリンクを含みません':'No affiliate links are included as of publication'));
       check(`official CTA only: ${lang}/${slug}`,html.includes('data-official-link="true"')&&!html.includes('data-affiliate-link="true"'));
@@ -60,7 +64,7 @@ for(const slug of slugs){
 }
 check('sitemap index exists',sitemap.includes('/sitemaps/articles-ja.xml')&&sitemap.includes('/sitemaps/articles-en.xml'));
 const failed=results.filter(x=>!x.pass);
-const report={version:'4.3.1',generatedAt:new Date().toISOString(),total:results.length,passed:results.length-failed.length,failed:failed.length,results};
+const report={version:'4.3.3',generatedAt:new Date().toISOString(),total:results.length,passed:results.length-failed.length,failed:failed.length,results};
 await fs.writeFile(path.join(root,'reports/v4.3-business-saas-qa.json'),JSON.stringify(report,null,2)+'\n');
 console.log(`v4.3 QA: ${report.passed}/${report.total} passed`);
 if(failed.length){for(const item of failed.slice(0,30)) console.error(`FAIL ${item.name}: ${item.detail}`);process.exitCode=1;}
