@@ -1,6 +1,6 @@
 {
   "name": "luqevora-static-platform",
-  "version": "4.3.4",
+  "version": "4.3.5",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
     "release:manifest": "node scripts/generate-release-manifest.mjs",
     "release:diff": "node scripts/prepare-release.mjs --baseline-url https://luqevora.com/release-manifest.json",
     "validate": "node scripts/validate.mjs",
-    "check": "npm run catalog && npm run operations && npm run revenue && npm run audit:content && npm run generate:seo-images && npm run build && npm run release:manifest && npm run validate && npm run qa:v4 && npm run qa:v41 && npm run qa:v42 && npm run qa:v43 && npm run qa:v431 && npm run qa:v432 && npm run qa:v433 && npm run qa:v434",
+    "check": "npm run catalog && npm run operations && npm run revenue && npm run audit:content && npm run generate:seo-images && npm run build && npm run release:manifest && npm run validate && npm run qa:v4 && npm run qa:v41 && npm run qa:v42 && npm run qa:v43 && npm run qa:v431 && npm run qa:v432 && npm run qa:v433 && npm run qa:v434 && npm run qa:v435",
     "submit:indexnow": "node scripts/submit-indexnow.mjs",
     "catalog": "node scripts/generate-product-catalog.mjs",
     "operations": "node scripts/generate-operations-dashboard.mjs",
@@ -27,7 +27,8 @@
     "qa:v432": "node scripts/qa-v432-brand-operator.mjs",
     "qa:v433": "node scripts/qa-v433-google-workspace-us-referral.mjs",
     "add:se-ranking-affiliate": "node scripts/add-se-ranking-affiliate-v434.mjs",
-    "qa:v434": "node scripts/qa-v434-se-ranking-affiliate.mjs"
+    "qa:v434": "node scripts/qa-v434-se-ranking-affiliate.mjs",
+    "qa:v435": "node scripts/qa-v435-kinsta-readiness.mjs"
   },
   "engines": {
     "node": ">=20"

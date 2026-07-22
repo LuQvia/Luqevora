@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T06:56:15.909Z",
+  "generatedAt": "2026-07-22T00:52:35.752Z",
   "site": "https://luqevora.com",
   "hashAlgorithm": "sha256(html+global-assets+page-image)",
   "assetFingerprint": "aff8be777d53bb49c3d392246b1cbf8454911312f97086733f57a5aebda0fe18",
@@ -532,7 +532,7 @@
       "language": "en",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "133dbfdefeac872388ed79b86652c8a8738c3aa5249433c3f934dfde49c173e3"
+      "hash": "b6baa99bdb8a4b44bd9ba35935a7370dbf5e81fdd880c62c2e331e05e277a5d5"
     },
     {
       "url": "https://luqevora.com/en/editorial-policy/",
@@ -3388,7 +3388,7 @@
       "language": "ja",
       "type": "page",
       "lastmod": "2026-07-21",
-      "hash": "182169eb82e144d3904972a1d9bd0009fbf9398b7029aa83aa6e04f129ca3c0f"
+      "hash": "fbd4b00f493dcc1394d1dd1fdfa49cdd817c84cf0fadaf6951ee2c92ef8655cc"
     },
     {
       "url": "https://luqevora.com/ja/editorial-policy/",

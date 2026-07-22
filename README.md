@@ -1,5 +1,12 @@
-# Luqevora.com Static Platform v4.3.4
+# Luqevora.com Static Platform v4.3.5
 
+
+## v4.3.5 Kinsta application readiness
+
+- Confirms the public brand as **Luqevora.com** and the operator display as **LuQvia**.
+- Removes stale legal-form wording tied to LuQvia from archived legacy HTML structured data.
+- Verifies the English and Japanese About, Editorial Policy, Affiliate Disclosure, Privacy, Terms, Contact, and Kinsta review pages.
+- Keeps Kinsta links non-affiliate until the application is approved and a tracking link is issued.
 v4.3.2 standardizes the public media/service name as **Luqevora.com** and the operator display as **LuQvia**, without publishing the operator's legal-form description. See `docs/BRAND_OPERATOR_UPDATE_V4.3.2.md`.
 
 ## SE Ranking Affiliate Integration v4.3.4

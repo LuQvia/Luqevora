@@ -1,0 +1,174 @@
+{
+  "version": "4.3.5",
+  "generatedAt": "2026-07-22T00:52:45.408Z",
+  "total": 33,
+  "passed": 33,
+  "failed": 0,
+  "results": [
+    {
+      "name": "package version",
+      "pass": true,
+      "detail": "4.3.5"
+    },
+    {
+      "name": "public brand configuration",
+      "pass": true,
+      "detail": "Luqevora.com"
+    },
+    {
+      "name": "operator configuration",
+      "pass": true,
+      "detail": "LuQvia"
+    },
+    {
+      "name": "required page: public/en/about/index.html",
+      "pass": true,
+      "detail": "8528 bytes"
+    },
+    {
+      "name": "required page: public/ja/about/index.html",
+      "pass": true,
+      "detail": "7649 bytes"
+    },
+    {
+      "name": "required page: public/en/editorial-policy/index.html",
+      "pass": true,
+      "detail": "9016 bytes"
+    },
+    {
+      "name": "required page: public/ja/editorial-policy/index.html",
+      "pass": true,
+      "detail": "7840 bytes"
+    },
+    {
+      "name": "required page: public/en/affiliate-disclosure/index.html",
+      "pass": true,
+      "detail": "8555 bytes"
+    },
+    {
+      "name": "required page: public/ja/affiliate-disclosure/index.html",
+      "pass": true,
+      "detail": "7586 bytes"
+    },
+    {
+      "name": "required page: public/en/privacy/index.html",
+      "pass": true,
+      "detail": "10415 bytes"
+    },
+    {
+      "name": "required page: public/ja/privacy/index.html",
+      "pass": true,
+      "detail": "8426 bytes"
+    },
+    {
+      "name": "required page: public/en/terms/index.html",
+      "pass": true,
+      "detail": "8738 bytes"
+    },
+    {
+      "name": "required page: public/ja/terms/index.html",
+      "pass": true,
+      "detail": "7515 bytes"
+    },
+    {
+      "name": "required page: public/en/contact/index.html",
+      "pass": true,
+      "detail": "19205 bytes"
+    },
+    {
+      "name": "required page: public/ja/contact/index.html",
+      "pass": true,
+      "detail": "16796 bytes"
+    },
+    {
+      "name": "required page: public/en/hosting-security/kinsta-review/index.html",
+      "pass": true,
+      "detail": "23740 bytes"
+    },
+    {
+      "name": "required page: public/ja/hosting-security/kinsta-review/index.html",
+      "pass": true,
+      "detail": "18561 bytes"
+    },
+    {
+      "name": "English brand display",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English operator display",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English relationship wording",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese brand display",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese operator display",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese relationship wording",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public operator legal-form wording removed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "legacy operator legal-form wording removed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en Kinsta article uses official sources",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en Kinsta article has disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "en Kinsta article contains no unapproved tracking parameters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja Kinsta article uses official sources",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja Kinsta article has disclosure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ja Kinsta article contains no unapproved tracking parameters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "English affiliate disclosure identifies commercial links",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Japanese affiliate disclosure identifies advertising relationships",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
