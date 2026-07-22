@@ -210,3 +210,10 @@ html.no-js .menu-button{display:none}
 
 /* v3.1 growth pages */
 .product-detail-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:2rem}.product-detail-aside{align-self:start;position:sticky;top:1rem;padding:1.4rem;border:1px solid #dfe5ec;border-radius:18px;background:#fff}.product-detail-aside .btn{display:block;margin:.75rem 0;text-align:center}.product-facts{display:grid;gap:.75rem}.product-facts div{padding-bottom:.65rem;border-bottom:1px solid #e8edf2}.product-facts dt{font-size:.8rem;color:#52606d}.product-facts dd{margin:.2rem 0 0;font-weight:700}.diagnosis-app form{display:grid;gap:1.5rem;max-width:900px}.diagnosis-app fieldset{border:1px solid #dfe5ec;border-radius:16px;padding:1.2rem}.diagnosis-app label{display:inline-flex;gap:.5rem;align-items:center;margin:.45rem 1rem .45rem 0}.diagnosis-switches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem}.diagnosis-switches label{padding:.8rem;border:1px solid #dfe5ec;border-radius:12px}.seo-landing-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}@media(max-width:760px){.product-detail-grid{grid-template-columns:1fr}.product-detail-aside{position:static}.diagnosis-switches,.seo-landing-links{grid-template-columns:1fr}}
+
+
+/* Luqevora v4.6 editorial transparency */
+.author-profile,.review-method{margin:2rem 0;padding:1.35rem;border:1px solid var(--border-color,#d8dee9);border-radius:16px;background:#f8fafc}
+.author-profile h2,.review-method h2{margin:.25rem 0 .75rem}
+.editorial-check-list{display:grid;gap:.4rem;margin:.75rem 0 1rem;padding-left:1.2rem}
+.author-profile p:last-child{margin-bottom:0}
