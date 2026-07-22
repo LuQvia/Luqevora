@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点</title>
+  <meta name="description" content="店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://luqevora.com/ja/store-dx/mobile-order-system-guide/">
+  <link rel="alternate" hreflang="en" href="https://luqevora.com/en/store-dx/mobile-order-system-guide/">
+  <link rel="alternate" hreflang="ja" href="https://luqevora.com/ja/store-dx/mobile-order-system-guide/">
+  <link rel="alternate" hreflang="x-default" href="https://luqevora.com/ja/store-dx/mobile-order-system-guide/">
+  <link rel="alternate" type="application/rss+xml" title="Luqevora.com ja" href="/feed-ja.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Luqevora.com">
+  <meta property="og:title" content="飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点">
+  <meta property="og:description" content="店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。">
+  <meta property="og:url" content="https://luqevora.com/ja/store-dx/mobile-order-system-guide/">
+  <meta property="og:image" content="https://luqevora.com/assets/images/articles/ja/store-dx/mobile-order-system-guide.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点">
+  <meta name="twitter:description" content="店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。">
+  <meta name="twitter:image" content="https://luqevora.com/assets/images/articles/ja/store-dx/mobile-order-system-guide.jpg">
+  <meta name="twitter:image:alt" content="飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点">
+  <meta property="article:published_time" content="2026-07-20">
+  <meta property="article:modified_time" content="2026-07-20">
+  <meta name="luqevora-content-type" content="guide">
+  <meta name="luqevora-category" content="store-dx">
+  <meta name="luqevora-topic" content="restaurant-pos-orders">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0B1F44">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css?v=6.3.3">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://luqevora.com/#organization","name":"LuQvia","url":"https://www.luqvia.com/","logo":{"@type":"ImageObject","url":"https://luqevora.com/assets/images/logo-icon.png","width":512,"height":512},"email":"info@luqevora.com","brand":{"@type":"Brand","name":"Luqevora.com"}},{"@type":"WebSite","@id":"https://luqevora.com/#website","name":"Luqevora.com","url":"https://luqevora.com","publisher":{"@id":"https://luqevora.com/#organization"},"inLanguage":["ja","en"]},{"@type":"WebPage","@id":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/#webpage","url":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/","name":"飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点","description":"店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。","isPartOf":{"@id":"https://luqevora.com/#website"},"inLanguage":"ja","primaryImageOfPage":{"@id":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/#primaryimage"}},{"@type":"ImageObject","@id":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/#primaryimage","url":"https://luqevora.com/assets/images/articles/ja/store-dx/mobile-order-system-guide.jpg","contentUrl":"https://luqevora.com/assets/images/articles/ja/store-dx/mobile-order-system-guide.jpg","width":1200,"height":675,"caption":"飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点","inLanguage":"ja"},{"@type":["Article","BlogPosting"],"@id":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/#article","headline":"飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点","description":"店内モバイルオーダーを導入する手順を、注文導線、メニュー設計、スタッフ運用、障害対応、KPIから解説します。","datePublished":"2026-07-20","dateModified":"2026-07-20","mainEntityOfPage":{"@id":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/#webpage"},"author":{"@id":"https://luqevora.com/#organization"},"publisher":{"@id":"https://luqevora.com/#organization"},"image":{"@id":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/#primaryimage"},"articleSection":"店舗DX","inLanguage":"ja","about":{"@type":"Thing","name":"飲食店POS・注文管理"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Luqevora.com","item":"https://luqevora.com/ja/"},{"@type":"ListItem","position":2,"name":"店舗DX","item":"https://luqevora.com/ja/store-dx/"},{"@type":"ListItem","position":3,"name":"飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点","item":"https://luqevora.com/ja/store-dx/mobile-order-system-guide/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"QRコード注文だけでPOSは不要ですか？","acceptedAnswer":{"@type":"Answer","text":"注文受付だけなら可能ですが、会計、売上、商品、厨房、決済を統合する場合はPOSとの連携が重要です。"}},{"@type":"Question","name":"高齢者が多い店でも導入できますか？","acceptedAnswer":{"@type":"Answer","text":"スタッフ注文や紙メニューを残し、利用を強制しない設計なら導入可能です。"}}]}]}</script>
+  <script defer src="/assets/js/analytics-v4.8.0.js"></script>
+  <script defer src="/assets/js/main-v4.7.0.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/ja/">
+      <img alt="" decoding="async" height="384" src="/assets/images/logo-icon.webp" width="384">
+      <span>Luqevora.com</span>
+    </a>
+    <button aria-controls="primary-navigation" aria-expanded="false" aria-label="メニューを開く" class="menu-button" type="button">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+    <nav aria-label="メインナビゲーション" class="main-nav" id="primary-navigation">
+      <a href="/ja/ai-tools/">AIツール</a><a href="/ja/website-builders/">Webサイト制作</a><a href="/ja/seo-marketing/">SEO・集客</a><a href="/ja/business-software/">業務効率化</a><a href="/ja/store-dx/" aria-current="page">店舗DX</a><a href="/ja/cashless-payments/">キャッシュレス決済</a><a href="/ja/hosting-security/">サーバー・セキュリティ</a><a href="/ja/compare/">製品比較DB</a><a href="/ja/diagnosis/">用途診断</a><a href="/ja/topics/">目的別</a><a href="/ja/articles/">記事一覧</a>
+      <a class="lang-link" href="/en/store-dx/mobile-order-system-guide/" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+
+
+<main id="main">
+  <section class="article-hero">
+    <div class="container">
+      <nav aria-label="パンくずリスト" class="breadcrumb"><a href="/ja/">Luqevora.com</a><span>/</span><a href="/ja/store-dx/">店舗DX</a><span>/</span><a href="/ja/topics/restaurant-pos-orders/">飲食店POS・注文管理</a><span>/</span><span>飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点</span></nav>
+      <span class="badge">広告掲載・実践ガイド</span>
+      <h1>飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点</h1>
+      <p class="article-lead">モバイルオーダーは、システムを設置するだけでは人手不足を解決しません。来店客が迷わず注文でき、厨房とホールが例外処理できる運用まで設計して初めて効果が出ます。</p>
+      <div class="article-meta"><span>公式情報確認：2026年7月20日</span><span>執筆：Luqevora.com編集部</span></div>
+      <dl class="article-date-grid"><div><dt>公開日</dt><dd>2026年7月20日</dd></div><div><dt>更新日</dt><dd>2026年7月20日</dd></div><div><dt>公式情報確認日</dt><dd>2026年7月20日</dd></div></dl>
+      <p class="hero-affiliate-disclosure"><strong>広告</strong> 広告・アフィリエイトを含みます</p>
+    </div>
+  </section>
+  <div class="container article-layout">
+    <article class="article-body">
+      <figure class="article-featured-image"><img alt="飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点" decoding="async" fetchpriority="high" height="675" src="/assets/images/articles/ja/store-dx/mobile-order-system-guide.jpg" width="1200"><figcaption>飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点の判断ポイントを示すオリジナル画像</figcaption></figure>
+      <section class="three-point-summary" id="three-point-summary"><span class="eyebrow">まず確認</span><h2>3点でわかる要約</h2><ol><li>モバイルオーダーは、システムを設置するだけでは人手不足を解決しません。</li><li>注文待ち時間の削減、ホール人員の圧縮、客単価向上、多言語対応のうち、最優先を決めます。</li><li>カテゴリを増やしすぎず、写真、価格、量、辛さ、アレルギー、売り切れを見やすくします。</li></ol></section>
+      <section class="decision-summary" id="decision-summary"><span class="eyebrow">判断の要点</span><h2>先に結論</h2><p>注文待ち時間の削減、ホール人員の圧縮、客単価向上、多言語対応のうち、最優先を決めます。すべてを同時に狙うと、設定と効果測定が複雑になります。</p></section>
+      
+      <section class="pros-cautions" id="pros-cautions"><div class="pros-panel"><span class="fit-label">確認できる利点</span><ul><li>注文待ち時間の削減、ホール人員の圧縮、客単価向上、多言語対応のうち、最優先を決めます。</li><li>導入前にピーク時の注文待ち、スタッフの移動回数、注文ミス、追加注文率を測り、基準値を残します。</li><li>カテゴリを増やしすぎず、写真、価格、量、辛さ、アレルギー、売り切れを見やすくします。</li></ul></div><div class="cautions-panel"><span class="fit-label">契約前の注意点</span><ul><li>最新料金と契約期間を公式画面で再確認する</li><li>解約・移行・データ保持条件を契約前に確認する</li><li>必要な機能が対象プランに含まれるか確認する</li></ul></div></section>
+      <section class="fit-panel" id="fit"><div class="fit-column fit-positive"><span class="fit-label">向いている人</span><ul><li>公式情報を確認しながら比較したい人</li><li>料金だけでなく運用条件も重視する人</li><li>契約前に制約を整理したい人</li></ul></div><div class="fit-column fit-caution"><span class="fit-label">慎重に検討したい人</span><ul><li>要件を整理せず最安価格だけで決めたい人</li><li>移行・解約・データ保持条件を確認しない人</li><li>記事確認日以降の変更を公式画面で再確認できない人</li></ul></div></section>
+      <div class="editorial-note"><p><strong>調査方針：</strong> 飲食店のモバイルオーダー導入ガイド｜人手不足を減らす設計と注意点について、記事末尾に示す提供元の公式情報を優先して確認しました。料金・機能・条件は契約前に公式画面で再確認してください。</p><p><strong>料金表記：</strong> 公式に円価格がある場合は円で掲載します。円価格がない場合は公式通貨を記載し、独自の為替換算は行いません。</p></div>
+      <div class="editorial-note disclosure-note"><p><strong>広告開示：</strong> 広告・アフィリエイトを含みます</p></div>
+      <aside id="offer" aria-label="公式ページで最新条件を確認" class="article-cta-panel"><strong>公式ページで最新条件を確認</strong><div class="article-cta-links"><span class="article-cta-material" data-affiliate-key="kantan-chumon-mobile-order" data-affiliate-position="article-cta"><a href="https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XT4YA" rel="nofollow">モバイルオーダーで業務削減できるPOSレジ【かんたん注文】</a>
+<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XT4YA" alt=""></span><span class="article-cta-material" data-affiliate-key="funfo-bracket" data-affiliate-position="article-cta"><a href="https://px.a8.net/svt/ejp?a8mat=4B84X2+EC6V16+5RGM+5YRHE" rel="nofollow">【funfo】</a>
+<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4B84X2+EC6V16+5RGM+5YRHE" alt=""></span></div><p>料金、割引、対象機能、契約期間は変更されるため、申込画面の表示を優先してください。</p></aside>
+      <section id="section-1"><h2>導入目的を一つに絞る</h2><p>注文待ち時間の削減、ホール人員の圧縮、客単価向上、多言語対応のうち、最優先を決めます。すべてを同時に狙うと、設定と効果測定が複雑になります。</p><p>導入前にピーク時の注文待ち、スタッフの移動回数、注文ミス、追加注文率を測り、基準値を残します。</p><aside class="section-affiliate-material" aria-label="広告"><span class="article-cta-material" data-affiliate-key="kantan-chumon-mobile-order" data-affiliate-position="section-1"><a href="https://px.a8.net/svt/ejp?a8mat=4B84X2+E2NXCQ+3SPO+7XT4YA" rel="nofollow">モバイルオーダーで業務削減できるPOSレジ【かんたん注文】</a>
+<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B84X2+E2NXCQ+3SPO+7XT4YA" alt=""></span><p>広告リンクです。料金・対象機能・補助金条件は申込前に公式画面で確認してください。</p></aside></section><section id="section-2"><h2>注文画面の設計</h2><p>カテゴリを増やしすぎず、写真、価格、量、辛さ、アレルギー、売り切れを見やすくします。最初の画面で人気商品と定番商品を選べる構成が基本です。</p><p>追加注文を促す場合も、過度な通知や紛らわしい初期選択は避けます。おすすめは関連性と価格を明確にし、利用者が簡単に閉じられるようにします。</p></section><section id="section-3"><h2>店舗オペレーションとの接続</h2><p>注文後にどのプリンターや画面へ届くか、品切れ、注文取消、テーブル移動、個別会計を誰が処理するか決めます。厨房の処理能力を超えて注文だけ早くなると、提供遅延が悪化します。</p><p>かんたん注文はお客様のスマートフォンから注文できる点を前面に出しています。スタッフ注文も残し、端末を使えない来店客へ同じサービス品質を提供します。</p></section><section id="section-4"><h2>通信・障害時の設計</h2><p>店内Wi-Fi、携帯回線、QRコード、バッテリー、プリンターのどこかが止まった場合の手順を用意します。紙伝票、口頭注文、予備端末を準備し、責任者を決めます。</p><p>障害連絡先、受付時間、復旧目安、データ同期、二重注文防止を契約前に確認します。</p></section><section id="section-5"><h2>スタッフ教育</h2><p>操作説明だけでなく、来店客への案内文、注文できない場合の対応、取消、返金、売り切れ変更、閉店処理まで練習します。</p><p>導入初週はセルフ注文率より、注文ミスと問い合わせ内容を記録します。問題の多い画面やメニューを修正してから利用率を上げます。</p></section><section id="section-6"><h2>効果測定</h2><p>注文待ち時間、ホール歩数、追加注文率、客単価、提供時間、問い合わせ件数を毎週確認します。売上だけ増えて提供遅延や低評価が増えれば成功ではありません。</p><p>30日後に設定、メニュー順、通知、スタッフ配置を見直し、不要な機能やオプションも整理します。</p></section>
+      
+      <section id="faq"><h2>よくある質問</h2><div class="faq-list"><div class="faq-item"><h3>QRコード注文だけでPOSは不要ですか？</h3><p>注文受付だけなら可能ですが、会計、売上、商品、厨房、決済を統合する場合はPOSとの連携が重要です。</p></div><div class="faq-item"><h3>高齢者が多い店でも導入できますか？</h3><p>スタッフ注文や紙メニューを残し、利用を強制しない設計なら導入可能です。</p></div></div></section>
+      <section class="evidence-panel" id="evidence"><div><span class="eyebrow">検証情報</span><h2>調査範囲と確認日</h2></div><dl><div><dt>公式情報</dt><dd>3件</dd></div><div><dt>最終確認</dt><dd>2026年7月20日</dd></div><div><dt>目的別ガイド</dt><dd><a href="/ja/topics/restaurant-pos-orders/">飲食店POS・注文管理</a></dd></div></dl><p>提供元の料金・製品・ヘルプページを優先し、記事内の断定は確認できた範囲に限定しています。</p></section>
+      <section id="sources"><h2>確認先となる公式情報</h2><ul class="source-list"><li><a data-link-position="official-sources" data-official-link="true" href="https://f.012grp.co.jp/wiz_kantanchumon_hojyokin" rel="noopener noreferrer" target="_blank">株式会社Wiz「かんたん注文」公式ページ</a></li><li><a data-link-position="official-sources" data-official-link="true" href="https://www.funfo.jp/" rel="noopener noreferrer" target="_blank">funfo公式サイト</a></li><li><a data-link-position="official-sources" data-official-link="true" href="https://www.kantan-order.com/pos_reji/" rel="noopener noreferrer" target="_blank">かんたん注文「飲食業界向けPOSレジ」</a></li></ul></section>
+      <section class="closing-decision"><h2>次の行動</h2><p>申込前に料金・対象機能・契約期間を公式画面で確認してください。広告リンクは上部の案内欄にまとめています。</p><a class="closing-decision-link" href="#offer">公式条件の確認欄へ戻る ↑</a></section>
+      <section aria-labelledby="related-heading" class="related-articles-block"><div class="related-articles-heading"><h2 id="related-heading">次に読む記事</h2><a href="/ja/topics/restaurant-pos-orders/">目的別ガイドへ →</a></div><div class="related-role-group"><h3>比較記事</h3><div class="related-articles-grid"><a class="related-article-card" href="/ja/store-dx/restaurant-pos-three-way-comparison/"><strong>funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方</strong><span>飲食店向けPOSのfunfo、かんたん注文、業者紹介サービスEMEAO!を、無料試用、個別提案、複数社比較、料金、導入方法から比較します。</span></a></div></div><div class="related-role-group"><h3>個別レビュー</h3><div class="related-articles-grid"><a class="related-article-card" href="/ja/store-dx/emeao-pos-review/"><strong>EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法</strong><span>POSレジ・システム業者紹介サービスEMEAO!を、仕組み、無料の範囲、最大紹介社数、ヒアリング、メリット、注意点から公式情報で検証します。</span></a><a class="related-article-card" href="/ja/store-dx/kantan-chumon-review/"><strong>かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証</strong><span>飲食店向け「かんたん注文」を、公開料金、POS・モバイルオーダー、多言語、決済連携、補助金、導入時の注意点から公式情報で検証します。</span></a></div></div><div class="related-role-group"><h3>実践ガイド</h3><div class="related-articles-grid"><a class="related-article-card" href="/ja/store-dx/restaurant-pos-selection-guide/"><strong>飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例</strong><span>飲食店向けPOSレジを、注文方式、会計、キッチン連携、売上分析、サポート、総費用から選ぶ実務チェックリストです。</span></a><a class="related-article-card" href="/ja/store-dx/small-restaurant-dx-guide/"><strong>小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み</strong><span>小規模飲食店がPOS、モバイルオーダー、予約、決済、会計をどの順番で導入すべきか、費用対効果から整理します。</span></a></div></div></section>
+      <div class="article-update">情報確認日：2026年7月20日。料金、機能、条件の変更を確認した場合に更新します。</div>
+    </article>
+    <aside aria-label="目次" class="article-sidebar">
+      <h2>目次</h2>
+      <ol><li><a href="#three-point-summary">3点要約</a></li><li><a href="#decision-summary">先に結論</a></li><li><a href="#pros-cautions">利点と注意点</a></li><li><a href="#fit">向いている人</a></li><li><a href="#section-1">導入目的を一つに絞る</a></li><li><a href="#section-2">注文画面の設計</a></li><li><a href="#section-3">店舗オペレーションとの接続</a></li><li><a href="#section-4">通信・障害時の設計</a></li><li><a href="#section-5">スタッフ教育</a></li><li><a href="#section-6">効果測定</a></li><li><a href="#faq">よくある質問</a></li><li><a href="#evidence">調査範囲</a></li><li><a href="#sources">公式情報</a></li></ol>
+    </aside>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/ja/">
+          <img alt="" decoding="async" height="384" loading="lazy" src="/assets/images/logo-icon.webp" width="384">
+          <span class="brand-light">Luqevora.com</span>
+        </a>
+        <p>AI・SaaS・Webサービスを公式情報を基準に整理し、より明確な意思決定を支援します。</p>
+        <p class="operator-label">運営：LuQvia</p>
+        <p class="footer-contact"><a href="mailto:info@luqevora.com">info@luqevora.com</a></p>
+      </div>
+      <div><div class="footer-title">カテゴリ</div><div class="footer-links"><a href="/ja/ai-tools/">AIツール</a><a href="/ja/website-builders/">Webサイト制作</a><a href="/ja/seo-marketing/">SEO・マーケティング</a><a href="/ja/business-software/">業務効率化</a><a href="/ja/store-dx/">店舗DX</a><a href="/ja/cashless-payments/">キャッシュレス決済</a><a href="/ja/hosting-security/">サーバー・セキュリティ</a></div></div>
+      <div><div class="footer-title">記事・運営</div><div class="footer-links"><a href="/ja/compare/">製品比較DB</a><a href="/ja/topics/">目的別ガイド</a><a href="/ja/articles/">記事一覧</a><a href="/ja/about/">運営者情報</a><a href="/ja/editorial-policy/">編集方針</a><a href="/ja/affiliate-disclosure/">広告掲載方針</a><a href="/ja/privacy/">プライバシーポリシー</a><a href="/ja/terms/">利用規約</a><a href="/ja/contact/">お問い合わせ</a></div></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Luqevora.com. All rights reserved.</span>
+      <span>より良いツール選びを、もっと分かりやすく。</span>
+      <button class="footer-cookie-button" data-consent-settings hidden type="button">Cookie設定</button>
+    </div>
+  </div>
+</footer>
+<section aria-label="Cookie設定" aria-live="polite" class="cookie-banner" hidden>
+  <p>当サイトでは、利用状況の分析のためCookie等を使用する場合があります。 <a class="privacy-link" href="/ja/privacy/">詳しく見る</a></p>
+  <div class="cookie-actions">
+    <button class="cookie-decline" data-consent-decline type="button">拒否する</button>
+    <button class="cookie-accept" data-consent-accept type="button">同意する</button>
+  </div>
+</section>
+
+</body>
+</html>
