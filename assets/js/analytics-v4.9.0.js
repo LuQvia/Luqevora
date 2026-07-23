@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const VERSION = '4.9.2-a8';
+  const VERSION = '4.9.0';
   const IDS = Object.freeze({
     ga4: 'G-E3KM03W0RR',
     gtm: 'GTM-MQX7DMFR',
@@ -192,8 +192,6 @@
   function inferAffiliateName(link, destination) {
     const explicit = link.dataset.affiliateName || link.closest('[data-affiliate-name]')?.dataset.affiliateName;
     if (explicit) return explicit;
-    if (destination.hostname === 'px.a8.net') return 'a8_net';
-    if (destination.hostname === 'px.a8.net') return 'a8_net';
     if (destination.hostname === 'seranking.com' && destination.searchParams.get('ga') === '5202722') return 'se_ranking';
     if (destination.hostname === 'referworkspace.app.goo.gl') return 'google_workspace';
     return '';
@@ -223,7 +221,7 @@
     return {
       affiliate_name: affiliateName,
       product_name: link.dataset.productName || link.dataset.affiliateProduct || link.dataset.product || container?.dataset.productName || affiliateName,
-      affiliate_key: link.dataset.affiliateKey || container?.dataset.affiliateKey || (destination.hostname === 'px.a8.net' ? destination.searchParams.get('a8mat') || '' : ''),
+      affiliate_key: link.dataset.affiliateKey || container?.dataset.affiliateKey || '',
       content_language: document.documentElement.lang || '',
       cta_position: link.dataset.affiliatePosition || link.dataset.linkPosition || container?.dataset.affiliatePosition || container?.dataset.linkPosition || '',
       cta_type: inferCtaType(link, destination, affiliateName),
@@ -280,7 +278,7 @@
     }), { threshold: 0.5 });
 
     document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('a[data-affiliate-status="active"], [data-affiliate-status="active"] a[href], a[href*="px.a8.net/svt/ejp"]').forEach(element => ctaObserver.observe(element));
+      document.querySelectorAll('a[data-affiliate-status="active"]').forEach(element => ctaObserver.observe(element));
     }, { once: true });
   }
 
