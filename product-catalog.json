@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-22T03:00:16.287Z",
-  "lastVerified": "2026-07-22",
+  "generatedAt": "2026-07-24T01:00:00Z",
+  "lastVerified": "2026-07-24",
   "sourceFiles": [
     "content/article-batches/product-profiles.json",
     "content/article-batches/product-profiles-expansion.json"
@@ -5519,6 +5519,14 @@
         {
           "label": "Kinsta — Managed WordPress hosting",
           "url": "https://kinsta.com/wordpress-hosting/"
+        },
+        {
+          "label": "Kinsta Docs — WordPress features",
+          "url": "https://kinsta.com/docs/wordpress-hosting/wordpress-getting-started/wordpress-features/"
+        },
+        {
+          "label": "Kinsta Docs — Overages",
+          "url": "https://kinsta.com/docs/billing/wordpress-hosting-plans/overages/"
         }
       ],
       "relatedArticles": [
@@ -5617,9 +5625,75 @@
           "url": "/ja/hosting-security/kinsta-vs-wp-engine/",
           "category": "hosting-security",
           "topic": "managed-wordpress"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Kinstaの割引・クーポンはある？年払い・初月無料・対象者向け特典を整理",
+          "url": "/ja/hosting-security/kinsta-discount-coupon-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Kinsta Discounts and Coupon Codes: Annual Savings, First Month Free, and Eligibility",
+          "url": "/en/hosting-security/kinsta-discount-coupon-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "KinstaへWordPressを移行する方法｜無料移行・DNS切替・公開前チェックリスト",
+          "url": "/ja/hosting-security/kinsta-wordpress-migration-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "How to Migrate WordPress to Kinsta: Free Migration, DNS Cutover, and Launch Checklist",
+          "url": "/en/hosting-security/kinsta-wordpress-migration-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Kinstaのバックアップと復元｜日次・手動・外部・ダウンロードの違い",
+          "url": "/ja/hosting-security/kinsta-backup-restore-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Kinsta Backups and Restore: Daily, Manual, External, and Downloadable Options",
+          "url": "/en/hosting-security/kinsta-backup-restore-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Kinstaの超過料金を整理｜訪問数・帯域・ストレージ・CDNの上限",
+          "url": "/ja/hosting-security/kinsta-overage-charges-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
+        },
+        {
+          "language": "en",
+          "type": "guide",
+          "title": "Kinsta Overage Charges Explained: Visits, Bandwidth, Storage, and CDN Limits",
+          "url": "/en/hosting-security/kinsta-overage-charges-guide/",
+          "category": "hosting-security",
+          "topic": "managed-wordpress"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-24",
+      "affiliateStatus": "active",
+      "affiliateUrl": "https://kinsta.com/?kaid=CBLLKJNFIDUZ"
     },
     {
       "id": "nordpass",
