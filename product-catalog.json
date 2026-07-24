@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-24T05:55:36.045587Z",
+  "generatedAt": "2026-07-24T07:46:45.197119Z",
   "lastVerified": "2026-07-24",
   "sourceFiles": [
     "content/article-batches/product-profiles-expansion.json",
     "content/article-batches/product-profiles.json"
   ],
-  "productCount": 87,
+  "productCount": 88,
   "fields": {
     "pricing": "Current pricing summary. Verify exact amounts on official sources before publication.",
     "flags": "Text-supported capability indicators, not performance scores.",
@@ -5826,6 +5826,138 @@
       "affiliateOfferId": "488",
       "businessAffiliateUrl": "https://go.nordpass.io/aff_c?offer_id=754&aff_id=153142&source_id=luqevora&sub1=catalog_nordpass_business",
       "businessAffiliateOfferId": "754"
+    },
+    {
+      "id": "roboform",
+      "name": "RoboForm",
+      "affiliateKey": "roboform_direct",
+      "category": "hosting-security",
+      "categoryName": {
+        "ja": "サーバー・セキュリティ",
+        "en": "Hosting & Security"
+      },
+      "topic": "password-managers",
+      "positioning": {
+        "ja": "個人・家族向けのパスワード管理とフォーム入力",
+        "en": "Password management and detailed form filling for individuals and families"
+      },
+      "pricing": {
+        "ja": "無料、Premium、Family。個人向け有料プランは年払い",
+        "en": "Free, Premium, and Family personal plans, with paid personal plans billed annually"
+      },
+      "pricingDetail": {
+        "ja": "無料版は1台。Premiumは複数端末、Familyは5アカウント。初年度価格と更新価格を分けて確認します。",
+        "en": "Free is centered on one device; Premium adds all-device access; Family includes five Premium accounts. Separate introductory and renewal totals."
+      },
+      "pricingModel": "freemium",
+      "workflow": {
+        "ja": "ログイン情報、パスキー、個人情報を保存し、ブラウザやアプリで自動入力します。",
+        "en": "Save credentials, passkeys and identities, then use browser and app autofill across supported devices."
+      },
+      "bestFor": {
+        "ja": "フォーム入力と個人向けの使いやすさを重視する利用者",
+        "en": "Individuals and families prioritizing autofill and form filling"
+      },
+      "strengths": {
+        "ja": [
+          "フォーム入力",
+          "1台用の無料プラン",
+          "多数の移行ガイド"
+        ],
+        "en": [
+          "Detailed form filling",
+          "Permanent one-device free plan",
+          "Documented imports from many managers"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "無料版は1台",
+          "初年度と更新価格の差",
+          "通常アフィリエイトはBusiness対象外"
+        ],
+        "en": [
+          "Free plan limited to one device",
+          "Introductory and renewal prices differ",
+          "Shared affiliate offer excludes Business"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": false,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": true
+      },
+      "sources": [
+        {
+          "label": "RoboForm personal pricing",
+          "url": "https://www.roboform.com/pricing-personal"
+        },
+        {
+          "label": "RoboForm key features",
+          "url": "https://www.roboform.com/key-features"
+        },
+        {
+          "label": "RoboForm security",
+          "url": "https://www.roboform.com/security"
+        },
+        {
+          "label": "RoboForm importing guides",
+          "url": "https://help.roboform.com/hc/en-us/sections/206553907-Importing"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "en",
+          "type": "review",
+          "title": "RoboForm Review: Free, Premium, Family, Security and Limitations",
+          "url": "/en/hosting-security/roboform-review/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        },
+        {
+          "language": "en",
+          "type": "pricing",
+          "title": "RoboForm Pricing: Free vs Premium vs Family, Renewal Cost and Discounts",
+          "url": "/en/hosting-security/roboform-pricing/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "RoboForm vs 1Password: Price, Free Plan, Security, Sharing and Best Fit",
+          "url": "/en/hosting-security/roboform-vs-1password/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "RoboForm vs NordPass: Free Plan, Pricing, Security and Device Access",
+          "url": "/en/hosting-security/roboform-vs-nordpass/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        },
+        {
+          "language": "en",
+          "type": "comparison",
+          "title": "RoboForm vs Bitwarden: Free Plan, Price, Open Source and Family Use",
+          "url": "/en/hosting-security/roboform-vs-bitwarden/",
+          "category": "hosting-security",
+          "topic": "password-managers"
+        }
+      ],
+      "lastVerified": "2026-07-24",
+      "affiliate": {
+        "status": "active",
+        "network": "RoboForm direct",
+        "url": "https://www.roboform.com/pricing-personal?affid=lqv71",
+        "disclosure": "We may earn a commission on a new RoboForm Premium purchase."
+      }
     },
     {
       "id": "nordvpn",

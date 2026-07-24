@@ -1,5 +1,45 @@
 [
   {
+    "title": "RoboForm Review: Free, Premium, Family, Security and Limitations",
+    "description": "Review RoboForm Free, Premium and Family using official information on device access, form filling, passkeys, breach monitoring, sharing, pricing and migration.",
+    "url": "/en/hosting-security/roboform-review/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "password-managers"
+  },
+  {
+    "title": "RoboForm Pricing: Free vs Premium vs Family, Renewal Cost and Discounts",
+    "description": "Compare RoboForm Free, Premium and Family pricing, first-year promotions, renewal costs, device access, refunds and the lowest suitable plan.",
+    "url": "/en/hosting-security/roboform-pricing/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "password-managers"
+  },
+  {
+    "title": "RoboForm vs 1Password: Price, Free Plan, Security, Sharing and Best Fit",
+    "description": "Compare RoboForm and 1Password using official information on free access, personal pricing, family plans, security architecture, sharing, passkeys and migration.",
+    "url": "/en/hosting-security/roboform-vs-1password/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "password-managers"
+  },
+  {
+    "title": "RoboForm vs NordPass: Free Plan, Pricing, Security and Device Access",
+    "description": "Compare RoboForm and NordPass on free-plan device access, paid features, encryption, passkeys, breach monitoring, sharing, migration and best-fit users.",
+    "url": "/en/hosting-security/roboform-vs-nordpass/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "password-managers"
+  },
+  {
+    "title": "RoboForm vs Bitwarden: Free Plan, Price, Open Source and Family Use",
+    "description": "Compare RoboForm and Bitwarden by free-plan access, Premium and family pricing, open-source transparency, form filling, sharing, passkeys and migration.",
+    "url": "/en/hosting-security/roboform-vs-bitwarden/",
+    "language": "en",
+    "category": "hosting-security",
+    "topic": "password-managers"
+  },
+  {
     "title": "5 AI Meeting Note and Transcription Tools Compared: Free Plans, Platforms and Data Protection",
     "description": "A source-based comparison of Otter.ai, Fireflies.ai, Notta, tl;dv and Fathom covering free plans, supported meeting platforms, transcription features and data protection.",
     "url": "/en/ai-tools/ai-meeting-notes-tools/",
