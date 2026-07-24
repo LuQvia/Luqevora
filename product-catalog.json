@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-24T01:00:00Z",
+  "generatedAt": "2026-07-24T04:30:00.000Z",
   "lastVerified": "2026-07-24",
   "sourceFiles": [
-    "content/article-batches/product-profiles.json",
-    "content/article-batches/product-profiles-expansion.json"
+    "content/article-batches/product-profiles-expansion.json",
+    "content/article-batches/product-profiles.json"
   ],
-  "productCount": 78,
+  "productCount": 87,
   "fields": {
     "pricing": "Current pricing summary. Verify exact amounts on official sources before publication.",
     "flags": "Text-supported capability indicators, not performance scores.",
@@ -13014,6 +13014,1056 @@
         }
       ],
       "lastVerified": "2026-07-21"
+    },
+    {
+      "id": "homepage-com",
+      "name": "ホームページドットコム",
+      "affiliateKey": "a8-homepage-com",
+      "category": "website-builders",
+      "categoryName": {
+        "ja": "Webサイト制作",
+        "en": "Webサイト制作"
+      },
+      "topic": "website-builders",
+      "positioning": {
+        "ja": "株式会社ビジョンが提供する、訪問またはオンラインのヒアリングを起点にホームページ制作と公開後のサポートを行うサービスです。",
+        "en": "株式会社ビジョンが提供する、訪問またはオンラインのヒアリングを起点にホームページ制作と公開後のサポートを行うサービスです。"
+      },
+      "pricing": {
+        "ja": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。",
+        "en": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。"
+      },
+      "pricingDetail": {
+        "ja": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。",
+        "en": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "目的と問い合わせ導線を決める。必要ページ・原稿・写真を整理する。",
+        "en": "目的と問い合わせ導線を決める。必要ページ・原稿・写真を整理する。"
+      },
+      "bestFor": {
+        "ja": "制作作業を外部へ任せつつ、担当者と相談して会社・店舗サイトを整えたい事業者",
+        "en": "制作作業を外部へ任せつつ、担当者と相談して会社・店舗サイトを整えたい事業者"
+      },
+      "strengths": {
+        "ja": [
+          "初期費用0円キャンペーンを案内",
+          "訪問またはオンラインで要件を整理",
+          "スマホ・タブレット対応を案内",
+          "公開後の更新・サポートを含めて相談可能"
+        ],
+        "en": [
+          "初期費用0円キャンペーンを案内",
+          "訪問またはオンラインで要件を整理",
+          "スマホ・タブレット対応を案内",
+          "公開後の更新・サポートを含めて相談可能"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "初期費用0円は総費用0円を意味しない",
+          "月額・契約期間・解約条件を見積書で確認",
+          "無料更新の範囲と追加費用を明文化",
+          "ドメイン・原稿・画像・データの所有権を確認"
+        ],
+        "en": [
+          "初期費用0円は総費用0円を意味しない",
+          "月額・契約期間・解約条件を見積書で確認",
+          "無料更新の範囲と追加費用を明文化",
+          "ドメイン・原稿・画像・データの所有権を確認"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": true,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "ホームページドットコム公式サイト",
+          "url": "https://homepage296.com/"
+        },
+        {
+          "label": "ホームページリニューアル案内",
+          "url": "https://homepage296.com/renewal"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "ホームページドットコムの評判・料金・注意点｜初期費用0円を検証",
+          "url": "/ja/website-builders/homepage-com-review/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "ホームページドットコムの料金を解説｜初期費用0円でも確認すべき総額",
+          "url": "/ja/website-builders/homepage-com-pricing-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "ホームページドットコムと自作ホームページを比較｜費用・時間・更新の違い",
+          "url": "/ja/website-builders/homepage-com-vs-self-build/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "ホームページドットコム導入ガイド｜相談から公開までの確認手順",
+          "url": "/ja/website-builders/homepage-com-implementation-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "digital-signage",
+      "name": "デジタルサイネージ",
+      "affiliateKey": "a8-wiz-digital-signage",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "店舗DX"
+      },
+      "topic": "digital-subsidies",
+      "positioning": {
+        "ja": "静止画・動画・音声などのコンテンツをディスプレイへ配信し、店頭や施設で情報を更新できる電子看板サービスです。",
+        "en": "静止画・動画・音声などのコンテンツをディスプレイへ配信し、店頭や施設で情報を更新できる電子看板サービスです。"
+      },
+      "pricing": {
+        "ja": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。",
+        "en": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。"
+      },
+      "pricingDetail": {
+        "ja": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。",
+        "en": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "設置場所と視認距離を測る。表示目的とKPIを決める。",
+        "en": "設置場所と視認距離を測る。表示目的とKPIを決める。"
+      },
+      "bestFor": {
+        "ja": "メニュー、キャンペーン、案内を頻繁に更新し、店頭の視認性を高めたい店舗・施設",
+        "en": "メニュー、キャンペーン、案内を頻繁に更新し、店頭の視認性を高めたい店舗・施設"
+      },
+      "strengths": {
+        "ja": [
+          "動画・静止画で情報を更新可能",
+          "ネット環境があれば遠隔差し替えを案内",
+          "時間帯別の表示変更に向く",
+          "導入後のフォローを案内"
+        ],
+        "en": [
+          "動画・静止画で情報を更新可能",
+          "ネット環境があれば遠隔差し替えを案内",
+          "時間帯別の表示変更に向く",
+          "導入後のフォローを案内"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "ディスプレイだけでなく設置・配線・通信費が必要",
+          "コンテンツ更新の担当者と頻度を決める",
+          "補助金は交付決定前の契約・支払に注意",
+          "屋外設置は輝度・防水・安全基準を確認"
+        ],
+        "en": [
+          "ディスプレイだけでなく設置・配線・通信費が必要",
+          "コンテンツ更新の担当者と頻度を決める",
+          "補助金は交付決定前の契約・支払に注意",
+          "屋外設置は輝度・防水・安全基準を確認"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "Wizデジタルサイネージ問い合わせ",
+          "url": "https://f.012grp.co.jp/wiz_signage_hojyokin"
+        },
+        {
+          "label": "Wiz補助金サービス問い合わせ",
+          "url": "https://f.012grp.co.jp/wizhojyokin2021"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Wizデジタルサイネージの評判・機能・注意点｜店舗集客で使える？",
+          "url": "/ja/store-dx/wiz-digital-signage-review/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "デジタルサイネージの料金・見積ガイド｜機器・工事・運用費を整理",
+          "url": "/ja/store-dx/wiz-digital-signage-pricing-guide/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "デジタルサイネージと紙ポスターを比較｜費用・更新・訴求力の違い",
+          "url": "/ja/store-dx/digital-signage-vs-paper-poster/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "デジタルサイネージ導入ガイド｜設置場所・コンテンツ・補助金の手順",
+          "url": "/ja/store-dx/wiz-digital-signage-implementation-guide/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "3d-phantom",
+      "name": "3D Phantom",
+      "affiliateKey": "a8-wiz-3d-phantom",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "店舗DX"
+      },
+      "topic": "digital-subsidies",
+      "positioning": {
+        "ja": "LEDを備えたブレードの高速回転と残像を利用し、空中に浮いて見える立体的な映像演出を行う3Dサイネージです。",
+        "en": "LEDを備えたブレードの高速回転と残像を利用し、空中に浮いて見える立体的な映像演出を行う3Dサイネージです。"
+      },
+      "pricing": {
+        "ja": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。",
+        "en": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。"
+      },
+      "pricingDetail": {
+        "ja": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。",
+        "en": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "通行方向・視認距離・背景を確認する。来店・撮影・SNS投稿など目的を定義する。",
+        "en": "通行方向・視認距離・背景を確認する。来店・撮影・SNS投稿など目的を定義する。"
+      },
+      "bestFor": {
+        "ja": "新商品、イベント、観光施設などで、短時間に強い印象を残す演出を行いたい事業者",
+        "en": "新商品、イベント、観光施設などで、短時間に強い印象を残す演出を行いたい事業者"
+      },
+      "strengths": {
+        "ja": [
+          "一般的な平面表示と異なる立体演出",
+          "店頭・イベントで注目を集めやすい",
+          "複数台を組み合わせた演出を案内",
+          "SNS投稿につながる体験を設計しやすい"
+        ],
+        "en": [
+          "一般的な平面表示と異なる立体演出",
+          "店頭・イベントで注目を集めやすい",
+          "複数台を組み合わせた演出を案内",
+          "SNS投稿につながる体験を設計しやすい"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "回転機器のため設置位置と安全対策が重要",
+          "明るさ・背景・視認距離で見え方が変わる",
+          "映像制作費と更新費を含めて比較",
+          "効果を来店・滞在・投稿数で測定する"
+        ],
+        "en": [
+          "回転機器のため設置位置と安全対策が重要",
+          "明るさ・背景・視認距離で見え方が変わる",
+          "映像制作費と更新費を含めて比較",
+          "効果を来店・滞在・投稿数で測定する"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "3D Phantom問い合わせ",
+          "url": "https://f.012grp.co.jp/wiz_3dphantom_hojokin"
+        },
+        {
+          "label": "3D Phantom導入事例",
+          "url": "https://phantom-3d.net/case/page/2/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "3D Phantomの評判・仕組み・注意点｜飛び出す3D広告を検証",
+          "url": "/ja/store-dx/3d-phantom-review/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "3D Phantomの料金・見積ガイド｜機器・映像制作・設置費を確認",
+          "url": "/ja/store-dx/3d-phantom-pricing-guide/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "3D Phantomとデジタルサイネージを比較｜演出と情報発信の違い",
+          "url": "/ja/store-dx/3d-phantom-vs-digital-signage/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "3D Phantom導入ガイド｜設置・映像制作・効果測定の手順",
+          "url": "/ja/store-dx/3d-phantom-implementation-guide/",
+          "category": "store-dx",
+          "topic": "digital-subsidies"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "inbound-package",
+      "name": "インバウンドパッケージ",
+      "affiliateKey": "a8-wiz-inbound-package",
+      "category": "store-dx",
+      "categoryName": {
+        "ja": "店舗DX",
+        "en": "店舗DX"
+      },
+      "topic": "restaurant-dx-operations",
+      "positioning": {
+        "ja": "東京都内の飲食店向けに、デジタル／3Dサイネージ、Tripadvisor、多言語対応ホームページ制作を組み合わせたインバウンド対策パッケージです。",
+        "en": "東京都内の飲食店向けに、デジタル／3Dサイネージ、Tripadvisor、多言語対応ホームページ制作を組み合わせたインバウンド対策パッケージです。"
+      },
+      "pricing": {
+        "ja": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。",
+        "en": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。"
+      },
+      "pricingDetail": {
+        "ja": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。",
+        "en": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "対象店舗・売上・所在地など補助条件を確認する。訪日前検索・予約・店頭案内の課題を洗い出す。",
+        "en": "対象店舗・売上・所在地など補助条件を確認する。訪日前検索・予約・店頭案内の課題を洗い出す。"
+      },
+      "bestFor": {
+        "ja": "東京都内の飲食店で、外国語サイト・口コミ・店頭表示をまとめて整備したい事業者",
+        "en": "東京都内の飲食店で、外国語サイト・口コミ・店頭表示をまとめて整備したい事業者"
+      },
+      "strengths": {
+        "ja": [
+          "店頭表示・口コミサイト・多言語サイトをまとめて相談可能",
+          "訪日前の検索と来店時の案内を横断",
+          "補助金活用を前提に相談できる",
+          "個別導入より窓口をまとめやすい"
+        ],
+        "en": [
+          "店頭表示・口コミサイト・多言語サイトをまとめて相談可能",
+          "訪日前の検索と来店時の案内を横断",
+          "補助金活用を前提に相談できる",
+          "個別導入より窓口をまとめやすい"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "東京都内・飲食店・売上など対象条件がある",
+          "補助金採択を前提に契約しない",
+          "翻訳品質とメニュー更新責任を確認",
+          "Tripadvisor掲載後の口コミ対応体制が必要"
+        ],
+        "en": [
+          "東京都内・飲食店・売上など対象条件がある",
+          "補助金採択を前提に契約しない",
+          "翻訳品質とメニュー更新責任を確認",
+          "Tripadvisor掲載後の口コミ対応体制が必要"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "インバウンドパッケージ案内",
+          "url": "https://f.012grp.co.jp/wiz_snsInbound_hojyokin"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "インバウンドパッケージの評判・内容・対象条件｜東京都の飲食店向け",
+          "url": "/ja/store-dx/inbound-package-review/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "インバウンドパッケージの料金・補助金ガイド｜見積内訳と対象条件",
+          "url": "/ja/store-dx/inbound-package-pricing-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "インバウンドパッケージと個別導入を比較｜多言語HP・口コミ・サイネージ",
+          "url": "/ja/store-dx/inbound-package-vs-separate-tools/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "飲食店のインバウンド対策導入ガイド｜多言語・口コミ・店頭表示",
+          "url": "/ja/store-dx/inbound-package-implementation-guide/",
+          "category": "store-dx",
+          "topic": "restaurant-dx-operations"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "ablenet-storage",
+      "name": "ABLENETストレージ",
+      "affiliateKey": "a8-ablenet-storage",
+      "category": "business-software",
+      "categoryName": {
+        "ja": "業務効率化",
+        "en": "業務効率化"
+      },
+      "topic": "team-collaboration",
+      "positioning": {
+        "ja": "ユーザー数ではなく容量を基準に課金し、社内外のファイル共有、共有リンク、権限制御、監査を行える法人向けクラウドストレージです。",
+        "en": "ユーザー数ではなく容量を基準に課金し、社内外のファイル共有、共有リンク、権限制御、監査を行える法人向けクラウドストレージです。"
+      },
+      "pricing": {
+        "ja": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。",
+        "en": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。"
+      },
+      "pricingDetail": {
+        "ja": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。",
+        "en": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。"
+      },
+      "pricingModel": "subscription",
+      "workflow": {
+        "ja": "現在の容量・増加量・ユーザー数を計測する。ベーシックとプロの管理要件を整理する。",
+        "en": "現在の容量・増加量・ユーザー数を計測する。ベーシックとプロの管理要件を整理する。"
+      },
+      "bestFor": {
+        "ja": "社員・取引先が増えてもユーザー課金を避け、容量基準で安全にファイル共有したい中小企業",
+        "en": "社員・取引先が増えてもユーザー課金を避け、容量基準で安全にファイル共有したい中小企業"
+      },
+      "strengths": {
+        "ja": [
+          "ベーシック1TB・プロ3TBでユーザー数無制限",
+          "Windows Explorer・Mac Finder感覚で利用可能",
+          "共有リンク、二要素認証、監査ログを案内",
+          "プロはIP制限・デバイス管理・ダウンロード制御に対応"
+        ],
+        "en": [
+          "ベーシック1TB・プロ3TBでユーザー数無制限",
+          "Windows Explorer・Mac Finder感覚で利用可能",
+          "共有リンク、二要素認証、監査ログを案内",
+          "プロはIP制限・デバイス管理・ダウンロード制御に対応"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "初期費用があり、月契約と年契約で単価が異なる",
+          "Office Online編集には別途Microsoftライセンスが必要",
+          "トライアル終了後は未契約データが削除",
+          "解約締切・自動更新・返金なしの条件を確認"
+        ],
+        "en": [
+          "初期費用があり、月契約と年契約で単価が異なる",
+          "Office Online編集には別途Microsoftライセンスが必要",
+          "トライアル終了後は未契約データが削除",
+          "解約締切・自動更新・返金なしの条件を確認"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "ABLENETストレージ公式",
+          "url": "https://www.ablenet.jp/storage/"
+        },
+        {
+          "label": "料金プラン",
+          "url": "https://www.ablenet.jp/storage/plan.html"
+        },
+        {
+          "label": "申込方法",
+          "url": "https://www.ablenet.jp/storage/support/howto.html"
+        },
+        {
+          "label": "トライアル",
+          "url": "https://www.ablenet.jp/storage/support/trial.html"
+        },
+        {
+          "label": "よくある質問",
+          "url": "https://www.ablenet.jp/storage/support/faq/index.html"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "ABLENETストレージの評判・料金・機能｜ユーザー数無制限を検証",
+          "url": "/ja/business-software/ablenet-storage-review/",
+          "category": "business-software",
+          "topic": "team-collaboration"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "ABLENETストレージの料金比較｜ベーシック・プロ・年契約の総額",
+          "url": "/ja/business-software/ablenet-storage-pricing-guide/",
+          "category": "business-software",
+          "topic": "team-collaboration"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "ABLENETストレージとNASを比較｜費用・社外共有・保守の違い",
+          "url": "/ja/business-software/ablenet-storage-vs-nas/",
+          "category": "business-software",
+          "topic": "team-collaboration"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "ABLENETストレージ導入ガイド｜10日間トライアルからデータ移行まで",
+          "url": "/ja/business-software/ablenet-storage-implementation-guide/",
+          "category": "business-software",
+          "topic": "team-collaboration"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "emeao-system",
+      "name": "EMEAO! システム開発",
+      "affiliateKey": "a8-emeao-system",
+      "category": "business-software",
+      "categoryName": {
+        "ja": "業務効率化",
+        "en": "業務効率化"
+      },
+      "topic": "system-development",
+      "positioning": {
+        "ja": "システム開発の要件や予算をコンシェルジュへ伝えると、条件に合う審査済みの開発会社を選定して紹介する法人・個人事業主向けの発注先マッチングサービスです。",
+        "en": "システム開発の要件や予算をコンシェルジュへ伝えると、条件に合う審査済みの開発会社を選定して紹介する法人・個人事業主向けの発注先マッチングサービスです。"
+      },
+      "pricing": {
+        "ja": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。",
+        "en": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。"
+      },
+      "pricingDetail": {
+        "ja": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。",
+        "en": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "現行業務と解決したい課題を数値化する。必須機能・予算・納期・連携先を整理する。",
+        "en": "現行業務と解決したい課題を数値化する。必須機能・予算・納期・連携先を整理する。"
+      },
+      "bestFor": {
+        "ja": "開発会社の探索や要件整理に時間をかけにくく、複数候補を同じ条件で比較したい法人・個人事業主",
+        "en": "開発会社の探索や要件整理に時間をかけにくく、複数候補を同じ条件で比較したい法人・個人事業主"
+      },
+      "strengths": {
+        "ja": [
+          "発注側の相談・紹介手数料は無料",
+          "専門コンシェルジュが要件を整理",
+          "条件に合う審査済み業者を最大8社まで紹介",
+          "紹介後に契約を見送ることも可能"
+        ],
+        "en": [
+          "発注側の相談・紹介手数料は無料",
+          "専門コンシェルジュが要件を整理",
+          "条件に合う審査済み業者を最大8社まで紹介",
+          "紹介後に契約を見送ることも可能"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "紹介先ごとに見積範囲と前提条件が異なる",
+          "要件・予算・納期・保守範囲を事前に整理",
+          "ソースコード・著作権・データの帰属を契約書で確認",
+          "問い合わせ情報が紹介候補へ共有される範囲を確認"
+        ],
+        "en": [
+          "紹介先ごとに見積範囲と前提条件が異なる",
+          "要件・予算・納期・保守範囲を事前に整理",
+          "ソースコード・著作権・データの帰属を契約書で確認",
+          "問い合わせ情報が紹介候補へ共有される範囲を確認"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "EMEAO! システム開発公式",
+          "url": "https://emeao.jp/system-lp2/"
+        },
+        {
+          "label": "EMEAO! サービス概要",
+          "url": "https://emeao.jp/about/"
+        },
+        {
+          "label": "EMEAO! 公式トップ",
+          "url": "https://emeao.jp/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "EMEAO!システム開発の評判・仕組み・注意点｜無料で業者比較できる？",
+          "url": "/ja/business-software/emeao-system-development-review/",
+          "category": "business-software",
+          "topic": "system-development"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "EMEAO!の料金とシステム開発費｜無料範囲・見積比較のポイント",
+          "url": "/ja/business-software/emeao-system-development-pricing-guide/",
+          "category": "business-software",
+          "topic": "system-development"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "EMEAO!と自力でシステム開発会社を探す方法を比較｜手間・候補・注意点",
+          "url": "/ja/business-software/emeao-vs-self-search-system-company/",
+          "category": "business-software",
+          "topic": "system-development"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "システム開発会社の選び方｜EMEAO!問い合わせ前から契約までの手順",
+          "url": "/ja/business-software/emeao-system-development-guide/",
+          "category": "business-software",
+          "topic": "system-development"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "ikkatsu-video",
+      "name": "映像制作・動画制作一括.jp",
+      "affiliateKey": "a8-ikkatsu-video",
+      "category": "seo-marketing",
+      "categoryName": {
+        "ja": "SEO・マーケティング",
+        "en": "SEO・マーケティング"
+      },
+      "topic": "video-marketing",
+      "positioning": {
+        "ja": "動画の種類、長さ、納期などの条件を一度入力し、条件に合う複数の映像・動画制作会社へ無料で問い合わせて提案・見積を比較できる法人・個人事業主向けサービスです。",
+        "en": "動画の種類、長さ、納期などの条件を一度入力し、条件に合う複数の映像・動画制作会社へ無料で問い合わせて提案・見積を比較できる法人・個人事業主向けサービスです。"
+      },
+      "pricing": {
+        "ja": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。",
+        "en": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。"
+      },
+      "pricingDetail": {
+        "ja": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。",
+        "en": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "動画の目的と視聴後の行動を決める。用途・尺・納期・予算・掲載媒体を整理する。",
+        "en": "動画の目的と視聴後の行動を決める。用途・尺・納期・予算・掲載媒体を整理する。"
+      },
+      "bestFor": {
+        "ja": "制作会社を短期間で複数比較し、企画力・実績・価格を同じ要件で検討したい法人・個人事業主",
+        "en": "制作会社を短期間で複数比較し、企画力・実績・価格を同じ要件で検討したい法人・個人事業主"
+      },
+      "strengths": {
+        "ja": [
+          "一度の入力で複数業者へ問い合わせ可能",
+          "問い合わせと見積比較は無料",
+          "動画の種類・長さ・納期などを指定可能",
+          "契約前に複数の企画・価格を比較できる"
+        ],
+        "en": [
+          "一度の入力で複数業者へ問い合わせ可能",
+          "問い合わせと見積比較は無料",
+          "動画の種類・長さ・納期などを指定可能",
+          "契約前に複数の企画・価格を比較できる"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "問い合わせ後は複数業者から連絡が入る",
+          "見積の制作範囲と修正回数を統一して比較",
+          "素材・音源・出演者の利用権と二次利用を確認",
+          "納品形式・元データ・広告利用期間を契約書で確認"
+        ],
+        "en": [
+          "問い合わせ後は複数業者から連絡が入る",
+          "見積の制作範囲と修正回数を統一して比較",
+          "素材・音源・出演者の利用権と二次利用を確認",
+          "納品形式・元データ・広告利用期間を契約書で確認"
+        ]
+      },
+      "flags": {
+        "freeOption": true,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": false,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "映像制作・動画制作一括.jp公式",
+          "url": "https://www.ikkatsu.jp/eizo/"
+        },
+        {
+          "label": "利用方法",
+          "url": "https://www.ikkatsu.jp/eizo/use/"
+        },
+        {
+          "label": "無料問い合わせフォーム",
+          "url": "https://www.ikkatsu.jp/eizo/seikyu/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "映像制作・動画制作一括.jpの評判・仕組み・注意点｜無料見積を検証",
+          "url": "/ja/seo-marketing/ikkatsu-video-production-review/",
+          "category": "seo-marketing",
+          "topic": "video-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "映像制作一括.jpの料金ガイド｜無料範囲と動画制作費の見積項目",
+          "url": "/ja/seo-marketing/ikkatsu-video-production-pricing-guide/",
+          "category": "seo-marketing",
+          "topic": "video-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "映像制作一括.jpと制作会社への直接依頼を比較｜費用・手間・連絡の違い",
+          "url": "/ja/seo-marketing/ikkatsu-video-vs-direct-inquiry/",
+          "category": "seo-marketing",
+          "topic": "video-marketing"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "動画制作会社の選び方・導入ガイド｜企画から公開後の効果測定まで",
+          "url": "/ja/seo-marketing/video-production-vendor-selection-guide/",
+          "category": "seo-marketing",
+          "topic": "video-marketing"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "aruku-web",
+      "name": "株式会社aruku",
+      "affiliateKey": "a8-aruku-web",
+      "category": "website-builders",
+      "categoryName": {
+        "ja": "Webサイト制作",
+        "en": "Webサイト制作"
+      },
+      "topic": "website-builders",
+      "positioning": {
+        "ja": "京都のWeb制作会社として、モバイルファーストのWebサイト・ECサイト制作、Webマーケティング、更新・運営、サーバー管理、SEO、写真・動画等を相談できる制作サービスです。",
+        "en": "京都のWeb制作会社として、モバイルファーストのWebサイト・ECサイト制作、Webマーケティング、更新・運営、サーバー管理、SEO、写真・動画等を相談できる制作サービスです。"
+      },
+      "pricing": {
+        "ja": "公式の制作価格目安は、商店・飲食店50万円〜、企業70万円〜、学校・病院100万円〜です。要望に応じた個別見積で、ページ数、撮影、システム、EC、更新・運用により総額が変わります。",
+        "en": "公式の制作価格目安は、商店・飲食店50万円〜、企業70万円〜、学校・病院100万円〜です。要望に応じた個別見積で、ページ数、撮影、システム、EC、更新・運用により総額が変わります。"
+      },
+      "pricingDetail": {
+        "ja": "公式の制作価格目安は、商店・飲食店50万円〜、企業70万円〜、学校・病院100万円〜です。要望に応じた個別見積で、ページ数、撮影、システム、EC、更新・運用により総額が変わります。",
+        "en": "公式の制作価格目安は、商店・飲食店50万円〜、企業70万円〜、学校・病院100万円〜です。要望に応じた個別見積で、ページ数、撮影、システム、EC、更新・運用により総額が変わります。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "サイトの目的・対象顧客・成果指標を決める。必要ページ・原稿・写真・機能を整理する。",
+        "en": "サイトの目的・対象顧客・成果指標を決める。必要ページ・原稿・写真・機能を整理する。"
+      },
+      "bestFor": {
+        "ja": "テンプレートだけでなく、目的に合わせたデザインと公開後の運用・改善まで制作会社へ相談したい事業者",
+        "en": "テンプレートだけでなく、目的に合わせたデザインと公開後の運用・改善まで制作会社へ相談したい事業者"
+      },
+      "strengths": {
+        "ja": [
+          "モバイルファーストとユーザビリティを重視",
+          "制作後の更新・運用まで相談可能",
+          "Webマーケティング・SEO・サーバー管理に対応",
+          "写真・動画・ドローン撮影等も相談可能"
+        ],
+        "en": [
+          "モバイルファーストとユーザビリティを重視",
+          "制作後の更新・運用まで相談可能",
+          "Webマーケティング・SEO・サーバー管理に対応",
+          "写真・動画・ドローン撮影等も相談可能"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "公式料金は目安で最終費用は個別見積",
+          "大幅なデザイン変更や追加ページは別途費用の可能性",
+          "原稿・写真の準備担当と修正回数を確認",
+          "ドメイン・サーバー・CMS・制作物の権利を確認"
+        ],
+        "en": [
+          "公式料金は目安で最終費用は個別見積",
+          "大幅なデザイン変更や追加ページは別途費用の可能性",
+          "原稿・写真の準備担当と修正回数を確認",
+          "ドメイン・サーバー・CMS・制作物の権利を確認"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": false,
+        "wordpress": false,
+        "seo": true,
+        "integrations": false,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "株式会社aruku公式",
+          "url": "https://a-ru-ku.co.jp/"
+        },
+        {
+          "label": "制作の流れ・料金目安",
+          "url": "https://a-ru-ku.co.jp/flow/"
+        },
+        {
+          "label": "お問い合わせ",
+          "url": "https://a-ru-ku.co.jp/contact2/"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "株式会社arukuの評判・料金・特徴｜京都のホームページ制作会社を検証",
+          "url": "/ja/website-builders/aruku-web-production-review/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "株式会社arukuのホームページ制作料金｜50万円・70万円・100万円の目安",
+          "url": "/ja/website-builders/aruku-web-production-pricing-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "株式会社arukuと自作ホームページを比較｜費用・デザイン・運用の違い",
+          "url": "/ja/website-builders/aruku-vs-self-service-website/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "株式会社aruku導入ガイド｜問い合わせから公開・運用までの流れ",
+          "url": "/ja/website-builders/aruku-web-production-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        }
+      ],
+      "lastVerified": "2026-07-22"
+    },
+    {
+      "id": "homepagedx",
+      "name": "ホームページDX",
+      "affiliateKey": "a8-wiz-homepagedx",
+      "category": "website-builders",
+      "categoryName": {
+        "ja": "Webサイト制作",
+        "en": "Webサイト制作"
+      },
+      "topic": "website-builders",
+      "positioning": {
+        "ja": "飲食店・サロンなど店舗集客を意識したホームページ制作を中心に、CMS、外部アプリ連携、予約、問い合わせ、レスポンシブ対応、修正、運用支援を相談できるWizのサービスです。",
+        "en": "飲食店・サロンなど店舗集客を意識したホームページ制作を中心に、CMS、外部アプリ連携、予約、問い合わせ、レスポンシブ対応、修正、運用支援を相談できるWizのサービスです。"
+      },
+      "pricing": {
+        "ja": "公式ページでは初期制作費3万円、月額0円からと案内され、用途・予算に応じた3プランがあります。1ページ追加は税抜1万円、契約は1年更新と案内されています。ECサイトや補助金プランを含む最終費用・対象条件は個別見積と最新制度の確認が必要です。",
+        "en": "公式ページでは初期制作費3万円、月額0円からと案内され、用途・予算に応じた3プランがあります。1ページ追加は税抜1万円、契約は1年更新と案内されています。ECサイトや補助金プランを含む最終費用・対象条件は個別見積と最新制度の確認が必要です。"
+      },
+      "pricingDetail": {
+        "ja": "公式ページでは初期制作費3万円、月額0円からと案内され、用途・予算に応じた3プランがあります。1ページ追加は税抜1万円、契約は1年更新と案内されています。ECサイトや補助金プランを含む最終費用・対象条件は個別見積と最新制度の確認が必要です。",
+        "en": "公式ページでは初期制作費3万円、月額0円からと案内され、用途・予算に応じた3プランがあります。1ページ追加は税抜1万円、契約は1年更新と案内されています。ECサイトや補助金プランを含む最終費用・対象条件は個別見積と最新制度の確認が必要です。"
+      },
+      "pricingModel": "quote",
+      "workflow": {
+        "ja": "店舗集客・予約・問い合わせの目標を決める。必要ページ・文章・写真・予約導線を準備する。",
+        "en": "店舗集客・予約・問い合わせの目標を決める。必要ページ・文章・写真・予約導線を準備する。"
+      },
+      "bestFor": {
+        "ja": "飲食店・サロン等で、低い初期費用から制作を依頼し、予約や集客支援もまとめて相談したい事業者",
+        "en": "飲食店・サロン等で、低い初期費用から制作を依頼し、予約や集客支援もまとめて相談したい事業者"
+      },
+      "strengths": {
+        "ja": [
+          "初期制作費3万円・月額0円からの案内",
+          "文章と写真を用意して制作を依頼可能",
+          "CMS・予約・問い合わせ・外部アプリ連携に対応",
+          "制作後のSEO・コラム・広告運用も相談可能"
+        ],
+        "en": [
+          "初期制作費3万円・月額0円からの案内",
+          "文章と写真を用意して制作を依頼可能",
+          "CMS・予約・問い合わせ・外部アプリ連携に対応",
+          "制作後のSEO・コラム・広告運用も相談可能"
+        ]
+      },
+      "limits": {
+        "ja": [
+          "月額0円は対象プランと機能範囲を確認",
+          "契約は1年更新のため更新・解約条件を確認",
+          "独自ドメインはスタンダード以上と案内",
+          "補助金は現行制度・交付決定・対象経費を再確認"
+        ],
+        "en": [
+          "月額0円は対象プランと機能範囲を確認",
+          "契約は1年更新のため更新・解約条件を確認",
+          "独自ドメインはスタンダード以上と案内",
+          "補助金は現行制度・交付決定・対象経費を再確認"
+        ]
+      },
+      "flags": {
+        "freeOption": false,
+        "business": true,
+        "ecommerce": true,
+        "wordpress": false,
+        "seo": true,
+        "integrations": true,
+        "mobile": false
+      },
+      "sources": [
+        {
+          "label": "ホームページDX公式",
+          "url": "https://012cloud.jp/service/homepagedx"
+        },
+        {
+          "label": "ホームページDX資料請求",
+          "url": "https://012cloud.jp/downloads/requestform/homepagedx/contact"
+        },
+        {
+          "label": "Wiz補助金問い合わせ",
+          "url": "https://f.012grp.co.jp/wizhojyokin2022"
+        }
+      ],
+      "relatedArticles": [
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "ホームページDXの評判・料金・機能｜初期3万円・月額0円からを検証",
+          "url": "/ja/website-builders/homepagedx-review/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "ホームページDXの料金を解説｜初期3万円・月額0円・追加ページ費用",
+          "url": "/ja/website-builders/homepagedx-pricing-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "ホームページDXと自作サイトを比較｜費用・予約機能・運用支援の違い",
+          "url": "/ja/website-builders/homepagedx-vs-self-build/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "ホームページDX導入ガイド｜素材準備・プラン選定・公開後運用",
+          "url": "/ja/website-builders/homepagedx-implementation-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        }
+      ],
+      "lastVerified": "2026-07-22"
     }
   ]
 }
