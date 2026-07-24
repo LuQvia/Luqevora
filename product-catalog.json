@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-24T04:30:00.000Z",
+  "generatedAt": "2026-07-24T05:55:36.045587Z",
   "lastVerified": "2026-07-24",
   "sourceFiles": [
     "content/article-batches/product-profiles-expansion.json",
@@ -5819,7 +5819,13 @@
           "topic": "password-manager"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "affiliateStatus": "active",
+      "affiliateNetwork": "Nord Security / Everflow",
+      "affiliateUrl": "https://go.nordpass.io/aff_c?offer_id=488&aff_id=153142&source_id=luqevora&sub1=catalog_nordpass_personal",
+      "affiliateOfferId": "488",
+      "businessAffiliateUrl": "https://go.nordpass.io/aff_c?offer_id=754&aff_id=153142&source_id=luqevora&sub1=catalog_nordpass_business",
+      "businessAffiliateOfferId": "754"
     },
     {
       "id": "nordvpn",
@@ -5993,7 +5999,11 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "affiliateStatus": "active",
+      "affiliateNetwork": "Nord Security / Everflow",
+      "affiliateUrl": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=153142&source_id=luqevora&sub1=catalog_nordvpn",
+      "affiliateOfferId": "15"
     },
     {
       "id": "proton-vpn",
