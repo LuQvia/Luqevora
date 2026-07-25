@@ -263,6 +263,16 @@
       return;
     }
 
+    if (/(^|\.)luqvia\.com$/.test(destination.hostname) || /(^|\.)solqvia\.com$/.test(destination.hostname)) {
+      track('cross_brand_click', {
+        source_brand: 'luqevora',
+        destination_brand: destination.hostname.includes('solqvia') ? 'solqvia' : 'luqvia',
+        link_url: destination.href,
+        link_text: (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 100)
+      });
+      return;
+    }
+
     const official = link.matches('[data-official-link], .source-list a') ||
       link.dataset.affiliateStatus === 'inactive' ||
       link.dataset.affiliateKey?.includes('official');

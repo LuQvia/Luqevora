@@ -217,3 +217,13 @@ html.no-js .menu-button{display:none}
 .author-profile h2,.review-method h2{margin:.25rem 0 .75rem}
 .editorial-check-list{display:grid;gap:.4rem;margin:.75rem 0 1rem;padding-left:1.2rem}
 .author-profile p:last-child{margin-bottom:0}
+
+
+/* Phase2 editorial and growth system 2026-07-25 */
+
+.editorial-verdict{margin:30px 0;padding:26px;border:1px solid #c8d8ef;border-radius:20px;background:linear-gradient(145deg,#f7faff,#f1fbfa)}
+.editorial-verdict h2{margin:8px 0 12px!important;font-size:25px!important}.editorial-verdict p{margin:8px 0}.editorial-verdict ul{margin:14px 0 0}.editorial-verdict .editorial-basis{font-size:13px;color:#66758d;border-top:1px solid rgba(83,110,145,.18);padding-top:12px;margin-top:16px}
+.editorial-method-link{display:inline-flex;margin-top:10px;font-weight:800}.author-profile-card{display:grid;grid-template-columns:80px 1fr;gap:18px;align-items:start;padding:24px;border:1px solid var(--line,#dce6f1);border-radius:20px;background:#fff}.author-profile-mark{width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-weight:900;background:linear-gradient(145deg,#eaf2ff,#ddfaf7);color:#1463ff}
+.method-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.method-card{padding:22px;border:1px solid var(--line,#dce6f1);border-radius:18px;background:#fff}.method-card h3{margin-top:0}.automation-disclosure{margin:26px 0;padding:20px;border-left:4px solid #12a9a0;background:#f0fbfa;border-radius:10px}
+@media(max-width:760px){.method-grid{grid-template-columns:1fr}.author-profile-card{grid-template-columns:1fr}.editorial-verdict{padding:20px}}
+
