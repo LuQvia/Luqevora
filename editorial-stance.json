@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "updated": "2026-07-25",
-  "operator": "LuQvia",
+  "updated": "2026-07-26",
+  "operator": "Luqevora",
   "editorialLead": "Luqevora Editorial Lead",
   "principles": [
     "separate verified facts from editorial judgment",
@@ -22,5 +22,6 @@
     "risk and limitation wording",
     "affiliate independence",
     "publication and corrections"
-  ]
+  ],
+  "brand": "Luqevora"
 }
