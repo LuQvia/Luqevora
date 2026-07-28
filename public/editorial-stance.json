@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "updated": "2026-07-26",
+  "operator": "Luqevora",
+  "editorialLead": "Luqevora Editorial Lead",
+  "principles": [
+    "separate verified facts from editorial judgment",
+    "do not invent hands-on experience",
+    "prioritize total cost, limitations, portability, cancellation, and user fit",
+    "affiliate compensation does not determine ranking",
+    "human approval required for recommendations and publication"
+  ],
+  "aiUse": [
+    "topic triage",
+    "official-source fact structuring",
+    "outline and draft assistance",
+    "consistency and technical QA"
+  ],
+  "humanReview": [
+    "recommendation logic",
+    "user fit",
+    "risk and limitation wording",
+    "affiliate independence",
+    "publication and corrections"
+  ],
+  "brand": "Luqevora"
+}
