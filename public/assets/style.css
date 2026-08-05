@@ -183,6 +183,7 @@ html.no-js .menu-button{display:none}
 .article-cta-material>a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 17px;border-radius:12px;background:var(--blue);color:#fff!important;font-weight:900;text-decoration:none;box-shadow:0 8px 20px rgba(20,99,255,.18)}
 .article-cta-material>a:hover{background:#0B46BB;color:#fff!important}
 .article-cta-material>img{position:absolute;width:1px;height:1px;overflow:hidden}
+.article-cta-material.affiliate-link-suspended{max-width:760px;width:100%;min-height:46px;padding:11px 17px;border:1px solid var(--border);border-radius:12px;background:var(--surface-soft);color:var(--muted);font-weight:800;line-height:1.55;box-shadow:none}
 @media(max-width:760px){.article-cta-material,.article-cta-material>a{width:100%}}
 
 /* v4.7 section-specific affiliate materials */
