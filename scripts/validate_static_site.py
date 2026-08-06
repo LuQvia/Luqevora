@@ -39,6 +39,10 @@ REQUIRED_FILES = (
     "ja/mobile-connectivity/corporate-smartphone-com-review/index.html",
     "ja/website-builders/sakupeji-review/index.html",
     "ja/mobile-connectivity/esim-square-review/index.html",
+    "ja/hosting-security/suika-vpn-review/index.html",
+    "assets/images/articles/ja/hosting-security/suika-vpn-overseas-vod-flow.png",
+    "assets/images/articles/ja/hosting-security/suika-vpn-plan-selector.png",
+    "assets/images/articles/ja/hosting-security/suika-vpn-troubleshooting.png",
 )
 
 
@@ -227,6 +231,7 @@ def main() -> int:
             "corporate-smartphone-com-review": ("ja/mobile-connectivity/corporate-smartphone-com-review/index.html", "4B88SW+G3AT5M+2BZM+1THW9E"),
             "sakupeji-review": ("ja/website-builders/sakupeji-review/index.html", "4B86H1+16V93U+2BZM+4GTE7M"),
             "esim-square-review": ("ja/mobile-connectivity/esim-square-review/index.html", "4B88SX+TRPSQ+5460+C164Y"),
+            "suika-vpn-review": ("ja/hosting-security/suika-vpn-review/index.html", "4B88SX+D3KUY+4R3G+61C2Q"),
         }
         stats["additional_affiliate_articles"] = len(additional_affiliates)
         for affiliate_name, (rel_path, marker) in additional_affiliates.items():
@@ -239,6 +244,25 @@ def main() -> int:
                 errors.append(f"Affiliate marker missing for {affiliate_name}: {marker}")
             if "rel=\"nofollow sponsored noopener noreferrer\"" not in article_text:
                 errors.append(f"Sponsored rel attribute missing for {affiliate_name}")
+
+
+        suika_article = root / "ja/hosting-security/suika-vpn-review/index.html"
+        if suika_article.is_file():
+            suika_html = suika_article.read_text(encoding="utf-8-sig")
+            suika_visible = re.sub(r"<script[\s\S]*?</script>|<style[\s\S]*?</style>", "", suika_html, flags=re.I)
+            suika_visible = re.sub(r"<[^>]+>", "", suika_visible)
+            suika_visible = re.sub(r"\s+", "", suika_visible)
+            suika_images = re.findall(r'src="/assets/images/articles/ja/hosting-security/suika-vpn[^"]+"', suika_html)
+            stats["suika_article_text_chars"] = len(suika_visible)
+            stats["suika_article_images"] = len(suika_images)
+            if len(suika_visible) < 1200:
+                errors.append(f"Suika VPN article has fewer than 1200 visible characters: {len(suika_visible)}")
+            if len(suika_images) < 4:
+                errors.append(f"Suika VPN article has fewer than 4 editorial images: {len(suika_images)}")
+            if "2026年7月25日" not in suika_html:
+                errors.append("Suika VPN article does not visibly preserve the publication date.")
+            if "2026年8月7日" not in suika_html:
+                errors.append("Suika VPN article does not show the latest verification date.")
 
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":
