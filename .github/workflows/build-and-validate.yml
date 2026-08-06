@@ -1,0 +1,11 @@
+name: Legacy source build disabled
+
+on:
+  workflow_dispatch:
+
+jobs:
+  disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Legacy workflow disabled
+        run: echo "This compatibility workflow is disabled. Validation and deployment are handled by deploy-pages.yml."

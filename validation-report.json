@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "public_root": "/tmp/luqevora_work/public",
+  "stats": {
+    "files": 1735,
+    "html": 1126,
+    "json": 3,
+    "xml": 8,
+    "xserver_shop_ended_affiliate_hits": 0,
+    "affiliate_links": 5,
+    "affiliate_pixels": 5,
+    "additional_affiliate_articles": 5
+  },
+  "errors": [],
+  "warnings": []
+}
