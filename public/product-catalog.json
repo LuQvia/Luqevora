@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-07-24T07:46:45.197119Z",
-  "lastVerified": "2026-07-24",
+  "lastVerified": "2026-08-07",
   "sourceFiles": [
     "content/article-batches/product-profiles-expansion.json",
     "content/article-batches/product-profiles.json"
@@ -9952,12 +9952,12 @@
         "en": "A restaurant app combining iPad POS, dine-in and off-premise mobile ordering, handheld operation, and LINE integration"
       },
       "pricing": {
-        "ja": "Freeは月額0円。Liteは年払い換算月額4,950円、Businessは9,900円、Business Plusは14,850円",
-        "en": "Free is JPY 0. Annual-billing monthly equivalents are JPY 4,950 for Lite, JPY 9,900 for Business, and JPY 14,850 for Business Plus"
+        "ja": "Freeは月額0円。年払い月額換算はLite AI 6,930円、Business AI 11,880円、One AI 17,820円",
+        "en": "Free is JPY 0. Annual-billing monthly equivalents are JPY 6,930 for Lite AI, JPY 11,880 for Business AI, and JPY 17,820 for One AI"
       },
       "pricingDetail": {
-        "ja": "月払いはLite 5,550円、Business 11,000円、Business Plus 16,500円。iPad、周辺機器、決済手数料、導入支援等は別途確認します。",
-        "en": "Monthly billing is JPY 5,550 for Lite, JPY 11,000 for Business, and JPY 16,500 for Business Plus. Budget for iPad hardware, peripherals, payment processing, and implementation support."
+        "ja": "月払いはLite AI 7,700円、Business AI 13,200円、One AI 19,800円。年払いは10%お得。iPad、周辺機器、決済手数料、導入支援等は別途確認します。",
+        "en": "Monthly billing is JPY 7,700 for Lite AI, JPY 13,200 for Business AI, and JPY 19,800 for One AI. Annual billing is shown as 10% cheaper. Budget separately for iPad hardware, peripherals, payment processing, and implementation support."
       },
       "pricingModel": "freemium",
       "workflow": {
@@ -9965,8 +9965,8 @@
         "en": "Customers order through QR codes while the store manages orders and checkout with an iPad POS and iPhone handheld workflow, with LINE and analytics options"
       },
       "bestFor": {
-        "ja": "無料からモバイルオーダーを試し、店舗規模やLINE施策に応じて有料プランへ段階移行したい飲食店",
-        "en": "Restaurants that want to test mobile ordering for free and scale into paid tiers for more devices and customer management"
+        "ja": "FreeでモバイルオーダーとPOSを試し、店舗規模やLINE・AI活用に応じてLite AI、Business AI、One AIへ段階移行したい飲食店",
+        "en": "Restaurants that want to test POS and mobile ordering on Free, then scale to Lite AI, Business AI, or One AI as device, LINE, and AI needs grow"
       },
       "strengths": {
         "ja": [
@@ -10065,7 +10065,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "line-official-account",
@@ -10862,12 +10862,12 @@
         "en": "A Japan-focused ecommerce service combining domestic operations, templates, support, and HTML/CSS customization"
       },
       "pricing": {
-        "ja": "レギュラー月額4,950円、ラージ9,595円、プレミアム35,640円から。契約時点の条件を要確認",
-        "en": "Regular JPY 4,950 monthly, Large JPY 9,595, and Premium from JPY 35,640; confirm current terms"
+        "ja": "フリーは初期・月額0円。レギュラー4,950円、ラージ9,595円、プレミアム通常39,600円（長期契約35,640円〜）。有料3プランの販売手数料0円。",
+        "en": "Free has no setup or monthly fee. Regular JPY 4,950, Large JPY 9,595, Premium JPY 39,600 standard (from JPY 35,640 with long-term pricing); paid plans have zero sales commission."
       },
       "pricingDetail": {
-        "ja": "月額だけでなく初期費用、決済、アプリ、テンプレート、制作・移行費を含めて比較します。",
-        "en": "Compare subscription, setup, payments, apps, themes, implementation, and migration as total cost."
+        "ja": "フリーの決済手数料は6.6% + 30円〜。レギュラー／ラージ／プレミアムのカード決済は3.4%〜／3.19%〜／2.99%〜。初期費用、アプリ、テンプレート、制作・移行費も含めて比較します。",
+        "en": "Free payment fees start at 6.6% + JPY 30. Card fees for Regular/Large/Premium start at 3.4%/3.19%/2.99%. Include setup, apps, themes, implementation, and migration in total cost."
       },
       "pricingModel": "subscription",
       "workflow": {
@@ -10880,30 +10880,30 @@
       },
       "strengths": {
         "ja": [
-          "国内向け運用",
-          "ページ別SEO設定",
-          "テンプレートとHTML・CSS編集"
+          "フリープランは初期・月額0円",
+          "有料3プランは販売手数料0円",
+          "ページ別SEO設定とXMLサイトマップ"
         ],
         "en": [
-          "Japan-focused operations",
-          "Page-level SEO controls",
-          "Templates plus HTML/CSS customization"
+          "Free plan with no setup or monthly fee",
+          "Zero sales commission on paid plans",
+          "Page-level SEO controls and XML sitemap"
         ]
       },
       "limits": {
         "ja": [
-          "総費用は決済・アプリで変動",
-          "越境要件は個別確認",
-          "移行時のURL・データ制約"
+          "フリーは決済手数料6.6% + 30円〜",
+          "有料プランからフリーへ変更不可",
+          "総費用は決済・アプリ・移行で変動"
         ],
         "en": [
-          "Total cost varies with payments and apps",
-          "International requirements need validation",
-          "Migration can affect data and URLs"
+          "Free payment fee starts at 6.6% + JPY 30",
+          "Paid plans cannot downgrade to Free",
+          "Total cost varies with payments, apps, and migration"
         ]
       },
       "flags": {
-        "freeOption": false,
+        "freeOption": true,
         "business": false,
         "ecommerce": true,
         "wordpress": false,
@@ -10913,16 +10913,28 @@
       },
       "sources": [
         {
-          "label": "Color Me Shop official site",
+          "label": "カラーミーショップ公式サイト",
           "url": "https://shop-pro.jp/"
         },
         {
-          "label": "Plans",
-          "url": "https://shop-pro.jp/plans"
+          "label": "カラーミーショップ プラン・料金",
+          "url": "https://shop-pro.jp/plans/"
         },
         {
-          "label": "SEO help",
-          "url": "https://help.shop-pro.jp/hc/ja/articles/115004714548"
+          "label": "カラーミーショップ フリープラン",
+          "url": "https://shop-pro.jp/plans/free"
+        },
+        {
+          "label": "各ページのSEO設定",
+          "url": "https://help.shop-pro.jp/hc/ja/articles/1500004025742"
+        },
+        {
+          "label": "XMLサイトマップ作成・Search Console",
+          "url": "https://help.shop-pro.jp/hc/ja/articles/360062479874-SEO%E5%AF%BE%E7%AD%96%E3%81%AE%E3%81%9F%E3%82%81%E3%81%ABXML%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86-Google-Search-Console"
+        },
+        {
+          "label": "プレミアムプラン乗り換えキャンペーン",
+          "url": "https://shop-pro.jp/news/202608premium-moving/"
         }
       ],
       "relatedArticles": [
@@ -10985,7 +10997,7 @@
         {
           "language": "ja",
           "type": "review",
-          "title": "カラーミーショップレビュー｜料金・機能・SEOの注意点【2026年】",
+          "title": "カラーミーショップレビュー｜月額0円〜・料金・手数料を公式確認【2026年】",
           "url": "/ja/website-builders/color-me-shop-review/",
           "category": "website-builders",
           "topic": "ecommerce-platforms"
@@ -11023,7 +11035,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "duda",
@@ -11716,11 +11728,11 @@
         "en": "A cloud website builder for individuals and small businesses with separate AI Builder and Creator products"
       },
       "pricing": {
-        "ja": "AIビルダーStartは1年15,480円、Creator Proは1年18,720円から。2026年改定後の更新条件を確認",
+        "ja": "AIビルダーStartは1か月1,720円・1年15,480円、Creator Proは1年18,720円から。契約期間と更新時費用を確認",
         "en": "AI Builder Start is JPY 15,480 yearly and Creator Pro is JPY 18,720 yearly; verify 2026 renewal terms"
       },
       "pricingDetail": {
-        "ja": "契約期間分の請求、更新時ドメイン費用、必要なSEO・ショップ・コード機能を含めて比較します。",
+        "ja": "Creatorは12・24か月契約。AIビルダーは1・12・24か月契約。Creator初回更新の基本ドメインは年2,150円〜、AIビルダー更新時のドメイン利用枠は1か月220円・1年2,110円・2年4,220円。",
         "en": "Compare full-term billing, renewal domain cost, and the tier required for SEO, commerce, and code."
       },
       "pricingModel": "freemium",
@@ -11748,7 +11760,7 @@
       },
       "limits": {
         "ja": [
-          "AIビルダーとクリエイターは互換性なし",
+          "AIビルダーとCreator間はコンテンツを直接移行不可",
           "更新時ドメイン費用を確認",
           "高度機能はプラン差",
           "専用レイアウトの外部移行は限定的"
@@ -11805,6 +11817,10 @@
         {
           "label": "外部ドメイン接続とDNS",
           "url": "https://help.jimdo.com/hc/ja/articles/115005533983-%E5%A4%96%E9%83%A8%E3%81%A7%E7%AE%A1%E7%90%86%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AE%E6%8E%A5%E7%B6%9A%E3%81%A8%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-DNS-%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+        },
+        {
+          "label": "AIビルダーサイトへの切り替え・コンテンツ移行",
+          "url": "https://help.jimdo.com/hc/ja/articles/360020543431-AI-%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%88%E3%81%B8%E3%81%AE%E5%88%87%E3%82%8A%E6%9B%BF%E3%81%88"
         }
       ],
       "relatedArticles": [
@@ -11903,9 +11919,33 @@
           "url": "/ja/website-builders/jimdo-small-business-guide/",
           "category": "website-builders",
           "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "review",
+          "title": "Jimdoの評判・料金・注意点｜AIビルダーとCreatorを検証",
+          "url": "/ja/website-builders/jimdo-review/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "guide",
+          "title": "Jimdo料金プラン比較｜2026年改定後の総額と選び方",
+          "url": "/ja/website-builders/jimdo-pricing/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
+          "type": "comparison",
+          "title": "JimdoとWixを比較｜初心者・店舗サイトに向くのはどちら？",
+          "url": "/ja/website-builders/jimdo-vs-wix/",
+          "category": "website-builders",
+          "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "shopify",
@@ -13168,18 +13208,18 @@
       },
       "topic": "website-builders",
       "positioning": {
-        "ja": "株式会社ビジョンが提供する、訪問またはオンラインのヒアリングを起点にホームページ制作と公開後のサポートを行うサービスです。",
-        "en": "株式会社ビジョンが提供する、訪問またはオンラインのヒアリングを起点にホームページ制作と公開後のサポートを行うサービスです。"
+        "ja": "株式会社ビジョンが提供する、WordPress制作と公開後の保守を月額でまとめて依頼できるホームページ制作サービスです。",
+        "en": "A website production service by Vision Inc. that bundles WordPress build and ongoing support into monthly plans."
       },
       "pricing": {
-        "ja": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。",
-        "en": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。"
+        "ja": "基本プランは初期制作費0円。スタンダード月額4,500円〜、プレミアム月額9,800円〜（税別）。ページ追加・特殊機能などは別途見積です。",
+        "en": "Basic plans have no initial production fee. Standard starts at JPY 4,500/month and Premium at JPY 9,800/month before tax; extra pages and special features are quoted separately."
       },
       "pricingDetail": {
-        "ja": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。",
-        "en": "公式サイトでは初期設定費165,000円（税込）が0円になるキャンペーンを案内しています。制作後の月額・契約期間・ページ数・撮影・更新範囲は見積書で確認が必要です。"
+        "ja": "スタンダードは1〜3ページ、プレミアムは6ページ以上が目安。月2回までの更新・修正代行、24時間365日電話受付を案内。最低契約期間は公式LP内で表記差があるため、見積書・契約書の条件を優先して確認します。",
+        "en": "Standard targets 1–3 pages and Premium 6+ pages. Up to two minor update requests per month and 24/7 phone reception are advertised. Because the official LP contains differing minimum-term statements, the quotation and contract should be treated as authoritative."
       },
-      "pricingModel": "quote",
+      "pricingModel": "subscription",
       "workflow": {
         "ja": "目的と問い合わせ導線を決める。必要ページ・原稿・写真を整理する。",
         "en": "目的と問い合わせ導線を決める。必要ページ・原稿・写真を整理する。"
@@ -13190,30 +13230,30 @@
       },
       "strengths": {
         "ja": [
-          "初期費用0円キャンペーンを案内",
-          "訪問またはオンラインで要件を整理",
-          "スマホ・タブレット対応を案内",
-          "公開後の更新・サポートを含めて相談可能"
+          "基本プランの初期制作費0円",
+          "WordPress・スマホ対応・常時SSL",
+          "月2回までの更新・修正代行",
+          "24時間365日受付の電話サポート"
         ],
         "en": [
-          "初期費用0円キャンペーンを案内",
-          "訪問またはオンラインで要件を整理",
-          "スマホ・タブレット対応を案内",
-          "公開後の更新・サポートを含めて相談可能"
+          "No initial production fee for basic plans",
+          "WordPress, responsive design, and SSL",
+          "Up to two update/revision requests per month",
+          "24/7 phone reception"
         ]
       },
       "limits": {
         "ja": [
-          "初期費用0円は総費用0円を意味しない",
-          "月額・契約期間・解約条件を見積書で確認",
-          "無料更新の範囲と追加費用を明文化",
-          "ドメイン・原稿・画像・データの所有権を確認"
+          "表示料金は税別、追加ページ・特殊機能は別途見積",
+          "最低契約期間は公式LP内に表記差があるため契約書を優先",
+          "データ譲渡は契約条件・利用期間を確認",
+          "大幅なデザイン変更・新規機能開発等は基本保守外"
         ],
         "en": [
-          "初期費用0円は総費用0円を意味しない",
-          "月額・契約期間・解約条件を見積書で確認",
-          "無料更新の範囲と追加費用を明文化",
-          "ドメイン・原稿・画像・データの所有権を確認"
+          "Listed prices exclude tax; extra pages and special features are quoted separately",
+          "Official LP has differing minimum-term statements, so contract terms take precedence",
+          "Confirm data-transfer eligibility and timing in the agreement",
+          "Major redesigns and new feature development are outside basic support"
         ]
       },
       "flags": {
@@ -13221,9 +13261,9 @@
         "business": true,
         "ecommerce": false,
         "wordpress": true,
-        "seo": false,
+        "seo": true,
         "integrations": false,
-        "mobile": false
+        "mobile": true
       },
       "sources": [
         {
@@ -13231,15 +13271,19 @@
           "url": "https://homepage296.com/"
         },
         {
-          "label": "ホームページリニューアル案内",
-          "url": "https://homepage296.com/renewal"
+          "label": "料金・契約・保守の最新案内",
+          "url": "https://homepage296.com/lp05"
+        },
+        {
+          "label": "運営会社（株式会社ビジョン）",
+          "url": "https://homepage296.com/company"
         }
       ],
       "relatedArticles": [
         {
           "language": "ja",
           "type": "review",
-          "title": "ホームページドットコムの評判・料金・注意点｜初期費用0円を検証",
+          "title": "ホームページドットコムの評判・料金｜月額4,500円〜・初期制作費0円を検証",
           "url": "/ja/website-builders/homepage-com-review/",
           "category": "website-builders",
           "topic": "website-builders"
@@ -13247,15 +13291,23 @@
         {
           "language": "ja",
           "type": "guide",
-          "title": "ホームページドットコムの料金を解説｜初期費用0円でも確認すべき総額",
+          "title": "ホームページドットコムの料金｜月額4,500円〜・初期制作費0円の条件",
           "url": "/ja/website-builders/homepage-com-pricing-guide/",
           "category": "website-builders",
           "topic": "website-builders"
         },
         {
           "language": "ja",
+          "type": "guide",
+          "title": "ホームページドットコム導入ガイド｜月額4,500円〜の相談・制作・公開手順",
+          "url": "/ja/website-builders/homepage-com-implementation-guide/",
+          "category": "website-builders",
+          "topic": "website-builders"
+        },
+        {
+          "language": "ja",
           "type": "comparison",
-          "title": "ホームページドットコムと自作ホームページを比較｜費用・時間・更新の違い",
+          "title": "ホームページドットコムと自作を比較｜月額4,500円〜と制作工数の違い",
           "url": "/ja/website-builders/homepage-com-vs-self-build/",
           "category": "website-builders",
           "topic": "website-builders"
@@ -13263,17 +13315,17 @@
         {
           "language": "ja",
           "type": "guide",
-          "title": "ホームページドットコム導入ガイド｜相談から公開までの確認手順",
-          "url": "/ja/website-builders/homepage-com-implementation-guide/",
+          "title": "ホームページドットコムの費用チェック｜月額4,500円〜の見積10項目",
+          "url": "/ja/website-builders/homepage-com-cost-checklist/",
           "category": "website-builders",
-          "topic": "website-builders"
+          "topic": "website-production-cost"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "digital-signage",
-      "name": "デジタルサイネージ",
+      "name": "Wizサイネージ",
       "affiliateKey": "a8-wiz-digital-signage",
       "category": "store-dx",
       "categoryName": {
@@ -13282,21 +13334,21 @@
       },
       "topic": "digital-subsidies",
       "positioning": {
-        "ja": "静止画・動画・音声などのコンテンツをディスプレイへ配信し、店頭や施設で情報を更新できる電子看板サービスです。",
-        "en": "静止画・動画・音声などのコンテンツをディスプレイへ配信し、店頭や施設で情報を更新できる電子看板サービスです。"
+        "ja": "株式会社Wizが案内するデジタルサイネージ。USB型とクラウド型があり、提案から設置・運用、コンテンツ制作まで相談できます。",
+        "en": "Wiz digital signage with USB and cloud operation options, installation support, and content production support."
       },
       "pricing": {
-        "ja": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。",
-        "en": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。"
+        "ja": "個別料金はプラン・利用環境により異なる見積方式。公式メディアの一般相場はディスプレイ10万〜200万円、屋内10万〜80万円、屋外50万〜200万円以上だが、Wizサイネージの見積価格とは区別する。",
+        "en": "Quote-based pricing varies by plan and installation environment."
       },
       "pricingDetail": {
-        "ja": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。",
-        "en": "公開資料では通常プランと補助金プランが案内されていますが、機器、設置、コンテンツ制作、通信、保守を含む利用者向け価格は見積確認が必要です。"
+        "ja": "クラウド型は月額利用料あり。機器・設置・コンテンツ制作・CMS・通信・保守を含む総額を見積で確認。",
+        "en": "Cloud operation has a monthly fee; confirm equipment, installation, content, CMS, connectivity, and support in the quote."
       },
       "pricingModel": "quote",
       "workflow": {
-        "ja": "設置場所と視認距離を測る。表示目的とKPIを決める。",
-        "en": "設置場所と視認距離を測る。表示目的とKPIを決める。"
+        "ja": "目的と設置場所を決め、USB型／クラウド型を選定。制作・設置・運用範囲を見積後、設置テストと効果測定へ進む。",
+        "en": "Define goals/location, choose USB or cloud operation, quote content/installation/operation, then install and measure results."
       },
       "bestFor": {
         "ja": "メニュー、キャンペーン、案内を頻繁に更新し、店頭の視認性を高めたい店舗・施設",
@@ -13304,30 +13356,32 @@
       },
       "strengths": {
         "ja": [
-          "動画・静止画で情報を更新可能",
-          "ネット環境があれば遠隔差し替えを案内",
-          "時間帯別の表示変更に向く",
-          "導入後のフォローを案内"
+          "提案から設置・運用まで相談できる",
+          "静止画・動画のコンテンツ制作も相談できる",
+          "USB型とクラウド型を選べる",
+          "クラウド型は遠隔編集・更新に対応"
         ],
         "en": [
-          "動画・静止画で情報を更新可能",
-          "ネット環境があれば遠隔差し替えを案内",
-          "時間帯別の表示変更に向く",
-          "導入後のフォローを案内"
+          "提案から設置・運用まで相談できる",
+          "静止画・動画のコンテンツ制作も相談できる",
+          "USB型とクラウド型を選べる",
+          "クラウド型は遠隔編集・更新に対応"
         ]
       },
       "limits": {
         "ja": [
-          "ディスプレイだけでなく設置・配線・通信費が必要",
-          "コンテンツ更新の担当者と頻度を決める",
-          "補助金は交付決定前の契約・支払に注意",
-          "屋外設置は輝度・防水・安全基準を確認"
+          "個別料金はプラン・利用環境ごとの見積",
+          "クラウド型は月額利用料が発生",
+          "タッチパネル対応は機種ごとに異なる",
+          "屋外は直射日光を避ける設置条件を確認",
+          "補助制度の対象可否は現行公募要領で確認"
         ],
         "en": [
-          "ディスプレイだけでなく設置・配線・通信費が必要",
-          "コンテンツ更新の担当者と頻度を決める",
-          "補助金は交付決定前の契約・支払に注意",
-          "屋外設置は輝度・防水・安全基準を確認"
+          "個別料金はプラン・利用環境ごとの見積",
+          "クラウド型は月額利用料が発生",
+          "タッチパネル対応は機種ごとに異なる",
+          "屋外は直射日光を避ける設置条件を確認",
+          "補助制度の対象可否は現行公募要領で確認"
         ]
       },
       "flags": {
@@ -13341,12 +13395,12 @@
       },
       "sources": [
         {
-          "label": "Wizデジタルサイネージ問い合わせ",
-          "url": "https://f.012grp.co.jp/wiz_signage_hojyokin"
+          "label": "Wizサイネージ 公式サービスページ",
+          "url": "https://012cloud.jp/service/wiz_signage_n"
         },
         {
-          "label": "Wiz補助金サービス問い合わせ",
-          "url": "https://f.012grp.co.jp/wizhojyokin2021"
+          "label": "デジタルサイネージの費用相場｜Wiz cloud公式メディア",
+          "url": "https://012cloud.jp/article/signage-cost"
         }
       ],
       "relatedArticles": [
@@ -13383,7 +13437,7 @@
           "topic": "digital-subsidies"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "3d-phantom",
@@ -13624,11 +13678,11 @@
         "en": "ユーザー数ではなく容量を基準に課金し、社内外のファイル共有、共有リンク、権限制御、監査を行える法人向けクラウドストレージです。"
       },
       "pricing": {
-        "ja": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。",
+        "ja": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込。10日間無料トライアルあり。",
         "en": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。"
       },
       "pricingDetail": {
-        "ja": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。",
+        "ja": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込。10日間無料トライアルあり。",
         "en": "ベーシックは初期費用16,500円、月契約22,000円、年契約237,600円（月額換算19,800円）。プロは初期費用44,000円、月契約61,600円、年契約665,280円（月額換算55,440円）。税込表示で、最大10日間の無料トライアルがあります。"
       },
       "pricingModel": "subscription",
@@ -13644,8 +13698,8 @@
         "ja": [
           "ベーシック1TB・プロ3TBでユーザー数無制限",
           "Windows Explorer・Mac Finder感覚で利用可能",
-          "共有リンク、二要素認証、監査ログを案内",
-          "プロはIP制限・デバイス管理・ダウンロード制御に対応"
+          "AES256ビット暗号化、2要素認証、監査レポート・ログ監視を案内",
+          "プロはIP制限・デバイス管理・ダウンロード制御・共有リンク公開承認に対応"
         ],
         "en": [
           "ベーシック1TB・プロ3TBでユーザー数無制限",
@@ -13733,7 +13787,7 @@
           "topic": "team-collaboration"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "emeao-system",
@@ -13746,32 +13800,32 @@
       },
       "topic": "system-development",
       "positioning": {
-        "ja": "システム開発の要件や予算をコンシェルジュへ伝えると、条件に合う審査済みの開発会社を選定して紹介する法人・個人事業主向けの発注先マッチングサービスです。",
+        "ja": "発注側が完全無料で、業界知識のある担当者が条件をヒアリングし、審査済みのシステム開発会社から最大8社まで候補を選定する発注先マッチングサービス",
         "en": "システム開発の要件や予算をコンシェルジュへ伝えると、条件に合う審査済みの開発会社を選定して紹介する法人・個人事業主向けの発注先マッチングサービスです。"
       },
       "pricing": {
-        "ja": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。",
+        "ja": "EMEAO!への相談・ヒアリング・業者紹介は完全無料。実際のシステム開発費・保守費・追加改修費は紹介先企業との個別見積もり・契約",
         "en": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。"
       },
       "pricingDetail": {
-        "ja": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。",
+        "ja": "EMEAO!は一括見積もりサービスではなく、担当者が条件に合う候補を最大8社まで選定します。紹介後は各社から個別見積もりを受け、すべての候補を見送ることも可能です。",
         "en": "EMEAO!の相談・業者紹介は発注側が完全無料で利用できます。実際のシステム開発費、保守費、追加改修費は紹介先企業との契約内容により異なり、複数見積の範囲と前提条件を揃えて比較する必要があります。"
       },
       "pricingModel": "quote",
       "workflow": {
-        "ja": "現行業務と解決したい課題を数値化する。必須機能・予算・納期・連携先を整理する。",
+        "ja": "フォームに概要を入力し、担当者へ予算・納期・要望を伝える。EMEAO!が最大8社を選定し、候補企業からの提案・見積もりを比較する。",
         "en": "現行業務と解決したい課題を数値化する。必須機能・予算・納期・連携先を整理する。"
       },
       "bestFor": {
-        "ja": "開発会社の探索や要件整理に時間をかけにくく、複数候補を同じ条件で比較したい法人・個人事業主",
+        "ja": "システム開発会社の探索・候補絞り込み・要件共有の工数を減らし、複数の審査済み業者を比較したい企業",
         "en": "開発会社の探索や要件整理に時間をかけにくく、複数候補を同じ条件で比較したい法人・個人事業主"
       },
       "strengths": {
         "ja": [
-          "発注側の相談・紹介手数料は無料",
-          "専門コンシェルジュが要件を整理",
-          "条件に合う審査済み業者を最大8社まで紹介",
-          "紹介後に契約を見送ることも可能"
+          "発注側の利用料は完全無料",
+          "業界知識のある担当者が条件をヒアリング",
+          "審査済み業者から最大8社まで選定",
+          "紹介後にすべての候補を見送ることも可能"
         ],
         "en": [
           "発注側の相談・紹介手数料は無料",
@@ -13782,10 +13836,10 @@
       },
       "limits": {
         "ja": [
-          "紹介先ごとに見積範囲と前提条件が異なる",
-          "要件・予算・納期・保守範囲を事前に整理",
+          "開発費・保守費は紹介先との個別見積もり",
+          "候補ごとに見積範囲と前提条件を揃えて比較が必要",
           "ソースコード・著作権・データの帰属を契約書で確認",
-          "問い合わせ情報が紹介候補へ共有される範囲を確認"
+          "機密情報の共有範囲を整理してから相談"
         ],
         "en": [
           "紹介先ごとに見積範囲と前提条件が異なる",
@@ -13809,8 +13863,8 @@
           "url": "https://emeao.jp/system-lp2/"
         },
         {
-          "label": "EMEAO! サービス概要",
-          "url": "https://emeao.jp/about/"
+          "label": "EMEAO! システム開発会社検索",
+          "url": "https://emeao.jp/search-system/"
         },
         {
           "label": "EMEAO! 公式トップ",
@@ -13851,7 +13905,7 @@
           "topic": "system-development"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "ikkatsu-video",
@@ -13864,52 +13918,52 @@
       },
       "topic": "video-marketing",
       "positioning": {
-        "ja": "動画の種類、長さ、納期などの条件を一度入力し、条件に合う複数の映像・動画制作会社へ無料で問い合わせて提案・見積を比較できる法人・個人事業主向けサービスです。",
-        "en": "動画の種類、長さ、納期などの条件を一度入力し、条件に合う複数の映像・動画制作会社へ無料で問い合わせて提案・見積を比較できる法人・個人事業主向けサービスです。"
+        "ja": "一度のフォーム入力で、希望条件に合う複数の映像・動画制作業者へ無料で一括問い合わせできる比較サービスです。問い合わせ送信だけでは契約にならず、各社の回答を比較してから依頼先と契約します。",
+        "en": "一度のフォーム入力で、希望条件に合う複数の映像・動画制作業者へ無料で一括問い合わせできる比較サービスです。問い合わせ送信だけでは契約にならず、各社の回答を比較してから依頼先と契約します。"
       },
       "pricing": {
-        "ja": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。",
-        "en": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。"
+        "ja": "一括.jpへの問い合わせは無料です。実際の動画制作費は、選んだ制作会社との個別見積・契約で決まります。",
+        "en": "一括.jpへの問い合わせは無料です。実際の動画制作費は、選んだ制作会社との個別見積・契約で決まります。"
       },
       "pricingDetail": {
-        "ja": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。",
-        "en": "一括.jpの問い合わせ・見積依頼は無料です。制作料金は依頼先ごとの個別見積で、企画、撮影日数、出演者、ナレーション、編集、CG、音源・素材権利、修正回数、納期によって変動します。"
+        "ja": "一括.jpへの問い合わせは無料です。実際の動画制作費は、選んだ制作会社との個別見積・契約で決まります。",
+        "en": "一括.jpへの問い合わせは無料です。実際の動画制作費は、選んだ制作会社との個別見積・契約で決まります。"
       },
       "pricingModel": "quote",
       "workflow": {
-        "ja": "動画の目的と視聴後の行動を決める。用途・尺・納期・予算・掲載媒体を整理する。",
-        "en": "動画の目的と視聴後の行動を決める。用途・尺・納期・予算・掲載媒体を整理する。"
+        "ja": "目的・用途・尺・納期・予算を整理し、フォームで一括問い合わせ。各社の回答・見積を同じ条件で比較して依頼先を決定します。",
+        "en": "目的・用途・尺・納期・予算を整理し、フォームで一括問い合わせ。各社の回答・見積を同じ条件で比較して依頼先を決定します。"
       },
       "bestFor": {
-        "ja": "制作会社を短期間で複数比較し、企画力・実績・価格を同じ要件で検討したい法人・個人事業主",
-        "en": "制作会社を短期間で複数比較し、企画力・実績・価格を同じ要件で検討したい法人・個人事業主"
+        "ja": "制作会社を短期間で複数候補化し、同じ要件で企画・実績・見積を比較したい事業者",
+        "en": "制作会社を短期間で複数候補化し、同じ要件で企画・実績・見積を比較したい事業者"
       },
       "strengths": {
         "ja": [
-          "一度の入力で複数業者へ問い合わせ可能",
-          "問い合わせと見積比較は無料",
-          "動画の種類・長さ・納期などを指定可能",
-          "契約前に複数の企画・価格を比較できる"
+          "1回の入力で複数業者へ一括問い合わせ可能",
+          "一括.jpへの問い合わせは無料",
+          "問い合わせ送信だけでは契約にならない",
+          "回答を比較してから依頼先を決められる"
         ],
         "en": [
-          "一度の入力で複数業者へ問い合わせ可能",
-          "問い合わせと見積比較は無料",
-          "動画の種類・長さ・納期などを指定可能",
-          "契約前に複数の企画・価格を比較できる"
+          "1回の入力で複数業者へ一括問い合わせ可能",
+          "一括.jpへの問い合わせは無料",
+          "問い合わせ送信だけでは契約にならない",
+          "回答を比較してから依頼先を決められる"
         ]
       },
       "limits": {
         "ja": [
-          "問い合わせ後は複数業者から連絡が入る",
-          "見積の制作範囲と修正回数を統一して比較",
-          "素材・音源・出演者の利用権と二次利用を確認",
-          "納品形式・元データ・広告利用期間を契約書で確認"
+          "問い合わせ後は選択した業者から連絡・回答が入る",
+          "希望条件によっては十分な数の業者を紹介できない場合がある",
+          "制作範囲・修正回数・権利条件を揃えて比較",
+          "最終的な制作費・契約条件は各社の見積書で確認"
         ],
         "en": [
-          "問い合わせ後は複数業者から連絡が入る",
-          "見積の制作範囲と修正回数を統一して比較",
-          "素材・音源・出演者の利用権と二次利用を確認",
-          "納品形式・元データ・広告利用期間を契約書で確認"
+          "問い合わせ後は選択した業者から連絡・回答が入る",
+          "希望条件によっては十分な数の業者を紹介できない場合がある",
+          "制作範囲・修正回数・権利条件を揃えて比較",
+          "最終的な制作費・契約条件は各社の見積書で確認"
         ]
       },
       "flags": {
@@ -13932,7 +13986,7 @@
         },
         {
           "label": "無料問い合わせフォーム",
-          "url": "https://www.ikkatsu.jp/eizo/seikyu/"
+          "url": "https://www.ikkatsu.jp/eizo/seikyu/index.php?ac=form"
         }
       ],
       "relatedArticles": [
@@ -13969,7 +14023,7 @@
           "topic": "video-marketing"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "aruku-web",
