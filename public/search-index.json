@@ -16,16 +16,16 @@
     "topic": "mobile-plans"
   },
   {
-    "title": "ギガWi-Fiの料金・契約期間を確認｜100GB・端末残債・対象外プラン",
-    "description": "ギガWi-Fiの100GBプラン、3年契約、端末割賦、解約料、海外利用、A8.net成果対象外プランを公式情報と提携条件で整理します。",
+    "title": "ギガWi-Fiレビュー｜料金・契約期間・端末残債を比較",
+    "description": "ギガWi-Fiの100GB・5G・10GB・ミニ従量プランを、月額、3年契約、端末代、解約料、海外利用、初期契約解除から2026年8月7日の公式情報で比較します。",
     "url": "/ja/mobile-connectivity/giga-wifi-review/",
     "language": "ja",
     "category": "mobile-connectivity",
     "topic": "mobile-wifi"
   },
   {
-    "title": "法人スマホ.comの料金・契約条件｜法人携帯の見積前チェック",
-    "description": "法人スマホ.comの法人携帯プラン、初期費用、月額例、対象事業者、納期、A8.net成果条件を公式情報と提携資料で整理します。",
+    "title": "法人スマホ.comレビュー｜SoftBank法人携帯の料金・初期費用・見積前チェック",
+    "description": "法人スマホ.com（SoftBank取扱店）の法人携帯を、月額2,750円〜の適用期間、14か月目以降、初期費用、端末代、6か月無料キャンペーン、納品・見積条件から公式情報で確認します。",
     "url": "/ja/mobile-connectivity/corporate-smartphone-com-review/",
     "language": "ja",
     "category": "mobile-connectivity",
@@ -64,16 +64,16 @@
     "topic": "travel-esim"
   },
   {
-    "title": "BIGLOBE光の料金・工事費・契約期間を確認｜1ギガと10ギガの違い",
-    "description": "BIGLOBE光の1ギガ・10ギガ料金、戸建て・集合住宅、工事費、契約期間、違約金、ルーター、申込前の注意点を公式情報で整理します。",
+    "title": "BIGLOBE光レビュー｜料金・工事費・キャッシュバック条件を比較",
+    "description": "BIGLOBE光の1ギガ・10ギガ料金、工事費、違約金、アウンカンパニーと公式直販のキャッシュバック金額・受取時期・継続条件を2026年8月7日の公式情報で比較します。",
     "url": "/ja/mobile-connectivity/biglobe-hikari-review/",
     "language": "ja",
     "category": "mobile-connectivity",
     "topic": "home-internet"
   },
   {
-    "title": "チーム向け固定IP VPNの選び方｜IP制限・接続方式・ログ・運用を確認",
-    "description": "テレワークや複数拠点で固定IP VPNを導入する際の、共用・専属IP、接続方式、アカウント数、ログ、退職者対応、障害時の代替経路を解説します。",
+    "title": "SUIKA VPN Team IP Serviceレビュー｜固定IP・料金・20〜200アカウントを確認",
+    "description": "SUIKA VPN Team IP Serviceの固定IP、専用VPNサーバー、料金3プラン、20〜200アカウント、30日間返金保証、導入日数、ログと運用上の注意点を公式情報で確認します。",
     "url": "/ja/hosting-security/fixed-ip-vpn-for-teams/",
     "language": "ja",
     "category": "hosting-security",
@@ -97,15 +97,15 @@
   },
   {
     "title": "ホームルーターとスマホ大容量プランを比較｜自宅Wi-Fiはどちらが向く？",
-    "description": "SoftBank Airなどのホームルーターとahamo大盛りなどを比較。ahamoは通常110GB、2026年8月開始の増量キャンペーン中は120GB。料金、端末数、電池、工事、外出利用から判断します。",
+    "description": "SoftBank Airとahamo大盛りを比較。SoftBank Airは基本料金5,368円、Airターミナル6 95,040円、2026年12月改定予定。端末残債、端末数、工事、外出利用から判断します。",
     "url": "/ja/mobile-connectivity/home-router-vs-mobile-plan/",
     "language": "ja",
     "category": "mobile-connectivity",
     "topic": "home-internet"
   },
   {
-    "title": "SoftBank Airの料金・注意点｜工事不要ホームルーターを公式情報で確認",
-    "description": "SoftBank Airの料金、Airターミナル6、端末代、月月割、5Gエリア、Wi-Fi 7、解約時の注意、代理店特典を公式情報で整理します。",
+    "title": "SoftBank Airレビュー｜料金・端末残債・2026年12月改定を確認",
+    "description": "SoftBank Airを2026年8月7日の公式情報で確認。基本料金5,368円、Airターミナル6 95,040円、月月割、24か月割引、2026年12月の料金改定、U-25/O-60向け割引、解約時の端末残債、エヌズカンパニー特典を整理します。",
     "url": "/ja/mobile-connectivity/softbank-air-review/",
     "language": "ja",
     "category": "mobile-connectivity",
@@ -2649,7 +2649,7 @@
   },
   {
     "title": "cPanel対応レンタルサーバー比較【2026年】",
-    "description": "cPanel対応レンタルサーバーの選び方を解説。JETBOYを中心に、ドメイン、メール、WordPress、バックアップ、移行性、権限管理を比較します。",
+    "description": "cPanel対応レンタルサーバーの選び方。JETBOYのcPanel、料金、14日試用、バックアップ、移行支援を例に比較します。",
     "url": "/ja/hosting-security/cpanel-hosting-comparison/",
     "language": "ja",
     "category": "hosting-security",
@@ -2761,7 +2761,7 @@
   },
   {
     "title": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
-    "description": "iCLUSTA+ byGMOを、SLA、SSL、メール、WordPress、サポート、返金保証、料金上の注意点から公式情報で検証します。",
+    "description": "iCLUSTA+ byGMOを2026年8月の契約期間別料金、サーチャージ、SLA、SSL、メール、WordPress、Movable Type、復旧費用から公式情報で検証します。",
     "url": "/ja/hosting-security/iclusta-review/",
     "language": "ja",
     "category": "hosting-security",
@@ -2769,7 +2769,7 @@
   },
   {
     "title": "iCLUSTA+とCPIを比較｜法人サーバーの違い【2026年】",
-    "description": "iCLUSTA+とCPIを比較｜法人サーバーの違い。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+    "description": "iCLUSTA+とCPIを、2026年8月の料金、SLA、メール、バックアップ復旧、制作運用、返金条件から比較します。",
     "url": "/ja/hosting-security/iclusta-vs-cpi/",
     "language": "ja",
     "category": "hosting-security",
@@ -2777,7 +2777,7 @@
   },
   {
     "title": "iCLUSTA+とXServer for WordPressを比較【2026年】",
-    "description": "iCLUSTA+とXServer for WordPressを比較。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+    "description": "iCLUSTA+とXServer for WordPressを、2026年8月の料金、SLA、メール、WordPress、移行・復旧条件から比較します。",
     "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
     "language": "ja",
     "category": "hosting-security",
@@ -2785,7 +2785,7 @@
   },
   {
     "title": "iCLUSTA+のMovable Type対応｜料金・ライセンス・注意点",
-    "description": "iCLUSTA+でMovable Typeを使う場合のライセンス、自動インストール、MySQL、保守費用を公式情報で解説します。",
+    "description": "iCLUSTA+のMovable Type 9対応を、商用1ユーザー版、年間メンテナンス44,000円、サーバー料金、MySQL、復旧条件から確認します。",
     "url": "/ja/hosting-security/iclusta-movable-type-hosting/",
     "language": "ja",
     "category": "hosting-security",
@@ -2793,7 +2793,7 @@
   },
   {
     "title": "JETBOYとHostingerを比較｜国内・海外サーバー【2026年】",
-    "description": "JETBOYとHostingerを比較。国内運用、料金、LiteSpeed、管理画面、サポート、データセンター、WordPress移行の違いを公式情報で整理します。",
+    "description": "JETBOYとHostingerを比較。JETBOYの年契約550円〜・14日試用・cPanelと、Hostingerの長期前払い・更新価格・30日返金保証の違いを整理します。",
     "url": "/ja/hosting-security/jetboy-vs-hostinger/",
     "language": "ja",
     "category": "hosting-security",
@@ -2801,7 +2801,7 @@
   },
   {
     "title": "JETBOYとXServer for WordPressを比較【2026年】",
-    "description": "JETBOYとXServer for WordPressを公式情報で比較。料金体系、LiteSpeed、WordPress管理、サポート、移行、法人利用の違いを整理します。",
+    "description": "JETBOYとXServer for WordPressを比較。年契約550円〜、14日試用、LiteSpeed・cPanelと、WordPress専用運用・保守支援の違いを整理します。",
     "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
     "language": "ja",
     "category": "hosting-security",
@@ -2809,7 +2809,7 @@
   },
   {
     "title": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
-    "description": "JETBOYレンタルサーバーを公式情報で検証。料金、14日間無料体験、LiteSpeed、cPanel、WordPress、プラン選びと契約前の注意点を解説します。",
+    "description": "LiteSpeed Enterprise、cPanel、SSDを備えるJETBOYレビュー。年契約550円〜、月契約748円〜、初期費用50%OFF、条件付き14日試用、バックアップと契約条件を確認。",
     "url": "/ja/hosting-security/jetboy-review/",
     "language": "ja",
     "category": "hosting-security",
@@ -2897,7 +2897,7 @@
   },
   {
     "title": "LiteSpeed対応レンタルサーバー比較【2026年】",
-    "description": "LiteSpeed対応レンタルサーバーの選び方を解説。JETBOYを中心に、Enterprise版、LSCache、CPU・メモリ、移行、バックアップを比較します。",
+    "description": "LiteSpeed対応レンタルサーバーの選び方。JETBOYのLiteSpeed Enterprise、料金、CPU・メモリ、バックアップを例に比較します。",
     "url": "/ja/hosting-security/litespeed-hosting-comparison/",
     "language": "ja",
     "category": "hosting-security",
@@ -3265,7 +3265,7 @@
   },
   {
     "title": "法人向けSLA付きレンタルサーバー比較【2026年】",
-    "description": "法人向けレンタルサーバーのSLA、対象範囲、返金率、サポート、料金を比較します。",
+    "description": "法人向けレンタルサーバーのSLAを、対象範囲、返金率、メール・DB、バックアップ復旧、料金から2026年8月時点で比較します。",
     "url": "/ja/hosting-security/business-hosting-sla-comparison/",
     "language": "ja",
     "category": "hosting-security",
@@ -3625,7 +3625,7 @@
   },
   {
     "title": "3D Phantomの仕組み・導入用途・注意点｜3Dサイネージを検証",
-    "description": "3D Phantomを、表示の仕組み、設置用途、安全性、コンテンツ制作、費用、通常のデジタルサイネージとの違いから解説します。",
+    "description": "3D Phantomを、表示方式、販売・レンタル、オープン価格、映像制作、設置・アフターサポートから公式情報で検証します。",
     "url": "/ja/store-dx/3d-phantom-review/",
     "language": "ja",
     "category": "store-dx",
@@ -3633,7 +3633,7 @@
   },
   {
     "title": "3D Phantomの料金・見積ガイド｜機器・映像制作・設置費を確認",
-    "description": "3D Phantom導入で確認すべき機器、台数、映像制作、設置、安全対策、保守、補助金の費用項目を整理します。",
+    "description": "3D Phantomのオープン価格、主要モデル仕様、販売・レンタル、映像制作、設置・什器・保守の見積項目を整理します。",
     "url": "/ja/store-dx/3d-phantom-pricing-guide/",
     "language": "ja",
     "category": "store-dx",
@@ -3641,7 +3641,7 @@
   },
   {
     "title": "3D Phantom導入ガイド｜設置・映像制作・効果測定の手順",
-    "description": "3D Phantomの設置場所選定、安全確認、映像制作、実機確認、運用、来店・SNS効果測定の手順を解説します。",
+    "description": "3D Phantomのヒアリング、提案、クリエイティブ制作、納品・設置、アフターサポートまでの導入手順を解説します。",
     "url": "/ja/store-dx/3d-phantom-implementation-guide/",
     "language": "ja",
     "category": "store-dx",
@@ -3664,8 +3664,8 @@
     "topic": "3d-signage"
   },
   {
-    "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
-    "description": "POSレジ・システム業者紹介サービスEMEAO!を、仕組み、無料の範囲、最大紹介社数、ヒアリング、メリット、注意点から公式情報で検証します。",
+    "title": "EMEAO! POSレジ比較レビュー｜無料相談・最大8社・契約不要を公式確認",
+    "description": "EMEAO!のPOSレジ・システム業者紹介を、発注者側完全無料、最大8社、契約見送り可、平均3営業日以内の紹介目安、機種選定から設置・保守までの相談範囲から公式情報で検証します。",
     "url": "/ja/store-dx/emeao-pos-review/",
     "language": "ja",
     "category": "store-dx",
@@ -3673,7 +3673,7 @@
   },
   {
     "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
-    "description": "飲食店向けPOS・モバイルオーダーのfunfoとかんたん注文を、料金公開、無料試用、導入方法、LINE、多言語、補助金、向く店舗から比較します。",
+    "description": "飲食店向けPOS・モバイルオーダーのfunfoとかんたん注文を、料金公開、無料試用、導入方法、LINE、多言語、現行の導入費割引、向く店舗から比較します。",
     "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
     "language": "ja",
     "category": "store-dx",
@@ -3729,7 +3729,7 @@
   },
   {
     "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
-    "description": "飲食店向け「かんたん注文」を、公開料金、POS・モバイルオーダー、多言語、決済連携、補助金、導入時の注意点から公式情報で検証します。",
+    "description": "飲食店向け「かんたん注文」を、現行料金、POS・モバイルオーダー、多言語、決済連携、導入費割引、契約前の注意点から公式情報で検証します。",
     "url": "/ja/store-dx/kantan-chumon-review/",
     "language": "ja",
     "category": "store-dx",
@@ -3737,7 +3737,7 @@
   },
   {
     "title": "インバウンドパッケージと個別導入を比較｜多言語HP・口コミ・サイネージ",
-    "description": "インバウンド施策をパッケージで導入する方法と、各サービスを個別契約する方法を、費用、自由度、管理、連携から比較します。",
+    "description": "Wizのパッケージ導入と個別導入を、費用内訳・窓口・運用負荷・2026年度補助金の手順から比較します。",
     "url": "/ja/store-dx/inbound-package-vs-separate-tools/",
     "language": "ja",
     "category": "store-dx",
@@ -3745,7 +3745,7 @@
   },
   {
     "title": "インバウンドパッケージの料金・補助金ガイド｜見積内訳と対象条件",
-    "description": "インバウンドパッケージの個別見積で確認すべきサイネージ、Tripadvisor、多言語HP、翻訳、保守、補助金条件を整理します。",
+    "description": "個別見積の確認項目と、2026年度東京都補助金の補助率・上限・交付決定前発注の注意点を整理します。",
     "url": "/ja/store-dx/inbound-package-pricing-guide/",
     "language": "ja",
     "category": "store-dx",
@@ -3857,7 +3857,7 @@
   },
   {
     "title": "飲食店のインバウンド対策導入ガイド｜多言語・口コミ・店頭表示",
-    "description": "東京都内の飲食店が、対象確認、課題整理、多言語メニュー、Tripadvisor、サイネージ、補助金、効果測定を進める手順を解説します。",
+    "description": "東京都内の飲食店向けに、見積・申請・交付決定・契約・導入の正しい順番を2026年度制度に合わせて解説します。",
     "url": "/ja/store-dx/inbound-package-implementation-guide/",
     "language": "ja",
     "category": "store-dx",
@@ -3897,7 +3897,7 @@
   },
   {
     "title": "飲食店向けインバウンドパッケージとは？対象・内容・補助金の注意点",
-    "description": "東京都内の飲食店向けインバウンドパッケージを、多言語ホームページ、旅行サイト、サイネージ、対象条件、補助金の注意点から解説します。",
+    "description": "Wizのインバウンドパッケージを、Tripadvisor・サイネージ・多言語HPと2026年度東京都補助金の条件から検証します。",
     "url": "/ja/store-dx/inbound-package-review/",
     "language": "ja",
     "category": "store-dx",
@@ -4137,7 +4137,7 @@
   },
   {
     "title": "おちゃのこさいさい ベーシックとアドバンスドの違いを比較",
-    "description": "共用ドメイン、独自ドメイン、容量、フリーページ、メール、広告表示、初期費用から2プランを比較します。",
+    "description": "ベーシックとアドバンスドを、現行月額、共用／独自ドメイン、容量、ページ数、メール、広告表示、DNS制約から比較します。",
     "url": "/ja/website-builders/ochanoko-saisai-basic-vs-advanced/",
     "language": "ja",
     "category": "website-builders",
@@ -4193,7 +4193,7 @@
   },
   {
     "title": "おちゃのこさいさいの評判・料金・注意点｜店舗サイト向け機能を検証",
-    "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します。",
+    "description": "おちゃのこさいさいを、ベーシック1,100円/月〜、アドバンスド1,980円/月〜、30日無料、独自ドメイン費、店舗機能、ショッピングカート非対応から検証します。",
     "url": "/ja/website-builders/ochanoko-saisai-review/",
     "language": "ja",
     "category": "website-builders",
@@ -4201,7 +4201,7 @@
   },
   {
     "title": "おちゃのこさいさい料金比較｜月額・独自ドメイン費用と総額",
-    "description": "ベーシックとアドバンスドの月額、契約期間、独自ドメイン設定費、ドメイン更新費、無料試用を整理します。",
+    "description": "ベーシック／アドバンスドの1・6・12か月料金、30日無料、独自ドメイン設定費7,920円、年間ドメイン費、支払条件を整理します。",
     "url": "/ja/website-builders/ochanoko-saisai-pricing/",
     "language": "ja",
     "category": "website-builders",
@@ -4241,7 +4241,7 @@
   },
   {
     "title": "グーペとWixを比較｜店舗ホームページはどちらが向く？",
-    "description": "グーペとWixを、料金構造、デザイン、予約、独自ドメイン、メール、更新、拡張性、移行性から比較します。",
+    "description": "グーペとWixを、2026年の料金、予約、独自ドメイン、メール、更新、デザイン自由度、拡張性から比較します。",
     "url": "/ja/website-builders/goope-vs-wix/",
     "language": "ja",
     "category": "website-builders",
@@ -4249,7 +4249,7 @@
   },
   {
     "title": "グーペの料金・機能・注意点｜店舗向けホームページ作成を検証",
-    "description": "グーペを料金、15日間無料体験、予約、独自ドメイン、メール、テンプレート、サポート、移行性から公式情報で検証します。",
+    "description": "グーペを2026年4月1日改定後の料金、15日間無料体験、予約、独自ドメイン、メール、テンプレート、サポートから公式情報で検証します。",
     "url": "/ja/website-builders/goope-review/",
     "language": "ja",
     "category": "website-builders",

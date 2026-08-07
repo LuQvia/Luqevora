@@ -403,6 +403,59 @@ def main() -> int:
                 if "862円" not in page_text or "1,401円" not in page_text or "2,802円" not in page_text:
                     errors.append(f"Shin Rental Server campaign prices missing: {rel_path}")
 
+        jetboy_direct = (
+            "ja/hosting-security/jetboy-review/index.html",
+            "ja/hosting-security/jetboy-vs-hostinger/index.html",
+            "ja/hosting-security/jetboy-vs-xserver-for-wordpress/index.html",
+        )
+        jetboy_funnel = (
+            "ja/hosting-security/cpanel-hosting-comparison/index.html",
+            "ja/hosting-security/litespeed-hosting-comparison/index.html",
+        )
+        jetboy_total_links = 0
+        jetboy_total_pixels = 0
+        for rel_path in jetboy_direct:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"JETBOY revenue page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            a8_count = len(re.findall(r"https://px\.a8\.net/svt/ejp\?a8mat=[^\"]*\+1PBOUY\+MZI\+", page_text))
+            pixel_count = len(re.findall(r"https://www\d+\.a8\.net/0\.gif\?a8mat=[^\"]*\+1PBOUY\+MZI\+", page_text))
+            jetboy_total_links += a8_count
+            jetboy_total_pixels += pixel_count
+            if a8_count != 3:
+                errors.append(f"JETBOY focused page should have exactly 3 A8 links: {rel_path}: {a8_count}")
+            if pixel_count != 3:
+                errors.append(f"JETBOY focused page should have exactly 3 tracking pixels: {rel_path}: {pixel_count}")
+            for needle in ('data-affiliate-name="jetboy"', 'data-affiliate-status="active"', '2026年8月7日'):
+                if needle not in page_text:
+                    errors.append(f"JETBOY marker missing: {rel_path}: {needle}")
+            if rel_path != "ja/hosting-security/jetboy-review/index.html" and 'data-revenue-route="jetboy"' not in page_text:
+                errors.append(f"JETBOY review funnel missing from comparison: {rel_path}")
+        for rel_path in jetboy_funnel:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"JETBOY funnel page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            a8_count = len(re.findall(r"https://px\.a8\.net/svt/ejp\?a8mat=[^\"]*\+1PBOUY\+MZI\+", page_text))
+            if a8_count != 0:
+                errors.append(f"JETBOY generic comparison should not contain direct A8 link: {rel_path}: {a8_count}")
+            if 'data-revenue-route="jetboy"' not in page_text or '/ja/hosting-security/jetboy-review/' not in page_text:
+                errors.append(f"JETBOY internal funnel missing: {rel_path}")
+            if "2026年8月7日" not in page_text:
+                errors.append(f"JETBOY funnel verification date missing: {rel_path}")
+        stats["jetboy_a8_links_total_core"] = jetboy_total_links
+        stats["jetboy_a8_pixels_total_core"] = jetboy_total_pixels
+        stats["jetboy_funnel_pages_checked"] = len(jetboy_funnel)
+        if jetboy_total_links != 9 or jetboy_total_pixels != 9:
+            errors.append(f"JETBOY total focused A8 target mismatch: links={jetboy_total_links}, pixels={jetboy_total_pixels}")
+        jetboy_review_text = (root / "ja/hosting-security/jetboy-review/index.html").read_text(encoding="utf-8-sig")
+        for marker_text in ("初期費用50%OFF", "14日", "550円", "10,978円", "翌日に自動", "毎日自動でリモートバックアップ"):
+            if marker_text not in jetboy_review_text:
+                errors.append(f"JETBOY review current-condition marker missing: {marker_text}")
+
         ikkatsu_core = (
             "ja/seo-marketing/ikkatsu-video-production-review/index.html",
             "ja/seo-marketing/ikkatsu-video-production-pricing-guide/index.html",
@@ -1150,6 +1203,1212 @@ def main() -> int:
             sitemap_marker = "https://luqevora.com/ja/website-builders/sakupeji-review/</loc>\n    <lastmod>2026-08-07</lastmod>"
             if sitemap_marker not in sitemap_text:
                 errors.append("Sakupeji sitemap lastmod is not current")
+
+        # v5.5.0 aruku revenue-route checks
+        aruku_pages = (
+            "ja/website-builders/aruku-web-production-review/index.html",
+            "ja/website-builders/aruku-web-production-pricing-guide/index.html",
+            "ja/website-builders/aruku-vs-self-service-website/index.html",
+            "ja/website-builders/aruku-web-production-guide/index.html",
+        )
+        aruku_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B86H0\+CZDBFE\+2C9M\+HV7V6"
+        aruku_pixel_pattern = r"https://www11\.a8\.net/0\.gif\?a8mat=4B86H0\+CZDBFE\+2C9M\+HV7V6"
+        aruku_links_total = 0
+        aruku_pixels_total = 0
+        aruku_funnel_count = 0
+        for rel_path in aruku_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"aruku revenue page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            link_count = len(re.findall(aruku_a8_pattern, page_text))
+            pixel_count = len(re.findall(aruku_pixel_pattern, page_text))
+            aruku_links_total += link_count
+            aruku_pixels_total += pixel_count
+            if link_count != 3:
+                errors.append(f"aruku page should have exactly 3 A8 links: {rel_path}: {link_count}")
+            if pixel_count != 3:
+                errors.append(f"aruku page should have exactly 3 tracking pixels: {rel_path}: {pixel_count}")
+            for required in (
+                'data-affiliate-name="aruku_web"',
+                'data-product-name="株式会社aruku"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "50万円",
+                "70万円",
+                "100万円",
+                "https://a-ru-ku.co.jp/",
+                "https://a-ru-ku.co.jp/flow/",
+                "https://a-ru-ku.co.jp/about/",
+            ):
+                if required not in page_text:
+                    errors.append(f"aruku current marker missing in {rel_path}: {required}")
+            if rel_path != "ja/website-builders/aruku-web-production-review/index.html":
+                if 'data-revenue-route="aruku-web"' not in page_text:
+                    errors.append(f"aruku review funnel marker missing: {rel_path}")
+                else:
+                    aruku_funnel_count += 1
+                if "/ja/website-builders/aruku-web-production-review/" not in page_text:
+                    errors.append(f"aruku review funnel link missing: {rel_path}")
+        stats["aruku_a8_links_total"] = aruku_links_total
+        stats["aruku_a8_pixels_total"] = aruku_pixels_total
+        stats["aruku_revenue_pages_checked"] = len(aruku_pages)
+        stats["aruku_funnel_pages_checked"] = aruku_funnel_count
+        if aruku_links_total != 12:
+            errors.append(f"aruku total A8 links should be 12: {aruku_links_total}")
+        if aruku_pixels_total != 12:
+            errors.append(f"aruku total tracking pixels should be 12: {aruku_pixels_total}")
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+CZDBFE+" not in analytics_text or "return 'aruku_web'" not in analytics_text:
+                errors.append("aruku affiliate provider inference missing in analytics-v5.0.0.js")
+
+        product_catalog_path = root / "product-catalog.json"
+        if product_catalog_path.is_file():
+            product_catalog_text = product_catalog_path.read_text(encoding="utf-8-sig")
+            aruku_pos = product_catalog_text.find('"id": "aruku-web"')
+            if aruku_pos < 0:
+                errors.append("aruku product catalog record missing")
+            else:
+                aruku_chunk = product_catalog_text[aruku_pos:aruku_pos+12000]
+                for required in ('"lastVerified": "2026-08-07"', '"ecommerce": true', '"mobile": true', "https://a-ru-ku.co.jp/about/"):
+                    if required not in aruku_chunk:
+                        errors.append(f"aruku product catalog marker missing: {required}")
+
+        aruku_category = root / "ja/website-builders/index.html"
+        if aruku_category.is_file():
+            category_text = aruku_category.read_text(encoding="utf-8-sig")
+            for slug in ("aruku-web-production-review", "aruku-web-production-pricing-guide", "aruku-vs-self-service-website", "aruku-web-production-guide"):
+                anchor = f'href="/ja/website-builders/{slug}/"'
+                pos = category_text.find(anchor)
+                if pos < 0 or "最終確認: 2026-08-07" not in category_text[pos:pos+1800]:
+                    errors.append(f"aruku current card date missing in website-builders index: {slug}")
+
+        if sitemap_path.is_file():
+            sitemap_text = sitemap_path.read_text(encoding="utf-8-sig")
+            for slug in ("aruku-web-production-review", "aruku-web-production-pricing-guide", "aruku-vs-self-service-website", "aruku-web-production-guide"):
+                marker = f"https://luqevora.com/ja/website-builders/{slug}/</loc>\n    <lastmod>2026-08-07</lastmod>"
+                if marker not in sitemap_text:
+                    errors.append(f"aruku sitemap lastmod is not current: {slug}")
+
+        # v5.5.1 kantan-chumon revenue-route checks
+        kantan_pages = (
+            "ja/store-dx/kantan-chumon-review/index.html",
+            "ja/store-dx/funfo-vs-kantan-chumon/index.html",
+            "ja/store-dx/restaurant-pos-vs-mobile-order/index.html",
+            "ja/store-dx/restaurant-pos-three-way-comparison/index.html",
+        )
+        kantan_support_pages = (
+            "ja/cashless-payments/pos-register-vs-cashless-payment/index.html",
+            "ja/store-dx/restaurant-pos-selection-guide/index.html",
+            "ja/store-dx/mobile-order-system-guide/index.html",
+            "ja/store-dx/small-restaurant-dx-guide/index.html",
+            "ja/store-dx/restaurant-inbound-order-guide/index.html",
+        )
+        kantan_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B84X2\+E2NXCQ\+3SPO\+7XSHSY"
+        kantan_pixel_pattern = r"https://www14\.a8\.net/0\.gif\?a8mat=4B84X2\+E2NXCQ\+3SPO\+7XSHSY"
+        kantan_links_total = 0
+        kantan_pixels_total = 0
+        for rel_path in kantan_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"kantan revenue page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            link_count = len(re.findall(kantan_a8_pattern, page_text))
+            pixel_count = len(re.findall(kantan_pixel_pattern, page_text))
+            kantan_links_total += link_count
+            kantan_pixels_total += pixel_count
+            if link_count != 3:
+                errors.append(f"kantan page should have exactly 3 A8 links: {rel_path}: {link_count}")
+            if pixel_count != 3:
+                errors.append(f"kantan page should have exactly 3 tracking pixels: {rel_path}: {pixel_count}")
+            for required in (
+                'data-affiliate-name="kantan_chumon"',
+                'data-product-name="かんたん注文"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "2026年9月30日",
+                "https://www.kantan-order.com/pricing_details/",
+                "https://www.kantan-order.com/pos_reji/",
+            ):
+                if required not in page_text:
+                    errors.append(f"kantan current marker missing in {rel_path}: {required}")
+            if "f.012grp.co.jp/wiz_kantanchumon_hojyokin" in page_text:
+                errors.append(f"legacy kantan Wiz subsidy source remains: {rel_path}")
+        stats["kantan_a8_links_total"] = kantan_links_total
+        stats["kantan_a8_pixels_total"] = kantan_pixels_total
+        stats["kantan_revenue_pages_checked"] = len(kantan_pages)
+        if kantan_links_total != 12:
+            errors.append(f"kantan total A8 links should be 12: {kantan_links_total}")
+        if kantan_pixels_total != 12:
+            errors.append(f"kantan total tracking pixels should be 12: {kantan_pixels_total}")
+
+        kantan_funnels = 0
+        for rel_path in kantan_support_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"kantan support page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            if re.search(kantan_a8_pattern, page_text):
+                errors.append(f"kantan support page should funnel internally, not direct A8: {rel_path}")
+            if 'data-revenue-route="kantan-chumon"' not in page_text or "/ja/store-dx/kantan-chumon-review/" not in page_text:
+                errors.append(f"kantan review funnel missing: {rel_path}")
+            else:
+                kantan_funnels += 1
+        stats["kantan_funnel_pages_checked"] = kantan_funnels
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+E2NXCQ+" not in analytics_text or "return 'kantan_chumon'" not in analytics_text:
+                errors.append("kantan affiliate provider inference missing in analytics-v5.0.0.js")
+
+        product_catalog_path = root / "product-catalog.json"
+        if product_catalog_path.is_file():
+            product_catalog_text = product_catalog_path.read_text(encoding="utf-8-sig")
+            pos = product_catalog_text.find('"id": "kantan-chumon"')
+            if pos < 0:
+                errors.append("kantan product catalog record missing")
+            else:
+                chunk = product_catalog_text[pos:pos+16000]
+                for required in ('"lastVerified": "2026-08-07"', "税込3,278円", "税込17,578円", "2026年9月30日", "https://home.kantan-order.com/"):
+                    if required not in chunk:
+                        errors.append(f"kantan product catalog marker missing: {required}")
+                if "f.012grp.co.jp/wiz_kantanchumon_hojyokin" in chunk:
+                    errors.append("legacy kantan Wiz subsidy source remains in product catalog")
+
+        kantan_product = root / "ja/products/kantan-chumon/index.html"
+        if kantan_product.is_file():
+            product_text = kantan_product.read_text(encoding="utf-8-sig")
+            for required in ("税込3,278円", "税込17,578円", "2026年9月30日", "1.98〜3.24%", "2026-08-07"):
+                if required not in product_text:
+                    errors.append(f"kantan product page marker missing: {required}")
+
+        if sitemap_path.is_file():
+            sitemap_text = sitemap_path.read_text(encoding="utf-8-sig")
+            for rel_path in kantan_pages + kantan_support_pages:
+                url = "https://luqevora.com/" + rel_path[:-10]
+                marker = f"{url}</loc>\n    <lastmod>2026-08-07</lastmod>"
+                if marker not in sitemap_text:
+                    errors.append(f"kantan sitemap lastmod is not current: {rel_path}")
+
+        # v5.5.2 3D Phantom revenue-route checks
+        phantom_pages = (
+            "ja/store-dx/3d-phantom-review/index.html",
+            "ja/store-dx/3d-phantom-pricing-guide/index.html",
+            "ja/store-dx/3d-phantom-implementation-guide/index.html",
+            "ja/store-dx/3d-phantom-installation-checklist/index.html",
+            "ja/store-dx/3d-phantom-vs-digital-signage/index.html",
+        )
+        phantom_generic_page = "ja/store-dx/3d-signage-vs-digital-signage/index.html"
+        phantom_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B86H1\+VK0M2\+3SPO\+99F676"
+        phantom_pixel_pattern = r"https://www12\.a8\.net/0\.gif\?a8mat=4B86H1\+VK0M2\+3SPO\+99F676"
+        phantom_links_total = 0
+        phantom_pixels_total = 0
+        for rel_path in phantom_pages:
+            page = root / rel_path
+            if not page.is_file():
+                errors.append(f"3D Phantom revenue page missing: {rel_path}")
+                continue
+            page_text = page.read_text(encoding="utf-8-sig")
+            link_count = len(re.findall(phantom_a8_pattern, page_text))
+            pixel_count = len(re.findall(phantom_pixel_pattern, page_text))
+            phantom_links_total += link_count
+            phantom_pixels_total += pixel_count
+            if link_count != 3:
+                errors.append(f"3D Phantom page should have exactly 3 A8 links: {rel_path}: {link_count}")
+            if pixel_count != 3:
+                errors.append(f"3D Phantom page should have exactly 3 tracking pixels: {rel_path}: {pixel_count}")
+            for required in (
+                'data-affiliate-name="wiz_3d_phantom"',
+                "2026年8月7日",
+                "https://phantom-3d.net/",
+                "https://phantom-3d.net/public-lp/",
+                "https://lifeis.style/services/3d-phantom/",
+            ):
+                if required not in page_text:
+                    errors.append(f"3D Phantom current marker missing in {rel_path}: {required}")
+            if "wiz_3dphantom_hojokin" in page_text:
+                errors.append(f"legacy 3D Phantom Wiz subsidy source remains: {rel_path}")
+
+        generic_path = root / phantom_generic_page
+        if generic_path.is_file():
+            generic_text = generic_path.read_text(encoding="utf-8-sig")
+            generic_links = len(re.findall(phantom_a8_pattern, generic_text))
+            generic_pixels = len(re.findall(phantom_pixel_pattern, generic_text))
+            phantom_links_total += generic_links
+            phantom_pixels_total += generic_pixels
+            if generic_links != 1 or generic_pixels != 1:
+                errors.append(f"3D generic comparison should keep exactly 1 A8 link/pixel: {generic_links}/{generic_pixels}")
+            if 'data-revenue-route="3d-phantom"' not in generic_text or "/ja/store-dx/3d-phantom-review/" not in generic_text:
+                errors.append("3D generic comparison review funnel missing")
+        else:
+            errors.append(f"3D generic comparison page missing: {phantom_generic_page}")
+
+        stats["phantom_a8_links_total"] = phantom_links_total
+        stats["phantom_a8_pixels_total"] = phantom_pixels_total
+        stats["phantom_revenue_pages_checked"] = len(phantom_pages)
+        stats["phantom_funnel_pages_checked"] = 1
+        if phantom_links_total != 16:
+            errors.append(f"3D Phantom total A8 links should be 16: {phantom_links_total}")
+        if phantom_pixels_total != 16:
+            errors.append(f"3D Phantom total tracking pixels should be 16: {phantom_pixels_total}")
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+VK0M2+" not in analytics_text or "return 'wiz_3d_phantom'" not in analytics_text:
+                errors.append("3D Phantom affiliate provider inference missing in analytics-v5.0.0.js")
+
+        if product_catalog_path.is_file():
+            product_catalog_text = product_catalog_path.read_text(encoding="utf-8-sig")
+            pos = product_catalog_text.find('"id": "3d-phantom"')
+            if pos < 0:
+                errors.append("3D Phantom product catalog record missing")
+            else:
+                chunk = product_catalog_text[pos:pos+12000]
+                for required in ('"lastVerified": "2026-08-07"', "オープン価格", "最短1日", "Phantom Cloud", "https://lifeis.style/services/3d-phantom/"):
+                    if required not in chunk:
+                        errors.append(f"3D Phantom product catalog marker missing: {required}")
+                if "wiz_3dphantom_hojokin" in chunk:
+                    errors.append("legacy 3D Phantom Wiz subsidy source remains in product catalog")
+
+        if sitemap_path.is_file():
+            sitemap_text = sitemap_path.read_text(encoding="utf-8-sig")
+            for rel_path in phantom_pages + (phantom_generic_page,):
+                url = "https://luqevora.com/" + rel_path[:-10]
+                marker = f"{url}</loc>\n    <lastmod>2026-08-07</lastmod>"
+                if marker not in sitemap_text:
+                    errors.append(f"3D Phantom sitemap lastmod is not current: {rel_path}")
+
+
+        # v5.5.3 SUIKA Team IP revenue-route checks
+        suika_team_page = "ja/hosting-security/fixed-ip-vpn-for-teams/index.html"
+        suika_team_support_pages = (
+            "ja/hosting-security/suika-vpn-review/index.html",
+            "ja/hosting-security/millenvpn-review/index.html",
+        )
+        suika_team_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B88SX\+5YDLM\+4R3G\+BWVTE"
+        suika_team_pixel_pattern = r"https://www10\.a8\.net/0\.gif\?a8mat=4B88SX\+5YDLM\+4R3G\+BWVTE"
+        suika_team_path = root / suika_team_page
+        suika_team_links = 0
+        suika_team_pixels = 0
+        if suika_team_path.is_file():
+            team_text = suika_team_path.read_text(encoding="utf-8-sig")
+            suika_team_links = len(re.findall(suika_team_a8_pattern, team_text))
+            suika_team_pixels = len(re.findall(suika_team_pixel_pattern, team_text))
+            if suika_team_links != 3:
+                errors.append(f"SUIKA Team IP page should have exactly 3 A8 links: {suika_team_links}")
+            if suika_team_pixels != 3:
+                errors.append(f"SUIKA Team IP page should have exactly 3 tracking pixels: {suika_team_pixels}")
+            for required in (
+                'data-affiliate-name="suika_team_ip"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "23,500円（税込25,850円）",
+                "19,600円（税込21,560円）",
+                "30,500円（税込33,550円）",
+                "最大200アカウント",
+                "https://suika-tip.com/",
+                "https://www.suika-v4.com/tip/",
+            ):
+                if required not in team_text:
+                    errors.append(f"SUIKA Team IP current marker missing: {required}")
+            if "https://www.suika-ad.com/" in team_text:
+                errors.append("legacy SUIKA Team IP source remains: suika-ad.com")
+        else:
+            errors.append(f"SUIKA Team IP revenue page missing: {suika_team_page}")
+        stats["suika_team_ip_a8_links"] = suika_team_links
+        stats["suika_team_ip_a8_pixels"] = suika_team_pixels
+
+        suika_team_funnels = 0
+        for rel_path in suika_team_support_pages:
+            page = root / rel_path
+            if not page.is_file():
+                errors.append(f"SUIKA Team IP support page missing: {rel_path}")
+                continue
+            support_text = page.read_text(encoding="utf-8-sig")
+            if re.search(suika_team_a8_pattern, support_text):
+                errors.append(f"SUIKA Team IP support page should use internal funnel, not direct A8: {rel_path}")
+            if 'data-revenue-route="suika-team-ip"' not in support_text or "/ja/hosting-security/fixed-ip-vpn-for-teams/" not in support_text:
+                errors.append(f"SUIKA Team IP internal funnel missing: {rel_path}")
+            else:
+                suika_team_funnels += 1
+        stats["suika_team_ip_funnel_pages_checked"] = suika_team_funnels
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+5YDLM+" not in analytics_text or "return 'suika_team_ip'" not in analytics_text:
+                errors.append("SUIKA Team IP affiliate provider inference missing in analytics-v5.0.0.js")
+
+        search_index_path = root / "search-index.json"
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "SUIKA VPN Team IP Serviceレビュー｜固定IP・料金・20〜200アカウントを確認" not in search_text:
+                errors.append("SUIKA Team IP search-index title not updated")
+
+        if sitemap_path.is_file():
+            sitemap_text = sitemap_path.read_text(encoding="utf-8-sig")
+            for rel_path in (suika_team_page,) + suika_team_support_pages:
+                url = "https://luqevora.com/" + rel_path[:-10]
+                marker = f"{url}</loc>\n    <lastmod>2026-08-07</lastmod>"
+                if marker not in sitemap_text:
+                    errors.append(f"SUIKA Team IP sitemap lastmod is not current: {rel_path}")
+
+        # v5.5.4 corporate-smartphone.com revenue-route checks
+        corporate_page = "ja/mobile-connectivity/corporate-smartphone-com-review/index.html"
+        corporate_path = root / corporate_page
+        corporate_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B88SW\+G3AT5M\+2BZM\+1THW9E"
+        corporate_pixel_pattern = r"https://www17\.a8\.net/0\.gif\?a8mat=4B88SW\+G3AT5M\+2BZM\+1THW9E"
+        corporate_links = 0
+        corporate_pixels = 0
+        if corporate_path.is_file():
+            corporate_text = corporate_path.read_text(encoding="utf-8-sig")
+            corporate_links = len(re.findall(corporate_a8_pattern, corporate_text))
+            corporate_pixels = len(re.findall(corporate_pixel_pattern, corporate_text))
+            if corporate_links != 3:
+                errors.append(f"Corporate Smartphone page should have exactly 3 A8 links: {corporate_links}")
+            if corporate_pixels != 3:
+                errors.append(f"Corporate Smartphone page should have exactly 3 tracking pixels: {corporate_pixels}")
+            for required in (
+                'data-affiliate-name="corporate_smartphone_com"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "SoftBank取扱店",
+                "2,750円",
+                "14か月目以降",
+                "3,278円",
+                "基本料金6か月無料",
+                "最短1日",
+                "https://houjinsumaho.com/",
+                "開通18,000円",
+            ):
+                if required not in corporate_text:
+                    errors.append(f"Corporate Smartphone current marker missing: {required}")
+        else:
+            errors.append(f"Corporate Smartphone revenue page missing: {corporate_page}")
+        stats["corporate_smartphone_a8_links"] = corporate_links
+        stats["corporate_smartphone_a8_pixels"] = corporate_pixels
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+G3AT5M+2BZM+" not in analytics_text or "return 'corporate_smartphone_com'" not in analytics_text:
+                errors.append("Corporate Smartphone affiliate provider inference missing in analytics-v5.0.0.js")
+
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "法人スマホ.comレビュー｜SoftBank法人携帯の料金・初期費用・見積前チェック" not in search_text:
+                errors.append("Corporate Smartphone search-index title not updated")
+
+        if sitemap_path.is_file():
+            sitemap_text = sitemap_path.read_text(encoding="utf-8-sig")
+            url = "https://luqevora.com/ja/mobile-connectivity/corporate-smartphone-com-review/"
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                errors.append("Corporate Smartphone sitemap lastmod is not current")
+
+        # v5.5.5 EMEAO POS revenue-route checks
+        emeao_pos_page = "ja/store-dx/emeao-pos-review/index.html"
+        emeao_pos_support_pages = (
+            "ja/store-dx/restaurant-pos-three-way-comparison/index.html",
+            "ja/store-dx/restaurant-pos-selection-guide/index.html",
+            "ja/store-dx/pos-subsidy-2026-guide/index.html",
+            "ja/cashless-payments/pos-register-vs-cashless-payment/index.html",
+            "ja/store-dx/restaurant-pos-vs-mobile-order/index.html",
+            "ja/store-dx/funfo-vs-kantan-chumon/index.html",
+            "ja/cashless-payments/air-regi-vs-square-pos/index.html",
+        )
+        emeao_pos_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B84X2\+EFRGNU\+2LHA\+HVFKY"
+        emeao_pos_pixel_pattern = r"https://www14\.a8\.net/0\.gif\?a8mat=4B84X2\+EFRGNU\+2LHA\+HVFKY"
+        emeao_pos_path = root / emeao_pos_page
+        emeao_pos_links = 0
+        emeao_pos_pixels = 0
+        if emeao_pos_path.is_file():
+            page_text = emeao_pos_path.read_text(encoding="utf-8-sig")
+            emeao_pos_links = len(re.findall(emeao_pos_a8_pattern, page_text))
+            emeao_pos_pixels = len(re.findall(emeao_pos_pixel_pattern, page_text))
+            if emeao_pos_links != 3:
+                errors.append(f"EMEAO POS review should have exactly 3 A8 links: {emeao_pos_links}")
+            if emeao_pos_pixels != 3:
+                errors.append(f"EMEAO POS review should have exactly 3 tracking pixels: {emeao_pos_pixels}")
+            for required in (
+                'data-affiliate-name="emeao_pos"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "完全無料",
+                "最大8社",
+                "契約を見送",
+                "平均3営業日以内",
+                "https://emeao.jp/pos-lp3/",
+                "https://emeao.jp/pos-lp2/",
+            ):
+                if required not in page_text:
+                    errors.append(f"EMEAO POS current marker missing: {required}")
+            if "+HVNAQ" in page_text:
+                errors.append("EMEAO POS legacy secondary A8 creative remains")
+        else:
+            errors.append(f"EMEAO POS review missing: {emeao_pos_page}")
+        stats["emeao_pos_a8_links"] = emeao_pos_links
+        stats["emeao_pos_a8_pixels"] = emeao_pos_pixels
+
+        emeao_pos_funnels = 0
+        for rel_path in emeao_pos_support_pages:
+            page = root / rel_path
+            if not page.is_file():
+                errors.append(f"EMEAO POS support page missing: {rel_path}")
+                continue
+            page_text = page.read_text(encoding="utf-8-sig")
+            if re.search(emeao_pos_a8_pattern, page_text) or "+EFRGNU+2LHA+" in page_text:
+                errors.append(f"EMEAO POS support page should funnel internally, not direct A8: {rel_path}")
+            if 'data-revenue-route="emeao-pos"' not in page_text or "/ja/store-dx/emeao-pos-review/" not in page_text:
+                errors.append(f"EMEAO POS internal funnel missing: {rel_path}")
+            else:
+                emeao_pos_funnels += 1
+        stats["emeao_pos_funnel_pages_checked"] = emeao_pos_funnels
+
+        emeao_pos_topic = root / "ja/topics/restaurant-pos-orders/index.html"
+        if not emeao_pos_topic.is_file():
+            errors.append("EMEAO POS topic page missing")
+        else:
+            topic_text = emeao_pos_topic.read_text(encoding="utf-8-sig")
+            if 'data-revenue-route="emeao-pos"' not in topic_text or "/ja/store-dx/emeao-pos-review/" not in topic_text:
+                errors.append("EMEAO POS topic revenue route missing")
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+EFRGNU+2LHA+" not in analytics_text or "return 'emeao_pos'" not in analytics_text:
+                errors.append("EMEAO POS affiliate provider inference missing in analytics-v5.0.0.js")
+
+        if product_catalog_path.is_file():
+            product_catalog_text = product_catalog_path.read_text(encoding="utf-8-sig")
+            pos = product_catalog_text.find('"id": "emeao-pos"')
+            if pos < 0:
+                errors.append("EMEAO POS product catalog record missing")
+            else:
+                chunk = product_catalog_text[pos:pos+16000]
+                for required in ('"lastVerified": "2026-08-07"', "完全無料", "最大8社", "契約見送り", "平均3営業日以内", "https://emeao.jp/pos-lp3/"):
+                    if required not in chunk:
+                        errors.append(f"EMEAO POS product catalog marker missing: {required}")
+
+        emeao_pos_product = root / "ja/products/emeao-pos/index.html"
+        if emeao_pos_product.is_file():
+            product_text = emeao_pos_product.read_text(encoding="utf-8-sig")
+            for required in ("完全無料", "最大8社", "契約を見送", "2026-08-07", "https://emeao.jp/pos-lp3/"):
+                if required not in product_text:
+                    errors.append(f"EMEAO POS product page marker missing: {required}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for rel_path in (emeao_pos_page,) + emeao_pos_support_pages:
+                url = "https://luqevora.com/" + rel_path[:-10]
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"EMEAO POS article sitemap lastmod is not current: {rel_path}")
+
+        topics_ja_path = root / "sitemaps/topics-ja.xml"
+        if topics_ja_path.is_file():
+            topics_text = topics_ja_path.read_text(encoding="utf-8-sig")
+            topic_url = "https://luqevora.com/ja/topics/restaurant-pos-orders/"
+            if not re.search(re.escape(topic_url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", topics_text):
+                errors.append("EMEAO POS topic sitemap lastmod is not current")
+
+        # v5.5.6 BIGLOBE Hikari revenue-route checks
+        biglobe_page = "ja/mobile-connectivity/biglobe-hikari-review/index.html"
+        biglobe_compare = "ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/index.html"
+        biglobe_internal = "ja/mobile-connectivity/home-router-vs-mobile-plan/index.html"
+        biglobe_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B88SW\+G5OJKQ\+3HKU\+1BMW42"
+        biglobe_pixel_pattern = r"https://www17\.a8\.net/0\.gif\?a8mat=4B88SW\+G5OJKQ\+3HKU\+1BMW42"
+        biglobe_links = 0
+        biglobe_pixels = 0
+        biglobe_path = root / biglobe_page
+        if biglobe_path.is_file():
+            page_text = biglobe_path.read_text(encoding="utf-8-sig")
+            biglobe_links = len(re.findall(biglobe_a8_pattern, page_text))
+            biglobe_pixels = len(re.findall(biglobe_pixel_pattern, page_text))
+            if biglobe_links != 3:
+                errors.append(f"BIGLOBE review should have exactly 3 A8 links: {biglobe_links}")
+            if biglobe_pixels != 3:
+                errors.append(f"BIGLOBE review should have exactly 3 A8 pixels: {biglobe_pixels}")
+            for required in (
+                'data-affiliate-name="biglobe_hikari_aun"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日", "30,000円", "50,000円", "35,000円", "55,000円",
+                "8カ月", "12カ月目", "最大28,600円", "4,620円",
+                "https://aun-biglobe.com/campaign/three_year_plan_campaign.php",
+                "https://join.biglobe.ne.jp/ftth/hikari/campaign/",
+            ):
+                if required not in page_text:
+                    errors.append(f"BIGLOBE current marker missing: {required}")
+        else:
+            errors.append(f"BIGLOBE review missing: {biglobe_page}")
+        stats["biglobe_review_a8_links"] = biglobe_links
+        stats["biglobe_review_a8_pixels"] = biglobe_pixels
+
+        compare_path = root / biglobe_compare
+        if compare_path.is_file():
+            compare_text = compare_path.read_text(encoding="utf-8-sig")
+            if len(re.findall(biglobe_a8_pattern, compare_text)) != 1:
+                errors.append("BIGLOBE fiber comparison should have exactly 1 direct A8 link")
+            if len(re.findall(biglobe_pixel_pattern, compare_text)) != 1:
+                errors.append("BIGLOBE fiber comparison should have exactly 1 A8 pixel")
+            if 'data-revenue-route="biglobe-hikari"' not in compare_text or "/ja/mobile-connectivity/biglobe-hikari-review/" not in compare_text:
+                errors.append("BIGLOBE fiber comparison revenue route missing")
+        else:
+            errors.append(f"BIGLOBE comparison missing: {biglobe_compare}")
+
+        internal_path = root / biglobe_internal
+        if internal_path.is_file():
+            internal_text = internal_path.read_text(encoding="utf-8-sig")
+            if re.search(biglobe_a8_pattern, internal_text):
+                errors.append("BIGLOBE home-router comparison should funnel internally, not direct A8")
+            if 'data-revenue-route="biglobe-hikari"' not in internal_text or "/ja/mobile-connectivity/biglobe-hikari-review/" not in internal_text:
+                errors.append("BIGLOBE home-router internal funnel missing")
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+G5OJKQ+3HKU+" not in analytics_text or "return 'biglobe_hikari_aun'" not in analytics_text:
+                errors.append("BIGLOBE affiliate provider inference missing in analytics-v5.0.0.js")
+
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "BIGLOBE光レビュー｜料金・工事費・キャッシュバック条件を比較" not in search_text:
+                errors.append("BIGLOBE search-index title not updated")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for rel_path in (biglobe_page, biglobe_compare, biglobe_internal):
+                url = "https://luqevora.com/" + rel_path[:-10]
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"BIGLOBE article sitemap lastmod is not current: {rel_path}")
+
+        # v5.5.7 Wiz inbound-package revenue-route checks
+        inbound_pages = (
+            "ja/store-dx/inbound-package-review/index.html",
+            "ja/store-dx/inbound-package-pricing-guide/index.html",
+            "ja/store-dx/inbound-package-vs-separate-tools/index.html",
+            "ja/store-dx/inbound-package-implementation-guide/index.html",
+        )
+        inbound_support_pages = (
+            "ja/store-dx/multilingual-restaurant-website-checklist/index.html",
+            "ja/store-dx/restaurant-inbound-dx-checklist/index.html",
+        )
+        inbound_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B86H1\+A4EU2\+3SPO\+AWYAZ6"
+        inbound_pixel_pattern = r"https://www18\.a8\.net/0\.gif\?a8mat=4B86H1\+A4EU2\+3SPO\+AWYAZ6"
+        inbound_links_total = 0
+        inbound_pixels_total = 0
+        for rel_path in inbound_pages:
+            page_path = root / rel_path
+            if not page_path.is_file():
+                errors.append(f"Inbound revenue page missing: {rel_path}")
+                continue
+            page_text = page_path.read_text(encoding="utf-8-sig")
+            link_count = len(re.findall(inbound_a8_pattern, page_text))
+            pixel_count = len(re.findall(inbound_pixel_pattern, page_text))
+            inbound_links_total += link_count
+            inbound_pixels_total += pixel_count
+            if link_count != 3:
+                errors.append(f"Inbound revenue page should have exactly 3 A8 links: {rel_path} ({link_count})")
+            if pixel_count != 3:
+                errors.append(f"Inbound revenue page should have exactly 3 A8 pixels: {rel_path} ({pixel_count})")
+            for required in (
+                'data-affiliate-name="wiz_inbound_package"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                'data-revenue-route="inbound-package"',
+                "2026年8月7日",
+                "交付決定前",
+                "https://f.012grp.co.jp/wiz_snsInbound_hojyokin",
+                "https://www.tcvb.or.jp/jp/project/infra/welcome-foreigner/",
+            ):
+                if required not in page_text:
+                    errors.append(f"Inbound current marker missing in {rel_path}: {required}")
+            if "前年度売上500万円" in page_text or "売上など対象条件" in page_text:
+                errors.append(f"Inbound stale subsidy/affiliate condition remains: {rel_path}")
+
+        stats["inbound_package_a8_links_total"] = inbound_links_total
+        stats["inbound_package_a8_pixels_total"] = inbound_pixels_total
+        stats["inbound_package_revenue_pages_checked"] = len(inbound_pages)
+        if inbound_links_total != 12:
+            errors.append(f"Inbound package total A8 links should be 12: {inbound_links_total}")
+        if inbound_pixels_total != 12:
+            errors.append(f"Inbound package total A8 pixels should be 12: {inbound_pixels_total}")
+
+        inbound_funnels = 0
+        for rel_path in inbound_support_pages:
+            page_path = root / rel_path
+            if not page_path.is_file():
+                errors.append(f"Inbound funnel page missing: {rel_path}")
+                continue
+            page_text = page_path.read_text(encoding="utf-8-sig")
+            if re.search(inbound_a8_pattern, page_text) or "+A4EU2+3SPO+" in page_text:
+                errors.append(f"Inbound generic support page should funnel internally, not direct A8: {rel_path}")
+            if 'data-revenue-route="inbound-package"' not in page_text or "/ja/store-dx/inbound-package-review/" not in page_text:
+                errors.append(f"Inbound internal funnel missing: {rel_path}")
+            else:
+                inbound_funnels += 1
+        stats["inbound_package_funnel_pages_checked"] = inbound_funnels
+
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+A4EU2+" not in analytics_text or "return 'wiz_inbound_package'" not in analytics_text:
+                errors.append("Inbound package affiliate provider inference missing in analytics-v5.0.0.js")
+
+        if product_catalog_path.is_file():
+            product_catalog_text = product_catalog_path.read_text(encoding="utf-8-sig")
+            pos = product_catalog_text.find('"id": "inbound-package"')
+            if pos < 0:
+                errors.append("Inbound package product-catalog entry missing")
+            else:
+                chunk = product_catalog_text[pos:pos + 9000]
+                for required in (
+                    '"lastVerified": "2026-08-07"',
+                    "原則1/2以内",
+                    "多言語対応は2/3以内",
+                    "1店舗上限300万円",
+                    "2027年3月31日",
+                    "https://www.tcvb.or.jp/jp/project/infra/welcome-foreigner/",
+                ):
+                    if required not in chunk:
+                        errors.append(f"Inbound product-catalog current marker missing: {required}")
+                if "前年度売上500万円" in chunk:
+                    errors.append("Inbound product-catalog stale A8 condition remains")
+
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "2026年度東京都補助金の条件" not in search_text or "交付決定前発注の注意点" not in search_text:
+                errors.append("Inbound search-index descriptions not updated")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for rel_path in inbound_pages + inbound_support_pages:
+                url = "https://luqevora.com/" + rel_path[:-10]
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"Inbound article sitemap lastmod is not current: {rel_path}")
+
+        topics_ja_path = root / "sitemaps/topics-ja.xml"
+        if topics_ja_path.is_file():
+            topics_text = topics_ja_path.read_text(encoding="utf-8-sig")
+            topic_url = "https://luqevora.com/ja/topics/restaurant-dx-operations/"
+            if not re.search(re.escape(topic_url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", topics_text):
+                errors.append("Inbound restaurant-DX topic sitemap lastmod is not current")
+
+
+        # v5.5.8 Goope revenue-route checks
+        goope_pages = (
+            "ja/website-builders/goope-review/index.html",
+            "ja/website-builders/goope-vs-wix/index.html",
+            "ja/website-builders/store-website-builder-comparison/index.html",
+            "ja/website-builders/reservation-website-builder-comparison/index.html",
+            "ja/website-builders/beauty-salon-website-builder-comparison/index.html",
+        )
+        goope_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B844Z\+AM8BX6\+348\+[A-Z0-9]+"
+        goope_pixel_pattern = r"https://www\d+\.a8\.net/0\.gif\?a8mat=4B844Z\+AM8BX6\+348\+[A-Z0-9]+"
+        goope_links_total = 0
+        goope_pixels_total = 0
+        goope_funnels = 0
+        for rel_path in goope_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"Goope revenue page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            a8_count = len(re.findall(goope_a8_pattern, page_text))
+            pixel_count = len(re.findall(goope_pixel_pattern, page_text))
+            goope_links_total += a8_count
+            goope_pixels_total += pixel_count
+            if a8_count != 3:
+                errors.append(f"Goope page should have exactly 3 A8 links: {rel_path}: {a8_count}")
+            if pixel_count != 3:
+                errors.append(f"Goope page should have exactly 3 A8 pixels: {rel_path}: {pixel_count}")
+            for required in (
+                'data-affiliate-name="goope"',
+                'data-product-name="グーペ"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "https://goope.jp/service/price/",
+                "https://goope.jp/info/information/?date=2026-03",
+                "https://goope.jp/info/information/?date=2026-04",
+            ):
+                if required not in page_text:
+                    errors.append(f"Goope revenue marker missing in {rel_path}: {required}")
+            if rel_path != "ja/website-builders/goope-review/index.html":
+                if 'data-revenue-route="goope"' not in page_text or "/ja/website-builders/goope-review/" not in page_text:
+                    errors.append(f"Goope review funnel missing: {rel_path}")
+                else:
+                    goope_funnels += 1
+        stats["goope_a8_links_total"] = goope_links_total
+        stats["goope_a8_pixels_total"] = goope_pixels_total
+        stats["goope_revenue_pages_checked"] = len(goope_pages)
+        stats["goope_funnel_pages_checked"] = goope_funnels
+        if goope_links_total != 15 or goope_pixels_total != 15:
+            errors.append(f"Goope total A8 links/pixels should be 15/15: {goope_links_total}/{goope_pixels_total}")
+
+        goope_review = root / "ja/website-builders/goope-review/index.html"
+        if goope_review.is_file():
+            review_text = goope_review.read_text(encoding="utf-8-sig")
+            for required in ("1,331円（税込）", "3,993円（税込）", "1,996円（税込）", "4,658円（税込）", "3,630円（税込）", "15日間", "メールマガジン機能は2026年6月30日"):
+                if required not in review_text:
+                    errors.append(f"Goope current review marker missing: {required}")
+
+        goope_support = root / "ja/website-builders/ochanoko-saisai-vs-goope/index.html"
+        if goope_support.is_file():
+            support_text = goope_support.read_text(encoding="utf-8-sig")
+            if re.search(goope_a8_pattern, support_text):
+                errors.append("Ochanoko vs Goope should funnel internally to Goope review, not direct Goope A8")
+            if 'data-revenue-route="goope"' not in support_text or "/ja/website-builders/goope-review/" not in support_text:
+                errors.append("Ochanoko vs Goope internal Goope funnel missing")
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+AM8BX6+348+" not in analytics_text or "return 'goope'" not in analytics_text:
+                errors.append("Goope affiliate provider inference missing in analytics-v5.0.0.js")
+
+        product_catalog_path = root / "product-catalog.json"
+        if product_catalog_path.is_file():
+            product_catalog_text = product_catalog_path.read_text(encoding="utf-8-sig")
+            pos = product_catalog_text.find('"id": "goope"')
+            if pos < 0:
+                errors.append("Goope product-catalog entry missing")
+            else:
+                chunk = product_catalog_text[pos:pos + 12000]
+                for required in ('"lastVerified": "2026-08-07"', "2026年4月改定後", "1,331円", "3,993円", "メールマガジン機能は2026年6月30日", "2026-03", "2026-04"):
+                    if required not in chunk:
+                        errors.append(f"Goope product-catalog current marker missing: {required}")
+
+        diagnosis_path = root / "ja/diagnosis/index.html"
+        if diagnosis_path.is_file():
+            diagnosis_text = diagnosis_path.read_text(encoding="utf-8-sig")
+            pos = diagnosis_text.find('{"id":"goope"')
+            if pos < 0:
+                errors.append("Goope diagnosis product record missing")
+            else:
+                chunk = diagnosis_text[pos:pos + 12000]
+                for required in ('"lastVerified":"2026-08-07"', "2026年4月改定後", "1,331円", "3,993円", "メールマガジン機能は2026年6月30日"):
+                    if required not in chunk:
+                        errors.append(f"Goope diagnosis marker missing: {required}")
+
+        goope_product = root / "ja/products/goope/index.html"
+        if goope_product.is_file():
+            product_text = goope_product.read_text(encoding="utf-8-sig")
+            for required in ("2026-08-07", 'data-revenue-route="goope"', "/ja/website-builders/goope-review/", "7</strong><span>公式出典", "メールマガジン機能は2026年6月30日"):
+                if required not in product_text:
+                    errors.append(f"Goope product hub marker missing: {required}")
+
+        search_index_path = root / "search-index.json"
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "グーペを2026年4月1日改定後の料金" not in search_text:
+                errors.append("Goope search-index current description missing")
+
+        for rel_path in ("ja/website-builders/index.html", "ja/topics/website-builders/index.html", "ja/articles/index.html"):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                for slug in ("goope-review", "goope-vs-wix", "store-website-builder-comparison", "reservation-website-builder-comparison", "beauty-salon-website-builder-comparison", "ochanoko-saisai-vs-goope"):
+                    anchor = f'href="/ja/website-builders/{slug}/"'
+                    pos = page_text.find(anchor)
+                    if pos < 0 or "最終確認: 2026-08-07" not in page_text[pos:pos+1800]:
+                        errors.append(f"Goope current card date missing: {rel_path}: {slug}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for slug in ("goope-review", "goope-vs-wix", "store-website-builder-comparison", "reservation-website-builder-comparison", "beauty-salon-website-builder-comparison", "ochanoko-saisai-vs-goope"):
+                url = f"https://luqevora.com/ja/website-builders/{slug}/"
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"Goope article sitemap lastmod is not current: {slug}")
+
+        pages_path = root / "sitemaps/pages.xml"
+        if pages_path.is_file():
+            pages_text = pages_path.read_text(encoding="utf-8-sig")
+            url = "https://luqevora.com/ja/products/goope/"
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", pages_text):
+                errors.append("Goope product sitemap lastmod is not current")
+
+
+        # v5.5.9 iCLUSTA revenue-route checks
+        iclusta_pages = (
+            "ja/hosting-security/iclusta-review/index.html",
+            "ja/hosting-security/iclusta-vs-cpi/index.html",
+            "ja/hosting-security/iclusta-vs-xserver-for-wordpress/index.html",
+            "ja/hosting-security/iclusta-movable-type-hosting/index.html",
+        )
+        iclusta_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B8450\+EDZ5UI\+2KX0\+[A-Z0-9]+"
+        iclusta_pixel_pattern = r"https://www\d+\.a8\.net/0\.gif\?a8mat=4B8450\+EDZ5UI\+2KX0\+[A-Z0-9]+"
+        iclusta_links_total = 0
+        iclusta_pixels_total = 0
+        iclusta_funnels = 0
+        for rel_path in iclusta_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"iCLUSTA revenue page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            a8_count = len(re.findall(iclusta_a8_pattern, page_text))
+            pixel_count = len(re.findall(iclusta_pixel_pattern, page_text))
+            iclusta_links_total += a8_count
+            iclusta_pixels_total += pixel_count
+            if a8_count != 3:
+                errors.append(f"iCLUSTA page should have exactly 3 A8 links: {rel_path}: {a8_count}")
+            if pixel_count != 3:
+                errors.append(f"iCLUSTA page should have exactly 3 A8 pixels: {rel_path}: {pixel_count}")
+            for required in (
+                'data-affiliate-name="iclusta_gmocloud"',
+                'data-product-name="iCLUSTA+ byGMO"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "https://shared.gmocloud.com/iclusta/price/",
+                "https://shared.gmocloud.com/iclusta/sla/",
+                "https://shared.gmocloud.com/30day.html",
+                "https://shared.gmocloud.com/iclusta/price/surcharge/",
+            ):
+                if required not in page_text:
+                    errors.append(f"iCLUSTA revenue marker missing in {rel_path}: {required}")
+            if rel_path != "ja/hosting-security/iclusta-review/index.html":
+                if 'data-revenue-route="iclusta"' not in page_text or "/ja/hosting-security/iclusta-review/" not in page_text:
+                    errors.append(f"iCLUSTA review funnel missing: {rel_path}")
+                else:
+                    iclusta_funnels += 1
+        stats["iclusta_a8_links_total"] = iclusta_links_total
+        stats["iclusta_a8_pixels_total"] = iclusta_pixels_total
+        stats["iclusta_revenue_pages_checked"] = len(iclusta_pages)
+        stats["iclusta_funnel_pages_checked"] = iclusta_funnels
+        if iclusta_links_total != 12 or iclusta_pixels_total != 12:
+            errors.append(f"iCLUSTA total A8 links/pixels should be 12/12: {iclusta_links_total}/{iclusta_pixels_total}")
+
+        iclusta_review = root / "ja/hosting-security/iclusta-review/index.html"
+        if iclusta_review.is_file():
+            review_text = iclusta_review.read_text(encoding="utf-8-sig")
+            for required in ("1,027円", "1,155円", "1,947円", "1,446円", "2,179円", "3,646円", "5,500円", "サーチャージ", "22,000円/回", "30日間全額返金保証"):
+                if required not in review_text:
+                    errors.append(f"iCLUSTA current review marker missing: {required}")
+
+        mt_article = root / "ja/hosting-security/iclusta-movable-type-hosting/index.html"
+        if mt_article.is_file():
+            mt_text = mt_article.read_text(encoding="utf-8-sig")
+            for required in ("Movable Type 9", "44,000円/年", "初期1,100円", "月額1,100円"):
+                if required not in mt_text:
+                    errors.append(f"iCLUSTA Movable Type current marker missing: {required}")
+
+        sla_support = root / "ja/hosting-security/business-hosting-sla-comparison/index.html"
+        if sla_support.is_file():
+            support_text = sla_support.read_text(encoding="utf-8-sig")
+            if re.search(iclusta_a8_pattern, support_text):
+                errors.append("Business hosting SLA comparison should funnel internally to iCLUSTA review, not direct iCLUSTA A8")
+            if 'data-revenue-route="iclusta"' not in support_text or "/ja/hosting-security/iclusta-review/" not in support_text:
+                errors.append("Business hosting SLA comparison iCLUSTA internal funnel missing")
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+EDZ5UI+2KX0+" not in analytics_text or "return 'iclusta_gmocloud'" not in analytics_text:
+                errors.append("iCLUSTA affiliate provider inference missing in analytics-v5.0.0.js")
+
+        search_index_path = root / "search-index.json"
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "iCLUSTA+ byGMOを2026年8月の契約期間別料金" not in search_text:
+                errors.append("iCLUSTA search-index current description missing")
+
+        for rel_path in ("ja/hosting-security/index.html", "ja/topics/web-hosting/index.html", "ja/articles/index.html"):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                for slug in ("iclusta-review", "iclusta-vs-cpi", "iclusta-vs-xserver-for-wordpress", "iclusta-movable-type-hosting", "business-hosting-sla-comparison"):
+                    anchor = f'href="/ja/hosting-security/{slug}/"'
+                    pos = page_text.find(anchor)
+                    if pos < 0 or "最終確認: 2026-08-07" not in page_text[pos:pos+1800]:
+                        errors.append(f"iCLUSTA current card date missing: {rel_path}: {slug}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for slug in ("iclusta-review", "iclusta-vs-cpi", "iclusta-vs-xserver-for-wordpress", "iclusta-movable-type-hosting", "business-hosting-sla-comparison"):
+                url = f"https://luqevora.com/ja/hosting-security/{slug}/"
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"iCLUSTA article sitemap lastmod is not current: {slug}")
+
+
+        ochanoko_pages = (
+            "ja/website-builders/ochanoko-saisai-review/index.html",
+            "ja/website-builders/ochanoko-saisai-pricing/index.html",
+            "ja/website-builders/ochanoko-saisai-basic-vs-advanced/index.html",
+            "ja/website-builders/ochanoko-saisai-restaurant-guide/index.html",
+            "ja/website-builders/ochanoko-saisai-salon-guide/index.html",
+        )
+        ochanoko_funnel_pages = (
+            "ja/website-builders/ochanoko-saisai-seo-guide/index.html",
+            "ja/website-builders/ochanoko-saisai-vs-goope/index.html",
+            "ja/website-builders/ochanoko-saisai-vs-jimdo/index.html",
+            "ja/website-builders/ochanoko-saisai-vs-studio/index.html",
+        )
+        ochanoko_a8_pattern = r"https://px\.a8\.net/svt/ejp\?a8mat=4B8452\+3MDZ16\+3CZK\+[A-Z0-9]+"
+        ochanoko_pixel_pattern = r"https://www\d+\.a8\.net/0\.gif\?a8mat=4B8452\+3MDZ16\+3CZK\+[A-Z0-9]+"
+        ochanoko_links_total = 0
+        ochanoko_pixels_total = 0
+        ochanoko_revenue_funnels = 0
+        for rel_path in ochanoko_pages:
+            page_path = root / rel_path
+            if not page_path.is_file():
+                errors.append(f"Ochanoko revenue page missing: {rel_path}")
+                continue
+            page_text = page_path.read_text(encoding="utf-8-sig")
+            a8_count = len(re.findall(ochanoko_a8_pattern, page_text))
+            pixel_count = len(re.findall(ochanoko_pixel_pattern, page_text))
+            ochanoko_links_total += a8_count
+            ochanoko_pixels_total += pixel_count
+            if a8_count != 3:
+                errors.append(f"Ochanoko revenue page should have exactly 3 A8 links: {rel_path}: {a8_count}")
+            if pixel_count != 3:
+                errors.append(f"Ochanoko revenue page should have exactly 3 A8 pixels: {rel_path}: {pixel_count}")
+            for required in (
+                'data-affiliate-name="ochanoko_saisai"',
+                'data-product-name="おちゃのこさいさい"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                "2026年8月7日",
+                "https://www.ocnk.me/pricing",
+                "https://www.ocnk.me/feature",
+                "https://www.ocnk.me/step",
+            ):
+                if required not in page_text:
+                    errors.append(f"Ochanoko revenue marker missing in {rel_path}: {required}")
+            if rel_path != "ja/website-builders/ochanoko-saisai-review/index.html":
+                if 'data-revenue-route="ochanoko-saisai"' not in page_text or "/ja/website-builders/ochanoko-saisai-review/" not in page_text:
+                    errors.append(f"Ochanoko review funnel missing: {rel_path}")
+                else:
+                    ochanoko_revenue_funnels += 1
+        stats["ochanoko_a8_links_total"] = ochanoko_links_total
+        stats["ochanoko_a8_pixels_total"] = ochanoko_pixels_total
+        stats["ochanoko_revenue_pages_checked"] = len(ochanoko_pages)
+        if ochanoko_links_total != 15 or ochanoko_pixels_total != 15:
+            errors.append(f"Ochanoko total A8 links/pixels should be 15/15: {ochanoko_links_total}/{ochanoko_pixels_total}")
+
+        ochanoko_funnels = 0
+        for rel_path in ochanoko_funnel_pages:
+            page_path = root / rel_path
+            if not page_path.is_file():
+                errors.append(f"Ochanoko funnel page missing: {rel_path}")
+                continue
+            page_text = page_path.read_text(encoding="utf-8-sig")
+            if re.search(ochanoko_a8_pattern, page_text):
+                errors.append(f"Ochanoko funnel page should not contain direct Ochanoko A8: {rel_path}")
+            if 'data-revenue-route="ochanoko-saisai"' not in page_text or "/ja/website-builders/ochanoko-saisai-review/" not in page_text:
+                errors.append(f"Ochanoko funnel internal route missing: {rel_path}")
+            else:
+                ochanoko_funnels += 1
+        stats["ochanoko_funnel_pages_checked"] = ochanoko_funnels
+
+        ochanoko_review = root / "ja/website-builders/ochanoko-saisai-review/index.html"
+        if ochanoko_review.is_file():
+            review_text = ochanoko_review.read_text(encoding="utf-8-sig")
+            for required in ("1,320円", "1,210円", "1,100円", "2,200円", "2,090円", "1,980円", "7,920円", "30日間", "ショッピングカート機能", "CNAME", "MXレコード"):
+                if required not in review_text:
+                    errors.append(f"Ochanoko current review marker missing: {required}")
+
+        ochanoko_pricing = root / "ja/website-builders/ochanoko-saisai-pricing/index.html"
+        if ochanoko_pricing.is_file():
+            pricing_text = ochanoko_pricing.read_text(encoding="utf-8-sig")
+            for required in ("1か月契約はクレジットカードのみ", "支払い完了後", "返金され"):
+                if required not in pricing_text:
+                    errors.append(f"Ochanoko current pricing marker missing: {required}")
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+3MDZ16+3CZK+" not in analytics_text or "return 'ochanoko_saisai'" not in analytics_text:
+                errors.append("Ochanoko affiliate provider inference missing in analytics-v5.0.0.js")
+
+        catalog_path = root / "product-catalog.json"
+        if catalog_path.is_file():
+            catalog_text = catalog_path.read_text(encoding="utf-8-sig")
+            pos = catalog_text.find('"id": "ochanoko-saisai"')
+            if pos < 0:
+                errors.append("Ochanoko product catalog entry missing")
+            else:
+                chunk = catalog_text[pos:pos+9000]
+                for required in ("2026-08-07", "30日間無料試用", "7,920円", "CNAME・A・MXレコード"):
+                    if required not in chunk:
+                        errors.append(f"Ochanoko product catalog current marker missing: {required}")
+
+        product_page = root / "ja/products/ochanoko-saisai/index.html"
+        if product_page.is_file():
+            product_text = product_page.read_text(encoding="utf-8-sig")
+            for required in ("2026-08-07", 'data-revenue-route="ochanoko-saisai"', "/ja/website-builders/ochanoko-saisai-review/", "30日間無料"):
+                if required not in product_text:
+                    errors.append(f"Ochanoko product page current marker missing: {required}")
+
+        for rel_path in ("ja/website-builders/index.html", "ja/topics/website-builders/index.html", "ja/articles/index.html"):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                for slug in ("ochanoko-saisai-review", "ochanoko-saisai-pricing", "ochanoko-saisai-basic-vs-advanced", "ochanoko-saisai-restaurant-guide", "ochanoko-saisai-salon-guide", "ochanoko-saisai-seo-guide", "ochanoko-saisai-vs-goope", "ochanoko-saisai-vs-jimdo", "ochanoko-saisai-vs-studio"):
+                    anchor = f'href="/ja/website-builders/{slug}/"'
+                    pos = page_text.find(anchor)
+                    if pos >= 0 and "最終確認: 2026-08-07" not in page_text[pos:pos+1800]:
+                        errors.append(f"Ochanoko current card date missing: {rel_path}: {slug}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for slug in ("ochanoko-saisai-review", "ochanoko-saisai-pricing", "ochanoko-saisai-basic-vs-advanced", "ochanoko-saisai-restaurant-guide", "ochanoko-saisai-salon-guide", "ochanoko-saisai-seo-guide", "ochanoko-saisai-vs-goope", "ochanoko-saisai-vs-jimdo", "ochanoko-saisai-vs-studio"):
+                url = f"https://luqevora.com/ja/website-builders/{slug}/"
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"Ochanoko article sitemap lastmod is not current: {slug}")
+
+        pages_path = root / "sitemaps/pages.xml"
+        if pages_path.is_file():
+            pages_text = pages_path.read_text(encoding="utf-8-sig")
+            url = "https://luqevora.com/ja/products/ochanoko-saisai/"
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", pages_text):
+                errors.append("Ochanoko product sitemap lastmod is not current")
+
+        # v5.6.2 Giga Wi-Fi revenue-route checks
+        giga_page = root / "ja/mobile-connectivity/giga-wifi-review/index.html"
+        if giga_page.is_file():
+            giga_text = giga_page.read_text(encoding="utf-8-sig")
+            giga_marker = "4B8ACR+6F089M+4BRI+BWVTE"
+            giga_links = len(re.findall(r'href="https://px\.a8\.net/svt/ejp\?a8mat=[^"]*' + re.escape(giga_marker) + r'[^"]*"', giga_text))
+            giga_pixels = len(re.findall(r'src="https://www18\.a8\.net/0\.gif\?a8mat=[^"]*' + re.escape(giga_marker) + r'[^"]*"', giga_text))
+            stats["giga_wifi_a8_links_total"] = giga_links
+            stats["giga_wifi_a8_pixels_total"] = giga_pixels
+            if giga_links != 3 or giga_pixels != 3:
+                errors.append(f"Giga Wi-Fi review should have exactly 3 A8 links/pixels: {giga_links}/{giga_pixels}")
+            for required in (
+                'data-affiliate-name="giga_wifi"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                '2026年8月7日', '3,278円', '3,630円', '1,650円', '550円', '3,190円', '59,400円', '39,600円', '8日以内',
+                'https://lp.cloud-wi-fi.jp/100gb-macaroon3.html',
+                'https://lp.cloud-wi-fi.jp/100gb-air2.html',
+                'https://lp.cloud-wi-fi.jp/10gb-macaroon3.html',
+                'https://lp.cloud-wi-fi.jp/miniplan.html',
+                'https://lp.cloud-wi-fi.jp/cancel.html',
+            ):
+                if required not in giga_text:
+                    errors.append(f"Giga Wi-Fi current marker missing: {required}")
+            if 'ギガWi-Fiレビュー｜料金・契約期間・端末残債を比較' not in giga_text:
+                errors.append("Giga Wi-Fi review title not updated")
+        else:
+            errors.append(f"Giga Wi-Fi review missing: {giga_page}")
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+6F089M+4BRI+" not in analytics_text or "return 'giga_wifi'" not in analytics_text:
+                errors.append("Giga Wi-Fi affiliate provider inference missing in analytics-v5.0.0.js")
+
+        search_path = root / "search-index.json"
+        if search_path.is_file():
+            search_text = search_path.read_text(encoding="utf-8-sig")
+            if "ギガWi-Fiレビュー｜料金・契約期間・端末残債を比較" not in search_text:
+                errors.append("Giga Wi-Fi search-index title not updated")
+
+        for rel_path in ("ja/mobile-connectivity/index.html", "ja/index.html", "ja/articles/index.html"):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                anchor = 'href="/ja/mobile-connectivity/giga-wifi-review/"'
+                pos = page_text.find(anchor)
+                if pos < 0 or "最終確認: 2026-08-07" not in page_text[pos:pos+1800]:
+                    errors.append(f"Giga Wi-Fi current card date missing: {rel_path}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            url = "https://luqevora.com/ja/mobile-connectivity/giga-wifi-review/"
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                errors.append("Giga Wi-Fi article sitemap lastmod is not current")
+
+
+        # v5.6.3 SoftBank Air revenue-route checks
+        softbank_air_review = root / "ja/mobile-connectivity/softbank-air-review/index.html"
+        softbank_air_compare = root / "ja/mobile-connectivity/home-router-vs-mobile-plan/index.html"
+        softbank_air_marker = "4B88SW+G3W8RE+3NMM+HV7V6"
+        if softbank_air_review.is_file():
+            review_text = softbank_air_review.read_text(encoding="utf-8-sig")
+            sb_links = len(re.findall(r'href="https://px\.a8\.net/svt/ejp\?a8mat=[^"]*' + re.escape(softbank_air_marker) + r'[^"]*"', review_text))
+            sb_pixels = len(re.findall(r'src="https://www10\.a8\.net/0\.gif\?a8mat=[^"]*' + re.escape(softbank_air_marker) + r'[^"]*"', review_text))
+            stats["softbank_air_a8_links_total"] = sb_links
+            stats["softbank_air_a8_pixels_total"] = sb_pixels
+            if sb_links != 3 or sb_pixels != 3:
+                errors.append(f"SoftBank Air review should have exactly 3 A8 links/pixels: {sb_links}/{sb_pixels}")
+            for required in (
+                'data-affiliate-name="softbank_air_nscompany"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                '2026年8月7日', '5,368円', '5,698円', '95,040円', '1,980円', '4,950円', '50,000円', '8か月', '2日以内',
+                'https://www.softbank.jp/internet/air/price/',
+                'https://www.softbank.jp/internet/campaigns/list/air6-ninen-support/',
+                'https://www.softbank.jp/internet/campaigns/list/sbair-smartlife/',
+                'https://ns-air.net/campaign/original-tokuten/index.html',
+                'SoftBank Airレビュー｜料金・端末残債・2026年12月改定を確認',
+            ):
+                if required not in review_text:
+                    errors.append(f"SoftBank Air current marker missing: {required}")
+        else:
+            errors.append("SoftBank Air review missing")
+
+        if softbank_air_compare.is_file():
+            compare_text = softbank_air_compare.read_text(encoding="utf-8-sig")
+            if softbank_air_marker in compare_text:
+                errors.append("Home-router comparison should funnel internally to SoftBank Air review, not direct SoftBank Air A8")
+            if 'data-revenue-route="softbank-air"' not in compare_text or '/ja/mobile-connectivity/softbank-air-review/' not in compare_text:
+                errors.append("SoftBank Air internal funnel missing from home-router comparison")
+            else:
+                stats["softbank_air_funnel_pages_checked"] = 1
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+G3W8RE+3NMM+" not in analytics_text or "return 'softbank_air_nscompany'" not in analytics_text:
+                errors.append("SoftBank Air affiliate provider inference missing in analytics-v5.0.0.js")
+
+        search_path = root / "search-index.json"
+        if search_path.is_file():
+            search_text = search_path.read_text(encoding="utf-8-sig")
+            if "SoftBank Airレビュー｜料金・端末残債・2026年12月改定を確認" not in search_text:
+                errors.append("SoftBank Air search-index title not updated")
+
+        for rel_path in ("ja/mobile-connectivity/index.html", "ja/articles/index.html"):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                anchor = 'href="/ja/mobile-connectivity/softbank-air-review/"'
+                pos = page_text.find(anchor)
+                if pos < 0 or "最終確認: 2026-08-07" not in page_text[pos:pos+1800]:
+                    errors.append(f"SoftBank Air current card date missing: {rel_path}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            url = "https://luqevora.com/ja/mobile-connectivity/softbank-air-review/"
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                errors.append("SoftBank Air article sitemap lastmod is not current")
 
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":

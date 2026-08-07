@@ -5168,20 +5168,20 @@
         "en": "Japan-focused hosting with LiteSpeed Enterprise, cPanel, SSD storage, and plan-level CPU and memory allocations"
       },
       "pricing": {
-        "ja": "年契約の月額換算550円から。月契約、初期費用、14日間無料体験あり",
+        "ja": "年契約は月額換算550円〜8,338円、月契約748円〜10,978円。現在は初期費用50%OFF、初回契約で条件を満たす場合14日試用",
         "en": "Annual-equivalent pricing from JPY 550 per month, plus monthly contracts, setup fees, and a 14-day trial"
       },
       "pricingDetail": {
-        "ja": "6プランの年額、月契約、初期費用、CPU、メモリ、SSD、MySQL数を比較し、キャンペーンと申込時の現行価格を確認します。",
+        "ja": "年契約は年額前払い。14日試用は初回契約・クレジットカード等が条件で、期間内に解約しないと翌日に自動決済されます。料金・キャンペーンは申込画面を優先します。",
         "en": "Compare annual totals, monthly contracts, setup fees, CPU, memory, SSD, and database limits across six plans, then verify current checkout pricing."
       },
       "pricingModel": "subscription",
       "workflow": {
-        "ja": "cPanelと独自パネルでWordPress、ドメイン、メール、DB、SSLを管理し、LiteSpeed Cacheと移行支援を利用します。",
+        "ja": "cPanelと独自パネルでWordPress、ドメイン、メール、DB、SSLを管理し、LiteSpeed Cache、毎日のリモート自動バックアップ、移行支援を利用します。",
         "en": "Use cPanel and the provider interface for WordPress, domains, mail, databases, and SSL, with LiteSpeed Cache and migration assistance."
       },
       "bestFor": {
-        "ja": "国内向けにcPanelとLiteSpeedを低価格から試したい個人・制作会社・小規模事業者",
+        "ja": "国内向けにcPanelとLiteSpeedを使い、低価格帯からWordPressや複数サイトを運用したい個人・制作会社・小規模事業者",
         "en": "Individuals, agencies, and smaller businesses that want to test cPanel and LiteSpeed in a Japan-focused service"
       },
       "strengths": {
@@ -5189,7 +5189,8 @@
           "LiteSpeed Enterprise",
           "cPanel",
           "公開されたCPU・メモリ割当",
-          "14日間無料体験"
+          "14日間の条件付き試用",
+          "毎日のリモート自動バックアップ"
         ],
         "en": [
           "LiteSpeed Enterprise",
@@ -5200,9 +5201,10 @@
       },
       "limits": {
         "ja": [
-          "年契約は一括支払い",
-          "最安プランのDB・ドメイン上限",
-          "広告の旧料金表現に注意"
+          "年契約は年額前払い",
+          "14日試用は初回契約・クレジットカード等が条件",
+          "試用終了後は自動決済",
+          "ミニは詳細料金表で独自ドメイン10個・MySQL 3個"
         ],
         "en": [
           "Annual prepayment",
@@ -5229,6 +5231,10 @@
           "url": "https://www.jetboy.jp/price/"
         },
         {
+          "label": "JETBOY 機能一覧",
+          "url": "https://www.jetboy.jp/functions/"
+        },
+        {
           "label": "JETBOYの特徴",
           "url": "https://www.jetboy.jp/feature/"
         },
@@ -5237,12 +5243,16 @@
           "url": "https://www.jetboy.jp/litespeed/"
         },
         {
-          "label": "JETBOY 会社概要",
-          "url": "https://www.jetboy.jp/company/"
+          "label": "JETBOY レンタルサーバー利用規約",
+          "url": "https://www.jetboy.jp/service_agreement/"
         },
         {
           "label": "JETBOY 特定商取引法表記",
           "url": "https://www.jetboy.jp/tokuteisho/"
+        },
+        {
+          "label": "JETBOY ご利用上の注意",
+          "url": "https://www.jetboy.jp/rules/"
         }
       ],
       "relatedArticles": [
@@ -5319,7 +5329,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "keeper",
@@ -9652,31 +9662,32 @@
       },
       "topic": "restaurant-pos-orders",
       "positioning": {
-        "ja": "POS製品そのものではなく、要件をヒアリングして対応可能なPOSレジ・システム業者を紹介するコンシェルジュ型サービス",
+        "ja": "POS製品そのものではなく、専門コンシェルジュが要件をヒアリングし、審査済みのPOSレジ・システム業者を選定して紹介するBtoBマッチングサービス",
         "en": "A Japan-focused concierge that matches a business with eligible POS vendors rather than selling a POS product itself"
       },
       "pricing": {
-        "ja": "利用者側の相談・業者紹介手数料は無料。POS導入費用は紹介先ごとの見積もり",
+        "ja": "発注者側の相談・業者紹介は完全無料。POS本体・設置・設定・保守などの費用は紹介先ごとの見積もり",
         "en": "Buyer-side consultation and matching are described as free; POS implementation is quoted by introduced vendors"
       },
       "pricingDetail": {
-        "ja": "POS本体、ソフトウェア、端末、プリンター、決済、設定、研修、保守、回線等は紹介先の見積もりを比較します。",
+        "ja": "正式発注前に費用感・進め方を確認でき、提案に納得できなければ契約見送り可。公式のコスト削減例はシミュレーションで、必ず安くなる保証ではありません。",
         "en": "Compare vendor quotations for POS software, devices, printers, payment processing, setup, training, support, connectivity, and contract terms."
       },
       "pricingModel": "contact-or-variable",
       "workflow": {
-        "ja": "フォーム問い合わせ後、コンシェルジュが予算・機能・納期等をヒアリングし、条件に対応可能な業者を最大8社まで紹介",
+        "ja": "フォーム問い合わせ→コンシェルジュの電話ヒアリング→条件に合う審査済み業者を最大8社まで選定→提案・見積もり比較→契約または見送り。難しい案件でも平均3営業日以内が紹介目安",
         "en": "After an inquiry, a concierge interviews the business about budget, functions, and timing, then introduces up to eight eligible vendors"
       },
       "bestFor": {
-        "ja": "POSレジの候補が決まっておらず、複数業者の提案と見積もりを同じ要件で比較したい法人・個人事業主",
+        "ja": "POS候補が未定で、機種・設置・保守・契約条件を同じ要件で複数業者から比較したい法人・個人事業主",
         "en": "Japanese businesses and sole proprietors without a fixed POS shortlist that want comparable proposals from several vendors"
       },
       "strengths": {
         "ja": [
-          "利用者側の紹介手数料が無料",
-          "要件ヒアリング後に候補業者を選定",
-          "最大8社の提案を比較可能"
+          "発注者側の相談・紹介は完全無料",
+          "最大8社まで審査済み業者を比較可能",
+          "契約見送り可",
+          "機種選定・設置・設定・保守まで相談可能"
         ],
         "en": [
           "No buyer-side matching fee",
@@ -9687,8 +9698,9 @@
       "limits": {
         "ja": [
           "問い合わせ後の電話ヒアリングが必要",
-          "紹介後は複数業者への対応が発生",
-          "POS導入費用自体は無料ではない"
+          "紹介後は候補業者への対応が必要",
+          "POS導入費用自体は無料ではない",
+          "比較結果が必ず最安になる保証はない"
         ],
         "en": [
           "Follow-up interview required",
@@ -9707,12 +9719,12 @@
       },
       "sources": [
         {
-          "label": "EMEAO! POSレジ・システム業者紹介 公式ページ",
-          "url": "https://emeao.jp/pos-lp2/"
+          "label": "EMEAO! POSレジ比較・一括見積もり 公式ページ",
+          "url": "https://emeao.jp/pos-lp3/"
         },
         {
-          "label": "EMEAO! POSレジ・システム業者選定ガイド",
-          "url": "https://emeao.jp/guide/pos/"
+          "label": "EMEAO! POSレジ・システム業者紹介 公式ページ",
+          "url": "https://emeao.jp/pos-lp2/"
         },
         {
           "label": "EMEAO! 公式サイト",
@@ -9723,7 +9735,7 @@
         {
           "language": "ja",
           "type": "review",
-          "title": "EMEAO!の評判・仕組み・注意点｜POSレジ業者を無料比較する方法",
+          "title": "EMEAO! POSレジ比較レビュー｜無料相談・最大8社・契約不要を公式確認",
           "url": "/ja/store-dx/emeao-pos-review/",
           "category": "store-dx",
           "topic": "restaurant-pos-orders"
@@ -9817,7 +9829,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "freee-accounting",
@@ -10382,12 +10394,12 @@
         "en": "A restaurant ordering and operations system combining customer smartphone ordering with a tablet-based POS"
       },
       "pricing": {
-        "ja": "公式月額（税込）はPOSのみ2,980円、POSハンディ8,980円、Webモバイルオーダー8,980円、LINEモバイルオーダー12,980円、TTO注文15,980円",
-        "en": "Published monthly prices including tax are JPY 2,980 for POS only, JPY 8,980 for POS plus handheld, JPY 8,980 for web mobile ordering, JPY 12,980 for LINE mobile ordering, and JPY 15,980 for TTO ordering"
+        "ja": "プランカード表示は、POSのみ月額2,980円（税込3,278円）、POSハンディ8,980円（税込9,878円）、Webモバイルオーダー8,980円（税込9,878円）、LINEモバイルオーダー12,980円（税込14,278円）、TTO注文15,980円（税込17,578円）",
+        "en": "Current plan cards show JPY 2,980 (JPY 3,278 incl. tax) for POS only, JPY 8,980 (JPY 9,878 incl. tax) for POS plus handheld, JPY 8,980 (JPY 9,878 incl. tax) for web mobile ordering, JPY 12,980 (JPY 14,278 incl. tax) for LINE mobile ordering, and JPY 15,980 (JPY 17,578 incl. tax) for TTO ordering"
       },
       "pricingDetail": {
-        "ja": "周辺機器、決済手数料、設置・設定、追加端末、契約条件は構成により別途確認します。タブレットオーダー追加は月額880円/台、追加ハンディは1,100円/台、有償LINEサポートは月額2,200円と公式料金ページに記載されています。",
-        "en": "Hardware, payment processing, installation, configuration, extra devices, and contract conditions depend on the deployment. The official pricing page lists tablet-order add-ons at JPY 880 per device per month, additional handheld devices at JPY 1,100 each, and paid LINE support at JPY 2,200 per month."
+        "ja": "追加ハンディ1,100円/台、タブレットオーダー追加880円/台、有償LINEサポート2,200円/月、モバイル・タブレットオーダー決済1.98〜3.24%。2026年9月30日まで月間先着30店舗の設置・導入費割引特典を案内。1法人1回、同一法人の複数店舗は対象外。",
+        "en": "Additional handhelds are JPY 1,100 each, tablet ordering is JPY 880 per device per month, paid LINE support is JPY 2,200 per month, and mobile/tablet ordering payment fees are 1.98% to 3.24%. An installation/setup discount is advertised through Sep. 30, 2026 for the first 30 stores each month, once per corporation, excluding multiple stores under the same corporation."
       },
       "pricingModel": "subscription",
       "workflow": {
@@ -10414,13 +10426,15 @@
       },
       "limits": {
         "ja": [
-          "周辺機器・決済・設置を含む総額は見積確認が必要",
-          "補助金は要件と採択が必要",
+          "周辺機器・設置を含む総額は構成別に確認",
+          "決済利用には1.98〜3.24%の手数料",
+          "割引特典は月間先着30店舗・1法人1回・同一法人複数店舗対象外",
           "通信障害時の代替運用が必要"
         ],
         "en": [
-          "A quotation is still required for hardware, payments, installation, and total cost",
-          "Subsidy eligibility and approval apply",
+          "Confirm total deployment cost including hardware and setup",
+          "Payment usage carries a 1.98% to 3.24% fee",
+          "The discount is limited to the first 30 stores each month, once per corporation, and excludes multiple stores from the same corporation",
           "Fallback procedures are required for outages"
         ]
       },
@@ -10443,8 +10457,8 @@
           "url": "https://www.kantan-order.com/pos_reji/"
         },
         {
-          "label": "株式会社Wiz — かんたん注文",
-          "url": "https://f.012grp.co.jp/wiz_kantanchumon_hojyokin"
+          "label": "かんたん注文 公式サイト",
+          "url": "https://home.kantan-order.com/"
         }
       ],
       "relatedArticles": [
@@ -10497,7 +10511,7 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "moneyforward-cloud-accounting",
@@ -11400,11 +11414,11 @@
         "en": "A Japan-focused website builder for local businesses that combines store information, updates, galleries, inquiries, and basic booking"
       },
       "pricing": {
-        "ja": "12か月契約の月額換算はライト1,331円、スタンダード3,993円。初期費用3,630円",
+        "ja": "2026年4月改定後、12か月契約の月額換算はライト1,331円、スタンダード3,993円。1・3・6か月は1,996円／4,658円、初期費用3,630円（すべて税込）",
         "en": "Published annual-term monthly equivalents are JPY 1,331 for Light and JPY 3,993 for Standard, plus a JPY 3,630 setup fee"
       },
       "pricingDetail": {
-        "ja": "短期契約は月額が上がり、初回月途中は日割りが加算されます。ライトとスタンダードでドメイン、容量、メール、予約枠、サポートが異なります。",
+        "ja": "15日間無料おためし。短期契約は月額が上がり、初回月途中は日割りが加算されます。ライトとスタンダードでドメイン、容量、メール、予約枠、サポートが異なります。",
         "en": "Shorter terms cost more per month, and an initial mid-month contract can add prorated charges. Domains, storage, mailboxes, booking limits, and support differ by plan."
       },
       "pricingModel": "subscription",
@@ -11432,7 +11446,8 @@
         "ja": [
           "高度な予約・会員・ECには追加システムが必要な場合",
           "電話サポートはスタンダード限定・予約制",
-          "日本語・国内事業者向けの運用が中心"
+          "日本語・国内事業者向けの運用が中心",
+          "メールマガジン機能は2026年6月30日で提供終了（メールアドレス機能とは別）"
         ],
         "en": [
           "Advanced booking, membership, or commerce may require other systems",
@@ -11469,6 +11484,14 @@
         {
           "label": "Goope scheduled phone support",
           "url": "https://help.goope.jp/hc/ja/articles/360051054334"
+        },
+        {
+          "label": "Goope 2026 pricing revision",
+          "url": "https://goope.jp/info/information/?date=2026-03"
+        },
+        {
+          "label": "Goope mail-magazine feature retirement",
+          "url": "https://goope.jp/info/information/?date=2026-04"
         }
       ],
       "relatedArticles": [
@@ -11537,7 +11560,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "hostinger-website-builder",
@@ -13006,7 +13029,7 @@
     {
       "id": "ochanoko-saisai",
       "name": "おちゃのこさいさい",
-      "affiliateKey": "ochanoko-saisai-short",
+      "affiliateKey": "ochanoko-saisai-service",
       "category": "website-builders",
       "categoryName": {
         "ja": "Webサイト制作",
@@ -13018,11 +13041,11 @@
         "en": "A local-business website builder combining coupons, calendars, store information, staff pages, and blogging"
       },
       "pricing": {
-        "ja": "ベーシックは12か月契約で月額換算1,100円、アドバンスドは1,980円。独自ドメイン設定費は別途",
+        "ja": "ベーシックは1か月1,320円、6か月1,210円/月、12か月1,100円/月。アドバンスドは2,200円、2,090円/月、1,980円/月（すべて税込）",
         "en": "Basic is JPY 1,100 and Advanced JPY 1,980 monthly equivalent on 12-month terms; custom-domain setup is extra"
       },
       "pricingDetail": {
-        "ja": "契約期間、独自ドメイン設定費、年間ドメイン費、広告表示、ページ・容量・メール上限を合わせて比較します。",
+        "ja": "本登録後30日間の無料試用。アドバンスドの独自ドメイン設定費は7,920円で、取得する場合は年間ドメイン費が別途必要です。1か月契約の支払いはクレジットカードのみ。",
         "en": "Compare term length, domain setup and renewal, advertising, storage, page, and email limits."
       },
       "pricingModel": "subscription",
@@ -13037,9 +13060,9 @@
       "strengths": {
         "ja": [
           "30日間無料試用",
-          "クーポン・カレンダー",
-          "スマホ管理",
-          "店舗・スタッフ・ブログ機能"
+          "クーポン・カレンダー・HTMLメルマガ",
+          "スマホ・タブレット管理",
+          "店舗・スタッフ・ブログ・Googleマップ機能"
         ],
         "en": [
           "30-day trial",
@@ -13050,10 +13073,11 @@
       },
       "limits": {
         "ja": [
-          "ショッピングカートなし",
-          "独自ドメイン設定費",
-          "ベーシックは広告表示",
-          "専用レイアウトの移行は限定的"
+          "ショッピングカート機能なし",
+          "アドバンスドの独自ドメイン設定費7,920円と年間ドメイン費",
+          "ベーシックは広告表示・容量1GB・フリーページ20ページ",
+          "独自ドメイン利用時はCNAME・A・MXレコードの個別設定不可",
+          "支払い完了後の退会でも返金なし"
         ],
         "en": [
           "No shopping cart",
@@ -13195,7 +13219,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "homepage-com",
@@ -13450,16 +13474,16 @@
       },
       "topic": "digital-subsidies",
       "positioning": {
-        "ja": "LEDを備えたブレードの高速回転と残像を利用し、空中に浮いて見える立体的な映像演出を行う3Dサイネージです。",
-        "en": "LEDを備えたブレードの高速回転と残像を利用し、空中に浮いて見える立体的な映像演出を行う3Dサイネージです。"
+        "ja": "LED光源が並ぶブレードを高速回転させ、光の残像で空中に浮いて見える3D映像を表示するサイネージ。店舗演出、イベント、屋外・交通広告などで利用されます。",
+        "en": "LED光源が並ぶブレードを高速回転させ、光の残像で空中に浮いて見える3D映像を表示するサイネージ。店舗演出、イベント、屋外・交通広告などで利用されます。"
       },
       "pricing": {
-        "ja": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。",
-        "en": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。"
+        "ja": "提供元の現行製品仕様では3D Phantom 50w・65x・30zはいずれもオープン価格。販売とレンタルに対応し、レンタルは最短1日から。映像制作・設置・什器・サポートは案件ごとに見積確認。",
+        "en": "提供元の現行製品仕様では3D Phantom 50w・65x・30zはいずれもオープン価格。販売とレンタルに対応し、レンタルは最短1日から。映像制作・設置・什器・サポートは案件ごとに見積確認。"
       },
       "pricingDetail": {
-        "ja": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。",
-        "en": "通常プランと補助金プランが案内されていますが、機器台数、映像制作、設置、安全対策、保守を含む利用者向け料金は個別見積です。"
+        "ja": "提供元の現行製品仕様では3D Phantom 50w・65x・30zはいずれもオープン価格。販売とレンタルに対応し、レンタルは最短1日から。映像制作・設置・什器・サポートは案件ごとに見積確認。",
+        "en": "提供元の現行製品仕様では3D Phantom 50w・65x・30zはいずれもオープン価格。販売とレンタルに対応し、レンタルは最短1日から。映像制作・設置・什器・サポートは案件ごとに見積確認。"
       },
       "pricingModel": "quote",
       "workflow": {
@@ -13472,30 +13496,30 @@
       },
       "strengths": {
         "ja": [
-          "一般的な平面表示と異なる立体演出",
-          "店頭・イベントで注目を集めやすい",
-          "複数台を組み合わせた演出を案内",
-          "SNS投稿につながる体験を設計しやすい"
+          "店舗・イベント・屋外広告で使える立体的な映像演出",
+          "販売とレンタルに対応し、レンタルは最短1日から",
+          "提案・クリエイティブ制作・設置・アフターサポートを一貫して相談可能",
+          "Phantom Cloudでブラウザから映像操作・公式動画利用・3D文字生成が可能"
         ],
         "en": [
-          "一般的な平面表示と異なる立体演出",
-          "店頭・イベントで注目を集めやすい",
-          "複数台を組み合わせた演出を案内",
-          "SNS投稿につながる体験を設計しやすい"
+          "店舗・イベント・屋外広告で使える立体的な映像演出",
+          "販売とレンタルに対応し、レンタルは最短1日から",
+          "提案・クリエイティブ制作・設置・アフターサポートを一貫して相談可能",
+          "Phantom Cloudでブラウザから映像操作・公式動画利用・3D文字生成が可能"
         ]
       },
       "limits": {
         "ja": [
-          "回転機器のため設置位置と安全対策が重要",
-          "明るさ・背景・視認距離で見え方が変わる",
-          "映像制作費と更新費を含めて比較",
-          "効果を来店・滞在・投稿数で測定する"
+          "主要モデルはオープン価格のため個別見積が必要",
+          "回転機器のため設置位置・来場者動線・固定方法の確認が重要",
+          "映像制作・什器・設置・保守を含む総額で比較する",
+          "補助金の適用可否は申請時点の公募要領を確認する"
         ],
         "en": [
-          "回転機器のため設置位置と安全対策が重要",
-          "明るさ・背景・視認距離で見え方が変わる",
-          "映像制作費と更新費を含めて比較",
-          "効果を来店・滞在・投稿数で測定する"
+          "主要モデルはオープン価格のため個別見積が必要",
+          "回転機器のため設置位置・来場者動線・固定方法の確認が重要",
+          "映像制作・什器・設置・保守を含む総額で比較する",
+          "補助金の適用可否は申請時点の公募要領を確認する"
         ]
       },
       "flags": {
@@ -13509,12 +13533,16 @@
       },
       "sources": [
         {
-          "label": "3D Phantom問い合わせ",
-          "url": "https://f.012grp.co.jp/wiz_3dphantom_hojokin"
+          "label": "3D Phantom公式サイト",
+          "url": "https://phantom-3d.net/"
         },
         {
-          "label": "3D Phantom導入事例",
-          "url": "https://phantom-3d.net/case/page/2/"
+          "label": "3D Phantom 近未来の表現・サービス案内",
+          "url": "https://phantom-3d.net/public-lp/"
+        },
+        {
+          "label": "株式会社Life is Style 3D Phantom製品仕様",
+          "url": "https://lifeis.style/services/3d-phantom/"
         }
       ],
       "relatedArticles": [
@@ -13551,7 +13579,7 @@
           "topic": "digital-subsidies"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "inbound-package",
@@ -13564,52 +13592,52 @@
       },
       "topic": "restaurant-dx-operations",
       "positioning": {
-        "ja": "東京都内の飲食店向けに、デジタル／3Dサイネージ、Tripadvisor、多言語対応ホームページ制作を組み合わせたインバウンド対策パッケージです。",
-        "en": "東京都内の飲食店向けに、デジタル／3Dサイネージ、Tripadvisor、多言語対応ホームページ制作を組み合わせたインバウンド対策パッケージです。"
+        "ja": "WizがTripadvisor、デジタル／3Dサイネージ、多言語対応ホームページをまとめて案内する、東京都内の飲食店向けインバウンド対策パッケージです。",
+        "en": "WizがTripadvisor、デジタル／3Dサイネージ、多言語対応ホームページをまとめて案内する、東京都内の飲食店向けインバウンド対策パッケージです。"
       },
       "pricing": {
-        "ja": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。",
-        "en": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。"
+        "ja": "パッケージ価格は個別見積です。令和8年度の東京都インバウンド対応力強化支援事業補助金は、原則1/2以内、多言語対応は2/3以内、飲食店は1店舗上限300万円。2026年4月1日〜2027年3月31日募集で、予算到達時は早期終了します。",
+        "en": "パッケージ価格は個別見積です。令和8年度の東京都インバウンド対応力強化支援事業補助金は、原則1/2以内、多言語対応は2/3以内、飲食店は1店舗上限300万円。2026年4月1日〜2027年3月31日募集で、予算到達時は早期終了します。"
       },
       "pricingDetail": {
-        "ja": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。",
-        "en": "パッケージ価格は公開資料で確認できず個別見積です。A8提携資料では、補助金プランの対象ユーザーを前年度売上500万円以上の東京都内飲食事業者としています。最新制度と審査条件の再確認が必要です。"
+        "ja": "パッケージ価格は個別見積です。令和8年度の東京都インバウンド対応力強化支援事業補助金は、原則1/2以内、多言語対応は2/3以内、飲食店は1店舗上限300万円。2026年4月1日〜2027年3月31日募集で、予算到達時は早期終了します。",
+        "en": "パッケージ価格は個別見積です。令和8年度の東京都インバウンド対応力強化支援事業補助金は、原則1/2以内、多言語対応は2/3以内、飲食店は1店舗上限300万円。2026年4月1日〜2027年3月31日募集で、予算到達時は早期終了します。"
       },
       "pricingModel": "quote",
       "workflow": {
-        "ja": "対象店舗・売上・所在地など補助条件を確認する。訪日前検索・予約・店頭案内の課題を洗い出す。",
-        "en": "対象店舗・売上・所在地など補助条件を確認する。訪日前検索・予約・店頭案内の課題を洗い出す。"
+        "ja": "対象事業を確認し、見積取得・申請・交付決定を経てから契約・発注します。交付決定前の購入・設置は対象外です。",
+        "en": "対象事業を確認し、見積取得・申請・交付決定を経てから契約・発注します。交付決定前の購入・設置は対象外です。"
       },
       "bestFor": {
-        "ja": "東京都内の飲食店で、外国語サイト・口コミ・店頭表示をまとめて整備したい事業者",
-        "en": "東京都内の飲食店で、外国語サイト・口コミ・店頭表示をまとめて整備したい事業者"
+        "ja": "東京都内の飲食店で、多言語HP・口コミ・店頭表示をまとめて相談しつつ、補助制度の要件を自社で確認できる事業者",
+        "en": "東京都内の飲食店で、多言語HP・口コミ・店頭表示をまとめて相談しつつ、補助制度の要件を自社で確認できる事業者"
       },
       "strengths": {
         "ja": [
-          "店頭表示・口コミサイト・多言語サイトをまとめて相談可能",
-          "訪日前の検索と来店時の案内を横断",
-          "補助金活用を前提に相談できる",
-          "個別導入より窓口をまとめやすい"
+          "Tripadvisor・サイネージ・多言語HPをまとめて相談可能",
+          "訪日前の検索と来店時の店頭案内を横断",
+          "2026年度東京都補助金の対象候補となる取組を含む",
+          "窓口をまとめて見積相談しやすい"
         ],
         "en": [
-          "店頭表示・口コミサイト・多言語サイトをまとめて相談可能",
-          "訪日前の検索と来店時の案内を横断",
-          "補助金活用を前提に相談できる",
-          "個別導入より窓口をまとめやすい"
+          "Tripadvisor・サイネージ・多言語HPをまとめて相談可能",
+          "訪日前の検索と来店時の店頭案内を横断",
+          "2026年度東京都補助金の対象候補となる取組を含む",
+          "窓口をまとめて見積相談しやすい"
         ]
       },
       "limits": {
         "ja": [
-          "東京都内・飲食店・売上など対象条件がある",
-          "補助金採択を前提に契約しない",
-          "翻訳品質とメニュー更新責任を確認",
-          "Tripadvisor掲載後の口コミ対応体制が必要"
+          "パッケージ価格は個別見積",
+          "補助金は別審査で採択・補助額の保証なし",
+          "交付決定前の発注・購入・設置は対象外",
+          "発注予定先による申請書作成・相見積取得の代行は交付対象外"
         ],
         "en": [
-          "東京都内・飲食店・売上など対象条件がある",
-          "補助金採択を前提に契約しない",
-          "翻訳品質とメニュー更新責任を確認",
-          "Tripadvisor掲載後の口コミ対応体制が必要"
+          "パッケージ価格は個別見積",
+          "補助金は別審査で採択・補助額の保証なし",
+          "交付決定前の発注・購入・設置は対象外",
+          "発注予定先による申請書作成・相見積取得の代行は交付対象外"
         ]
       },
       "flags": {
@@ -13623,8 +13651,12 @@
       },
       "sources": [
         {
-          "label": "インバウンドパッケージ案内",
+          "label": "Wiz インバウンドパッケージ案内",
           "url": "https://f.012grp.co.jp/wiz_snsInbound_hojyokin"
+        },
+        {
+          "label": "東京観光財団 令和8年度インバウンド対応力強化支援事業補助金",
+          "url": "https://www.tcvb.or.jp/jp/project/infra/welcome-foreigner/"
         }
       ],
       "relatedArticles": [
@@ -13661,7 +13693,7 @@
           "topic": "restaurant-dx-operations"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "ablenet-storage",
@@ -14049,8 +14081,8 @@
       },
       "pricingModel": "quote",
       "workflow": {
-        "ja": "サイトの目的・対象顧客・成果指標を決める。必要ページ・原稿・写真・機能を整理する。",
-        "en": "サイトの目的・対象顧客・成果指標を決める。必要ページ・原稿・写真・機能を整理する。"
+        "ja": "問い合わせ、打ち合わせ、サイトマップ・見積、契約、TOP・下層デザイン、コーディング、最終確認、公開、希望に応じた運用支援の順で進みます。",
+        "en": "問い合わせ、打ち合わせ、サイトマップ・見積、契約、TOP・下層デザイン、コーディング、最終確認、公開、希望に応じた運用支援の順で進みます。"
       },
       "bestFor": {
         "ja": "テンプレートだけでなく、目的に合わせたデザインと公開後の運用・改善まで制作会社へ相談したい事業者",
@@ -14087,16 +14119,20 @@
       "flags": {
         "freeOption": false,
         "business": true,
-        "ecommerce": false,
+        "ecommerce": true,
         "wordpress": false,
         "seo": true,
         "integrations": false,
-        "mobile": false
+        "mobile": true
       },
       "sources": [
         {
           "label": "株式会社aruku公式",
           "url": "https://a-ru-ku.co.jp/"
+        },
+        {
+          "label": "株式会社aruku会社概要・事業内容",
+          "url": "https://a-ru-ku.co.jp/about/"
         },
         {
           "label": "制作の流れ・料金目安",
@@ -14141,7 +14177,7 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-08-07"
     },
     {
       "id": "homepagedx",
