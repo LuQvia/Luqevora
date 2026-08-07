@@ -264,6 +264,79 @@ def main() -> int:
             if "2026年8月7日" not in suika_html:
                 errors.append("Suika VPN article does not show the latest verification date.")
 
+        xserver_core_pages = (
+            "ja/hosting-security/xserver-rental-server-review/index.html",
+            "ja/hosting-security/xserver-rental-server-pricing/index.html",
+            "ja/hosting-security/xserver-rental-server-pros-cons/index.html",
+            "ja/hosting-security/xserver-wordpress-quick-start-guide/index.html",
+            "ja/hosting-security/xserver-multiple-domain-site-guide/index.html",
+            "ja/hosting-security/xserver-company-website-email-guide/index.html",
+            "ja/hosting-security/xserver-vs-conoha-wing/index.html",
+            "ja/hosting-security/xserver-vs-lolipop/index.html",
+            "ja/hosting-security/shin-rental-server-vs-xserver/index.html",
+        )
+        xserver_funnel_pages = (
+            "ja/hosting-security/best-japanese-web-hosting/index.html",
+            "ja/hosting-security/best-wordpress-hosting-japan/index.html",
+            "ja/hosting-security/hostinger-vs-xserver/index.html",
+            "ja/hosting-security/hostinger-vs-xserver-small-business/index.html",
+        )
+        xserver_marker = "4B84X2+CO22XM+CO4+"
+        xserver_review_path = "/ja/hosting-security/xserver-rental-server-review/"
+        stats["xserver_core_pages_checked"] = len(xserver_core_pages)
+        stats["xserver_funnel_pages_checked"] = len(xserver_funnel_pages)
+
+        for rel_path in xserver_core_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"XServer core page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            if xserver_marker not in page_text:
+                errors.append(f"XServer A8 marker missing: {rel_path}")
+            if 'data-affiliate-name="xserver"' not in page_text:
+                errors.append(f"XServer affiliate name missing: {rel_path}")
+            if 'data-affiliate-status="active"' not in page_text:
+                errors.append(f"XServer affiliate status missing: {rel_path}")
+            if "2026年8月7日" not in page_text:
+                errors.append(f"XServer page verification date missing: {rel_path}")
+
+        for rel_path in xserver_funnel_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"XServer funnel page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            if xserver_review_path not in page_text:
+                errors.append(f"XServer review funnel link missing: {rel_path}")
+            if "2026年8月7日" not in page_text:
+                errors.append(f"XServer funnel verification date missing: {rel_path}")
+
+        for rel_path in (
+            "ja/hosting-security/xserver-rental-server-review/index.html",
+            "ja/hosting-security/xserver-rental-server-pricing/index.html",
+        ):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                if "2026年9月7日17:00" not in page_text:
+                    errors.append(f"XServer campaign deadline missing: {rel_path}")
+                if "campaign/campaign_260804.php" not in page_text:
+                    errors.append(f"XServer campaign source missing: {rel_path}")
+
+        analytics_file = root / "assets/js/analytics-v5.0.0.js"
+        if not analytics_file.is_file():
+            errors.append("Analytics v5.0.0 file missing.")
+        else:
+            analytics_text = analytics_file.read_text(encoding="utf-8-sig")
+            for mapping in (
+                "if (code.includes('+CO22XM+CO4+')) return 'xserver';",
+                "if (code.includes('+8CNY1M+CO4+')) return 'xserver_for_wordpress';",
+                "if (code.includes('+2FIRH6+5GDG+')) return 'shin_rental_server';",
+            ):
+                if mapping not in analytics_text:
+                    errors.append(f"Affiliate analytics mapping missing: {mapping}")
+
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":
             warnings.append("CNAME does not contain exactly 'luqevora.com'.")

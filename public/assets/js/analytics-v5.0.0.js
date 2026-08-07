@@ -201,6 +201,9 @@
     }
     if (destination.hostname === 'px.a8.net' && destination.pathname.includes('/svt/ejp')) {
       const code = destination.searchParams.get('a8mat') || '';
+      if (code.includes('+CO22XM+CO4+')) return 'xserver';
+      if (code.includes('+8CNY1M+CO4+')) return 'xserver_for_wordpress';
+      if (code.includes('+2FIRH6+5GDG+')) return 'shin_rental_server';
       if (code.includes('+DPKE1M+')) return 'homepage_dot_com';
       if (code.includes('+MMIJE+')) return 'wiz_digital_signage';
       if (code.includes('+VK0M2+')) return 'wiz_3d_phantom';

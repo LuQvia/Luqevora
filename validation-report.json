@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/luqevora_v534_work/public",
+  "public_root": "/mnt/data/luqevora_xserver_work/public",
   "stats": {
     "files": 1738,
     "html": 1126,
@@ -11,7 +11,9 @@
     "affiliate_pixels": 5,
     "additional_affiliate_articles": 6,
     "suika_article_text_chars": 6263,
-    "suika_article_images": 4
+    "suika_article_images": 4,
+    "xserver_core_pages_checked": 9,
+    "xserver_funnel_pages_checked": 4
   },
   "errors": [],
   "warnings": []
