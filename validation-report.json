@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/luqevora_v568_work/public",
+  "public_root": "/mnt/data/v571_work/public",
   "stats": {
     "files": 1738,
     "html": 1126,
@@ -10,10 +10,11 @@
     "affiliate_links": 6,
     "affiliate_pixels": 6,
     "additional_affiliate_articles": 7,
-    "suika_article_text_chars": 6376,
+    "suika_article_text_chars": 6478,
     "suika_article_images": 4,
     "millenvpn_a8_links": 3,
     "millenvpn_a8_pixels": 3,
+    "vpn_v571_tracked_ctas": 6,
     "xserver_core_pages_checked": 9,
     "xserver_funnel_pages_checked": 4,
     "shin_core_pages_checked": 8,
@@ -95,9 +96,9 @@
     "travesim_a8_pixels_total": 3,
     "travesim_funnel_pages_checked": 2,
     "revenue_max_analytics_version": "5.1.0-revenue-max-core",
-    "revenue_route_markers_total": 158,
-    "revenue_route_names_unique": 25,
-    "revenue_route_internal_targets": 139,
+    "revenue_route_markers_total": 173,
+    "revenue_route_names_unique": 28,
+    "revenue_route_internal_targets": 154,
     "se_ranking_direct_links_total": 21,
     "se_ranking_direct_pages_checked": 7,
     "se_ranking_indexed_comparisons": 4,
@@ -106,7 +107,11 @@
     "authority_consolidation_sources": 10,
     "product_review_bridge_links": 8,
     "noncanonical_sitemap_hits": 0,
-    "primary_search_authority_pages": 10
+    "primary_search_authority_pages": 10,
+    "seo_tool_growth_pages_checked": 5,
+    "stale_semrush_plan_hits": 0,
+    "xserver_growth_pages_checked": 5,
+    "xserver_tracked_ctas": 27
   },
   "errors": [],
   "warnings": []

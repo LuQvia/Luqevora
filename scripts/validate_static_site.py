@@ -262,7 +262,7 @@ def main() -> int:
                 errors.append(f"Suika VPN article has fewer than 4 editorial images: {len(suika_images)}")
             if "2026年7月25日" not in suika_html:
                 errors.append("Suika VPN article does not visibly preserve the publication date.")
-            if "2026年8月7日" not in suika_html:
+            if "2026年8月8日" not in suika_html:
                 errors.append("Suika VPN article does not show the latest verification date.")
 
         millen_article = root / "ja/hosting-security/millenvpn-review/index.html"
@@ -277,7 +277,7 @@ def main() -> int:
             if millen_pixels < 3:
                 errors.append(f"MillenVPN article has fewer than 3 A8 tracking pixels: {millen_pixels}")
             for required_text in (
-                "2026年8月7日",
+                "2026年8月8日",
                 "月額換算396円",
                 "7日638円",
                 "30日間返金保証",
@@ -293,6 +293,39 @@ def main() -> int:
             vpn_topic_text = vpn_topic.read_text(encoding="utf-8-sig")
             if "最初に比較する2候補" not in vpn_topic_text or "/ja/hosting-security/millenvpn-review/" not in vpn_topic_text:
                 errors.append("VPN topic page does not contain the MillenVPN decision route.")
+
+        # v5.7.1 VPN search/revenue cluster safeguards
+        vpn_track_specs = (
+            ("ja/hosting-security/millenvpn-review/index.html", "mllnrev", "millenvpn", 3),
+            ("ja/hosting-security/suika-vpn-review/index.html", "suikarev", "suikavpn", 3),
+        )
+        vpn_tracked_ctas = 0
+        for rel_path, page_id, product_id, expected in vpn_track_specs:
+            page = root / rel_path
+            if not page.is_file():
+                errors.append(f"VPN tracked page missing: {rel_path}")
+                continue
+            page_text = page.read_text(encoding="utf-8-sig")
+            hits = len(re.findall(rf'id1={page_id}(?:&amp;|&)id2=(?:top|mid|btm)(?:&amp;|&)id3=review(?:&amp;|&)id4={product_id}(?:&amp;|&)id5=v571', page_text))
+            vpn_tracked_ctas += hits
+            if hits != expected:
+                errors.append(f"VPN tracking parameter count mismatch for {rel_path}: {hits} != {expected}")
+        stats["vpn_v571_tracked_ctas"] = vpn_tracked_ctas
+
+        for lang in ("ja", "en"):
+            product_page = root / f"{lang}/products/nordvpn/index.html"
+            if product_page.is_file():
+                product_text = product_page.read_text(encoding="utf-8-sig")
+                target = f"https://luqevora.com/{lang}/hosting-security/nordvpn-review/"
+                if 'content="noindex,follow,max-image-preview:large"' not in product_text or f'href="{target}" rel="canonical"' not in product_text:
+                    errors.append(f"NordVPN product authority consolidation missing for {lang}")
+
+        pages_sitemap = root / "sitemaps/pages.xml"
+        if pages_sitemap.is_file():
+            sitemap_text = pages_sitemap.read_text(encoding="utf-8-sig")
+            for forbidden in ("https://luqevora.com/ja/products/nordvpn/", "https://luqevora.com/en/products/nordvpn/"):
+                if forbidden in sitemap_text:
+                    errors.append(f"Noncanonical NordVPN product remains in sitemap: {forbidden}")
 
         xserver_core_pages = (
             "ja/hosting-security/xserver-rental-server-review/index.html",
@@ -328,7 +361,7 @@ def main() -> int:
                 errors.append(f"XServer affiliate name missing: {rel_path}")
             if 'data-affiliate-status="active"' not in page_text:
                 errors.append(f"XServer affiliate status missing: {rel_path}")
-            if "2026年8月7日" not in page_text:
+            if "2026年8月8日" not in page_text:
                 errors.append(f"XServer page verification date missing: {rel_path}")
 
         for rel_path in xserver_funnel_pages:
@@ -2830,6 +2863,115 @@ def main() -> int:
                 errors.append(f"Primary search-authority marker missing: {rel_path}")
         stats["primary_search_authority_pages"] = primary_marker_ok
 
+        # v5.6.9 SEO Tool Search Growth checks
+        growth_targets = {
+            "en/seo-marketing/seo-tools-small-business/index.html": ("Seobility Alternatives 2026", "€49.90", "€179.90"),
+            "en/seo-marketing/se-ranking-review/index.html": ("Core $129", "US$129", "US$279"),
+            "ja/seo-marketing/semrush-review/index.html": ("Starter", "199米ドル", "Advanced"),
+            "en/seo-marketing/semrush-pricing-guide/index.html": ("Starter", "US$199", "Advanced"),
+            "ja/seo-marketing/semrush-pricing-guide/index.html": ("Starter", "199米ドル", "Advanced"),
+        }
+        growth_ok = 0
+        for rel_path, markers in growth_targets.items():
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"SEO growth target missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            missing = [m for m in markers if m not in page_text]
+            if missing:
+                errors.append(f"SEO growth markers missing: {rel_path}: {missing}")
+            else:
+                growth_ok += 1
+        stats["seo_tool_growth_pages_checked"] = growth_ok
+
+        for rel_path in ("en/seo-marketing/seobility-alternatives/index.html", "ja/seo-marketing/seobility-alternatives/index.html"):
+            page_text = (root / rel_path).read_text(encoding="utf-8-sig")
+            robots_match = re.search(r'<meta\b[^>]*\bname=["\']robots["\'][^>]*>', page_text, re.I)
+            robots_tag = robots_match.group(0) if robots_match else ""
+            if "noindex" not in robots_tag.lower():
+                errors.append(f"Retired Seobility duplicate should be noindex: {rel_path}")
+
+        stale_semrush_markers = (
+            "Pro・Guru・Business",
+            "Pro, Guru and Business",
+            "Pro vs Guru vs Business",
+            "Semrush SEO Classic costs $139/month for Pro",
+            "Semrush SEO Classicの料金はPro月139ドル",
+        )
+        stale_hits = 0
+        for target in root.rglob("*.html"):
+            page_text = target.read_text(encoding="utf-8-sig")
+            for stale in stale_semrush_markers:
+                if stale in page_text:
+                    stale_hits += 1
+                    errors.append(f"Stale Semrush plan marker remains: {target.relative_to(root)}: {stale}")
+        stats["stale_semrush_plan_hits"] = stale_hits
+
+        search_index_target = root / "search-index.json"
+        if search_index_target.is_file():
+            stext = search_index_target.read_text(encoding="utf-8-sig")
+            for marker in ("Semrush Pricing 2026: SEO, Starter, Pro+ & Advanced", "Seobility Alternatives 2026: 5 Best SEO Tools for Small Businesses"):
+                if marker not in stext:
+                    errors.append(f"Updated search-index marker missing: {marker}")
+
+        # v5.7.0 XServer Search Growth checks
+        xserver_growth = {
+            "ja/hosting-security/xserver-rental-server-review/index.html": ("xserver-main-review", "693円", "WordPressクイックスタート"),
+            "ja/hosting-security/xserver-rental-server-pricing/index.html": ("xserver-pricing", "24,948円", "99,792円"),
+            "ja/hosting-security/xserver-wordpress-quick-start-guide/index.html": ("xserver-wordpress-quickstart", "10日間無料お試し", "ペイディ"),
+            "en/hosting-security/xserver-rental-server-review/index.html": ("XServer Japan Hosting Review", "August 8, 2026"),
+            "en/hosting-security/xserver-rental-server-pricing/index.html": ("JPY 693/mo", "September 7, 2026"),
+        }
+        xserver_growth_ok = 0
+        for rel_path, markers in xserver_growth.items():
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"XServer growth page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            missing = [m for m in markers if m not in page_text]
+            if missing:
+                errors.append(f"XServer growth markers missing: {rel_path}: {missing}")
+            else:
+                xserver_growth_ok += 1
+        stats["xserver_growth_pages_checked"] = xserver_growth_ok
+
+        xserver_direct_pages = {
+            "ja/hosting-security/xserver-rental-server-review/index.html": "xsrvrev",
+            "ja/hosting-security/xserver-rental-server-pricing/index.html": "xsrvprice",
+            "ja/hosting-security/xserver-rental-server-pros-cons/index.html": "xsrvpros",
+            "ja/hosting-security/xserver-wordpress-quick-start-guide/index.html": "xsrvwp",
+            "ja/hosting-security/xserver-company-website-email-guide/index.html": "xsrvmail",
+            "ja/hosting-security/xserver-multiple-domain-site-guide/index.html": "xsrvmulti",
+            "ja/hosting-security/xserver-vs-conoha-wing/index.html": "xsrvconoha",
+            "ja/hosting-security/xserver-vs-lolipop/index.html": "xsrvlolipop",
+            "ja/hosting-security/shin-rental-server-vs-xserver/index.html": "shinxsrv",
+        }
+        total_xserver_ctas = 0
+        for rel_path, page_id in xserver_direct_pages.items():
+            page_text = (root / rel_path).read_text(encoding="utf-8-sig")
+            ctas = page_text.count(f"&id1={page_id}&") + page_text.count(f"&amp;id1={page_id}&amp;")
+            if ctas != 3:
+                errors.append(f"XServer page should have exactly 3 tracked CTAs: {rel_path}: {ctas}")
+            for pos in ("top","mid","btm"):
+                if f"id2={pos}" not in page_text:
+                    errors.append(f"XServer CTA position missing: {rel_path}: {pos}")
+            total_xserver_ctas += ctas
+        stats["xserver_tracked_ctas"] = total_xserver_ctas
+
+        for rel_path, expected in (
+            ("ja/products/xserver-business/index.html", "https://luqevora.com/ja/hosting-security/xserver-business-review/"),
+            ("en/products/xserver-business/index.html", "https://luqevora.com/en/hosting-security/xserver-business-review/"),
+        ):
+            page_text = (root / rel_path).read_text(encoding="utf-8-sig")
+            if f'href="{expected}" rel="canonical"' not in page_text:
+                errors.append(f"XServer Business product canonical mismatch: {rel_path}")
+
+        sitemap_text = "\n".join(p.read_text(encoding="utf-8-sig") for p in (root / "sitemaps").glob("*.xml"))
+        for retired_url in ("https://luqevora.com/ja/products/xserver-business/", "https://luqevora.com/en/products/xserver-business/"):
+            if retired_url in sitemap_text:
+                errors.append(f"Consolidated XServer Business product still in sitemap: {retired_url}")
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":
             warnings.append("CNAME does not contain exactly 'luqevora.com'.")

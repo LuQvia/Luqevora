@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-24T07:46:45.197119Z",
-  "lastVerified": "2026-08-07",
+  "generatedAt": "2026-08-08T09:48:00+09:00",
+  "lastVerified": "2026-08-08",
   "sourceFiles": [
     "content/article-batches/product-profiles-expansion.json",
     "content/article-batches/product-profiles.json"
@@ -7238,12 +7238,12 @@
         "en": "Japan-focused hosting with WordPress workflows, multiple domains, email, SSL, and fourteen-day backups"
       },
       "pricing": {
-        "ja": "通常36か月月額換算はスタンダード990円、プレミアム1,980円、ビジネス3,960円。初期費用無料",
-        "en": "Normal thirty-six-month equivalents are JPY 990, JPY 1,980, and JPY 3,960, with no setup fee"
+        "ja": "通常36か月月額換算は990円／1,980円／3,960円。2026年9月7日17:00までは最大30%オフで693円／1,386円／2,772円",
+        "en": "Normal 36-month equivalents are JPY 990 / 1,980 / 3,960; through Sep 7, 2026 the 30% 36-month discount is JPY 693 / 1,386 / 2,772"
       },
       "pricingDetail": {
-        "ja": "長期契約は契約期間分を前払い。キャンペーンではなく通常更新料金、ドメイン条件、移行・復旧費を含めて比較",
-        "en": "Long terms are prepaid; compare normal renewal, domain conditions, migration, and recovery rather than campaign effective pricing"
+        "ja": "12か月10%OFF、24か月20%OFF、36か月30%OFF。契約期間分を一括前払い。通常申込みは10日無料、WordPressクイックスタートは試用対象外",
+        "en": "12 months 10% off, 24 months 20% off, 36 months 30% off; prepaid term. Normal signup has a 10-day trial, Quick Start does not"
       },
       "pricingModel": "subscription",
       "workflow": {
@@ -7298,39 +7298,19 @@
         },
         {
           "label": "エックスサーバー料金プラン",
-          "url": "https://www.xserver.ne.jp/price/index.php"
+          "url": "https://www.xserver.ne.jp/price/"
+        },
+        {
+          "label": "WordPressクイックスタートFAQ",
+          "url": "https://www.xserver.ne.jp/support/faq/contract_new_wordpress_plan.php"
+        },
+        {
+          "label": "無料お試し期間",
+          "url": "https://www.xserver.ne.jp/manual/man_order_free_trial.php"
         },
         {
           "label": "エックスサーバー機能一覧",
           "url": "https://www.xserver.ne.jp/functions/"
-        },
-        {
-          "label": "エックスサーバー特長",
-          "url": "https://www.xserver.ne.jp/feature/"
-        },
-        {
-          "label": "独自ドメイン永久無料特典",
-          "url": "https://www.xserver.ne.jp/manual/man_order_present_domain.php"
-        },
-        {
-          "label": "自動バックアップ機能",
-          "url": "https://www.xserver.ne.jp/functions/service_backup.php"
-        },
-        {
-          "label": "WordPress簡単インストール",
-          "url": "https://www.xserver.ne.jp/manual/man_install_auto_word.php"
-        },
-        {
-          "label": "WordPress簡単移行",
-          "url": "https://www.xserver.ne.jp/manual/man_install_transfer_wp.php"
-        },
-        {
-          "label": "エックスサーバーサポート",
-          "url": "https://www.xserver.ne.jp/support/"
-        },
-        {
-          "label": "法人向けレンタルサーバー選び方ガイド",
-          "url": "https://www.xserver.ne.jp/comparison/"
         }
       ],
       "relatedArticles": [
@@ -7431,7 +7411,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-08"
     },
     {
       "id": "xserver-business",
@@ -7448,8 +7428,8 @@
         "en": "Business hosting ranging from shared service to managed virtual and physical dedicated servers"
       },
       "pricing": {
-        "ja": "共有36か月月額3,762円から。仮想専用19,800円から、物理専用29,700円から。初期費用あり",
-        "en": "Shared from JPY 3,762 per month on thirty-six months, managed virtual from JPY 19,800, physical from JPY 29,700, with setup fees"
+        "ja": "共有サーバー通常36か月3,762円/月。2026年10月13日17:00までは30%キャッシュバックで実質2,633円/月。14日間無料お試し",
+        "en": "Shared hosting is normally JPY 3,762/month on 36 months; through Oct 13, 2026 a 30% cashback makes it effectively JPY 2,633/month. 14-day trial"
       },
       "pricingDetail": {
         "ja": "キャンペーン実質額ではなく初期費用、通常月額、契約期間、移行、運用支援、社内工数で比較",
@@ -7625,7 +7605,7 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-08"
     },
     {
       "id": "activecampaign",
@@ -9350,8 +9330,8 @@
         "en": "A broad marketing platform covering SEO, competition, content, local, advertising, and AI-search visibility"
       },
       "pricing": {
-        "ja": "複数の有料プランとツールキット・追加機能。プロジェクトや計測上限を確認",
-        "en": "Several paid tiers plus toolkits and add-ons, with project, keyword, and reporting limits"
+        "ja": "SEO、Starter、Pro+、Advanced。年払い割引とAI Visibility・追加ユーザー等の追加費用を確認",
+        "en": "SEO, Starter, Pro+, and Advanced plans; verify annual savings plus AI Visibility, users, reporting, and other add-ons"
       },
       "pricingDetail": {
         "ja": "Semrushは基本契約だけでなく、必要なツールキット、ユーザー、プロジェクト、順位計測キーワード、追加機能を合算して見積もります。",
@@ -9401,8 +9381,8 @@
       },
       "sources": [
         {
-          "label": "Semrush — Pricing",
-          "url": "https://www.semrush.com/pricing/"
+          "label": "Semrush — SEO & AI Search plans",
+          "url": "https://www.semrush.com/pricing/seo-ai-search/"
         },
         {
           "label": "Semrush — SEO Toolkit limits",
@@ -9429,7 +9409,7 @@
         {
           "language": "en",
           "type": "guide",
-          "title": "Semrush Pricing 2026: Pro vs Guru vs Business",
+          "title": "Semrush Pricing 2026: SEO, Starter, Pro+ & Advanced",
           "url": "/en/seo-marketing/semrush-pricing-guide/",
           "category": "seo-marketing",
           "topic": "seo-tools"
@@ -9507,7 +9487,7 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-08-08"
     },
     {
       "id": "ubersuggest",
