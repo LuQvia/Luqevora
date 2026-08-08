@@ -56,8 +56,8 @@
     "topic": "home-internet"
   },
   {
-    "title": "TRAVeSIMレビュー｜料金・対応国・設定・海外旅行前の注意点",
-    "description": "TRAVeSIMの海外eSIM料金、140か国対応、QR設定、周遊プラン、24時間サポート、対応端末と購入前の注意点を公式情報で整理します。",
+    "title": "TRAVeSIMレビュー｜2026年8月キャンペーン・料金・140か国対応を確認",
+    "description": "TRAVeSIMの2026年8月データ使い放題キャンペーン、140以上の国・地域、単国・周遊料金、30日/90日のアクティベート期限差、返金不可、データ専用eSIMの注意点を公式情報で整理します。",
     "url": "/ja/mobile-connectivity/travesim-review/",
     "language": "ja",
     "category": "mobile-connectivity",
@@ -1555,14 +1555,6 @@
     "title": "Semrush Review: SEO and AI Search Plans, Pricing, Rank Tracking and Site Audits",
     "description": "Review Semrush Free, Starter, Pro+ and Advanced plans, rank tracking, site audits, competitor research, AI visibility and add-on costs using official sources.",
     "url": "/en/seo-marketing/semrush-review/",
-    "language": "en",
-    "category": "seo-marketing",
-    "topic": "seo-tools"
-  },
-  {
-    "title": "Seobility Alternatives in 2026: Compare SE Ranking, Semrush, Ahrefs, Mangools, Ubersuggest and Screaming Frog",
-    "description": "Compare six Seobility alternatives by rank tracking, site audits, keyword research, backlinks, free access, collaboration and pricing structure.",
-    "url": "/en/seo-marketing/seobility-alternatives/",
     "language": "en",
     "category": "seo-marketing",
     "topic": "seo-tools"
@@ -3528,14 +3520,6 @@
     "topic": "seo-tools"
   },
   {
-    "title": "Seobilityの代替ツール6選｜SE Ranking・Semrush・Ahrefsなどを比較",
-    "description": "Seobilityの代替候補を、順位計測、サイト監査、キーワード調査、被リンク、無料利用、料金体系、チーム運用から比較します。",
-    "url": "/ja/seo-marketing/seobility-alternatives/",
-    "language": "ja",
-    "category": "seo-marketing",
-    "topic": "seo-tools"
-  },
-  {
     "title": "Ubersuggestレビュー｜無料機能、料金、順位計測、サイト監査、買切りを公式情報で確認",
     "description": "Ubersuggestの無料機能、Personal・Business・Enterprise、7日間試用、買切り、順位計測、サイト監査、AI検索を公式情報で整理します。",
     "url": "/ja/seo-marketing/ubersuggest-review/",
@@ -3904,8 +3888,8 @@
     "topic": "restaurant-dx-operations"
   },
   {
-    "title": "Yahoo!トラベルのPayPayポイント｜「すぐに使う」と「貯める」の違い",
-    "description": "Yahoo!トラベルのPayPayポイントについて、ポイント即時割引の「すぐに使う」と「貯める」、表示料金、付与条件、予約前の注意点を解説します。",
+    "title": "Yahoo!トラベルのPayPayポイント｜最大10%・「すぐに使う」と「貯める」を比較",
+    "description": "Yahoo!トラベルのPayPayポイントを、対象施設の最大10%特典、「すぐに使う」と「貯める」、オンライン決済・現地決済の付与率と付与時期から整理します。",
     "url": "/ja/travel-booking/yahoo-travel-paypay-points-guide/",
     "language": "ja",
     "category": "travel-booking",
@@ -3913,15 +3897,15 @@
   },
   {
     "title": "Yahoo!トラベルのキャンセル・予約変更｜確認する場所と注意点",
-    "description": "Yahoo!トラベルで宿泊予約をキャンセル・変更する際の確認場所、キャンセル料、返金、ポイント、予約取り直し、A8成果対象外プランを解説します。",
+    "description": "Yahoo!トラベルの宿泊予約をキャンセル・変更する際の確認場所、施設・プランごとのキャンセル料、予約取り直し、PayPayポイントの注意点を解説します。",
     "url": "/ja/travel-booking/yahoo-travel-cancellation-guide/",
     "language": "ja",
     "category": "travel-booking",
     "topic": "hotel-booking"
   },
   {
-    "title": "Yahoo!トラベルの使い方・PayPayポイント・予約時の注意点",
-    "description": "Yahoo!トラベルの宿泊予約を、PayPayポイント、ポイント即時割引、キャンセル、対象外プラン、予約前の確認項目から解説します。",
+    "title": "Yahoo!トラベルレビュー｜最大10%・PayPayポイント・予約時の注意点",
+    "description": "Yahoo!トラベルの宿泊予約を、対象施設の最大10%特典、PayPayポイント、ポイント即時割引、キャンセル条件、A8成果対象の確認項目から解説します。",
     "url": "/ja/travel-booking/yahoo-travel-review/",
     "language": "ja",
     "category": "travel-booking",

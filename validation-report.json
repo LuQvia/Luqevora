@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/luqevora_v563_work/public",
+  "public_root": "/mnt/data/luqevora_v568_work/public",
   "stats": {
     "files": 1738,
     "html": 1126,
@@ -87,7 +87,26 @@
     "giga_wifi_a8_pixels_total": 3,
     "softbank_air_a8_links_total": 3,
     "softbank_air_a8_pixels_total": 3,
-    "softbank_air_funnel_pages_checked": 1
+    "softbank_air_funnel_pages_checked": 1,
+    "yahoo_travel_a8_links_total": 6,
+    "yahoo_travel_a8_pixels_total": 6,
+    "yahoo_travel_funnel_pages_checked": 1,
+    "travesim_a8_links_total": 3,
+    "travesim_a8_pixels_total": 3,
+    "travesim_funnel_pages_checked": 2,
+    "revenue_max_analytics_version": "5.1.0-revenue-max-core",
+    "revenue_route_markers_total": 158,
+    "revenue_route_names_unique": 25,
+    "revenue_route_internal_targets": 139,
+    "se_ranking_direct_links_total": 21,
+    "se_ranking_direct_pages_checked": 7,
+    "se_ranking_indexed_comparisons": 4,
+    "se_ranking_support_pages_checked": 2,
+    "se_ranking_revenue_route_markers": 26,
+    "authority_consolidation_sources": 10,
+    "product_review_bridge_links": 8,
+    "noncanonical_sitemap_hits": 0,
+    "primary_search_authority_pages": 10
   },
   "errors": [],
   "warnings": []

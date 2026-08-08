@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const VERSION = '5.0.0-commercial-decision';
+  const VERSION = '5.1.0-revenue-max-core';
   const IDS = Object.freeze({
     ga4: 'G-E3KM03W0RR',
     gtm: 'GTM-MQX7DMFR',
@@ -38,15 +38,81 @@
 
   const meta = name => document.querySelector(`meta[name="${name}"]`)?.content || '';
   const debugMode = new URLSearchParams(location.search).get('ga_debug') === '1';
-
-  const pageContext = () => ({
-    content_type: meta('luqevora-content-type') || document.body?.dataset.pageType || 'page',
-    content_category: meta('luqevora-category') || document.body?.dataset.category || '',
-    content_topic: meta('luqevora-topic') || document.body?.dataset.topic || '',
-    product_name: meta('luqevora-product') || document.body?.dataset.product || '',
-    content_language: document.documentElement.lang || '',
-    page_language: document.documentElement.lang || ''
+  const REVENUE_ATTRIBUTION_KEY = 'luqevora.revenueRouteAttribution.v1';
+  const REVENUE_ATTRIBUTION_TTL_MS = 30 * 60 * 1000;
+  const AFFILIATE_NAME_ALIASES = Object.freeze({
+    'スイカVPN': 'suika_vpn',
+    '複数サービス': 'multiple_services',
+    'メガ・エッグ': 'mega_egg',
+    'フレッツ光': 'flets_hikari',
+    'コミュファ光': 'commufa_hikari',
+    'auひかり': 'au_hikari'
   });
+
+  function normalizeAffiliateName(value) {
+    const raw = String(value || '').trim();
+    return AFFILIATE_NAME_ALIASES[raw] || raw;
+  }
+
+  function getRevenueAttribution() {
+    try {
+      const raw = sessionStorage.getItem(REVENUE_ATTRIBUTION_KEY);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      const clickedAt = Number(data.clicked_at || 0);
+      if (!clickedAt || Date.now() - clickedAt > REVENUE_ATTRIBUTION_TTL_MS) {
+        sessionStorage.removeItem(REVENUE_ATTRIBUTION_KEY);
+        return null;
+      }
+      if (data.target_path && data.target_path !== location.pathname) return null;
+      return data;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function setRevenueAttribution(data) {
+    try {
+      sessionStorage.setItem(REVENUE_ATTRIBUTION_KEY, JSON.stringify({ ...data, clicked_at: Date.now() }));
+    } catch (_) {}
+  }
+
+  function pageMonetizationContext() {
+    const affiliateSelector = [
+      'a[data-affiliate-status="active"]',
+      '[data-affiliate-status="active"] a[href]',
+      'a[href*="px.a8.net/svt/ejp"]',
+      'a[href*="af.moshimo.com/af/c/click"]',
+      'a[href*="go.nordvpn.net/aff_c"]',
+      'a[href*="go.nordpass.io/aff_c"]'
+    ].join(',');
+    const affiliateCount = document.querySelectorAll(affiliateSelector).length;
+    const revenueRouteCount = document.querySelectorAll('[data-revenue-route]').length;
+    const explicitPriority = document.body?.dataset.commercialPriority || meta('luqevora-commercial-priority') || '';
+    const commercialPriority = explicitPriority || (affiliateCount >= 3 ? 'high' : affiliateCount > 0 ? 'medium' : revenueRouteCount > 0 ? 'assist' : 'editorial');
+    const revenueRole = affiliateCount > 0 ? 'direct' : revenueRouteCount > 0 ? 'assist' : 'editorial';
+    return {
+      commercial_priority: commercialPriority,
+      revenue_role: revenueRole,
+      page_affiliate_cta_count: affiliateCount,
+      page_revenue_route_count: revenueRouteCount
+    };
+  }
+
+  const pageContext = () => {
+    const attribution = getRevenueAttribution();
+    return {
+      content_type: meta('luqevora-content-type') || document.body?.dataset.pageType || 'page',
+      content_category: meta('luqevora-category') || document.body?.dataset.category || '',
+      content_topic: meta('luqevora-topic') || document.body?.dataset.topic || '',
+      product_name: meta('luqevora-product') || document.body?.dataset.product || '',
+      content_language: document.documentElement.lang || '',
+      page_language: document.documentElement.lang || '',
+      ...pageMonetizationContext(),
+      revenue_route_name: attribution?.route_name || '',
+      revenue_route_source: attribution?.source_path || ''
+    };
+  };
 
   function addError(service, error) {
     const message = error instanceof Error ? error.message : String(error || 'load_failed');
@@ -152,6 +218,14 @@
     else if (ctx.content_type === 'pricing') track('pricing_view');
     else if (ctx.content_type === 'product') track('product_view');
     else if (ctx.content_type === 'article-directory') track('article_directory_view');
+    const attribution = getRevenueAttribution();
+    if (attribution) {
+      track('revenue_route_entry', {
+        route_name: attribution.route_name || '',
+        source_path: attribution.source_path || '',
+        target_path: attribution.target_path || location.pathname
+      });
+    }
   }
 
   function load() {
@@ -190,7 +264,7 @@
 
   function inferAffiliateName(link, destination) {
     const explicit = link.dataset.affiliateName || link.closest('[data-affiliate-name]')?.dataset.affiliateName;
-    if (explicit) return explicit;
+    if (explicit) return normalizeAffiliateName(explicit);
     if (destination.hostname === 'seranking.com' && destination.searchParams.get('ga') === '5202722') return 'se_ranking';
     if (destination.hostname === 'referworkspace.app.goo.gl') return 'google_workspace';
     if ((destination.hostname === 'kinsta.com' || destination.hostname.endsWith('.kinsta.com')) && destination.searchParams.get('kaid') === 'CBLLKJNFIDUZ') return 'kinsta';
@@ -229,14 +303,10 @@
       if (code.includes('+AM8BX6+348+')) return 'goope';
       if (code.includes('+3MDZ16+3CZK+')) return 'ochanoko_saisai';
       if (code.includes('+16V93U+2BZM+')) return 'sakupeji';
-      if (code.includes('+A4EU2+')) return 'wiz_inbound_package';
-      if (code.includes('+BWPNE+')) return 'ablenet_storage';
       if (code.includes('+CTEZDM+')) return 'yahoo_travel';
+      if (code.includes('+UYL0A+58IY+')) return 'travesim';
       if (code.includes('+CZDBFE+')) return 'aruku_web';
       if (code.includes('+DE95JU+')) return 'wiz_homepagedx';
-      if (code.includes('+DPKE1M+')) return 'homepage_dot_com';
-      if (code.includes('+MMIJE+')) return 'wiz_digital_signage';
-      if (code.includes('+VK0M2+')) return 'wiz_3d_phantom';
       return 'a8_net';
     }
     return '';
@@ -250,7 +320,7 @@
 
   function inferCtaType(link, destination, affiliateName) {
     const explicit = link.dataset.ctaType || link.closest('[data-cta-type]')?.dataset.ctaType;
-    if (explicit) return explicit;
+    if (explicit) return normalizeAffiliateName(explicit);
     const text = (link.textContent || '').toLowerCase();
     const path = destination.pathname.toLowerCase();
     if (affiliateName === 'google_workspace') return 'referral';
@@ -260,11 +330,22 @@
     return 'official_site';
   }
 
+  function inferAffiliateNetwork(destination) {
+    if (destination.hostname.endsWith('a8.net')) return 'a8';
+    if (destination.hostname === 'af.moshimo.com') return 'moshimo';
+    if (destination.hostname === 'seranking.com') return 'se_ranking';
+    if (destination.hostname === 'referworkspace.app.goo.gl') return 'google_referral';
+    if (destination.hostname.includes('nordvpn.net') || destination.hostname.includes('nordpass.io')) return 'direct_partner';
+    if (destination.hostname.includes('kinsta.com')) return 'direct_partner';
+    return 'other';
+  }
+
   function affiliateParameters(link, destination) {
     const container = link.closest('[data-affiliate-key], [data-affiliate-name], [data-affiliate-status]');
     const affiliateName = inferAffiliateName(link, destination);
     return {
       affiliate_name: affiliateName,
+      affiliate_network: inferAffiliateNetwork(destination),
       product_name: link.dataset.productName || link.dataset.affiliateProduct || link.dataset.product || container?.dataset.productName || affiliateName,
       affiliate_key: link.dataset.affiliateKey || container?.dataset.affiliateKey || (destination.hostname === 'px.a8.net' ? destination.searchParams.get('a8mat') || '' : (destination.hostname === 'af.moshimo.com' ? ['a_id','p_id','pc_id','pl_id'].map(key => destination.searchParams.get(key) || '').join(':') : ((destination.hostname === 'go.nordvpn.net' || destination.hostname === 'go.nordpass.io') ? ['offer_id','aff_id'].map(key => destination.searchParams.get(key) || '').join(':') : ''))),
       content_language: document.documentElement.lang || '',
@@ -307,6 +388,62 @@
       link_text: (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 100)
     });
   });
+
+  function revenueRouteContext(link, destination) {
+    if (destination.origin !== location.origin) return null;
+    const carrier = link.matches('[data-revenue-route]') ? link : link.closest('[data-revenue-route]');
+    if (!carrier) return null;
+    const routeName = carrier.dataset.revenueRoute || link.dataset.revenueRoute || '';
+    if (!routeName) return null;
+    return { carrier, routeName };
+  }
+
+  function revenueRouteParameters(link, destination, routeName) {
+    const carrier = link.matches('[data-revenue-route]') ? link : link.closest('[data-revenue-route]');
+    return {
+      route_name: routeName,
+      source_path: location.pathname,
+      target_path: destination.pathname,
+      link_position: link.dataset.linkPosition || carrier?.dataset.linkPosition || '',
+      link_text: (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 100)
+    };
+  }
+
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    let destination;
+    try { destination = new URL(link.href, location.href); } catch (_) { return; }
+    const route = revenueRouteContext(link, destination);
+    if (!route) return;
+    const params = revenueRouteParameters(link, destination, route.routeName);
+    setRevenueAttribution(params);
+    track('revenue_route_click', params);
+  });
+
+  const observedRevenueRoutes = new WeakSet();
+  if ('IntersectionObserver' in window) {
+    const revenueRouteObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (!entry.isIntersecting || observedRevenueRoutes.has(entry.target)) return;
+      const carrier = entry.target;
+      const candidates = carrier.matches('a[href]') ? [carrier] : Array.from(carrier.querySelectorAll('a[href]'));
+      const link = candidates.find(candidate => {
+        try { return new URL(candidate.href, location.href).origin === location.origin; } catch (_) { return false; }
+      });
+      if (!link) return;
+      let destination;
+      try { destination = new URL(link.href, location.href); } catch (_) { return; }
+      const routeName = carrier.dataset.revenueRoute || link.dataset.revenueRoute || '';
+      if (!routeName) return;
+      observedRevenueRoutes.add(carrier);
+      track('revenue_route_impression', revenueRouteParameters(link, destination, routeName));
+      revenueRouteObserver.unobserve(carrier);
+    }), { threshold: 0.5 });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('[data-revenue-route]').forEach(element => revenueRouteObserver.observe(element));
+    }, { once: true });
+  }
 
   const observedCtas = new WeakSet();
   if ('IntersectionObserver' in window) {

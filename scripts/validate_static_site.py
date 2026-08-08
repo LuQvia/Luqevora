@@ -2410,6 +2410,426 @@ def main() -> int:
             if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
                 errors.append("SoftBank Air article sitemap lastmod is not current")
 
+
+        # v5.6.4 Yahoo! Travel revenue-route checks
+        yahoo_review = root / "ja/travel-booking/yahoo-travel-review/index.html"
+        yahoo_points = root / "ja/travel-booking/yahoo-travel-paypay-points-guide/index.html"
+        yahoo_cancel = root / "ja/travel-booking/yahoo-travel-cancellation-guide/index.html"
+        yahoo_marker = "4B878Y+CTEZDM+4ZCO+60WN6"
+        yahoo_links_total = 0
+        yahoo_pixels_total = 0
+        for target in (yahoo_review, yahoo_points):
+            if not target.is_file():
+                errors.append(f"Yahoo Travel monetization page missing: {target}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            links = len(re.findall(r'href="https://px\.a8\.net/svt/ejp\?a8mat=' + re.escape(yahoo_marker) + r'"', page_text))
+            pixels = len(re.findall(r'src="https://www13\.a8\.net/0\.gif\?a8mat=' + re.escape(yahoo_marker) + r'"', page_text))
+            yahoo_links_total += links
+            yahoo_pixels_total += pixels
+            if links != 3 or pixels != 3:
+                errors.append(f"Yahoo Travel monetization page should have exactly 3 A8 links/pixels: {target}: {links}/{pixels}")
+            for required in ('data-affiliate-position="article-top"','data-affiliate-position="article-mid"','data-affiliate-position="article-bottom"','2026年8月7日','最大10％','https://travel.yahoo.co.jp/feature/campaign_pointup/','https://travel.yahoo.co.jp/promo/guide/'):
+                if required not in page_text:
+                    errors.append(f"Yahoo Travel current marker missing: {target}: {required}")
+        stats["yahoo_travel_a8_links_total"] = yahoo_links_total
+        stats["yahoo_travel_a8_pixels_total"] = yahoo_pixels_total
+        if yahoo_links_total != 6 or yahoo_pixels_total != 6:
+            errors.append(f"Yahoo Travel total A8 links/pixels should be 6/6: {yahoo_links_total}/{yahoo_pixels_total}")
+
+        if yahoo_cancel.is_file():
+            cancel_text = yahoo_cancel.read_text(encoding="utf-8-sig")
+            if "+CTEZDM+" in cancel_text:
+                errors.append("Yahoo Travel cancellation guide should funnel internally, not contain direct Yahoo Travel A8")
+            if 'data-revenue-route="yahoo-travel"' not in cancel_text or '/ja/travel-booking/yahoo-travel-review/' not in cancel_text:
+                errors.append("Yahoo Travel cancellation internal funnel missing")
+            if 'https://support.yahoo-net.jp/SccAbroadtourtravel/s/topic/0TO2r000000GnwMGAS/' not in cancel_text:
+                errors.append("Yahoo Travel cancellation official help source missing")
+            else:
+                stats["yahoo_travel_funnel_pages_checked"] = 1
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+CTEZDM+" not in analytics_text or "return 'yahoo_travel'" not in analytics_text:
+                errors.append("Yahoo Travel affiliate provider inference missing in analytics-v5.0.0.js")
+
+        search_path = root / "search-index.json"
+        if search_path.is_file():
+            search_text = search_path.read_text(encoding="utf-8-sig")
+            if "Yahoo!トラベルレビュー｜最大10%・PayPayポイント・予約時の注意点" not in search_text:
+                errors.append("Yahoo Travel review search-index title not updated")
+            if "Yahoo!トラベルのPayPayポイント｜最大10%・「すぐに使う」と「貯める」を比較" not in search_text:
+                errors.append("Yahoo Travel PayPay search-index title not updated")
+
+        yahoo_card_targets = {
+            "ja/travel-booking/index.html": ("yahoo-travel-review", "yahoo-travel-paypay-points-guide", "yahoo-travel-cancellation-guide"),
+            "ja/articles/index.html": ("yahoo-travel-review",),
+        }
+        for rel_path, slugs in yahoo_card_targets.items():
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                for slug in slugs:
+                    anchor = f'href="/ja/travel-booking/{slug}/"'
+                    pos = page_text.find(anchor)
+                    if pos < 0 or "最終確認: 2026-08-07" not in page_text[pos:pos+2200]:
+                        errors.append(f"Yahoo Travel current card date missing: {rel_path}: {slug}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            for slug in ("yahoo-travel-review", "yahoo-travel-paypay-points-guide", "yahoo-travel-cancellation-guide"):
+                url = f"https://luqevora.com/ja/travel-booking/{slug}/"
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                    errors.append(f"Yahoo Travel article sitemap lastmod is not current: {slug}")
+
+
+        # v5.6.5 TRAVeSIM revenue-route checks
+        travesim_review = root / "ja/mobile-connectivity/travesim-review/index.html"
+        travesim_marker = "4B88SX+UYL0A+58IY+60WN6"
+        if travesim_review.is_file():
+            trav_text = travesim_review.read_text(encoding="utf-8-sig")
+            trav_links = len(re.findall(r'href="https://px\.a8\.net/svt/ejp\?a8mat=' + re.escape(travesim_marker) + r'"', trav_text))
+            trav_pixels = len(re.findall(r'src="https://www19\.a8\.net/0\.gif\?a8mat=' + re.escape(travesim_marker) + r'"', trav_text))
+            stats["travesim_a8_links_total"] = trav_links
+            stats["travesim_a8_pixels_total"] = trav_pixels
+            if trav_links != 3 or trav_pixels != 3:
+                errors.append(f"TRAVeSIM review should have exactly 3 A8 links/pixels: {trav_links}/{trav_pixels}")
+            for required in (
+                'data-affiliate-name="travesim"',
+                'data-affiliate-position="article-top"',
+                'data-affiliate-position="article-mid"',
+                'data-affiliate-position="article-bottom"',
+                '2026年8月7日', '2026年8月1日', '2026年8月31日', '140以上', '1,080円', '1,270円', '30日', '90日', '返品・返金', '音声通話・SMS',
+                'https://www.daily.berrymobile.jp/thailand/information/15036',
+                'https://travesim.com/jp/rounds/world',
+                'https://travesim.com/jp/faq/1740989997613',
+                'https://travesim.com/jp/faq/1740989947062',
+                'TRAVeSIMレビュー｜2026年8月キャンペーン・料金・140か国対応を確認',
+            ):
+                if required not in trav_text:
+                    errors.append(f"TRAVeSIM current marker missing: {required}")
+        else:
+            errors.append("TRAVeSIM review missing")
+
+        trav_funnels = (
+            root / "ja/mobile-connectivity/esim-square-review/index.html",
+            root / "ja/mobile-connectivity/ahamo-review/index.html",
+        )
+        trav_funnel_count = 0
+        for target in trav_funnels:
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                if travesim_marker in page_text:
+                    errors.append(f"TRAVeSIM funnel page should not contain direct TRAVeSIM A8: {target}")
+                if 'data-revenue-route="travesim"' in page_text and '/ja/mobile-connectivity/travesim-review/' in page_text:
+                    trav_funnel_count += 1
+                else:
+                    errors.append(f"TRAVeSIM internal funnel missing: {target}")
+        stats["travesim_funnel_pages_checked"] = trav_funnel_count
+        if trav_funnel_count != 2:
+            errors.append(f"TRAVeSIM funnel pages should be 2: {trav_funnel_count}")
+
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            if "+UYL0A+58IY+" not in analytics_text or "return 'travesim'" not in analytics_text:
+                errors.append("TRAVeSIM affiliate provider inference missing in analytics-v5.0.0.js")
+
+        search_path = root / "search-index.json"
+        if search_path.is_file():
+            search_text = search_path.read_text(encoding="utf-8-sig")
+            if "TRAVeSIMレビュー｜2026年8月キャンペーン・料金・140か国対応を確認" not in search_text:
+                errors.append("TRAVeSIM search-index title not updated")
+
+        for rel_path in ("ja/mobile-connectivity/index.html", "ja/articles/index.html"):
+            target = root / rel_path
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                anchor = 'href="/ja/mobile-connectivity/travesim-review/"'
+                pos = page_text.find(anchor)
+                if pos < 0 or "最終確認: 2026-08-07" not in page_text[pos:pos+2400]:
+                    errors.append(f"TRAVeSIM current card date missing: {rel_path}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            url = "https://luqevora.com/ja/mobile-connectivity/travesim-review/"
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                errors.append("TRAVeSIM article sitemap lastmod is not current")
+
+        # v5.6.6 Revenue Max Core: sitewide two-stage revenue funnel measurement
+        analytics_path = root / "assets/js/analytics-v5.0.0.js"
+        if analytics_path.is_file():
+            analytics_text = analytics_path.read_text(encoding="utf-8-sig")
+            required_analytics_markers = (
+                "5.1.0-revenue-max-core",
+                "revenue_route_click",
+                "revenue_route_impression",
+                "revenue_route_entry",
+                "luqevora.revenueRouteAttribution.v1",
+                "page_affiliate_cta_count",
+                "page_revenue_route_count",
+                "affiliate_network",
+                "normalizeAffiliateName",
+            )
+            for marker in required_analytics_markers:
+                if marker not in analytics_text:
+                    errors.append(f"Revenue Max Core analytics marker missing: {marker}")
+            duplicate_inference_markers = (
+                "+A4EU2+", "+BWPNE+", "+DPKE1M+", "+MMIJE+", "+VK0M2+",
+            )
+            for marker in duplicate_inference_markers:
+                if analytics_text.count(marker) != 1:
+                    errors.append(f"Affiliate inference marker should be unique in analytics: {marker}")
+        else:
+            errors.append("Revenue Max Core analytics file missing")
+
+        revenue_route_markers = 0
+        revenue_route_names = set()
+        revenue_route_internal_targets = 0
+        revenue_route_pattern = re.compile(r'data-revenue-route="([^"]+)"')
+        href_pattern = re.compile(r'href="(/[^"]*)"')
+        for revenue_html in (root / "ja").rglob("*.html"):
+            revenue_text = revenue_html.read_text(encoding="utf-8-sig")
+            names = revenue_route_pattern.findall(revenue_text)
+            if not names:
+                continue
+            revenue_route_markers += len(names)
+            revenue_route_names.update(names)
+            # Conservative count: internal links near a revenue-route marker, enough to detect accidental route loss.
+            for match in revenue_route_pattern.finditer(revenue_text):
+                window = revenue_text[match.start():match.start() + 1800]
+                if href_pattern.search(window):
+                    revenue_route_internal_targets += 1
+        stats["revenue_max_analytics_version"] = "5.1.0-revenue-max-core"
+        stats["revenue_route_markers_total"] = revenue_route_markers
+        stats["revenue_route_names_unique"] = len(revenue_route_names)
+        stats["revenue_route_internal_targets"] = revenue_route_internal_targets
+        if revenue_route_markers < 100:
+            errors.append(f"Revenue route marker coverage unexpectedly low: {revenue_route_markers}")
+        if len(revenue_route_names) < 20:
+            errors.append(f"Revenue route name coverage unexpectedly low: {len(revenue_route_names)}")
+        if revenue_route_internal_targets < 60:
+            errors.append(f"Revenue route internal target coverage unexpectedly low: {revenue_route_internal_targets}")
+
+
+        # v5.6.7 SE Ranking Revenue Max checks
+        se_ranking_direct_pages = (
+            "ja/seo-marketing/se-ranking-review/index.html",
+            "ja/seo-marketing/se-ranking-pricing/index.html",
+            "ja/products/se-ranking/index.html",
+            "ja/seo-marketing/ahrefs-vs-se-ranking/index.html",
+            "ja/seo-marketing/semrush-vs-se-ranking/index.html",
+            "ja/seo-marketing/se-ranking-vs-ubersuggest/index.html",
+            "ja/seo-marketing/se-ranking-vs-mangools/index.html",
+        )
+        se_direct_total = 0
+        se_direct_pages_ok = 0
+        for rel_path in se_ranking_direct_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"SE Ranking revenue page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            count = page_text.count('data-affiliate-name="se_ranking"')
+            se_direct_total += count
+            if count != 3:
+                errors.append(f"SE Ranking direct page should have exactly 3 affiliate CTAs: {rel_path}: {count}")
+            else:
+                se_direct_pages_ok += 1
+        stats["se_ranking_direct_links_total"] = se_direct_total
+        stats["se_ranking_direct_pages_checked"] = se_direct_pages_ok
+        if se_direct_total != 21:
+            errors.append(f"SE Ranking direct affiliate total should be 21: {se_direct_total}")
+
+        se_ranking_indexed_comparisons = (
+            "ja/seo-marketing/ahrefs-vs-se-ranking/index.html",
+            "ja/seo-marketing/semrush-vs-se-ranking/index.html",
+            "ja/seo-marketing/se-ranking-vs-ubersuggest/index.html",
+            "ja/seo-marketing/se-ranking-vs-mangools/index.html",
+        )
+        se_indexed_ok = 0
+        for rel_path in se_ranking_indexed_comparisons:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"SE Ranking indexed comparison missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            robots_tag_match = re.search(r'<meta\b[^>]*\bname=["\']robots["\'][^>]*>', page_text, re.I)
+            robots_tag = robots_tag_match.group(0) if robots_tag_match else ""
+            robots_content_match = re.search(r'\bcontent=["\']([^"\']+)["\']', robots_tag, re.I)
+            robots_value = robots_content_match.group(1).lower() if robots_content_match else ""
+            if "noindex" in robots_value or "index" not in robots_value:
+                errors.append(f"SE Ranking comparison should be indexable: {rel_path}: {robots_value or 'robots meta missing'}")
+            else:
+                se_indexed_ok += 1
+        stats["se_ranking_indexed_comparisons"] = se_indexed_ok
+
+        se_ranking_support_pages = (
+            "ja/seo-marketing/seo-tools-small-business/index.html",
+            "ja/seo-marketing/seobility-alternatives/index.html",
+        )
+        se_support_ok = 0
+        for rel_path in se_ranking_support_pages:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"SE Ranking support page missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            if 'data-affiliate-name="se_ranking"' in page_text:
+                errors.append(f"SE Ranking support page should not contain direct affiliate CTA: {rel_path}")
+            if 'data-revenue-route="se-ranking"' not in page_text or '/ja/seo-marketing/se-ranking-review/' not in page_text:
+                errors.append(f"SE Ranking support-to-review funnel missing: {rel_path}")
+            else:
+                se_support_ok += 1
+        stats["se_ranking_support_pages_checked"] = se_support_ok
+
+        se_route_markers = 0
+        for se_html in (root / "ja").rglob("*.html"):
+            se_text = se_html.read_text(encoding="utf-8-sig")
+            se_route_markers += se_text.count('data-revenue-route="se-ranking"')
+        stats["se_ranking_revenue_route_markers"] = se_route_markers
+        if se_route_markers < 15:
+            errors.append(f"SE Ranking route coverage unexpectedly low: {se_route_markers}")
+
+        se_review = root / "ja/seo-marketing/se-ranking-review/index.html"
+        se_pricing = root / "ja/seo-marketing/se-ranking-pricing/index.html"
+        for target in (se_review, se_pricing):
+            if target.is_file():
+                page_text = target.read_text(encoding="utf-8-sig")
+                for marker in ("103.20", "129", "223.20", "279", "14日間", "2026年8月7日"):
+                    if marker not in page_text:
+                        errors.append(f"SE Ranking current pricing marker missing in {target.name}: {marker}")
+        se_product = root / "ja/products/se-ranking/index.html"
+        if se_product.is_file():
+            product_text = se_product.read_text(encoding="utf-8-sig")
+            if "LuQviaが報酬を受け取る" in product_text:
+                errors.append("SE Ranking product disclosure incorrectly attributes affiliate revenue to LuQvia")
+            if "Luqevoraが報酬を受け取る" not in product_text:
+                errors.append("SE Ranking product disclosure does not identify Luqevora")
+
+        product_catalog_path = root / "product-catalog.json"
+        if product_catalog_path.is_file():
+            try:
+                catalog_data = json.loads(product_catalog_path.read_text(encoding="utf-8-sig"))
+                catalog_items = catalog_data if isinstance(catalog_data, list) else catalog_data.get("products", catalog_data.get("items", []))
+                se_item = next((item for item in catalog_items if item.get("id") == "se-ranking"), None)
+                if not se_item or se_item.get("lastVerified") != "2026-08-07":
+                    errors.append("SE Ranking product catalog lastVerified is not current")
+            except Exception as exc:
+                errors.append(f"SE Ranking product catalog check failed: {exc}")
+
+        articles_ja_path = root / "sitemaps/articles-ja.xml"
+        if articles_ja_path.is_file():
+            sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
+            expected_cluster_dates = {
+                "se-ranking-review": "2026-08-08",
+                "se-ranking-pricing": "2026-08-07",
+                "ahrefs-vs-se-ranking": "2026-08-07",
+                "semrush-vs-se-ranking": "2026-08-07",
+                "se-ranking-vs-ubersuggest": "2026-08-07",
+                "se-ranking-vs-mangools": "2026-08-07",
+                "seo-tools-small-business": "2026-08-08",
+            }
+            for slug, expected_date in expected_cluster_dates.items():
+                url = f"https://luqevora.com/ja/seo-marketing/{slug}/"
+                if not re.search(re.escape(url + "</loc>") + rf"\s*<lastmod>{expected_date}</lastmod>", sitemap_text):
+                    errors.append(f"SE Ranking cluster sitemap lastmod is not current: {slug}")
+
+        # v5.6.8 Search Authority Consolidation checks
+        consolidation_pairs = {
+            "en/seo-marketing/seobility-alternatives/index.html": "https://luqevora.com/en/seo-marketing/seo-tools-small-business/",
+            "ja/seo-marketing/seobility-alternatives/index.html": "https://luqevora.com/ja/seo-marketing/seo-tools-small-business/",
+            "en/products/xserver/index.html": "https://luqevora.com/en/hosting-security/xserver-rental-server-review/",
+            "ja/products/xserver/index.html": "https://luqevora.com/ja/hosting-security/xserver-rental-server-review/",
+            "en/products/se-ranking/index.html": "https://luqevora.com/en/seo-marketing/se-ranking-review/",
+            "ja/products/se-ranking/index.html": "https://luqevora.com/ja/seo-marketing/se-ranking-review/",
+            "en/products/semrush/index.html": "https://luqevora.com/en/seo-marketing/semrush-review/",
+            "ja/products/semrush/index.html": "https://luqevora.com/ja/seo-marketing/semrush-review/",
+            "en/products/ahrefs/index.html": "https://luqevora.com/en/seo-marketing/ahrefs-review/",
+            "ja/products/ahrefs/index.html": "https://luqevora.com/ja/seo-marketing/ahrefs-review/",
+        }
+        consolidation_ok = 0
+        product_bridge_ok = 0
+        for rel_path, canonical_target in consolidation_pairs.items():
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"Authority consolidation source missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            canonical_marker = f'href="{canonical_target}" rel="canonical"'
+            if canonical_marker not in page_text:
+                errors.append(f"Authority canonical target mismatch: {rel_path} -> {canonical_target}")
+            else:
+                consolidation_ok += 1
+            if "/products/" in rel_path:
+                relative_target = canonical_target.replace("https://luqevora.com", "")
+                if 'data-track-event="product_review_open"' not in page_text or f'href="{relative_target}"' not in page_text:
+                    errors.append(f"Product-to-review bridge missing: {rel_path}")
+                else:
+                    product_bridge_ok += 1
+        stats["authority_consolidation_sources"] = consolidation_ok
+        stats["product_review_bridge_links"] = product_bridge_ok
+
+        noncanonical_urls = tuple(consolidation_pairs.values())  # primary values are checked separately below
+        retired_urls = (
+            "https://luqevora.com/en/seo-marketing/seobility-alternatives/",
+            "https://luqevora.com/ja/seo-marketing/seobility-alternatives/",
+            "https://luqevora.com/en/products/xserver/",
+            "https://luqevora.com/ja/products/xserver/",
+            "https://luqevora.com/en/products/se-ranking/",
+            "https://luqevora.com/ja/products/se-ranking/",
+            "https://luqevora.com/en/products/semrush/",
+            "https://luqevora.com/ja/products/semrush/",
+            "https://luqevora.com/en/products/ahrefs/",
+            "https://luqevora.com/ja/products/ahrefs/",
+        )
+        sitemap_hits = 0
+        for sitemap_rel in ("sitemaps/pages.xml", "sitemaps/articles-en.xml", "sitemaps/articles-ja.xml"):
+            sitemap_target = root / sitemap_rel
+            if not sitemap_target.is_file():
+                continue
+            sitemap_text = sitemap_target.read_text(encoding="utf-8-sig")
+            for retired_url in retired_urls:
+                if retired_url in sitemap_text:
+                    sitemap_hits += 1
+                    errors.append(f"Noncanonical URL remains in sitemap: {retired_url}")
+        stats["noncanonical_sitemap_hits"] = sitemap_hits
+
+        search_index_path = root / "search-index.json"
+        if search_index_path.is_file():
+            search_text = search_index_path.read_text(encoding="utf-8-sig")
+            if "seobility-alternatives" in search_text:
+                errors.append("Retired Seobility duplicate remains in search-index")
+
+        for feed_name in ("feed-en.xml", "feed-ja.xml"):
+            feed_target = root / feed_name
+            if feed_target.is_file() and "seobility-alternatives" in feed_target.read_text(encoding="utf-8-sig"):
+                errors.append(f"Retired Seobility duplicate remains in feed: {feed_name}")
+
+        primary_authority_pages = (
+            "en/seo-marketing/seo-tools-small-business/index.html",
+            "ja/seo-marketing/seo-tools-small-business/index.html",
+            "en/hosting-security/xserver-rental-server-review/index.html",
+            "ja/hosting-security/xserver-rental-server-review/index.html",
+            "en/seo-marketing/se-ranking-review/index.html",
+            "ja/seo-marketing/se-ranking-review/index.html",
+            "en/seo-marketing/semrush-review/index.html",
+            "ja/seo-marketing/semrush-review/index.html",
+            "en/seo-marketing/ahrefs-review/index.html",
+            "ja/seo-marketing/ahrefs-review/index.html",
+        )
+        primary_marker_ok = 0
+        for rel_path in primary_authority_pages:
+            target = root / rel_path
+            if target.is_file() and 'name="luqevora-search-authority"' in target.read_text(encoding="utf-8-sig"):
+                primary_marker_ok += 1
+            else:
+                errors.append(f"Primary search-authority marker missing: {rel_path}")
+        stats["primary_search_authority_pages"] = primary_marker_ok
+
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":
             warnings.append("CNAME does not contain exactly 'luqevora.com'.")
