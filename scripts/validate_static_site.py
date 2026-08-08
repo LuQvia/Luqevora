@@ -79,6 +79,31 @@ class ReferenceParser(HTMLParser):
                     self.refs.append(("srcset", candidate))
 
 
+class TableWrapperParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.stack: list[tuple[str, bool]] = []
+        self.table_total = 0
+        self.unwrapped_tables = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attr_map = {k.lower(): v or "" for k, v in attrs}
+        classes = set(attr_map.get("class", "").split())
+        in_table_scroll = any(flag for _, flag in self.stack) or (tag.lower() == "div" and "table-scroll" in classes)
+        if tag.lower() == "table":
+            self.table_total += 1
+            if not in_table_scroll:
+                self.unwrapped_tables += 1
+        self.stack.append((tag.lower(), in_table_scroll))
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        for i in range(len(self.stack) - 1, -1, -1):
+            if self.stack[i][0] == tag:
+                del self.stack[i:]
+                break
+
+
 def resolve_target(public_root: Path, page_file: Path, reference: str) -> Path | None:
     reference = reference.strip()
     if not reference or reference.startswith("#"):
@@ -3015,6 +3040,26 @@ def main() -> int:
                 errors.append(f"Article visual guide missing: {rel_path}")
             visual_guides += count
         stats["article_visual_guides"] = visual_guides
+
+        # v5.7.5 table UX hardening: every content table must be horizontally scrollable on narrow screens.
+        table_total = 0
+        unwrapped_total = 0
+        for html_path in root.rglob("*.html"):
+            html_text = html_path.read_text(encoding="utf-8-sig")
+            table_parser = TableWrapperParser()
+            try:
+                table_parser.feed(html_text)
+            except Exception as exc:
+                errors.append(f"Table wrapper parser error: {html_path.relative_to(root).as_posix()}: {exc}")
+                continue
+            table_total += table_parser.table_total
+            if table_parser.unwrapped_tables:
+                unwrapped_total += table_parser.unwrapped_tables
+                errors.append(
+                    f"Unwrapped responsive table: {html_path.relative_to(root).as_posix()}: {table_parser.unwrapped_tables}"
+                )
+        stats["content_tables"] = table_total
+        stats["unwrapped_content_tables"] = unwrapped_total
 
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":

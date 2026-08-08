@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/v574_work/public",
+  "public_root": "/mnt/data/v575_work/public",
   "stats": {
-    "files": 1745,
+    "files": 1744,
     "html": 1129,
     "json": 4,
     "xml": 8,
@@ -114,7 +114,9 @@
     "xserver_tracked_ctas": 27,
     "visual_palette_base_colors": 4,
     "css_v650_reference_errors": 0,
-    "article_visual_guides": 4
+    "article_visual_guides": 4,
+    "content_tables": 731,
+    "unwrapped_content_tables": 0
   },
   "errors": [],
   "warnings": []
