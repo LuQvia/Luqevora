@@ -1,16 +1,16 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/v571_work/public",
+  "public_root": "/mnt/data/v574_work/public",
   "stats": {
-    "files": 1738,
-    "html": 1126,
-    "json": 3,
+    "files": 1745,
+    "html": 1129,
+    "json": 4,
     "xml": 8,
     "xserver_shop_ended_affiliate_hits": 0,
     "affiliate_links": 6,
     "affiliate_pixels": 6,
     "additional_affiliate_articles": 7,
-    "suika_article_text_chars": 6478,
+    "suika_article_text_chars": 6697,
     "suika_article_images": 4,
     "millenvpn_a8_links": 3,
     "millenvpn_a8_pixels": 3,
@@ -111,7 +111,10 @@
     "seo_tool_growth_pages_checked": 5,
     "stale_semrush_plan_hits": 0,
     "xserver_growth_pages_checked": 5,
-    "xserver_tracked_ctas": 27
+    "xserver_tracked_ctas": 27,
+    "visual_palette_base_colors": 4,
+    "css_v650_reference_errors": 0,
+    "article_visual_guides": 4
   },
   "errors": [],
   "warnings": []

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-08T09:48:00+09:00",
+  "generatedAt": "2026-08-08T03:33:00Z",
   "lastVerified": "2026-08-08",
   "sourceFiles": [
     "content/article-batches/product-profiles-expansion.json",
@@ -10,7 +10,8 @@
   "fields": {
     "pricing": "Current pricing summary. Verify exact amounts on official sources before publication.",
     "flags": "Text-supported capability indicators, not performance scores.",
-    "relatedArticles": "Automatically matched published Luqevora.com articles."
+    "relatedArticles": "Automatically matched published Luqevora.com articles.",
+    "contentCoverage": "Derived from published Luqevora articles; indicates available review/pricing/comparison/guide content, not product quality."
   },
   "products": [
     {
@@ -153,7 +154,16 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "claude",
@@ -295,7 +305,16 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "fathom",
@@ -437,7 +456,16 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "fireflies",
@@ -579,7 +607,16 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "gemini",
@@ -721,7 +758,16 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "microsoft-copilot",
@@ -895,7 +941,16 @@
           "topic": "productivity-suite"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "otter",
@@ -1037,7 +1092,16 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "perplexity",
@@ -1195,7 +1259,16 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "tldv",
@@ -1337,7 +1410,16 @@
           "topic": "ai-meeting-notes"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "airtable",
@@ -1511,7 +1593,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "asana",
@@ -1685,7 +1776,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "basecamp",
@@ -1859,7 +1959,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "clickup",
@@ -2033,7 +2142,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "google-workspace",
@@ -2207,7 +2325,16 @@
           "topic": "business-chat"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-07-22",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 7,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "hubspot-crm",
@@ -2381,7 +2508,16 @@
           "topic": "crm"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "jira",
@@ -2555,7 +2691,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "microsoft-teams",
@@ -2729,7 +2874,16 @@
           "topic": "generative-ai"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "monday",
@@ -2903,7 +3057,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "notion",
@@ -3077,7 +3240,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "slack",
@@ -3251,7 +3423,16 @@
           "topic": "business-chat"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "todoist",
@@ -3425,7 +3606,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "trello",
@@ -3599,7 +3789,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "wrike",
@@ -3773,7 +3972,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "zoom",
@@ -3883,7 +4091,16 @@
           "topic": "video-meetings"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 2,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "airpay",
@@ -4017,7 +4234,16 @@
           "topic": "pos-payment-integration"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": true,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "air-regi",
@@ -4195,7 +4421,16 @@
           "topic": "project-management"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": true,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "paycas-mobile",
@@ -4373,7 +4608,16 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "square-pos",
@@ -4551,7 +4795,16 @@
           "topic": "pos-payment-integration"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 9,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "1password",
@@ -4677,7 +4930,16 @@
           "topic": "password-managers"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "bitwarden",
@@ -4803,7 +5065,16 @@
           "topic": "password-managers"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "cloudways",
@@ -4977,7 +5248,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "hostinger",
@@ -5151,7 +5431,16 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 0,
+          "review": false,
+          "pricing": false,
+          "comparison": false,
+          "guide": false
+        }
+      }
     },
     {
       "id": "jetboy",
@@ -5329,7 +5618,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "keeper",
@@ -5455,7 +5753,16 @@
           "topic": "password-manager"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "kinsta",
@@ -5703,7 +6010,16 @@
       ],
       "lastVerified": "2026-07-24",
       "affiliateStatus": "active",
-      "affiliateUrl": "https://kinsta.com/?kaid=CBLLKJNFIDUZ"
+      "affiliateUrl": "https://kinsta.com/?kaid=CBLLKJNFIDUZ",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 8,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "nordpass",
@@ -5835,7 +6151,16 @@
       "affiliateUrl": "https://go.nordpass.io/aff_c?offer_id=488&aff_id=153142&source_id=luqevora&sub1=catalog_nordpass_personal",
       "affiliateOfferId": "488",
       "businessAffiliateUrl": "https://go.nordpass.io/aff_c?offer_id=754&aff_id=153142&source_id=luqevora&sub1=catalog_nordpass_business",
-      "businessAffiliateOfferId": "754"
+      "businessAffiliateOfferId": "754",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "roboform",
@@ -5967,6 +6292,15 @@
         "network": "RoboForm direct",
         "url": "https://www.roboform.com/pricing-personal?affid=lqv71",
         "disclosure": "We may earn a commission on a new RoboForm Premium purchase."
+      },
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 0,
+          "review": false,
+          "pricing": false,
+          "comparison": false,
+          "guide": false
+        }
       }
     },
     {
@@ -6145,7 +6479,16 @@
       "affiliateStatus": "active",
       "affiliateNetwork": "Nord Security / Everflow",
       "affiliateUrl": "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=153142&source_id=luqevora&sub1=catalog_nordvpn",
-      "affiliateOfferId": "15"
+      "affiliateOfferId": "15",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "proton-vpn",
@@ -6319,7 +6662,16 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "shin-rental-server",
@@ -6525,7 +6877,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "siteground",
@@ -6699,7 +7060,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "surfshark",
@@ -6873,7 +7243,16 @@
           "topic": "vpn-services"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "wordpress-com",
@@ -7047,7 +7426,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 1,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "wp-engine",
@@ -7221,7 +7609,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "xserver",
@@ -7411,7 +7808,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-08-08"
+      "lastVerified": "2026-08-08",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "xserver-business",
@@ -7605,7 +8011,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-08-08"
+      "lastVerified": "2026-08-08",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "activecampaign",
@@ -7779,7 +8194,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "ahrefs",
@@ -7937,7 +8361,16 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "brevo",
@@ -8111,7 +8544,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "getresponse",
@@ -8285,7 +8727,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "hubspot-marketing",
@@ -8459,7 +8910,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "kit",
@@ -8633,7 +9093,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "mailchimp",
@@ -8807,7 +9276,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "mailerlite",
@@ -8981,7 +9459,16 @@
           "topic": "email-marketing"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "mangools",
@@ -9139,7 +9626,16 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "se-ranking",
@@ -9313,7 +9809,16 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "semrush",
@@ -9487,7 +9992,16 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-08-08"
+      "lastVerified": "2026-08-08",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "ubersuggest",
@@ -9629,7 +10143,16 @@
           "topic": "seo-tools"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "emeao-pos",
@@ -9809,7 +10332,16 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 10,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "freee-accounting",
@@ -9927,7 +10459,16 @@
           "topic": "store-backoffice-integration"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 0,
+          "review": false,
+          "pricing": false,
+          "comparison": false,
+          "guide": false
+        }
+      }
     },
     {
       "id": "funfo",
@@ -10057,7 +10598,16 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "line-official-account",
@@ -10231,7 +10781,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 0,
+          "review": false,
+          "pricing": false,
+          "comparison": false,
+          "guide": false
+        }
+      }
     },
     {
       "id": "stores-reservation",
@@ -10357,7 +10916,16 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 2,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "kantan-chumon",
@@ -10491,7 +11059,16 @@
           "topic": "restaurant-pos-orders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": true,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "moneyforward-cloud-accounting",
@@ -10665,7 +11242,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "bigcommerce",
@@ -10839,7 +11425,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "color-me-shop",
@@ -11029,7 +11624,16 @@
           "topic": "web-hosting"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "duda",
@@ -11203,7 +11807,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "framer",
@@ -11377,7 +11990,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "goope",
@@ -11540,7 +12162,16 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "hostinger-website-builder",
@@ -11714,7 +12345,16 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "jimdo",
@@ -11948,7 +12588,16 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "shopify",
@@ -12122,7 +12771,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 1,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "squarespace",
@@ -12296,7 +12954,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "webflow",
@@ -12470,7 +13137,16 @@
           "topic": "website-builder"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "wix",
@@ -12644,7 +13320,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "woocommerce",
@@ -12818,7 +13503,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 3,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "xserver-shop",
@@ -13004,7 +13698,16 @@
           "topic": "ecommerce-platform"
         }
       ],
-      "lastVerified": "2026-07-21"
+      "lastVerified": "2026-07-21",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 6,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": false
+        }
+      }
     },
     {
       "id": "ochanoko-saisai",
@@ -13199,7 +13902,16 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 9,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "homepage-com",
@@ -13325,7 +14037,16 @@
           "topic": "website-production-cost"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 5,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "digital-signage",
@@ -13441,7 +14162,16 @@
           "topic": "digital-subsidies"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": true,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "3d-phantom",
@@ -13559,7 +14289,16 @@
           "topic": "digital-subsidies"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": true,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "inbound-package",
@@ -13673,7 +14412,16 @@
           "topic": "restaurant-dx-operations"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": true,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "ablenet-storage",
@@ -13799,7 +14547,16 @@
           "topic": "team-collaboration"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "emeao-system",
@@ -13917,7 +14674,16 @@
           "topic": "system-development"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": false,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "ikkatsu-video",
@@ -14035,7 +14801,16 @@
           "topic": "video-marketing"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": true,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "aruku-web",
@@ -14157,7 +14932,16 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-08-07"
+      "lastVerified": "2026-08-07",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     },
     {
       "id": "homepagedx",
@@ -14275,7 +15059,16 @@
           "topic": "website-builders"
         }
       ],
-      "lastVerified": "2026-07-22"
+      "lastVerified": "2026-07-22",
+      "contentCoverage": {
+        "ja": {
+          "articleCount": 4,
+          "review": false,
+          "pricing": true,
+          "comparison": true,
+          "guide": true
+        }
+      }
     }
   ]
 }

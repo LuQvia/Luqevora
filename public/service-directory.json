@@ -1,0 +1,2018 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-08",
+  "serviceCount": 41,
+  "services": [
+    {
+      "id": "xserver",
+      "name": "XServer",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/xserver-rental-server-review/",
+      "primaryTitle": "エックスサーバーレビュー2026｜料金・プランの違い・WordPress注意点",
+      "description": "エックスサーバーを2026年8月8日の公式情報で検証。料金、スタンダード・プレミアム・ビジネスの違い、9月7日までの最大30%オフ、WordPress、無料お試し、バックアップ、ドメイン特典を解説します。",
+      "lastVerified": "2026-08-08",
+      "articleCount": 28,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/xserver-rental-server-review/",
+          "title": "エックスサーバーレビュー2026｜料金・プランの違い・WordPress注意点",
+          "description": "エックスサーバーを2026年8月8日の公式情報で検証。料金、スタンダード・プレミアム・ビジネスの違い、9月7日までの最大30%オフ、WordPress、無料お試し、バックアップ、ドメイン特典を解説します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+          "title": "XServer for WordPressレビュー｜法人向け料金・機能・注意点",
+          "description": "XServer for WordPressを料金、サイト数、ステージング、SLA、ドメイン、サポート、メール非対応の注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/xserver-shop-review/",
+          "title": "XServerショップレビュー｜料金・手数料・EC-CUBEの注意点",
+          "description": "XServerショップを料金、販売手数料、Stripe決済、EC-CUBE、無料試用、ドメイン、サポートの公式情報から検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-business-review/",
+          "title": "XServerビジネスレビュー｜共有・仮想・物理専用サーバーの選び方",
+          "description": "XServerビジネスを公式情報で検証。共有サーバー、仮想・物理マネージド専用サーバー、料金、SLA、管理機能、サポートを解説します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-wordpress-quick-start-guide/",
+          "title": "エックスサーバーWordPressクイックスタート｜料金・無料お試し・移行の注意点",
+          "description": "エックスサーバーのWordPressクイックスタートを解説。WordPress・SSL・ドメインを一括設定できますが、10日間無料お試しなし、即時支払い、移転非対応など契約前の注意点があります。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-rental-server-pricing/",
+          "title": "エックスサーバー料金2026｜スタンダード・プレミアム・ビジネスを比較",
+          "description": "エックスサーバーの料金を2026年8月8日時点で比較。通常料金、9月7日までの最大30%オフ、12・24・36か月の支払総額、スタンダードとプレミアムの違い、ドメイン・Xwrite・法人機能を整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+          "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+          "description": "CPIとXServerビジネスを、料金、容量、バックアップ、SLA、メール、サポート、移行支援から公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/hostinger-vs-xserver/",
+          "title": "Hostingerとエックスサーバーを比較｜WordPressにはどっちがおすすめ？",
+          "description": "Hostingerとエックスサーバーを料金、更新費用、WordPress機能、バックアップ、サポート、国内外運用で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/hostinger-vs-xserver-small-business/",
+          "title": "Hostingerとエックスサーバーを比較｜小規模事業のサーバー選び",
+          "description": "Hostingerとエックスサーバーを、初回・更新料金、管理画面、国内サポート、WordPress、バックアップ、海外配信から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+          "title": "JETBOYとXServer for WordPressを比較【2026年】",
+          "description": "JETBOYとXServer for WordPressを2026年8月7日の公式情報で比較。JETBOYの年契約550円〜、14日試用、LiteSpeed・cPanelと、法人向けWordPress専用運用の違いを料金・保守・移行から整理します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+          "title": "XServer for WordPressとCPIを比較｜法人サイトにはどっち？",
+          "description": "XServer for WordPressとCPIを、WordPress管理、メール、ステージング、バックアップ、SLA、料金、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+          "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
+          "description": "XServer for WordPressとXServerビジネスを、用途、WordPress管理、メール、容量、SLA、移転支援、料金から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/xserver-shop-vs-shopify/",
+          "title": "XServerショップとShopifyを比較｜料金・手数料・運用の違い",
+          "description": "XServerショップとShopifyを、月額、販売・決済手数料、デザイン、アプリ、保守、サポート、移行性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/xserver-shop-vs-woocommerce/",
+          "title": "XServerショップとWooCommerceを比較｜EC-CUBE型とWordPress型",
+          "description": "XServerショップとWooCommerceを、料金、EC-CUBE・WordPress、保守、プラグイン、決済、データ、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+          "title": "iCLUSTA+とXServer for WordPressを比較【2026年】",
+          "description": "iCLUSTA+とXServer for WordPressを比較。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-vs-conoha-wing/",
+          "title": "エックスサーバーとConoHa WINGを比較｜料金・契約・WordPressの違い",
+          "description": "エックスサーバーとConoHa WINGを、通常料金、長期契約、短期利用、容量、WordPress、ドメイン、バックアップ、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-vs-xserver-business/",
+          "title": "エックスサーバーとXServerビジネスの違い｜法人はどちらを選ぶべきか",
+          "description": "一般向けエックスサーバーとXServerビジネスを、料金、初期費用、管理権限、設定代行、セキュリティ、専用環境、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-vs-lolipop/",
+          "title": "エックスサーバーとロリポップ！を比較｜初心者向けの選び方【2026年】",
+          "description": "エックスサーバーとロリポップ！を、料金、容量、WordPress、バックアップ、電話サポート、複数サイト運用から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+          "title": "カラーミーショップとXServerショップを比較｜SaaSとEC-CUBE",
+          "description": "カラーミーショップとXServerショップを、初期費用、販売手数料、EC-CUBE、保守、SEO、拡張性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+          "title": "シンレンタルサーバーとエックスサーバーを比較｜違いと選び方",
+          "description": "シンレンタルサーバーとエックスサーバーを、通常料金、容量、WordPress、無料お試し、バックアップ、ドメイン、運用実績から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/business-wordpress-hosting-comparison/",
+          "title": "法人向けWordPressホスティング3社比較｜XServer・Kinsta・WP Engine",
+          "description": "XServer for WordPress、Kinsta、WP Engineを、料金体系、サイト数、ステージング、バックアップ、権限、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/business-web-hosting-comparison/",
+          "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+          "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-multiple-domain-site-guide/",
+          "title": "エックスサーバーで複数サイトを運営する方法｜ドメイン・メール管理",
+          "description": "エックスサーバーで複数ドメイン、サブドメイン、WordPress、メール、FTPを管理する方法と、権限・バックアップ・費用の注意点を解説します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-company-website-email-guide/",
+          "title": "会社ホームページと独自ドメインメールをエックスサーバーで準備する方法",
+          "description": "会社ホームページ、独自ドメイン、メール、SSL、WordPress、担当者権限、バックアップをエックスサーバーで準備する手順を整理します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/products/xserver/",
+          "title": "XServer",
+          "description": "WordPress、複数ドメイン、メール、SSL、14日分バックアップを備える国内レンタルサーバー。通常36か月月額換算はスタンダード990円、プレミアム1,980円、ビジネス3,960円。初期費用無料",
+          "date": "2026-07-21",
+          "type": "other"
+        },
+        {
+          "url": "/ja/products/xserver-business/",
+          "title": "XServer Business",
+          "description": "共有サーバーから仮想・物理マネージド専用まで、法人向け管理・支援を提供するホスティング。共有36か月月額3,762円から。仮想専用19,800円から、物理専用29,700円から。初期費用あり",
+          "date": "2026-07-21",
+          "type": "other"
+        },
+        {
+          "url": "/ja/products/xserver-shop/",
+          "title": "XServer Shop",
+          "description": "EC-CUBEを基盤に、月額固定型料金、販売手数料0円、国内サポートを組み合わせたネットショップ作成サービス。全プラン初期費用11,000円。ベーシックは36か月契約で月額換算1,980円から。決済・入金手数料は別",
+          "date": "2026-07-21",
+          "type": "other"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-rental-server-pros-cons/",
+          "title": "エックスサーバーのメリット・デメリット｜契約前に確認する10項目【2026年】",
+          "description": "エックスサーバーのメリットとデメリットを2026年8月8日の公式情報で整理。WordPress、速度、バックアップ、ドメイン、料金、長期前払い、クイックスタート、法人機能まで契約前に確認します。",
+          "date": "",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "jimdo",
+      "name": "Jimdo",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/jimdo-review/",
+      "primaryTitle": "Jimdoの評判・料金・注意点｜AIビルダーとCreatorを検証",
+      "description": "Jimdoを料金、AIビルダー、クリエイター、独自ドメイン、SEO、ネットショップ、契約更新、移行性から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 11,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/jimdo-review/",
+          "title": "Jimdoの評判・料金・注意点｜AIビルダーとCreatorを検証",
+          "description": "Jimdoを料金、AIビルダー、クリエイター、独自ドメイン、SEO、ネットショップ、契約更新、移行性から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-pricing/",
+          "title": "Jimdo料金プラン比較｜2026年改定後の総額と選び方",
+          "description": "2026年改定後のJimdo AIビルダーとクリエイターの料金、契約期間、更新時ドメイン費用、無料版との違いを整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-ai-builder-vs-creator/",
+          "title": "Jimdo AIビルダーとクリエイターの違い｜選び方を比較",
+          "description": "Jimdo AIビルダーとクリエイターを、作成方法、スマホ編集、HTML・CSS、ブログ、ショップ、SEO、移行性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-vs-studio/",
+          "title": "JimdoとStudioを比較｜簡単作成とデザイン自由度の違い",
+          "description": "JimdoとStudioを、料金、デザイン、CMS、独自ドメイン、共同編集、SEO、ページ上限、運用方法から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-vs-wix/",
+          "title": "JimdoとWixを比較｜初心者・店舗サイトに向くのはどちら？",
+          "description": "JimdoとWixを、作成の簡単さ、デザイン、アプリ、SEO、独自ドメイン、ブログ、予約・EC、運用負担から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-vs-wordpress/",
+          "title": "JimdoとWordPressを比較｜簡単運用と拡張性の違い",
+          "description": "JimdoとWordPress.com・セルフホスト型WordPressを、料金、保守、テーマ、プラグイン、SEO、移行、所有権から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-vs-jimdo/",
+          "title": "おちゃのこさいさいとJimdoを比較｜店舗機能と作成の簡単さ",
+          "description": "店舗向け機能、料金、独自ドメイン、ブログ、ショップ、デザイン、SEO、スマホ更新から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-small-business-guide/",
+          "title": "Jimdoで小規模事業のホームページを作る手順｜公開後まで解説",
+          "description": "Jimdoで小規模事業者がホームページを作る手順を、目的、ページ設計、ドメイン、問い合わせ、SEO、公開後の更新から解説します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-salon-website-guide/",
+          "title": "Jimdoで美容サロンのホームページを作る方法｜構成と注意点",
+          "description": "Jimdoで美容室・眉毛サロン・エステのサイトを作る際のページ構成、予約導線、料金表示、写真、SEO、法的表示を解説します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/website-builders/jimdo-seo-guide/",
+          "title": "JimdoのSEO設定ガイド｜タイトル・URL・サイトマップを改善",
+          "description": "Jimdoで行うSEO設定を、ページタイトル、概要、URL、見出し、画像、内部リンク、サイトマップ、Search Consoleから解説します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/products/jimdo/",
+          "title": "Jimdo",
+          "description": "AIビルダーとクリエイターを選べる、個人・小規模事業向けクラウド型ホームページ作成サービス。AIビルダーStartは1年15,480円、Creator Proは1年18,720円から。2026年改定後の更新条件を確認",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "ochanoko-saisai",
+      "name": "おちゃのこさいさい",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/ochanoko-saisai-review/",
+      "primaryTitle": "おちゃのこさいさいの評判・料金・注意点｜店舗サイト向け機能を検証",
+      "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 11,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-review/",
+          "title": "おちゃのこさいさいの評判・料金・注意点｜店舗サイト向け機能を検証",
+          "description": "おちゃのこさいさいを料金、独自ドメイン、クーポン、カレンダー、スマホ更新、SEO、メール、移行性から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-pricing/",
+          "title": "おちゃのこさいさい料金比較｜月額・独自ドメイン費用と総額",
+          "description": "ベーシックとアドバンスドの月額、契約期間、独自ドメイン設定費、ドメイン更新費、無料試用を整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-basic-vs-advanced/",
+          "title": "おちゃのこさいさい ベーシックとアドバンスドの違いを比較",
+          "description": "共用ドメイン、独自ドメイン、容量、フリーページ、メール、広告表示、初期費用から2プランを比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-vs-jimdo/",
+          "title": "おちゃのこさいさいとJimdoを比較｜店舗機能と作成の簡単さ",
+          "description": "店舗向け機能、料金、独自ドメイン、ブログ、ショップ、デザイン、SEO、スマホ更新から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-vs-studio/",
+          "title": "おちゃのこさいさいとStudioを比較｜店舗運用とデザイン自由度",
+          "description": "テンプレート、デザイン、CMS、店舗機能、料金、独自ドメイン、SEO、共同編集、運用負担から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-vs-goope/",
+          "title": "おちゃのこさいさいとグーペを比較｜店舗ホームページの選び方",
+          "description": "店舗情報、予約、クーポン、カレンダー、料金、独自ドメイン、メール、サポートの違いを比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/store-website-builder-comparison/",
+          "title": "店舗向けホームページ作成サービス比較｜おちゃのこさいさい・グーペなど5選",
+          "description": "おちゃのこさいさい、グーペ、Wix、Squarespace、WordPress.comを、店舗情報、予約、独自ドメイン、更新、費用、移行性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-seo-guide/",
+          "title": "おちゃのこさいさいSEO設定ガイド｜店舗検索で確認する項目",
+          "description": "ページ別メタタグ、見出し、店舗情報、Googleマップ、画像、内部リンク、Search Console、更新方法を整理します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-salon-guide/",
+          "title": "おちゃのこさいさいで美容室・エステのサイトを作る方法",
+          "description": "美容室、眉毛サロン、エステ向けに、メニュー、スタッフ、クーポン、カレンダー、予約導線、写真、FAQを設計します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-restaurant-guide/",
+          "title": "おちゃのこさいさいで飲食店ホームページを作る方法",
+          "description": "飲食店向けにメニュー、営業時間、定休日、地図、写真、クーポン、予約・電話導線、アレルギー情報を設計します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/products/ochanoko-saisai/",
+          "title": "おちゃのこさいさい",
+          "description": "クーポン、カレンダー、店舗情報、スタッフ、ブログをまとめて更新できる店舗向けホームページ作成サービス。ベーシックは12か月1,100円/月、アドバンスドは1,980円/月。30日間無料、独自ドメイン設定費7,920円は別途",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "shin-rental-server",
+      "name": "シンレンタルサーバー",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/shin-rental-server-review/",
+      "primaryTitle": "シンレンタルサーバーレビュー｜料金・速度・注意点【2026年】",
+      "description": "シンレンタルサーバーを公式情報で検証。料金、容量、WordPress、バックアップ、独自ドメイン、ビジネスプラン、試用条件と注意点を解説します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 10,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/shin-rental-server-review/",
+          "title": "シンレンタルサーバーレビュー｜料金・速度・注意点【2026年】",
+          "description": "シンレンタルサーバーを公式情報で検証。料金、容量、WordPress、バックアップ、独自ドメイン、ビジネスプラン、試用条件と注意点を解説します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-pricing/",
+          "title": "シンレンタルサーバー料金・プラン比較｜通常版とビジネス版",
+          "description": "シンレンタルサーバーの通常プランとビジネスプランを比較。月額換算、一括前払い、更新料金、容量、CPU・メモリ、選び方を整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/hosting-security/best-wordpress-hosting-japan/",
+          "title": "WordPress向け国内レンタルサーバー比較｜5社の選び方【2026年】",
+          "description": "シンレンタルサーバー、エックスサーバー、ConoHa WING、ロリポップ！、mixhostを料金、移行、バックアップ、速度機能、契約条件で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-vs-conoha-wing/",
+          "title": "シンレンタルサーバーとConoHa WINGを比較｜料金・契約の違い",
+          "description": "シンレンタルサーバーとConoHa WINGを、料金体系、通常課金、WINGパック、容量、CPU・メモリ、ドメイン、WordPressから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-vs-mixhost/",
+          "title": "シンレンタルサーバーとmixhostを比較｜更新料金・機能の違い",
+          "description": "シンレンタルサーバーとmixhostを、初回料金と更新料金、WordPress、移行、LiteSpeed、バックアップ、返金保証から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-vs-xserver/",
+          "title": "シンレンタルサーバーとエックスサーバーを比較｜違いと選び方",
+          "description": "シンレンタルサーバーとエックスサーバーを、通常料金、容量、WordPress、無料お試し、バックアップ、ドメイン、運用実績から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-vs-lolipop/",
+          "title": "シンレンタルサーバーとロリポップ！を比較｜初心者向けの選び方",
+          "description": "シンレンタルサーバーとロリポップ！を、料金、プラン幅、LiteSpeed、容量、WordPress、バックアップ、電話サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/products/shin-rental-server/",
+          "title": "Shin Rental Server",
+          "description": "NVMe大容量、WordPress支援、14日分バックアップ、独自ドメイン特典を備える国内共用レンタルサーバー。通常36か月月額換算はベーシック1,078円、スタンダード2,002円、プレミアム4,004円。契約期間分を一括前払い",
+          "date": "2026-07-21",
+          "type": "other"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-wordpress/",
+          "title": "シンレンタルサーバーでWordPressを始める方法と移行手順",
+          "description": "WordPressクイックスタート、簡単インストール、簡単移行、SSL、バックアップ、DNS切替、移行対象外データと公開前チェックを解説します。",
+          "date": "",
+          "type": "other"
+        },
+        {
+          "url": "/ja/hosting-security/shin-rental-server-pros-cons/",
+          "title": "シンレンタルサーバーのメリット・デメリット｜契約前の確認事項",
+          "description": "シンレンタルサーバーの利点と注意点を、性能、容量、WordPress、バックアップ、サポート、契約更新、試用、移行の観点から整理します。",
+          "date": "",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "goope",
+      "name": "Goope",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/goope-review/",
+      "primaryTitle": "グーペの料金・機能・注意点｜店舗向けホームページ作成を検証",
+      "description": "グーペを2026年4月改定後の料金、15日間無料体験、予約、独自ドメイン、メール、テンプレート、サポート、移行性から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 7,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/goope-review/",
+          "title": "グーペの料金・機能・注意点｜店舗向けホームページ作成を検証",
+          "description": "グーペを2026年4月改定後の料金、15日間無料体験、予約、独自ドメイン、メール、テンプレート、サポート、移行性から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/ochanoko-saisai-vs-goope/",
+          "title": "おちゃのこさいさいとグーペを比較｜店舗ホームページの選び方",
+          "description": "店舗情報、予約、クーポン、カレンダー、料金、独自ドメイン、メール、サポートの違いを比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/goope-vs-wix/",
+          "title": "グーペとWixを比較｜店舗ホームページはどちらが向く？",
+          "description": "グーペとWixを、料金構造、デザイン、予約、独自ドメイン、メール、更新、拡張性、移行性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/reservation-website-builder-comparison/",
+          "title": "予約機能付きホームページ作成サービス比較｜店舗・教室・サロン向け",
+          "description": "予約機能付きホームページ作成サービスを、予約枠、スタッフ・設備、通知、決済、キャンセル、顧客データ、料金から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/store-website-builder-comparison/",
+          "title": "店舗向けホームページ作成サービス比較｜おちゃのこさいさい・グーペなど5選",
+          "description": "おちゃのこさいさい、グーペ、Wix、Squarespace、WordPress.comを、店舗情報、予約、独自ドメイン、更新、費用、移行性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/beauty-salon-website-builder-comparison/",
+          "title": "美容サロン向けホームページ作成サービス比較｜予約・メニュー・写真で選ぶ",
+          "description": "美容室、眉毛、ネイル、エステ等のサロン向けホームページ作成サービスを、予約、メニュー、写真、スタッフ、更新、費用から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/products/goope/",
+          "title": "Goope",
+          "description": "店舗情報、お知らせ、写真、問い合わせ、基本予約を日本語環境でまとめる小規模事業向けホームページ作成サービス。12か月契約の月額換算はライト1,331円、スタンダード3,993円。初期費用3,630円",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "xserver-for-wordpress",
+      "name": "XServer for WordPress",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/xserver-for-wordpress-review/",
+      "primaryTitle": "XServer for WordPressレビュー｜法人向け料金・機能・注意点",
+      "description": "XServer for WordPressを料金、サイト数、ステージング、SLA、ドメイン、サポート、メール非対応の注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 6,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-review/",
+          "title": "XServer for WordPressレビュー｜法人向け料金・機能・注意点",
+          "description": "XServer for WordPressを料金、サイト数、ステージング、SLA、ドメイン、サポート、メール非対応の注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+          "title": "JETBOYとXServer for WordPressを比較【2026年】",
+          "description": "JETBOYとXServer for WordPressを2026年8月7日の公式情報で比較。JETBOYの年契約550円〜、14日試用、LiteSpeed・cPanelと、法人向けWordPress専用運用の違いを料金・保守・移行から整理します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+          "title": "XServer for WordPressとCPIを比較｜法人サイトにはどっち？",
+          "description": "XServer for WordPressとCPIを、WordPress管理、メール、ステージング、バックアップ、SLA、料金、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-vs-xserver-business/",
+          "title": "XServer for WordPressとXServerビジネスを比較｜法人向けの違い",
+          "description": "XServer for WordPressとXServerビジネスを、用途、WordPress管理、メール、容量、SLA、移転支援、料金から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+          "title": "iCLUSTA+とXServer for WordPressを比較【2026年】",
+          "description": "iCLUSTA+とXServer for WordPressを比較。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/business-web-hosting-comparison/",
+          "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+          "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "homepage-com",
+      "name": "ホームページドットコム",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/homepage-com-review/",
+      "primaryTitle": "ホームページドットコムの評判・料金｜月額4,500円〜・初期制作費0円を検証",
+      "description": "ホームページドットコムを、月額4,500円〜の料金、初期制作費0円、WordPress、月2回の更新代行、24時間365日電話受付、契約期間・データ譲渡条件から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 6,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/homepage-com-review/",
+          "title": "ホームページドットコムの評判・料金｜月額4,500円〜・初期制作費0円を検証",
+          "description": "ホームページドットコムを、月額4,500円〜の料金、初期制作費0円、WordPress、月2回の更新代行、24時間365日電話受付、契約期間・データ譲渡条件から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/homepage-com-pricing-guide/",
+          "title": "ホームページドットコムの料金｜月額4,500円〜・初期制作費0円の条件",
+          "description": "ホームページドットコムのスタンダード月額4,500円〜、プレミアム月額9,800円〜、初期制作費0円、追加見積、契約期間、データ譲渡条件を公式情報で整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/homepage-com-cost-checklist/",
+          "title": "ホームページドットコムの費用チェック｜月額4,500円〜の見積10項目",
+          "description": "ホームページドットコムの月額4,500円〜、初期制作費0円、契約期間、追加ページ、更新、ドメイン、解約、データ譲渡を見積前の10項目で確認します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/website-renewal-cost-checklist/",
+          "title": "ホームページリニューアル費用の内訳｜見積もり比較チェックリスト",
+          "description": "ホームページリニューアルの費用を、調査、設計、デザイン、原稿、移行、SEO、公開後運用に分け、見積もり比較の注意点を解説します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/homepage-com-vs-self-build/",
+          "title": "ホームページドットコムと自作を比較｜月額4,500円〜と制作工数の違い",
+          "description": "ホームページドットコムとWix・WordPress等の自作を、月額4,500円〜の外注費、初期制作費、制作工数、更新、WordPress、契約・データ譲渡から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/homepage-com-implementation-guide/",
+          "title": "ホームページドットコム導入ガイド｜月額4,500円〜の相談・制作・公開手順",
+          "description": "ホームページドットコムへ相談する前の要件整理、月額4,500円〜のプラン確認、素材準備、WordPress制作、公開前検証、月2回の更新代行を含む運用手順を解説します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "funfo",
+      "name": "funfo",
+      "category": "store-dx",
+      "categoryName": "店舗DX",
+      "primaryUrl": "/ja/store-dx/funfo-review/",
+      "primaryTitle": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+      "description": "飲食店向けPOSレジ・モバイルオーダーアプリfunfoを、無料プラン、有料料金、LINE連携、多言語、導入設備、注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 6,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/store-dx/funfo-review/",
+          "title": "funfoの評判・料金・機能を検証｜無料POSレジとモバイルオーダーの注意点",
+          "description": "飲食店向けPOSレジ・モバイルオーダーアプリfunfoを、無料プラン、有料料金、LINE連携、多言語、導入設備、注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+          "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+          "description": "飲食店向けPOS・モバイルオーダーのfunfoとかんたん注文を、料金公開、無料試用、導入方法、LINE、多言語、現行の導入費割引、向く店舗から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+          "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+          "description": "飲食店向けPOSのfunfo、かんたん注文、業者紹介サービスEMEAO!を、無料試用、個別提案、複数社比較、料金、導入方法から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/restaurant-pos-selection-guide/",
+          "title": "飲食店向けPOSレジの選び方｜比較すべき12項目と失敗例",
+          "description": "飲食店向けPOSレジを、注文方式、会計、キッチン連携、売上分析、サポート、総費用から選ぶ実務チェックリストです。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/small-restaurant-dx-guide/",
+          "title": "小規模飲食店のDX入門｜少人数営業で優先すべき5つの仕組み",
+          "description": "小規模飲食店がPOS、モバイルオーダー、予約、決済、会計をどの順番で導入すべきか、費用対効果から整理します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/products/funfo/",
+          "title": "funfo",
+          "description": "iPad向けPOSレジ、店内外モバイルオーダー、ハンディ、LINE連携を一体で扱う飲食店向けアプリ。Freeは月額0円。年払い月額換算はLite AI 6,930円、Business AI 11,880円、One AI 17,820円",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "3d-phantom",
+      "name": "3D Phantom",
+      "category": "store-dx",
+      "categoryName": "店舗DX",
+      "primaryUrl": "/ja/store-dx/3d-phantom-review/",
+      "primaryTitle": "3D Phantomの仕組み・導入用途・注意点｜3Dサイネージを検証",
+      "description": "3D Phantomを、表示の仕組み、設置用途、安全性、コンテンツ制作、費用、通常のデジタルサイネージとの違いから解説します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 6,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/store-dx/3d-phantom-review/",
+          "title": "3D Phantomの仕組み・導入用途・注意点｜3Dサイネージを検証",
+          "description": "3D Phantomを、表示の仕組み、設置用途、安全性、コンテンツ制作、費用、通常のデジタルサイネージとの違いから解説します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/store-dx/3d-phantom-pricing-guide/",
+          "title": "3D Phantomの料金・見積ガイド｜機器・映像制作・設置費を確認",
+          "description": "3D Phantom導入で確認すべき機器、台数、映像制作、設置、安全対策、保守、補助金の費用項目を整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/store-dx/3d-phantom-vs-digital-signage/",
+          "title": "3D Phantomとデジタルサイネージを比較｜演出と情報発信の違い",
+          "description": "3D Phantomと一般的なデジタルサイネージを、見え方、用途、コンテンツ、設置、費用の考え方から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/3d-signage-vs-digital-signage/",
+          "title": "3Dサイネージと通常のデジタルサイネージを比較｜用途・安全・費用",
+          "description": "3D Phantomなどの3Dサイネージと液晶・LEDデジタルサイネージを、表示内容、視認性、安全対策、設置、制作、費用から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/3d-phantom-implementation-guide/",
+          "title": "3D Phantom導入ガイド｜設置・映像制作・効果測定の手順",
+          "description": "3D Phantomの設置場所選定、安全確認、映像制作、実機確認、運用、来店・SNS効果測定の手順を解説します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/store-dx/3d-phantom-installation-checklist/",
+          "title": "3D Phantom導入前チェックリスト｜設置・映像制作・安全・保守",
+          "description": "3D Phantomを導入する前に確認したい設置場所、視認距離、安全対策、映像制作、電源、保守、運用担当、効果測定を整理します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "ablenet-storage",
+      "name": "ABLENETストレージ",
+      "category": "business-software",
+      "categoryName": "業務効率化",
+      "primaryUrl": "/ja/business-software/ablenet-storage-review/",
+      "primaryTitle": "ABLENETストレージの料金・機能・注意点｜ユーザー数無制限を検証",
+      "description": "ABLENETストレージを、ベーシック・プロの料金、容量、ユーザー数、共有リンク、セキュリティ、10日間無料トライアルから解説します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 5,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/business-software/ablenet-storage-review/",
+          "title": "ABLENETストレージの料金・機能・注意点｜ユーザー数無制限を検証",
+          "description": "ABLENETストレージを、ベーシック・プロの料金、容量、ユーザー数、共有リンク、セキュリティ、10日間無料トライアルから解説します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/business-software/ablenet-storage-pricing-guide/",
+          "title": "ABLENETストレージの料金・プラン選び｜容量・ユーザー数・契約期間",
+          "description": "ABLENETストレージのベーシックとプロを、容量、ユーザー数、管理機能、月契約・年契約、無料トライアル、運用総額から比較します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/business-software/ablenet-storage-vs-google-drive/",
+          "title": "ABLENETストレージとGoogle Driveを比較｜料金体系・共有・管理機能",
+          "description": "ABLENETストレージとGoogle WorkspaceのGoogle Driveを、料金体系、容量、ユーザー、共同編集、社外共有、管理、セキュリティから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/business-software/ablenet-storage-vs-nas/",
+          "title": "ABLENETストレージとNASを比較｜費用・社外共有・保守の違い",
+          "description": "ABLENETストレージと社内NASを、初期設備、月額、社外共有、権限、故障対応、バックアップから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/business-software/ablenet-storage-implementation-guide/",
+          "title": "ABLENETストレージ導入ガイド｜10日間トライアルからデータ移行まで",
+          "description": "ABLENETストレージの要件整理、プラン選定、10日間トライアル、権限設定、データ移行、旧環境停止を解説します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "cpi",
+      "name": "CPIレンタルサーバー",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/cpi-rental-server-review/",
+      "primaryTitle": "CPIレンタルサーバーレビュー｜法人向け機能・料金・注意点",
+      "description": "CPIの法人向け共用サーバー「ビジネス スタンダード」を、料金、バックアップ、メール、SLA、サポート、契約前の注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 5,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/cpi-rental-server-review/",
+          "title": "CPIレンタルサーバーレビュー｜法人向け機能・料金・注意点",
+          "description": "CPIの法人向け共用サーバー「ビジネス スタンダード」を、料金、バックアップ、メール、SLA、サポート、契約前の注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/cpi-vs-xserver-business/",
+          "title": "CPIとXServerビジネスを比較｜法人向けサーバーの違い",
+          "description": "CPIとXServerビジネスを、料金、容量、バックアップ、SLA、メール、サポート、移行支援から公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/xserver-for-wordpress-vs-cpi/",
+          "title": "XServer for WordPressとCPIを比較｜法人サイトにはどっち？",
+          "description": "XServer for WordPressとCPIを、WordPress管理、メール、ステージング、バックアップ、SLA、料金、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/iclusta-vs-cpi/",
+          "title": "iCLUSTA+とCPIを比較｜法人サーバーの違い【2026年】",
+          "description": "iCLUSTA+とCPIを比較｜法人サーバーの違い。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/business-web-hosting-comparison/",
+          "title": "法人向けサーバー4社比較｜CPI・XServer・XServer for WordPress・ConoHa",
+          "description": "CPI、XServerビジネス、XServer for WordPress、ConoHa WINGビジネスを、料金、メール、WordPress運用、バックアップ、SLAから比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "wiz-digital-signage",
+      "name": "Wizサイネージ",
+      "category": "store-dx",
+      "categoryName": "店舗DX",
+      "primaryUrl": "/ja/store-dx/wiz-digital-signage-review/",
+      "primaryTitle": "Wizデジタルサイネージの評判・機能・注意点｜店舗集客で使える？",
+      "description": "Wizサイネージを、USB・クラウド配信、コンテンツ制作、設置支援、料金の見積方式、屋外設置の注意点から公式情報で整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 5,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": false,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/store-dx/wiz-digital-signage-review/",
+          "title": "Wizデジタルサイネージの評判・機能・注意点｜店舗集客で使える？",
+          "description": "Wizサイネージを、USB・クラウド配信、コンテンツ制作、設置支援、料金の見積方式、屋外設置の注意点から公式情報で整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/store-dx/wiz-digital-signage-pricing-guide/",
+          "title": "デジタルサイネージの料金・見積ガイド｜機器・工事・運用費を整理",
+          "description": "Wizサイネージの個別料金が見積方式である点と、公式メディアが示すデジタルサイネージ一般相場を分けて、初期費用・月額費用・総所有コストを整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/store-dx/digital-signage-cost-breakdown/",
+          "title": "デジタルサイネージ費用の内訳｜本体・工事・配信・保守を確認",
+          "description": "デジタルサイネージの一般的な費用相場を、本体・スタンド・STB・設置・CMS・通信・保守に分け、Wizサイネージの個別見積と区別して整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/store-dx/digital-signage-guide/",
+          "title": "店舗向けデジタルサイネージの費用・機能・導入前の注意点",
+          "description": "店舗向けデジタルサイネージを、USB・クラウド方式、設置環境、一般的な費用相場、コンテンツ更新、屋外設置の注意点から解説します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/store-dx/wiz-digital-signage-implementation-guide/",
+          "title": "デジタルサイネージ導入ガイド｜設置場所・コンテンツ・補助金の手順",
+          "description": "Wizサイネージ導入を、設置目的、USB・クラウド方式、コンテンツ制作、見積、設置、運用・効果測定の順に整理します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "color-me-shop",
+      "name": "カラーミーショップ",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/color-me-shop-review/",
+      "primaryTitle": "カラーミーショップレビュー｜月額0円〜・料金・手数料を公式確認【2026年】",
+      "description": "カラーミーショップのフリー・レギュラー・ラージ・プレミアムの料金、決済手数料、販売手数料、30日間無料体験、SEO機能、契約時の注意点を2026年8月7日時点の公式情報で整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 5,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/color-me-shop-review/",
+          "title": "カラーミーショップレビュー｜月額0円〜・料金・手数料を公式確認【2026年】",
+          "description": "カラーミーショップのフリー・レギュラー・ラージ・プレミアムの料金、決済手数料、販売手数料、30日間無料体験、SEO機能、契約時の注意点を2026年8月7日時点の公式情報で整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/color-me-shop-vs-shopify/",
+          "title": "カラーミーショップとShopifyを比較｜料金・SEO・運用の違い",
+          "description": "カラーミーショップとShopifyを、国内運用、料金構造、決済、アプリ、SEO、越境販売、サポートから比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/color-me-shop-vs-xserver-shop/",
+          "title": "カラーミーショップとXServerショップを比較｜SaaSとEC-CUBE",
+          "description": "カラーミーショップとXServerショップを、初期費用、販売手数料、EC-CUBE、保守、SEO、拡張性から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/color-me-shop-seo-guide/",
+          "title": "カラーミーショップSEO設定ガイド｜カテゴリ・商品・サイトマップ",
+          "description": "カラーミーショップのSEO設定を、タイトル、description、カテゴリ、商品、XMLサイトマップ、内部リンク、コンテンツ改善の順に解説します。",
+          "date": "",
+          "type": "guide"
+        },
+        {
+          "url": "/ja/products/color-me-shop/",
+          "title": "Color Me Shop",
+          "description": "国内向け決済・配送・運営支援とテンプレート、HTML・CSS編集を組み合わせたネットショップ作成サービス。レギュラー月額4,950円、ラージ9,595円、プレミアム35,640円から。契約時点の条件を要確認",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "kantan-chumon",
+      "name": "かんたん注文",
+      "category": "store-dx",
+      "categoryName": "店舗DX",
+      "primaryUrl": "/ja/store-dx/kantan-chumon-review/",
+      "primaryTitle": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+      "description": "飲食店向け「かんたん注文」を、現行料金、POS・モバイルオーダー、多言語、決済連携、導入費割引、契約前の注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 5,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/store-dx/kantan-chumon-review/",
+          "title": "かんたん注文の評判・機能・注意点｜飲食店向けPOSを公式情報で検証",
+          "description": "飲食店向け「かんたん注文」を、現行料金、POS・モバイルオーダー、多言語、決済連携、導入費割引、契約前の注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/store-dx/restaurant-pos-vs-mobile-order/",
+          "title": "POSレジとモバイルオーダーの違い｜飲食店はどちらから導入すべき？",
+          "description": "POSレジとモバイルオーダーの役割、連携、費用、向いている店舗を比較し、導入順序を判断できるように解説します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/funfo-vs-kantan-chumon/",
+          "title": "funfoとかんたん注文を比較｜無料POSと公開料金型POS・モバイルオーダーを検証",
+          "description": "飲食店向けPOS・モバイルオーダーのfunfoとかんたん注文を、料金公開、無料試用、導入方法、LINE、多言語、現行の導入費割引、向く店舗から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/restaurant-pos-three-way-comparison/",
+          "title": "funfo・かんたん注文・EMEAO!を比較｜飲食店POSの探し方",
+          "description": "飲食店向けPOSのfunfo、かんたん注文、業者紹介サービスEMEAO!を、無料試用、個別提案、複数社比較、料金、導入方法から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/products/kantan-chumon/",
+          "title": "かんたん注文",
+          "description": "かんたん注文は飲食店向けPOS・モバイルオーダー。現行プランカードはPOSのみ2,980円（税込3,278円）から。2026年9月30日まで月間先着30店舗の設置・導入費割引特典を案内。",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "ikkatsu-video",
+      "name": "映像制作・動画制作一括.jp",
+      "category": "seo-marketing",
+      "categoryName": "SEO・マーケティング",
+      "primaryUrl": "/ja/seo-marketing/ikkatsu-video-production-review/",
+      "primaryTitle": "映像制作・動画制作一括.jpの評判・仕組み・注意点｜無料見積を検証",
+      "description": "映像制作・動画制作一括.jpの無料一括問い合わせの仕組み、契約までの流れ、見積比較、連絡・権利面の注意点を公式情報で整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/seo-marketing/ikkatsu-video-production-review/",
+          "title": "映像制作・動画制作一括.jpの評判・仕組み・注意点｜無料見積を検証",
+          "description": "映像制作・動画制作一括.jpの無料一括問い合わせの仕組み、契約までの流れ、見積比較、連絡・権利面の注意点を公式情報で整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/seo-marketing/ikkatsu-video-production-pricing-guide/",
+          "title": "映像制作一括.jpの料金ガイド｜無料範囲と動画制作費の見積項目",
+          "description": "一括.jpの問い合わせ無料範囲と、企画・撮影・編集・CG・ナレーション・修正・権利など動画制作費の見積項目を整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/seo-marketing/ikkatsu-video-vs-direct-inquiry/",
+          "title": "映像制作一括.jpと制作会社への直接依頼を比較｜費用・手間・連絡の違い",
+          "description": "一括.jpの複数社一括問い合わせと制作会社への直接依頼を、候補探索、連絡、見積比較、契約までの手間で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/seo-marketing/video-production-vendor-selection-guide/",
+          "title": "動画制作会社の選び方・導入ガイド｜企画から公開後の効果測定まで",
+          "description": "動画制作の目的・媒体・尺・予算を整理し、複数社の企画・見積・権利条件を同じ要件で比較する実務手順を解説します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "suika-vpn",
+      "name": "スイカVPN",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/suika-vpn-review/",
+      "primaryTitle": "スイカVPNレビュー2026｜海外利用・料金5プラン・30日無料キャンセルを検証",
+      "description": "スイカVPNを2026年8月8日の公式情報で検証。海外から日本の接続先を使う際の料金5プラン、端末・接続方式、30日間無料キャンセル、更新・返金条件、注意点を整理します。",
+      "lastVerified": "2026-08-08",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/suika-vpn-review/",
+          "title": "スイカVPNレビュー2026｜海外利用・料金5プラン・30日無料キャンセルを検証",
+          "description": "スイカVPNを2026年8月8日の公式情報で検証。海外から日本の接続先を使う際の料金5プラン、端末・接続方式、30日間無料キャンセル、更新・返金条件、注意点を整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/suika-vpn-pricing-guide/",
+          "title": "スイカVPN料金2026｜1か月〜2年の5プラン・30日無料キャンセル・更新条件",
+          "description": "スイカVPNの1か月1,097円、3か月3,144円、6か月5,932円、1年11,258円、2年21,094円を比較。月額換算、30日無料キャンセル、継続利用解除、返金時の注意を整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/hosting-security/millenvpn-vs-suika-vpn/",
+          "title": "MillenVPNとスイカVPNを比較｜短期料金・長期料金・返金条件・端末数の違い",
+          "description": "MillenVPNとスイカVPNを2026年8月8日の公式情報で比較。短期プラン、1年・2年料金、更新条件、30日返金・無料キャンセル、同時利用端末、日本語サポートから選び分けます。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/nordvpn-alternatives/",
+          "title": "NordVPN代替4選｜MillenVPN・スイカVPN・Surfshark・Proton VPNを比較",
+          "description": "NordVPNの代替候補を用途別に比較。短期契約のMillenVPN、日本語サポートと日本向け接続のスイカVPN、Surfshark、Proton VPNを料金・利用期間・端末・返金条件で整理します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "millenvpn",
+      "name": "MillenVPN",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/millenvpn-review/",
+      "primaryTitle": "MillenVPNレビュー2026｜料金396円〜・短期7日〜・更新料金と返金保証",
+      "description": "MillenVPNを2026年8月8日の公式情報で検証。2年396円/月、1年594円/月、7日638円〜の短期プラン、更新時950円+税/月、デバイス数無制限、サブスク30日返金保証の条件を比較します。",
+      "lastVerified": "2026-08-08",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/millenvpn-review/",
+          "title": "MillenVPNレビュー2026｜料金396円〜・短期7日〜・更新料金と返金保証",
+          "description": "MillenVPNを2026年8月8日の公式情報で検証。2年396円/月、1年594円/月、7日638円〜の短期プラン、更新時950円+税/月、デバイス数無制限、サブスク30日返金保証の条件を比較します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/millenvpn-pricing-guide/",
+          "title": "MillenVPN料金2026｜2年・1年・7日・15日・30日プランと更新料金を比較",
+          "description": "MillenVPNの2年396円/月、1年594円/月、7日638円、15日1,078円、30日1,738円を比較。初回料金、更新時950円+税/月、30日返金保証、自動更新、一括払いまで公式情報で整理します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/hosting-security/millenvpn-vs-suika-vpn/",
+          "title": "MillenVPNとスイカVPNを比較｜短期料金・長期料金・返金条件・端末数の違い",
+          "description": "MillenVPNとスイカVPNを2026年8月8日の公式情報で比較。短期プラン、1年・2年料金、更新条件、30日返金・無料キャンセル、同時利用端末、日本語サポートから選び分けます。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/nordvpn-alternatives/",
+          "title": "NordVPN代替4選｜MillenVPN・スイカVPN・Surfshark・Proton VPNを比較",
+          "description": "NordVPNの代替候補を用途別に比較。短期契約のMillenVPN、日本語サポートと日本向け接続のスイカVPN、Surfshark、Proton VPNを料金・利用期間・端末・返金条件で整理します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "emeao-system",
+      "name": "EMEAO! システム開発",
+      "category": "business-software",
+      "categoryName": "業務効率化",
+      "primaryUrl": "/ja/business-software/emeao-system-development-review/",
+      "primaryTitle": "EMEAO!システム開発の評判・仕組み・注意点｜無料で業者比較できる？",
+      "description": "EMEAO!システム開発を、完全無料、最大8社、審査済み業者、コンシェルジュ、紹介の流れ、見積・契約の注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/business-software/emeao-system-development-review/",
+          "title": "EMEAO!システム開発の評判・仕組み・注意点｜無料で業者比較できる？",
+          "description": "EMEAO!システム開発を、完全無料、最大8社、審査済み業者、コンシェルジュ、紹介の流れ、見積・契約の注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/business-software/emeao-system-development-pricing-guide/",
+          "title": "EMEAO!の料金とシステム開発費｜無料範囲・見積比較のポイント",
+          "description": "EMEAO!の利用料が完全無料である範囲と、紹介先のシステム開発費・保守費・追加改修費を分け、見積もりを同じ条件で比較する方法を解説します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/business-software/emeao-vs-self-search-system-company/",
+          "title": "EMEAO!と自力でシステム開発会社を探す方法を比較｜手間・候補・注意点",
+          "description": "EMEAO!と自力でシステム開発会社を探す方法を、候補探索、説明の手間、最大紹介社数、無料範囲、見積比較、契約責任から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/business-software/emeao-system-development-guide/",
+          "title": "システム開発会社の選び方｜EMEAO!問い合わせ前から契約までの手順",
+          "description": "EMEAO!でシステム開発会社を探す流れを、フォーム入力、電話ヒアリング、最大8社の候補選定、見積比較、契約・受入試験まで実務手順で整理します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "aruku-web",
+      "name": "株式会社aruku",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/aruku-web-production-review/",
+      "primaryTitle": "株式会社arukuの評判・料金・特徴｜京都のホームページ制作会社を検証",
+      "description": "株式会社arukuのモバイルファースト制作、Webマーケティング、更新運用、サーバー管理、料金目安、制作フローを整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/aruku-web-production-review/",
+          "title": "株式会社arukuの評判・料金・特徴｜京都のホームページ制作会社を検証",
+          "description": "株式会社arukuのモバイルファースト制作、Webマーケティング、更新運用、サーバー管理、料金目安、制作フローを整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/aruku-web-production-pricing-guide/",
+          "title": "株式会社arukuのホームページ制作料金｜50万円・70万円・100万円の目安",
+          "description": "aruku公式の商店・飲食店50万円〜、企業70万円〜、学校・病院100万円〜と、追加ページ、撮影、運用費の確認方法を解説します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/aruku-vs-self-service-website/",
+          "title": "株式会社arukuと自作ホームページを比較｜費用・デザイン・運用の違い",
+          "description": "arukuへの制作依頼と、Wix・WordPress等を使った自作を、初期費用、制作工数、自由度、更新、集客支援から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/aruku-web-production-guide/",
+          "title": "株式会社aruku導入ガイド｜問い合わせから公開・運用までの流れ",
+          "description": "aruku公式の制作フローを基に、目的整理、打ち合わせ、見積、デザイン、下層制作、コーディング、公開、運用の確認点を解説します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "inbound-package",
+      "name": "インバウンドパッケージ",
+      "category": "store-dx",
+      "categoryName": "店舗DX",
+      "primaryUrl": "/ja/store-dx/inbound-package-review/",
+      "primaryTitle": "飲食店向けインバウンドパッケージとは？対象・内容・補助金の注意点",
+      "description": "Wizの「インバウンドパッケージ」は、Tripadvisor、デジタル／3Dサイネージ、多言語対応ホームページをまとめて相談できる飲食店向けサービスです。2026年度の東京都インバウンド対応力強化支援事業補助金は別制度として要件を確認し、交付決定前の発注を避けて検討します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/store-dx/inbound-package-review/",
+          "title": "飲食店向けインバウンドパッケージとは？対象・内容・補助金の注意点",
+          "description": "Wizの「インバウンドパッケージ」は、Tripadvisor、デジタル／3Dサイネージ、多言語対応ホームページをまとめて相談できる飲食店向けサービスです。2026年度の東京都インバウンド対応力強化支援事業補助金は別制度として要件を確認し、交付決定前の発注を避けて検討します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/store-dx/inbound-package-pricing-guide/",
+          "title": "インバウンドパッケージの料金・補助金ガイド｜見積内訳と対象条件",
+          "description": "インバウンドパッケージは公開価格ではなく個別見積です。見積総額と補助対象経費を分け、2026年度東京都補助金の補助率・上限・申請タイミングを確認して判断します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/store-dx/inbound-package-vs-separate-tools/",
+          "title": "インバウンドパッケージと個別導入を比較｜多言語HP・口コミ・サイネージ",
+          "description": "Wizのインバウンドパッケージと、Tripadvisor・多言語HP・サイネージ等を個別導入する方法を比較します。補助金の対象可否ではなく、窓口集約・見積透明性・運用負荷で選びます。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/store-dx/inbound-package-implementation-guide/",
+          "title": "飲食店のインバウンド対策導入ガイド｜多言語・口コミ・店頭表示",
+          "description": "2026年度の東京都インバウンド対応力強化支援事業補助金を検討する飲食店向けに、課題整理、見積取得、申請、交付決定、導入、効果測定までの順番を整理します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "iclusta",
+      "name": "iCLUSTA+",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/iclusta-review/",
+      "primaryTitle": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
+      "description": "iCLUSTA+ byGMOを、SLA、SSL、メール、WordPress、サポート、返金保証、料金上の注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/iclusta-review/",
+          "title": "iCLUSTA+ byGMOレビュー｜法人向け機能・料金・注意点【2026年】",
+          "description": "iCLUSTA+ byGMOを、SLA、SSL、メール、WordPress、サポート、返金保証、料金上の注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/iclusta-movable-type-hosting/",
+          "title": "iCLUSTA+のMovable Type対応｜料金・ライセンス・注意点",
+          "description": "iCLUSTA+でMovable Typeを使う場合のライセンス、自動インストール、MySQL、保守費用を公式情報で解説します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/hosting-security/iclusta-vs-cpi/",
+          "title": "iCLUSTA+とCPIを比較｜法人サーバーの違い【2026年】",
+          "description": "iCLUSTA+とCPIを比較｜法人サーバーの違い。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/iclusta-vs-xserver-for-wordpress/",
+          "title": "iCLUSTA+とXServer for WordPressを比較【2026年】",
+          "description": "iCLUSTA+とXServer for WordPressを比較。料金、SLA、サポート、WordPress運用を公式情報で比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "jetboy",
+      "name": "JETBOY",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/jetboy-review/",
+      "primaryTitle": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
+      "description": "JETBOYレンタルサーバーを2026年8月7日の公式情報で検証。年契約550円〜、月契約748円〜、初期費用50%OFF、14日間無料体験、LiteSpeed Enterprise、cPanel、バックアップ、試用後の自動決済条件を整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/jetboy-review/",
+          "title": "JETBOYレビュー｜料金・LiteSpeed・注意点【2026年】",
+          "description": "JETBOYレンタルサーバーを2026年8月7日の公式情報で検証。年契約550円〜、月契約748円〜、初期費用50%OFF、14日間無料体験、LiteSpeed Enterprise、cPanel、バックアップ、試用後の自動決済条件を整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/hosting-security/jetboy-vs-hostinger/",
+          "title": "JETBOYとHostingerを比較｜国内・海外サーバー【2026年】",
+          "description": "JETBOYとHostingerを2026年8月7日の公式情報で比較。JETBOYの年契約550円〜・14日試用・cPanelと、Hostingerの48か月299円〜・更新価格・30日返金保証・hPanelの違いを整理します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/hosting-security/jetboy-vs-xserver-for-wordpress/",
+          "title": "JETBOYとXServer for WordPressを比較【2026年】",
+          "description": "JETBOYとXServer for WordPressを2026年8月7日の公式情報で比較。JETBOYの年契約550円〜、14日試用、LiteSpeed・cPanelと、法人向けWordPress専用運用の違いを料金・保守・移行から整理します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/products/jetboy/",
+          "title": "JETBOY",
+          "description": "LiteSpeed Enterprise、cPanel、SSDを備えるJETBOY。年契約550円〜、月契約748円〜、初期費用50%OFF、条件付き14日試用、バックアップと契約条件を確認。",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "homepagedx",
+      "name": "ホームページDX",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/homepagedx-review/",
+      "primaryTitle": "ホームページDXの評判・料金・機能｜初期3万円・月額0円からを検証",
+      "description": "ホームページDXの初期費用、月額0円プラン、CMS、予約、問い合わせ、レスポンシブ、運用支援、契約条件を公式情報で整理します。",
+      "lastVerified": "2026-07-22",
+      "articleCount": 4,
+      "coverage": {
+        "review": true,
+        "pricing": true,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/homepagedx-review/",
+          "title": "ホームページDXの評判・料金・機能｜初期3万円・月額0円からを検証",
+          "description": "ホームページDXの初期費用、月額0円プラン、CMS、予約、問い合わせ、レスポンシブ、運用支援、契約条件を公式情報で整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/website-builders/homepagedx-pricing-guide/",
+          "title": "ホームページDXの料金を解説｜初期3万円・月額0円・追加ページ費用",
+          "description": "ホームページDXの初期制作費3万円、月額0円から、追加ページ税抜1万円、1年更新、EC・補助金プランの確認点を解説します。",
+          "date": "",
+          "type": "pricing"
+        },
+        {
+          "url": "/ja/website-builders/homepagedx-vs-self-build/",
+          "title": "ホームページDXと自作サイトを比較｜費用・予約機能・運用支援の違い",
+          "description": "ホームページDXへの制作依頼と、自作ホームページサービスを、初期・月額、制作工数、CMS、予約、集客支援、契約から比較します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/website-builders/homepagedx-implementation-guide/",
+          "title": "ホームページDX導入ガイド｜素材準備・プラン選定・公開後運用",
+          "description": "店舗がホームページDXを導入する際の目的設定、文章・写真準備、プラン比較、独自ドメイン、予約導線、解析、公開後改善を解説します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "ahamo",
+      "name": "ahamo",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/ahamo-review/",
+      "primaryTitle": "ahamoの料金・メリット・注意点｜キャンペーン中40GB、通常30GBを公式確認",
+      "description": "ahamoは通常30GB・月額2,970円、大盛り110GB・4,950円。2026年8月1日からデータ増量おためしキャンペーンで40GB・120GB。5分通話、海外30GB、MNP条件を公式情報で整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 3,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/ahamo-review/",
+          "title": "ahamoの料金・メリット・注意点｜キャンペーン中40GB、通常30GBを公式確認",
+          "description": "ahamoは通常30GB・月額2,970円、大盛り110GB・4,950円。2026年8月1日からデータ増量おためしキャンペーンで40GB・120GB。5分通話、海外30GB、MNP条件を公式情報で整理します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/mobile-connectivity/ahamo-30gb-vs-110gb/",
+          "title": "ahamo通常30GB/110GBを比較｜キャンペーン中は40GB/120GB",
+          "description": "ahamoの通常30GB・110GBと、2026年8月1日開始キャンペーン中の40GB・120GBを比較。月額2,970円・4,950円、テザリング、海外30GB、1GB追加との損益分岐を整理します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/mobile-connectivity/ahamo-mnp-checklist/",
+          "title": "ahamoへ乗り換える前の確認事項｜MNP・端末・eSIM・dアカウント",
+          "description": "ahamoへMNPする前に、端末対応、SIM・eSIM、MNPワンストップ、dアカウント、本人確認、開通日を確認。2026年8月開始の40GB・120GB増量キャンペーンも整理します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "yahoo-travel",
+      "name": "Yahoo!トラベル",
+      "category": "travel-booking",
+      "categoryName": "旅行・予約",
+      "primaryUrl": "/ja/travel-booking/yahoo-travel-review/",
+      "primaryTitle": "Yahoo!トラベルレビュー｜最大10%・PayPayポイント・予約時の注意点",
+      "description": "Yahoo!トラベルの宿泊予約を、対象施設の最大10%特典、PayPayポイント、ポイント即時割引、キャンセル条件、A8成果対象の確認項目から解説します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 3,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": true
+      },
+      "articles": [
+        {
+          "url": "/ja/travel-booking/yahoo-travel-review/",
+          "title": "Yahoo!トラベルレビュー｜最大10%・PayPayポイント・予約時の注意点",
+          "description": "Yahoo!トラベルの宿泊予約を、対象施設の最大10%特典、PayPayポイント、ポイント即時割引、キャンセル条件、A8成果対象の確認項目から解説します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/travel-booking/yahoo-travel-paypay-points-guide/",
+          "title": "Yahoo!トラベルのPayPayポイント｜最大10%・「すぐに使う」と「貯める」を比較",
+          "description": "Yahoo!トラベルのPayPayポイントを、対象施設の最大10%特典、「すぐに使う」と「貯める」、オンライン決済・現地決済の付与率と付与時期から整理します。",
+          "date": "",
+          "type": "comparison"
+        },
+        {
+          "url": "/ja/travel-booking/yahoo-travel-cancellation-guide/",
+          "title": "Yahoo!トラベルのキャンセル・予約変更｜確認する場所と注意点",
+          "description": "Yahoo!トラベルの宿泊予約をキャンセル・変更する際の確認場所、施設・プランごとのキャンセル料、予約取り直し、PayPayポイントの注意点を解説します。",
+          "date": "",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "id": "emeao-pos",
+      "name": "EMEAO! POSレジ・システム",
+      "category": "store-dx",
+      "categoryName": "店舗DX",
+      "primaryUrl": "/ja/store-dx/emeao-pos-review/",
+      "primaryTitle": "EMEAO! POSレジ比較レビュー｜無料相談・最大8社・契約不要を公式確認",
+      "description": "EMEAO!のPOSレジ・システム業者紹介を、発注者側完全無料、最大8社、契約見送り可、平均3営業日以内の紹介目安、機種選定から設置・保守までの相談範囲から公式情報で検証します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 2,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/store-dx/emeao-pos-review/",
+          "title": "EMEAO! POSレジ比較レビュー｜無料相談・最大8社・契約不要を公式確認",
+          "description": "EMEAO!のPOSレジ・システム業者紹介を、発注者側完全無料、最大8社、契約見送り可、平均3営業日以内の紹介目安、機種選定から設置・保守までの相談範囲から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/products/emeao-pos/",
+          "title": "EMEAO! POSレジ・システム業者紹介",
+          "description": "POS製品そのものではなく、要件をヒアリングして対応可能なPOSレジ・システム業者を紹介するコンシェルジュ型サービス。利用者側の相談・業者紹介手数料は無料。POS導入費用は紹介先ごとの見積もり",
+          "date": "2026-08-07",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "biglobe-hikari",
+      "name": "BIGLOBE光",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/biglobe-hikari-review/",
+      "primaryTitle": "BIGLOBE光レビュー｜料金・工事費・キャッシュバック条件を比較",
+      "description": "BIGLOBE光の1ギガ・10ギガ料金、工事費、違約金、アウンカンパニーと公式直販のキャッシュバック金額・受取時期・継続条件を2026年8月7日の公式情報で比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 2,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/biglobe-hikari-review/",
+          "title": "BIGLOBE光レビュー｜料金・工事費・キャッシュバック条件を比較",
+          "description": "BIGLOBE光の1ギガ・10ギガ料金、工事費、違約金、アウンカンパニーと公式直販のキャッシュバック金額・受取時期・継続条件を2026年8月7日の公式情報で比較します。",
+          "date": "",
+          "type": "review"
+        },
+        {
+          "url": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+          "title": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+          "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "wadax",
+      "name": "WADAX",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/wadax-wordpress-server-review/",
+      "primaryTitle": "WADAXあんしんWPサーバーの評判・料金を検証｜法人利用とセキュリティ",
+      "description": "WADAXあんしんWPサーバーのWPスタンダードを、料金、セキュリティ、電話サポート、WordPress管理、契約条件と注意点から公式情報で検証します。",
+      "lastVerified": "2026-08-06",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/wadax-wordpress-server-review/",
+          "title": "WADAXあんしんWPサーバーの評判・料金を検証｜法人利用とセキュリティ",
+          "description": "WADAXあんしんWPサーバーのWPスタンダードを、料金、セキュリティ、電話サポート、WordPress管理、契約条件と注意点から公式情報で検証します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "sakupeji",
+      "name": "サクペジ",
+      "category": "website-builders",
+      "categoryName": "Webサイト制作",
+      "primaryUrl": "/ja/website-builders/sakupeji-review/",
+      "primaryTitle": "サクペジの料金・契約期間を確認｜月額制ホームページ制作の注意点",
+      "description": "サクペジの月額料金、12か月契約、制作ページ数、納期、ドメイン・サーバー管理、解約・移行条件を公式情報とA8.net資料で整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/website-builders/sakupeji-review/",
+          "title": "サクペジの料金・契約期間を確認｜月額制ホームページ制作の注意点",
+          "description": "サクペジの月額料金、12か月契約、制作ページ数、納期、ドメイン・サーバー管理、解約・移行条件を公式情報とA8.net資料で整理します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "suika-team-ip",
+      "name": "SUIKA VPN Team IP Service",
+      "category": "hosting-security",
+      "categoryName": "サーバー・セキュリティ",
+      "primaryUrl": "/ja/hosting-security/fixed-ip-vpn-for-teams/",
+      "primaryTitle": "SUIKA VPN Team IP Serviceレビュー｜固定IP・料金・20〜200アカウントを確認",
+      "description": "SUIKA VPN Team IP Serviceの固定IP、専用VPNサーバー、料金3プラン、20〜200アカウント、30日間返金保証、導入日数、ログと運用上の注意点を公式情報で確認します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/hosting-security/fixed-ip-vpn-for-teams/",
+          "title": "SUIKA VPN Team IP Serviceレビュー｜固定IP・料金・20〜200アカウントを確認",
+          "description": "SUIKA VPN Team IP Serviceの固定IP、専用VPNサーバー、料金3プラン、20〜200アカウント、30日間返金保証、導入日数、ログと運用上の注意点を公式情報で確認します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "corporate-smartphone-com",
+      "name": "法人スマホコム",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/corporate-smartphone-com-review/",
+      "primaryTitle": "法人スマホ.comレビュー｜SoftBank法人携帯の料金・初期費用・見積前チェック",
+      "description": "法人スマホ.com（SoftBank取扱店）の法人携帯を、月額2,750円〜の適用期間、14か月目以降、初期費用、端末代、6か月無料キャンペーン、納品・見積条件から公式情報で確認します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/corporate-smartphone-com-review/",
+          "title": "法人スマホ.comレビュー｜SoftBank法人携帯の料金・初期費用・見積前チェック",
+          "description": "法人スマホ.com（SoftBank取扱店）の法人携帯を、月額2,750円〜の適用期間、14か月目以降、初期費用、端末代、6か月無料キャンペーン、納品・見積条件から公式情報で確認します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "giga-wifi",
+      "name": "ギガWi-Fi",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/giga-wifi-review/",
+      "primaryTitle": "ギガWi-Fiレビュー｜料金・契約期間・端末残債を比較",
+      "description": "ギガWi-Fiの100GB・5G・10GB・ミニ従量プランを、月額、3年契約、端末代、解約料、海外利用、初期契約解除から2026年8月7日の公式情報で比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/giga-wifi-review/",
+          "title": "ギガWi-Fiレビュー｜料金・契約期間・端末残債を比較",
+          "description": "ギガWi-Fiの100GB・5G・10GB・ミニ従量プランを、月額、3年契約、端末代、解約料、海外利用、初期契約解除から2026年8月7日の公式情報で比較します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "softbank-air",
+      "name": "SoftBank Air",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/softbank-air-review/",
+      "primaryTitle": "SoftBank Airレビュー｜料金・端末残債・2026年12月改定を確認",
+      "description": "SoftBank Airを2026年8月7日の公式情報で確認。基本料金5,368円、Airターミナル6 95,040円、月月割、24か月割引、2026年12月の料金改定、U-25/O-60向け割引、解約時の端末残債、エヌズカンパニー特典を整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/softbank-air-review/",
+          "title": "SoftBank Airレビュー｜料金・端末残債・2026年12月改定を確認",
+          "description": "SoftBank Airを2026年8月7日の公式情報で確認。基本料金5,368円、Airターミナル6 95,040円、月月割、24か月割引、2026年12月の料金改定、U-25/O-60向け割引、解約時の端末残債、エヌズカンパニー特典を整理します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "travesim",
+      "name": "TRAVeSIM",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/travesim-review/",
+      "primaryTitle": "TRAVeSIMレビュー｜2026年8月キャンペーン・料金・140か国対応を確認",
+      "description": "TRAVeSIMの2026年8月データ使い放題キャンペーン、140以上の国・地域、単国・周遊料金、30日/90日のアクティベート期限差、返金不可、データ専用eSIMの注意点を公式情報で整理します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/travesim-review/",
+          "title": "TRAVeSIMレビュー｜2026年8月キャンペーン・料金・140か国対応を確認",
+          "description": "TRAVeSIMの2026年8月データ使い放題キャンペーン、140以上の国・地域、単国・周遊料金、30日/90日のアクティベート期限差、返金不可、データ専用eSIMの注意点を公式情報で整理します。",
+          "date": "2026-08-07",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "au-hikari",
+      "name": "auひかり",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+      "primaryTitle": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+      "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": false,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+          "title": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+          "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "esim-square",
+      "name": "eSIM square",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/esim-square-review/",
+      "primaryTitle": "eSIM squareレビュー｜対応国・設定・購入前の注意点",
+      "description": "eSIM squareの対応国、料金の探し方、設定、リチャージ、通話・SMS、キャンセル、対応端末を公式情報とA8.net条件で整理します。",
+      "lastVerified": "2026-08-04",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/esim-square-review/",
+          "title": "eSIM squareレビュー｜対応国・設定・購入前の注意点",
+          "description": "eSIM squareの対応国、料金の探し方、設定、リチャージ、通話・SMS、キャンセル、対応端末を公式情報とA8.net条件で整理します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "flets-hikari",
+      "name": "フレッツ光",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+      "primaryTitle": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+      "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": false,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+          "title": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+          "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "goen-mobile",
+      "name": "ごえんモバイル",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/goen-mobile-review/",
+      "primaryTitle": "ごえんモバイルの料金・契約条件を確認｜短期利用・口座振替の注意点",
+      "description": "ごえんモバイルの料金、最短2か月、口座振替、中古スマホ、解約、データ繰り越し、対応端末を公式情報とA8.net条件で整理します。",
+      "lastVerified": "2026-08-04",
+      "articleCount": 1,
+      "coverage": {
+        "review": true,
+        "pricing": false,
+        "comparison": false,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/goen-mobile-review/",
+          "title": "ごえんモバイルの料金・契約条件を確認｜短期利用・口座振替の注意点",
+          "description": "ごえんモバイルの料金、最短2か月、口座振替、中古スマホ、解約、データ繰り越し、対応端末を公式情報とA8.net条件で整理します。",
+          "date": "",
+          "type": "review"
+        }
+      ]
+    },
+    {
+      "id": "commufa-hikari",
+      "name": "コミュファ光",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+      "primaryTitle": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+      "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": false,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+          "title": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+          "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "megaegg",
+      "name": "メガエッグ光",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+      "primaryTitle": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+      "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": false,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+          "title": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+          "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    },
+    {
+      "id": "bbiq",
+      "name": "BBIQ",
+      "category": "mobile-connectivity",
+      "categoryName": "通信・モバイル",
+      "primaryUrl": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+      "primaryTitle": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+      "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+      "lastVerified": "2026-08-07",
+      "articleCount": 1,
+      "coverage": {
+        "review": false,
+        "pricing": false,
+        "comparison": true,
+        "guide": false
+      },
+      "articles": [
+        {
+          "url": "/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/",
+          "title": "在宅ワーク・店舗向け光回線5社比較｜地域・工事・総額で選ぶ",
+          "description": "auひかり、フレッツ光、コミュファ光、BBIQ、メガ・エッグを、提供地域、建物、工事、契約条件、キャンペーンの受取条件から比較します。",
+          "date": "",
+          "type": "comparison"
+        }
+      ]
+    }
+  ]
+}

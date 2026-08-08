@@ -2972,6 +2972,50 @@ def main() -> int:
         for retired_url in ("https://luqevora.com/ja/products/xserver-business/", "https://luqevora.com/en/products/xserver-business/"):
             if retired_url in sitemap_text:
                 errors.append(f"Consolidated XServer Business product still in sitemap: {retired_url}")
+        # v5.7.4 four-base-color editorial system checks
+        style_target = root / "assets/css/style.css"
+        legacy_style_target = root / "assets/style.css"
+        if style_target.is_file():
+            style_text = style_target.read_text(encoding="utf-8-sig")
+            base_colors = set()
+            for match in re.finditer(r"#[0-9a-fA-F]{6}", style_text):
+                base_colors.add(match.group(0).upper())
+            for match in re.finditer(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", style_text):
+                rgb = tuple(int(x) for x in match.groups())
+                base_colors.add("#%02X%02X%02X" % rgb)
+            stats["visual_palette_base_colors"] = len(base_colors)
+            allowed_palette = {"#0B1F44", "#1463FF", "#FFFFFF", "#B42318"}
+            if base_colors != allowed_palette:
+                errors.append(f"v5.7.4 palette must use exactly four base colors: {sorted(base_colors)}")
+            if legacy_style_target.is_file() and legacy_style_target.read_text(encoding="utf-8-sig") != style_text:
+                errors.append("Legacy /assets/style.css drifted from production /assets/css/style.css")
+        css_ref_errors = 0
+        for html_path in root.rglob("*.html"):
+            html_text = html_path.read_text(encoding="utf-8-sig")
+            if '/assets/css/style.css?v=6.5.0' not in html_text:
+                css_ref_errors += 1
+        stats["css_v650_reference_errors"] = css_ref_errors
+        if css_ref_errors:
+            errors.append(f"v5.7.4 stylesheet cache-bust mismatch on {css_ref_errors} HTML files")
+        visual_targets = (
+            "ja/hosting-security/xserver-rental-server-review/index.html",
+            "ja/hosting-security/millenvpn-vs-suika-vpn/index.html",
+            "en/seo-marketing/se-ranking-review/index.html",
+            "en/hosting-security/nordvpn-pricing-guide/index.html",
+        )
+        visual_guides = 0
+        for rel_path in visual_targets:
+            target = root / rel_path
+            if not target.is_file():
+                errors.append(f"Visual-guide target missing: {rel_path}")
+                continue
+            page_text = target.read_text(encoding="utf-8-sig")
+            count = page_text.count('class="article-visual-guide"')
+            if count < 1:
+                errors.append(f"Article visual guide missing: {rel_path}")
+            visual_guides += count
+        stats["article_visual_guides"] = visual_guides
+
         cname = root / "CNAME"
         if cname.is_file() and cname.read_text(encoding="utf-8-sig").strip() != "luqevora.com":
             warnings.append("CNAME does not contain exactly 'luqevora.com'.")
