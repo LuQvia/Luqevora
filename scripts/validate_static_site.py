@@ -24,6 +24,11 @@ XSERVER_SHOP_ENDED_A8_MARKERS = (
     "4B844Z+A7XXEI+CO4",
     "s00000001642010",
 )
+XSERVER_SHOP_RETIRED_AFFILIATE_METADATA = (
+    'data-affiliate-key="xserver-shop"',
+    '"affiliateKey":"xserver-shop"',
+    '"affiliateKey": "xserver-shop"',
+)
 REQUIRED_FILES = (
     ".nojekyll",
     "404.html",
@@ -203,6 +208,10 @@ def main() -> int:
                     legacy_hits.add(f"{rel}: {pattern}")
 
             for marker in XSERVER_SHOP_ENDED_A8_MARKERS:
+                if marker in text:
+                    ended_affiliate_hits.add(f"{rel}: {marker}")
+
+            for marker in XSERVER_SHOP_RETIRED_AFFILIATE_METADATA:
                 if marker in text:
                     ended_affiliate_hits.add(f"{rel}: {marker}")
 

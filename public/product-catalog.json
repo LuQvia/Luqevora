@@ -13517,7 +13517,6 @@
     {
       "id": "xserver-shop",
       "name": "XServer Shop",
-      "affiliateKey": "xserver-shop",
       "category": "website-builders",
       "categoryName": {
         "ja": "Webサイト制作",
