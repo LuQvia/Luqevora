@@ -1,0 +1,18 @@
+{
+  "version": "5.8.7",
+  "date": "2026-08-11",
+  "release": "AI DISCOVERABILITY / ENTITY CONSISTENCY",
+  "organization_id": "https://luqevora.com/#organization",
+  "brand_id": "https://luqevora.com/#brand",
+  "website_id": "https://luqevora.com/#website",
+  "canonical_jsonld_mismatch_targets": 18,
+  "product_alias_noindex_targets": 12,
+  "official_repository": "https://github.com/LuQvia/Luqevora",
+  "principles": [
+    "comparison rationale",
+    "recommended and non-recommended conditions",
+    "provider-owned sources",
+    "affiliate disclosure",
+    "canonical and JSON-LD consistency"
+  ]
+}

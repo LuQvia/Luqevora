@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/luqevora_battery/v586/public",
+  "public_root": "/mnt/data/three_brand_ai_fix/luqevora/public",
   "stats": {
-    "files": 1760,
+    "files": 1761,
     "html": 1137,
-    "json": 4,
+    "json": 5,
     "xml": 8,
     "xserver_shop_ended_affiliate_hits": 0,
     "affiliate_links": 6,
