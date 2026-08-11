@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:sitemapindex xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <ns0:sitemap>
-    <ns0:loc>https://luqevora.com/sitemaps/pages.xml</ns0:loc>
-    <ns0:lastmod>2026-07-25</ns0:lastmod>
-  </ns0:sitemap>
-  <ns0:sitemap>
-    <ns0:loc>https://luqevora.com/sitemaps/topics-ja.xml</ns0:loc>
-    <ns0:lastmod>2026-07-25</ns0:lastmod>
-  </ns0:sitemap>
-  <ns0:sitemap>
-    <ns0:loc>https://luqevora.com/sitemaps/topics-en.xml</ns0:loc>
-    <ns0:lastmod>2026-07-25</ns0:lastmod>
-  </ns0:sitemap>
-  <ns0:sitemap>
-    <ns0:loc>https://luqevora.com/sitemaps/articles-ja.xml</ns0:loc>
-    <ns0:lastmod>2026-08-10</ns0:lastmod>
-  </ns0:sitemap>
-  <ns0:sitemap>
-    <ns0:loc>https://luqevora.com/sitemaps/articles-en.xml</ns0:loc>
-    <ns0:lastmod>2026-07-25</ns0:lastmod>
-  </ns0:sitemap>
-</ns0:sitemapindex>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://luqevora.com/sitemaps/pages.xml</loc>
+    <lastmod>2026-07-25</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://luqevora.com/sitemaps/topics-ja.xml</loc>
+    <lastmod>2026-07-25</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://luqevora.com/sitemaps/topics-en.xml</loc>
+    <lastmod>2026-07-25</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://luqevora.com/sitemaps/articles-ja.xml</loc>
+    <lastmod>2026-08-11</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://luqevora.com/sitemaps/articles-en.xml</loc>
+    <lastmod>2026-07-25</lastmod>
+  </sitemap>
+</sitemapindex>

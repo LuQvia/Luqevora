@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/v576_work/public",
+  "public_root": "/mnt/data/luqevora_battery/v586/public",
   "stats": {
-    "files": 1744,
-    "html": 1129,
+    "files": 1760,
+    "html": 1137,
     "json": 4,
     "xml": 8,
     "xserver_shop_ended_affiliate_hits": 0,
@@ -115,7 +115,7 @@
     "visual_palette_base_colors": 4,
     "css_v650_reference_errors": 0,
     "article_visual_guides": 4,
-    "content_tables": 731,
+    "content_tables": 743,
     "unwrapped_content_tables": 0
   },
   "errors": [],
