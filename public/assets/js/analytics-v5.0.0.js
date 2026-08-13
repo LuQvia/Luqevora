@@ -84,7 +84,10 @@
       'a[href*="px.a8.net/svt/ejp"]',
       'a[href*="af.moshimo.com/af/c/click"]',
       'a[href*="go.nordvpn.net/aff_c"]',
-      'a[href*="go.nordpass.io/aff_c"]'
+      'a[href*="go.nordpass.io/aff_c"]',
+      'a[href*="h.accesstrade.net/sp/cc"]',
+      'a[href*="ck.jp.ap.valuecommerce.com/servlet/referral"]',
+      'a[href*="ad2.trafficgate.net/t/r/"]'
     ].join(',');
     const affiliateCount = document.querySelectorAll(affiliateSelector).length;
     const revenueRouteCount = document.querySelectorAll('[data-revenue-route]').length;
@@ -332,6 +335,9 @@
 
   function inferAffiliateNetwork(destination) {
     if (destination.hostname.endsWith('a8.net')) return 'a8';
+    if (destination.hostname.endsWith('accesstrade.net')) return 'accesstrade';
+    if (destination.hostname.endsWith('valuecommerce.com')) return 'valuecommerce';
+    if (destination.hostname.endsWith('trafficgate.net')) return 'tg_affiliate';
     if (destination.hostname === 'af.moshimo.com') return 'moshimo';
     if (destination.hostname === 'seranking.com') return 'se_ranking';
     if (destination.hostname === 'referworkspace.app.goo.gl') return 'google_referral';
@@ -460,7 +466,7 @@
     }), { threshold: 0.5 });
 
     document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('a[data-affiliate-status="active"], [data-affiliate-status="active"] a[href], a[href*="px.a8.net/svt/ejp"], a[href*="af.moshimo.com/af/c/click"]').forEach(element => ctaObserver.observe(element));
+      document.querySelectorAll('a[data-affiliate-status="active"], [data-affiliate-status="active"] a[href], a[href*="px.a8.net/svt/ejp"], a[href*="af.moshimo.com/af/c/click"], a[href*="h.accesstrade.net/sp/cc"], a[href*="ck.jp.ap.valuecommerce.com/servlet/referral"], a[href*="ad2.trafficgate.net/t/r/"]').forEach(element => ctaObserver.observe(element));
     }, { once: true });
   }
 

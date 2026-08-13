@@ -1,0 +1,125 @@
+{
+  "release": "v5.8.8",
+  "updated_at": "2026-08-13",
+  "scope": "approved programs only; pending reviews excluded",
+  "programs": [
+    {
+      "name": "ゲオオンラインストア",
+      "network": "ValueCommerce",
+      "status": "approved",
+      "public_use": [
+        "used-smartphone cluster"
+      ]
+    },
+    {
+      "name": "ダイワンテレコム 中古スマホ販売",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "used-smartphone cluster"
+      ]
+    },
+    {
+      "name": "ダイワンテレコム 買取",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "smartphone buyback"
+      ]
+    },
+    {
+      "name": "Samsungオンラインショップ",
+      "network": "ValueCommerce",
+      "status": "approved",
+      "public_use": [
+        "used-smartphone/new Galaxy cross-shop"
+      ],
+      "note": "affiliate rate changes 2026-08-22; public copy does not expose commission"
+    },
+    {
+      "name": "BIGLOBE光",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "BIGLOBE review",
+        "fiber comparison"
+      ]
+    },
+    {
+      "name": "SoftBank光 エヌズカンパニー",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "fiber comparison additional route"
+      ]
+    },
+    {
+      "name": "GMO光アクセス",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "fiber comparison additional route"
+      ]
+    },
+    {
+      "name": "eo光",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "fiber comparison additional route"
+      ]
+    },
+    {
+      "name": "DTI光",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "fiber comparison additional route"
+      ]
+    },
+    {
+      "name": "GMOとくとくBB ドコモ光",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "fiber comparison additional route"
+      ]
+    },
+    {
+      "name": "楽天ひかり",
+      "network": "TG Affiliate",
+      "status": "approved",
+      "public_use": [
+        "home-router comparison"
+      ]
+    },
+    {
+      "name": "Rakuten Turbo",
+      "network": "TG Affiliate",
+      "status": "approved",
+      "public_use": [
+        "home-router comparison"
+      ]
+    },
+    {
+      "name": "BIGLOBE WiMAX +5G",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "home-router comparison"
+      ]
+    },
+    {
+      "name": "グローバルWiFi",
+      "network": "AccessTrade",
+      "status": "approved",
+      "public_use": [
+        "TRAVeSIM review alternative"
+      ]
+    }
+  ],
+  "held_or_not_replaced": [
+    "existing A8 routes where new-network superiority was not established",
+    "pending programs including Y!mobile/LIBMO/J:COM MOBILE/Rakuten Mobile etc."
+  ]
+}

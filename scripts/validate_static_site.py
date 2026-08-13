@@ -1859,7 +1859,7 @@ def main() -> int:
             sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
             for rel_path in (biglobe_page, biglobe_compare, biglobe_internal):
                 url = "https://luqevora.com/" + rel_path[:-10]
-                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+                if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-13</lastmod>", sitemap_text):
                     errors.append(f"BIGLOBE article sitemap lastmod is not current: {rel_path}")
 
         # v5.5.7 Wiz inbound-package revenue-route checks
@@ -2623,7 +2623,7 @@ def main() -> int:
         if articles_ja_path.is_file():
             sitemap_text = articles_ja_path.read_text(encoding="utf-8-sig")
             url = "https://luqevora.com/ja/mobile-connectivity/travesim-review/"
-            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-07</lastmod>", sitemap_text):
+            if not re.search(re.escape(url + "</loc>") + r"\s*<lastmod>2026-08-13</lastmod>", sitemap_text):
                 errors.append("TRAVeSIM article sitemap lastmod is not current")
 
         # v5.6.6 Revenue Max Core: sitewide two-stage revenue funnel measurement
