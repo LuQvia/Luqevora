@@ -293,3 +293,27 @@ a{color:inherit}.prose a,.article-body a,.text-link,.directory-summary a{color:v
 .visual-choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}.visual-choice-card{padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--bg)}.visual-choice-card.is-primary{box-shadow:inset 4px 0 0 var(--blue)}.visual-choice-card.is-caution{box-shadow:inset 4px 0 0 var(--danger)}
 .visual-mini-table{display:grid;grid-template-columns:minmax(8rem,.75fr) repeat(2,minmax(0,1fr));border:1px solid var(--line);border-radius:12px;overflow:hidden}.visual-mini-table>div{padding:.7rem .75rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#FFFFFF}.visual-mini-table .head{background:var(--soft-blue);color:var(--navy);font-weight:850}
 @media(max-width:720px){.visual-flow,.visual-choice-grid{grid-template-columns:1fr}.visual-flow-step:not(:last-child):after{content:'↓';right:50%;top:auto;bottom:-.66rem;transform:translateX(50%)}.visual-guide-title{display:block}.visual-mini-table{grid-template-columns:1fr}}
+
+
+/* v6.5.0 readability refresh */
+:root{--bg:#FFFFFF;--surface:#FFFFFF;--text:#0B1F44;--muted:rgba(11,31,68,.76);--line:rgba(11,31,68,.18);--soft-blue:rgba(20,99,255,.06);--soft-teal:rgba(20,99,255,.06)}
+body{background:#FFFFFF;color:var(--text)}
+main,section,article{color:var(--text)}
+.page-hero,.article-hero,.hero{background:#FFFFFF}
+.hero-copy,.check-list li,.page-lead,.article-lead,.article-meta,.article-body p,.article-body li,.prose p,.prose li,.editorial-note p,.article-sidebar ol,.source-list small,.article-update,.review-facts dt,.article-topic,.article-card-meta,.article-cta-panel p,.related-article-card span,.topic-link-card small,.topic-hero-actions>span,.topic-method-card p,.article-featured-image figcaption,.decision-summary p,.decision-summary li,.evidence-panel dt,.article-date-grid dt,.product-data-badges span,.product-source-note,.product-facts dt,.service-disclosure,.service-card-desc,.service-coverage .is-on,.service-card-footer small,.service-context-nav small,.service-context-nav a,.directory-summary,.directory-empty,.field-help,.cookie-banner p,.notice,.form-status-success,.form-status-sending,.form-context-note,.form-context-note p{color:var(--text)}
+.page-lead,.article-lead,.article-meta,.editorial-note p,.source-list small,.article-update,.article-featured-image figcaption,.service-card-desc,.service-card-footer small,.service-context-nav small,.directory-summary,.field-help,.cookie-banner p,.notice,.form-context-note,.form-context-note p{color:var(--muted)}
+.transparency p,.transparency .check-list li{color:rgba(255,255,255,.88)}
+.transparency .check-list li:before{color:#FFFFFF}
+.main-nav a,.breadcrumb,.breadcrumb a,.article-body a,.prose a,.service-context-nav a:hover,.directory-summary a{color:var(--blue)}
+.main-nav a[aria-current="page"],.main-nav a:hover{color:var(--navy)}
+.table-scroll{background:#FFFFFF;border:1px solid var(--line)}
+.table-scroll table,.table-scroll .comparison-table{width:100%;min-width:920px;border-collapse:collapse;border-spacing:0;font-size:14px;line-height:1.65;background:#FFFFFF}
+.table-scroll th,.table-scroll td,.table-scroll .comparison-table th,.table-scroll .comparison-table td{padding:15px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);vertical-align:top;text-align:left;color:var(--text);word-break:normal;overflow-wrap:anywhere}
+.table-scroll th:last-child,.table-scroll td:last-child,.table-scroll .comparison-table th:last-child,.table-scroll .comparison-table td:last-child{border-right:0}
+.table-scroll thead th,.table-scroll .comparison-table thead th{background:rgba(20,99,255,.06);color:var(--navy);font-size:13px;font-weight:800}
+.table-scroll tbody tr:nth-child(even) td,.table-scroll .comparison-table tbody tr:nth-child(even) td{background:rgba(11,31,68,.025)}
+.table-scroll tr:last-child td,.table-scroll .comparison-table tr:last-child td{border-bottom:0}
+.table-note{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.7}
+.offer-card p,.quick-pick p,.tool-box p,.tool-box ul,.faq-item p{color:var(--text)}
+.offer-card h3,.quick-pick h3,.tool-box h4,.faq-item h3{color:var(--navy)}
+.article-date-grid div,.three-point-summary,.decision-summary,.editorial-note,.quick-pick,.tool-panel,.faq-item,.source-list li,.related-article-card,.service-directory-card,.article-directory-card,.policy-card,.contact-card{background:#FFFFFF}
