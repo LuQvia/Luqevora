@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "public_root": "/mnt/data/luqevora_mobile_insurance/check_v589/public",
+  "public_root": "/mnt/data/readability_rebuild_20260816/luqevora/Luqevora/public",
   "stats": {
     "files": 1761,
     "html": 1137,
@@ -10,7 +10,7 @@
     "affiliate_links": 6,
     "affiliate_pixels": 6,
     "additional_affiliate_articles": 7,
-    "suika_article_text_chars": 6697,
+    "suika_article_text_chars": 6707,
     "suika_article_images": 4,
     "millenvpn_a8_links": 3,
     "millenvpn_a8_pixels": 3,

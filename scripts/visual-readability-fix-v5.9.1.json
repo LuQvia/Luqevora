@@ -1,0 +1,9 @@
+{
+  "version": "5.9.1",
+  "date": "2026-08-15",
+  "scope": "interactive contrast and mobile containment",
+  "changes": [
+    "force white text on primary blue buttons even inside article link contexts",
+    "prevent legacy article-content grid items from expanding to table intrinsic width on mobile"
+  ]
+}
