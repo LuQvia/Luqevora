@@ -1,0 +1,70 @@
+{
+  "release": "v5.10.2",
+  "updated_at": "2026-08-20",
+  "base": "v5.10.1 MOBILE AFFILIATE RECEIVER, consolidated with the earlier v5.10.1 JCOM/MINEO route branch",
+  "scope": "Consolidate all newly approved mobile/fixed-line affiliate routes while preserving editorial rankings and the v5.10.1 cross-brand receiver/analytics work.",
+  "programs": [
+    {
+      "name": "Rakuten Mobile",
+      "network": "TG Affiliate-LinkShare",
+      "program_id": "MID 4401",
+      "affiliate_name": "rakuten_mobile",
+      "status": "approved",
+      "materials": ["text link ID 109"],
+      "public_use": ["smartphone-line-selection-after-troubleshooting receiver"]
+    },
+    {
+      "name": "mineo",
+      "network": "AccessTrade",
+      "program_id": "672320",
+      "affiliate_name": "mineo",
+      "status": "approved",
+      "materials": ["generic official-page material 0100o56u00ox0v", "generic official-site material 0100kqzj00ox0v"],
+      "public_use": [
+        "smartphone-line-selection-after-troubleshooting receiver",
+        "used-smartphone buying guide",
+        "used-smartphone SIM-free/carrier-version guide"
+      ]
+    },
+    {
+      "name": "you me mobile",
+      "network": "afb",
+      "program_id": "15801",
+      "affiliate_name": "you_me_mobile",
+      "status": "approved",
+      "materials": ["free-text material k512331V"],
+      "public_use": ["smartphone-line-selection-after-troubleshooting receiver"]
+    },
+    {
+      "name": "J:COM NET/J:COM TV",
+      "network": "AccessTrade",
+      "program_id": "1061104",
+      "affiliate_name": "jcom_net_tv",
+      "status": "approved",
+      "materials": ["J:COM NET material 0100p97z00ox0v"],
+      "public_use": [
+        "fiber internet comparison additional approved route",
+        "home-router vs mobile-plan fixed-line alternative"
+      ]
+    }
+  ],
+  "cross_brand_receiver": "/ja/mobile-connectivity/smartphone-line-selection-after-troubleshooting/",
+  "solqvia_bridge": "Phase123 receiver target retained",
+  "analytics": {
+    "file": "/assets/js/analytics-v5.0.0.js",
+    "afb_network_detection": true,
+    "solqvia_context_minutes": 60,
+    "affiliate_destination_mutation": false,
+    "personal_identifiers_added": false
+  },
+  "restored_from_earlier_v5_10_1_branch": [
+    "/ja/mobile-connectivity/home-router-vs-mobile-plan/",
+    "/ja/mobile-connectivity/used-smartphone-buying-guide/",
+    "/ja/mobile-connectivity/used-smartphone-simfree-carrier-version-guide/",
+    "/ja/mobile-connectivity/used-smartphone-condition-rank-comparison/",
+    "/ja/mobile-connectivity/used-smartphone-battery-health-guide/",
+    "/ja/mobile-connectivity/smartphone-buyback-comparison/"
+  ],
+  "editorial_policy": "No payout-based ranking changes. Approved links are placed only where user intent and service fit are relevant.",
+  "public_payout_disclosure": false
+}

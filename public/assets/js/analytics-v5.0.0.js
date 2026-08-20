@@ -40,6 +40,35 @@
   const debugMode = new URLSearchParams(location.search).get('ga_debug') === '1';
   const REVENUE_ATTRIBUTION_KEY = 'luqevora.revenueRouteAttribution.v1';
   const REVENUE_ATTRIBUTION_TTL_MS = 30 * 60 * 1000;
+
+  const CROSS_BRAND_ATTRIBUTION_KEY = 'luqevora.crossBrandAttribution.v1';
+  const CROSS_BRAND_ATTRIBUTION_TTL_MS = 60 * 60 * 1000;
+
+  function getCrossBrandAttribution() {
+    try {
+      const params = new URLSearchParams(location.search);
+      const bridgeId = (params.get('sq_bridge') || '').slice(0, 20);
+      const sourcePath = (params.get('sq_source') || '').slice(0, 180);
+      const routeId = (params.get('utm_content') || '').slice(0, 80);
+      const sourceBrand = params.get('utm_source') || '';
+      const validBridge = /^sqb_[0-9a-f]{8}$/i.test(bridgeId);
+      const validSourcePath = /^\/[A-Za-z0-9_./-]*$/.test(sourcePath);
+      if (sourceBrand === 'solqvia' && validBridge && validSourcePath) {
+        const fresh = { bridge_id: bridgeId, source_path: sourcePath, route_id: routeId, source_brand: 'solqvia', stored_at: Date.now() };
+        sessionStorage.setItem(CROSS_BRAND_ATTRIBUTION_KEY, JSON.stringify(fresh));
+        return fresh;
+      }
+      const raw = sessionStorage.getItem(CROSS_BRAND_ATTRIBUTION_KEY);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      if (!data.stored_at || Date.now() - Number(data.stored_at) > CROSS_BRAND_ATTRIBUTION_TTL_MS) {
+        sessionStorage.removeItem(CROSS_BRAND_ATTRIBUTION_KEY);
+        return null;
+      }
+      return data;
+    } catch (_) { return null; }
+  }
+
   const AFFILIATE_NAME_ALIASES = Object.freeze({
     'スイカVPN': 'suika_vpn',
     '複数サービス': 'multiple_services',
@@ -104,6 +133,7 @@
 
   const pageContext = () => {
     const attribution = getRevenueAttribution();
+    const crossBrand = getCrossBrandAttribution();
     return {
       content_type: meta('luqevora-content-type') || document.body?.dataset.pageType || 'page',
       content_category: meta('luqevora-category') || document.body?.dataset.category || '',
@@ -113,7 +143,10 @@
       page_language: document.documentElement.lang || '',
       ...pageMonetizationContext(),
       revenue_route_name: attribution?.route_name || '',
-      revenue_route_source: attribution?.source_path || ''
+      revenue_route_source: attribution?.source_path || '',
+      bridge_id: crossBrand?.bridge_id || '',
+      cross_brand_source: crossBrand?.source_path || '',
+      cross_brand_route: crossBrand?.route_id || ''
     };
   };
 
@@ -221,6 +254,11 @@
     else if (ctx.content_type === 'pricing') track('pricing_view');
     else if (ctx.content_type === 'product') track('product_view');
     else if (ctx.content_type === 'article-directory') track('article_directory_view');
+    const crossBrand = getCrossBrandAttribution();
+    const inboundParams = new URLSearchParams(location.search);
+    if (crossBrand && inboundParams.get('utm_source') === 'solqvia' && inboundParams.get('sq_bridge') === crossBrand.bridge_id) {
+      track('cross_brand_entry', { bridge_id: crossBrand.bridge_id || '', source_path: crossBrand.source_path || '', route_id: crossBrand.route_id || '', source_brand: 'solqvia' });
+    }
     const attribution = getRevenueAttribution();
     if (attribution) {
       track('revenue_route_entry', {
@@ -338,6 +376,7 @@
     if (destination.hostname.endsWith('accesstrade.net')) return 'accesstrade';
     if (destination.hostname.endsWith('valuecommerce.com')) return 'valuecommerce';
     if (destination.hostname.endsWith('trafficgate.net')) return 'tg_affiliate';
+    if (destination.hostname.endsWith('afi-b.com')) return 'afb';
     if (destination.hostname === 'af.moshimo.com') return 'moshimo';
     if (destination.hostname === 'seranking.com') return 'se_ranking';
     if (destination.hostname === 'referworkspace.app.goo.gl') return 'google_referral';
@@ -381,7 +420,10 @@
     if (!/^https?:$/.test(destination.protocol) || destination.origin === location.origin) return;
 
     if (isActiveAffiliate(link, destination)) {
-      track('affiliate_click', affiliateParameters(link, destination));
+      const affiliate = affiliateParameters(link, destination);
+      track('affiliate_click', affiliate);
+      const crossBrand = getCrossBrandAttribution();
+      if (crossBrand) track('cross_brand_affiliate_click', { ...affiliate, bridge_id: crossBrand.bridge_id || '', source_path: crossBrand.source_path || '', route_id: crossBrand.route_id || '', source_brand: 'solqvia' });
       return;
     }
 
