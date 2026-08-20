@@ -317,6 +317,7 @@ main,section,article{color:var(--text)}
 .offer-card p,.quick-pick p,.tool-box p,.tool-box ul,.faq-item p{color:var(--text)}
 .offer-card h3,.quick-pick h3,.tool-box h4,.faq-item h3{color:var(--navy)}
 .article-date-grid div,.three-point-summary,.decision-summary,.editorial-note,.quick-pick,.tool-panel,.faq-item,.source-list li,.related-article-card,.service-directory-card,.article-directory-card,.policy-card,.contact-card{background:#FFFFFF}
+/* v5.9.1 interactive contrast and mobile containment fix */
 
 
 /* v5.9.1 interactive contrast and mobile containment fix */
@@ -365,3 +366,4 @@ main,section,article{color:var(--text)}
 .article-date-grid dt{font-size:11px}
 .article-date-grid dd{margin:0;font-size:12px}
 @media(max-width:720px){.article-date-grid{display:flex;gap:7px 14px}.article-date-grid div{width:auto}.article-date-grid dt,.article-date-grid dd{font-size:11px}}
+>>>>>>> b688fcab882d8816366264a635b1784694745cf8
