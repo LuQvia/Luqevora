@@ -1,0 +1,17 @@
+{
+  "release": "Luqevora Smartphone Plan Diagnosis v0.2 integration",
+  "date": "2026-09-15",
+  "url": "/ja/mobile-connectivity/smartphone-plan-diagnosis/",
+  "modified_files": [
+    "public\\ja\\mobile-connectivity\\index.html",
+    "public\\ja\\mobile-connectivity\\smartphone-line-selection-after-troubleshooting\\index.html",
+    "public\\search-index.json",
+    "public\\sitemaps\\articles-ja.xml"
+  ],
+  "added_files": [
+    "public/ja/mobile-connectivity/smartphone-plan-diagnosis/index.html",
+    "public/assets/js/smartphone-plan-data-v1.js",
+    "public/assets/js/smartphone-plan-diagnosis-v1.js",
+    "public/assets/css/smartphone-plan-diagnosis-v1.css"
+  ]
+}

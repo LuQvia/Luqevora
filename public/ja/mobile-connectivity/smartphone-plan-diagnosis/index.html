@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>スマホ料金プラン診断｜使い方から8ブランドを中立比較 | Luqevora</title>
+  <meta name="description" content="毎月のデータ量・通話・店頭サポート・家族・自宅回線などから、楽天モバイル、ahamo、UQ mobile、Y!mobile、LINEMO、mineo、povo2.0、日本通信SIMを中立比較。広告報酬をランキング採点に使わない無料診断です。">
+  <link rel="canonical" href="https://luqevora.com/ja/mobile-connectivity/smartphone-plan-diagnosis/">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/smartphone-plan-diagnosis-v1.css?v=1.1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="スマホ料金プラン診断｜Luqevora">
+  <meta property="og:description" content="使い方を答えるだけで主要8ブランドを中立比較。">
+  <meta property="og:url" content="https://luqevora.com/ja/mobile-connectivity/smartphone-plan-diagnosis/">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebApplication",
+    "name":"Luqevora スマホ料金プラン診断",
+    "url":"https://luqevora.com/ja/mobile-connectivity/smartphone-plan-diagnosis/",
+    "applicationCategory":"UtilityApplication",
+    "operatingSystem":"Web",
+    "inLanguage":"ja-JP",
+    "isAccessibleForFree":true,
+    "description":"データ量・通話・サポートなどの回答からスマホ料金プラン候補を比較する無料Web診断。"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"広告報酬が高い回線ほど上位になりますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。おすすめスコアは料金、データ量、通話、サポート、回答との適合度から計算し、広告報酬の有無や金額は採点に使用しません。"}},
+      {"@type":"Question","name":"診断結果の料金にはキャンペーンも含まれますか？","acceptedAnswer":{"@type":"Answer","text":"原則として期間限定キャンペーンは採点の基準料金に含めません。セット割など条件がある割引は結果画面で別に案内します。"}},
+      {"@type":"Question","name":"端末がその回線で使えるかも分かりますか？","acceptedAnswer":{"@type":"Answer","text":"この診断は料金プランの比較を目的としています。端末の対応バンド、SIM、eSIM、VoLTEなどの技術適合性は契約前に各社の動作確認端末情報やSolQviaの技術情報で確認してください。"}}
+    ]
+  }
+  </script>
+</head>
+<body>
+<main class="lqv-diag">
+  <nav class="lqv-diag__breadcrumb" aria-label="パンくず"><a href="/ja/">ホーム</a><span>›</span><a href="/ja/mobile-connectivity/">モバイル・通信</a><span>›</span>料金プラン診断</nav>
+
+  <header class="lqv-diag__hero">
+    <p class="lqv-diag__eyebrow">Mobile plan diagnosis</p>
+    <h1>スマホ料金プラン診断</h1>
+    <p class="lqv-diag__lead">データ量、通話、サポートの必要度などを答えると、主要8ブランドからあなたに合いやすい候補を3つ表示します。料金だけでなく「使い方に合うか」を優先して比較します。</p>
+    <div class="lqv-diag__meta"><span>無料</span><span>登録不要</span><span>回答はブラウザ内で処理</span><span>料金情報確認：2026年9月15日</span></div>
+  </header>
+
+  <aside class="lqv-diag__notice" aria-label="広告と診断順位について">
+    <strong>診断順位と広告報酬は分離しています</strong>
+    Luqevoraは一部のリンクから成果報酬を受け取る場合がありますが、広告報酬の有無・金額はおすすめスコアに使用しません。収益化できないプランでも、回答に合えば上位に表示します。
+  </aside>
+
+  <section class="lqv-diag__app" data-lqv-plan-diagnosis aria-label="スマホ料金プラン診断フォーム">
+    <div class="lqv-diag__progress-wrap">
+      <div class="lqv-diag__progress-line" aria-hidden="true"><div class="lqv-diag__progress" data-progress></div></div>
+      <div class="lqv-diag__progress-label"><span>診断の進み具合</span><span data-progress-text>1 / 8</span></div>
+    </div>
+
+    <form class="lqv-diag__form" novalidate>
+      <fieldset class="lqv-diag__step" data-step>
+        <legend>1. 今使っている回線は？</legend>
+        <p class="lqv-diag__help">現在の回線はおすすめ順位そのものには加点しません。乗り換え候補の説明に使います。</p>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="current" value="docomo" required><span>docomo / ahamo</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="current" value="au" required><span>au / UQ / povo</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="current" value="softbank" required><span>SoftBank / Y!mobile / LINEMO</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="current" value="rakuten" required><span>楽天モバイル</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="current" value="mvno" required><span>格安SIM / MVNO</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="current" value="other" required><span>その他 / わからない</span></label>
+        </div>
+        <div class="lqv-diag__field"><label for="current-bill">現在のスマホ代（1回線・任意）</label><input id="current-bill" type="number" inputmode="numeric" min="0" max="50000" step="100" placeholder="例：7500"><small>入力すると結果で月額差の目安を表示します。端末代は除いて入力するのがおすすめです。</small></div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">現在の回線を1つ選んでください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>2. 1カ月のデータ利用量は？</legend>
+        <p class="lqv-diag__help">分からない場合は、現在のキャリアアプリや請求明細の「データ使用量」を確認すると精度が上がります。</p>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="1" required><span>1GB以下</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="3" required><span>3GB前後</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="5" required><span>5GB前後</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="10" required><span>10GB前後</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="20" required><span>20GB前後</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="30" required><span>30GB前後</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="50" required><span>50GB前後</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="data" value="80" required><span>50GB超</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">データ利用量を選んでください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>3. 普段の電話は？</legend>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="calls" value="none" required><span>ほぼ使わない / LINE通話中心</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="calls" value="short" required><span>5分以内の短い電話が多い</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="calls" value="medium" required><span>5〜10分程度の電話が多い</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="calls" value="long" required><span>長電話・仕事の電話が多い</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">通話の使い方を選んでください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>4. 一番重視するものは？</legend>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="priority" value="price" required><span>とにかく月額を安く</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="priority" value="data" required><span>データ容量・通信を重視</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="priority" value="calls" required><span>通話料金を重視</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="priority" value="support" required><span>店舗・サポートを重視</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="priority" value="balanced" required><span>総合バランス</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">重視する項目を選んでください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>5. 店舗サポートはどのくらい必要？</legend>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="support" value="online" required><span>オンラインだけで問題ない</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="support" value="some" required><span>困った時だけ相談できれば十分</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="support" value="store" required><span>店舗で相談できることが重要</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">サポートの希望を選んでください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>6. 家族・自宅回線の状況は？</legend>
+        <p class="lqv-diag__help">セット割は条件が複雑なため、ここでは候補の相性だけに使い、割引額を一律には採点しません。</p>
+        <h3>スマホ回線数</h3>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="family" value="one" required><span>1回線</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="family" value="few" required><span>2〜4回線</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="family" value="many" required><span>5回線以上</span></label>
+        </div>
+        <h3>自宅ネット</h3>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="home" value="none" required><span>なし / 分からない</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="home" value="au" required><span>au系・対象固定回線を利用</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="home" value="softbank" required><span>SoftBank光 / Air等を利用</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="home" value="other" required><span>その他</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">家族回線数と自宅ネットを両方選んでください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>7. 使い方の特徴は？</legend>
+        <h3>LINEをかなり使いますか？</h3>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="line-heavy" value="yes" required><span>はい</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="line-heavy" value="no" required><span>いいえ / 普通</span></label>
+        </div>
+        <h3>必要な分だけ都度追加する料金方式でも大丈夫？</h3>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="flexible" value="yes" required><span>自分で管理できる</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="flexible" value="no" required><span>毎月固定の方が楽</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">2つの質問に回答してください。</p>
+      </fieldset>
+
+      <fieldset class="lqv-diag__step" data-step hidden>
+        <legend>8. スマホ本体はどうする予定？</legend>
+        <p class="lqv-diag__help">この回答は料金プラン順位には使いません。診断後の端末案内を最適化するために使います。</p>
+        <div class="lqv-diag__choices">
+          <label class="lqv-diag__choice"><input type="radio" name="device" value="keep" required><span>今のスマホをそのまま使う</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="device" value="new" required><span>新品へ買い替えたい</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="device" value="used" required><span>中古も含めて安く買いたい</span></label>
+          <label class="lqv-diag__choice"><input type="radio" name="device" value="undecided" required><span>まだ決めていない</span></label>
+        </div>
+        <p class="lqv-diag__error" data-error hidden tabindex="-1">端末の予定を選んでください。</p>
+      </fieldset>
+
+      <div class="lqv-diag__nav"><button class="lqv-diag__button lqv-diag__button--secondary" type="button" data-prev hidden>戻る</button><button class="lqv-diag__button lqv-diag__button--primary" type="button" data-next>次へ</button></div>
+    </form>
+
+    <section class="lqv-diag__results" data-results hidden aria-live="polite">
+      <h2>診断結果</h2>
+      <p class="lqv-diag__result-intro">回答との適合度が高い順に3つ表示しています。料金は比較用の目安です。申込前に必ず公式サイトの最新料金、割引条件、対応端末を確認してください。</p>
+      <p class="lqv-diag__source-note" data-source-note></p>
+      <div data-results-cards></div>
+      <div class="lqv-diag__device-offer" data-device-offer hidden></div>
+      <button class="lqv-diag__button lqv-diag__button--secondary" type="button" data-restart>条件を変えてもう一度診断</button>
+      <div class="lqv-diag__notice"><strong>中古スマホも検討する場合</strong>中古端末は価格だけでなく、保証、赤ロム保証、バッテリー状態、販売状態ランクも確認してください。Luqevoraの中古スマホ比較記事から購入先を比較できます。</div>
+    </section>
+  </section>
+
+  <section class="lqv-diag__method">
+    <h2>診断ロジック</h2>
+    <p>初版では「料金」「必要データ量」「通話」「サポート」「生活条件」の5軸を100点満点に換算します。最優先項目の回答に応じて重みを変えますが、広告報酬は計算に入りません。</p>
+    <div class="lqv-diag__criteria" aria-label="基本評価配点"><div class="lqv-diag__criterion"><strong>35</strong><span>料金</span></div><div class="lqv-diag__criterion"><strong>25</strong><span>データ量</span></div><div class="lqv-diag__criterion"><strong>15</strong><span>通話</span></div><div class="lqv-diag__criterion"><strong>10</strong><span>サポート</span></div><div class="lqv-diag__criterion"><strong>15</strong><span>生活条件</span></div></div>
+    <p>「料金を最優先」なら料金配点を増やし、「店舗サポートを最優先」ならサポート配点を増やします。期間限定キャンペーンは順位の基礎料金には原則反映しません。</p>
+  </section>
+
+  <section class="lqv-diag__sources">
+    <h2>料金情報の公式確認先</h2>
+    <p>料金・サービス内容は変更されます。以下の公式情報を2026年9月15日に確認して初版データを作成しています。</p>
+    <ul>
+      <li><a href="https://network.mobile.rakuten.co.jp/fee/saikyo-plan/detail/" target="_blank" rel="noopener noreferrer">楽天モバイル｜Rakuten最強プラン</a></li>
+      <li><a href="https://faq.ahamo.com/faq/show/2?category_id=1&amp;site_domain=default" target="_blank" rel="noopener noreferrer">ahamo｜料金プラン公式FAQ</a></li>
+      <li><a href="https://www.linemo.jp/plan/" target="_blank" rel="noopener noreferrer">LINEMO｜料金プラン</a></li>
+      <li><a href="https://www.uqwimax.jp/mobile/plan/" target="_blank" rel="noopener noreferrer">UQ mobile｜料金プラン</a></li>
+      <li><a href="https://www.ymobile.jp/plan/" target="_blank" rel="noopener noreferrer">Y!mobile｜料金プラン</a></li>
+      <li><a href="https://mineo.jp/price/mypita/" target="_blank" rel="noopener noreferrer">mineo｜マイピタ料金表</a></li>
+      <li><a href="https://www.nihontsushin.com/entry/index.html" target="_blank" rel="noopener noreferrer">日本通信SIM｜プラン一覧</a></li>
+      <li><a href="https://povo.jp/spec/detail/" target="_blank" rel="noopener noreferrer">povo2.0｜サービス詳細・トッピング</a></li>
+    </ul>
+    <small>通信速度は場所・時間帯・端末・混雑状況などで変わるため、固定的な実測速度ランキングは採点に使用していません。</small>
+  </section>
+
+  <section class="lqv-diag__faq">
+    <h2>よくある質問</h2>
+    <details><summary>広告報酬が高い回線ほど上位になりますか？</summary><p>いいえ。料金・データ量・通話・サポートなど回答との相性だけで採点します。Affiliateリンクがない回線でも上位になります。</p></details>
+    <details><summary>キャンペーン込みの最安料金で診断しますか？</summary><p>期間限定キャンペーンは更新頻度が高いため、初版では原則として通常条件を基準にします。自宅セット割など条件がある割引は、該当しそうな場合に確認ポイントとして表示します。</p></details>
+    <details><summary>今のスマホが使えるかも診断できますか？</summary><p>このページは料金プラン比較が目的です。SIM/eSIM、対応バンド、VoLTE、端末型番などの技術適合性は別確認が必要です。契約前に各社の動作確認端末一覧を確認してください。</p></details>
+  </section>
+
+  <p class="lqv-diag__footer-note">本ページは料金プラン選びを補助する簡易診断です。契約可否、提供エリア、本人確認、対応端末、割引適用、キャンペーン等は各事業者の最新公式情報が優先されます。広告リンクには「広告」と表示します。</p>
+</main>
+<script src="/assets/js/smartphone-plan-data-v1.js?v=1.1.0"></script>
+<script src="/assets/js/smartphone-plan-diagnosis-v1.js?v=1.1.0"></script>
+</body>
+</html>
