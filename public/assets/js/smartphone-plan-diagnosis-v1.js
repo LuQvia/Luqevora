@@ -148,7 +148,7 @@
     if (plan.calls === 'app-unlimited') cautions.push('無料通話には専用アプリ利用や対象外番号などの条件あり');
     if (plan.callNote) cautions.push(plan.callNote);
     if (plan.brand === 'mineo' || plan.brand === 'nihontsushin') cautions.push('実効速度は時間帯・場所・混雑状況などで変動');
-    if (brand.reviewBefore) cautions.push('2026年12月1日に月額基本料の改定予定。申込時の最新料金を確認');
+    if (brand.reviewBefore) cautions.push('料金改定予定があるため、申込時の最新料金を確認');
     return cautions.slice(0, 3);
   }
 

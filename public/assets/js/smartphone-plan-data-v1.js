@@ -6,7 +6,7 @@
   'use strict';
 
   return {
-    version: '1.1.0',
+    version: '1.1.1',
     checkedAt: '2026-09-15',
     disclosure: 'おすすめ順位は料金・データ量・通話・サポートなどの回答だけで算出し、広告報酬の有無や金額は採点に使用しません。',
     brands: {
@@ -78,9 +78,8 @@
           label: 'Y!mobile公式サイトで確認',
           status: 'OFFICIAL_ONLY_MVP'
         },
-        notes: ['店舗サポートを重視する人の候補', 'おうち割・家族割・PayPayカード割等で条件が変わる', '公式案内では2026年12月1日から月額基本料の改定予定あり'],
+        notes: ['店舗サポートを重視する人の候補', 'おうち割・家族割・PayPayカード割等で条件が変わる'],
         sourceLabel: 'Y!mobile公式料金ページ',
-        reviewBefore: '2026-11-25'
       },
       mineo: {
         name: 'mineo',
