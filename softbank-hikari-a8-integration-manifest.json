@@ -1,0 +1,35 @@
+{
+  "release": "Luqevora SoftBank Hikari A8 route v1.0",
+  "date": "2026-09-19",
+  "program_id": "s00000016370001",
+  "asp": "A8.net",
+  "advertiser": "株式会社エフプレイン",
+  "canonical_material": "4BCEVL+13ANH6+3IB8+61RIA",
+  "click_url": "https://px.a8.net/svt/ejp?a8mat=4BCEVL+13ANH6+3IB8+61RIA",
+  "tracking_pixel": "https://www19.a8.net/0.gif?a8mat=4BCEVL+13ANH6+3IB8+61RIA",
+  "modified_files": [
+    "public/ja/mobile-connectivity/fiber-internet-comparison-remote-work-small-business/index.html",
+    "public/sitemaps/articles-ja.xml"
+  ],
+  "legacy_access_trade_softbank_removed": true,
+  "editorial_rule": "Existing ranking unchanged; route added as a conditional comparison candidate only.",
+  "qa": {
+    "removed_legacy_access_trade_softbank": true,
+    "legacy_access_trade_softbank_absent": true,
+    "managed_marker_once": true,
+    "affiliate_click_once": true,
+    "tracking_pixel_once": true,
+    "a8_anchor_text_once": true,
+    "rel_compliance": true,
+    "target_blank": true,
+    "affiliate_attributes": true,
+    "first_view_pr_disclosure": true,
+    "payout_not_public_in_block": true,
+    "official_price_link": true,
+    "revision_note": true,
+    "modified_date_meta": true,
+    "modified_date_schema": true,
+    "visible_update_date": true,
+    "sitemap_lastmod": true
+  }
+}
